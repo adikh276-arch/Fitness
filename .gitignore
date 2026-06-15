@@ -6,6 +6,8 @@ node_modules/
 # Build outputs
 dist/
 build/
+.next/
+next-env.d.ts
 
 # Version Control
 .git/

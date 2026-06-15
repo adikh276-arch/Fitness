@@ -5,17 +5,13 @@ RUN npm i
 COPY . .
 RUN npm run build
 
-FROM nginx:alpine
-WORKDIR /usr/share/nginx/html
-
-# Copy the static files from the builder stage
-COPY --from=builder /app/dist /usr/share/nginx/html/fitness
-# Remove default nginx config
-RUN rm /etc/nginx/conf.d/default.conf
-COPY vite-nginx.conf /etc/nginx/conf.d/nginx.conf
-
-# Expose the port that Nginx will listen on
+FROM node:20-alpine AS runner
+WORKDIR /app
+ENV NODE_ENV=production
+COPY --from=builder /app/.next ./.next
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/package*.json ./
+COPY --from=builder /app/next.config.mjs ./
+COPY --from=builder /app/node_modules ./node_modules
 EXPOSE 80
-
-# Command to start Nginx
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["npx", "next", "start", "-p", "80"]
