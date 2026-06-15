@@ -1,6 +1,7 @@
 import { Star } from "lucide-react";
 import type { RecipeEntry } from "./HealthyRecipeLogExercise";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const HistoryDrawer = ({ entries }: { entries: RecipeEntry[]; onClose: () => void }) => (
   <div className="w-full">
@@ -9,8 +10,8 @@ const HistoryDrawer = ({ entries }: { entries: RecipeEntry[]; onClose: () => voi
         <div className="w-20 h-20 bg-gray-50 rounded-full flex items-center justify-center mb-4 text-4xl">
           📖
         </div>
-        <h3 className="text-xl font-bold text-gray-900 mb-2">No recipes yet</h3>
-        <p className="text-gray-500">Your collection of healthy meals will appear here.</p>
+        <h3 className="text-xl font-bold text-gray-900 mb-2">{t('no_recipes_yet')}</h3>
+        <p className="text-gray-500">{t('your_collection_of_healthy_meals_will_ap')}</p>
       </div>
     ) : (
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

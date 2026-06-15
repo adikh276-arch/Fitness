@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { ArrowLeft, Clock, ChevronDown, X } from "lucide-react";
 import { Button } from "@/app/components/ui/button";
 import { saveMealPlanEntry, fetchMealPlanEntries } from "@/lib/persistence";
+import { useTranslation } from "react-i18next";
 
 interface HistoryEntry {
   id: string;
@@ -129,6 +130,7 @@ interface PlanYourPlateExerciseProps {
 }
 
 export default function PlanYourPlateExercise({ onBack: onBackToOthers }: PlanYourPlateExerciseProps) {
+    const { t } = useTranslation('PlanYourPlate');
   const [step, setStep] = useState(0);
   const [showHistory, setShowHistory] = useState(false);
   const [details, setDetails] = useState<UserDetails>({
@@ -223,7 +225,7 @@ export default function PlanYourPlateExercise({ onBack: onBackToOthers }: PlanYo
                 </button>
               )}
               <div className="min-w-0">
-                <h1 className="text-lg lg:text-xl font-semibold text-gray-900 truncate">Plan Your Plate</h1>
+                <h1 className="text-lg lg:text-xl font-semibold text-gray-900 truncate">{t('plan_your_plate')}</h1>
                 <p className="text-xs lg:text-sm text-gray-500 truncate">
                   {showHistory ? "Past meal plans" : "Build a balanced meal plan for your goals"}
                 </p>
@@ -285,7 +287,7 @@ function HistoryPanel({ history, onClose }: { history: HistoryEntry[]; onClose: 
   return (
     <div className="flex flex-col h-full">
       <div className="flex items-center justify-between mb-6">
-        <h2 className="font-bold text-2xl text-gray-900">Past Meal Plans</h2>
+        <h2 className="font-bold text-2xl text-gray-900">{t('past_meal_plans')}</h2>
         <button onClick={onClose} className="p-2 hover:bg-gray-100 rounded-xl transition-colors">
           <X size={24} className="text-gray-400" />
         </button>
@@ -293,7 +295,7 @@ function HistoryPanel({ history, onClose }: { history: HistoryEntry[]; onClose: 
       <div className="flex-1 overflow-y-auto">
         {history.length === 0 ? (
           <div className="text-center py-20">
-            <p className="text-gray-400 text-lg">No past entries yet. Complete an exercise to see your history!</p>
+            <p className="text-gray-400 text-lg">{t('no_past_entries_yet_complete_an_exercise')}</p>
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -334,16 +336,14 @@ function HistoryPanel({ history, onClose }: { history: HistoryEntry[]; onClose: 
 function IntroScreen({ onNext, onHistory, onBack }: { onNext: () => void; onHistory: () => void; onBack: () => void }) {
   return (
     <div className="flex flex-col items-center text-center max-w-2xl mx-auto py-8">
-      <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-2">Build Your Perfect Plate</h1>
-      <p className="text-blue-600 font-bold text-lg mb-8 uppercase tracking-wide">Eat smart, feel great!</p>
+      <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-2">{t('build_your_perfect_plate')}</h1>
+      <p className="text-blue-600 font-bold text-lg mb-8 uppercase tracking-wide">{t('eat_smart_feel_great')}</p>
       <p className="text-gray-600 text-lg leading-relaxed mb-12">
-        Welcome to your Meal Planning Exercise! 🥗 A good meal plan doesn't have to be complicated.
-        When you know what your body needs, eating right becomes so much easier. Let's figure out
-        exactly what your body needs and build a plan that works for YOU!
-      </p>
+        {t('welcome_to_your_meal_planning_exercise_a')}
+                    </p>
       <Button variant="pill" size="lg" className="px-12 py-6 text-lg h-auto rounded-2xl bg-blue-600 hover:bg-blue-700 shadow-xl shadow-blue-600/20" onClick={onNext}>
-        Let's Begin →
-      </Button>
+        {t('let_s_begin')}
+                    </Button>
     </div>
   );
 }
@@ -364,15 +364,15 @@ function DetailsScreen({
 
   return (
     <div className="max-w-2xl mx-auto">
-      <h1 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-2">Tell us about yourself!</h1>
+      <h1 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-2">{t('tell_us_about_yourself')}</h1>
       <p className="text-gray-500 text-base mb-8">
-        We'll use this to calculate exactly what your body needs every day. 💪
-      </p>
+        {t('we_ll_use_this_to_calculate_exactly_what')}
+                    </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Gender */}
         <div className="md:col-span-2">
-          <label className="text-sm font-bold text-gray-700 mb-3 block">🧍 Gender</label>
+          <label className="text-sm font-bold text-gray-700 mb-3 block">{t('gender')}</label>
           <div className="flex gap-4">
             {(["male", "female"] as const).map((g) => (
               <button
@@ -391,21 +391,21 @@ function DetailsScreen({
         </div>
 
         {/* Age, Height, Weight */}
-        <InputField label="🎂 Age" value={details.age} onChange={(v) => update("age", v)} />
+        <InputField label={t('age')} value={details.age} onChange={(v) => update("age", v)} />
         <InputField
-          label="📏 Height (cm)"
+          label={t('height_cm')}
           value={details.height}
           onChange={(v) => update("height", v)}
         />
         <InputField
-          label="⚖️ Weight (kg)"
+          label={t('weight_kg')}
           value={details.weight}
           onChange={(v) => update("weight", v)}
         />
 
         {/* Goal */}
         <div className="md:col-span-1">
-          <label className="text-sm font-bold text-gray-700 mb-3 block">🎯 Goal</label>
+          <label className="text-sm font-bold text-gray-700 mb-3 block">{t('goal')}</label>
           <div className="grid grid-cols-1 gap-2">
             {([
               ["lose", "Lose Weight"],
@@ -430,8 +430,8 @@ function DetailsScreen({
 
       <div className="mt-12">
         <Button variant="pill" size="lg" className="w-full py-6 text-lg rounded-2xl bg-blue-600 hover:bg-blue-700 shadow-xl shadow-blue-600/20" onClick={onNext} disabled={!isValid}>
-          Calculate Goals →
-        </Button>
+          {t('calculate_goals')}
+                          </Button>
       </div>
     </div>
   );
@@ -475,10 +475,10 @@ function ResultsScreen({
 
   return (
     <div className="max-w-3xl mx-auto">
-      <h1 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-2">Your Daily Nutrition Goals</h1>
+      <h1 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-2">{t('your_daily_nutrition_goals')}</h1>
       <p className="text-gray-500 text-base mb-10">
-        Based on your details, here's what your body needs every day! 🌟
-      </p>
+        {t('based_on_your_details_here_s_what_your_b')}
+                    </p>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
         {cards.map((c) => (
@@ -492,13 +492,13 @@ function ResultsScreen({
 
       <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100 mb-12">
         <p className="text-sm text-gray-600 leading-relaxed text-center italic">
-          "Your body is a temple, but only if you treat it as one." These targets are your guide to feeling energized and healthy. Let's see how they translate into actual meals!
-        </p>
+          {t('your_body_is_a_temple_but_only_if_you_tr')}
+                          </p>
       </div>
 
       <Button variant="pill" size="lg" className="w-full py-6 text-lg rounded-2xl bg-blue-600 hover:bg-blue-700 shadow-xl shadow-blue-600/20" onClick={onNext}>
-        See My Meal Plan →
-      </Button>
+        {t('see_my_meal_plan')}
+                    </Button>
     </div>
   );
 }
@@ -527,11 +527,10 @@ function MealPlanScreen({
 
   return (
     <div className="max-w-3xl mx-auto">
-      <h1 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-2">Here's your meal plan!</h1>
+      <h1 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-2">{t('here_s_your_meal_plan')}</h1>
       <p className="text-gray-500 text-base mb-8">
-        Based on your nutrition goals, here are some simple meal ideas to help you hit your daily
-        targets. Mix and match as you like! 🍽️
-      </p>
+        {t('based_on_your_nutrition_goals_here_are_s')}
+                    </p>
 
       <div className="space-y-4 mb-10">
         {sections.map((s) => {
@@ -547,7 +546,7 @@ function MealPlanScreen({
                   <span className="text-2xl">{s.emoji}</span>
                   <div className="text-left">
                     <span className="font-bold text-gray-900">{s.title}</span>
-                    {selectedIndex === undefined && <span className="text-gray-400 text-xs ml-2">(pick one)</span>}
+                    {selectedIndex === undefined && <span className="text-gray-400 text-xs ml-2">{t('pick_one')}</span>}
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -631,23 +630,22 @@ function CompletionScreen({
   return (
     <div className="flex flex-col items-center text-center max-w-2xl mx-auto py-10">
       <span className="text-7xl mb-6 animate-bounce">🎉</span>
-      <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">You're all set!</h1>
+      <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">{t('you_re_all_set')}</h1>
       <p className="text-blue-600 font-bold text-lg mb-8 italic">
-        Which meal from today's plan are you most excited to try?
-      </p>
+        {t('which_meal_from_today_s_plan_are_you_mos')}
+                    </p>
       <textarea
         value={reflection}
         onChange={(e) => setReflection(e.target.value)}
-        placeholder="Write your thoughts here..."
+        placeholder={t('write_your_thoughts_here')}
         className="w-full px-6 py-5 rounded-2xl bg-gray-50 border-2 border-gray-100 text-gray-900 text-lg focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600/50 resize-none h-32 mb-8 shadow-sm transition-all focus:bg-white"
       />
       <p className="text-gray-600 text-lg leading-relaxed mb-12">
-        A little planning goes a long way! You now have everything you need to eat smarter and feel
-        better every single day. Come back tomorrow to keep the momentum going! 💪
-      </p>
+        {t('a_little_planning_goes_a_long_way_you_no')}
+                    </p>
       <Button variant="pill" size="lg" className="px-16 py-6 text-xl rounded-2xl bg-blue-600 hover:bg-blue-700 shadow-xl shadow-blue-600/20 transition-all hover:scale-105 active:scale-95" onClick={onDone}>
-        Finish ✅
-      </Button>
+        {t('finish')}
+                    </Button>
     </div>
   );
 }

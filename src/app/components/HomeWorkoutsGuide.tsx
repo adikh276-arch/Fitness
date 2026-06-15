@@ -3,6 +3,7 @@ import { ArrowLeft, Home, Dumbbell, Droplets, Calendar, Award, TrendingUp, Flame
 import { motion, AnimatePresence } from 'motion/react';
 import confetti from 'canvas-confetti';
 import { logUserActivity, fetchUserActivityLogs } from '@/lib/db';
+import { useTranslation } from "react-i18next";
 
 type GearType = 'no-equipment' | 'dumbbells' | 'bands' | 'chair';
 
@@ -310,6 +311,7 @@ const workouts: Workout[] = [
 ];
 
 export default function HomeWorkoutsGuide({ onBack }: { onBack: () => void }) {
+    const { t } = useTranslation('HomeWorkouts');
   const [activeTab, setActiveTab] = useState<'library' | 'tracker'>('library');
   const [homeWorkoutData, setHomeWorkoutData] = useState<HomeWorkoutData>(() => {
     const saved = localStorage.getItem('home-workouts-data');
@@ -682,15 +684,15 @@ export default function HomeWorkoutsGuide({ onBack }: { onBack: () => void }) {
             className="flex items-center gap-2 text-gray-600 hover:text-gray-900 mb-4 transition-colors"
           >
             <ArrowLeft className="w-5 h-5" />
-            <span className="text-sm lg:text-base">Back to Dashboard</span>
+            <span className="text-sm lg:text-base">{t('back_to_dashboard')}</span>
           </button>
           <div className="flex items-center gap-3 mb-2">
             <div className="bg-gradient-to-br from-rose-500 to-pink-600 rounded-xl p-2.5 lg:p-3">
               <Home className="w-6 lg:w-8 h-6 lg:h-8 text-white" />
             </div>
             <div>
-              <h1 className="text-xl lg:text-2xl font-semibold text-gray-900">Home Workouts</h1>
-              <p className="text-xs lg:text-sm text-gray-500">Train anywhere with what you have</p>
+              <h1 className="text-xl lg:text-2xl font-semibold text-gray-900">{t('home_workouts')}</h1>
+              <p className="text-xs lg:text-sm text-gray-500">{t('train_anywhere_with_what_you_have')}</p>
             </div>
           </div>
         </div>
@@ -705,8 +707,8 @@ export default function HomeWorkoutsGuide({ onBack }: { onBack: () => void }) {
                 : 'text-gray-600 hover:bg-gray-50'
             }`}
           >
-            Workout Library
-          </button>
+            {t('workout_library')}
+                                </button>
           <button
             onClick={() => setActiveTab('tracker')}
             className={`flex-1 py-2.5 lg:py-3 px-4 rounded-lg transition-all font-medium text-sm lg:text-base ${
@@ -715,8 +717,8 @@ export default function HomeWorkoutsGuide({ onBack }: { onBack: () => void }) {
                 : 'text-gray-600 hover:bg-gray-50'
             }`}
           >
-            Progress Tracker
-          </button>
+            {t('progress_tracker')}
+                                </button>
         </div>
 
         <AnimatePresence mode="wait">
@@ -751,22 +753,22 @@ export default function HomeWorkoutsGuide({ onBack }: { onBack: () => void }) {
                     <div className="bg-gradient-to-br from-rose-50 to-pink-50 rounded-xl p-4 border border-rose-200 text-center">
                       <Clock className="w-5 h-5 text-rose-600 mx-auto mb-2" />
                       <div className="text-xl lg:text-2xl font-bold text-gray-900">{selectedWorkout.duration}</div>
-                      <div className="text-xs text-gray-600">minutes</div>
+                      <div className="text-xs text-gray-600">{t('minutes')}</div>
                     </div>
                     <div className="bg-gradient-to-br from-rose-50 to-pink-50 rounded-xl p-4 border border-rose-200 text-center">
                       <Flame className="w-5 h-5 text-rose-600 mx-auto mb-2" />
                       <div className="text-xl lg:text-2xl font-bold text-gray-900">~{selectedWorkout.caloriesEstimate}</div>
-                      <div className="text-xs text-gray-600">calories</div>
+                      <div className="text-xs text-gray-600">{t('calories')}</div>
                     </div>
                     <div className="bg-gradient-to-br from-rose-50 to-pink-50 rounded-xl p-4 border border-rose-200 text-center">
                       <Zap className="w-5 h-5 text-rose-600 mx-auto mb-2" />
                       <div className="text-xl lg:text-2xl font-bold text-gray-900">{selectedWorkout.exercises.length}</div>
-                      <div className="text-xs text-gray-600">exercises</div>
+                      <div className="text-xs text-gray-600">{t('exercises_2')}</div>
                     </div>
                   </div>
 
                   <div className="mb-6">
-                    <h3 className="font-semibold text-gray-900 mb-3 text-sm lg:text-base">Exercises in this workout:</h3>
+                    <h3 className="font-semibold text-gray-900 mb-3 text-sm lg:text-base">{t('exercises_in_this_workout')}</h3>
                     <div className="space-y-2">
                       {selectedWorkout.exercises.map((exercise, index) => (
                         <div
@@ -776,7 +778,7 @@ export default function HomeWorkoutsGuide({ onBack }: { onBack: () => void }) {
                           <div className="text-2xl">{exercise.gif}</div>
                           <div className="flex-1">
                             <div className="font-medium text-gray-900 text-sm lg:text-base">{exercise.name}</div>
-                            <div className="text-xs text-gray-600">{exercise.duration}s</div>
+                            <div className="text-xs text-gray-600">{exercise.duration}{t('s')}</div>
                           </div>
                         </div>
                       ))}
@@ -791,32 +793,32 @@ export default function HomeWorkoutsGuide({ onBack }: { onBack: () => void }) {
                       }}
                       className="flex-1 py-3 lg:py-4 px-6 bg-gray-100 text-gray-700 rounded-xl font-bold hover:bg-gray-200 transition-all text-sm lg:text-base"
                     >
-                      Cancel
-                    </button>
+                      {t('cancel')}
+                                                              </button>
                     <button
                       onClick={startWorkout}
                       className="flex-1 py-3 lg:py-4 px-6 bg-gradient-to-r from-rose-500 to-pink-600 text-white rounded-xl font-bold hover:scale-105 transition-all flex items-center justify-center gap-2 text-sm lg:text-base"
                     >
                       <Play className="w-5 h-5" />
-                      Start Workout
-                    </button>
+                      {t('start_workout')}
+                                                              </button>
                   </div>
                 </div>
               ) : showWorkoutComplete && selectedWorkout ? (
                 <div className="bg-white rounded-xl lg:rounded-2xl p-6 lg:p-8 border border-gray-200">
                   <div className="text-center">
                     <div className="text-6xl lg:text-7xl mb-4">🎉</div>
-                    <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-3">Workout Complete!</h2>
+                    <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-3">{t('workout_complete')}</h2>
                     <p className="text-gray-600 mb-6 text-sm lg:text-base">
-                      Great job finishing {selectedWorkout.name}!
+                      {t('great_job_finishing')} {selectedWorkout.name}!
                     </p>
                     <div className="grid grid-cols-2 gap-4 mb-6 max-w-md mx-auto">
                       <div className="bg-gradient-to-br from-rose-50 to-pink-50 rounded-xl p-4 border border-rose-200">
-                        <div className="text-xs lg:text-sm text-gray-600 mb-1">Total Time</div>
-                        <div className="text-2xl lg:text-3xl font-bold text-rose-600">{actualDuration}m</div>
+                        <div className="text-xs lg:text-sm text-gray-600 mb-1">{t('total_time')}</div>
+                        <div className="text-2xl lg:text-3xl font-bold text-rose-600">{actualDuration}{t('m')}</div>
                       </div>
                       <div className="bg-gradient-to-br from-rose-50 to-pink-50 rounded-xl p-4 border border-rose-200">
-                        <div className="text-xs lg:text-sm text-gray-600 mb-1">Est. Calories</div>
+                        <div className="text-xs lg:text-sm text-gray-600 mb-1">{t('est_calories')}</div>
                         <div className="text-2xl lg:text-3xl font-bold text-rose-600">{totalCaloriesBurned}</div>
                       </div>
                     </div>
@@ -825,8 +827,8 @@ export default function HomeWorkoutsGuide({ onBack }: { onBack: () => void }) {
                         onClick={saveToProgressTracker}
                         className="flex-1 py-3 lg:py-4 px-6 bg-gradient-to-r from-rose-500 to-pink-600 text-white rounded-xl font-bold hover:scale-105 transition-all text-sm lg:text-base"
                       >
-                        Save to Progress Tracker
-                      </button>
+                        {t('save_to_progress_tracker')}
+                                                                        </button>
                       <button
                         onClick={() => {
                           setShowWorkoutComplete(false);
@@ -834,8 +836,8 @@ export default function HomeWorkoutsGuide({ onBack }: { onBack: () => void }) {
                         }}
                         className="flex-1 py-3 lg:py-4 px-6 bg-gray-100 text-gray-700 rounded-xl font-bold hover:bg-gray-200 transition-all text-sm lg:text-base"
                       >
-                        Done
-                      </button>
+                        {t('done')}
+                                                                        </button>
                     </div>
                   </div>
                 </div>
@@ -852,7 +854,7 @@ export default function HomeWorkoutsGuide({ onBack }: { onBack: () => void }) {
                       />
                     </div>
                     <p className="text-white text-xs lg:text-sm mt-2 text-center">
-                      Exercise {currentExerciseIndex + 1} of {selectedWorkout.exercises.length}
+                      {t('exercise')} {currentExerciseIndex + 1} {t('of')} {selectedWorkout.exercises.length}
                     </p>
                   </div>
 
@@ -890,7 +892,7 @@ export default function HomeWorkoutsGuide({ onBack }: { onBack: () => void }) {
                           />
                         </svg>
                         <div className="absolute inset-0 flex items-center justify-center">
-                          <div className="text-4xl lg:text-6xl font-bold">{timeRemaining}s</div>
+                          <div className="text-4xl lg:text-6xl font-bold">{timeRemaining}{t('s')}</div>
                         </div>
                       </div>
 
@@ -901,54 +903,54 @@ export default function HomeWorkoutsGuide({ onBack }: { onBack: () => void }) {
                             className="py-2 lg:py-2.5 px-4 lg:px-6 bg-white text-rose-600 rounded-lg lg:rounded-xl font-bold hover:scale-105 transition-all flex items-center gap-2 text-xs lg:text-sm"
                           >
                             <Play className="w-4 lg:w-5 h-4 lg:h-5" />
-                            Resume
-                          </button>
+                            {t('resume')}
+                                                                                        </button>
                         ) : (
                           <button
                             onClick={pauseWorkout}
                             className="py-2 lg:py-2.5 px-4 lg:px-6 bg-white text-rose-600 rounded-lg lg:rounded-xl font-bold hover:scale-105 transition-all flex items-center gap-2 text-xs lg:text-sm"
                           >
                             <Pause className="w-4 lg:w-5 h-4 lg:h-5" />
-                            Pause
-                          </button>
+                            {t('pause')}
+                                                                                            </button>
                         )}
                         <button
                           onClick={skipExercise}
                           className="py-2 lg:py-2.5 px-4 lg:px-6 bg-white/90 text-rose-600 rounded-lg lg:rounded-xl font-bold hover:scale-105 transition-all flex items-center gap-2 text-xs lg:text-sm"
                         >
                           <ChevronRight className="w-4 lg:w-5 h-4 lg:h-5" />
-                          Skip
-                        </button>
+                          {t('skip')}
+                                                                                  </button>
                         <button
                           onClick={cancelWorkout}
                           className="py-2 lg:py-2.5 px-4 lg:px-6 bg-white/90 text-rose-600 rounded-lg lg:rounded-xl font-bold hover:scale-105 transition-all flex items-center gap-2 text-xs lg:text-sm"
                         >
                           <X className="w-4 lg:w-5 h-4 lg:h-5" />
-                          Cancel
-                        </button>
+                          {t('cancel')}
+                                                                                  </button>
                       </div>
                     </div>
                   ) : (
                     // Rest Phase
                     <div className="text-center text-white">
                       <div className="text-6xl lg:text-7xl mb-4 lg:mb-6">💧</div>
-                      <h2 className="text-2xl lg:text-3xl font-bold mb-3">Hydrate & Rest</h2>
-                      <p className="text-rose-100 mb-6 lg:mb-8 text-sm lg:text-base">Take a breather, grab some water</p>
+                      <h2 className="text-2xl lg:text-3xl font-bold mb-3">{t('hydrate_rest')}</h2>
+                      <p className="text-rose-100 mb-6 lg:mb-8 text-sm lg:text-base">{t('take_a_breather_grab_some_water')}</p>
 
-                      <div className="text-5xl lg:text-6xl font-bold mb-6 lg:mb-8">{timeRemaining}s</div>
+                      <div className="text-5xl lg:text-6xl font-bold mb-6 lg:mb-8">{timeRemaining}{t('s')}</div>
 
                       {/* Next Exercise Preview */}
                       {currentExerciseIndex < selectedWorkout.exercises.length - 1 && (
                         <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 lg:p-5 max-w-md mx-auto mb-6">
                           <div className="flex items-center gap-2 text-xs lg:text-sm text-rose-100 mb-3">
                             <Eye className="w-4 h-4" />
-                            Next up
-                          </div>
+                            {t('next_up')}
+                                                                                            </div>
                           <div className="flex items-center gap-4">
                             <div className="text-3xl lg:text-4xl">{selectedWorkout.exercises[currentExerciseIndex + 1].gif}</div>
                             <div className="text-left">
                               <div className="font-bold text-base lg:text-lg">{selectedWorkout.exercises[currentExerciseIndex + 1].name}</div>
-                              <div className="text-xs lg:text-sm text-rose-100">{selectedWorkout.exercises[currentExerciseIndex + 1].duration}s work</div>
+                              <div className="text-xs lg:text-sm text-rose-100">{selectedWorkout.exercises[currentExerciseIndex + 1].duration}{t('s_work')}</div>
                             </div>
                           </div>
                         </div>
@@ -958,8 +960,8 @@ export default function HomeWorkoutsGuide({ onBack }: { onBack: () => void }) {
                         onClick={skipRest}
                         className="py-2 lg:py-2.5 px-6 lg:px-8 bg-white text-rose-600 rounded-lg lg:rounded-xl font-bold hover:scale-105 transition-all text-xs lg:text-sm"
                       >
-                        Skip Rest
-                      </button>
+                        {t('skip_rest')}
+                                                                                </button>
                     </div>
                   )}
                 </div>
@@ -968,7 +970,7 @@ export default function HomeWorkoutsGuide({ onBack }: { onBack: () => void }) {
                 <>
                   {/* Equipment Filters */}
                   <div className="bg-white rounded-xl lg:rounded-2xl p-4 lg:p-6 border border-gray-200">
-                    <h2 className="text-base lg:text-lg font-semibold text-gray-900 mb-3 lg:mb-4">Filter by Equipment</h2>
+                    <h2 className="text-base lg:text-lg font-semibold text-gray-900 mb-3 lg:mb-4">{t('filter_by_equipment')}</h2>
                     <div className="flex gap-2 lg:gap-3 overflow-x-auto pb-2">
                       {gearOptions.map((gear) => (
                         <motion.button
@@ -991,8 +993,8 @@ export default function HomeWorkoutsGuide({ onBack }: { onBack: () => void }) {
                         onClick={() => setActiveFilters([])}
                         className="mt-3 text-xs lg:text-sm text-rose-600 hover:text-rose-700 font-medium"
                       >
-                        Clear all filters
-                      </button>
+                        {t('clear_all_filters')}
+                                                                                </button>
                     )}
                   </div>
 
@@ -1021,16 +1023,16 @@ export default function HomeWorkoutsGuide({ onBack }: { onBack: () => void }) {
                       <div className="flex items-center gap-3 lg:gap-4 mb-4">
                         <div className="flex items-center gap-2">
                           <Clock className="w-4 h-4 text-rose-600" />
-                          <span className="text-xs lg:text-sm font-medium text-gray-700">{workout.duration} min</span>
+                          <span className="text-xs lg:text-sm font-medium text-gray-700">{workout.duration} {t('min_2')}</span>
                         </div>
                         <div className="flex items-center gap-2">
                           <Flame className="w-4 h-4 text-rose-600" />
-                          <span className="text-xs lg:text-sm font-medium text-gray-700">~{workout.caloriesEstimate} cal</span>
+                          <span className="text-xs lg:text-sm font-medium text-gray-700">~{workout.caloriesEstimate} {t('cal')}</span>
                         </div>
                       </div>
 
                       <div className="mb-4">
-                        <p className="text-xs font-semibold text-gray-700 mb-2">Equipment:</p>
+                        <p className="text-xs font-semibold text-gray-700 mb-2">{t('equipment')}</p>
                         <div className="flex flex-wrap gap-2">
                           {workout.requiredGear.map(gearId => {
                             const gear = gearOptions.find(g => g.id === gearId);
@@ -1044,7 +1046,7 @@ export default function HomeWorkoutsGuide({ onBack }: { onBack: () => void }) {
                       </div>
 
                       <div className="border-t border-gray-100 pt-4 mb-4">
-                        <p className="text-xs font-semibold text-gray-700 mb-2">{workout.exercises.length} Exercises:</p>
+                        <p className="text-xs font-semibold text-gray-700 mb-2">{workout.exercises.length} {t('exercises')}</p>
                         <div className="flex flex-wrap gap-2">
                           {workout.exercises.slice(0, 3).map(ex => (
                             <span key={ex.name} className="text-xs bg-rose-50 text-rose-700 px-2 py-1 rounded">
@@ -1053,8 +1055,8 @@ export default function HomeWorkoutsGuide({ onBack }: { onBack: () => void }) {
                           ))}
                           {workout.exercises.length > 3 && (
                             <span className="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded">
-                              +{workout.exercises.length - 3} more
-                            </span>
+                              +{workout.exercises.length - 3} {t('more')}
+                                                                      </span>
                           )}
                         </div>
                       </div>
@@ -1064,8 +1066,8 @@ export default function HomeWorkoutsGuide({ onBack }: { onBack: () => void }) {
                         className="w-full py-2.5 lg:py-3 px-4 bg-gradient-to-r from-rose-500 to-pink-600 text-white rounded-lg lg:rounded-xl font-bold hover:shadow-lg hover:scale-105 transition-all flex items-center justify-center gap-2 text-sm lg:text-base"
                       >
                         <Play className="w-4 lg:w-5 h-4 lg:h-5" />
-                        Load Workout
-                      </button>
+                        {t('load_workout')}
+                                                    </button>
                     </motion.div>
                   ))}
                   </AnimatePresence>
@@ -1074,16 +1076,16 @@ export default function HomeWorkoutsGuide({ onBack }: { onBack: () => void }) {
                   {getFilteredWorkouts().length === 0 && (
                     <div className="bg-white rounded-xl lg:rounded-2xl p-8 lg:p-12 border border-gray-200 text-center">
                       <Dumbbell className="w-12 lg:w-16 h-12 lg:h-16 text-gray-300 mx-auto mb-4" />
-                      <h3 className="font-semibold text-gray-900 mb-2 text-base lg:text-lg">No Matching Workouts</h3>
+                      <h3 className="font-semibold text-gray-900 mb-2 text-base lg:text-lg">{t('no_matching_workouts')}</h3>
                       <p className="text-sm text-gray-600 mb-4">
-                        Try a different equipment combination, or clear filters to see all workouts
-                      </p>
+                        {t('try_a_different_equipment_combination_or')}
+                                                                                </p>
                       <button
                         onClick={() => setActiveFilters([])}
                         className="px-6 py-2 bg-gradient-to-r from-rose-500 to-pink-600 text-white rounded-lg font-medium hover:shadow-lg transition-all text-sm lg:text-base"
                       >
-                        Show All Workouts
-                      </button>
+                        {t('show_all_workouts')}
+                                                                                </button>
                     </div>
                   )}
                 </>
@@ -1102,30 +1104,30 @@ export default function HomeWorkoutsGuide({ onBack }: { onBack: () => void }) {
             >
               {/* Session Logger */}
               <div className="bg-white rounded-xl lg:rounded-2xl p-4 lg:p-6 border border-gray-200">
-                <h2 className="text-base lg:text-lg font-semibold text-gray-900 mb-4 lg:mb-6">Log Your Workout</h2>
+                <h2 className="text-base lg:text-lg font-semibold text-gray-900 mb-4 lg:mb-6">{t('log_your_workout')}</h2>
                 <div className="space-y-4">
                   <div>
                     <label className="block text-xs lg:text-sm font-medium text-gray-700 mb-2">
-                      Workout Name
-                    </label>
+                      {t('workout_name')}
+                                                              </label>
                     <select
                       value={prefilledWorkout}
                       onChange={(e) => setPrefilledWorkout(e.target.value)}
                       className="w-full px-4 py-2.5 lg:py-3 rounded-lg lg:rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-rose-500/20 focus:border-rose-500 text-sm lg:text-base"
                     >
-                      <option value="">Select a workout...</option>
+                      <option value="">{t('select_a_workout')}</option>
                       {workouts.map(workout => (
                         <option key={workout.id} value={workout.id}>
-                          {workout.name} ({workout.duration} min)
-                        </option>
+                          {workout.name} ({workout.duration} {t('min')}
+                                                      </option>
                       ))}
                     </select>
                   </div>
 
                   <div>
                     <label className="block text-xs lg:text-sm font-medium text-gray-700 mb-2">
-                      Actual Duration (minutes)
-                    </label>
+                      {t('actual_duration_minutes')}
+                                                              </label>
                     <input
                       type="number"
                       value={prefilledDuration}
@@ -1137,7 +1139,7 @@ export default function HomeWorkoutsGuide({ onBack }: { onBack: () => void }) {
 
                   <div>
                     <label className="block text-xs lg:text-sm font-medium text-gray-700 mb-3">
-                      Rate of Perceived Exertion (RPE): {rpeScore}/10
+                      {t('rate_of_perceived_exertion_rpe')} {rpeScore}/10
                     </label>
                     <input
                       type="range"
@@ -1151,9 +1153,9 @@ export default function HomeWorkoutsGuide({ onBack }: { onBack: () => void }) {
                       }}
                     />
                     <div className="flex justify-between text-xs text-gray-500 mt-2">
-                      <span>1 - Easy</span>
-                      <span>5 - Moderate</span>
-                      <span>10 - Max Effort</span>
+                      <span>{t('1_easy')}</span>
+                      <span>{t('5_moderate')}</span>
+                      <span>{t('10_max_effort')}</span>
                     </div>
                   </div>
 
@@ -1162,23 +1164,23 @@ export default function HomeWorkoutsGuide({ onBack }: { onBack: () => void }) {
                     disabled={!prefilledWorkout || !prefilledDuration}
                     className="w-full py-3 lg:py-4 px-6 bg-gradient-to-r from-rose-500 to-pink-600 text-white rounded-xl font-bold hover:shadow-lg hover:scale-105 transition-all disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100 text-sm lg:text-base"
                   >
-                    💪 Log Workout
-                  </button>
+                    {t('log_workout')}
+                                                        </button>
                 </div>
               </div>
 
               {/* Weekly Progress */}
               <div className="bg-white rounded-xl lg:rounded-2xl p-4 lg:p-6 border border-gray-200">
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className="font-semibold text-gray-900 text-sm lg:text-base">Weekly Active Minutes</h3>
+                  <h3 className="font-semibold text-gray-900 text-sm lg:text-base">{t('weekly_active_minutes')}</h3>
                   <TrendingUp className="w-5 h-5 text-rose-600" />
                 </div>
                 <div className="mb-3">
                   <div className="flex items-center justify-between text-sm mb-2">
-                    <span className="text-gray-600 text-xs lg:text-sm">Progress</span>
+                    <span className="text-gray-600 text-xs lg:text-sm">{t('progress')}</span>
                     <span className="font-semibold text-gray-900 text-xs lg:text-sm">
-                      {getWeeklyMinutes()} / 150 mins
-                    </span>
+                      {getWeeklyMinutes()} {t('150_mins')}
+                                                              </span>
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-3 lg:h-4 overflow-hidden">
                     <motion.div
@@ -1195,8 +1197,8 @@ export default function HomeWorkoutsGuide({ onBack }: { onBack: () => void }) {
                     className="bg-gradient-to-br from-rose-50 to-pink-50 rounded-lg p-4 border border-rose-200"
                   >
                     <p className="text-xs lg:text-sm font-medium text-rose-900 text-center">
-                      🎉 Weekly goal achieved! You're a fitness champion!
-                    </p>
+                      {t('weekly_goal_achieved_you_re_a_fitness_ch')}
+                                                              </p>
                   </motion.div>
                 )}
               </div>
@@ -1210,20 +1212,20 @@ export default function HomeWorkoutsGuide({ onBack }: { onBack: () => void }) {
                   className="bg-gradient-to-br from-yellow-400 to-orange-500 rounded-xl lg:rounded-2xl p-6 text-center"
                 >
                   <Award className="w-12 lg:w-16 h-12 lg:h-16 text-white mx-auto mb-3" />
-                  <h3 className="text-xl lg:text-2xl font-bold text-white mb-2">Home Hero!</h3>
+                  <h3 className="text-xl lg:text-2xl font-bold text-white mb-2">{t('home_hero')}</h3>
                   <p className="text-yellow-50 text-sm lg:text-base">
-                    You've completed {getThisWeekSessions().length} home workouts this week!
-                  </p>
+                    {t('you_ve_completed')} {getThisWeekSessions().length} {t('home_workouts_this_week')}
+                                                        </p>
                 </motion.div>
               )}
 
               {/* 30 Day Streak */}
               <div className="bg-white rounded-xl lg:rounded-2xl p-4 lg:p-6 border border-gray-200">
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className="font-semibold text-gray-900 text-sm lg:text-base">30 Day Streak</h3>
+                  <h3 className="font-semibold text-gray-900 text-sm lg:text-base">{t('30_day_streak')}</h3>
                   <div className="flex items-center gap-2 text-xs lg:text-sm text-gray-600">
                     <Calendar className="w-4 h-4" />
-                    <span>Last 30 days</span>
+                    <span>{t('last_30_days')}</span>
                   </div>
                 </div>
                 <div className="grid grid-cols-7 gap-2">
@@ -1249,14 +1251,14 @@ export default function HomeWorkoutsGuide({ onBack }: { onBack: () => void }) {
                   ))}
                 </div>
                 <p className="text-xs lg:text-sm text-gray-500 mt-4 text-center">
-                  Pink dots mark days with completed workouts
-                </p>
+                  {t('pink_dots_mark_days_with_completed_worko')}
+                                                  </p>
               </div>
 
               {/* Recent Sessions */}
               {homeWorkoutData.sessions.length > 0 && (
                 <div className="bg-white rounded-xl lg:rounded-2xl p-4 lg:p-6 border border-gray-200">
-                  <h3 className="font-semibold text-gray-900 mb-4 text-sm lg:text-base">Recent Workouts</h3>
+                  <h3 className="font-semibold text-gray-900 mb-4 text-sm lg:text-base">{t('recent_workouts')}</h3>
                   <div className="space-y-2 lg:space-y-3">
                     {homeWorkoutData.sessions.slice(0, 5).map((session) => (
                       <div
@@ -1265,13 +1267,13 @@ export default function HomeWorkoutsGuide({ onBack }: { onBack: () => void }) {
                       >
                         <div className="flex items-center gap-3 lg:gap-4">
                           <div className="w-10 lg:w-12 h-10 lg:h-12 rounded-lg bg-gradient-to-br from-rose-500 to-pink-600 flex items-center justify-center text-white font-bold text-sm lg:text-base">
-                            {session.duration}m
-                          </div>
+                            {session.duration}{t('m')}
+                                                              </div>
                           <div>
                             <p className="text-xs lg:text-sm font-semibold text-gray-900">{session.workoutName}</p>
                             <p className="text-xs text-gray-600">
-                              RPE: {session.rpeScore}/10 • ~{session.caloriesEst} calories
-                            </p>
+                              {t('rpe')} {session.rpeScore}/10 • ~{session.caloriesEst} {t('calories')}
+                                                                    </p>
                           </div>
                         </div>
                         <span className="text-xs text-gray-500">
@@ -1286,8 +1288,8 @@ export default function HomeWorkoutsGuide({ onBack }: { onBack: () => void }) {
               {homeWorkoutData.sessions.length === 0 && (
                 <div className="bg-white rounded-xl lg:rounded-2xl p-8 lg:p-12 border border-gray-200 text-center">
                   <Home className="w-12 lg:w-16 h-12 lg:h-16 text-gray-300 mx-auto mb-4" />
-                  <h3 className="font-semibold text-gray-900 mb-2 text-base lg:text-lg">No workouts logged yet</h3>
-                  <p className="text-sm text-gray-600">Start tracking your home workouts to see your progress</p>
+                  <h3 className="font-semibold text-gray-900 mb-2 text-base lg:text-lg">{t('no_workouts_logged_yet')}</h3>
+                  <p className="text-sm text-gray-600">{t('start_tracking_your_home_workouts_to_see')}</p>
                 </div>
               )}
             </motion.div>

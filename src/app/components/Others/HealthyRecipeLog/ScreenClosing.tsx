@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const ScreenClosing = ({ onComplete }: { onComplete: () => void }) => {
+    const { t } = useTranslation('HealthyRecipeLog');
   const [progress, setProgress] = useState(100);
 
   useEffect(() => {
@@ -36,8 +38,8 @@ const ScreenClosing = ({ onComplete }: { onComplete: () => void }) => {
         transition={{ delay: 0.1 }}
         className="text-4xl font-black text-gray-900 mb-4"
       >
-        You're doing amazing!
-      </motion.h2>
+        {t('you_re_doing_amazing')}
+                    </motion.h2>
       
       <motion.p 
         initial={{ y: 20, opacity: 0 }}
@@ -45,8 +47,8 @@ const ScreenClosing = ({ onComplete }: { onComplete: () => void }) => {
         transition={{ delay: 0.2 }}
         className="text-gray-500 text-xl leading-relaxed mb-12 max-w-lg"
       >
-        One recipe at a time, you're building a healthier lifestyle. Keep going — your recipe collection is growing! 🧡
-      </motion.p>
+        {t('one_recipe_at_a_time_you_re_building_a_h')}
+                    </motion.p>
       
       <motion.div 
         initial={{ scaleX: 0 }}
@@ -60,7 +62,7 @@ const ScreenClosing = ({ onComplete }: { onComplete: () => void }) => {
             style={{ width: `${progress}%` }}
           />
         </div>
-        <p className="text-sm font-bold text-gray-400 mt-4 uppercase tracking-widest">Returning to menu…</p>
+        <p className="text-sm font-bold text-gray-400 mt-4 uppercase tracking-widest">{t('returning_to_menu')}</p>
       </motion.div>
     </div>
   );

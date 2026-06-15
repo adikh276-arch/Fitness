@@ -1,4 +1,7 @@
+import { useTranslation } from "react-i18next";
+
 const ProgressBar = ({ current, total }: { current: number; total: number }) => {
+    const { t } = useTranslation('HealthyRecipeLog');
   const pct = (current / total) * 100;
   return (
     <div className="w-full px-4 pt-4 pb-2">

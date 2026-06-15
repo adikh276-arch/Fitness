@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import confetti from 'canvas-confetti';
 import { logUserActivity } from '@/lib/db';
+import { useTranslation } from "react-i18next";
 
 interface Set {
   setNum: number;
@@ -366,6 +367,7 @@ const exerciseLibrary: ExerciseInfo[] = [
 ];
 
 export default function StrengthTrainingGuide({ onBack }: { onBack: () => void }) {
+    const { t } = useTranslation('StrengthTraining');
   const [activeTab, setActiveTab] = useState<'log' | 'library' | 'progress'>('log');
   const [strengthData, setStrengthData] = useState<StrengthData>(() => {
     const saved = localStorage.getItem('strength-training-data');
@@ -603,15 +605,15 @@ export default function StrengthTrainingGuide({ onBack }: { onBack: () => void }
             className="flex items-center gap-2 text-gray-600 hover:text-gray-900 mb-4 transition-colors"
           >
             <ArrowLeft className="w-5 h-5" />
-            <span>Back to Dashboard</span>
+            <span>{t('back_to_dashboard')}</span>
           </button>
           <div className="flex items-center gap-3 mb-2">
             <div className="bg-gradient-to-br from-slate-600 to-slate-800 rounded-xl p-3">
               <Dumbbell className="w-8 h-8 text-white" />
             </div>
             <div>
-              <h1 className="text-2xl font-semibold text-gray-900">Strength Training</h1>
-              <p className="text-sm text-gray-500">Track your lifts and build progressive strength</p>
+              <h1 className="text-2xl font-semibold text-gray-900">{t('strength_training')}</h1>
+              <p className="text-sm text-gray-500">{t('track_your_lifts_and_build_progressive_s')}</p>
             </div>
           </div>
         </div>
@@ -626,8 +628,8 @@ export default function StrengthTrainingGuide({ onBack }: { onBack: () => void }
                 : 'text-gray-600 hover:bg-gray-50'
             }`}
           >
-            Log Workout
-          </button>
+            {t('log_workout')}
+                                </button>
           <button
             onClick={() => setActiveTab('library')}
             className={`flex-1 py-3 px-4 rounded-lg transition-all font-medium ${
@@ -636,8 +638,8 @@ export default function StrengthTrainingGuide({ onBack }: { onBack: () => void }
                 : 'text-gray-600 hover:bg-gray-50'
             }`}
           >
-            Exercise Library
-          </button>
+            {t('exercise_library')}
+                                </button>
           <button
             onClick={() => setActiveTab('progress')}
             className={`flex-1 py-3 px-4 rounded-lg transition-all font-medium ${
@@ -646,8 +648,8 @@ export default function StrengthTrainingGuide({ onBack }: { onBack: () => void }
                 : 'text-gray-600 hover:bg-gray-50'
             }`}
           >
-            Strength Progress
-          </button>
+            {t('strength_progress')}
+                                </button>
         </div>
 
         <AnimatePresence mode="wait">
@@ -662,7 +664,7 @@ export default function StrengthTrainingGuide({ onBack }: { onBack: () => void }
             >
               {/* Exercise Selector */}
               <div className="bg-white rounded-2xl p-6 border border-gray-200">
-                <h3 className="font-semibold text-gray-900 mb-4">Select Exercise</h3>
+                <h3 className="font-semibold text-gray-900 mb-4">{t('select_exercise')}</h3>
                 <div className="relative" ref={dropdownRef}>
                   <button
                     onClick={() => setIsDropdownOpen(!isDropdownOpen)}
@@ -690,7 +692,7 @@ export default function StrengthTrainingGuide({ onBack }: { onBack: () => void }
                               type="text"
                               value={searchQuery}
                               onChange={(e) => setSearchQuery(e.target.value)}
-                              placeholder="Search exercises..."
+                              placeholder={t('search_exercises')}
                               className="w-full pl-9 pr-3 py-2 rounded-lg border-2 border-slate-500 focus:outline-none focus:border-slate-600"
                               onClick={(e) => e.stopPropagation()}
                             />
@@ -716,8 +718,8 @@ export default function StrengthTrainingGuide({ onBack }: { onBack: () => void }
                             ))}
                           {exercises.filter(ex => ex.toLowerCase().includes(searchQuery.toLowerCase())).length === 0 && (
                             <div className="px-4 py-8 text-center text-gray-500">
-                              No exercises found
-                            </div>
+                              {t('no_exercises_found')}
+                                                                                      </div>
                           )}
                         </div>
                       </motion.div>
@@ -752,7 +754,7 @@ export default function StrengthTrainingGuide({ onBack }: { onBack: () => void }
                             type="number"
                             value={set.weight || ''}
                             onChange={(e) => updateSet(index, 'weight', parseFloat(e.target.value) || 0)}
-                            placeholder="Weight (kg)"
+                            placeholder={t('weight_kg')}
                             disabled={set.completed}
                             className="w-full px-3 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-slate-500/20 disabled:bg-gray-100"
                           />
@@ -762,7 +764,7 @@ export default function StrengthTrainingGuide({ onBack }: { onBack: () => void }
                             type="number"
                             value={set.reps || ''}
                             onChange={(e) => updateSet(index, 'reps', parseInt(e.target.value) || 0)}
-                            placeholder="Reps"
+                            placeholder={t('reps')}
                             disabled={set.completed}
                             className="w-full px-3 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-slate-500/20 disabled:bg-gray-100"
                           />
@@ -792,7 +794,7 @@ export default function StrengthTrainingGuide({ onBack }: { onBack: () => void }
                             animate={{ opacity: 1 }}
                             className="col-span-12 text-sm text-gray-600 text-center"
                           >
-                            Est. 1RM: <span className="font-bold text-slate-700">{calculate1RM(set.weight, set.reps)}kg</span>
+                            {t('est_1rm')} <span className="font-bold text-slate-700">{calculate1RM(set.weight, set.reps)}{t('kg')}</span>
                           </motion.div>
                         )}
                       </motion.div>
@@ -805,15 +807,15 @@ export default function StrengthTrainingGuide({ onBack }: { onBack: () => void }
                       className="flex-1 py-3 px-4 bg-gray-100 text-gray-700 rounded-xl font-medium hover:bg-gray-200 transition-all flex items-center justify-center gap-2"
                     >
                       <Plus className="w-5 h-5" />
-                      Add Set
-                    </button>
+                      {t('add_set')}
+                                                              </button>
                     <button
                       onClick={completeExercise}
                       disabled={currentExerciseSets.filter(s => s.completed).length === 0}
                       className="flex-1 py-3 px-4 bg-gradient-to-r from-slate-600 to-slate-800 text-white rounded-xl font-medium hover:shadow-lg hover:scale-105 transition-all disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
                     >
-                      Complete Exercise
-                    </button>
+                      {t('complete_exercise')}
+                                                              </button>
                   </div>
                 </motion.div>
               )}
@@ -821,19 +823,19 @@ export default function StrengthTrainingGuide({ onBack }: { onBack: () => void }
               {/* Current Session Summary */}
               {currentSession.length > 0 && (
                 <div className="bg-white rounded-2xl p-6 border border-gray-200">
-                  <h3 className="font-semibold text-gray-900 mb-4">Today's Session</h3>
+                  <h3 className="font-semibold text-gray-900 mb-4">{t('today_s_session')}</h3>
                   <div className="space-y-3 mb-4">
                     {currentSession.map((exercise, index) => (
                       <div key={index} className="bg-slate-50 rounded-xl p-4 border border-slate-200">
                         <div className="flex items-center justify-between mb-2">
                           <h4 className="font-semibold text-gray-900">{exercise.name}</h4>
                           <span className="text-sm font-bold text-slate-700">
-                            1RM: {exercise.estimated1RM}kg
-                          </span>
+                            {t('1rm')} {exercise.estimated1RM}{t('kg')}
+                                                              </span>
                         </div>
                         <div className="text-sm text-gray-600">
-                          {exercise.sets.length} sets • {exercise.sets.reduce((sum, s) => sum + (s.weight * s.reps), 0)}kg total volume
-                        </div>
+                          {exercise.sets.length} {t('sets')} {exercise.sets.reduce((sum, s) => sum + (s.weight * s.reps), 0)}{t('kg_total_volume')}
+                                                        </div>
                       </div>
                     ))}
                   </div>
@@ -841,8 +843,8 @@ export default function StrengthTrainingGuide({ onBack }: { onBack: () => void }
                     onClick={finishWorkout}
                     className="w-full py-4 px-6 bg-gradient-to-r from-slate-600 to-slate-800 text-white rounded-xl font-bold hover:shadow-lg hover:scale-105 transition-all"
                   >
-                    🏋️ Finish Workout
-                  </button>
+                    {t('finish_workout')}
+                                                        </button>
                 </div>
               )}
             </motion.div>
@@ -858,7 +860,7 @@ export default function StrengthTrainingGuide({ onBack }: { onBack: () => void }
               className="space-y-6"
             >
               <div className="bg-white rounded-2xl p-6 border border-gray-200">
-                <h2 className="text-lg font-semibold text-gray-900 mb-4">Exercise Library</h2>
+                <h2 className="text-lg font-semibold text-gray-900 mb-4">{t('exercise_library')}</h2>
 
                 {/* Search Bar */}
                 <div className="relative mb-6">
@@ -870,7 +872,7 @@ export default function StrengthTrainingGuide({ onBack }: { onBack: () => void }
                       setLibrarySearchQuery(e.target.value);
                       setShowAllExercises(false);
                     }}
-                    placeholder="Search exercises..."
+                    placeholder={t('search_exercises')}
                     className="w-full pl-12 pr-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-slate-500/20 focus:border-slate-500"
                   />
                 </div>
@@ -904,7 +906,7 @@ export default function StrengthTrainingGuide({ onBack }: { onBack: () => void }
                             ))}
                           </div>
                           <div className="mb-3">
-                            <span className="text-sm font-semibold text-slate-700">Recommended: </span>
+                            <span className="text-sm font-semibold text-slate-700">{t('recommended')} </span>
                             <span className="text-sm text-gray-600">{exercise.setRepRange}</span>
                           </div>
                         </div>
@@ -912,16 +914,16 @@ export default function StrengthTrainingGuide({ onBack }: { onBack: () => void }
 
                       <div className="bg-blue-50 rounded-lg p-4 border border-blue-200 mb-3">
                         <h4 className="text-sm font-semibold text-gray-900 mb-2 flex items-center gap-2">
-                          <span className="text-blue-600">✓</span> Form Tip
-                        </h4>
+                          <span className="text-blue-600">✓</span> {t('form_tip')}
+                                                            </h4>
                         <p className="text-sm text-gray-700">{exercise.formTip}</p>
                       </div>
 
                       <div className="bg-red-50 rounded-lg p-4 border border-red-200">
                         <h4 className="text-sm font-semibold text-gray-900 mb-2 flex items-center gap-2">
                           <AlertCircle className="w-4 h-4 text-red-600" />
-                          Common Mistakes
-                        </h4>
+                          {t('common_mistakes')}
+                                                            </h4>
                         <ul className="space-y-1">
                           {exercise.commonMistakes.map((mistake, i) => (
                             <li key={i} className="text-sm text-gray-700 flex items-start gap-2">
@@ -945,11 +947,11 @@ export default function StrengthTrainingGuide({ onBack }: { onBack: () => void }
                       onClick={() => setShowAllExercises(true)}
                       className="px-6 py-3 bg-slate-100 text-slate-700 rounded-xl font-medium hover:bg-slate-200 transition-all"
                     >
-                      Show More Exercises ({exerciseLibrary.filter(exercise =>
+                      {t('show_more_exercises')}{exerciseLibrary.filter(exercise =>
                         exercise.name.toLowerCase().includes(librarySearchQuery.toLowerCase()) ||
                         exercise.targetMuscles.some(muscle => muscle.toLowerCase().includes(librarySearchQuery.toLowerCase()))
-                      ).length - 5} more)
-                    </button>
+                      ).length - 5} {t('more')}
+                                                              </button>
                   </div>
                 )}
 
@@ -959,8 +961,8 @@ export default function StrengthTrainingGuide({ onBack }: { onBack: () => void }
                       onClick={() => setShowAllExercises(false)}
                       className="px-6 py-3 bg-slate-100 text-slate-700 rounded-xl font-medium hover:bg-slate-200 transition-all"
                     >
-                      Show Less
-                    </button>
+                      {t('show_less')}
+                                                              </button>
                   </div>
                 )}
               </div>
@@ -978,7 +980,7 @@ export default function StrengthTrainingGuide({ onBack }: { onBack: () => void }
             >
               {/* Personal Records */}
               <div className="bg-white rounded-2xl p-6 border border-gray-200">
-                <h3 className="font-semibold text-gray-900 mb-4">Personal Records (1RM)</h3>
+                <h3 className="font-semibold text-gray-900 mb-4">{t('personal_records_1rm')}</h3>
                 {Object.keys(strengthData.personalRecords).length > 0 ? (
                   <div className="grid grid-cols-2 gap-4">
                     {Object.entries(strengthData.personalRecords).map(([exercise, pr]) => (
@@ -990,12 +992,12 @@ export default function StrengthTrainingGuide({ onBack }: { onBack: () => void }
                           <Trophy className="w-6 h-6 text-yellow-600" />
                           <h4 className="font-semibold text-gray-900">{exercise}</h4>
                         </div>
-                        <p className="text-3xl font-bold text-slate-700">{pr}kg</p>
+                        <p className="text-3xl font-bold text-slate-700">{pr}{t('kg')}</p>
                       </div>
                     ))}
                   </div>
                 ) : (
-                  <p className="text-gray-500 text-center py-8">Complete a workout to see your PRs</p>
+                  <p className="text-gray-500 text-center py-8">{t('complete_a_workout_to_see_your_prs')}</p>
                 )}
               </div>
 
@@ -1004,7 +1006,7 @@ export default function StrengthTrainingGuide({ onBack }: { onBack: () => void }
                 <div className="bg-white rounded-2xl p-6 border border-gray-200">
                   <div className="flex items-center gap-3 mb-4">
                     <TrendingUp className="w-6 h-6 text-slate-600" />
-                    <h3 className="font-semibold text-gray-900">Weekly Volume Progression</h3>
+                    <h3 className="font-semibold text-gray-900">{t('weekly_volume_progression')}</h3>
                   </div>
                   <div className="h-80">
                     <ResponsiveContainer width="100%" height="100%">
@@ -1023,7 +1025,7 @@ export default function StrengthTrainingGuide({ onBack }: { onBack: () => void }
               {/* 1RM Progression for Main Lift */}
               {Object.keys(strengthData.personalRecords).length > 0 && (
                 <div className="bg-white rounded-2xl p-6 border border-gray-200">
-                  <h3 className="font-semibold text-gray-900 mb-4">1RM Progression</h3>
+                  <h3 className="font-semibold text-gray-900 mb-4">{t('1rm_progression')}</h3>
                   {Object.keys(strengthData.personalRecords).slice(0, 1).map(exerciseName => {
                     const data = get1RMProgressionData(exerciseName);
                     if (data.length === 0) return null;
@@ -1060,8 +1062,8 @@ export default function StrengthTrainingGuide({ onBack }: { onBack: () => void }
               {strengthData.sessions.length === 0 && (
                 <div className="bg-white rounded-2xl p-12 border border-gray-200 text-center">
                   <Dumbbell className="w-16 h-16 text-gray-300 mx-auto mb-4" />
-                  <h3 className="font-semibold text-gray-900 mb-2">No workouts logged yet</h3>
-                  <p className="text-sm text-gray-600">Start logging your lifts to track your progress</p>
+                  <h3 className="font-semibold text-gray-900 mb-2">{t('no_workouts_logged_yet')}</h3>
+                  <p className="text-sm text-gray-600">{t('start_logging_your_lifts_to_track_your_p')}</p>
                 </div>
               )}
             </motion.div>

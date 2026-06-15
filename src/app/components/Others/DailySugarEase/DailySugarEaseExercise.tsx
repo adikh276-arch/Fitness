@@ -7,6 +7,7 @@ import FeedbackScreen from "./FeedbackScreen";
 import { saveEntry } from "./sugarHistory";
 import { ArrowLeft, Clock } from 'lucide-react';
 import HistorySheet from "./HistorySheet";
+import { useTranslation } from "react-i18next";
 
 interface FoodItem {
   id: number;
@@ -25,6 +26,7 @@ interface DailySugarEaseExerciseProps {
 }
 
 const DailySugarEaseExercise = ({ onBack: onBackToDashboard }: DailySugarEaseExerciseProps) => {
+    const { t } = useTranslation('DailySugarEase');
   const [screen, setScreen] = useState(0);
   const [items, setItems] = useState<FoodItem[]>([]);
   const [showHistory, setShowHistory] = useState(false);
@@ -33,21 +35,21 @@ const DailySugarEaseExercise = ({ onBack: onBackToDashboard }: DailySugarEaseExe
 
   const getScreenTitle = () => {
     switch (screen) {
-      case 0: return "Sugar Tracker";
-      case 1: return "Log Your Intake";
-      case 2: return "Sugar Summary";
-      case 3: return "Daily Feedback";
-      default: return "Sugar Tracker";
+      case 0: return t('sugar_tracker', "Sugar Tracker");
+      case 1: return t('log_your_intake', "Log Your Intake");
+      case 2: return t('sugar_summary', "Sugar Summary");
+      case 3: return t('daily_feedback', "Daily Feedback");
+      default: return t('sugar_tracker', "Sugar Tracker");
     }
   };
 
   const getScreenSubtitle = () => {
     switch (screen) {
-      case 0: return "Manage your daily sugar intake";
-      case 1: return "Add the foods you ate today";
-      case 2: return "Here's your total sugar breakdown";
-      case 3: return "Personalized tips based on your intake";
-      default: return "Manage your health";
+      case 0: return t('manage_your_daily_sugar_intake', "Manage your daily sugar intake");
+      case 1: return t('add_the_foods_you_ate_today', "Add the foods you ate today");
+      case 2: return t('heres_your_total_sugar_breakdown', "Here's your total sugar breakdown");
+      case 3: return t('personalized_tips_based_on_your_intake', "Personalized tips based on your intake");
+      default: return t('manage_your_health', "Manage your health");
     }
   };
 
@@ -75,10 +77,10 @@ const DailySugarEaseExercise = ({ onBack: onBackToDashboard }: DailySugarEaseExe
               )}
               <div className="min-w-0">
                 <h1 className="text-lg lg:text-xl font-semibold text-gray-900 truncate">
-                  {showHistory ? "Sugar Intake History" : getScreenTitle()}
+                  {showHistory ? t('sugar_intake_history', "Sugar Intake History") : getScreenTitle()}
                 </h1>
                 <p className="text-xs lg:text-sm text-gray-500 truncate">
-                  {showHistory ? "Your past recordings" : getScreenSubtitle()}
+                  {showHistory ? t('your_past_recordings', "Your past recordings") : getScreenSubtitle()}
                 </p>
               </div>
             </div>

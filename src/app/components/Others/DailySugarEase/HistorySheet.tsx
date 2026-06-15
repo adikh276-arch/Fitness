@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { loadLocalHistory, SugarEntry } from "./sugarHistory";
 import { fetchSugarEntries } from "@/lib/persistence";
+import { useTranslation } from "react-i18next";
 
 interface HistorySheetProps {
   onClose: () => void;
@@ -20,6 +21,7 @@ const levelLabel: Record<SugarEntry["level"], string> = {
 };
 
 const HistorySheet = () => {
+    const { t } = useTranslation('DailySugarEase');
   const [entries, setEntries] = useState<SugarEntry[]>(loadLocalHistory());
 
   useEffect(() => {
@@ -47,8 +49,8 @@ const HistorySheet = () => {
           <div className="w-20 h-20 bg-gray-50 rounded-full flex items-center justify-center mb-4 text-4xl">
             📭
           </div>
-          <h3 className="text-xl font-bold text-gray-900 mb-2">No entries yet</h3>
-          <p className="text-gray-500">Your sugar intake history will appear here once you start logging.</p>
+          <h3 className="text-xl font-bold text-gray-900 mb-2">{t('no_entries_yet')}</h3>
+          <p className="text-gray-500">{t('your_sugar_intake_history_will_appear_he')}</p>
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -73,7 +75,7 @@ const HistorySheet = () => {
                   <p className="text-sm font-bold text-gray-400">
                     {new Date(e.date).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}
                   </p>
-                  <p className="text-lg font-black text-gray-900">~{e.total}g <span className="text-sm text-gray-400 font-normal">Sugar</span></p>
+                  <p className="text-lg font-black text-gray-900">~{e.total}{t('g')} <span className="text-sm text-gray-400 font-normal">{t('sugar')}</span></p>
                 </div>
               </div>
 
@@ -81,7 +83,7 @@ const HistorySheet = () => {
                 <span className={`px-4 py-1.5 rounded-xl text-xs font-black uppercase tracking-wider ${levelStyle[e.level]}`}>
                   {levelLabel[e.level]}
                 </span>
-                <p className="text-sm font-bold text-gray-400 mt-2">Score: <span className="text-rose-500 font-black">{e.score}</span></p>
+                <p className="text-sm font-bold text-gray-400 mt-2">{t('score')} <span className="text-rose-500 font-black">{e.score}</span></p>
               </div>
             </motion.div>
           ))}

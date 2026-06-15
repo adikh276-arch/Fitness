@@ -2,1194 +2,1894 @@
 import ar_BMICalculator from './ar/BMICalculator.json';
 import ar_CalorieBurner from './ar/CalorieBurner.json';
 import ar_common from './ar/common.json';
+import ar_DailySugarEase from './ar/DailySugarEase.json';
 import ar_DiabetesDiet from './ar/DiabetesDiet.json';
+import ar_FastTimer from './ar/FastTimer.json';
 import ar_FlexibilityMobility from './ar/FlexibilityMobility.json';
 import ar_FoodDiary from './ar/FoodDiary.json';
 import ar_GutHealth from './ar/GutHealth.json';
+import ar_HealthyRecipeLog from './ar/HealthyRecipeLog.json';
 import ar_HeartHealth from './ar/HeartHealth.json';
+import ar_HIITCardio from './ar/HIITCardio.json';
+import ar_HomeWorkouts from './ar/HomeWorkouts.json';
 import ar_IntermittentFasting from './ar/IntermittentFasting.json';
+import ar_KetoBasics from './ar/KetoBasics.json';
 import ar_MacroCalculator from './ar/MacroCalculator.json';
 import ar_MacroEducation from './ar/MacroEducation.json';
 import ar_MuscleGain from './ar/MuscleGain.json';
+import ar_PlanYourPlate from './ar/PlanYourPlate.json';
+import ar_PostureCorrection from './ar/PostureCorrection.json';
 import ar_StepTracker from './ar/StepTracker.json';
+import ar_StrengthTraining from './ar/StrengthTraining.json';
 import ar_VeganNutrition from './ar/VeganNutrition.json';
 import ar_WaterIntake from './ar/WaterIntake.json';
 import ar_WeightLoss from './ar/WeightLoss.json';
+import ar_YogaFlexibility from './ar/YogaFlexibility.json';
 import bn_BMICalculator from './bn/BMICalculator.json';
 import bn_CalorieBurner from './bn/CalorieBurner.json';
 import bn_common from './bn/common.json';
+import bn_DailySugarEase from './bn/DailySugarEase.json';
 import bn_DiabetesDiet from './bn/DiabetesDiet.json';
+import bn_FastTimer from './bn/FastTimer.json';
 import bn_FlexibilityMobility from './bn/FlexibilityMobility.json';
 import bn_FoodDiary from './bn/FoodDiary.json';
 import bn_GutHealth from './bn/GutHealth.json';
+import bn_HealthyRecipeLog from './bn/HealthyRecipeLog.json';
 import bn_HeartHealth from './bn/HeartHealth.json';
+import bn_HIITCardio from './bn/HIITCardio.json';
+import bn_HomeWorkouts from './bn/HomeWorkouts.json';
 import bn_IntermittentFasting from './bn/IntermittentFasting.json';
+import bn_KetoBasics from './bn/KetoBasics.json';
 import bn_MacroCalculator from './bn/MacroCalculator.json';
 import bn_MacroEducation from './bn/MacroEducation.json';
 import bn_MuscleGain from './bn/MuscleGain.json';
+import bn_PlanYourPlate from './bn/PlanYourPlate.json';
+import bn_PostureCorrection from './bn/PostureCorrection.json';
 import bn_StepTracker from './bn/StepTracker.json';
+import bn_StrengthTraining from './bn/StrengthTraining.json';
 import bn_VeganNutrition from './bn/VeganNutrition.json';
 import bn_WaterIntake from './bn/WaterIntake.json';
 import bn_WeightLoss from './bn/WeightLoss.json';
+import bn_YogaFlexibility from './bn/YogaFlexibility.json';
 import cs_BMICalculator from './cs/BMICalculator.json';
 import cs_CalorieBurner from './cs/CalorieBurner.json';
 import cs_common from './cs/common.json';
+import cs_DailySugarEase from './cs/DailySugarEase.json';
 import cs_DiabetesDiet from './cs/DiabetesDiet.json';
+import cs_FastTimer from './cs/FastTimer.json';
 import cs_FlexibilityMobility from './cs/FlexibilityMobility.json';
 import cs_FoodDiary from './cs/FoodDiary.json';
 import cs_GutHealth from './cs/GutHealth.json';
+import cs_HealthyRecipeLog from './cs/HealthyRecipeLog.json';
 import cs_HeartHealth from './cs/HeartHealth.json';
+import cs_HIITCardio from './cs/HIITCardio.json';
+import cs_HomeWorkouts from './cs/HomeWorkouts.json';
 import cs_IntermittentFasting from './cs/IntermittentFasting.json';
+import cs_KetoBasics from './cs/KetoBasics.json';
 import cs_MacroCalculator from './cs/MacroCalculator.json';
 import cs_MacroEducation from './cs/MacroEducation.json';
 import cs_MuscleGain from './cs/MuscleGain.json';
+import cs_PlanYourPlate from './cs/PlanYourPlate.json';
+import cs_PostureCorrection from './cs/PostureCorrection.json';
 import cs_StepTracker from './cs/StepTracker.json';
+import cs_StrengthTraining from './cs/StrengthTraining.json';
 import cs_VeganNutrition from './cs/VeganNutrition.json';
 import cs_WaterIntake from './cs/WaterIntake.json';
 import cs_WeightLoss from './cs/WeightLoss.json';
+import cs_YogaFlexibility from './cs/YogaFlexibility.json';
 import da_BMICalculator from './da/BMICalculator.json';
 import da_CalorieBurner from './da/CalorieBurner.json';
 import da_common from './da/common.json';
+import da_DailySugarEase from './da/DailySugarEase.json';
 import da_DiabetesDiet from './da/DiabetesDiet.json';
+import da_FastTimer from './da/FastTimer.json';
 import da_FlexibilityMobility from './da/FlexibilityMobility.json';
 import da_FoodDiary from './da/FoodDiary.json';
 import da_GutHealth from './da/GutHealth.json';
+import da_HealthyRecipeLog from './da/HealthyRecipeLog.json';
 import da_HeartHealth from './da/HeartHealth.json';
+import da_HIITCardio from './da/HIITCardio.json';
+import da_HomeWorkouts from './da/HomeWorkouts.json';
 import da_IntermittentFasting from './da/IntermittentFasting.json';
+import da_KetoBasics from './da/KetoBasics.json';
 import da_MacroCalculator from './da/MacroCalculator.json';
 import da_MacroEducation from './da/MacroEducation.json';
 import da_MuscleGain from './da/MuscleGain.json';
+import da_PlanYourPlate from './da/PlanYourPlate.json';
+import da_PostureCorrection from './da/PostureCorrection.json';
 import da_StepTracker from './da/StepTracker.json';
+import da_StrengthTraining from './da/StrengthTraining.json';
 import da_VeganNutrition from './da/VeganNutrition.json';
 import da_WaterIntake from './da/WaterIntake.json';
 import da_WeightLoss from './da/WeightLoss.json';
+import da_YogaFlexibility from './da/YogaFlexibility.json';
 import de_BMICalculator from './de/BMICalculator.json';
 import de_CalorieBurner from './de/CalorieBurner.json';
 import de_common from './de/common.json';
+import de_DailySugarEase from './de/DailySugarEase.json';
 import de_DiabetesDiet from './de/DiabetesDiet.json';
+import de_FastTimer from './de/FastTimer.json';
 import de_FlexibilityMobility from './de/FlexibilityMobility.json';
 import de_FoodDiary from './de/FoodDiary.json';
 import de_GutHealth from './de/GutHealth.json';
+import de_HealthyRecipeLog from './de/HealthyRecipeLog.json';
 import de_HeartHealth from './de/HeartHealth.json';
+import de_HIITCardio from './de/HIITCardio.json';
+import de_HomeWorkouts from './de/HomeWorkouts.json';
 import de_IntermittentFasting from './de/IntermittentFasting.json';
+import de_KetoBasics from './de/KetoBasics.json';
 import de_MacroCalculator from './de/MacroCalculator.json';
 import de_MacroEducation from './de/MacroEducation.json';
 import de_MuscleGain from './de/MuscleGain.json';
+import de_PlanYourPlate from './de/PlanYourPlate.json';
+import de_PostureCorrection from './de/PostureCorrection.json';
 import de_StepTracker from './de/StepTracker.json';
+import de_StrengthTraining from './de/StrengthTraining.json';
 import de_VeganNutrition from './de/VeganNutrition.json';
 import de_WaterIntake from './de/WaterIntake.json';
 import de_WeightLoss from './de/WeightLoss.json';
+import de_YogaFlexibility from './de/YogaFlexibility.json';
 import el_BMICalculator from './el/BMICalculator.json';
 import el_CalorieBurner from './el/CalorieBurner.json';
 import el_common from './el/common.json';
+import el_DailySugarEase from './el/DailySugarEase.json';
 import el_DiabetesDiet from './el/DiabetesDiet.json';
+import el_FastTimer from './el/FastTimer.json';
 import el_FlexibilityMobility from './el/FlexibilityMobility.json';
 import el_FoodDiary from './el/FoodDiary.json';
 import el_GutHealth from './el/GutHealth.json';
+import el_HealthyRecipeLog from './el/HealthyRecipeLog.json';
 import el_HeartHealth from './el/HeartHealth.json';
+import el_HIITCardio from './el/HIITCardio.json';
+import el_HomeWorkouts from './el/HomeWorkouts.json';
 import el_IntermittentFasting from './el/IntermittentFasting.json';
+import el_KetoBasics from './el/KetoBasics.json';
 import el_MacroCalculator from './el/MacroCalculator.json';
 import el_MacroEducation from './el/MacroEducation.json';
 import el_MuscleGain from './el/MuscleGain.json';
+import el_PlanYourPlate from './el/PlanYourPlate.json';
+import el_PostureCorrection from './el/PostureCorrection.json';
 import el_StepTracker from './el/StepTracker.json';
+import el_StrengthTraining from './el/StrengthTraining.json';
 import el_VeganNutrition from './el/VeganNutrition.json';
 import el_WaterIntake from './el/WaterIntake.json';
 import el_WeightLoss from './el/WeightLoss.json';
+import el_YogaFlexibility from './el/YogaFlexibility.json';
 import en_BMICalculator from './en/BMICalculator.json';
 import en_CalorieBurner from './en/CalorieBurner.json';
 import en_common from './en/common.json';
+import en_DailySugarEase from './en/DailySugarEase.json';
 import en_DiabetesDiet from './en/DiabetesDiet.json';
+import en_FastTimer from './en/FastTimer.json';
 import en_FlexibilityMobility from './en/FlexibilityMobility.json';
 import en_FoodDiary from './en/FoodDiary.json';
 import en_GutHealth from './en/GutHealth.json';
+import en_HealthyRecipeLog from './en/HealthyRecipeLog.json';
 import en_HeartHealth from './en/HeartHealth.json';
+import en_HIITCardio from './en/HIITCardio.json';
+import en_HomeWorkouts from './en/HomeWorkouts.json';
 import en_IntermittentFasting from './en/IntermittentFasting.json';
+import en_KetoBasics from './en/KetoBasics.json';
 import en_MacroCalculator from './en/MacroCalculator.json';
 import en_MacroEducation from './en/MacroEducation.json';
 import en_MuscleGain from './en/MuscleGain.json';
+import en_PlanYourPlate from './en/PlanYourPlate.json';
+import en_PostureCorrection from './en/PostureCorrection.json';
 import en_StepTracker from './en/StepTracker.json';
+import en_StrengthTraining from './en/StrengthTraining.json';
 import en_VeganNutrition from './en/VeganNutrition.json';
 import en_WaterIntake from './en/WaterIntake.json';
 import en_WeightLoss from './en/WeightLoss.json';
+import en_YogaFlexibility from './en/YogaFlexibility.json';
 import es_BMICalculator from './es/BMICalculator.json';
 import es_CalorieBurner from './es/CalorieBurner.json';
 import es_common from './es/common.json';
+import es_DailySugarEase from './es/DailySugarEase.json';
 import es_DiabetesDiet from './es/DiabetesDiet.json';
+import es_FastTimer from './es/FastTimer.json';
 import es_FlexibilityMobility from './es/FlexibilityMobility.json';
 import es_FoodDiary from './es/FoodDiary.json';
 import es_GutHealth from './es/GutHealth.json';
+import es_HealthyRecipeLog from './es/HealthyRecipeLog.json';
 import es_HeartHealth from './es/HeartHealth.json';
+import es_HIITCardio from './es/HIITCardio.json';
+import es_HomeWorkouts from './es/HomeWorkouts.json';
 import es_IntermittentFasting from './es/IntermittentFasting.json';
+import es_KetoBasics from './es/KetoBasics.json';
 import es_MacroCalculator from './es/MacroCalculator.json';
 import es_MacroEducation from './es/MacroEducation.json';
 import es_MuscleGain from './es/MuscleGain.json';
+import es_PlanYourPlate from './es/PlanYourPlate.json';
+import es_PostureCorrection from './es/PostureCorrection.json';
 import es_StepTracker from './es/StepTracker.json';
+import es_StrengthTraining from './es/StrengthTraining.json';
 import es_VeganNutrition from './es/VeganNutrition.json';
 import es_WaterIntake from './es/WaterIntake.json';
 import es_WeightLoss from './es/WeightLoss.json';
+import es_YogaFlexibility from './es/YogaFlexibility.json';
 import fi_BMICalculator from './fi/BMICalculator.json';
 import fi_CalorieBurner from './fi/CalorieBurner.json';
 import fi_common from './fi/common.json';
+import fi_DailySugarEase from './fi/DailySugarEase.json';
 import fi_DiabetesDiet from './fi/DiabetesDiet.json';
+import fi_FastTimer from './fi/FastTimer.json';
 import fi_FlexibilityMobility from './fi/FlexibilityMobility.json';
 import fi_FoodDiary from './fi/FoodDiary.json';
 import fi_GutHealth from './fi/GutHealth.json';
+import fi_HealthyRecipeLog from './fi/HealthyRecipeLog.json';
 import fi_HeartHealth from './fi/HeartHealth.json';
+import fi_HIITCardio from './fi/HIITCardio.json';
+import fi_HomeWorkouts from './fi/HomeWorkouts.json';
 import fi_IntermittentFasting from './fi/IntermittentFasting.json';
+import fi_KetoBasics from './fi/KetoBasics.json';
 import fi_MacroCalculator from './fi/MacroCalculator.json';
 import fi_MacroEducation from './fi/MacroEducation.json';
 import fi_MuscleGain from './fi/MuscleGain.json';
+import fi_PlanYourPlate from './fi/PlanYourPlate.json';
+import fi_PostureCorrection from './fi/PostureCorrection.json';
 import fi_StepTracker from './fi/StepTracker.json';
+import fi_StrengthTraining from './fi/StrengthTraining.json';
 import fi_VeganNutrition from './fi/VeganNutrition.json';
 import fi_WaterIntake from './fi/WaterIntake.json';
 import fi_WeightLoss from './fi/WeightLoss.json';
+import fi_YogaFlexibility from './fi/YogaFlexibility.json';
 import fr_BMICalculator from './fr/BMICalculator.json';
 import fr_CalorieBurner from './fr/CalorieBurner.json';
 import fr_common from './fr/common.json';
+import fr_DailySugarEase from './fr/DailySugarEase.json';
 import fr_DiabetesDiet from './fr/DiabetesDiet.json';
+import fr_FastTimer from './fr/FastTimer.json';
 import fr_FlexibilityMobility from './fr/FlexibilityMobility.json';
 import fr_FoodDiary from './fr/FoodDiary.json';
 import fr_GutHealth from './fr/GutHealth.json';
+import fr_HealthyRecipeLog from './fr/HealthyRecipeLog.json';
 import fr_HeartHealth from './fr/HeartHealth.json';
+import fr_HIITCardio from './fr/HIITCardio.json';
+import fr_HomeWorkouts from './fr/HomeWorkouts.json';
 import fr_IntermittentFasting from './fr/IntermittentFasting.json';
+import fr_KetoBasics from './fr/KetoBasics.json';
 import fr_MacroCalculator from './fr/MacroCalculator.json';
 import fr_MacroEducation from './fr/MacroEducation.json';
 import fr_MuscleGain from './fr/MuscleGain.json';
+import fr_PlanYourPlate from './fr/PlanYourPlate.json';
+import fr_PostureCorrection from './fr/PostureCorrection.json';
 import fr_StepTracker from './fr/StepTracker.json';
+import fr_StrengthTraining from './fr/StrengthTraining.json';
 import fr_VeganNutrition from './fr/VeganNutrition.json';
 import fr_WaterIntake from './fr/WaterIntake.json';
 import fr_WeightLoss from './fr/WeightLoss.json';
+import fr_YogaFlexibility from './fr/YogaFlexibility.json';
 import he_BMICalculator from './he/BMICalculator.json';
 import he_CalorieBurner from './he/CalorieBurner.json';
 import he_common from './he/common.json';
+import he_DailySugarEase from './he/DailySugarEase.json';
 import he_DiabetesDiet from './he/DiabetesDiet.json';
+import he_FastTimer from './he/FastTimer.json';
 import he_FlexibilityMobility from './he/FlexibilityMobility.json';
 import he_FoodDiary from './he/FoodDiary.json';
 import he_GutHealth from './he/GutHealth.json';
+import he_HealthyRecipeLog from './he/HealthyRecipeLog.json';
 import he_HeartHealth from './he/HeartHealth.json';
+import he_HIITCardio from './he/HIITCardio.json';
+import he_HomeWorkouts from './he/HomeWorkouts.json';
 import he_IntermittentFasting from './he/IntermittentFasting.json';
+import he_KetoBasics from './he/KetoBasics.json';
 import he_MacroCalculator from './he/MacroCalculator.json';
 import he_MacroEducation from './he/MacroEducation.json';
 import he_MuscleGain from './he/MuscleGain.json';
+import he_PlanYourPlate from './he/PlanYourPlate.json';
+import he_PostureCorrection from './he/PostureCorrection.json';
 import he_StepTracker from './he/StepTracker.json';
+import he_StrengthTraining from './he/StrengthTraining.json';
 import he_VeganNutrition from './he/VeganNutrition.json';
 import he_WaterIntake from './he/WaterIntake.json';
 import he_WeightLoss from './he/WeightLoss.json';
+import he_YogaFlexibility from './he/YogaFlexibility.json';
 import hi_BMICalculator from './hi/BMICalculator.json';
 import hi_CalorieBurner from './hi/CalorieBurner.json';
 import hi_common from './hi/common.json';
+import hi_DailySugarEase from './hi/DailySugarEase.json';
 import hi_DiabetesDiet from './hi/DiabetesDiet.json';
+import hi_FastTimer from './hi/FastTimer.json';
 import hi_FlexibilityMobility from './hi/FlexibilityMobility.json';
 import hi_FoodDiary from './hi/FoodDiary.json';
 import hi_GutHealth from './hi/GutHealth.json';
+import hi_HealthyRecipeLog from './hi/HealthyRecipeLog.json';
 import hi_HeartHealth from './hi/HeartHealth.json';
+import hi_HIITCardio from './hi/HIITCardio.json';
+import hi_HomeWorkouts from './hi/HomeWorkouts.json';
 import hi_IntermittentFasting from './hi/IntermittentFasting.json';
+import hi_KetoBasics from './hi/KetoBasics.json';
 import hi_MacroCalculator from './hi/MacroCalculator.json';
 import hi_MacroEducation from './hi/MacroEducation.json';
 import hi_MuscleGain from './hi/MuscleGain.json';
+import hi_PlanYourPlate from './hi/PlanYourPlate.json';
+import hi_PostureCorrection from './hi/PostureCorrection.json';
 import hi_StepTracker from './hi/StepTracker.json';
+import hi_StrengthTraining from './hi/StrengthTraining.json';
 import hi_VeganNutrition from './hi/VeganNutrition.json';
 import hi_WaterIntake from './hi/WaterIntake.json';
 import hi_WeightLoss from './hi/WeightLoss.json';
+import hi_YogaFlexibility from './hi/YogaFlexibility.json';
 import hu_BMICalculator from './hu/BMICalculator.json';
 import hu_CalorieBurner from './hu/CalorieBurner.json';
 import hu_common from './hu/common.json';
+import hu_DailySugarEase from './hu/DailySugarEase.json';
 import hu_DiabetesDiet from './hu/DiabetesDiet.json';
+import hu_FastTimer from './hu/FastTimer.json';
 import hu_FlexibilityMobility from './hu/FlexibilityMobility.json';
 import hu_FoodDiary from './hu/FoodDiary.json';
 import hu_GutHealth from './hu/GutHealth.json';
+import hu_HealthyRecipeLog from './hu/HealthyRecipeLog.json';
 import hu_HeartHealth from './hu/HeartHealth.json';
+import hu_HIITCardio from './hu/HIITCardio.json';
+import hu_HomeWorkouts from './hu/HomeWorkouts.json';
 import hu_IntermittentFasting from './hu/IntermittentFasting.json';
+import hu_KetoBasics from './hu/KetoBasics.json';
 import hu_MacroCalculator from './hu/MacroCalculator.json';
 import hu_MacroEducation from './hu/MacroEducation.json';
 import hu_MuscleGain from './hu/MuscleGain.json';
+import hu_PlanYourPlate from './hu/PlanYourPlate.json';
+import hu_PostureCorrection from './hu/PostureCorrection.json';
 import hu_StepTracker from './hu/StepTracker.json';
+import hu_StrengthTraining from './hu/StrengthTraining.json';
 import hu_VeganNutrition from './hu/VeganNutrition.json';
 import hu_WaterIntake from './hu/WaterIntake.json';
 import hu_WeightLoss from './hu/WeightLoss.json';
+import hu_YogaFlexibility from './hu/YogaFlexibility.json';
 import id_BMICalculator from './id/BMICalculator.json';
 import id_CalorieBurner from './id/CalorieBurner.json';
 import id_common from './id/common.json';
+import id_DailySugarEase from './id/DailySugarEase.json';
 import id_DiabetesDiet from './id/DiabetesDiet.json';
+import id_FastTimer from './id/FastTimer.json';
 import id_FlexibilityMobility from './id/FlexibilityMobility.json';
 import id_FoodDiary from './id/FoodDiary.json';
 import id_GutHealth from './id/GutHealth.json';
+import id_HealthyRecipeLog from './id/HealthyRecipeLog.json';
 import id_HeartHealth from './id/HeartHealth.json';
+import id_HIITCardio from './id/HIITCardio.json';
+import id_HomeWorkouts from './id/HomeWorkouts.json';
 import id_IntermittentFasting from './id/IntermittentFasting.json';
+import id_KetoBasics from './id/KetoBasics.json';
 import id_MacroCalculator from './id/MacroCalculator.json';
 import id_MacroEducation from './id/MacroEducation.json';
 import id_MuscleGain from './id/MuscleGain.json';
+import id_PlanYourPlate from './id/PlanYourPlate.json';
+import id_PostureCorrection from './id/PostureCorrection.json';
 import id_StepTracker from './id/StepTracker.json';
+import id_StrengthTraining from './id/StrengthTraining.json';
 import id_VeganNutrition from './id/VeganNutrition.json';
 import id_WaterIntake from './id/WaterIntake.json';
 import id_WeightLoss from './id/WeightLoss.json';
+import id_YogaFlexibility from './id/YogaFlexibility.json';
 import it_BMICalculator from './it/BMICalculator.json';
 import it_CalorieBurner from './it/CalorieBurner.json';
 import it_common from './it/common.json';
+import it_DailySugarEase from './it/DailySugarEase.json';
 import it_DiabetesDiet from './it/DiabetesDiet.json';
+import it_FastTimer from './it/FastTimer.json';
 import it_FlexibilityMobility from './it/FlexibilityMobility.json';
 import it_FoodDiary from './it/FoodDiary.json';
 import it_GutHealth from './it/GutHealth.json';
+import it_HealthyRecipeLog from './it/HealthyRecipeLog.json';
 import it_HeartHealth from './it/HeartHealth.json';
+import it_HIITCardio from './it/HIITCardio.json';
+import it_HomeWorkouts from './it/HomeWorkouts.json';
 import it_IntermittentFasting from './it/IntermittentFasting.json';
+import it_KetoBasics from './it/KetoBasics.json';
 import it_MacroCalculator from './it/MacroCalculator.json';
 import it_MacroEducation from './it/MacroEducation.json';
 import it_MuscleGain from './it/MuscleGain.json';
+import it_PlanYourPlate from './it/PlanYourPlate.json';
+import it_PostureCorrection from './it/PostureCorrection.json';
 import it_StepTracker from './it/StepTracker.json';
+import it_StrengthTraining from './it/StrengthTraining.json';
 import it_VeganNutrition from './it/VeganNutrition.json';
 import it_WaterIntake from './it/WaterIntake.json';
 import it_WeightLoss from './it/WeightLoss.json';
+import it_YogaFlexibility from './it/YogaFlexibility.json';
 import ja_BMICalculator from './ja/BMICalculator.json';
 import ja_CalorieBurner from './ja/CalorieBurner.json';
 import ja_common from './ja/common.json';
+import ja_DailySugarEase from './ja/DailySugarEase.json';
 import ja_DiabetesDiet from './ja/DiabetesDiet.json';
+import ja_FastTimer from './ja/FastTimer.json';
 import ja_FlexibilityMobility from './ja/FlexibilityMobility.json';
 import ja_FoodDiary from './ja/FoodDiary.json';
 import ja_GutHealth from './ja/GutHealth.json';
+import ja_HealthyRecipeLog from './ja/HealthyRecipeLog.json';
 import ja_HeartHealth from './ja/HeartHealth.json';
+import ja_HIITCardio from './ja/HIITCardio.json';
+import ja_HomeWorkouts from './ja/HomeWorkouts.json';
 import ja_IntermittentFasting from './ja/IntermittentFasting.json';
+import ja_KetoBasics from './ja/KetoBasics.json';
 import ja_MacroCalculator from './ja/MacroCalculator.json';
 import ja_MacroEducation from './ja/MacroEducation.json';
 import ja_MuscleGain from './ja/MuscleGain.json';
+import ja_PlanYourPlate from './ja/PlanYourPlate.json';
+import ja_PostureCorrection from './ja/PostureCorrection.json';
 import ja_StepTracker from './ja/StepTracker.json';
+import ja_StrengthTraining from './ja/StrengthTraining.json';
 import ja_VeganNutrition from './ja/VeganNutrition.json';
 import ja_WaterIntake from './ja/WaterIntake.json';
 import ja_WeightLoss from './ja/WeightLoss.json';
+import ja_YogaFlexibility from './ja/YogaFlexibility.json';
 import ko_BMICalculator from './ko/BMICalculator.json';
 import ko_CalorieBurner from './ko/CalorieBurner.json';
 import ko_common from './ko/common.json';
+import ko_DailySugarEase from './ko/DailySugarEase.json';
 import ko_DiabetesDiet from './ko/DiabetesDiet.json';
+import ko_FastTimer from './ko/FastTimer.json';
 import ko_FlexibilityMobility from './ko/FlexibilityMobility.json';
 import ko_FoodDiary from './ko/FoodDiary.json';
 import ko_GutHealth from './ko/GutHealth.json';
+import ko_HealthyRecipeLog from './ko/HealthyRecipeLog.json';
 import ko_HeartHealth from './ko/HeartHealth.json';
+import ko_HIITCardio from './ko/HIITCardio.json';
+import ko_HomeWorkouts from './ko/HomeWorkouts.json';
 import ko_IntermittentFasting from './ko/IntermittentFasting.json';
+import ko_KetoBasics from './ko/KetoBasics.json';
 import ko_MacroCalculator from './ko/MacroCalculator.json';
 import ko_MacroEducation from './ko/MacroEducation.json';
 import ko_MuscleGain from './ko/MuscleGain.json';
+import ko_PlanYourPlate from './ko/PlanYourPlate.json';
+import ko_PostureCorrection from './ko/PostureCorrection.json';
 import ko_StepTracker from './ko/StepTracker.json';
+import ko_StrengthTraining from './ko/StrengthTraining.json';
 import ko_VeganNutrition from './ko/VeganNutrition.json';
 import ko_WaterIntake from './ko/WaterIntake.json';
 import ko_WeightLoss from './ko/WeightLoss.json';
+import ko_YogaFlexibility from './ko/YogaFlexibility.json';
 import ms_BMICalculator from './ms/BMICalculator.json';
 import ms_CalorieBurner from './ms/CalorieBurner.json';
 import ms_common from './ms/common.json';
+import ms_DailySugarEase from './ms/DailySugarEase.json';
 import ms_DiabetesDiet from './ms/DiabetesDiet.json';
+import ms_FastTimer from './ms/FastTimer.json';
 import ms_FlexibilityMobility from './ms/FlexibilityMobility.json';
 import ms_FoodDiary from './ms/FoodDiary.json';
 import ms_GutHealth from './ms/GutHealth.json';
+import ms_HealthyRecipeLog from './ms/HealthyRecipeLog.json';
 import ms_HeartHealth from './ms/HeartHealth.json';
+import ms_HIITCardio from './ms/HIITCardio.json';
+import ms_HomeWorkouts from './ms/HomeWorkouts.json';
 import ms_IntermittentFasting from './ms/IntermittentFasting.json';
+import ms_KetoBasics from './ms/KetoBasics.json';
 import ms_MacroCalculator from './ms/MacroCalculator.json';
 import ms_MacroEducation from './ms/MacroEducation.json';
 import ms_MuscleGain from './ms/MuscleGain.json';
+import ms_PlanYourPlate from './ms/PlanYourPlate.json';
+import ms_PostureCorrection from './ms/PostureCorrection.json';
 import ms_StepTracker from './ms/StepTracker.json';
+import ms_StrengthTraining from './ms/StrengthTraining.json';
 import ms_VeganNutrition from './ms/VeganNutrition.json';
 import ms_WaterIntake from './ms/WaterIntake.json';
 import ms_WeightLoss from './ms/WeightLoss.json';
+import ms_YogaFlexibility from './ms/YogaFlexibility.json';
 import nl_BMICalculator from './nl/BMICalculator.json';
 import nl_CalorieBurner from './nl/CalorieBurner.json';
 import nl_common from './nl/common.json';
+import nl_DailySugarEase from './nl/DailySugarEase.json';
 import nl_DiabetesDiet from './nl/DiabetesDiet.json';
+import nl_FastTimer from './nl/FastTimer.json';
 import nl_FlexibilityMobility from './nl/FlexibilityMobility.json';
 import nl_FoodDiary from './nl/FoodDiary.json';
 import nl_GutHealth from './nl/GutHealth.json';
+import nl_HealthyRecipeLog from './nl/HealthyRecipeLog.json';
 import nl_HeartHealth from './nl/HeartHealth.json';
+import nl_HIITCardio from './nl/HIITCardio.json';
+import nl_HomeWorkouts from './nl/HomeWorkouts.json';
 import nl_IntermittentFasting from './nl/IntermittentFasting.json';
+import nl_KetoBasics from './nl/KetoBasics.json';
 import nl_MacroCalculator from './nl/MacroCalculator.json';
 import nl_MacroEducation from './nl/MacroEducation.json';
 import nl_MuscleGain from './nl/MuscleGain.json';
+import nl_PlanYourPlate from './nl/PlanYourPlate.json';
+import nl_PostureCorrection from './nl/PostureCorrection.json';
 import nl_StepTracker from './nl/StepTracker.json';
+import nl_StrengthTraining from './nl/StrengthTraining.json';
 import nl_VeganNutrition from './nl/VeganNutrition.json';
 import nl_WaterIntake from './nl/WaterIntake.json';
 import nl_WeightLoss from './nl/WeightLoss.json';
+import nl_YogaFlexibility from './nl/YogaFlexibility.json';
 import no_BMICalculator from './no/BMICalculator.json';
 import no_CalorieBurner from './no/CalorieBurner.json';
 import no_common from './no/common.json';
+import no_DailySugarEase from './no/DailySugarEase.json';
 import no_DiabetesDiet from './no/DiabetesDiet.json';
+import no_FastTimer from './no/FastTimer.json';
 import no_FlexibilityMobility from './no/FlexibilityMobility.json';
 import no_FoodDiary from './no/FoodDiary.json';
 import no_GutHealth from './no/GutHealth.json';
+import no_HealthyRecipeLog from './no/HealthyRecipeLog.json';
 import no_HeartHealth from './no/HeartHealth.json';
+import no_HIITCardio from './no/HIITCardio.json';
+import no_HomeWorkouts from './no/HomeWorkouts.json';
 import no_IntermittentFasting from './no/IntermittentFasting.json';
+import no_KetoBasics from './no/KetoBasics.json';
 import no_MacroCalculator from './no/MacroCalculator.json';
 import no_MacroEducation from './no/MacroEducation.json';
 import no_MuscleGain from './no/MuscleGain.json';
+import no_PlanYourPlate from './no/PlanYourPlate.json';
+import no_PostureCorrection from './no/PostureCorrection.json';
 import no_StepTracker from './no/StepTracker.json';
+import no_StrengthTraining from './no/StrengthTraining.json';
 import no_VeganNutrition from './no/VeganNutrition.json';
 import no_WaterIntake from './no/WaterIntake.json';
 import no_WeightLoss from './no/WeightLoss.json';
+import no_YogaFlexibility from './no/YogaFlexibility.json';
 import pl_BMICalculator from './pl/BMICalculator.json';
 import pl_CalorieBurner from './pl/CalorieBurner.json';
 import pl_common from './pl/common.json';
+import pl_DailySugarEase from './pl/DailySugarEase.json';
 import pl_DiabetesDiet from './pl/DiabetesDiet.json';
+import pl_FastTimer from './pl/FastTimer.json';
 import pl_FlexibilityMobility from './pl/FlexibilityMobility.json';
 import pl_FoodDiary from './pl/FoodDiary.json';
 import pl_GutHealth from './pl/GutHealth.json';
+import pl_HealthyRecipeLog from './pl/HealthyRecipeLog.json';
 import pl_HeartHealth from './pl/HeartHealth.json';
+import pl_HIITCardio from './pl/HIITCardio.json';
+import pl_HomeWorkouts from './pl/HomeWorkouts.json';
 import pl_IntermittentFasting from './pl/IntermittentFasting.json';
+import pl_KetoBasics from './pl/KetoBasics.json';
 import pl_MacroCalculator from './pl/MacroCalculator.json';
 import pl_MacroEducation from './pl/MacroEducation.json';
 import pl_MuscleGain from './pl/MuscleGain.json';
+import pl_PlanYourPlate from './pl/PlanYourPlate.json';
+import pl_PostureCorrection from './pl/PostureCorrection.json';
 import pl_StepTracker from './pl/StepTracker.json';
+import pl_StrengthTraining from './pl/StrengthTraining.json';
 import pl_VeganNutrition from './pl/VeganNutrition.json';
 import pl_WaterIntake from './pl/WaterIntake.json';
 import pl_WeightLoss from './pl/WeightLoss.json';
+import pl_YogaFlexibility from './pl/YogaFlexibility.json';
 import pt_BMICalculator from './pt/BMICalculator.json';
 import pt_CalorieBurner from './pt/CalorieBurner.json';
 import pt_common from './pt/common.json';
+import pt_DailySugarEase from './pt/DailySugarEase.json';
 import pt_DiabetesDiet from './pt/DiabetesDiet.json';
+import pt_FastTimer from './pt/FastTimer.json';
 import pt_FlexibilityMobility from './pt/FlexibilityMobility.json';
 import pt_FoodDiary from './pt/FoodDiary.json';
 import pt_GutHealth from './pt/GutHealth.json';
+import pt_HealthyRecipeLog from './pt/HealthyRecipeLog.json';
 import pt_HeartHealth from './pt/HeartHealth.json';
+import pt_HIITCardio from './pt/HIITCardio.json';
+import pt_HomeWorkouts from './pt/HomeWorkouts.json';
 import pt_IntermittentFasting from './pt/IntermittentFasting.json';
+import pt_KetoBasics from './pt/KetoBasics.json';
 import pt_MacroCalculator from './pt/MacroCalculator.json';
 import pt_MacroEducation from './pt/MacroEducation.json';
 import pt_MuscleGain from './pt/MuscleGain.json';
+import pt_PlanYourPlate from './pt/PlanYourPlate.json';
+import pt_PostureCorrection from './pt/PostureCorrection.json';
 import pt_StepTracker from './pt/StepTracker.json';
+import pt_StrengthTraining from './pt/StrengthTraining.json';
 import pt_VeganNutrition from './pt/VeganNutrition.json';
 import pt_WaterIntake from './pt/WaterIntake.json';
 import pt_WeightLoss from './pt/WeightLoss.json';
+import pt_YogaFlexibility from './pt/YogaFlexibility.json';
 import ro_BMICalculator from './ro/BMICalculator.json';
 import ro_CalorieBurner from './ro/CalorieBurner.json';
 import ro_common from './ro/common.json';
+import ro_DailySugarEase from './ro/DailySugarEase.json';
 import ro_DiabetesDiet from './ro/DiabetesDiet.json';
+import ro_FastTimer from './ro/FastTimer.json';
 import ro_FlexibilityMobility from './ro/FlexibilityMobility.json';
 import ro_FoodDiary from './ro/FoodDiary.json';
 import ro_GutHealth from './ro/GutHealth.json';
+import ro_HealthyRecipeLog from './ro/HealthyRecipeLog.json';
 import ro_HeartHealth from './ro/HeartHealth.json';
+import ro_HIITCardio from './ro/HIITCardio.json';
+import ro_HomeWorkouts from './ro/HomeWorkouts.json';
 import ro_IntermittentFasting from './ro/IntermittentFasting.json';
+import ro_KetoBasics from './ro/KetoBasics.json';
 import ro_MacroCalculator from './ro/MacroCalculator.json';
 import ro_MacroEducation from './ro/MacroEducation.json';
 import ro_MuscleGain from './ro/MuscleGain.json';
+import ro_PlanYourPlate from './ro/PlanYourPlate.json';
+import ro_PostureCorrection from './ro/PostureCorrection.json';
 import ro_StepTracker from './ro/StepTracker.json';
+import ro_StrengthTraining from './ro/StrengthTraining.json';
 import ro_VeganNutrition from './ro/VeganNutrition.json';
 import ro_WaterIntake from './ro/WaterIntake.json';
 import ro_WeightLoss from './ro/WeightLoss.json';
+import ro_YogaFlexibility from './ro/YogaFlexibility.json';
 import ru_BMICalculator from './ru/BMICalculator.json';
 import ru_CalorieBurner from './ru/CalorieBurner.json';
 import ru_common from './ru/common.json';
+import ru_DailySugarEase from './ru/DailySugarEase.json';
 import ru_DiabetesDiet from './ru/DiabetesDiet.json';
+import ru_FastTimer from './ru/FastTimer.json';
 import ru_FlexibilityMobility from './ru/FlexibilityMobility.json';
 import ru_FoodDiary from './ru/FoodDiary.json';
 import ru_GutHealth from './ru/GutHealth.json';
+import ru_HealthyRecipeLog from './ru/HealthyRecipeLog.json';
 import ru_HeartHealth from './ru/HeartHealth.json';
+import ru_HIITCardio from './ru/HIITCardio.json';
+import ru_HomeWorkouts from './ru/HomeWorkouts.json';
 import ru_IntermittentFasting from './ru/IntermittentFasting.json';
+import ru_KetoBasics from './ru/KetoBasics.json';
 import ru_MacroCalculator from './ru/MacroCalculator.json';
 import ru_MacroEducation from './ru/MacroEducation.json';
 import ru_MuscleGain from './ru/MuscleGain.json';
+import ru_PlanYourPlate from './ru/PlanYourPlate.json';
+import ru_PostureCorrection from './ru/PostureCorrection.json';
 import ru_StepTracker from './ru/StepTracker.json';
+import ru_StrengthTraining from './ru/StrengthTraining.json';
 import ru_VeganNutrition from './ru/VeganNutrition.json';
 import ru_WaterIntake from './ru/WaterIntake.json';
 import ru_WeightLoss from './ru/WeightLoss.json';
+import ru_YogaFlexibility from './ru/YogaFlexibility.json';
 import sv_BMICalculator from './sv/BMICalculator.json';
 import sv_CalorieBurner from './sv/CalorieBurner.json';
 import sv_common from './sv/common.json';
+import sv_DailySugarEase from './sv/DailySugarEase.json';
 import sv_DiabetesDiet from './sv/DiabetesDiet.json';
+import sv_FastTimer from './sv/FastTimer.json';
 import sv_FlexibilityMobility from './sv/FlexibilityMobility.json';
 import sv_FoodDiary from './sv/FoodDiary.json';
 import sv_GutHealth from './sv/GutHealth.json';
+import sv_HealthyRecipeLog from './sv/HealthyRecipeLog.json';
 import sv_HeartHealth from './sv/HeartHealth.json';
+import sv_HIITCardio from './sv/HIITCardio.json';
+import sv_HomeWorkouts from './sv/HomeWorkouts.json';
 import sv_IntermittentFasting from './sv/IntermittentFasting.json';
+import sv_KetoBasics from './sv/KetoBasics.json';
 import sv_MacroCalculator from './sv/MacroCalculator.json';
 import sv_MacroEducation from './sv/MacroEducation.json';
 import sv_MuscleGain from './sv/MuscleGain.json';
+import sv_PlanYourPlate from './sv/PlanYourPlate.json';
+import sv_PostureCorrection from './sv/PostureCorrection.json';
 import sv_StepTracker from './sv/StepTracker.json';
+import sv_StrengthTraining from './sv/StrengthTraining.json';
 import sv_VeganNutrition from './sv/VeganNutrition.json';
 import sv_WaterIntake from './sv/WaterIntake.json';
 import sv_WeightLoss from './sv/WeightLoss.json';
+import sv_YogaFlexibility from './sv/YogaFlexibility.json';
 import ta_BMICalculator from './ta/BMICalculator.json';
 import ta_CalorieBurner from './ta/CalorieBurner.json';
 import ta_common from './ta/common.json';
+import ta_DailySugarEase from './ta/DailySugarEase.json';
 import ta_DiabetesDiet from './ta/DiabetesDiet.json';
+import ta_FastTimer from './ta/FastTimer.json';
 import ta_FlexibilityMobility from './ta/FlexibilityMobility.json';
 import ta_FoodDiary from './ta/FoodDiary.json';
 import ta_GutHealth from './ta/GutHealth.json';
+import ta_HealthyRecipeLog from './ta/HealthyRecipeLog.json';
 import ta_HeartHealth from './ta/HeartHealth.json';
+import ta_HIITCardio from './ta/HIITCardio.json';
+import ta_HomeWorkouts from './ta/HomeWorkouts.json';
 import ta_IntermittentFasting from './ta/IntermittentFasting.json';
+import ta_KetoBasics from './ta/KetoBasics.json';
 import ta_MacroCalculator from './ta/MacroCalculator.json';
 import ta_MacroEducation from './ta/MacroEducation.json';
 import ta_MuscleGain from './ta/MuscleGain.json';
+import ta_PlanYourPlate from './ta/PlanYourPlate.json';
+import ta_PostureCorrection from './ta/PostureCorrection.json';
 import ta_StepTracker from './ta/StepTracker.json';
+import ta_StrengthTraining from './ta/StrengthTraining.json';
 import ta_VeganNutrition from './ta/VeganNutrition.json';
 import ta_WaterIntake from './ta/WaterIntake.json';
 import ta_WeightLoss from './ta/WeightLoss.json';
+import ta_YogaFlexibility from './ta/YogaFlexibility.json';
 import te_BMICalculator from './te/BMICalculator.json';
 import te_CalorieBurner from './te/CalorieBurner.json';
 import te_common from './te/common.json';
+import te_DailySugarEase from './te/DailySugarEase.json';
 import te_DiabetesDiet from './te/DiabetesDiet.json';
+import te_FastTimer from './te/FastTimer.json';
 import te_FlexibilityMobility from './te/FlexibilityMobility.json';
 import te_FoodDiary from './te/FoodDiary.json';
 import te_GutHealth from './te/GutHealth.json';
+import te_HealthyRecipeLog from './te/HealthyRecipeLog.json';
 import te_HeartHealth from './te/HeartHealth.json';
+import te_HIITCardio from './te/HIITCardio.json';
+import te_HomeWorkouts from './te/HomeWorkouts.json';
 import te_IntermittentFasting from './te/IntermittentFasting.json';
+import te_KetoBasics from './te/KetoBasics.json';
 import te_MacroCalculator from './te/MacroCalculator.json';
 import te_MacroEducation from './te/MacroEducation.json';
 import te_MuscleGain from './te/MuscleGain.json';
+import te_PlanYourPlate from './te/PlanYourPlate.json';
+import te_PostureCorrection from './te/PostureCorrection.json';
 import te_StepTracker from './te/StepTracker.json';
+import te_StrengthTraining from './te/StrengthTraining.json';
 import te_VeganNutrition from './te/VeganNutrition.json';
 import te_WaterIntake from './te/WaterIntake.json';
 import te_WeightLoss from './te/WeightLoss.json';
+import te_YogaFlexibility from './te/YogaFlexibility.json';
 import th_BMICalculator from './th/BMICalculator.json';
 import th_CalorieBurner from './th/CalorieBurner.json';
 import th_common from './th/common.json';
+import th_DailySugarEase from './th/DailySugarEase.json';
 import th_DiabetesDiet from './th/DiabetesDiet.json';
+import th_FastTimer from './th/FastTimer.json';
 import th_FlexibilityMobility from './th/FlexibilityMobility.json';
 import th_FoodDiary from './th/FoodDiary.json';
 import th_GutHealth from './th/GutHealth.json';
+import th_HealthyRecipeLog from './th/HealthyRecipeLog.json';
 import th_HeartHealth from './th/HeartHealth.json';
+import th_HIITCardio from './th/HIITCardio.json';
+import th_HomeWorkouts from './th/HomeWorkouts.json';
 import th_IntermittentFasting from './th/IntermittentFasting.json';
+import th_KetoBasics from './th/KetoBasics.json';
 import th_MacroCalculator from './th/MacroCalculator.json';
 import th_MacroEducation from './th/MacroEducation.json';
 import th_MuscleGain from './th/MuscleGain.json';
+import th_PlanYourPlate from './th/PlanYourPlate.json';
+import th_PostureCorrection from './th/PostureCorrection.json';
 import th_StepTracker from './th/StepTracker.json';
+import th_StrengthTraining from './th/StrengthTraining.json';
 import th_VeganNutrition from './th/VeganNutrition.json';
 import th_WaterIntake from './th/WaterIntake.json';
 import th_WeightLoss from './th/WeightLoss.json';
+import th_YogaFlexibility from './th/YogaFlexibility.json';
 import tl_BMICalculator from './tl/BMICalculator.json';
 import tl_CalorieBurner from './tl/CalorieBurner.json';
 import tl_common from './tl/common.json';
+import tl_DailySugarEase from './tl/DailySugarEase.json';
 import tl_DiabetesDiet from './tl/DiabetesDiet.json';
+import tl_FastTimer from './tl/FastTimer.json';
 import tl_FlexibilityMobility from './tl/FlexibilityMobility.json';
 import tl_FoodDiary from './tl/FoodDiary.json';
 import tl_GutHealth from './tl/GutHealth.json';
+import tl_HealthyRecipeLog from './tl/HealthyRecipeLog.json';
 import tl_HeartHealth from './tl/HeartHealth.json';
+import tl_HIITCardio from './tl/HIITCardio.json';
+import tl_HomeWorkouts from './tl/HomeWorkouts.json';
 import tl_IntermittentFasting from './tl/IntermittentFasting.json';
+import tl_KetoBasics from './tl/KetoBasics.json';
 import tl_MacroCalculator from './tl/MacroCalculator.json';
 import tl_MacroEducation from './tl/MacroEducation.json';
 import tl_MuscleGain from './tl/MuscleGain.json';
+import tl_PlanYourPlate from './tl/PlanYourPlate.json';
+import tl_PostureCorrection from './tl/PostureCorrection.json';
 import tl_StepTracker from './tl/StepTracker.json';
+import tl_StrengthTraining from './tl/StrengthTraining.json';
 import tl_VeganNutrition from './tl/VeganNutrition.json';
 import tl_WaterIntake from './tl/WaterIntake.json';
 import tl_WeightLoss from './tl/WeightLoss.json';
+import tl_YogaFlexibility from './tl/YogaFlexibility.json';
 import tr_BMICalculator from './tr/BMICalculator.json';
 import tr_CalorieBurner from './tr/CalorieBurner.json';
 import tr_common from './tr/common.json';
+import tr_DailySugarEase from './tr/DailySugarEase.json';
 import tr_DiabetesDiet from './tr/DiabetesDiet.json';
+import tr_FastTimer from './tr/FastTimer.json';
 import tr_FlexibilityMobility from './tr/FlexibilityMobility.json';
 import tr_FoodDiary from './tr/FoodDiary.json';
 import tr_GutHealth from './tr/GutHealth.json';
+import tr_HealthyRecipeLog from './tr/HealthyRecipeLog.json';
 import tr_HeartHealth from './tr/HeartHealth.json';
+import tr_HIITCardio from './tr/HIITCardio.json';
+import tr_HomeWorkouts from './tr/HomeWorkouts.json';
 import tr_IntermittentFasting from './tr/IntermittentFasting.json';
+import tr_KetoBasics from './tr/KetoBasics.json';
 import tr_MacroCalculator from './tr/MacroCalculator.json';
 import tr_MacroEducation from './tr/MacroEducation.json';
 import tr_MuscleGain from './tr/MuscleGain.json';
+import tr_PlanYourPlate from './tr/PlanYourPlate.json';
+import tr_PostureCorrection from './tr/PostureCorrection.json';
 import tr_StepTracker from './tr/StepTracker.json';
+import tr_StrengthTraining from './tr/StrengthTraining.json';
 import tr_VeganNutrition from './tr/VeganNutrition.json';
 import tr_WaterIntake from './tr/WaterIntake.json';
 import tr_WeightLoss from './tr/WeightLoss.json';
+import tr_YogaFlexibility from './tr/YogaFlexibility.json';
 import uk_BMICalculator from './uk/BMICalculator.json';
 import uk_CalorieBurner from './uk/CalorieBurner.json';
 import uk_common from './uk/common.json';
+import uk_DailySugarEase from './uk/DailySugarEase.json';
 import uk_DiabetesDiet from './uk/DiabetesDiet.json';
+import uk_FastTimer from './uk/FastTimer.json';
 import uk_FlexibilityMobility from './uk/FlexibilityMobility.json';
 import uk_FoodDiary from './uk/FoodDiary.json';
 import uk_GutHealth from './uk/GutHealth.json';
+import uk_HealthyRecipeLog from './uk/HealthyRecipeLog.json';
 import uk_HeartHealth from './uk/HeartHealth.json';
+import uk_HIITCardio from './uk/HIITCardio.json';
+import uk_HomeWorkouts from './uk/HomeWorkouts.json';
 import uk_IntermittentFasting from './uk/IntermittentFasting.json';
+import uk_KetoBasics from './uk/KetoBasics.json';
 import uk_MacroCalculator from './uk/MacroCalculator.json';
 import uk_MacroEducation from './uk/MacroEducation.json';
 import uk_MuscleGain from './uk/MuscleGain.json';
+import uk_PlanYourPlate from './uk/PlanYourPlate.json';
+import uk_PostureCorrection from './uk/PostureCorrection.json';
 import uk_StepTracker from './uk/StepTracker.json';
+import uk_StrengthTraining from './uk/StrengthTraining.json';
 import uk_VeganNutrition from './uk/VeganNutrition.json';
 import uk_WaterIntake from './uk/WaterIntake.json';
 import uk_WeightLoss from './uk/WeightLoss.json';
+import uk_YogaFlexibility from './uk/YogaFlexibility.json';
 import ur_BMICalculator from './ur/BMICalculator.json';
 import ur_CalorieBurner from './ur/CalorieBurner.json';
 import ur_common from './ur/common.json';
+import ur_DailySugarEase from './ur/DailySugarEase.json';
 import ur_DiabetesDiet from './ur/DiabetesDiet.json';
+import ur_FastTimer from './ur/FastTimer.json';
 import ur_FlexibilityMobility from './ur/FlexibilityMobility.json';
 import ur_FoodDiary from './ur/FoodDiary.json';
 import ur_GutHealth from './ur/GutHealth.json';
+import ur_HealthyRecipeLog from './ur/HealthyRecipeLog.json';
 import ur_HeartHealth from './ur/HeartHealth.json';
+import ur_HIITCardio from './ur/HIITCardio.json';
+import ur_HomeWorkouts from './ur/HomeWorkouts.json';
 import ur_IntermittentFasting from './ur/IntermittentFasting.json';
+import ur_KetoBasics from './ur/KetoBasics.json';
 import ur_MacroCalculator from './ur/MacroCalculator.json';
 import ur_MacroEducation from './ur/MacroEducation.json';
 import ur_MuscleGain from './ur/MuscleGain.json';
+import ur_PlanYourPlate from './ur/PlanYourPlate.json';
+import ur_PostureCorrection from './ur/PostureCorrection.json';
 import ur_StepTracker from './ur/StepTracker.json';
+import ur_StrengthTraining from './ur/StrengthTraining.json';
 import ur_VeganNutrition from './ur/VeganNutrition.json';
 import ur_WaterIntake from './ur/WaterIntake.json';
 import ur_WeightLoss from './ur/WeightLoss.json';
+import ur_YogaFlexibility from './ur/YogaFlexibility.json';
 import vi_BMICalculator from './vi/BMICalculator.json';
 import vi_CalorieBurner from './vi/CalorieBurner.json';
 import vi_common from './vi/common.json';
+import vi_DailySugarEase from './vi/DailySugarEase.json';
 import vi_DiabetesDiet from './vi/DiabetesDiet.json';
+import vi_FastTimer from './vi/FastTimer.json';
 import vi_FlexibilityMobility from './vi/FlexibilityMobility.json';
 import vi_FoodDiary from './vi/FoodDiary.json';
 import vi_GutHealth from './vi/GutHealth.json';
+import vi_HealthyRecipeLog from './vi/HealthyRecipeLog.json';
 import vi_HeartHealth from './vi/HeartHealth.json';
+import vi_HIITCardio from './vi/HIITCardio.json';
+import vi_HomeWorkouts from './vi/HomeWorkouts.json';
 import vi_IntermittentFasting from './vi/IntermittentFasting.json';
+import vi_KetoBasics from './vi/KetoBasics.json';
 import vi_MacroCalculator from './vi/MacroCalculator.json';
 import vi_MacroEducation from './vi/MacroEducation.json';
 import vi_MuscleGain from './vi/MuscleGain.json';
+import vi_PlanYourPlate from './vi/PlanYourPlate.json';
+import vi_PostureCorrection from './vi/PostureCorrection.json';
 import vi_StepTracker from './vi/StepTracker.json';
+import vi_StrengthTraining from './vi/StrengthTraining.json';
 import vi_VeganNutrition from './vi/VeganNutrition.json';
 import vi_WaterIntake from './vi/WaterIntake.json';
 import vi_WeightLoss from './vi/WeightLoss.json';
+import vi_YogaFlexibility from './vi/YogaFlexibility.json';
 import zh_Hans_BMICalculator from './zh-Hans/BMICalculator.json';
 import zh_Hans_CalorieBurner from './zh-Hans/CalorieBurner.json';
 import zh_Hans_common from './zh-Hans/common.json';
+import zh_Hans_DailySugarEase from './zh-Hans/DailySugarEase.json';
 import zh_Hans_DiabetesDiet from './zh-Hans/DiabetesDiet.json';
+import zh_Hans_FastTimer from './zh-Hans/FastTimer.json';
 import zh_Hans_FlexibilityMobility from './zh-Hans/FlexibilityMobility.json';
 import zh_Hans_FoodDiary from './zh-Hans/FoodDiary.json';
 import zh_Hans_GutHealth from './zh-Hans/GutHealth.json';
+import zh_Hans_HealthyRecipeLog from './zh-Hans/HealthyRecipeLog.json';
 import zh_Hans_HeartHealth from './zh-Hans/HeartHealth.json';
+import zh_Hans_HIITCardio from './zh-Hans/HIITCardio.json';
+import zh_Hans_HomeWorkouts from './zh-Hans/HomeWorkouts.json';
 import zh_Hans_IntermittentFasting from './zh-Hans/IntermittentFasting.json';
+import zh_Hans_KetoBasics from './zh-Hans/KetoBasics.json';
 import zh_Hans_MacroCalculator from './zh-Hans/MacroCalculator.json';
 import zh_Hans_MacroEducation from './zh-Hans/MacroEducation.json';
 import zh_Hans_MuscleGain from './zh-Hans/MuscleGain.json';
+import zh_Hans_PlanYourPlate from './zh-Hans/PlanYourPlate.json';
+import zh_Hans_PostureCorrection from './zh-Hans/PostureCorrection.json';
 import zh_Hans_StepTracker from './zh-Hans/StepTracker.json';
+import zh_Hans_StrengthTraining from './zh-Hans/StrengthTraining.json';
 import zh_Hans_VeganNutrition from './zh-Hans/VeganNutrition.json';
 import zh_Hans_WaterIntake from './zh-Hans/WaterIntake.json';
 import zh_Hans_WeightLoss from './zh-Hans/WeightLoss.json';
+import zh_Hans_YogaFlexibility from './zh-Hans/YogaFlexibility.json';
 import zh_Hant_BMICalculator from './zh-Hant/BMICalculator.json';
 import zh_Hant_CalorieBurner from './zh-Hant/CalorieBurner.json';
 import zh_Hant_common from './zh-Hant/common.json';
+import zh_Hant_DailySugarEase from './zh-Hant/DailySugarEase.json';
 import zh_Hant_DiabetesDiet from './zh-Hant/DiabetesDiet.json';
+import zh_Hant_FastTimer from './zh-Hant/FastTimer.json';
 import zh_Hant_FlexibilityMobility from './zh-Hant/FlexibilityMobility.json';
 import zh_Hant_FoodDiary from './zh-Hant/FoodDiary.json';
 import zh_Hant_GutHealth from './zh-Hant/GutHealth.json';
+import zh_Hant_HealthyRecipeLog from './zh-Hant/HealthyRecipeLog.json';
 import zh_Hant_HeartHealth from './zh-Hant/HeartHealth.json';
+import zh_Hant_HIITCardio from './zh-Hant/HIITCardio.json';
+import zh_Hant_HomeWorkouts from './zh-Hant/HomeWorkouts.json';
 import zh_Hant_IntermittentFasting from './zh-Hant/IntermittentFasting.json';
+import zh_Hant_KetoBasics from './zh-Hant/KetoBasics.json';
 import zh_Hant_MacroCalculator from './zh-Hant/MacroCalculator.json';
 import zh_Hant_MacroEducation from './zh-Hant/MacroEducation.json';
 import zh_Hant_MuscleGain from './zh-Hant/MuscleGain.json';
+import zh_Hant_PlanYourPlate from './zh-Hant/PlanYourPlate.json';
+import zh_Hant_PostureCorrection from './zh-Hant/PostureCorrection.json';
 import zh_Hant_StepTracker from './zh-Hant/StepTracker.json';
+import zh_Hant_StrengthTraining from './zh-Hant/StrengthTraining.json';
 import zh_Hant_VeganNutrition from './zh-Hant/VeganNutrition.json';
 import zh_Hant_WaterIntake from './zh-Hant/WaterIntake.json';
 import zh_Hant_WeightLoss from './zh-Hant/WeightLoss.json';
+import zh_Hant_YogaFlexibility from './zh-Hant/YogaFlexibility.json';
 
 export const resources: any = {
   'ar': {
     'BMICalculator': ar_BMICalculator,
     'CalorieBurner': ar_CalorieBurner,
     'common': ar_common,
+    'DailySugarEase': ar_DailySugarEase,
     'DiabetesDiet': ar_DiabetesDiet,
+    'FastTimer': ar_FastTimer,
     'FlexibilityMobility': ar_FlexibilityMobility,
     'FoodDiary': ar_FoodDiary,
     'GutHealth': ar_GutHealth,
+    'HealthyRecipeLog': ar_HealthyRecipeLog,
     'HeartHealth': ar_HeartHealth,
+    'HIITCardio': ar_HIITCardio,
+    'HomeWorkouts': ar_HomeWorkouts,
     'IntermittentFasting': ar_IntermittentFasting,
+    'KetoBasics': ar_KetoBasics,
     'MacroCalculator': ar_MacroCalculator,
     'MacroEducation': ar_MacroEducation,
     'MuscleGain': ar_MuscleGain,
+    'PlanYourPlate': ar_PlanYourPlate,
+    'PostureCorrection': ar_PostureCorrection,
     'StepTracker': ar_StepTracker,
+    'StrengthTraining': ar_StrengthTraining,
     'VeganNutrition': ar_VeganNutrition,
     'WaterIntake': ar_WaterIntake,
     'WeightLoss': ar_WeightLoss,
+    'YogaFlexibility': ar_YogaFlexibility,
   },
   'bn': {
     'BMICalculator': bn_BMICalculator,
     'CalorieBurner': bn_CalorieBurner,
     'common': bn_common,
+    'DailySugarEase': bn_DailySugarEase,
     'DiabetesDiet': bn_DiabetesDiet,
+    'FastTimer': bn_FastTimer,
     'FlexibilityMobility': bn_FlexibilityMobility,
     'FoodDiary': bn_FoodDiary,
     'GutHealth': bn_GutHealth,
+    'HealthyRecipeLog': bn_HealthyRecipeLog,
     'HeartHealth': bn_HeartHealth,
+    'HIITCardio': bn_HIITCardio,
+    'HomeWorkouts': bn_HomeWorkouts,
     'IntermittentFasting': bn_IntermittentFasting,
+    'KetoBasics': bn_KetoBasics,
     'MacroCalculator': bn_MacroCalculator,
     'MacroEducation': bn_MacroEducation,
     'MuscleGain': bn_MuscleGain,
+    'PlanYourPlate': bn_PlanYourPlate,
+    'PostureCorrection': bn_PostureCorrection,
     'StepTracker': bn_StepTracker,
+    'StrengthTraining': bn_StrengthTraining,
     'VeganNutrition': bn_VeganNutrition,
     'WaterIntake': bn_WaterIntake,
     'WeightLoss': bn_WeightLoss,
+    'YogaFlexibility': bn_YogaFlexibility,
   },
   'cs': {
     'BMICalculator': cs_BMICalculator,
     'CalorieBurner': cs_CalorieBurner,
     'common': cs_common,
+    'DailySugarEase': cs_DailySugarEase,
     'DiabetesDiet': cs_DiabetesDiet,
+    'FastTimer': cs_FastTimer,
     'FlexibilityMobility': cs_FlexibilityMobility,
     'FoodDiary': cs_FoodDiary,
     'GutHealth': cs_GutHealth,
+    'HealthyRecipeLog': cs_HealthyRecipeLog,
     'HeartHealth': cs_HeartHealth,
+    'HIITCardio': cs_HIITCardio,
+    'HomeWorkouts': cs_HomeWorkouts,
     'IntermittentFasting': cs_IntermittentFasting,
+    'KetoBasics': cs_KetoBasics,
     'MacroCalculator': cs_MacroCalculator,
     'MacroEducation': cs_MacroEducation,
     'MuscleGain': cs_MuscleGain,
+    'PlanYourPlate': cs_PlanYourPlate,
+    'PostureCorrection': cs_PostureCorrection,
     'StepTracker': cs_StepTracker,
+    'StrengthTraining': cs_StrengthTraining,
     'VeganNutrition': cs_VeganNutrition,
     'WaterIntake': cs_WaterIntake,
     'WeightLoss': cs_WeightLoss,
+    'YogaFlexibility': cs_YogaFlexibility,
   },
   'da': {
     'BMICalculator': da_BMICalculator,
     'CalorieBurner': da_CalorieBurner,
     'common': da_common,
+    'DailySugarEase': da_DailySugarEase,
     'DiabetesDiet': da_DiabetesDiet,
+    'FastTimer': da_FastTimer,
     'FlexibilityMobility': da_FlexibilityMobility,
     'FoodDiary': da_FoodDiary,
     'GutHealth': da_GutHealth,
+    'HealthyRecipeLog': da_HealthyRecipeLog,
     'HeartHealth': da_HeartHealth,
+    'HIITCardio': da_HIITCardio,
+    'HomeWorkouts': da_HomeWorkouts,
     'IntermittentFasting': da_IntermittentFasting,
+    'KetoBasics': da_KetoBasics,
     'MacroCalculator': da_MacroCalculator,
     'MacroEducation': da_MacroEducation,
     'MuscleGain': da_MuscleGain,
+    'PlanYourPlate': da_PlanYourPlate,
+    'PostureCorrection': da_PostureCorrection,
     'StepTracker': da_StepTracker,
+    'StrengthTraining': da_StrengthTraining,
     'VeganNutrition': da_VeganNutrition,
     'WaterIntake': da_WaterIntake,
     'WeightLoss': da_WeightLoss,
+    'YogaFlexibility': da_YogaFlexibility,
   },
   'de': {
     'BMICalculator': de_BMICalculator,
     'CalorieBurner': de_CalorieBurner,
     'common': de_common,
+    'DailySugarEase': de_DailySugarEase,
     'DiabetesDiet': de_DiabetesDiet,
+    'FastTimer': de_FastTimer,
     'FlexibilityMobility': de_FlexibilityMobility,
     'FoodDiary': de_FoodDiary,
     'GutHealth': de_GutHealth,
+    'HealthyRecipeLog': de_HealthyRecipeLog,
     'HeartHealth': de_HeartHealth,
+    'HIITCardio': de_HIITCardio,
+    'HomeWorkouts': de_HomeWorkouts,
     'IntermittentFasting': de_IntermittentFasting,
+    'KetoBasics': de_KetoBasics,
     'MacroCalculator': de_MacroCalculator,
     'MacroEducation': de_MacroEducation,
     'MuscleGain': de_MuscleGain,
+    'PlanYourPlate': de_PlanYourPlate,
+    'PostureCorrection': de_PostureCorrection,
     'StepTracker': de_StepTracker,
+    'StrengthTraining': de_StrengthTraining,
     'VeganNutrition': de_VeganNutrition,
     'WaterIntake': de_WaterIntake,
     'WeightLoss': de_WeightLoss,
+    'YogaFlexibility': de_YogaFlexibility,
   },
   'el': {
     'BMICalculator': el_BMICalculator,
     'CalorieBurner': el_CalorieBurner,
     'common': el_common,
+    'DailySugarEase': el_DailySugarEase,
     'DiabetesDiet': el_DiabetesDiet,
+    'FastTimer': el_FastTimer,
     'FlexibilityMobility': el_FlexibilityMobility,
     'FoodDiary': el_FoodDiary,
     'GutHealth': el_GutHealth,
+    'HealthyRecipeLog': el_HealthyRecipeLog,
     'HeartHealth': el_HeartHealth,
+    'HIITCardio': el_HIITCardio,
+    'HomeWorkouts': el_HomeWorkouts,
     'IntermittentFasting': el_IntermittentFasting,
+    'KetoBasics': el_KetoBasics,
     'MacroCalculator': el_MacroCalculator,
     'MacroEducation': el_MacroEducation,
     'MuscleGain': el_MuscleGain,
+    'PlanYourPlate': el_PlanYourPlate,
+    'PostureCorrection': el_PostureCorrection,
     'StepTracker': el_StepTracker,
+    'StrengthTraining': el_StrengthTraining,
     'VeganNutrition': el_VeganNutrition,
     'WaterIntake': el_WaterIntake,
     'WeightLoss': el_WeightLoss,
+    'YogaFlexibility': el_YogaFlexibility,
   },
   'en': {
     'BMICalculator': en_BMICalculator,
     'CalorieBurner': en_CalorieBurner,
     'common': en_common,
+    'DailySugarEase': en_DailySugarEase,
     'DiabetesDiet': en_DiabetesDiet,
+    'FastTimer': en_FastTimer,
     'FlexibilityMobility': en_FlexibilityMobility,
     'FoodDiary': en_FoodDiary,
     'GutHealth': en_GutHealth,
+    'HealthyRecipeLog': en_HealthyRecipeLog,
     'HeartHealth': en_HeartHealth,
+    'HIITCardio': en_HIITCardio,
+    'HomeWorkouts': en_HomeWorkouts,
     'IntermittentFasting': en_IntermittentFasting,
+    'KetoBasics': en_KetoBasics,
     'MacroCalculator': en_MacroCalculator,
     'MacroEducation': en_MacroEducation,
     'MuscleGain': en_MuscleGain,
+    'PlanYourPlate': en_PlanYourPlate,
+    'PostureCorrection': en_PostureCorrection,
     'StepTracker': en_StepTracker,
+    'StrengthTraining': en_StrengthTraining,
     'VeganNutrition': en_VeganNutrition,
     'WaterIntake': en_WaterIntake,
     'WeightLoss': en_WeightLoss,
+    'YogaFlexibility': en_YogaFlexibility,
   },
   'es': {
     'BMICalculator': es_BMICalculator,
     'CalorieBurner': es_CalorieBurner,
     'common': es_common,
+    'DailySugarEase': es_DailySugarEase,
     'DiabetesDiet': es_DiabetesDiet,
+    'FastTimer': es_FastTimer,
     'FlexibilityMobility': es_FlexibilityMobility,
     'FoodDiary': es_FoodDiary,
     'GutHealth': es_GutHealth,
+    'HealthyRecipeLog': es_HealthyRecipeLog,
     'HeartHealth': es_HeartHealth,
+    'HIITCardio': es_HIITCardio,
+    'HomeWorkouts': es_HomeWorkouts,
     'IntermittentFasting': es_IntermittentFasting,
+    'KetoBasics': es_KetoBasics,
     'MacroCalculator': es_MacroCalculator,
     'MacroEducation': es_MacroEducation,
     'MuscleGain': es_MuscleGain,
+    'PlanYourPlate': es_PlanYourPlate,
+    'PostureCorrection': es_PostureCorrection,
     'StepTracker': es_StepTracker,
+    'StrengthTraining': es_StrengthTraining,
     'VeganNutrition': es_VeganNutrition,
     'WaterIntake': es_WaterIntake,
     'WeightLoss': es_WeightLoss,
+    'YogaFlexibility': es_YogaFlexibility,
   },
   'fi': {
     'BMICalculator': fi_BMICalculator,
     'CalorieBurner': fi_CalorieBurner,
     'common': fi_common,
+    'DailySugarEase': fi_DailySugarEase,
     'DiabetesDiet': fi_DiabetesDiet,
+    'FastTimer': fi_FastTimer,
     'FlexibilityMobility': fi_FlexibilityMobility,
     'FoodDiary': fi_FoodDiary,
     'GutHealth': fi_GutHealth,
+    'HealthyRecipeLog': fi_HealthyRecipeLog,
     'HeartHealth': fi_HeartHealth,
+    'HIITCardio': fi_HIITCardio,
+    'HomeWorkouts': fi_HomeWorkouts,
     'IntermittentFasting': fi_IntermittentFasting,
+    'KetoBasics': fi_KetoBasics,
     'MacroCalculator': fi_MacroCalculator,
     'MacroEducation': fi_MacroEducation,
     'MuscleGain': fi_MuscleGain,
+    'PlanYourPlate': fi_PlanYourPlate,
+    'PostureCorrection': fi_PostureCorrection,
     'StepTracker': fi_StepTracker,
+    'StrengthTraining': fi_StrengthTraining,
     'VeganNutrition': fi_VeganNutrition,
     'WaterIntake': fi_WaterIntake,
     'WeightLoss': fi_WeightLoss,
+    'YogaFlexibility': fi_YogaFlexibility,
   },
   'fr': {
     'BMICalculator': fr_BMICalculator,
     'CalorieBurner': fr_CalorieBurner,
     'common': fr_common,
+    'DailySugarEase': fr_DailySugarEase,
     'DiabetesDiet': fr_DiabetesDiet,
+    'FastTimer': fr_FastTimer,
     'FlexibilityMobility': fr_FlexibilityMobility,
     'FoodDiary': fr_FoodDiary,
     'GutHealth': fr_GutHealth,
+    'HealthyRecipeLog': fr_HealthyRecipeLog,
     'HeartHealth': fr_HeartHealth,
+    'HIITCardio': fr_HIITCardio,
+    'HomeWorkouts': fr_HomeWorkouts,
     'IntermittentFasting': fr_IntermittentFasting,
+    'KetoBasics': fr_KetoBasics,
     'MacroCalculator': fr_MacroCalculator,
     'MacroEducation': fr_MacroEducation,
     'MuscleGain': fr_MuscleGain,
+    'PlanYourPlate': fr_PlanYourPlate,
+    'PostureCorrection': fr_PostureCorrection,
     'StepTracker': fr_StepTracker,
+    'StrengthTraining': fr_StrengthTraining,
     'VeganNutrition': fr_VeganNutrition,
     'WaterIntake': fr_WaterIntake,
     'WeightLoss': fr_WeightLoss,
+    'YogaFlexibility': fr_YogaFlexibility,
   },
   'he': {
     'BMICalculator': he_BMICalculator,
     'CalorieBurner': he_CalorieBurner,
     'common': he_common,
+    'DailySugarEase': he_DailySugarEase,
     'DiabetesDiet': he_DiabetesDiet,
+    'FastTimer': he_FastTimer,
     'FlexibilityMobility': he_FlexibilityMobility,
     'FoodDiary': he_FoodDiary,
     'GutHealth': he_GutHealth,
+    'HealthyRecipeLog': he_HealthyRecipeLog,
     'HeartHealth': he_HeartHealth,
+    'HIITCardio': he_HIITCardio,
+    'HomeWorkouts': he_HomeWorkouts,
     'IntermittentFasting': he_IntermittentFasting,
+    'KetoBasics': he_KetoBasics,
     'MacroCalculator': he_MacroCalculator,
     'MacroEducation': he_MacroEducation,
     'MuscleGain': he_MuscleGain,
+    'PlanYourPlate': he_PlanYourPlate,
+    'PostureCorrection': he_PostureCorrection,
     'StepTracker': he_StepTracker,
+    'StrengthTraining': he_StrengthTraining,
     'VeganNutrition': he_VeganNutrition,
     'WaterIntake': he_WaterIntake,
     'WeightLoss': he_WeightLoss,
+    'YogaFlexibility': he_YogaFlexibility,
   },
   'hi': {
     'BMICalculator': hi_BMICalculator,
     'CalorieBurner': hi_CalorieBurner,
     'common': hi_common,
+    'DailySugarEase': hi_DailySugarEase,
     'DiabetesDiet': hi_DiabetesDiet,
+    'FastTimer': hi_FastTimer,
     'FlexibilityMobility': hi_FlexibilityMobility,
     'FoodDiary': hi_FoodDiary,
     'GutHealth': hi_GutHealth,
+    'HealthyRecipeLog': hi_HealthyRecipeLog,
     'HeartHealth': hi_HeartHealth,
+    'HIITCardio': hi_HIITCardio,
+    'HomeWorkouts': hi_HomeWorkouts,
     'IntermittentFasting': hi_IntermittentFasting,
+    'KetoBasics': hi_KetoBasics,
     'MacroCalculator': hi_MacroCalculator,
     'MacroEducation': hi_MacroEducation,
     'MuscleGain': hi_MuscleGain,
+    'PlanYourPlate': hi_PlanYourPlate,
+    'PostureCorrection': hi_PostureCorrection,
     'StepTracker': hi_StepTracker,
+    'StrengthTraining': hi_StrengthTraining,
     'VeganNutrition': hi_VeganNutrition,
     'WaterIntake': hi_WaterIntake,
     'WeightLoss': hi_WeightLoss,
+    'YogaFlexibility': hi_YogaFlexibility,
   },
   'hu': {
     'BMICalculator': hu_BMICalculator,
     'CalorieBurner': hu_CalorieBurner,
     'common': hu_common,
+    'DailySugarEase': hu_DailySugarEase,
     'DiabetesDiet': hu_DiabetesDiet,
+    'FastTimer': hu_FastTimer,
     'FlexibilityMobility': hu_FlexibilityMobility,
     'FoodDiary': hu_FoodDiary,
     'GutHealth': hu_GutHealth,
+    'HealthyRecipeLog': hu_HealthyRecipeLog,
     'HeartHealth': hu_HeartHealth,
+    'HIITCardio': hu_HIITCardio,
+    'HomeWorkouts': hu_HomeWorkouts,
     'IntermittentFasting': hu_IntermittentFasting,
+    'KetoBasics': hu_KetoBasics,
     'MacroCalculator': hu_MacroCalculator,
     'MacroEducation': hu_MacroEducation,
     'MuscleGain': hu_MuscleGain,
+    'PlanYourPlate': hu_PlanYourPlate,
+    'PostureCorrection': hu_PostureCorrection,
     'StepTracker': hu_StepTracker,
+    'StrengthTraining': hu_StrengthTraining,
     'VeganNutrition': hu_VeganNutrition,
     'WaterIntake': hu_WaterIntake,
     'WeightLoss': hu_WeightLoss,
+    'YogaFlexibility': hu_YogaFlexibility,
   },
   'id': {
     'BMICalculator': id_BMICalculator,
     'CalorieBurner': id_CalorieBurner,
     'common': id_common,
+    'DailySugarEase': id_DailySugarEase,
     'DiabetesDiet': id_DiabetesDiet,
+    'FastTimer': id_FastTimer,
     'FlexibilityMobility': id_FlexibilityMobility,
     'FoodDiary': id_FoodDiary,
     'GutHealth': id_GutHealth,
+    'HealthyRecipeLog': id_HealthyRecipeLog,
     'HeartHealth': id_HeartHealth,
+    'HIITCardio': id_HIITCardio,
+    'HomeWorkouts': id_HomeWorkouts,
     'IntermittentFasting': id_IntermittentFasting,
+    'KetoBasics': id_KetoBasics,
     'MacroCalculator': id_MacroCalculator,
     'MacroEducation': id_MacroEducation,
     'MuscleGain': id_MuscleGain,
+    'PlanYourPlate': id_PlanYourPlate,
+    'PostureCorrection': id_PostureCorrection,
     'StepTracker': id_StepTracker,
+    'StrengthTraining': id_StrengthTraining,
     'VeganNutrition': id_VeganNutrition,
     'WaterIntake': id_WaterIntake,
     'WeightLoss': id_WeightLoss,
+    'YogaFlexibility': id_YogaFlexibility,
   },
   'it': {
     'BMICalculator': it_BMICalculator,
     'CalorieBurner': it_CalorieBurner,
     'common': it_common,
+    'DailySugarEase': it_DailySugarEase,
     'DiabetesDiet': it_DiabetesDiet,
+    'FastTimer': it_FastTimer,
     'FlexibilityMobility': it_FlexibilityMobility,
     'FoodDiary': it_FoodDiary,
     'GutHealth': it_GutHealth,
+    'HealthyRecipeLog': it_HealthyRecipeLog,
     'HeartHealth': it_HeartHealth,
+    'HIITCardio': it_HIITCardio,
+    'HomeWorkouts': it_HomeWorkouts,
     'IntermittentFasting': it_IntermittentFasting,
+    'KetoBasics': it_KetoBasics,
     'MacroCalculator': it_MacroCalculator,
     'MacroEducation': it_MacroEducation,
     'MuscleGain': it_MuscleGain,
+    'PlanYourPlate': it_PlanYourPlate,
+    'PostureCorrection': it_PostureCorrection,
     'StepTracker': it_StepTracker,
+    'StrengthTraining': it_StrengthTraining,
     'VeganNutrition': it_VeganNutrition,
     'WaterIntake': it_WaterIntake,
     'WeightLoss': it_WeightLoss,
+    'YogaFlexibility': it_YogaFlexibility,
   },
   'ja': {
     'BMICalculator': ja_BMICalculator,
     'CalorieBurner': ja_CalorieBurner,
     'common': ja_common,
+    'DailySugarEase': ja_DailySugarEase,
     'DiabetesDiet': ja_DiabetesDiet,
+    'FastTimer': ja_FastTimer,
     'FlexibilityMobility': ja_FlexibilityMobility,
     'FoodDiary': ja_FoodDiary,
     'GutHealth': ja_GutHealth,
+    'HealthyRecipeLog': ja_HealthyRecipeLog,
     'HeartHealth': ja_HeartHealth,
+    'HIITCardio': ja_HIITCardio,
+    'HomeWorkouts': ja_HomeWorkouts,
     'IntermittentFasting': ja_IntermittentFasting,
+    'KetoBasics': ja_KetoBasics,
     'MacroCalculator': ja_MacroCalculator,
     'MacroEducation': ja_MacroEducation,
     'MuscleGain': ja_MuscleGain,
+    'PlanYourPlate': ja_PlanYourPlate,
+    'PostureCorrection': ja_PostureCorrection,
     'StepTracker': ja_StepTracker,
+    'StrengthTraining': ja_StrengthTraining,
     'VeganNutrition': ja_VeganNutrition,
     'WaterIntake': ja_WaterIntake,
     'WeightLoss': ja_WeightLoss,
+    'YogaFlexibility': ja_YogaFlexibility,
   },
   'ko': {
     'BMICalculator': ko_BMICalculator,
     'CalorieBurner': ko_CalorieBurner,
     'common': ko_common,
+    'DailySugarEase': ko_DailySugarEase,
     'DiabetesDiet': ko_DiabetesDiet,
+    'FastTimer': ko_FastTimer,
     'FlexibilityMobility': ko_FlexibilityMobility,
     'FoodDiary': ko_FoodDiary,
     'GutHealth': ko_GutHealth,
+    'HealthyRecipeLog': ko_HealthyRecipeLog,
     'HeartHealth': ko_HeartHealth,
+    'HIITCardio': ko_HIITCardio,
+    'HomeWorkouts': ko_HomeWorkouts,
     'IntermittentFasting': ko_IntermittentFasting,
+    'KetoBasics': ko_KetoBasics,
     'MacroCalculator': ko_MacroCalculator,
     'MacroEducation': ko_MacroEducation,
     'MuscleGain': ko_MuscleGain,
+    'PlanYourPlate': ko_PlanYourPlate,
+    'PostureCorrection': ko_PostureCorrection,
     'StepTracker': ko_StepTracker,
+    'StrengthTraining': ko_StrengthTraining,
     'VeganNutrition': ko_VeganNutrition,
     'WaterIntake': ko_WaterIntake,
     'WeightLoss': ko_WeightLoss,
+    'YogaFlexibility': ko_YogaFlexibility,
   },
   'ms': {
     'BMICalculator': ms_BMICalculator,
     'CalorieBurner': ms_CalorieBurner,
     'common': ms_common,
+    'DailySugarEase': ms_DailySugarEase,
     'DiabetesDiet': ms_DiabetesDiet,
+    'FastTimer': ms_FastTimer,
     'FlexibilityMobility': ms_FlexibilityMobility,
     'FoodDiary': ms_FoodDiary,
     'GutHealth': ms_GutHealth,
+    'HealthyRecipeLog': ms_HealthyRecipeLog,
     'HeartHealth': ms_HeartHealth,
+    'HIITCardio': ms_HIITCardio,
+    'HomeWorkouts': ms_HomeWorkouts,
     'IntermittentFasting': ms_IntermittentFasting,
+    'KetoBasics': ms_KetoBasics,
     'MacroCalculator': ms_MacroCalculator,
     'MacroEducation': ms_MacroEducation,
     'MuscleGain': ms_MuscleGain,
+    'PlanYourPlate': ms_PlanYourPlate,
+    'PostureCorrection': ms_PostureCorrection,
     'StepTracker': ms_StepTracker,
+    'StrengthTraining': ms_StrengthTraining,
     'VeganNutrition': ms_VeganNutrition,
     'WaterIntake': ms_WaterIntake,
     'WeightLoss': ms_WeightLoss,
+    'YogaFlexibility': ms_YogaFlexibility,
   },
   'nl': {
     'BMICalculator': nl_BMICalculator,
     'CalorieBurner': nl_CalorieBurner,
     'common': nl_common,
+    'DailySugarEase': nl_DailySugarEase,
     'DiabetesDiet': nl_DiabetesDiet,
+    'FastTimer': nl_FastTimer,
     'FlexibilityMobility': nl_FlexibilityMobility,
     'FoodDiary': nl_FoodDiary,
     'GutHealth': nl_GutHealth,
+    'HealthyRecipeLog': nl_HealthyRecipeLog,
     'HeartHealth': nl_HeartHealth,
+    'HIITCardio': nl_HIITCardio,
+    'HomeWorkouts': nl_HomeWorkouts,
     'IntermittentFasting': nl_IntermittentFasting,
+    'KetoBasics': nl_KetoBasics,
     'MacroCalculator': nl_MacroCalculator,
     'MacroEducation': nl_MacroEducation,
     'MuscleGain': nl_MuscleGain,
+    'PlanYourPlate': nl_PlanYourPlate,
+    'PostureCorrection': nl_PostureCorrection,
     'StepTracker': nl_StepTracker,
+    'StrengthTraining': nl_StrengthTraining,
     'VeganNutrition': nl_VeganNutrition,
     'WaterIntake': nl_WaterIntake,
     'WeightLoss': nl_WeightLoss,
+    'YogaFlexibility': nl_YogaFlexibility,
   },
   'no': {
     'BMICalculator': no_BMICalculator,
     'CalorieBurner': no_CalorieBurner,
     'common': no_common,
+    'DailySugarEase': no_DailySugarEase,
     'DiabetesDiet': no_DiabetesDiet,
+    'FastTimer': no_FastTimer,
     'FlexibilityMobility': no_FlexibilityMobility,
     'FoodDiary': no_FoodDiary,
     'GutHealth': no_GutHealth,
+    'HealthyRecipeLog': no_HealthyRecipeLog,
     'HeartHealth': no_HeartHealth,
+    'HIITCardio': no_HIITCardio,
+    'HomeWorkouts': no_HomeWorkouts,
     'IntermittentFasting': no_IntermittentFasting,
+    'KetoBasics': no_KetoBasics,
     'MacroCalculator': no_MacroCalculator,
     'MacroEducation': no_MacroEducation,
     'MuscleGain': no_MuscleGain,
+    'PlanYourPlate': no_PlanYourPlate,
+    'PostureCorrection': no_PostureCorrection,
     'StepTracker': no_StepTracker,
+    'StrengthTraining': no_StrengthTraining,
     'VeganNutrition': no_VeganNutrition,
     'WaterIntake': no_WaterIntake,
     'WeightLoss': no_WeightLoss,
+    'YogaFlexibility': no_YogaFlexibility,
   },
   'pl': {
     'BMICalculator': pl_BMICalculator,
     'CalorieBurner': pl_CalorieBurner,
     'common': pl_common,
+    'DailySugarEase': pl_DailySugarEase,
     'DiabetesDiet': pl_DiabetesDiet,
+    'FastTimer': pl_FastTimer,
     'FlexibilityMobility': pl_FlexibilityMobility,
     'FoodDiary': pl_FoodDiary,
     'GutHealth': pl_GutHealth,
+    'HealthyRecipeLog': pl_HealthyRecipeLog,
     'HeartHealth': pl_HeartHealth,
+    'HIITCardio': pl_HIITCardio,
+    'HomeWorkouts': pl_HomeWorkouts,
     'IntermittentFasting': pl_IntermittentFasting,
+    'KetoBasics': pl_KetoBasics,
     'MacroCalculator': pl_MacroCalculator,
     'MacroEducation': pl_MacroEducation,
     'MuscleGain': pl_MuscleGain,
+    'PlanYourPlate': pl_PlanYourPlate,
+    'PostureCorrection': pl_PostureCorrection,
     'StepTracker': pl_StepTracker,
+    'StrengthTraining': pl_StrengthTraining,
     'VeganNutrition': pl_VeganNutrition,
     'WaterIntake': pl_WaterIntake,
     'WeightLoss': pl_WeightLoss,
+    'YogaFlexibility': pl_YogaFlexibility,
   },
   'pt': {
     'BMICalculator': pt_BMICalculator,
     'CalorieBurner': pt_CalorieBurner,
     'common': pt_common,
+    'DailySugarEase': pt_DailySugarEase,
     'DiabetesDiet': pt_DiabetesDiet,
+    'FastTimer': pt_FastTimer,
     'FlexibilityMobility': pt_FlexibilityMobility,
     'FoodDiary': pt_FoodDiary,
     'GutHealth': pt_GutHealth,
+    'HealthyRecipeLog': pt_HealthyRecipeLog,
     'HeartHealth': pt_HeartHealth,
+    'HIITCardio': pt_HIITCardio,
+    'HomeWorkouts': pt_HomeWorkouts,
     'IntermittentFasting': pt_IntermittentFasting,
+    'KetoBasics': pt_KetoBasics,
     'MacroCalculator': pt_MacroCalculator,
     'MacroEducation': pt_MacroEducation,
     'MuscleGain': pt_MuscleGain,
+    'PlanYourPlate': pt_PlanYourPlate,
+    'PostureCorrection': pt_PostureCorrection,
     'StepTracker': pt_StepTracker,
+    'StrengthTraining': pt_StrengthTraining,
     'VeganNutrition': pt_VeganNutrition,
     'WaterIntake': pt_WaterIntake,
     'WeightLoss': pt_WeightLoss,
+    'YogaFlexibility': pt_YogaFlexibility,
   },
   'ro': {
     'BMICalculator': ro_BMICalculator,
     'CalorieBurner': ro_CalorieBurner,
     'common': ro_common,
+    'DailySugarEase': ro_DailySugarEase,
     'DiabetesDiet': ro_DiabetesDiet,
+    'FastTimer': ro_FastTimer,
     'FlexibilityMobility': ro_FlexibilityMobility,
     'FoodDiary': ro_FoodDiary,
     'GutHealth': ro_GutHealth,
+    'HealthyRecipeLog': ro_HealthyRecipeLog,
     'HeartHealth': ro_HeartHealth,
+    'HIITCardio': ro_HIITCardio,
+    'HomeWorkouts': ro_HomeWorkouts,
     'IntermittentFasting': ro_IntermittentFasting,
+    'KetoBasics': ro_KetoBasics,
     'MacroCalculator': ro_MacroCalculator,
     'MacroEducation': ro_MacroEducation,
     'MuscleGain': ro_MuscleGain,
+    'PlanYourPlate': ro_PlanYourPlate,
+    'PostureCorrection': ro_PostureCorrection,
     'StepTracker': ro_StepTracker,
+    'StrengthTraining': ro_StrengthTraining,
     'VeganNutrition': ro_VeganNutrition,
     'WaterIntake': ro_WaterIntake,
     'WeightLoss': ro_WeightLoss,
+    'YogaFlexibility': ro_YogaFlexibility,
   },
   'ru': {
     'BMICalculator': ru_BMICalculator,
     'CalorieBurner': ru_CalorieBurner,
     'common': ru_common,
+    'DailySugarEase': ru_DailySugarEase,
     'DiabetesDiet': ru_DiabetesDiet,
+    'FastTimer': ru_FastTimer,
     'FlexibilityMobility': ru_FlexibilityMobility,
     'FoodDiary': ru_FoodDiary,
     'GutHealth': ru_GutHealth,
+    'HealthyRecipeLog': ru_HealthyRecipeLog,
     'HeartHealth': ru_HeartHealth,
+    'HIITCardio': ru_HIITCardio,
+    'HomeWorkouts': ru_HomeWorkouts,
     'IntermittentFasting': ru_IntermittentFasting,
+    'KetoBasics': ru_KetoBasics,
     'MacroCalculator': ru_MacroCalculator,
     'MacroEducation': ru_MacroEducation,
     'MuscleGain': ru_MuscleGain,
+    'PlanYourPlate': ru_PlanYourPlate,
+    'PostureCorrection': ru_PostureCorrection,
     'StepTracker': ru_StepTracker,
+    'StrengthTraining': ru_StrengthTraining,
     'VeganNutrition': ru_VeganNutrition,
     'WaterIntake': ru_WaterIntake,
     'WeightLoss': ru_WeightLoss,
+    'YogaFlexibility': ru_YogaFlexibility,
   },
   'sv': {
     'BMICalculator': sv_BMICalculator,
     'CalorieBurner': sv_CalorieBurner,
     'common': sv_common,
+    'DailySugarEase': sv_DailySugarEase,
     'DiabetesDiet': sv_DiabetesDiet,
+    'FastTimer': sv_FastTimer,
     'FlexibilityMobility': sv_FlexibilityMobility,
     'FoodDiary': sv_FoodDiary,
     'GutHealth': sv_GutHealth,
+    'HealthyRecipeLog': sv_HealthyRecipeLog,
     'HeartHealth': sv_HeartHealth,
+    'HIITCardio': sv_HIITCardio,
+    'HomeWorkouts': sv_HomeWorkouts,
     'IntermittentFasting': sv_IntermittentFasting,
+    'KetoBasics': sv_KetoBasics,
     'MacroCalculator': sv_MacroCalculator,
     'MacroEducation': sv_MacroEducation,
     'MuscleGain': sv_MuscleGain,
+    'PlanYourPlate': sv_PlanYourPlate,
+    'PostureCorrection': sv_PostureCorrection,
     'StepTracker': sv_StepTracker,
+    'StrengthTraining': sv_StrengthTraining,
     'VeganNutrition': sv_VeganNutrition,
     'WaterIntake': sv_WaterIntake,
     'WeightLoss': sv_WeightLoss,
+    'YogaFlexibility': sv_YogaFlexibility,
   },
   'ta': {
     'BMICalculator': ta_BMICalculator,
     'CalorieBurner': ta_CalorieBurner,
     'common': ta_common,
+    'DailySugarEase': ta_DailySugarEase,
     'DiabetesDiet': ta_DiabetesDiet,
+    'FastTimer': ta_FastTimer,
     'FlexibilityMobility': ta_FlexibilityMobility,
     'FoodDiary': ta_FoodDiary,
     'GutHealth': ta_GutHealth,
+    'HealthyRecipeLog': ta_HealthyRecipeLog,
     'HeartHealth': ta_HeartHealth,
+    'HIITCardio': ta_HIITCardio,
+    'HomeWorkouts': ta_HomeWorkouts,
     'IntermittentFasting': ta_IntermittentFasting,
+    'KetoBasics': ta_KetoBasics,
     'MacroCalculator': ta_MacroCalculator,
     'MacroEducation': ta_MacroEducation,
     'MuscleGain': ta_MuscleGain,
+    'PlanYourPlate': ta_PlanYourPlate,
+    'PostureCorrection': ta_PostureCorrection,
     'StepTracker': ta_StepTracker,
+    'StrengthTraining': ta_StrengthTraining,
     'VeganNutrition': ta_VeganNutrition,
     'WaterIntake': ta_WaterIntake,
     'WeightLoss': ta_WeightLoss,
+    'YogaFlexibility': ta_YogaFlexibility,
   },
   'te': {
     'BMICalculator': te_BMICalculator,
     'CalorieBurner': te_CalorieBurner,
     'common': te_common,
+    'DailySugarEase': te_DailySugarEase,
     'DiabetesDiet': te_DiabetesDiet,
+    'FastTimer': te_FastTimer,
     'FlexibilityMobility': te_FlexibilityMobility,
     'FoodDiary': te_FoodDiary,
     'GutHealth': te_GutHealth,
+    'HealthyRecipeLog': te_HealthyRecipeLog,
     'HeartHealth': te_HeartHealth,
+    'HIITCardio': te_HIITCardio,
+    'HomeWorkouts': te_HomeWorkouts,
     'IntermittentFasting': te_IntermittentFasting,
+    'KetoBasics': te_KetoBasics,
     'MacroCalculator': te_MacroCalculator,
     'MacroEducation': te_MacroEducation,
     'MuscleGain': te_MuscleGain,
+    'PlanYourPlate': te_PlanYourPlate,
+    'PostureCorrection': te_PostureCorrection,
     'StepTracker': te_StepTracker,
+    'StrengthTraining': te_StrengthTraining,
     'VeganNutrition': te_VeganNutrition,
     'WaterIntake': te_WaterIntake,
     'WeightLoss': te_WeightLoss,
+    'YogaFlexibility': te_YogaFlexibility,
   },
   'th': {
     'BMICalculator': th_BMICalculator,
     'CalorieBurner': th_CalorieBurner,
     'common': th_common,
+    'DailySugarEase': th_DailySugarEase,
     'DiabetesDiet': th_DiabetesDiet,
+    'FastTimer': th_FastTimer,
     'FlexibilityMobility': th_FlexibilityMobility,
     'FoodDiary': th_FoodDiary,
     'GutHealth': th_GutHealth,
+    'HealthyRecipeLog': th_HealthyRecipeLog,
     'HeartHealth': th_HeartHealth,
+    'HIITCardio': th_HIITCardio,
+    'HomeWorkouts': th_HomeWorkouts,
     'IntermittentFasting': th_IntermittentFasting,
+    'KetoBasics': th_KetoBasics,
     'MacroCalculator': th_MacroCalculator,
     'MacroEducation': th_MacroEducation,
     'MuscleGain': th_MuscleGain,
+    'PlanYourPlate': th_PlanYourPlate,
+    'PostureCorrection': th_PostureCorrection,
     'StepTracker': th_StepTracker,
+    'StrengthTraining': th_StrengthTraining,
     'VeganNutrition': th_VeganNutrition,
     'WaterIntake': th_WaterIntake,
     'WeightLoss': th_WeightLoss,
+    'YogaFlexibility': th_YogaFlexibility,
   },
   'tl': {
     'BMICalculator': tl_BMICalculator,
     'CalorieBurner': tl_CalorieBurner,
     'common': tl_common,
+    'DailySugarEase': tl_DailySugarEase,
     'DiabetesDiet': tl_DiabetesDiet,
+    'FastTimer': tl_FastTimer,
     'FlexibilityMobility': tl_FlexibilityMobility,
     'FoodDiary': tl_FoodDiary,
     'GutHealth': tl_GutHealth,
+    'HealthyRecipeLog': tl_HealthyRecipeLog,
     'HeartHealth': tl_HeartHealth,
+    'HIITCardio': tl_HIITCardio,
+    'HomeWorkouts': tl_HomeWorkouts,
     'IntermittentFasting': tl_IntermittentFasting,
+    'KetoBasics': tl_KetoBasics,
     'MacroCalculator': tl_MacroCalculator,
     'MacroEducation': tl_MacroEducation,
     'MuscleGain': tl_MuscleGain,
+    'PlanYourPlate': tl_PlanYourPlate,
+    'PostureCorrection': tl_PostureCorrection,
     'StepTracker': tl_StepTracker,
+    'StrengthTraining': tl_StrengthTraining,
     'VeganNutrition': tl_VeganNutrition,
     'WaterIntake': tl_WaterIntake,
     'WeightLoss': tl_WeightLoss,
+    'YogaFlexibility': tl_YogaFlexibility,
   },
   'tr': {
     'BMICalculator': tr_BMICalculator,
     'CalorieBurner': tr_CalorieBurner,
     'common': tr_common,
+    'DailySugarEase': tr_DailySugarEase,
     'DiabetesDiet': tr_DiabetesDiet,
+    'FastTimer': tr_FastTimer,
     'FlexibilityMobility': tr_FlexibilityMobility,
     'FoodDiary': tr_FoodDiary,
     'GutHealth': tr_GutHealth,
+    'HealthyRecipeLog': tr_HealthyRecipeLog,
     'HeartHealth': tr_HeartHealth,
+    'HIITCardio': tr_HIITCardio,
+    'HomeWorkouts': tr_HomeWorkouts,
     'IntermittentFasting': tr_IntermittentFasting,
+    'KetoBasics': tr_KetoBasics,
     'MacroCalculator': tr_MacroCalculator,
     'MacroEducation': tr_MacroEducation,
     'MuscleGain': tr_MuscleGain,
+    'PlanYourPlate': tr_PlanYourPlate,
+    'PostureCorrection': tr_PostureCorrection,
     'StepTracker': tr_StepTracker,
+    'StrengthTraining': tr_StrengthTraining,
     'VeganNutrition': tr_VeganNutrition,
     'WaterIntake': tr_WaterIntake,
     'WeightLoss': tr_WeightLoss,
+    'YogaFlexibility': tr_YogaFlexibility,
   },
   'uk': {
     'BMICalculator': uk_BMICalculator,
     'CalorieBurner': uk_CalorieBurner,
     'common': uk_common,
+    'DailySugarEase': uk_DailySugarEase,
     'DiabetesDiet': uk_DiabetesDiet,
+    'FastTimer': uk_FastTimer,
     'FlexibilityMobility': uk_FlexibilityMobility,
     'FoodDiary': uk_FoodDiary,
     'GutHealth': uk_GutHealth,
+    'HealthyRecipeLog': uk_HealthyRecipeLog,
     'HeartHealth': uk_HeartHealth,
+    'HIITCardio': uk_HIITCardio,
+    'HomeWorkouts': uk_HomeWorkouts,
     'IntermittentFasting': uk_IntermittentFasting,
+    'KetoBasics': uk_KetoBasics,
     'MacroCalculator': uk_MacroCalculator,
     'MacroEducation': uk_MacroEducation,
     'MuscleGain': uk_MuscleGain,
+    'PlanYourPlate': uk_PlanYourPlate,
+    'PostureCorrection': uk_PostureCorrection,
     'StepTracker': uk_StepTracker,
+    'StrengthTraining': uk_StrengthTraining,
     'VeganNutrition': uk_VeganNutrition,
     'WaterIntake': uk_WaterIntake,
     'WeightLoss': uk_WeightLoss,
+    'YogaFlexibility': uk_YogaFlexibility,
   },
   'ur': {
     'BMICalculator': ur_BMICalculator,
     'CalorieBurner': ur_CalorieBurner,
     'common': ur_common,
+    'DailySugarEase': ur_DailySugarEase,
     'DiabetesDiet': ur_DiabetesDiet,
+    'FastTimer': ur_FastTimer,
     'FlexibilityMobility': ur_FlexibilityMobility,
     'FoodDiary': ur_FoodDiary,
     'GutHealth': ur_GutHealth,
+    'HealthyRecipeLog': ur_HealthyRecipeLog,
     'HeartHealth': ur_HeartHealth,
+    'HIITCardio': ur_HIITCardio,
+    'HomeWorkouts': ur_HomeWorkouts,
     'IntermittentFasting': ur_IntermittentFasting,
+    'KetoBasics': ur_KetoBasics,
     'MacroCalculator': ur_MacroCalculator,
     'MacroEducation': ur_MacroEducation,
     'MuscleGain': ur_MuscleGain,
+    'PlanYourPlate': ur_PlanYourPlate,
+    'PostureCorrection': ur_PostureCorrection,
     'StepTracker': ur_StepTracker,
+    'StrengthTraining': ur_StrengthTraining,
     'VeganNutrition': ur_VeganNutrition,
     'WaterIntake': ur_WaterIntake,
     'WeightLoss': ur_WeightLoss,
+    'YogaFlexibility': ur_YogaFlexibility,
   },
   'vi': {
     'BMICalculator': vi_BMICalculator,
     'CalorieBurner': vi_CalorieBurner,
     'common': vi_common,
+    'DailySugarEase': vi_DailySugarEase,
     'DiabetesDiet': vi_DiabetesDiet,
+    'FastTimer': vi_FastTimer,
     'FlexibilityMobility': vi_FlexibilityMobility,
     'FoodDiary': vi_FoodDiary,
     'GutHealth': vi_GutHealth,
+    'HealthyRecipeLog': vi_HealthyRecipeLog,
     'HeartHealth': vi_HeartHealth,
+    'HIITCardio': vi_HIITCardio,
+    'HomeWorkouts': vi_HomeWorkouts,
     'IntermittentFasting': vi_IntermittentFasting,
+    'KetoBasics': vi_KetoBasics,
     'MacroCalculator': vi_MacroCalculator,
     'MacroEducation': vi_MacroEducation,
     'MuscleGain': vi_MuscleGain,
+    'PlanYourPlate': vi_PlanYourPlate,
+    'PostureCorrection': vi_PostureCorrection,
     'StepTracker': vi_StepTracker,
+    'StrengthTraining': vi_StrengthTraining,
     'VeganNutrition': vi_VeganNutrition,
     'WaterIntake': vi_WaterIntake,
     'WeightLoss': vi_WeightLoss,
+    'YogaFlexibility': vi_YogaFlexibility,
   },
   'zh-Hans': {
     'BMICalculator': zh_Hans_BMICalculator,
     'CalorieBurner': zh_Hans_CalorieBurner,
     'common': zh_Hans_common,
+    'DailySugarEase': zh_Hans_DailySugarEase,
     'DiabetesDiet': zh_Hans_DiabetesDiet,
+    'FastTimer': zh_Hans_FastTimer,
     'FlexibilityMobility': zh_Hans_FlexibilityMobility,
     'FoodDiary': zh_Hans_FoodDiary,
     'GutHealth': zh_Hans_GutHealth,
+    'HealthyRecipeLog': zh_Hans_HealthyRecipeLog,
     'HeartHealth': zh_Hans_HeartHealth,
+    'HIITCardio': zh_Hans_HIITCardio,
+    'HomeWorkouts': zh_Hans_HomeWorkouts,
     'IntermittentFasting': zh_Hans_IntermittentFasting,
+    'KetoBasics': zh_Hans_KetoBasics,
     'MacroCalculator': zh_Hans_MacroCalculator,
     'MacroEducation': zh_Hans_MacroEducation,
     'MuscleGain': zh_Hans_MuscleGain,
+    'PlanYourPlate': zh_Hans_PlanYourPlate,
+    'PostureCorrection': zh_Hans_PostureCorrection,
     'StepTracker': zh_Hans_StepTracker,
+    'StrengthTraining': zh_Hans_StrengthTraining,
     'VeganNutrition': zh_Hans_VeganNutrition,
     'WaterIntake': zh_Hans_WaterIntake,
     'WeightLoss': zh_Hans_WeightLoss,
+    'YogaFlexibility': zh_Hans_YogaFlexibility,
   },
   'zh-Hant': {
     'BMICalculator': zh_Hant_BMICalculator,
     'CalorieBurner': zh_Hant_CalorieBurner,
     'common': zh_Hant_common,
+    'DailySugarEase': zh_Hant_DailySugarEase,
     'DiabetesDiet': zh_Hant_DiabetesDiet,
+    'FastTimer': zh_Hant_FastTimer,
     'FlexibilityMobility': zh_Hant_FlexibilityMobility,
     'FoodDiary': zh_Hant_FoodDiary,
     'GutHealth': zh_Hant_GutHealth,
+    'HealthyRecipeLog': zh_Hant_HealthyRecipeLog,
     'HeartHealth': zh_Hant_HeartHealth,
+    'HIITCardio': zh_Hant_HIITCardio,
+    'HomeWorkouts': zh_Hant_HomeWorkouts,
     'IntermittentFasting': zh_Hant_IntermittentFasting,
+    'KetoBasics': zh_Hant_KetoBasics,
     'MacroCalculator': zh_Hant_MacroCalculator,
     'MacroEducation': zh_Hant_MacroEducation,
     'MuscleGain': zh_Hant_MuscleGain,
+    'PlanYourPlate': zh_Hant_PlanYourPlate,
+    'PostureCorrection': zh_Hant_PostureCorrection,
     'StepTracker': zh_Hant_StepTracker,
+    'StrengthTraining': zh_Hant_StrengthTraining,
     'VeganNutrition': zh_Hant_VeganNutrition,
     'WaterIntake': zh_Hant_WaterIntake,
     'WeightLoss': zh_Hant_WeightLoss,
+    'YogaFlexibility': zh_Hant_YogaFlexibility,
   },
 };
 

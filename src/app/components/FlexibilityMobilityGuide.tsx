@@ -3,6 +3,7 @@ import { ArrowLeft, Move, Play, Award, TrendingUp, Calendar, CheckCircle2, Alert
 import { motion, AnimatePresence } from 'motion/react';
 import confetti from 'canvas-confetti';
 import { logUserActivity, fetchUserActivityLogs } from '@/lib/db';
+import { useTranslation } from "react-i18next";
 
 interface Stretch {
   name: string;
@@ -284,6 +285,7 @@ const mobilityTests: MobilityTest[] = [
 const focusAreaOptions = ['Neck', 'Shoulders', 'Back', 'Hips', 'Legs', 'Full Body'];
 
 export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => void }) {
+    const { t } = useTranslation('FlexibilityMobility');
   const [activeTab, setActiveTab] = useState<'stretches' | 'tests' | 'log'>('stretches');
   const [flexibilityData, setFlexibilityData] = useState<FlexibilityData>(() => {
     const saved = localStorage.getItem('flexibility-mobility-data');
@@ -692,15 +694,15 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
             className="flex items-center gap-2 text-gray-600 hover:text-gray-900 mb-4 transition-colors"
           >
             <ArrowLeft className="w-5 h-5" />
-            <span className="text-sm lg:text-base">Back to Dashboard</span>
+            <span className="text-sm lg:text-base">{t('back_to_dashboard')}</span>
           </button>
           <div className="flex items-center gap-3 mb-2">
             <div className="bg-gradient-to-br from-purple-500 to-violet-600 rounded-xl p-2.5 lg:p-3">
               <Move className="w-6 lg:w-8 h-6 lg:h-8 text-white" />
             </div>
             <div>
-              <h1 className="text-xl lg:text-2xl font-semibold text-gray-900">Flexibility & Mobility</h1>
-              <p className="text-xs lg:text-sm text-gray-500">Improve range of motion and prevent injuries</p>
+              <h1 className="text-xl lg:text-2xl font-semibold text-gray-900">{t('flexibility_mobility')}</h1>
+              <p className="text-xs lg:text-sm text-gray-500">{t('improve_range_of_motion_and_prevent_inju')}</p>
             </div>
           </div>
         </div>
@@ -715,8 +717,8 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
                 : 'text-gray-600 hover:bg-gray-50'
             }`}
           >
-            Daily Stretches
-          </button>
+            {t('daily_stretches')}
+                                </button>
           <button
             onClick={() => setActiveTab('tests')}
             className={`flex-1 min-w-[120px] py-2.5 lg:py-3 px-3 lg:px-4 rounded-lg transition-all font-medium text-xs lg:text-sm whitespace-nowrap ${
@@ -725,8 +727,8 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
                 : 'text-gray-600 hover:bg-gray-50'
             }`}
           >
-            Mobility Tests
-          </button>
+            {t('mobility_tests')}
+                                </button>
           <button
             onClick={() => setActiveTab('log')}
             className={`flex-1 min-w-[120px] py-2.5 lg:py-3 px-3 lg:px-4 rounded-lg transition-all font-medium text-xs lg:text-sm whitespace-nowrap ${
@@ -735,8 +737,8 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
                 : 'text-gray-600 hover:bg-gray-50'
             }`}
           >
-            Recovery Log
-          </button>
+            {t('recovery_log')}
+                                </button>
         </div>
 
         <AnimatePresence mode="wait">
@@ -769,7 +771,7 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
                   <p className="text-purple-600 font-semibold mb-6 text-sm lg:text-base">{selectedRoutine.focusArea}</p>
 
                   <div className="mb-6">
-                    <h3 className="font-semibold text-gray-900 mb-3 text-sm lg:text-base">{selectedRoutine.stretches.length} Stretches ({selectedRoutine.duration} min total):</h3>
+                    <h3 className="font-semibold text-gray-900 mb-3 text-sm lg:text-base">{selectedRoutine.stretches.length} {t('stretches')}{selectedRoutine.duration} {t('min_total')}</h3>
                     <div className="space-y-2">
                       {selectedRoutine.stretches.map((stretch, index) => (
                         <div
@@ -780,7 +782,7 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
                           <div className="flex-1">
                             <div className="font-medium text-gray-900 text-sm lg:text-base">{stretch.name}</div>
                             <div className="text-xs lg:text-sm text-gray-600 mb-1">{stretch.description}</div>
-                            <div className="text-xs text-purple-600 font-medium">{stretch.duration}s</div>
+                            <div className="text-xs text-purple-600 font-medium">{stretch.duration}{t('s')}</div>
                           </div>
                         </div>
                       ))}
@@ -795,29 +797,29 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
                       }}
                       className="flex-1 py-3 lg:py-4 px-6 bg-gray-100 text-gray-700 rounded-xl font-bold hover:bg-gray-200 transition-all text-sm lg:text-base"
                     >
-                      Cancel
-                    </button>
+                      {t('cancel')}
+                                                              </button>
                     <button
                       onClick={startRoutine}
                       className="flex-1 py-3 lg:py-4 px-6 bg-gradient-to-r from-purple-500 to-violet-600 text-white rounded-xl font-bold hover:scale-105 transition-all flex items-center justify-center gap-2 text-sm lg:text-base"
                     >
                       <Play className="w-5 h-5" />
-                      Start {selectedRoutine.duration}-Min Routine
-                    </button>
+                      {t('start')} {selectedRoutine.duration}{t('min_routine')}
+                                                              </button>
                   </div>
                 </div>
               ) : showRoutineComplete && selectedRoutine ? (
                 <div className="bg-white rounded-xl lg:rounded-2xl p-6 lg:p-8 border border-gray-200">
                   <div className="text-center">
                     <div className="text-6xl lg:text-7xl mb-4">✨</div>
-                    <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-3">Routine Complete!</h2>
+                    <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-3">{t('routine_complete')}</h2>
                     <p className="text-gray-600 mb-6 text-sm lg:text-base">
-                      Great job completing {selectedRoutine.name}!
+                      {t('great_job_completing')} {selectedRoutine.name}!
                     </p>
 
                     <div className="mb-6 max-w-md mx-auto">
                       <label className="block text-sm lg:text-base font-medium text-gray-700 mb-3">
-                        Feel Better? Rate your improvement: {feelBetterRating}/10
+                        {t('feel_better_rate_your_improvement')} {feelBetterRating}/10
                       </label>
                       <input
                         type="range"
@@ -831,9 +833,9 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
                         }}
                       />
                       <div className="flex justify-between text-xs text-gray-500 mt-2">
-                        <span>1 - Worse</span>
-                        <span>5 - Same</span>
-                        <span>10 - Much Better</span>
+                        <span>{t('1_worse')}</span>
+                        <span>{t('5_same')}</span>
+                        <span>{t('10_much_better')}</span>
                       </div>
                     </div>
 
@@ -842,8 +844,8 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
                         onClick={saveRoutineSession}
                         className="flex-1 py-3 lg:py-4 px-6 bg-gradient-to-r from-purple-500 to-violet-600 text-white rounded-xl font-bold hover:scale-105 transition-all text-sm lg:text-base"
                       >
-                        Save Session
-                      </button>
+                        {t('save_session')}
+                                                                        </button>
                       <button
                         onClick={() => {
                           setShowRoutineComplete(false);
@@ -851,8 +853,8 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
                         }}
                         className="flex-1 py-3 lg:py-4 px-6 bg-gray-100 text-gray-700 rounded-xl font-bold hover:bg-gray-200 transition-all text-sm lg:text-base"
                       >
-                        Done
-                      </button>
+                        {t('done')}
+                                                                        </button>
                     </div>
                   </div>
                 </div>
@@ -869,7 +871,7 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
                       />
                     </div>
                     <p className="text-white text-xs lg:text-sm mt-2 text-center">
-                      Stretch {currentStretchIndex + 1} of {selectedRoutine.stretches.length}
+                      {t('stretch')} {currentStretchIndex + 1} {t('of')} {selectedRoutine.stretches.length}
                     </p>
                   </div>
 
@@ -881,7 +883,7 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
                     </p>
 
                     {/* Timer */}
-                    <div className="text-5xl lg:text-6xl font-bold mb-6 lg:mb-8">{timeRemaining}s</div>
+                    <div className="text-5xl lg:text-6xl font-bold mb-6 lg:mb-8">{timeRemaining}{t('s')}</div>
 
                     <div className="flex gap-2 lg:gap-3 justify-center flex-wrap">
                       {isPaused ? (
@@ -890,37 +892,37 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
                           className="py-2 lg:py-2.5 px-4 lg:px-6 bg-white text-purple-600 rounded-lg lg:rounded-xl font-bold hover:scale-105 transition-all flex items-center gap-2 text-xs lg:text-sm"
                         >
                           <Play className="w-4 lg:w-5 h-4 lg:h-5" />
-                          Resume
-                        </button>
+                          {t('resume')}
+                                                                                  </button>
                       ) : (
                         <button
                           onClick={pauseRoutine}
                           className="py-2 lg:py-2.5 px-4 lg:px-6 bg-white text-purple-600 rounded-lg lg:rounded-xl font-bold hover:scale-105 transition-all flex items-center gap-2 text-xs lg:text-sm"
                         >
                           <Pause className="w-4 lg:w-5 h-4 lg:h-5" />
-                          Pause
-                        </button>
+                          {t('pause')}
+                                                                                      </button>
                       )}
                       <button
                         onClick={skipStretch}
                         className="py-2 lg:py-2.5 px-4 lg:px-6 bg-white/90 text-purple-600 rounded-lg lg:rounded-xl font-bold hover:scale-105 transition-all flex items-center gap-2 text-xs lg:text-sm"
                       >
                         <ChevronRight className="w-4 lg:w-5 h-4 lg:h-5" />
-                        Skip
-                      </button>
+                        {t('skip')}
+                                                                            </button>
                       <button
                         onClick={cancelRoutine}
                         className="py-2 lg:py-2.5 px-4 lg:px-6 bg-white/90 text-purple-600 rounded-lg lg:rounded-xl font-bold hover:scale-105 transition-all flex items-center gap-2 text-xs lg:text-sm"
                       >
                         <X className="w-4 lg:w-5 h-4 lg:h-5" />
-                        Cancel
-                      </button>
+                        {t('cancel')}
+                                                                            </button>
                     </div>
 
                     {selectedRoutine.stretches[currentStretchIndex].isBilateral && (
                       <p className="text-xs lg:text-sm text-purple-100 mt-4">
-                        💡 Remember to switch sides when the timer ends
-                      </p>
+                        {t('remember_to_switch_sides_when_the_timer_')}
+                                                                            </p>
                     )}
                   </div>
                 </div>
@@ -939,7 +941,7 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
                           </div>
                           <div className="flex items-center gap-2">
                             <Play className="w-4 h-4 text-purple-600" />
-                            <span className="text-xs lg:text-sm font-semibold text-purple-600">{routine.duration} min</span>
+                            <span className="text-xs lg:text-sm font-semibold text-purple-600">{routine.duration} {t('min')}</span>
                           </div>
                         </div>
 
@@ -952,8 +954,8 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
                           className="w-full py-2.5 lg:py-3 px-4 bg-gradient-to-r from-purple-500 to-violet-600 text-white rounded-lg lg:rounded-xl font-bold hover:shadow-lg hover:scale-105 transition-all flex items-center justify-center gap-2 text-xs lg:text-sm"
                         >
                           <Play className="w-4 h-4" />
-                          Start {routine.duration}-Min Routine
-                        </button>
+                          {t('start')} {routine.duration}{t('min_routine')}
+                                                        </button>
                       </motion.div>
                     ))}
                   </div>
@@ -965,23 +967,23 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
                         <Sparkles className="w-5 lg:w-6 h-5 lg:h-6 text-white" />
                       </div>
                       <div>
-                        <h3 className="font-semibold text-gray-900 mb-3 text-sm lg:text-base">Why Daily Stretching Matters</h3>
+                        <h3 className="font-semibold text-gray-900 mb-3 text-sm lg:text-base">{t('why_daily_stretching_matters')}</h3>
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-3">
                           <div className="flex items-start gap-2 text-xs lg:text-sm text-gray-700">
                             <CheckCircle2 className="w-4 h-4 text-purple-600 flex-shrink-0 mt-0.5" />
-                            <span>Reduces injury risk by up to 50%</span>
+                            <span>{t('reduces_injury_risk_by_up_to_50')}</span>
                           </div>
                           <div className="flex items-start gap-2 text-xs lg:text-sm text-gray-700">
                             <CheckCircle2 className="w-4 h-4 text-purple-600 flex-shrink-0 mt-0.5" />
-                            <span>Improves athletic performance</span>
+                            <span>{t('improves_athletic_performance')}</span>
                           </div>
                           <div className="flex items-start gap-2 text-xs lg:text-sm text-gray-700">
                             <CheckCircle2 className="w-4 h-4 text-purple-600 flex-shrink-0 mt-0.5" />
-                            <span>Relieves muscle tension and stress</span>
+                            <span>{t('relieves_muscle_tension_and_stress')}</span>
                           </div>
                           <div className="flex items-start gap-2 text-xs lg:text-sm text-gray-700">
                             <CheckCircle2 className="w-4 h-4 text-purple-600 flex-shrink-0 mt-0.5" />
-                            <span>Enhances blood circulation</span>
+                            <span>{t('enhances_blood_circulation')}</span>
                           </div>
                         </div>
                       </div>
@@ -1005,7 +1007,7 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
               <div className="bg-white rounded-xl lg:rounded-2xl p-4 lg:p-6 border border-gray-200">
                 <div className="flex items-center justify-between">
                   <div>
-                    <h3 className="font-semibold text-gray-900 mb-1 text-sm lg:text-base">Your Mobility Status</h3>
+                    <h3 className="font-semibold text-gray-900 mb-1 text-sm lg:text-base">{t('your_mobility_status')}</h3>
                     <p className="text-xs lg:text-sm text-gray-600">
                       {getMobilityStatus().points > 0 ? `Based on ${Math.min(flexibilityData.mobilityScores.length, 3)} test results` : 'Complete tests below'}
                     </p>
@@ -1017,8 +1019,8 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
                 {getMobilityStatus().points > 0 && (
                   <div className="mt-4 bg-purple-50 rounded-lg p-3 border border-purple-200">
                     <p className="text-xs lg:text-sm text-purple-900">
-                      Score: {getMobilityStatus().points}/6 points (Pass=2, Partial=1, Needs Work=0)
-                    </p>
+                      {t('score')} {getMobilityStatus().points}{t('6_points_pass_2_partial_1_needs_work_0')}
+                                                              </p>
                   </div>
                 )}
               </div>
@@ -1041,11 +1043,11 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
 
                           <div className="grid grid-cols-2 gap-2 lg:gap-3 mb-4">
                             <div className="bg-green-50 rounded-lg p-3 border border-green-200">
-                              <p className="text-xs font-semibold text-green-900 mb-1">✓ Pass</p>
+                              <p className="text-xs font-semibold text-green-900 mb-1">{t('pass')}</p>
                               <p className="text-xs text-green-700">{test.passDescription}</p>
                             </div>
                             <div className="bg-red-50 rounded-lg p-3 border border-red-200">
-                              <p className="text-xs font-semibold text-red-900 mb-1">✗ Needs Work</p>
+                              <p className="text-xs font-semibold text-red-900 mb-1">{t('needs_work')}</p>
                               <p className="text-xs text-red-700">{test.failDescription}</p>
                             </div>
                           </div>
@@ -1059,8 +1061,8 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
                                   : 'bg-green-100 text-green-700 hover:bg-green-200'
                               }`}
                             >
-                              ✓ Pass
-                            </button>
+                              {t('pass')}
+                                                                      </button>
                             <button
                               onClick={() => updateMobilityScore(test.id, 'partial')}
                               className={`flex-1 py-2 px-3 lg:px-4 rounded-lg font-medium transition-all text-xs lg:text-sm ${
@@ -1069,8 +1071,8 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
                                   : 'bg-yellow-100 text-yellow-700 hover:bg-yellow-200'
                               }`}
                             >
-                              ~ Partial
-                            </button>
+                              {t('partial')}
+                                                                      </button>
                             <button
                               onClick={() => updateMobilityScore(test.id, 'fail')}
                               className={`flex-1 py-2 px-3 lg:px-4 rounded-lg font-medium transition-all text-xs lg:text-sm ${
@@ -1079,8 +1081,8 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
                                   : 'bg-red-100 text-red-700 hover:bg-red-200'
                               }`}
                             >
-                              ✗ Needs Work
-                            </button>
+                              {t('needs_work')}
+                                                                      </button>
                           </div>
                         </div>
                       </div>
@@ -1094,12 +1096,12 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
                 <div className="flex items-start gap-3">
                   <AlertCircle className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                   <div>
-                    <h3 className="font-semibold text-gray-900 mb-2 text-sm lg:text-base">Testing Tips</h3>
+                    <h3 className="font-semibold text-gray-900 mb-2 text-sm lg:text-base">{t('testing_tips')}</h3>
                     <ul className="space-y-1 text-xs lg:text-sm text-gray-700">
-                      <li>• Perform tests after a light warm-up, not cold</li>
-                      <li>• Retest every 2-4 weeks to track progress</li>
-                      <li>• Focus on areas that need work with targeted stretching</li>
-                      <li>• Consult a professional for persistent limitations</li>
+                      <li>{t('perform_tests_after_a_light_warm_up_not_')}</li>
+                      <li>{t('retest_every_2_4_weeks_to_track_progress')}</li>
+                      <li>{t('focus_on_areas_that_need_work_with_targe')}</li>
+                      <li>{t('consult_a_professional_for_persistent_li')}</li>
                     </ul>
                   </div>
                 </div>
@@ -1118,12 +1120,12 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
             >
               {/* Session Logger */}
               <div className="bg-white rounded-xl lg:rounded-2xl p-4 lg:p-6 border border-gray-200">
-                <h2 className="text-base lg:text-lg font-semibold text-gray-900 mb-4 lg:mb-6">Log Recovery Session</h2>
+                <h2 className="text-base lg:text-lg font-semibold text-gray-900 mb-4 lg:mb-6">{t('log_recovery_session')}</h2>
                 <div className="space-y-4">
                   <div>
                     <label className="block text-xs lg:text-sm font-medium text-gray-700 mb-2">
-                      Duration (minutes)
-                    </label>
+                      {t('duration_minutes')}
+                                                              </label>
                     <input
                       type="number"
                       value={duration}
@@ -1135,8 +1137,8 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
 
                   <div>
                     <label className="block text-xs lg:text-sm font-medium text-gray-700 mb-3">
-                      Focus Areas (select all that apply)
-                    </label>
+                      {t('focus_areas_select_all_that_apply')}
+                                                              </label>
                     <div className="grid grid-cols-2 lg:grid-cols-3 gap-2">
                       {focusAreaOptions.map(area => (
                         <motion.button
@@ -1157,7 +1159,7 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
 
                   <div>
                     <label className="block text-xs lg:text-sm font-medium text-gray-700 mb-3">
-                      Soreness Before Session: {sorenessLevel}/10
+                      {t('soreness_before_session')} {sorenessLevel}/10
                     </label>
                     <input
                       type="range"
@@ -1171,9 +1173,9 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
                       }}
                     />
                     <div className="flex justify-between text-xs text-gray-500 mt-2">
-                      <span>1 - No Pain</span>
-                      <span>5 - Moderate</span>
-                      <span>10 - Very Sore</span>
+                      <span>{t('1_no_pain')}</span>
+                      <span>{t('5_moderate')}</span>
+                      <span>{t('10_very_sore')}</span>
                     </div>
                   </div>
 
@@ -1182,15 +1184,15 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
                     disabled={!duration || selectedFocusAreas.length === 0}
                     className="w-full py-3 lg:py-4 px-6 bg-gradient-to-r from-purple-500 to-violet-600 text-white rounded-xl font-bold hover:shadow-lg hover:scale-105 transition-all disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100 text-sm lg:text-base"
                   >
-                    🧘 Log Session
-                  </button>
+                    {t('log_session')}
+                                                        </button>
                 </div>
               </div>
 
               {/* Weekly Heatmap */}
               <div className="bg-white rounded-xl lg:rounded-2xl p-4 lg:p-6 border border-gray-200">
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className="font-semibold text-gray-900 text-sm lg:text-base">Recovery Heatmap</h3>
+                  <h3 className="font-semibold text-gray-900 text-sm lg:text-base">{t('recovery_heatmap')}</h3>
                   <Calendar className="w-5 h-5 text-purple-600" />
                 </div>
                 <div className="grid grid-cols-7 gap-2">
@@ -1216,8 +1218,8 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
                   ))}
                 </div>
                 <p className="text-xs lg:text-sm text-gray-500 mt-4 text-center">
-                  Purple dots mark days with recovery sessions
-                </p>
+                  {t('purple_dots_mark_days_with_recovery_sess')}
+                                                  </p>
               </div>
 
               {/* Injury Proof Badge */}
@@ -1229,10 +1231,10 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
                   className="bg-gradient-to-br from-yellow-400 to-orange-500 rounded-xl lg:rounded-2xl p-6 text-center"
                 >
                   <Award className="w-12 lg:w-16 h-12 lg:h-16 text-white mx-auto mb-3" />
-                  <h3 className="text-xl lg:text-2xl font-bold text-white mb-2">Injury Proof!</h3>
+                  <h3 className="text-xl lg:text-2xl font-bold text-white mb-2">{t('injury_proof')}</h3>
                   <p className="text-yellow-50 text-sm lg:text-base">
-                    You've completed {getThisWeekSessions().length} recovery sessions this week!
-                  </p>
+                    {t('you_ve_completed')} {getThisWeekSessions().length} {t('recovery_sessions_this_week')}
+                                                        </p>
                 </motion.div>
               )}
 
@@ -1241,14 +1243,14 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
                 <div className="bg-gradient-to-br from-purple-50 to-violet-50 rounded-xl p-4 lg:p-6 border-2 border-purple-200">
                   <div className="flex items-center gap-3 mb-2">
                     <TrendingUp className="w-5 lg:w-6 h-5 lg:h-6 text-purple-600" />
-                    <h3 className="font-semibold text-gray-900 text-sm lg:text-base">Total Minutes</h3>
+                    <h3 className="font-semibold text-gray-900 text-sm lg:text-base">{t('total_minutes')}</h3>
                   </div>
                   <p className="text-3xl lg:text-4xl font-bold text-purple-600">{getTotalMinutes()}</p>
                 </div>
                 <div className="bg-gradient-to-br from-violet-50 to-purple-50 rounded-xl p-4 lg:p-6 border-2 border-violet-200">
                   <div className="flex items-center gap-3 mb-2">
                     <Calendar className="w-5 lg:w-6 h-5 lg:h-6 text-violet-600" />
-                    <h3 className="font-semibold text-gray-900 text-sm lg:text-base">This Week</h3>
+                    <h3 className="font-semibold text-gray-900 text-sm lg:text-base">{t('this_week')}</h3>
                   </div>
                   <p className="text-3xl lg:text-4xl font-bold text-violet-600">{getThisWeekSessions().length}</p>
                 </div>
@@ -1257,7 +1259,7 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
               {/* Recent Sessions */}
               {flexibilityData.recoverySessions.length > 0 && (
                 <div className="bg-white rounded-xl lg:rounded-2xl p-4 lg:p-6 border border-gray-200">
-                  <h3 className="font-semibold text-gray-900 mb-4 text-sm lg:text-base">Recent Sessions</h3>
+                  <h3 className="font-semibold text-gray-900 mb-4 text-sm lg:text-base">{t('recent_sessions')}</h3>
                   <div className="space-y-2 lg:space-y-3">
                     {flexibilityData.recoverySessions.slice(0, 5).map(session => (
                       <div
@@ -1266,14 +1268,14 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
                       >
                         <div className="flex items-center gap-3 lg:gap-4">
                           <div className="w-10 lg:w-12 h-10 lg:h-12 rounded-lg bg-gradient-to-br from-purple-500 to-violet-600 flex items-center justify-center text-white font-bold text-sm lg:text-base">
-                            {session.duration}m
-                          </div>
+                            {session.duration}{t('m')}
+                                                              </div>
                           <div>
                             <p className="text-xs lg:text-sm font-medium text-gray-900">
                               {session.focusAreas.join(', ')}
                             </p>
                             <p className="text-xs text-gray-600">
-                              Soreness: {session.sorenessLevel}/10
+                              {t('soreness')} {session.sorenessLevel}/10
                             </p>
                           </div>
                         </div>

@@ -2,8 +2,10 @@ import { useState } from "react";
 import { Button } from "@/app/components/ui/button";
 import { Textarea } from "@/app/components/ui/textarea";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const Screen4Done = ({ onDone }: { onDone: (reflection: string) => void }) => {
+    const { t } = useTranslation('HealthyRecipeLog');
   const [reflection, setReflection] = useState("");
 
   return (
@@ -23,8 +25,8 @@ const Screen4Done = ({ onDone }: { onDone: (reflection: string) => void }) => {
         transition={{ delay: 0.1 }}
         className="text-3xl lg:text-4xl font-black text-gray-900 mb-6"
       >
-        Almost Finished!
-      </motion.h2>
+        {t('almost_finished')}
+                    </motion.h2>
 
       <motion.div
         initial={{ y: 20, opacity: 0 }}
@@ -34,26 +36,26 @@ const Screen4Done = ({ onDone }: { onDone: (reflection: string) => void }) => {
       >
         <div className="text-left">
           <label className="text-sm font-bold text-gray-700 mb-3 block uppercase tracking-wider">
-            Who would you recommend this recipe to?
-          </label>
+            {t('who_would_you_recommend_this_recipe_to')}
+                                </label>
           <Textarea
             value={reflection}
             onChange={e => setReflection(e.target.value)}
-            placeholder="e.g. My sister would love this! Perfect for a quick Monday breakfast."
+            placeholder={t('e_g_my_sister_would_love_this_perfect_fo')}
             className="rounded-3xl bg-gray-50 border-gray-100 focus:bg-white transition-all text-lg min-h-[150px] p-6 resize-none"
           />
         </div>
 
         <p className="text-gray-500 text-lg leading-relaxed italic">
-          "Every healthy recipe you save is a gift to your future self. Keep building your collection!" 💚
-        </p>
+          {t('every_healthy_recipe_you_save_is_a_gift_')}
+                          </p>
 
         <Button 
           onClick={() => onDone(reflection)} 
           className="w-full max-w-sm py-8 text-xl font-bold rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white shadow-xl shadow-emerald-600/20 transition-all hover:scale-105 active:scale-95"
         >
-          Finish & Save ✅
-        </Button>
+          {t('finish_save')}
+                          </Button>
       </motion.div>
     </div>
   );

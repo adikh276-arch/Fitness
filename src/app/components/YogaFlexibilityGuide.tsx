@@ -3,6 +3,7 @@ import { ArrowLeft, User, Search, Clock, TrendingUp, Smile, Meh, Frown, Heart, S
 import { motion, AnimatePresence } from 'motion/react';
 import confetti from 'canvas-confetti';
 import { logUserActivity } from '@/lib/db';
+import { useTranslation } from "react-i18next";
 
 interface YogaSession {
   id: string;
@@ -197,6 +198,7 @@ const flowPoses = {
 };
 
 export default function YogaFlexibilityGuide({ onBack }: { onBack: () => void }) {
+    const { t } = useTranslation('YogaFlexibility');
   const [activeTab, setActiveTab] = useState<'flows' | 'library' | 'log'>('flows');
   const [yogaData, setYogaData] = useState<YogaData>(() => {
     const saved = localStorage.getItem('yoga-flexibility-data');
@@ -525,15 +527,15 @@ export default function YogaFlexibilityGuide({ onBack }: { onBack: () => void })
             className="flex items-center gap-2 text-gray-600 hover:text-gray-900 mb-3 lg:mb-4 transition-colors"
           >
             <ArrowLeft className="w-5 h-5" />
-            <span className="text-sm lg:text-base">Back to Dashboard</span>
+            <span className="text-sm lg:text-base">{t('back_to_dashboard')}</span>
           </button>
           <div className="flex items-center gap-3 mb-2">
             <div className="bg-gradient-to-br from-cyan-500 to-teal-600 rounded-xl p-2 lg:p-3">
               <User className="w-6 h-6 lg:w-8 lg:h-8 text-white" />
             </div>
             <div>
-              <h1 className="text-xl lg:text-2xl font-semibold text-gray-900">Yoga & Flexibility</h1>
-              <p className="text-xs lg:text-sm text-gray-500">Find your flow and build consistency</p>
+              <h1 className="text-xl lg:text-2xl font-semibold text-gray-900">{t('yoga_flexibility')}</h1>
+              <p className="text-xs lg:text-sm text-gray-500">{t('find_your_flow_and_build_consistency')}</p>
             </div>
           </div>
         </div>
@@ -548,8 +550,8 @@ export default function YogaFlexibilityGuide({ onBack }: { onBack: () => void })
                 : 'text-gray-600 hover:bg-gray-50'
             }`}
           >
-            Your Flow
-          </button>
+            {t('your_flow')}
+                                </button>
           <button
             onClick={() => setActiveTab('library')}
             className={`flex-1 py-2 px-2 lg:py-3 lg:px-4 rounded-lg transition-all font-medium text-xs lg:text-base ${
@@ -558,8 +560,8 @@ export default function YogaFlexibilityGuide({ onBack }: { onBack: () => void })
                 : 'text-gray-600 hover:bg-gray-50'
             }`}
           >
-            Pose Library
-          </button>
+            {t('pose_library')}
+                                </button>
           <button
             onClick={() => setActiveTab('log')}
             className={`flex-1 py-2 px-2 lg:py-3 lg:px-4 rounded-lg transition-all font-medium text-xs lg:text-base ${
@@ -568,8 +570,8 @@ export default function YogaFlexibilityGuide({ onBack }: { onBack: () => void })
                 : 'text-gray-600 hover:bg-gray-50'
             }`}
           >
-            Practice Log
-          </button>
+            {t('practice_log')}
+                                </button>
         </div>
 
         <AnimatePresence mode="wait">
@@ -599,7 +601,7 @@ export default function YogaFlexibilityGuide({ onBack }: { onBack: () => void })
                     <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-2">{flow.name}</h3>
                     <div className="flex items-center gap-2 mb-2 lg:mb-3">
                       <Clock className="w-4 h-4 text-gray-500" />
-                      <span className="text-sm text-gray-600">{flow.duration} minutes</span>
+                      <span className="text-sm text-gray-600">{flow.duration} {t('minutes')}</span>
                     </div>
                     <p className="text-xs lg:text-sm text-gray-700">{flow.focus}</p>
                   </motion.div>
@@ -633,16 +635,16 @@ export default function YogaFlexibilityGuide({ onBack }: { onBack: () => void })
                               <div className="mb-4">
                                 <Award className="w-16 h-16 text-teal-500 mx-auto" />
                               </div>
-                              <h2 className="text-2xl font-bold text-gray-900 mb-2">Well Done! 🎉</h2>
+                              <h2 className="text-2xl font-bold text-gray-900 mb-2">{t('well_done')}</h2>
                               <p className="text-gray-600">
-                                You completed {Math.floor(flowTimer / 60)} minutes of {flow.name}
+                                {t('you_completed')} {Math.floor(flowTimer / 60)} {t('minutes_of')} {flow.name}
                               </p>
                             </div>
 
                             <div className="mb-6">
                               <label className="block text-sm font-medium text-gray-700 mb-3 text-center">
-                                How do you feel?
-                              </label>
+                                {t('how_do_you_feel')}
+                                                                      </label>
                               <div className="flex justify-between gap-2">
                                 {moodEmojis.map((mood) => (
                                   <motion.button
@@ -668,14 +670,14 @@ export default function YogaFlexibilityGuide({ onBack }: { onBack: () => void })
                                 disabled={!completionMood}
                                 className="w-full py-3 px-6 bg-gradient-to-r from-teal-500 to-cyan-600 text-white rounded-xl font-medium hover:shadow-lg hover:scale-105 transition-all disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
                               >
-                                🙏 Log to Practice Log
-                              </button>
+                                {t('log_to_practice_log')}
+                                                                      </button>
                               <button
                                 onClick={closeFlow}
                                 className="w-full py-3 px-6 border-2 border-gray-200 text-gray-700 rounded-xl font-medium hover:bg-gray-50 transition-all"
                               >
-                                Close
-                              </button>
+                                {t('close')}
+                                                                      </button>
                             </div>
                           </motion.div>
                         );
@@ -729,9 +731,9 @@ export default function YogaFlexibilityGuide({ onBack }: { onBack: () => void })
                               <div className="space-y-6">
                                 <div className="text-center mb-8">
                                   <h3 className="text-2xl font-semibold text-gray-900 mb-2">
-                                    Current Stretch: {deskStretches[currentStretch]}
+                                    {t('current_stretch')} {deskStretches[currentStretch]}
                                   </h3>
-                                  <p className="text-sm text-gray-600">Follow the breathing guide below</p>
+                                  <p className="text-sm text-gray-600">{t('follow_the_breathing_guide_below')}</p>
                                 </div>
 
                                 <div className="flex flex-col items-center justify-center py-12">
@@ -751,7 +753,7 @@ export default function YogaFlexibilityGuide({ onBack }: { onBack: () => void })
                                   >
                                     {breathPhase === 'inhale' ? 'Breathe In...' : 'Breathe Out...'}
                                   </motion.p>
-                                  <p className="text-sm text-gray-600 mt-2">4 seconds {breathPhase}</p>
+                                  <p className="text-sm text-gray-600 mt-2">{t('4_seconds')} {breathPhase}</p>
                                 </div>
                               </div>
                             ) : (
@@ -768,14 +770,14 @@ export default function YogaFlexibilityGuide({ onBack }: { onBack: () => void })
                                       <div className="text-7xl mb-4">{currentPose.emoji}</div>
                                       <h3 className="text-3xl font-bold text-gray-900 mb-2">{currentPose.name}</h3>
                                       <p className="text-gray-600">
-                                        Pose {currentPoseIndex + 1} of {currentPoses.length}
+                                        {t('pose')} {currentPoseIndex + 1} {t('of')} {currentPoses.length}
                                       </p>
                                     </div>
 
                                     <div className="flex flex-col items-center">
                                       <div className="text-6xl font-bold text-teal-600 mb-2">
-                                        {remainingTime}s
-                                      </div>
+                                        {remainingTime}{t('s')}
+                                                                                      </div>
                                       <div className="w-full max-w-xs bg-gray-200 rounded-full h-3 overflow-hidden">
                                         <motion.div
                                           animate={{ width: `${(poseTimer / currentPose.duration) * 100}%` }}
@@ -827,34 +829,34 @@ export default function YogaFlexibilityGuide({ onBack }: { onBack: () => void })
 
               {/* Getting Started Tips */}
               <div className="bg-white rounded-xl lg:rounded-2xl p-4 lg:p-6 border border-gray-200">
-                <h3 className="text-sm lg:text-base font-semibold text-gray-900 mb-3 lg:mb-4">Getting Started</h3>
+                <h3 className="text-sm lg:text-base font-semibold text-gray-900 mb-3 lg:mb-4">{t('getting_started')}</h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 lg:gap-4">
                   <div className="flex items-start gap-3">
                     <Sparkles className="w-5 h-5 text-cyan-500 flex-shrink-0 mt-0.5" />
                     <div>
-                      <p className="text-sm font-medium text-gray-900">Start Small</p>
-                      <p className="text-sm text-gray-600">Even 10 minutes daily builds lasting flexibility</p>
+                      <p className="text-sm font-medium text-gray-900">{t('start_small')}</p>
+                      <p className="text-sm text-gray-600">{t('even_10_minutes_daily_builds_lasting_fle')}</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
                     <Sparkles className="w-5 h-5 text-teal-500 flex-shrink-0 mt-0.5" />
                     <div>
-                      <p className="text-sm font-medium text-gray-900">Listen to Your Body</p>
-                      <p className="text-sm text-gray-600">Stretch should feel good, never painful</p>
+                      <p className="text-sm font-medium text-gray-900">{t('listen_to_your_body')}</p>
+                      <p className="text-sm text-gray-600">{t('stretch_should_feel_good_never_painful')}</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
                     <Sparkles className="w-5 h-5 text-cyan-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <p className="text-sm font-medium text-gray-900">Breathe Deeply</p>
-                      <p className="text-sm text-gray-600">Deep breathing enhances every pose</p>
+                      <p className="text-sm font-medium text-gray-900">{t('breathe_deeply')}</p>
+                      <p className="text-sm text-gray-600">{t('deep_breathing_enhances_every_pose')}</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
                     <Sparkles className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <p className="text-sm font-medium text-gray-900">Stay Consistent</p>
-                      <p className="text-sm text-gray-600">Regular practice yields the best results</p>
+                      <p className="text-sm font-medium text-gray-900">{t('stay_consistent')}</p>
+                      <p className="text-sm text-gray-600">{t('regular_practice_yields_the_best_results')}</p>
                     </div>
                   </div>
                 </div>
@@ -879,7 +881,7 @@ export default function YogaFlexibilityGuide({ onBack }: { onBack: () => void })
                     type="text"
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
-                    placeholder="Search poses..."
+                    placeholder={t('search_poses')}
                     className="w-full pl-12 pr-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-cyan-500/20 focus:border-cyan-500"
                   />
                 </div>
@@ -904,8 +906,8 @@ export default function YogaFlexibilityGuide({ onBack }: { onBack: () => void })
                             <p className="font-medium text-gray-900">{pose.name}</p>
                             <p className="text-xs text-gray-600 flex items-center gap-1 mt-1">
                               <Info className="w-3 h-3" />
-                              Click for details
-                            </p>
+                              {t('click_for_details')}
+                                                                  </p>
                           </div>
                         </motion.div>
                       ))}
@@ -949,22 +951,22 @@ export default function YogaFlexibilityGuide({ onBack }: { onBack: () => void })
                       <div className="space-y-6">
                         <div className="bg-cyan-50 rounded-xl p-5 border border-cyan-200">
                           <h4 className="font-semibold text-gray-900 mb-2 flex items-center gap-2">
-                            <span className="text-cyan-600">✓</span> Proper Alignment
-                          </h4>
+                            <span className="text-cyan-600">✓</span> {t('proper_alignment')}
+                                                                                </h4>
                           <p className="text-sm text-gray-700">{selectedPose.alignment}</p>
                         </div>
 
                         <div className="bg-red-50 rounded-xl p-5 border border-red-200">
                           <h4 className="font-semibold text-gray-900 mb-2 flex items-center gap-2">
-                            <span className="text-red-600">✗</span> Common Mistakes
-                          </h4>
+                            <span className="text-red-600">✗</span> {t('common_mistakes')}
+                                                                                </h4>
                           <p className="text-sm text-gray-700">{selectedPose.mistakes}</p>
                         </div>
 
                         <div className="bg-green-50 rounded-xl p-5 border border-green-200">
                           <h4 className="font-semibold text-gray-900 mb-2 flex items-center gap-2">
-                            <span className="text-green-600">★</span> Benefits
-                          </h4>
+                            <span className="text-green-600">★</span> {t('benefits')}
+                                                                                </h4>
                           <p className="text-sm text-gray-700">{selectedPose.benefits}</p>
                         </div>
                       </div>
@@ -986,13 +988,13 @@ export default function YogaFlexibilityGuide({ onBack }: { onBack: () => void })
             >
               {/* Logger Form */}
               <div className="bg-white rounded-2xl p-6 border border-gray-200">
-                <h2 className="text-lg font-semibold text-gray-900 mb-6">Log Your Practice</h2>
+                <h2 className="text-lg font-semibold text-gray-900 mb-6">{t('log_your_practice')}</h2>
                 <div className="space-y-4">
                   <div className="grid grid-cols-2 gap-4">
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-2">
-                        Duration (minutes)
-                      </label>
+                        {t('duration_minutes')}
+                                                                    </label>
                       <input
                         type="number"
                         value={duration}
@@ -1003,20 +1005,20 @@ export default function YogaFlexibilityGuide({ onBack }: { onBack: () => void })
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-2">
-                        Yoga Style
-                      </label>
+                        {t('yoga_style')}
+                                                                    </label>
                       <select
                         value={style}
                         onChange={(e) => setStyle(e.target.value)}
                         className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-cyan-500/20 focus:border-cyan-500"
                       >
-                        <option value="">Select style...</option>
-                        <option value="Hatha">Hatha</option>
-                        <option value="Vinyasa">Vinyasa</option>
-                        <option value="Yin">Yin</option>
-                        <option value="Restorative">Restorative</option>
-                        <option value="Power">Power</option>
-                        <option value="Ashtanga">Ashtanga</option>
+                        <option value="">{t('select_style')}</option>
+                        <option value="Hatha">{t('hatha')}</option>
+                        <option value="Vinyasa">{t('vinyasa')}</option>
+                        <option value="Yin">{t('yin')}</option>
+                        <option value="Restorative">{t('restorative')}</option>
+                        <option value="Power">{t('power')}</option>
+                        <option value="Ashtanga">{t('ashtanga')}</option>
                       </select>
                     </div>
                   </div>
@@ -1024,8 +1026,8 @@ export default function YogaFlexibilityGuide({ onBack }: { onBack: () => void })
                   {/* Mood Scale */}
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-3">
-                      Post-Yoga Mood
-                    </label>
+                      {t('post_yoga_mood')}
+                                                              </label>
                     <div className="flex justify-between gap-3">
                       {moodEmojis.map((mood) => (
                         <motion.button
@@ -1050,23 +1052,23 @@ export default function YogaFlexibilityGuide({ onBack }: { onBack: () => void })
                     disabled={!duration || !style || !moodScore}
                     className="w-full py-3 px-6 bg-gradient-to-r from-cyan-500 to-teal-600 text-white rounded-xl font-medium hover:shadow-lg hover:scale-105 transition-all disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
                   >
-                    🙏 Log Session (Namaste)
-                  </button>
+                    {t('log_session_namaste')}
+                                                        </button>
                 </div>
               </div>
 
               {/* Weekly Progress */}
               <div className="bg-white rounded-2xl p-6 border border-gray-200">
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className="font-semibold text-gray-900">Weekly Progress</h3>
+                  <h3 className="font-semibold text-gray-900">{t('weekly_progress')}</h3>
                   <TrendingUp className="w-5 h-5 text-cyan-600" />
                 </div>
                 <div className="mb-3">
                   <div className="flex items-center justify-between text-sm mb-2">
-                    <span className="text-gray-600">Minutes Practiced</span>
+                    <span className="text-gray-600">{t('minutes_practiced')}</span>
                     <span className="font-semibold text-gray-900">
-                      {getWeeklyProgress()} / {yogaData.weeklyGoal} mins
-                    </span>
+                      {getWeeklyProgress()} / {yogaData.weeklyGoal} {t('mins')}
+                                                              </span>
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
                     <motion.div
@@ -1083,8 +1085,8 @@ export default function YogaFlexibilityGuide({ onBack }: { onBack: () => void })
                     className="bg-gradient-to-br from-cyan-50 to-teal-50 rounded-lg p-4 border border-cyan-200"
                   >
                     <p className="text-sm font-medium text-cyan-900 text-center">
-                      🎉 Weekly goal achieved! Namaste!
-                    </p>
+                      {t('weekly_goal_achieved_namaste')}
+                                                              </p>
                   </motion.div>
                 )}
               </div>
@@ -1096,11 +1098,11 @@ export default function YogaFlexibilityGuide({ onBack }: { onBack: () => void })
                     <Heart className="w-8 h-8 text-white" />
                   </div>
                   <div>
-                    <p className="text-sm text-gray-600 mb-1">Current Zen Streak</p>
+                    <p className="text-sm text-gray-600 mb-1">{t('current_zen_streak')}</p>
                     <p className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-teal-600">
-                      {yogaData.currentStreak} days
-                    </p>
-                    <p className="text-xs text-gray-500 mt-1">Practice 10+ minutes daily to maintain</p>
+                      {yogaData.currentStreak} {t('days')}
+                                                              </p>
+                    <p className="text-xs text-gray-500 mt-1">{t('practice_10_minutes_daily_to_maintain')}</p>
                   </div>
                 </div>
               </div>
@@ -1108,7 +1110,7 @@ export default function YogaFlexibilityGuide({ onBack }: { onBack: () => void })
               {/* Recent Sessions */}
               {yogaData.sessions.length > 0 && (
                 <div className="bg-white rounded-2xl p-6 border border-gray-200">
-                  <h3 className="font-semibold text-gray-900 mb-4">Recent Sessions</h3>
+                  <h3 className="font-semibold text-gray-900 mb-4">{t('recent_sessions')}</h3>
                   <div className="space-y-3">
                     {yogaData.sessions.slice(0, 5).map((session) => (
                       <div
@@ -1117,8 +1119,8 @@ export default function YogaFlexibilityGuide({ onBack }: { onBack: () => void })
                       >
                         <div className="flex items-center gap-4">
                           <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-cyan-500 to-teal-600 flex items-center justify-center text-white font-bold">
-                            {session.duration}m
-                          </div>
+                            {session.duration}{t('m')}
+                                                              </div>
                           <div>
                             <p className="text-sm font-medium text-gray-900">{session.style}</p>
                             <p className="text-xs text-gray-500">

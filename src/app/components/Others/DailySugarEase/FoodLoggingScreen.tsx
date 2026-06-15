@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Plus, X } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 interface FoodItem {
   id: number;
@@ -36,8 +37,8 @@ const SugarSlider = ({ value, onChange }: { value: number; onChange: (v: number)
   return (
     <div className="mt-4">
       <div className="flex justify-between items-baseline mb-2">
-        <span className="text-xs font-bold text-gray-400 uppercase tracking-wider">How sugary was it?</span>
-        <span className="text-base font-extrabold text-gray-900 bg-gray-100 px-3 py-1 rounded-lg">~{value}g</span>
+        <span className="text-xs font-bold text-gray-400 uppercase tracking-wider">{t('how_sugary_was_it')}</span>
+        <span className="text-base font-extrabold text-gray-900 bg-gray-100 px-3 py-1 rounded-lg">~{value}{t('g')}</span>
       </div>
 
       <div className="relative h-10 flex items-center">
@@ -68,9 +69,9 @@ const SugarSlider = ({ value, onChange }: { value: number; onChange: (v: number)
       </div>
 
       <div className="flex justify-between text-[10px] font-bold text-gray-400 mt-1 px-1">
-        <span>LOW</span>
-        <span>MEDIUM</span>
-        <span>HIGH</span>
+        <span>{t('low')}</span>
+        <span>{t('medium')}</span>
+        <span>{t('high')}</span>
       </div>
 
       <p className={`text-sm font-bold mt-2 ${label.color}`}>{label.text}</p>
@@ -79,6 +80,7 @@ const SugarSlider = ({ value, onChange }: { value: number; onChange: (v: number)
 };
 
 const FoodLoggingScreen = ({ onReview }: FoodLoggingScreenProps) => {
+    const { t } = useTranslation('DailySugarEase');
   const [input, setInput] = useState("");
   const [items, setItems] = useState<FoodItem[]>([]);
   const [nextId, setNextId] = useState(1);
@@ -106,13 +108,13 @@ const FoodLoggingScreen = ({ onReview }: FoodLoggingScreenProps) => {
       <div className="space-y-8">
         {/* Input */}
         <div className="flex flex-col gap-4">
-          <label className="text-sm font-bold text-gray-700">What did you eat or drink?</label>
+          <label className="text-sm font-bold text-gray-700">{t('what_did_you_eat_or_drink')}</label>
           <div className="flex gap-3">
             <input
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={(e) => e.key === "Enter" && addItem(input)}
-              placeholder="e.g. Chocolate Donut, Cola, Tea…"
+              placeholder={t('e_g_chocolate_donut_cola_tea')}
               className="flex-1 py-4 px-6 rounded-2xl bg-gray-50 border-2 border-gray-100 text-gray-900 placeholder:text-gray-400 text-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-rose-500/20 focus:border-rose-500/50 transition-all focus:bg-white"
             />
             <button
@@ -126,7 +128,7 @@ const FoodLoggingScreen = ({ onReview }: FoodLoggingScreenProps) => {
 
         {/* Quick chips */}
         <div className="space-y-3">
-          <p className="text-xs font-bold text-gray-400 uppercase tracking-widest">Quick Add</p>
+          <p className="text-xs font-bold text-gray-400 uppercase tracking-widest">{t('quick_add')}</p>
           <div className="flex flex-wrap gap-2">
             {QUICK_CHIPS.map((chip) => (
               <button
@@ -167,7 +169,7 @@ const FoodLoggingScreen = ({ onReview }: FoodLoggingScreenProps) => {
 
           {items.length === 0 && (
             <div className="py-12 text-center border-2 border-dashed border-gray-100 rounded-3xl">
-              <p className="text-gray-400 text-lg">Your list is empty. Add something above!</p>
+              <p className="text-gray-400 text-lg">{t('your_list_is_empty_add_something_above')}</p>
             </div>
           )}
         </div>
@@ -177,16 +179,16 @@ const FoodLoggingScreen = ({ onReview }: FoodLoggingScreenProps) => {
       <div className="fixed bottom-8 left-1/2 -translate-x-1/2 w-full max-w-[1000px] px-4 z-50">
         <div className="bg-white/80 backdrop-blur-xl border border-white/60 rounded-3xl px-8 py-5 flex items-center justify-between shadow-2xl shadow-rose-500/10">
           <div className="flex flex-col">
-            <span className="text-xs font-bold text-gray-400 uppercase tracking-widest">Est. Total Sugar</span>
-            <span className="text-2xl font-black text-rose-500">~{total}g</span>
+            <span className="text-xs font-bold text-gray-400 uppercase tracking-widest">{t('est_total_sugar')}</span>
+            <span className="text-2xl font-black text-rose-500">~{total}{t('g')}</span>
           </div>
           <button
             onClick={() => items.length > 0 && onReview(items)}
             disabled={items.length === 0}
             className="px-10 py-4 rounded-2xl bg-rose-500 text-white font-bold text-lg shadow-xl shadow-rose-500/30 disabled:opacity-30 disabled:shadow-none hover:bg-rose-600 transition-all hover:scale-105 active:scale-95"
           >
-            Review Intake
-          </button>
+            {t('review_intake')}
+                                </button>
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 interface FoodItem {
   id: number;
@@ -36,6 +37,7 @@ const interpret = (total: number) => {
 };
 
 const SummaryScreen = ({ items, onFeedback }: SummaryScreenProps) => {
+    const { t } = useTranslation('DailySugarEase');
   const total = items.reduce((s, i) => s + i.sugar, 0);
   const { drinks, snacks, meals } = categorize(items);
   const max = Math.max(drinks, snacks, meals, 1);
@@ -58,9 +60,9 @@ const SummaryScreen = ({ items, onFeedback }: SummaryScreenProps) => {
             className="bg-white rounded-3xl p-8 shadow-sm border border-gray-100 text-center relative overflow-hidden"
           >
             <div className="absolute top-0 left-0 w-full h-2 bg-rose-500" />
-            <p className="text-sm font-bold text-gray-400 uppercase tracking-widest mb-4">Daily Total</p>
-            <span className="text-7xl font-black text-gray-900">~{total}g</span>
-            <p className="text-lg text-gray-500 mt-2">Sugar consumed</p>
+            <p className="text-sm font-bold text-gray-400 uppercase tracking-widest mb-4">{t('daily_total')}</p>
+            <span className="text-7xl font-black text-gray-900">~{total}{t('g')}</span>
+            <p className="text-lg text-gray-500 mt-2">{t('sugar_consumed')}</p>
           </motion.div>
 
           <motion.div
@@ -69,7 +71,7 @@ const SummaryScreen = ({ items, onFeedback }: SummaryScreenProps) => {
             transition={{ delay: 0.1 }}
             className="bg-white rounded-3xl p-8 shadow-sm border border-gray-100 text-center"
           >
-            <p className="text-sm font-bold text-gray-400 uppercase tracking-widest mb-4">Health Score</p>
+            <p className="text-sm font-bold text-gray-400 uppercase tracking-widest mb-4">{t('health_score')}</p>
             <p className="text-6xl font-black text-rose-500">{score}<span className="text-2xl text-gray-300">/100</span></p>
             <p className="text-base text-gray-600 font-bold mt-4">{interpret(total)}</p>
           </motion.div>
@@ -83,13 +85,13 @@ const SummaryScreen = ({ items, onFeedback }: SummaryScreenProps) => {
             transition={{ delay: 0.2 }}
             className="bg-white rounded-3xl p-8 shadow-sm border border-gray-100"
           >
-            <h3 className="text-lg font-bold text-gray-900 mb-6">Where did it come from?</h3>
+            <h3 className="text-lg font-bold text-gray-900 mb-6">{t('where_did_it_come_from')}</h3>
             <div className="space-y-8">
               {categories.map((cat, idx) => (
                 <div key={cat.label}>
                   <div className="flex justify-between items-end mb-3">
                     <span className="text-base font-bold text-gray-700">{cat.label}</span>
-                    <span className="text-lg font-black text-gray-900">~{cat.value}g</span>
+                    <span className="text-lg font-black text-gray-900">~{cat.value}{t('g')}</span>
                   </div>
                   <div className="h-4 bg-gray-100 rounded-full overflow-hidden">
                     <motion.div
@@ -113,8 +115,8 @@ const SummaryScreen = ({ items, onFeedback }: SummaryScreenProps) => {
             onClick={onFeedback}
             className="w-full py-6 rounded-2xl bg-rose-500 text-white font-black text-xl shadow-xl shadow-rose-500/25 hover:bg-rose-600 transition-all"
           >
-            Get Personalized Tips
-          </motion.button>
+            {t('get_personalized_tips')}
+                                </motion.button>
         </div>
       </div>
     </div>

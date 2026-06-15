@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Sparkles } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 interface FeedbackScreenProps {
   total: number;
@@ -44,6 +45,7 @@ const CONTENT = {
 };
 
 const FeedbackScreen = ({ total, onDone }: FeedbackScreenProps) => {
+    const { t } = useTranslation('DailySugarEase');
   const level = getLevel(total);
   const score = computeScore(total);
   const { title, emoji, tips } = CONTENT[level];
@@ -75,8 +77,8 @@ const FeedbackScreen = ({ total, onDone }: FeedbackScreenProps) => {
           transition={{ delay: 0.2 }}
           className="bg-gray-50 rounded-2xl p-6 border border-gray-100 shadow-sm"
         >
-          <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Total Sugar</p>
-          <p className="text-3xl font-black text-gray-900">~{total}g</p>
+          <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">{t('total_sugar')}</p>
+          <p className="text-3xl font-black text-gray-900">~{total}{t('g')}</p>
         </motion.div>
         <motion.div
           initial={{ x: 20, opacity: 0 }}
@@ -84,7 +86,7 @@ const FeedbackScreen = ({ total, onDone }: FeedbackScreenProps) => {
           transition={{ delay: 0.2 }}
           className="bg-gray-50 rounded-2xl p-6 border border-gray-100 shadow-sm"
         >
-          <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Health Score</p>
+          <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">{t('health_score')}</p>
           <p className="text-3xl font-black text-rose-500">{score}<span className="text-sm text-gray-300">/100</span></p>
         </motion.div>
       </div>
@@ -96,8 +98,8 @@ const FeedbackScreen = ({ total, onDone }: FeedbackScreenProps) => {
         className="bg-white rounded-3xl p-8 shadow-sm w-full border border-gray-100 text-left space-y-4 mb-10"
       >
         <p className="text-lg font-bold text-gray-900 flex items-center gap-2">
-          <Sparkles className="w-5 h-5 text-rose-500" /> Tips for tomorrow
-        </p>
+          <Sparkles className="w-5 h-5 text-rose-500" /> {t('tips_for_tomorrow')}
+                          </p>
         <ul className="space-y-3">
           {tips.map((tip, i) => (
             <motion.li
@@ -123,8 +125,8 @@ const FeedbackScreen = ({ total, onDone }: FeedbackScreenProps) => {
         onClick={onDone}
         className="w-full max-w-sm py-5 rounded-2xl bg-rose-500 text-white font-black text-xl shadow-xl shadow-rose-500/25 hover:bg-rose-600 transition-all"
       >
-        Done ✅
-      </motion.button>
+        {t('done')}
+                    </motion.button>
     </div>
   );
 };

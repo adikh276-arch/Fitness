@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { ArrowLeft, BookOpen, ShoppingBag, CheckSquare, Flame, AlertTriangle, Plus, Search, Award, Zap, Check } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { logUserActivity } from '@/lib/db';
-
+import { useTranslation } from "react-i18next";
 
 interface DailyHabits {
   date: string;
@@ -278,6 +278,7 @@ const popularKetoKillers = [
 ];
 
 export default function KetoBasicsGuide({ onBack }: { onBack: () => void }) {
+    const { t } = useTranslation('KetoBasics');
   const [activeTab, setActiveTab] = useState<TabType>('education');
   const [dailyHabits, setDailyHabits] = useState<DailyHabits[]>([]);
   const [todayHabits, setTodayHabits] = useState({ under_limit: false, electrolytes: false, moderate_protein: false, high_fat: false });
@@ -388,15 +389,15 @@ export default function KetoBasicsGuide({ onBack }: { onBack: () => void }) {
             className="flex items-center gap-2 text-gray-600 hover:text-gray-900 mb-3 lg:mb-4 transition-colors"
           >
             <ArrowLeft className="w-5 h-5" />
-            <span className="text-sm lg:text-base">Back to Dashboard</span>
+            <span className="text-sm lg:text-base">{t('back_to_dashboard')}</span>
           </button>
           <div className="flex items-center gap-3 mb-2">
             <div className="bg-gradient-to-br from-yellow-500 to-amber-600 rounded-xl p-2 lg:p-3">
               <Zap className="w-6 h-6 lg:w-7 lg:h-7 text-white" />
             </div>
             <div>
-              <h1 className="text-lg lg:text-xl font-semibold text-gray-900">Keto Basics Guide</h1>
-              <p className="text-xs lg:text-sm text-gray-500">Master the ketogenic diet with science-based guidance</p>
+              <h1 className="text-lg lg:text-xl font-semibold text-gray-900">{t('keto_basics_guide')}</h1>
+              <p className="text-xs lg:text-sm text-gray-500">{t('master_the_ketogenic_diet_with_science_b')}</p>
             </div>
           </div>
         </div>
@@ -411,8 +412,8 @@ export default function KetoBasicsGuide({ onBack }: { onBack: () => void }) {
                 : 'text-gray-600 hover:bg-gray-50'
             }`}
           >
-            Ketosis 101
-          </button>
+            {t('ketosis_101')}
+                                </button>
           <button
             onClick={() => setActiveTab('pantry')}
             className={`flex-1 py-2 px-2 lg:py-3 lg:px-4 rounded-lg transition-all font-medium text-xs lg:text-base ${
@@ -421,8 +422,8 @@ export default function KetoBasicsGuide({ onBack }: { onBack: () => void }) {
                 : 'text-gray-600 hover:bg-gray-50'
             }`}
           >
-            Pantry
-          </button>
+            {t('pantry')}
+                                </button>
           <button
             onClick={() => setActiveTab('habits')}
             className={`flex-1 py-2 px-2 lg:py-3 lg:px-4 rounded-lg transition-all font-medium text-xs lg:text-base ${
@@ -431,8 +432,8 @@ export default function KetoBasicsGuide({ onBack }: { onBack: () => void }) {
                 : 'text-gray-600 hover:bg-gray-50'
             }`}
           >
-            Habits
-          </button>
+            {t('habits')}
+                                </button>
         </div>
 
         {/* Tab Content */}
@@ -452,47 +453,46 @@ export default function KetoBasicsGuide({ onBack }: { onBack: () => void }) {
                     <Flame className="w-6 h-6 lg:w-8 lg:h-8 text-white" />
                   </div>
                   <div>
-                    <h2 className="text-base lg:text-lg font-semibold text-gray-900 mb-2 lg:mb-3">What is Ketosis?</h2>
+                    <h2 className="text-base lg:text-lg font-semibold text-gray-900 mb-2 lg:mb-3">{t('what_is_ketosis')}</h2>
                     <p className="text-sm lg:text-base text-gray-700 mb-2 lg:mb-4">
-                      Ketosis is a metabolic state where your body shifts from burning <strong>glucose (sugar)</strong> to burning <strong>fat</strong> for fuel.
-                    </p>
+                      {t('ketosis_is_a_metabolic_state_where_your_')} <strong>{t('glucose_sugar')}</strong> {t('to_burning')} <strong>{t('fat')}</strong> {t('for_fuel')}
+                                                              </p>
                     <p className="text-xs lg:text-base text-gray-600">
-                      When carbohydrate intake is very low (typically under 50g/day), your liver converts fat into molecules called <strong>ketones</strong>,
-                      which become your body's primary energy source. This process leads to efficient fat burning and stable energy levels.
-                    </p>
+                      {t('when_carbohydrate_intake_is_very_low_typ')} <strong>{t('ketones')}</strong>{t('which_become_your_body_s_primary_energy_')}
+                                                              </p>
                   </div>
                 </div>
               </div>
 
               {/* The Keto Ratio */}
               <div className="bg-white rounded-xl lg:rounded-2xl p-4 lg:p-8 border border-gray-200 shadow-sm">
-                <h2 className="text-base lg:text-lg font-semibold text-gray-900 mb-4 lg:mb-6">The Keto Macronutrient Ratio</h2>
+                <h2 className="text-base lg:text-lg font-semibold text-gray-900 mb-4 lg:mb-6">{t('the_keto_macronutrient_ratio')}</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 lg:gap-6">
                   <div className="bg-gradient-to-br from-yellow-50 to-orange-50 rounded-xl p-4 lg:p-6 border border-yellow-200 text-center">
                     <div className="w-16 h-16 lg:w-20 lg:h-20 bg-yellow-500 rounded-full mx-auto mb-3 lg:mb-4 flex items-center justify-center">
                       <span className="text-2xl lg:text-3xl font-bold text-white">70%</span>
                     </div>
-                    <h3 className="font-semibold text-sm lg:text-base text-gray-900 mb-1 lg:mb-2">Fats</h3>
-                    <p className="text-xs lg:text-sm text-gray-600">70-75% of daily calories</p>
-                    <p className="text-xs text-gray-500 mt-1 lg:mt-2">Avocado, nuts, oils, butter, fatty fish</p>
+                    <h3 className="font-semibold text-sm lg:text-base text-gray-900 mb-1 lg:mb-2">{t('fats')}</h3>
+                    <p className="text-xs lg:text-sm text-gray-600">{t('70_75_of_daily_calories')}</p>
+                    <p className="text-xs text-gray-500 mt-1 lg:mt-2">{t('avocado_nuts_oils_butter_fatty_fish')}</p>
                   </div>
 
                   <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-xl p-4 lg:p-6 border border-orange-200 text-center">
                     <div className="w-16 h-16 lg:w-20 lg:h-20 bg-orange-500 rounded-full mx-auto mb-3 lg:mb-4 flex items-center justify-center">
                       <span className="text-2xl lg:text-3xl font-bold text-white">22%</span>
                     </div>
-                    <h3 className="font-semibold text-sm lg:text-base text-gray-900 mb-1 lg:mb-2">Protein</h3>
-                    <p className="text-xs lg:text-sm text-gray-600">20-25% of daily calories</p>
-                    <p className="text-xs text-gray-500 mt-1 lg:mt-2">Meat, fish, eggs, moderate portions</p>
+                    <h3 className="font-semibold text-sm lg:text-base text-gray-900 mb-1 lg:mb-2">{t('protein')}</h3>
+                    <p className="text-xs lg:text-sm text-gray-600">{t('20_25_of_daily_calories')}</p>
+                    <p className="text-xs text-gray-500 mt-1 lg:mt-2">{t('meat_fish_eggs_moderate_portions')}</p>
                   </div>
 
                   <div className="bg-gradient-to-br from-lime-50 to-green-50 rounded-xl p-4 lg:p-6 border border-lime-200 text-center">
                     <div className="w-16 h-16 lg:w-20 lg:h-20 bg-lime-500 rounded-full mx-auto mb-3 lg:mb-4 flex items-center justify-center">
                       <span className="text-2xl lg:text-3xl font-bold text-white">8%</span>
                     </div>
-                    <h3 className="font-semibold text-sm lg:text-base text-gray-900 mb-1 lg:mb-2">Carbs</h3>
-                    <p className="text-xs lg:text-sm text-gray-600">5-10% of daily calories</p>
-                    <p className="text-xs text-gray-500 mt-1 lg:mt-2">Mostly from low-carb vegetables</p>
+                    <h3 className="font-semibold text-sm lg:text-base text-gray-900 mb-1 lg:mb-2">{t('carbs')}</h3>
+                    <p className="text-xs lg:text-sm text-gray-600">{t('5_10_of_daily_calories')}</p>
+                    <p className="text-xs text-gray-500 mt-1 lg:mt-2">{t('mostly_from_low_carb_vegetables')}</p>
                   </div>
                 </div>
               </div>
@@ -502,25 +502,25 @@ export default function KetoBasicsGuide({ onBack }: { onBack: () => void }) {
                 <div className="flex items-start gap-3 lg:gap-4">
                   <AlertTriangle className="w-8 h-8 lg:w-12 lg:h-12 text-red-500 flex-shrink-0" />
                   <div className="flex-1 min-w-0">
-                    <h2 className="text-base lg:text-lg font-semibold text-gray-900 mb-2 lg:mb-3">The "Keto Flu"</h2>
+                    <h2 className="text-base lg:text-lg font-semibold text-gray-900 mb-2 lg:mb-3">{t('the_keto_flu')}</h2>
                     <p className="text-sm lg:text-base text-gray-700 mb-3 lg:mb-4">
-                      During the first week of keto, many people experience flu-like symptoms due to <strong>electrolyte loss</strong>.
+                      {t('during_the_first_week_of_keto_many_peopl')} <strong>{t('electrolyte_loss')}</strong>.
                     </p>
                     <div className="bg-white rounded-xl p-3 lg:p-4 mb-3 lg:mb-4">
-                      <h4 className="font-semibold text-sm lg:text-base text-gray-900 mb-2">Common Symptoms:</h4>
+                      <h4 className="font-semibold text-sm lg:text-base text-gray-900 mb-2">{t('common_symptoms')}</h4>
                       <ul className="space-y-1 text-xs lg:text-sm text-gray-600">
-                        <li>• Headaches</li>
-                        <li>• Fatigue and brain fog</li>
-                        <li>• Muscle cramps</li>
-                        <li>• Irritability</li>
+                        <li>{t('headaches')}</li>
+                        <li>{t('fatigue_and_brain_fog')}</li>
+                        <li>{t('muscle_cramps')}</li>
+                        <li>{t('irritability')}</li>
                       </ul>
                     </div>
                     <div className="bg-emerald-50 rounded-xl p-3 lg:p-4 border border-emerald-200">
-                      <h4 className="font-semibold text-sm lg:text-base text-emerald-900 mb-2">The Solution:</h4>
+                      <h4 className="font-semibold text-sm lg:text-base text-emerald-900 mb-2">{t('the_solution')}</h4>
                       <ul className="space-y-1 text-xs lg:text-sm text-emerald-700">
-                        <li>• <strong>Sodium:</strong> 3000-5000mg/day (salt your food liberally)</li>
-                        <li>• <strong>Potassium:</strong> 1000-3500mg/day (avocado, spinach)</li>
-                        <li>• <strong>Magnesium:</strong> 300-500mg/day (supplement recommended)</li>
+                        <li>• <strong>{t('sodium')}</strong> {t('3000_5000mg_day_salt_your_food_liberally')}</li>
+                        <li>• <strong>{t('potassium')}</strong> {t('1000_3500mg_day_avocado_spinach')}</li>
+                        <li>• <strong>{t('magnesium')}</strong> {t('300_500mg_day_supplement_recommended')}</li>
                       </ul>
                     </div>
                   </div>
@@ -529,26 +529,26 @@ export default function KetoBasicsGuide({ onBack }: { onBack: () => void }) {
 
               {/* Net Carb Rule */}
               <div className="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-xl lg:rounded-2xl p-4 lg:p-8 border-2 border-indigo-200">
-                <h2 className="text-base lg:text-lg font-semibold text-gray-900 mb-2 lg:mb-3">The "Net Carb" Rule</h2>
+                <h2 className="text-base lg:text-lg font-semibold text-gray-900 mb-2 lg:mb-3">{t('the_net_carb_rule')}</h2>
                 <p className="text-sm lg:text-base text-gray-700 mb-3 lg:mb-4">
-                  On keto, we count <strong>net carbs</strong>, not total carbs. Here's why:
-                </p>
+                  {t('on_keto_we_count')} <strong>{t('net_carbs_2')}</strong>{t('not_total_carbs_here_s_why')}
+                                                  </p>
                 <div className="bg-white rounded-xl p-4 lg:p-6">
                   <p className="text-sm lg:text-lg font-semibold text-indigo-900 mb-3 lg:mb-4 text-center">
-                    Net Carbs = Total Carbs − Fiber − Sugar Alcohols
-                  </p>
+                    {t('net_carbs_total_carbs_fiber_sugar_alcoho')}
+                                                        </p>
                   <div className="space-y-2 lg:space-y-3 text-xs lg:text-base text-gray-600">
                     <p className="flex items-start gap-2">
                       <span className="text-indigo-500 mt-1">✓</span>
-                      <span><strong>Fiber</strong> doesn't raise blood sugar and passes through undigested</span>
+                      <span><strong>{t('fiber')}</strong> {t('doesn_t_raise_blood_sugar_and_passes_thr')}</span>
                     </p>
                     <p className="flex items-start gap-2">
                       <span className="text-indigo-500 mt-1">✓</span>
-                      <span><strong>Sugar alcohols</strong> (like erythritol) have minimal impact on blood glucose</span>
+                      <span><strong>{t('sugar_alcohols')}</strong> {t('like_erythritol_have_minimal_impact_on_b')}</span>
                     </p>
                     <p className="flex items-start gap-2">
                       <span className="text-indigo-500 mt-1">✓</span>
-                      <span><strong>Net carbs</strong> are what actually affect ketosis</span>
+                      <span><strong>{t('net_carbs')}</strong> {t('are_what_actually_affect_ketosis')}</span>
                     </p>
                   </div>
                 </div>
@@ -573,7 +573,7 @@ export default function KetoBasicsGuide({ onBack }: { onBack: () => void }) {
                     type="text"
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
-                    placeholder="Search keto foods..."
+                    placeholder={t('search_keto_foods')}
                     className="w-full pl-10 lg:pl-12 pr-3 lg:pr-4 py-3 lg:py-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-yellow-500/20 focus:border-yellow-500 text-sm lg:text-lg"
                   />
                 </div>
@@ -583,10 +583,10 @@ export default function KetoBasicsGuide({ onBack }: { onBack: () => void }) {
               <div className="bg-white rounded-xl lg:rounded-2xl p-4 lg:p-8 border border-gray-200 shadow-sm">
                 <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-4 lg:mb-6 flex items-center gap-2">
                   <span className="text-emerald-500">✓</span>
-                  Green Light Foods
-                </h3>
+                  {t('green_light_foods')}
+                                                  </h3>
                 <p className="text-xs lg:text-sm text-gray-500 mb-4 lg:mb-6">
-                  Net carbs per 100g serving {!searchQuery && '(Popular items - use search to see more)'}
+                  {t('net_carbs_per_100g_serving')} {!searchQuery && '(Popular items - use search to see more)'}
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-4">
@@ -598,8 +598,8 @@ export default function KetoBasicsGuide({ onBack }: { onBack: () => void }) {
                       <div className="flex items-center justify-between mb-1 lg:mb-2">
                         <span className="font-medium text-sm lg:text-base text-gray-900">{food.name}</span>
                         <span className="px-2 py-1 lg:px-3 lg:py-1 bg-emerald-100 text-emerald-700 rounded-lg text-xs lg:text-sm font-bold">
-                          {food.netCarbs}g
-                        </span>
+                          {food.netCarbs}{t('g')}
+                                                          </span>
                       </div>
                       <span className="text-xs text-gray-500">{food.category}</span>
                     </div>
@@ -611,10 +611,10 @@ export default function KetoBasicsGuide({ onBack }: { onBack: () => void }) {
               <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-xl lg:rounded-2xl p-4 lg:p-8 border-2 border-red-200">
                 <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-4 lg:mb-6 flex items-center gap-2">
                   <span className="text-red-500">✗</span>
-                  Keto Killers - Avoid These
-                </h3>
+                  {t('keto_killers_avoid_these')}
+                                                  </h3>
                 <p className="text-xs lg:text-sm text-gray-600 mb-4 lg:mb-6">
-                  High-carb foods that will kick you out of ketosis {!searchQuery && '(Popular items - use search to see more)'}
+                  {t('high_carb_foods_that_will_kick_you_out_o')} {!searchQuery && '(Popular items - use search to see more)'}
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-4">
@@ -626,8 +626,8 @@ export default function KetoBasicsGuide({ onBack }: { onBack: () => void }) {
                       <div className="flex items-center justify-between mb-1 lg:mb-2">
                         <span className="font-medium text-sm lg:text-base text-red-900">{food.name}</span>
                         <span className="px-2 py-1 lg:px-3 lg:py-1 bg-red-100 text-red-700 rounded-lg text-xs lg:text-sm font-bold">
-                          {food.netCarbs}g
-                        </span>
+                          {food.netCarbs}{t('g')}
+                                                          </span>
                       </div>
                       <span className="text-xs text-gray-500">{food.category}</span>
                     </div>
@@ -655,10 +655,10 @@ export default function KetoBasicsGuide({ onBack }: { onBack: () => void }) {
                     className="bg-gradient-to-r from-emerald-500 to-teal-500 rounded-xl lg:rounded-2xl p-6 lg:p-8 text-center border-2 border-emerald-400 shadow-xl"
                   >
                     <Award className="w-12 h-12 lg:w-16 lg:h-16 text-white mx-auto mb-3 lg:mb-4" />
-                    <h2 className="text-xl lg:text-3xl font-bold text-white mb-1 lg:mb-2">Ketosis Maintained!</h2>
+                    <h2 className="text-xl lg:text-3xl font-bold text-white mb-1 lg:mb-2">{t('ketosis_maintained')}</h2>
                     <p className="text-sm lg:text-base text-emerald-100">
-                      Great job staying under your net carb limit today
-                    </p>
+                      {t('great_job_staying_under_your_net_carb_li')}
+                                                              </p>
                   </motion.div>
                 )}
               </AnimatePresence>
@@ -673,7 +673,7 @@ export default function KetoBasicsGuide({ onBack }: { onBack: () => void }) {
               }`}>
                 <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-3 lg:gap-0">
                   <div>
-                    <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-1 lg:mb-2">Ketosis Probability</h3>
+                    <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-1 lg:mb-2">{t('ketosis_probability')}</h3>
                     <p className="text-xs lg:text-base text-gray-600">
                       {ketosisProb === 'High'
                         ? '✓ You\'re on track for deep ketosis'
@@ -692,17 +692,17 @@ export default function KetoBasicsGuide({ onBack }: { onBack: () => void }) {
 
               {/* Daily Habits Checklist */}
               <div className="bg-white rounded-xl lg:rounded-2xl p-4 lg:p-8 border border-gray-200 shadow-sm">
-                <h3 className="text-base lg:text-xl font-semibold text-gray-900 mb-4 lg:mb-6">Keto Success Checklist</h3>
+                <h3 className="text-base lg:text-xl font-semibold text-gray-900 mb-4 lg:mb-6">{t('keto_success_checklist')}</h3>
                 <p className="text-xs lg:text-sm text-gray-500 mb-4 lg:mb-6">
-                  Complete these daily for optimal ketosis
-                </p>
+                  {t('complete_these_daily_for_optimal_ketosis')}
+                                                  </p>
 
                 <div className="space-y-3 lg:space-y-4">
                   <KetoHabitCheckbox
                     checked={todayHabits.under_limit}
                     onChange={() => toggleHabit('under_limit')}
                     icon={<Zap className="w-5 h-5 lg:w-6 lg:h-6" />}
-                    label="Stayed Under 20-50g Net Carbs"
+                    label={t('stayed_under_20_50g_net_carbs')}
                     description="Critical for maintaining ketosis"
                     color="yellow"
                   />
@@ -711,7 +711,7 @@ export default function KetoBasicsGuide({ onBack }: { onBack: () => void }) {
                     checked={todayHabits.electrolytes}
                     onChange={() => toggleHabit('electrolytes')}
                     icon={<span className="text-xl lg:text-2xl">⚡</span>}
-                    label="Hit Electrolyte Goals"
+                    label={t('hit_electrolyte_goals')}
                     description="Sodium, potassium, magnesium supplemented"
                     color="amber"
                   />
@@ -720,7 +720,7 @@ export default function KetoBasicsGuide({ onBack }: { onBack: () => void }) {
                     checked={todayHabits.moderate_protein}
                     onChange={() => toggleHabit('moderate_protein')}
                     icon={<span className="text-xl lg:text-2xl">🥩</span>}
-                    label="Moderate Protein Intake"
+                    label={t('moderate_protein_intake')}
                     description="Not excessive - excess protein can convert to glucose"
                     color="orange"
                   />
@@ -729,7 +729,7 @@ export default function KetoBasicsGuide({ onBack }: { onBack: () => void }) {
                     checked={todayHabits.high_fat}
                     onChange={() => toggleHabit('high_fat')}
                     icon={<span className="text-xl lg:text-2xl">🥑</span>}
-                    label="High-Fat Source with Every Meal"
+                    label={t('high_fat_source_with_every_meal')}
                     description="70-75% of calories from healthy fats"
                     color="amber"
                   />
@@ -738,7 +738,7 @@ export default function KetoBasicsGuide({ onBack }: { onBack: () => void }) {
 
               {/* 30-Day Habit Log */}
               <div className="bg-white rounded-xl lg:rounded-2xl p-4 lg:p-8 border border-gray-200 shadow-sm">
-                <h3 className="text-base lg:text-xl font-semibold text-gray-900 mb-4 lg:mb-6">30-Day Habit Tracker</h3>
+                <h3 className="text-base lg:text-xl font-semibold text-gray-900 mb-4 lg:mb-6">{t('30_day_habit_tracker')}</h3>
                 <div className="grid grid-cols-6 lg:grid-cols-10 gap-2">
                   {getLast30DaysHabits().map((day) => {
                     const isToday = day.date === today;
@@ -773,7 +773,7 @@ export default function KetoBasicsGuide({ onBack }: { onBack: () => void }) {
                 <div className="mt-4 flex flex-wrap items-center gap-3 lg:gap-4 text-xs text-gray-600">
                   <div className="flex items-center gap-2">
                     <div className="w-4 h-4 rounded bg-gray-100"></div>
-                    <span>None</span>
+                    <span>{t('none')}</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <div className="w-4 h-4 rounded bg-orange-300"></div>
@@ -789,30 +789,30 @@ export default function KetoBasicsGuide({ onBack }: { onBack: () => void }) {
                   </div>
                   <div className="flex items-center gap-2">
                     <div className="w-4 h-4 rounded bg-amber-500"></div>
-                    <span>All 4</span>
+                    <span>{t('all_4')}</span>
                   </div>
                 </div>
               </div>
 
               {/* Tips */}
               <div className="bg-gradient-to-br from-yellow-50 to-amber-50 rounded-xl lg:rounded-2xl p-4 lg:p-8 border border-yellow-200">
-                <h3 className="text-base lg:text-xl font-semibold text-gray-900 mb-3 lg:mb-4">Keto Essentials</h3>
+                <h3 className="text-base lg:text-xl font-semibold text-gray-900 mb-3 lg:mb-4">{t('keto_essentials')}</h3>
                 <div className="space-y-2 lg:space-y-3 text-xs lg:text-base text-gray-700">
                   <p className="flex items-start gap-2">
                     <span className="text-yellow-500 mt-1">✓</span>
-                    <span><strong>Track net carbs, not total:</strong> Fiber and sugar alcohols don't count</span>
+                    <span><strong>{t('track_net_carbs_not_total')}</strong> {t('fiber_and_sugar_alcohols_don_t_count')}</span>
                   </p>
                   <p className="flex items-start gap-2">
                     <span className="text-yellow-500 mt-1">✓</span>
-                    <span><strong>Don't fear fat:</strong> It's your primary fuel source on keto</span>
+                    <span><strong>{t('don_t_fear_fat')}</strong> {t('it_s_your_primary_fuel_source_on_keto')}</span>
                   </p>
                   <p className="flex items-start gap-2">
                     <span className="text-yellow-500 mt-1">✓</span>
-                    <span><strong>Electrolytes are crucial:</strong> Most "keto flu" is actually electrolyte deficiency</span>
+                    <span><strong>{t('electrolytes_are_crucial')}</strong> {t('most_keto_flu_is_actually_electrolyte_de')}</span>
                   </p>
                   <p className="flex items-start gap-2">
                     <span className="text-yellow-500 mt-1">✓</span>
-                    <span><strong>Test ketones if curious:</strong> Blood ketones of 0.5-3.0 mmol/L indicate nutritional ketosis</span>
+                    <span><strong>{t('test_ketones_if_curious')}</strong> {t('blood_ketones_of_0_5_3_0_mmol_l_indicate')}</span>
                   </p>
                 </div>
               </div>

@@ -3,6 +3,7 @@ import { ArrowLeft, Zap, Play, Pause, RotateCcw, TrendingUp, Award, Flame, Timer
 import { motion, AnimatePresence } from 'motion/react';
 import confetti from 'canvas-confetti';
 import { logUserActivity, fetchUserActivityLogs } from '@/lib/db';
+import { useTranslation } from "react-i18next";
 
 interface Exercise {
   name: string;
@@ -144,6 +145,7 @@ const presetWorkouts = [
 ];
 
 export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
+    const { t } = useTranslation('HIITCardio');
   const [activeTab, setActiveTab] = useState<'workouts' | 'analytics'>('workouts');
   const [hiitData, setHiitData] = useState<HIITData>(() => {
     const saved = localStorage.getItem('hiit-cardio-data');
@@ -581,15 +583,15 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
             className="flex items-center gap-2 text-gray-600 hover:text-gray-900 mb-3 lg:mb-4 transition-colors"
           >
             <ArrowLeft className="w-5 h-5" />
-            <span className="text-sm lg:text-base">Back to Dashboard</span>
+            <span className="text-sm lg:text-base">{t('back_to_dashboard')}</span>
           </button>
           <div className="flex items-center gap-3 mb-2">
             <div className="bg-gradient-to-br from-orange-500 to-red-600 rounded-xl p-2 lg:p-3">
               <Zap className="w-6 h-6 lg:w-8 lg:h-8 text-white" />
             </div>
             <div>
-              <h1 className="text-xl lg:text-2xl font-semibold text-gray-900">HIIT & Cardio</h1>
-              <p className="text-xs lg:text-sm text-gray-500">High-intensity interval training toolkit</p>
+              <h1 className="text-xl lg:text-2xl font-semibold text-gray-900">{t('hiit_cardio')}</h1>
+              <p className="text-xs lg:text-sm text-gray-500">{t('high_intensity_interval_training_toolkit')}</p>
             </div>
           </div>
         </div>
@@ -604,8 +606,8 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                 : 'text-gray-600 hover:bg-gray-50'
             }`}
           >
-            Workouts
-          </button>
+            {t('workouts')}
+                                </button>
           <button
             onClick={() => setActiveTab('analytics')}
             className={`flex-1 py-2 px-2 lg:py-3 lg:px-4 rounded-lg transition-all font-medium text-xs lg:text-base ${
@@ -614,8 +616,8 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                 : 'text-gray-600 hover:bg-gray-50'
             }`}
           >
-            Analytics
-          </button>
+            {t('analytics')}
+                                </button>
         </div>
 
         <AnimatePresence mode="wait">
@@ -706,7 +708,7 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                           >
                             💧
                           </motion.div>
-                          <h3 className="text-2xl lg:text-3xl font-bold text-white mb-3 lg:mb-4">Rest & Hydrate</h3>
+                          <h3 className="text-2xl lg:text-3xl font-bold text-white mb-3 lg:mb-4">{t('rest_hydrate')}</h3>
                           <div className="text-6xl lg:text-8xl font-bold text-white tabular-nums">
                             {timeRemaining}
                           </div>
@@ -714,8 +716,8 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                             onClick={skipRest}
                             className="mt-4 lg:mt-6 px-4 lg:px-6 py-2 lg:py-3 bg-white/20 hover:bg-white/30 backdrop-blur-sm text-white rounded-xl font-semibold transition-all text-sm lg:text-base"
                           >
-                            Skip Rest
-                          </button>
+                            {t('skip_rest')}
+                                                                                </button>
                         </>
                       )}
 
@@ -730,7 +732,7 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                           >
                             🔥
                           </motion.div>
-                          <h3 className="text-2xl lg:text-3xl font-bold text-white mb-3 lg:mb-4">Warm Up</h3>
+                          <h3 className="text-2xl lg:text-3xl font-bold text-white mb-3 lg:mb-4">{t('warm_up')}</h3>
                           {activeWorkout && warmupInstructions[activeWorkout.id] && (
                             <p className="text-sm lg:text-lg text-white/90 mb-3 lg:mb-4 max-w-md text-center px-4">
                               {warmupInstructions[activeWorkout.id]}
@@ -743,8 +745,8 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                             onClick={skipWarmup}
                             className="mt-4 lg:mt-6 px-4 lg:px-6 py-2 lg:py-3 bg-white/20 hover:bg-white/30 backdrop-blur-sm text-white rounded-xl font-semibold transition-all text-sm lg:text-base"
                           >
-                            Skip Warmup
-                          </button>
+                            {t('skip_warmup')}
+                                                                                </button>
                         </>
                       )}
 
@@ -758,8 +760,8 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                           >
                             🎉
                           </motion.div>
-                          <h3 className="text-2xl lg:text-4xl font-bold text-white mb-2">Workout Complete!</h3>
-                          <p className="text-lg lg:text-2xl text-white/90">{totalIntervalsCompleted} intervals done</p>
+                          <h3 className="text-2xl lg:text-4xl font-bold text-white mb-2">{t('workout_complete')}</h3>
+                          <p className="text-lg lg:text-2xl text-white/90">{totalIntervalsCompleted} {t('intervals_done')}</p>
                         </>
                       )}
 
@@ -767,7 +769,7 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                       {phase !== 'complete' && (
                         <div className="absolute top-2 lg:top-4 right-2 lg:right-4 bg-black/30 backdrop-blur-sm rounded-lg px-3 lg:px-4 py-1.5 lg:py-2">
                           <p className="text-white font-semibold text-sm lg:text-base">
-                            Round {currentRound}/{timerConfig.rounds}
+                            {t('round')} {currentRound}/{timerConfig.rounds}
                           </p>
                         </div>
                       )}
@@ -787,7 +789,7 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                           animate={{ x: 0, opacity: 1 }}
                           className="absolute bottom-2 lg:bottom-4 right-2 lg:right-4 bg-black/40 backdrop-blur-md rounded-xl p-2 lg:p-4 border border-white/20 max-w-[180px] lg:max-w-none"
                         >
-                          <p className="text-xs text-white/70 mb-1">Next Up</p>
+                          <p className="text-xs text-white/70 mb-1">{t('next_up')}</p>
                           <div className="flex items-center gap-2 lg:gap-3">
                             <div className="text-2xl lg:text-3xl">
                               {activeWorkout.exercises[currentExerciseIndex + 1].emoji}
@@ -805,7 +807,7 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                           animate={{ x: 0, opacity: 1 }}
                           className="absolute bottom-2 lg:bottom-4 right-2 lg:right-4 bg-black/40 backdrop-blur-md rounded-xl p-2 lg:p-4 border border-white/20 max-w-[180px] lg:max-w-none"
                         >
-                          <p className="text-xs text-white/70 mb-1">Next Up</p>
+                          <p className="text-xs text-white/70 mb-1">{t('next_up')}</p>
                           <div className="flex items-center gap-2 lg:gap-3">
                             <div className="text-2xl lg:text-3xl">
                               {activeWorkout.exercises[currentExerciseIndex + 1].emoji}
@@ -830,16 +832,16 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                       className="flex-1 py-3 lg:py-4 px-4 lg:px-6 bg-yellow-500 text-white rounded-xl font-bold hover:shadow-lg hover:scale-105 transition-all flex items-center justify-center gap-2 text-sm lg:text-base"
                     >
                       <Pause className="w-5 h-5 lg:w-6 lg:h-6" />
-                      Pause
-                    </button>
+                      {t('pause')}
+                                                              </button>
                   ) : (
                     <button
                       onClick={startTimer}
                       className="flex-1 py-3 lg:py-4 px-4 lg:px-6 bg-green-500 text-white rounded-xl font-bold hover:shadow-lg hover:scale-105 transition-all flex items-center justify-center gap-2 text-sm lg:text-base"
                     >
                       <Play className="w-5 h-5 lg:w-6 lg:h-6" />
-                      Resume
-                    </button>
+                      {t('resume')}
+                                                                  </button>
                   )}
                   {phase === 'work' && (
                     <button
@@ -847,7 +849,7 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                       className="py-3 lg:py-4 px-4 lg:px-6 bg-blue-500 text-white rounded-xl font-bold hover:shadow-lg hover:scale-105 transition-all flex items-center justify-center gap-2 text-sm lg:text-base"
                     >
                       <SkipForward className="w-5 h-5 lg:w-6 lg:h-6" />
-                      <span className="hidden sm:inline">Skip</span>
+                      <span className="hidden sm:inline">{t('skip')}</span>
                     </button>
                   )}
                   {phase === 'rest' && (
@@ -856,7 +858,7 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                       className="py-3 lg:py-4 px-4 lg:px-6 bg-blue-500 text-white rounded-xl font-bold hover:shadow-lg hover:scale-105 transition-all flex items-center justify-center gap-2 text-sm lg:text-base"
                     >
                       <SkipForward className="w-5 h-5 lg:w-6 lg:h-6" />
-                      <span className="hidden sm:inline">Skip</span>
+                      <span className="hidden sm:inline">{t('skip')}</span>
                     </button>
                   )}
                   <button
@@ -864,8 +866,8 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                     className="flex-1 py-3 lg:py-4 px-4 lg:px-6 bg-gray-500 text-white rounded-xl font-bold hover:shadow-lg hover:scale-105 transition-all flex items-center justify-center gap-2 text-sm lg:text-base"
                   >
                     <RotateCcw className="w-5 h-5 lg:w-6 lg:h-6" />
-                    End Workout
-                  </button>
+                    {t('end_workout')}
+                                                        </button>
                 </div>
               )}
 
@@ -876,12 +878,12 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                   animate={{ opacity: 1, scale: 1 }}
                   className="bg-white rounded-2xl p-4 lg:p-6 border border-gray-200"
                 >
-                  <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-3 lg:mb-4">Log Your Workout</h3>
+                  <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-3 lg:mb-4">{t('log_your_workout')}</h3>
                   <div className="space-y-3 lg:space-y-4">
                     <div>
                       <label className="block text-xs lg:text-sm font-medium text-gray-700 mb-2">
-                        Weight (kg) - for calorie calculation
-                      </label>
+                        {t('weight_kg_for_calorie_calculation')}
+                                                                    </label>
                       <input
                         type="number"
                         value={userWeight}
@@ -891,7 +893,7 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                     </div>
                     <div>
                       <label className="block text-xs lg:text-sm font-medium text-gray-700 mb-2 lg:mb-3">
-                        Rate of Perceived Exertion (RPE): {rpeScore}/10
+                        {t('rate_of_perceived_exertion_rpe')} {rpeScore}/10
                       </label>
                       <input
                         type="range"
@@ -905,17 +907,17 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                         }}
                       />
                       <div className="flex justify-between text-xs text-gray-500 mt-2">
-                        <span>1 - Easy</span>
-                        <span className="hidden sm:inline">5 - Moderate</span>
-                        <span>10 - Max</span>
+                        <span>{t('1_easy')}</span>
+                        <span className="hidden sm:inline">{t('5_moderate')}</span>
+                        <span>{t('10_max')}</span>
                       </div>
                     </div>
                     <button
                       onClick={() => logWorkout(activeWorkout?.name || 'Custom HIIT')}
                       className="w-full py-3 lg:py-4 px-4 lg:px-6 bg-gradient-to-r from-orange-500 to-red-600 text-white rounded-xl font-bold hover:shadow-lg hover:scale-105 transition-all text-sm lg:text-base"
                     >
-                      💪 Log Workout & Calculate Burn
-                    </button>
+                      {t('log_workout_calculate_burn')}
+                                                              </button>
                   </div>
                 </motion.div>
               )}
@@ -933,7 +935,7 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                     className="flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors"
                   >
                     <ArrowLeft className="w-4 h-4" />
-                    <span className="text-sm">Back to Workouts</span>
+                    <span className="text-sm">{t('back_to_workouts')}</span>
                   </button>
 
                   {/* Workout Header */}
@@ -941,7 +943,7 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                     <div className="flex items-start justify-between mb-4">
                       <div className="text-6xl lg:text-7xl">{selectedWorkoutPreview.icon}</div>
                       <div className="bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full">
-                        <span className="text-white text-sm lg:text-base font-semibold">{selectedWorkoutPreview.duration} minutes</span>
+                        <span className="text-white text-sm lg:text-base font-semibold">{selectedWorkoutPreview.duration} {t('minutes')}</span>
                       </div>
                     </div>
                     <h2 className="text-3xl lg:text-4xl font-bold text-white mb-2">{selectedWorkoutPreview.name}</h2>
@@ -951,24 +953,24 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                     <div className="flex flex-wrap gap-3 mb-6">
                       {selectedWorkoutPreview.config.warmup > 0 && (
                         <div className="bg-white/20 backdrop-blur-sm px-4 py-2 rounded-xl">
-                          <p className="text-xs text-white/70">Warmup</p>
-                          <p className="text-lg font-bold text-white">{selectedWorkoutPreview.config.warmup}s</p>
+                          <p className="text-xs text-white/70">{t('warmup_2')}</p>
+                          <p className="text-lg font-bold text-white">{selectedWorkoutPreview.config.warmup}{t('s')}</p>
                         </div>
                       )}
                       <div className="bg-white/20 backdrop-blur-sm px-4 py-2 rounded-xl">
-                        <p className="text-xs text-white/70">Work</p>
-                        <p className="text-lg font-bold text-white">{selectedWorkoutPreview.config.work}s</p>
+                        <p className="text-xs text-white/70">{t('work_2')}</p>
+                        <p className="text-lg font-bold text-white">{selectedWorkoutPreview.config.work}{t('s')}</p>
                       </div>
                       <div className="bg-white/20 backdrop-blur-sm px-4 py-2 rounded-xl">
-                        <p className="text-xs text-white/70">Rest</p>
-                        <p className="text-lg font-bold text-white">{selectedWorkoutPreview.config.rest}s</p>
+                        <p className="text-xs text-white/70">{t('rest_2')}</p>
+                        <p className="text-lg font-bold text-white">{selectedWorkoutPreview.config.rest}{t('s')}</p>
                       </div>
                     </div>
 
                     {/* Warmup Info */}
                     {selectedWorkoutPreview.config.warmup > 0 && warmupInstructions[selectedWorkoutPreview.id] && (
                       <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 mb-6 border border-white/20">
-                        <p className="text-sm font-semibold text-white mb-2">Warmup Routine:</p>
+                        <p className="text-sm font-semibold text-white mb-2">{t('warmup_routine')}</p>
                         <p className="text-sm text-white/90">{warmupInstructions[selectedWorkoutPreview.id]}</p>
                       </div>
                     )}
@@ -976,7 +978,7 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                     {/* Rounds Selector */}
                     <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 mb-6 border border-white/20">
                       <label className="block text-sm font-semibold text-white mb-3">
-                        Number of Rounds: {selectedRounds}
+                        {t('number_of_rounds')} {selectedRounds}
                       </label>
                       <div className="flex items-center gap-4">
                         <input
@@ -1006,8 +1008,8 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                         </div>
                       </div>
                       <p className="text-xs text-white/70 mt-2">
-                        Recommended: {selectedWorkoutPreview.config.rounds} rounds
-                      </p>
+                        {t('recommended')} {selectedWorkoutPreview.config.rounds} {t('rounds_3')}
+                                                                    </p>
                     </div>
 
                     <button
@@ -1018,13 +1020,13 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                       className="w-full py-4 bg-white text-orange-600 font-bold rounded-xl hover:bg-white/90 transition-all flex items-center justify-center gap-2 text-base lg:text-lg"
                     >
                       <Play className="w-5 h-5 lg:w-6 lg:h-6" />
-                      Start Workout ({selectedRounds} Rounds)
-                    </button>
+                      {t('start_workout')}{selectedRounds} {t('rounds_2')}
+                                                              </button>
                   </div>
 
                   {/* Exercise List */}
                   <div className="bg-white rounded-2xl p-4 lg:p-6 border border-gray-200">
-                    <h3 className="font-semibold text-gray-900 mb-4 text-base lg:text-lg">Exercises in This Workout</h3>
+                    <h3 className="font-semibold text-gray-900 mb-4 text-base lg:text-lg">{t('exercises_in_this_workout')}</h3>
                     <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
                       {selectedWorkoutPreview.exercises.map((exercise, index) => (
                         <div
@@ -1033,7 +1035,7 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                         >
                           <div className="text-3xl lg:text-4xl mb-2">{exercise.emoji}</div>
                           <p className="text-xs lg:text-sm font-semibold text-gray-900">{exercise.name}</p>
-                          <p className="text-xs text-gray-600">{exercise.duration}s</p>
+                          <p className="text-xs text-gray-600">{exercise.duration}{t('s')}</p>
                         </div>
                       ))}
                     </div>
@@ -1043,27 +1045,25 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                 <>
                   {/* Info Box - Moved Above Workouts */}
                   <div className="bg-white rounded-2xl p-4 lg:p-6 border border-gray-200">
-                    <h3 className="font-semibold text-gray-900 mb-2 lg:mb-3 text-sm lg:text-base">What is HIIT?</h3>
+                    <h3 className="font-semibold text-gray-900 mb-2 lg:mb-3 text-sm lg:text-base">{t('what_is_hiit')}</h3>
                     <p className="text-xs lg:text-sm text-gray-700 mb-3 lg:mb-4">
-                      High-Intensity Interval Training alternates short bursts of intense exercise with recovery periods.
-                      This method maximizes calorie burn, improves cardiovascular fitness, and triggers the "afterburn effect"
-                      (EPOC) - meaning you continue burning calories for hours after your workout ends.
-                    </p>
+                      {t('high_intensity_interval_training_alterna')}
+                                                                  </p>
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 lg:gap-4">
                       <div className="bg-orange-50 rounded-lg p-3 lg:p-4 border border-orange-200">
                         <div className="text-xl lg:text-2xl mb-2">⏱️</div>
-                        <p className="text-xs font-semibold text-gray-900">Time Efficient</p>
-                        <p className="text-xs text-gray-600 mt-1">20 mins = 45 mins steady cardio</p>
+                        <p className="text-xs font-semibold text-gray-900">{t('time_efficient')}</p>
+                        <p className="text-xs text-gray-600 mt-1">{t('20_mins_45_mins_steady_cardio')}</p>
                       </div>
                       <div className="bg-red-50 rounded-lg p-3 lg:p-4 border border-red-200">
                         <div className="text-xl lg:text-2xl mb-2">🔥</div>
-                        <p className="text-xs font-semibold text-gray-900">Afterburn Effect</p>
-                        <p className="text-xs text-gray-600 mt-1">Burns calories for 24+ hours</p>
+                        <p className="text-xs font-semibold text-gray-900">{t('afterburn_effect')}</p>
+                        <p className="text-xs text-gray-600 mt-1">{t('burns_calories_for_24_hours')}</p>
                       </div>
                       <div className="bg-amber-50 rounded-lg p-3 lg:p-4 border border-amber-200">
                         <div className="text-xl lg:text-2xl mb-2">💪</div>
-                        <p className="text-xs font-semibold text-gray-900">Preserves Muscle</p>
-                        <p className="text-xs text-gray-600 mt-1">Unlike long steady cardio</p>
+                        <p className="text-xs font-semibold text-gray-900">{t('preserves_muscle')}</p>
+                        <p className="text-xs text-gray-600 mt-1">{t('unlike_long_steady_cardio')}</p>
                       </div>
                     </div>
                   </div>
@@ -1079,7 +1079,7 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                         <div className="flex items-start justify-between mb-3 lg:mb-4">
                           <div className="text-4xl lg:text-6xl">{workout.icon}</div>
                           <div className="bg-white/20 backdrop-blur-sm px-2 lg:px-3 py-1 rounded-full">
-                            <span className="text-white text-xs lg:text-sm font-semibold">{workout.duration} mins</span>
+                            <span className="text-white text-xs lg:text-sm font-semibold">{workout.duration} {t('mins_2')}</span>
                           </div>
                         </div>
                         <h3 className="text-xl lg:text-2xl font-bold text-white mb-1 lg:mb-2">{workout.name}</h3>
@@ -1087,22 +1087,22 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                         <div className="flex flex-wrap gap-2 mb-3 lg:mb-4">
                           {workout.config.warmup > 0 && (
                             <div className="bg-white/20 backdrop-blur-sm px-2 lg:px-3 py-1 rounded-lg">
-                              <span className="text-white text-xs lg:text-sm">Warmup: {workout.config.warmup}s</span>
+                              <span className="text-white text-xs lg:text-sm">{t('warmup')} {workout.config.warmup}{t('s')}</span>
                             </div>
                           )}
                           <div className="bg-white/20 backdrop-blur-sm px-2 lg:px-3 py-1 rounded-lg">
-                            <span className="text-white text-xs lg:text-sm">Work: {workout.config.work}s</span>
+                            <span className="text-white text-xs lg:text-sm">{t('work')} {workout.config.work}{t('s')}</span>
                           </div>
                           <div className="bg-white/20 backdrop-blur-sm px-2 lg:px-3 py-1 rounded-lg">
-                            <span className="text-white text-xs lg:text-sm">Rest: {workout.config.rest}s</span>
+                            <span className="text-white text-xs lg:text-sm">{t('rest')} {workout.config.rest}{t('s')}</span>
                           </div>
                           <div className="bg-white/20 backdrop-blur-sm px-2 lg:px-3 py-1 rounded-lg">
-                            <span className="text-white text-xs lg:text-sm">Rounds: {workout.config.rounds}</span>
+                            <span className="text-white text-xs lg:text-sm">{t('rounds')} {workout.config.rounds}</span>
                           </div>
                         </div>
                         <button className="mt-2 lg:mt-4 w-full py-2 bg-white text-orange-600 font-semibold rounded-lg hover:bg-white/90 transition-all text-sm lg:text-base">
-                          View Workout
-                        </button>
+                          {t('view_workout')}
+                                                        </button>
                       </motion.div>
                     ))}
                   </div>
@@ -1125,21 +1125,21 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                 <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-4 lg:p-6 border-2 border-orange-200">
                   <div className="flex items-center gap-2 lg:gap-3 mb-2">
                     <TrendingUp className="w-5 h-5 lg:w-6 lg:h-6 text-orange-600" />
-                    <h3 className="text-sm lg:text-base font-semibold text-gray-900">Total Workouts</h3>
+                    <h3 className="text-sm lg:text-base font-semibold text-gray-900">{t('total_workouts')}</h3>
                   </div>
                   <p className="text-3xl lg:text-4xl font-bold text-orange-600">{hiitData.totalWorkouts}</p>
                 </div>
                 <div className="bg-gradient-to-br from-red-50 to-rose-50 rounded-2xl p-4 lg:p-6 border-2 border-red-200">
                   <div className="flex items-center gap-2 lg:gap-3 mb-2">
                     <Flame className="w-5 h-5 lg:w-6 lg:h-6 text-red-600" />
-                    <h3 className="text-sm lg:text-base font-semibold text-gray-900">High-Intensity Minutes</h3>
+                    <h3 className="text-sm lg:text-base font-semibold text-gray-900">{t('high_intensity_minutes')}</h3>
                   </div>
                   <p className="text-3xl lg:text-4xl font-bold text-red-600">{hiitData.totalHighIntensityMinutes}</p>
                 </div>
                 <div className="bg-gradient-to-br from-amber-50 to-yellow-50 rounded-2xl p-4 lg:p-6 border-2 border-amber-200">
                   <div className="flex items-center gap-2 lg:gap-3 mb-2">
                     <Award className="w-5 h-5 lg:w-6 lg:h-6 text-amber-600" />
-                    <h3 className="text-sm lg:text-base font-semibold text-gray-900">Average RPE</h3>
+                    <h3 className="text-sm lg:text-base font-semibold text-gray-900">{t('average_rpe')}</h3>
                   </div>
                   <p className="text-3xl lg:text-4xl font-bold text-amber-600">{hiitData.averageRPE.toFixed(1)}/10</p>
                 </div>
@@ -1152,23 +1152,21 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                     <Zap className="w-6 h-6 lg:w-8 lg:h-8 text-white" />
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-lg lg:text-xl font-bold mb-2">The Afterburn Effect (EPOC)</h3>
+                    <h3 className="text-lg lg:text-xl font-bold mb-2">{t('the_afterburn_effect_epoc')}</h3>
                     <p className="text-sm lg:text-base text-white/90 mb-3 lg:mb-4">
-                      Excess Post-Exercise Oxygen Consumption means your body continues burning calories at an elevated
-                      rate for up to 24-48 hours after your HIIT workout. We add a 10% EPOC bonus to your active calorie
-                      burn to give you the full picture of your total energy expenditure.
-                    </p>
+                      {t('excess_post_exercise_oxygen_consumption_')}
+                                                              </p>
                     <div className="bg-white/10 rounded-lg p-3 lg:p-4 border border-white/20">
-                      <p className="text-xs lg:text-sm font-semibold">💡 Formula Used:</p>
+                      <p className="text-xs lg:text-sm font-semibold">{t('formula_used')}</p>
                       <p className="text-xs lg:text-sm mt-2">
-                        Active Calories = (MET × 3.5 × Weight kg / 200) × Duration min
-                      </p>
+                        {t('active_calories_met_3_5_weight_kg_200_du')}
+                                                                    </p>
                       <p className="text-xs lg:text-sm mt-1">
-                        Total Burn = Active Calories + 10% EPOC Bonus
-                      </p>
+                        {t('total_burn_active_calories_10_epoc_bonus')}
+                                                                    </p>
                       <p className="text-xs mt-2 lg:mt-3 text-white/70">
-                        * Using MET value of 10.0 for high-intensity intervals
-                      </p>
+                        {t('using_met_value_of_10_0_for_high_intensi')}
+                                                                    </p>
                     </div>
                   </div>
                 </div>
@@ -1177,7 +1175,7 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
               {/* Recent Workouts */}
               {hiitData.workoutLogs.length > 0 && (
                 <div className="bg-white rounded-2xl p-4 lg:p-6 border border-gray-200">
-                  <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-3 lg:mb-4">Recent Workouts</h3>
+                  <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-3 lg:mb-4">{t('recent_workouts')}</h3>
                   <div className="space-y-3">
                     {hiitData.workoutLogs.slice(0, 5).map((log) => (
                       <div
@@ -1186,17 +1184,17 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                       >
                         <div className="flex items-center gap-3 lg:gap-4">
                           <div className={`w-14 h-14 lg:w-16 lg:h-16 rounded-lg bg-gradient-to-br from-orange-500 to-red-600 flex flex-col items-center justify-center text-white flex-shrink-0`}>
-                            <div className="text-xs font-semibold">BURN</div>
+                            <div className="text-xs font-semibold">{t('burn')}</div>
                             <div className="text-base lg:text-lg font-bold">{log.totalCaloriesWithEpoc}</div>
                           </div>
                           <div className="flex-1 min-w-0">
                             <p className="text-sm font-semibold text-gray-900">{log.workoutName}</p>
                             <p className="text-xs text-gray-600">
-                              {log.actualDuration} mins • {log.intervalsCompleted} intervals • RPE: {log.rpeScore}/10
+                              {log.actualDuration} {t('mins')} {log.intervalsCompleted} {t('intervals_rpe')} {log.rpeScore}/10
                             </p>
                             {log.exercisesCompleted && log.exercisesCompleted.length > 0 && (
                               <p className="text-xs text-gray-500 truncate max-w-full sm:max-w-md">
-                                Exercises: {[...new Set(log.exercisesCompleted.map(e => e.replace(' (skipped)', '')))].join(', ')}
+                                {t('exercises')} {[...new Set(log.exercisesCompleted.map(e => e.replace(' (skipped)', '')))].join(', ')}
                               </p>
                             )}
                             <p className="text-xs text-gray-500">
@@ -1207,7 +1205,7 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
                         {log.rpeScore >= 8 && (
                           <div className="bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full px-3 lg:px-4 py-1.5 lg:py-2 flex items-center gap-2 self-start sm:self-auto">
                             <Award className="w-4 h-4 lg:w-5 lg:h-5 text-white" />
-                            <span className="text-xs font-bold text-white">Sweat Equity</span>
+                            <span className="text-xs font-bold text-white">{t('sweat_equity')}</span>
                           </div>
                         )}
                       </div>
@@ -1219,8 +1217,8 @@ export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
               {hiitData.workoutLogs.length === 0 && (
                 <div className="bg-white rounded-2xl p-8 lg:p-12 border border-gray-200 text-center">
                   <Timer className="w-12 h-12 lg:w-16 lg:h-16 text-gray-300 mx-auto mb-3 lg:mb-4" />
-                  <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-2">No workouts logged yet</h3>
-                  <p className="text-sm text-gray-600">Complete a workout to see your burn analytics here</p>
+                  <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-2">{t('no_workouts_logged_yet')}</h3>
+                  <p className="text-sm text-gray-600">{t('complete_a_workout_to_see_your_burn_anal')}</p>
                 </div>
               )}
             </motion.div>

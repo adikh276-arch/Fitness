@@ -3,6 +3,7 @@ import { ArrowLeft, Target, Play, Pause, RotateCcw, CheckCircle2, Bell, Award, T
 import { motion, AnimatePresence } from 'motion/react';
 import confetti from 'canvas-confetti';
 import { logUserActivity } from '@/lib/db';
+import { useTranslation } from "react-i18next";
 
 interface Exercise {
   name: string;
@@ -219,6 +220,7 @@ const ergonomicItems = [
 ];
 
 export default function PostureCorrectionGuide({ onBack }: { onBack: () => void }) {
+    const { t } = useTranslation('PostureCorrection');
   const [activeTab, setActiveTab] = useState<'symptom-map' | 'focus-timer' | 'desk-breaks' | 'ergonomic-wizard'>('symptom-map');
   const [workData, setWorkData] = useState<WorkCompanionData>(() => {
     const saved = localStorage.getItem('work-companion-data');
@@ -601,15 +603,15 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
             className="flex items-center gap-2 text-gray-600 hover:text-gray-900 mb-4 transition-colors"
           >
             <ArrowLeft className="w-5 h-5" />
-            <span className="text-sm lg:text-base">Back to Dashboard</span>
+            <span className="text-sm lg:text-base">{t('back_to_dashboard')}</span>
           </button>
           <div className="flex items-center gap-3 mb-2">
             <div className="bg-gradient-to-br from-indigo-500 to-indigo-700 rounded-xl p-2.5 lg:p-3">
               <Monitor className="w-6 lg:w-8 h-6 lg:h-8 text-white" />
             </div>
             <div>
-              <h1 className="text-xl lg:text-2xl font-semibold text-gray-900">Work Companion</h1>
-              <p className="text-xs lg:text-sm text-gray-500">Focus timer, desk breaks, and ergonomic guidance</p>
+              <h1 className="text-xl lg:text-2xl font-semibold text-gray-900">{t('work_companion')}</h1>
+              <p className="text-xs lg:text-sm text-gray-500">{t('focus_timer_desk_breaks_and_ergonomic_gu')}</p>
             </div>
           </div>
         </div>
@@ -624,8 +626,8 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
                 : 'text-gray-600 hover:bg-gray-50'
             }`}
           >
-            Symptom Map
-          </button>
+            {t('symptom_map')}
+                                </button>
           <button
             onClick={() => setActiveTab('focus-timer')}
             className={`flex-1 min-w-[120px] py-2.5 lg:py-3 px-3 lg:px-4 rounded-lg transition-all text-xs lg:text-sm font-medium whitespace-nowrap ${
@@ -634,8 +636,8 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
                 : 'text-gray-600 hover:bg-gray-50'
             }`}
           >
-            Focus Timer
-          </button>
+            {t('focus_timer')}
+                                </button>
           <button
             onClick={() => setActiveTab('desk-breaks')}
             className={`flex-1 min-w-[120px] py-2.5 lg:py-3 px-3 lg:px-4 rounded-lg transition-all text-xs lg:text-sm font-medium whitespace-nowrap ${
@@ -644,8 +646,8 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
                 : 'text-gray-600 hover:bg-gray-50'
             }`}
           >
-            Desk Breaks
-          </button>
+            {t('desk_breaks')}
+                                </button>
           <button
             onClick={() => setActiveTab('ergonomic-wizard')}
             className={`flex-1 min-w-[120px] py-2.5 lg:py-3 px-3 lg:px-4 rounded-lg transition-all text-xs lg:text-sm font-medium whitespace-nowrap ${
@@ -654,8 +656,8 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
                 : 'text-gray-600 hover:bg-gray-50'
             }`}
           >
-            Ergonomic Setup
-          </button>
+            {t('ergonomic_setup')}
+                                </button>
         </div>
 
         <AnimatePresence mode="wait">
@@ -670,7 +672,7 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
             >
               {/* Self-Assessment */}
               <div className="bg-white rounded-xl lg:rounded-2xl p-4 lg:p-6 border border-gray-200">
-                <h2 className="text-base lg:text-lg font-semibold text-gray-900 mb-3 lg:mb-4">What are you feeling?</h2>
+                <h2 className="text-base lg:text-lg font-semibold text-gray-900 mb-3 lg:mb-4">{t('what_are_you_feeling')}</h2>
                 <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-3">
                   {allSymptoms.map(symptom => (
                     <motion.button
@@ -711,15 +713,15 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
                           <h3 className="font-semibold text-gray-900 text-sm lg:text-base">{routine.name}</h3>
                           {matchCount > 0 && (
                             <span className="px-2 py-1 bg-indigo-500 text-white rounded-full text-xs font-bold">
-                              {matchCount} match{matchCount > 1 ? 'es' : ''}
+                              {matchCount} {t('match')}{matchCount > 1 ? 'es' : ''}
                             </span>
                           )}
                         </div>
                         <p className="text-xs lg:text-sm text-gray-600 mb-3">{routine.description}</p>
                         <div className="flex items-center justify-between">
                           <span className="text-xs text-indigo-600 font-medium">
-                            {routine.exercises.length} exercises • {routine.exercises.reduce((sum, ex) => sum + ex.duration, 0)}s
-                          </span>
+                            {routine.exercises.length} {t('exercises')} {routine.exercises.reduce((sum, ex) => sum + ex.duration, 0)}{t('s')}
+                                                              </span>
                           <ChevronRight className="w-4 h-4 text-indigo-500" />
                         </div>
                       </motion.div>
@@ -757,10 +759,10 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
                       onClick={(e) => e.stopPropagation()}
                     >
                       <div className="text-6xl lg:text-7xl mb-4">🎯</div>
-                      <h2 className="text-2xl lg:text-3xl font-bold text-white mb-3">Time to Realign!</h2>
+                      <h2 className="text-2xl lg:text-3xl font-bold text-white mb-3">{t('time_to_realign')}</h2>
                       <p className="text-indigo-100 mb-6 text-sm lg:text-base">
-                        You completed a {focusDuration}-minute focus session. Take a desk break to refresh!
-                      </p>
+                        {t('you_completed_a')} {focusDuration}{t('minute_focus_session_take_a_desk_break_t')}
+                                                                    </p>
                       <button
                         onClick={() => {
                           setShowFocusComplete(false);
@@ -768,14 +770,14 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
                         }}
                         className="w-full py-3 lg:py-4 px-6 bg-white text-indigo-600 rounded-xl font-bold hover:scale-105 transition-all mb-3"
                       >
-                        Start Desk Break
-                      </button>
+                        {t('start_desk_break')}
+                                                                    </button>
                       <button
                         onClick={() => setShowFocusComplete(false)}
                         className="text-indigo-100 text-sm hover:text-white transition-colors"
                       >
-                        Close
-                      </button>
+                        {t('close')}
+                                                                    </button>
                     </motion.div>
                   </motion.div>
                 )}
@@ -786,7 +788,7 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
                 <div className="bg-gradient-to-br from-indigo-500 to-indigo-700 rounded-xl lg:rounded-2xl p-6 lg:p-8 text-white text-center">
                   <div className="flex items-center justify-center gap-2 mb-4">
                     <Clock className="w-6 lg:w-8 h-6 lg:h-8" />
-                    <h2 className="text-xl lg:text-2xl font-bold">Focus Session</h2>
+                    <h2 className="text-xl lg:text-2xl font-bold">{t('focus_session')}</h2>
                   </div>
                   <div className="text-6xl lg:text-8xl font-bold tabular-nums mb-6 lg:mb-8">{formatTime(focusTimeRemaining)}</div>
                   <div className="flex gap-3 justify-center mb-4 flex-wrap">
@@ -796,30 +798,30 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
                         className="py-2.5 lg:py-3 px-6 lg:px-8 bg-white text-indigo-600 rounded-xl font-bold hover:scale-105 transition-all flex items-center gap-2 text-sm lg:text-base"
                       >
                         <Play className="w-5 lg:w-6 h-5 lg:h-6" />
-                        Resume
-                      </button>
+                        {t('resume')}
+                                                                    </button>
                     ) : (
                       <button
                         onClick={pauseFocusSession}
                         className="py-2.5 lg:py-3 px-6 lg:px-8 bg-white text-indigo-600 rounded-xl font-bold hover:scale-105 transition-all flex items-center gap-2 text-sm lg:text-base"
                       >
                         <Pause className="w-5 lg:w-6 h-5 lg:h-6" />
-                        Pause
-                      </button>
+                        {t('pause')}
+                                                                        </button>
                     )}
                     <button
                       onClick={resetFocusSession}
                       className="py-2.5 lg:py-3 px-6 lg:px-8 bg-indigo-400/30 text-white rounded-xl font-bold hover:scale-105 transition-all flex items-center gap-2 text-sm lg:text-base"
                     >
                       <RotateCcw className="w-5 lg:w-6 h-5 lg:h-6" />
-                      Reset
-                    </button>
+                      {t('reset')}
+                                                              </button>
                   </div>
-                  <p className="text-indigo-100 text-xs lg:text-sm">Stay focused. A desk break reminder will appear when time's up.</p>
+                  <p className="text-indigo-100 text-xs lg:text-sm">{t('stay_focused_a_desk_break_reminder_will_')}</p>
                 </div>
               ) : (
                 <div className="bg-white rounded-xl lg:rounded-2xl p-4 lg:p-6 border border-gray-200">
-                  <h2 className="text-base lg:text-lg font-semibold text-gray-900 mb-4">Start a Focus Session</h2>
+                  <h2 className="text-base lg:text-lg font-semibold text-gray-900 mb-4">{t('start_a_focus_session')}</h2>
                   <div className="grid grid-cols-3 gap-3 lg:gap-4 mb-6">
                     {[25, 45, 60].map(duration => (
                       <motion.button
@@ -833,7 +835,7 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
                         }`}
                       >
                         <div className="text-2xl lg:text-3xl font-bold">{duration}</div>
-                        <div className="text-xs lg:text-sm font-medium mt-1">minutes</div>
+                        <div className="text-xs lg:text-sm font-medium mt-1">{t('minutes')}</div>
                       </motion.button>
                     ))}
                   </div>
@@ -842,27 +844,27 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
                     className="w-full py-3 lg:py-4 px-6 bg-gradient-to-r from-indigo-500 to-indigo-700 text-white rounded-xl font-bold hover:shadow-lg hover:scale-105 transition-all flex items-center justify-center gap-2 text-sm lg:text-base"
                   >
                     <Play className="w-5 lg:w-6 h-5 lg:h-6" />
-                    Start {focusDuration}-Minute Session
-                  </button>
+                    {t('start')} {focusDuration}{t('minute_session')}
+                                                            </button>
                 </div>
               )}
 
               {/* Focus Stats */}
               <div className="bg-white rounded-xl lg:rounded-2xl p-4 lg:p-6 border border-gray-200">
-                <h3 className="font-semibold text-gray-900 mb-4 text-sm lg:text-base">Focus History</h3>
+                <h3 className="font-semibold text-gray-900 mb-4 text-sm lg:text-base">{t('focus_history')}</h3>
                 <div className="grid grid-cols-2 gap-4 mb-6">
                   <div className="bg-indigo-50 rounded-lg lg:rounded-xl p-4 border border-indigo-200">
                     <div className="text-2xl lg:text-3xl font-bold text-indigo-600 mb-1">{workData.focusSessions.length}</div>
-                    <div className="text-xs lg:text-sm text-gray-600">Total Sessions</div>
+                    <div className="text-xs lg:text-sm text-gray-600">{t('total_sessions')}</div>
                   </div>
                   <div className="bg-indigo-50 rounded-lg lg:rounded-xl p-4 border border-indigo-200">
                     <div className="text-2xl lg:text-3xl font-bold text-indigo-600 mb-1">{workData.totalFocusMinutes}</div>
-                    <div className="text-xs lg:text-sm text-gray-600">Minutes Focused</div>
+                    <div className="text-xs lg:text-sm text-gray-600">{t('minutes_focused')}</div>
                   </div>
                 </div>
                 {workData.focusSessions.length > 0 && (
                   <div className="space-y-2">
-                    <h4 className="text-xs lg:text-sm font-medium text-gray-700 mb-2">Recent Sessions</h4>
+                    <h4 className="text-xs lg:text-sm font-medium text-gray-700 mb-2">{t('recent_sessions')}</h4>
                     {workData.focusSessions.slice(0, 5).map(session => (
                       <div
                         key={session.id}
@@ -870,7 +872,7 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
                       >
                         <div className="flex items-center gap-3">
                           <CheckCircle2 className="w-4 lg:w-5 h-4 lg:h-5 text-indigo-500" />
-                          <span className="text-xs lg:text-sm font-medium text-gray-900">{session.duration} minutes</span>
+                          <span className="text-xs lg:text-sm font-medium text-gray-900">{session.duration} {t('minutes')}</span>
                         </div>
                         <span className="text-xs text-gray-500">
                           {new Date(session.timestamp).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
@@ -910,22 +912,22 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
                       onClick={(e) => e.stopPropagation()}
                     >
                       <div className="text-6xl lg:text-7xl mb-4">✨</div>
-                      <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-3">Break Complete!</h2>
+                      <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-3">{t('break_complete')}</h2>
                       <p className="text-gray-600 mb-6 text-sm lg:text-base">
-                        {selectedRoutine?.name} finished. Your spine health score improved!
-                      </p>
+                        {selectedRoutine?.name} {t('finished_your_spine_health_score_improve')}
+                                                                    </p>
                       <div className="bg-gradient-to-br from-indigo-50 to-blue-50 rounded-xl p-4 mb-6 border border-indigo-200">
-                        <div className="text-xs lg:text-sm text-gray-600 mb-1">Pain Reduction</div>
+                        <div className="text-xs lg:text-sm text-gray-600 mb-1">{t('pain_reduction')}</div>
                         <div className="text-2xl lg:text-3xl font-bold text-indigo-600">
-                          {painBefore - painAfter} point{painBefore - painAfter !== 1 ? 's' : ''}
+                          {painBefore - painAfter} {t('point')}{painBefore - painAfter !== 1 ? 's' : ''}
                         </div>
                       </div>
                       <button
                         onClick={() => setShowBreakComplete(false)}
                         className="w-full py-3 lg:py-4 px-6 bg-gradient-to-r from-indigo-500 to-indigo-700 text-white rounded-xl font-bold hover:scale-105 transition-all"
                       >
-                        Done
-                      </button>
+                        {t('done')}
+                                                                    </button>
                     </motion.div>
                   </motion.div>
                 )}
@@ -939,7 +941,7 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
                     <h2 className="text-2xl lg:text-3xl font-bold mb-2">{selectedRoutine.exercises[currentExerciseIndex].name}</h2>
                     <p className="text-indigo-100 mb-2 text-sm lg:text-base">{selectedRoutine.exercises[currentExerciseIndex].description}</p>
                     <p className="text-xs lg:text-sm text-indigo-200 mb-6">{selectedRoutine.exercises[currentExerciseIndex].targetArea}</p>
-                    <div className="text-6xl lg:text-8xl font-bold tabular-nums mb-6">{breakTimeRemaining}s</div>
+                    <div className="text-6xl lg:text-8xl font-bold tabular-nums mb-6">{breakTimeRemaining}{t('s')}</div>
 
                     {/* Progress Bar */}
                     <div className="w-full bg-indigo-400/30 rounded-full h-2 lg:h-3 mb-6">
@@ -957,24 +959,24 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
                           className="py-2.5 lg:py-3 px-6 lg:px-8 bg-white text-indigo-600 rounded-xl font-bold hover:scale-105 transition-all flex items-center gap-2 text-sm lg:text-base"
                         >
                           <Play className="w-5 lg:w-6 h-5 lg:h-6" />
-                          Resume
-                        </button>
+                          {t('resume')}
+                                                                          </button>
                       ) : (
                         <button
                           onClick={pauseBreak}
                           className="py-2.5 lg:py-3 px-6 lg:px-8 bg-white text-indigo-600 rounded-xl font-bold hover:scale-105 transition-all flex items-center gap-2 text-sm lg:text-base"
                         >
                           <Pause className="w-5 lg:w-6 h-5 lg:h-6" />
-                          Pause
-                        </button>
+                          {t('pause')}
+                                                                              </button>
                       )}
                       <button
                         onClick={resetBreak}
                         className="py-2.5 lg:py-3 px-6 lg:px-8 bg-indigo-400/30 text-white rounded-xl font-bold hover:scale-105 transition-all flex items-center gap-2 text-sm lg:text-base"
                       >
                         <RotateCcw className="w-5 lg:w-6 h-5 lg:h-6" />
-                        Reset
-                      </button>
+                        {t('reset')}
+                                                                    </button>
                     </div>
                     <div className="flex items-center justify-center gap-2">
                       {selectedRoutine.exercises.map((_, index) => (
@@ -997,8 +999,8 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
                     <div className="bg-white rounded-xl p-4 border border-gray-200">
                       <div className="flex items-center gap-2 text-xs lg:text-sm text-gray-600 mb-2">
                         <Eye className="w-4 h-4" />
-                        Next up
-                      </div>
+                        {t('next_up')}
+                                                                    </div>
                       <div className="flex items-center gap-3">
                         <div className="text-2xl lg:text-3xl">{selectedRoutine.exercises[currentExerciseIndex + 1].gif}</div>
                         <div>
@@ -1029,8 +1031,8 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
                               <p className="text-xs text-indigo-600 mb-2">{exercise.targetArea}</p>
                               <p className="text-xs lg:text-sm text-gray-600 mb-2">{exercise.description}</p>
                               <span className="inline-block px-2 py-1 bg-indigo-200 text-indigo-700 rounded text-xs font-semibold">
-                                {exercise.duration}s
-                              </span>
+                                {exercise.duration}{t('s')}
+                                                                        </span>
                             </div>
                           </div>
                         </div>
@@ -1039,7 +1041,7 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
 
                     <div className="mb-6">
                       <label className="block text-xs lg:text-sm font-medium text-gray-700 mb-3">
-                        Current Discomfort Level: {painBefore}/10
+                        {t('current_discomfort_level')} {painBefore}/10
                       </label>
                       <input
                         type="range"
@@ -1053,9 +1055,9 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
                         }}
                       />
                       <div className="flex justify-between text-xs text-gray-500 mt-2">
-                        <span>1 - No Pain</span>
-                        <span>5 - Moderate</span>
-                        <span>10 - Severe</span>
+                        <span>{t('1_no_pain')}</span>
+                        <span>{t('5_moderate')}</span>
+                        <span>{t('10_severe')}</span>
                       </div>
                     </div>
 
@@ -1064,23 +1066,23 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
                         onClick={() => setSelectedRoutine(null)}
                         className="flex-1 py-3 lg:py-4 px-6 bg-gray-100 text-gray-700 rounded-xl font-bold hover:bg-gray-200 transition-all text-sm lg:text-base"
                       >
-                        Back to Routines
-                      </button>
+                        {t('back_to_routines')}
+                                                                        </button>
                       <button
                         onClick={() => startDeskBreak(selectedRoutine)}
                         className="flex-1 py-3 lg:py-4 px-6 bg-gradient-to-r from-indigo-500 to-indigo-700 text-white rounded-xl font-bold hover:shadow-lg hover:scale-105 transition-all flex items-center justify-center gap-2 text-sm lg:text-base"
                       >
                         <Play className="w-5 lg:w-6 h-5 lg:h-6" />
-                        Start Break
-                      </button>
+                        {t('start_break')}
+                                                                        </button>
                     </div>
                   </div>
 
                   {/* Post-Break Pain Assessment (shown after selecting routine) */}
                   <div className="bg-white rounded-xl lg:rounded-2xl p-4 lg:p-6 border border-gray-200">
-                    <h3 className="font-semibold text-gray-900 mb-3 text-sm lg:text-base">After the break, rate your pain level</h3>
+                    <h3 className="font-semibold text-gray-900 mb-3 text-sm lg:text-base">{t('after_the_break_rate_your_pain_level')}</h3>
                     <label className="block text-xs lg:text-sm font-medium text-gray-700 mb-3">
-                      Expected Pain After: {painAfter}/10
+                      {t('expected_pain_after')} {painAfter}/10
                     </label>
                     <input
                       type="range"
@@ -1094,16 +1096,16 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
                       }}
                     />
                     <div className="flex justify-between text-xs text-gray-500 mt-2">
-                      <span>1 - No Pain</span>
-                      <span>5 - Moderate</span>
-                      <span>10 - Severe</span>
+                      <span>{t('1_no_pain')}</span>
+                      <span>{t('5_moderate')}</span>
+                      <span>{t('10_severe')}</span>
                     </div>
                   </div>
                 </div>
               ) : (
                 // Routine List
                 <div className="bg-white rounded-xl lg:rounded-2xl p-4 lg:p-6 border border-gray-200">
-                  <h2 className="text-base lg:text-lg font-semibold text-gray-900 mb-4">Choose a Desk Break Routine</h2>
+                  <h2 className="text-base lg:text-lg font-semibold text-gray-900 mb-4">{t('choose_a_desk_break_routine')}</h2>
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 lg:gap-4">
                     {stretchRoutines.map(routine => (
                       <motion.div
@@ -1116,8 +1118,8 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
                         <p className="text-xs lg:text-sm text-gray-600 mb-3">{routine.description}</p>
                         <div className="flex items-center justify-between">
                           <span className="text-xs text-indigo-600 font-medium">
-                            {routine.exercises.length} exercises • {routine.exercises.reduce((sum, ex) => sum + ex.duration, 0)}s
-                          </span>
+                            {routine.exercises.length} {t('exercises')} {routine.exercises.reduce((sum, ex) => sum + ex.duration, 0)}{t('s')}
+                                                              </span>
                           <ChevronRight className="w-4 h-4 text-indigo-500" />
                         </div>
                       </motion.div>
@@ -1129,7 +1131,7 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
               {/* Recent Breaks */}
               {workData.deskBreakLogs.length > 0 && !isBreakActive && (
                 <div className="bg-white rounded-xl lg:rounded-2xl p-4 lg:p-6 border border-gray-200">
-                  <h3 className="font-semibold text-gray-900 mb-4 text-sm lg:text-base">Recent Desk Breaks</h3>
+                  <h3 className="font-semibold text-gray-900 mb-4 text-sm lg:text-base">{t('recent_desk_breaks')}</h3>
                   <div className="space-y-2 lg:space-y-3">
                     {workData.deskBreakLogs.slice(0, 5).map(log => (
                       <div
@@ -1143,7 +1145,7 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
                           <div>
                             <p className="text-xs lg:text-sm font-medium text-gray-900">{log.routineName}</p>
                             <p className="text-xs text-gray-600">
-                              Pain: {log.painBefore} → {log.painAfter} ({log.painBefore - log.painAfter >= 0 ? '-' : '+'}{Math.abs(log.painBefore - log.painAfter)})
+                              {t('pain')} {log.painBefore} → {log.painAfter} ({log.painBefore - log.painAfter >= 0 ? '-' : '+'}{Math.abs(log.painBefore - log.painAfter)})
                             </p>
                           </div>
                         </div>
@@ -1177,15 +1179,15 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
                     className="bg-gradient-to-br from-yellow-400 to-orange-500 rounded-xl lg:rounded-2xl p-6 lg:p-8 text-center"
                   >
                     <Award className="w-12 lg:w-16 h-12 lg:h-16 text-white mx-auto mb-3" />
-                    <h3 className="text-xl lg:text-2xl font-bold text-white mb-2">Perfect Setup Achieved!</h3>
-                    <p className="text-yellow-50 text-sm lg:text-base">You've optimized all ergonomic factors. Your workspace is spine-friendly!</p>
+                    <h3 className="text-xl lg:text-2xl font-bold text-white mb-2">{t('perfect_setup_achieved')}</h3>
+                    <p className="text-yellow-50 text-sm lg:text-base">{t('you_ve_optimized_all_ergonomic_factors_y')}</p>
                   </motion.div>
                 )}
               </AnimatePresence>
 
               {/* Ergonomic Checklist */}
               <div className="bg-white rounded-xl lg:rounded-2xl p-4 lg:p-6 border border-gray-200">
-                <h2 className="text-base lg:text-lg font-semibold text-gray-900 mb-4">Interactive Setup Guide</h2>
+                <h2 className="text-base lg:text-lg font-semibold text-gray-900 mb-4">{t('interactive_setup_guide')}</h2>
                 <div className="space-y-3 lg:space-y-4">
                   {ergonomicItems.map(item => (
                     <motion.div
@@ -1221,7 +1223,7 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
               {/* Progress */}
               <div className="bg-white rounded-xl lg:rounded-2xl p-4 lg:p-6 border border-gray-200">
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className="font-semibold text-gray-900 text-sm lg:text-base">Setup Progress</h3>
+                  <h3 className="font-semibold text-gray-900 text-sm lg:text-base">{t('setup_progress')}</h3>
                   <span className="text-2xl lg:text-3xl font-bold text-indigo-600">
                     {Object.values(workData.ergonomicSetup).filter(Boolean).length}/6
                   </span>
@@ -1237,22 +1239,22 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
 
               {/* Tips */}
               <div className="bg-white rounded-xl lg:rounded-2xl p-4 lg:p-6 border border-gray-200">
-                <h3 className="font-semibold text-gray-900 mb-4 text-sm lg:text-base">Ergonomic Benefits</h3>
+                <h3 className="font-semibold text-gray-900 mb-4 text-sm lg:text-base">{t('ergonomic_benefits')}</h3>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-3 lg:gap-4">
                   <div className="bg-indigo-50 rounded-lg lg:rounded-xl p-4 border border-indigo-200">
                     <div className="text-2xl mb-2">🧘</div>
-                    <p className="text-xs lg:text-sm font-semibold text-gray-900 mb-1">Prevent Strain</p>
-                    <p className="text-xs text-gray-600">Proper setup reduces muscle tension</p>
+                    <p className="text-xs lg:text-sm font-semibold text-gray-900 mb-1">{t('prevent_strain')}</p>
+                    <p className="text-xs text-gray-600">{t('proper_setup_reduces_muscle_tension')}</p>
                   </div>
                   <div className="bg-indigo-50 rounded-lg lg:rounded-xl p-4 border border-indigo-200">
                     <div className="text-2xl mb-2">⚡</div>
-                    <p className="text-xs lg:text-sm font-semibold text-gray-900 mb-1">Boost Productivity</p>
-                    <p className="text-xs text-gray-600">Comfort leads to better focus</p>
+                    <p className="text-xs lg:text-sm font-semibold text-gray-900 mb-1">{t('boost_productivity')}</p>
+                    <p className="text-xs text-gray-600">{t('comfort_leads_to_better_focus')}</p>
                   </div>
                   <div className="bg-indigo-50 rounded-lg lg:rounded-xl p-4 border border-indigo-200">
                     <div className="text-2xl mb-2">❤️</div>
-                    <p className="text-xs lg:text-sm font-semibold text-gray-900 mb-1">Long-term Health</p>
-                    <p className="text-xs text-gray-600">Protect your spine for years</p>
+                    <p className="text-xs lg:text-sm font-semibold text-gray-900 mb-1">{t('long_term_health')}</p>
+                    <p className="text-xs text-gray-600">{t('protect_your_spine_for_years')}</p>
                   </div>
                 </div>
               </div>
