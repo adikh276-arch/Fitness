@@ -142,7 +142,10 @@ import ko_BMICalculator from './ko/BMICalculator.json';
 import ko_CalorieBurner from './ko/CalorieBurner.json';
 import ko_common from './ko/common.json';
 import ko_DiabetesDiet from './ko/DiabetesDiet.json';
+import ko_FlexibilityMobility from './ko/FlexibilityMobility.json';
 import ko_FoodDiary from './ko/FoodDiary.json';
+import ko_GutHealth from './ko/GutHealth.json';
+import ko_HeartHealth from './ko/HeartHealth.json';
 import ko_IntermittentFasting from './ko/IntermittentFasting.json';
 import ko_MacroCalculator from './ko/MacroCalculator.json';
 import ko_MacroEducation from './ko/MacroEducation.json';
@@ -421,7 +424,10 @@ export const resources: any = {
     'CalorieBurner': ko_CalorieBurner,
     'common': ko_common,
     'DiabetesDiet': ko_DiabetesDiet,
+    'FlexibilityMobility': ko_FlexibilityMobility,
     'FoodDiary': ko_FoodDiary,
+    'GutHealth': ko_GutHealth,
+    'HeartHealth': ko_HeartHealth,
     'IntermittentFasting': ko_IntermittentFasting,
     'MacroCalculator': ko_MacroCalculator,
     'MacroEducation': ko_MacroEducation,

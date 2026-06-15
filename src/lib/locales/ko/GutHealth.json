@@ -1,0 +1,229 @@
+{
+  "header": {
+    "title": "장 건강 가이드",
+    "subtitle": "소화 기관 건강을 기록하고 풍부한 마이크로바이옴을 구축하세요",
+    "back": "대시보드로 돌아가기"
+  },
+  "tabs": {
+    "log": "일일 장 상태 로그",
+    "map": "마이크로바이옴 맵",
+    "habits": "식이섬유 & 발효"
+  },
+  "bristol": {
+    "title": "브리스톨 대변 척도",
+    "info": "소화기 통과 시간과 장 건강 상태를 기록하는 골드 스탠다드 기준입니다",
+    "types": {
+      "type1": { "label": "유형 1", "desc": "심한 변비 - 단단하고 떨어진 덩어리들 (염소똥 형태)" },
+      "type2": { "label": "유형 2", "desc": "경미한 변비 - 울퉁불퉁한 소시지 형태" },
+      "type3": { "label": "유형 3", "desc": "정상 - 표면에 균열이 있는 소시지 형태" },
+      "type4": { "label": "유형 4", "desc": "가장 이상적 - 매끄럽고 부드러운 바나나/소시지 형태" },
+      "type5": { "label": "유형 5", "desc": "식이섬유 부족 - 경계가 뚜렷하고 부드러운 덩어리" },
+      "type6": { "label": "유형 6", "desc": "경미한 설사 - 형체가 불분명하고 진흙 같은 대변" },
+      "type7": { "label": "유형 7", "desc": "심한 설사 - 고형물 없는 물 상태의 대변" }
+    },
+    "alert": "브리스톨 대변 유형을 선택해 주세요"
+  },
+  "symptoms": {
+    "title": "오늘의 증상",
+    "items": {
+      "Bloating": "복부 팽만감",
+      "Gas": "가스 참",
+      "Cramping": "복통/경련",
+      "Reflux": "위산 역류",
+      "Energy Dip": "피로/에너지 저하"
+    }
+  },
+  "triggers": {
+    "title": "의심되는 유발 요인",
+    "items": {
+      "Dairy": "유제품",
+      "Gluten": "글루텐",
+      "Coffee": "커피/카페인",
+      "Spicy Food": "매운 음식",
+      "Alcohol": "알코올",
+      "Stress": "스트레스",
+      "Other": "기타"
+    }
+  },
+  "log": {
+    "submit": "기록 저장하기",
+    "success": "장 상태 로그가 성공적으로 저장되었습니다!",
+    "recent": {
+      "title": "최근 기록",
+      "trigger": "유발 요인:"
+    }
+  },
+  "microbiome": {
+    "prebiotics": {
+      "title": "프리바이오틱스",
+      "subtitle": "장내 유익균의 먹이",
+      "desc": "프리바이오틱스는 장내 유익균이 섭취하여 번식하고 활성화하도록 돕는 식이섬유가 풍부한 식품입니다."
+    },
+    "probiotics": {
+      "title": "프로바이오틱스",
+      "subtitle": "살아있는 유익균",
+      "desc": "프로바이오틱스는 발효 식품 등에서 발견되는 살아있는 미생물로, 장내에 유익한 유산균을 직접 공급해 줍니다."
+    }
+  },
+  "diversity": {
+    "title": "일주일 30가지 식물 섭취 챌린지",
+    "subtitle": "연구에 따르면 매주 30가지 이상의 다양한 식물을 먹는 것이 최적의 장내 미생물 다양성을 지원합니다",
+    "score_label": "/ 30가지 식물",
+    "weekly_score": "이번 주 식물 다양성 점수",
+    "feedback": {
+      "excellent": "🎉 훌륭합니다! 30가지 식물 섭취 목표를 달성했습니다",
+      "great": "👍 훌륭한 다양성입니다! 식단을 계속 다채롭게 유지하세요",
+      "good": "📈 좋은 시작입니다! 더 다양한 식물을 섭취해 보세요",
+      "start": "🌱 장 건강을 위해 더 다양한 식물을 식단에 추가해 보세요"
+    }
+  },
+  "habits": {
+    "title": "장 건강 체크리스트",
+    "subtitle": "소화 건강을 개선하기 위해 매일 아래 습관들을 실천해 보세요",
+    "items": {
+      "fiber": {
+        "label": "식이섬유 25g 이상 섭취",
+        "desc": "통곡물, 과일, 채소로부터 섭취"
+      },
+      "fermented": {
+        "label": "발효 식품 1회 이상 섭취",
+        "desc": "김치, 요거트, 케피어, 사워크라우트 등"
+      },
+      "mindful": {
+        "label": "꼭꼭 씹어 먹기 (20회 이상)",
+        "desc": "음식을 충분히 씹는 것이 소화의 첫걸음입니다"
+      },
+      "fast": {
+        "label": "야간 12시간 장 휴식",
+        "desc": "공복 시간을 두어 장 점막이 회복할 시간을 줍니다"
+      }
+    }
+  },
+  "tracker": {
+    "title": "30일 습관 추적기",
+    "tooltip": "{{dayNum}}일째: {{count}}/4개 습관 달성",
+    "legend": {
+      "none": "없음",
+      "one": "1개",
+      "two": "2개",
+      "three": "3개",
+      "four": "3-4개",
+      "all": "모두 달성"
+    }
+  },
+  "essentials": {
+    "title": "장 건강 핵심 가이드",
+    "items": [
+      "<strong>식이섬유는 장내 세균의 연료입니다:</strong> 유익균은 식이섬유를 발효시켜 염증을 줄이는 단쇄지방산(SCFA)을 생성합니다",
+      "<strong>다양성이 가장 중요합니다:</strong> 매주 30가지 이상의 식물을 골고루 먹는 것이 튼튼한 미생물 생태계를 만듭니다",
+      "<strong>야간 단식의 중요성:</strong> 저녁과 아침 사이 12시간 이상의 공복은 장 점막 장벽이 스스로 치유되도록 돕습니다",
+      "<strong>꼭꼭 씹어 드세요:</strong> 소화는 입에서 시작됩니다. 충분한 저작 운동은 복부 팽만을 줄이고 영양소 흡수를 높입니다"
+    ]
+  },
+  "plants": {
+    "Spinach": "시금치",
+    "Kale": "케일",
+    "Arugula": "루콜라",
+    "Romaine": "로메인",
+    "Broccoli": "브로콜리",
+    "Cauliflower": "콜리플라워",
+    "Brussels Sprouts": "방울양배추",
+    "Cabbage": "양배추",
+    "Carrots": "당근",
+    "Sweet Potatoes": "고구마",
+    "Beets": "비트",
+    "Radishes": "무/래디시",
+    "Chickpeas": "병아리콩",
+    "Lentils": "렌틸콩",
+    "Black Beans": "검은콩",
+    "Kidney Beans": "강낭콩",
+    "Oats": "귀리/오트밀",
+    "Brown Rice": "현미",
+    "Quinoa": "퀴노아",
+    "Barley": "보리",
+    "Almonds": "아몬드",
+    "Walnuts": "호두",
+    "Pistachios": "피스타치오",
+    "Cashews": "캐슈넛",
+    "Chia": "치아시드",
+    "Flax": "아마씨",
+    "Pumpkin Seeds": "호박씨",
+    "Sunflower Seeds": "해바라기씨",
+    "Blueberries": "블루베리",
+    "Strawberries": "딸기",
+    "Raspberries": "라즈베리",
+    "Blackberries": "블랙베리",
+    "Oranges": "오렌지",
+    "Lemons": "레몬",
+    "Limes": "라임",
+    "Grapefruit": "자몽",
+    "Bananas": "바나나",
+    "Pineapple": "파인애플",
+    "Mango": "망고",
+    "Papaya": "파파야",
+    "Peaches": "복숭아",
+    "Plums": "자두",
+    "Cherries": "체리",
+    "Apricots": "살구",
+    "Basil": "바질",
+    "Cilantro": "고수",
+    "Mint": "민트",
+    "Parsley": "파슬리",
+    "Rosemary": "로즈마리",
+    "Turmeric": "강황",
+    "Ginger": "생강",
+    "Cinnamon": "계피/시나몬",
+    "Cumin": "큐민",
+    "Paprika": "파프리카 가루",
+    "Kimchi": "김치",
+    "Sauerkraut": "사워크라우트",
+    "Miso": "미소/일본식 된장",
+    "Tempeh": "템페",
+    "Button Mushrooms": "양송이버섯",
+    "Shiitake": "표고버섯",
+    "Portobello": "포토벨로버섯",
+    "Oyster Mushrooms": "느타리버섯",
+    "Pumpkin": "늙은호박",
+    "Butternut Squash": "땅콩호박",
+    "Zucchini": "애호박/주키니",
+    "Acorn Squash": "도토리호박",
+    "Bell Peppers": "파프리카",
+    "Jalapeños": "할라피뇨",
+    "Chili": "고추",
+    "Cherry Tomatoes": "방울토마토",
+    "Roma Tomatoes": "로마토마토",
+    "Beefsteak Tomatoes": "완찰토마토",
+    "Garlic": "마늘",
+    "Onions": "양파",
+    "Leeks": "대파/리크",
+    "Shallots": "샬롯",
+    "Alfalfa Sprouts": "알파파 새싹",
+    "Broccoli Sprouts": "브로콜리 새싹",
+    "Mung Bean Sprouts": "숙주나물",
+    "Nori": "김",
+    "Kelp": "다시마",
+    "Wakame": "미역",
+    "Buckwheat": "메밀",
+    "Farro": "파로",
+    "Amaranth": "아마란스",
+    "Millet": "기장",
+    "Watermelon": "수박",
+    "Cantaloupe": "칸탈로프 멜론",
+    "Honeydew": "허니듀 멜론",
+    "Apples": "사과",
+    "Pears": "배",
+    "Avocado": "아보카도",
+    "Coconut": "코코넛",
+    "Coconut Milk": "코코넛 밀크",
+    "Coconut Water": "코코넛 워터",
+    "Olives": "올리브",
+    "Dark Chocolate": "다크 초콜릿",
+    "Cacao Nibs": "카카오닙스",
+    "Cocoa Powder": "코코아 파우더",
+    "Green Tea": "녹차",
+    "Black Tea": "홍차",
+    "Chamomile": "캐모마일",
+    "Peppermint Tea": "페퍼민트티",
+    "Coffee": "커피"
+  }
+}
