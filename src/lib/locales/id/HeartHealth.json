@@ -163,5 +163,12 @@
     "cottage_cheese": "Keju Cottage (1/2 cangkir)",
     "pickles": "Acar (1 sedang)",
     "salad_dressing": "Saus Salad (2 sdm)"
-  }
+  },
+  "salad_dressing": "salad_saus",
+  "cottage_cheese": "keju_pondok",
+  "soy_sauce": "kecap_kecap",
+  "frozen_pizza": "beku_pizza",
+  "white_bread": "roti_putih",
+  "deli_turkey": "toko makanan_turkey",
+  "canned_soup": "sup_kalengan"
 }

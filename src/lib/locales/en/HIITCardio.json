@@ -66,5 +66,16 @@
   "workouts": "Workouts",
   "high_intensity_interval_training_toolkit": "High-intensity interval training toolkit",
   "hiit_cardio": "HIIT & Cardio",
-  "back_to_dashboard": "Back to Dashboard"
+  "back_to_dashboard": "Back to Dashboard",
+  "from_yellow_500_to_orange_500": "from-yellow-500 to-orange-500",
+  "jumping_jacks_high_knees_shadow_boxing": "Jumping jacks, high knees, shadow boxing",
+  "no_equipment_cardio": "No-Equipment Cardio",
+  "from_orange_600_to_amber_600": "from-orange-600 to-amber-600",
+  "high_intensity_abdominal_work": "High-intensity abdominal work",
+  "core_shred": "Core Shred",
+  "from_red_500_to_rose_600": "from-red-500 to-rose-600",
+  "burpees_squat_jumps_mountain_climbers": "Burpees, Squat Jumps, Mountain Climbers",
+  "full_body_blast": "Full Body Blast",
+  "from_orange_500_to_red_500": "from-orange-500 to-red-500",
+  "the_tabata_burn": "The Tabata Burn"
 }

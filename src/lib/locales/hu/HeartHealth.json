@@ -163,5 +163,12 @@
     "cottage_cheese": "Túró (1/2 csésze)",
     "pickles": "Savanyúság (1 közepes)",
     "salad_dressing": "salátaöntet (2 evőkanál)"
-  }
+  },
+  "salad_dressing": "salátaöntet",
+  "cottage_cheese": "túrósajt",
+  "soy_sauce": "szójaszósz",
+  "frozen_pizza": "fagyasztott_pizza",
+  "white_bread": "fehér_kenyér",
+  "deli_turkey": "deli_turkey",
+  "canned_soup": "konzerv_leves"
 }

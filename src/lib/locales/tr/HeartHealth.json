@@ -163,5 +163,12 @@
     "cottage_cheese": "Süzme Peynir (1/2 su bardağı)",
     "pickles": "Turşu (1 orta boy)",
     "salad_dressing": "Salata Sosu (2 yemek kaşığı)"
-  }
+  },
+  "salad_dressing": "salata sosu",
+  "cottage_cheese": "yazlık_peynir",
+  "soy_sauce": "soya_sauce",
+  "frozen_pizza": "frozen_pizza",
+  "white_bread": "beyaz_ekmek",
+  "deli_turkey": "deli_turkey",
+  "canned_soup": "konserve_soup"
 }

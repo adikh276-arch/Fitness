@@ -66,5 +66,16 @@
   "workouts": "Treninger",
   "high_intensity_interval_training_toolkit": "Verktøysett for intervalltrening med høy intensitet",
   "hiit_cardio": "HIIT og kardio",
-  "back_to_dashboard": "Tilbake til Dashboard"
+  "back_to_dashboard": "Tilbake til Dashboard",
+  "from_yellow_500_to_orange_500": "fra-gul-500 til-oransje-500",
+  "jumping_jacks_high_knees_shadow_boxing": "Hoppeknekter, høye knær, skyggeboksing",
+  "no_equipment_cardio": "Cardio uten utstyr",
+  "from_orange_600_to_amber_600": "fra-oransje-600 til-rav-600",
+  "high_intensity_abdominal_work": "Høyintensivt magearbeid",
+  "core_shred": "Core Shred",
+  "from_red_500_to_rose_600": "fra-rød-500 til-rose-600",
+  "burpees_squat_jumps_mountain_climbers": "Burpees, knebøy hopp, fjellklatrere",
+  "full_body_blast": "Full Body Blast",
+  "from_orange_500_to_red_500": "fra-oransje-500 til-rød-500",
+  "the_tabata_burn": "Tabata-brenningen"
 }

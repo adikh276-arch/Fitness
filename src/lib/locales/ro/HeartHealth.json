@@ -163,5 +163,12 @@
     "cottage_cheese": "Brânză de vaci (1/2 cană)",
     "pickles": "Murături (1 mediu)",
     "salad_dressing": "Sos pentru salată (2 linguri)"
-  }
+  },
+  "salad_dressing": "dressing_salata",
+  "cottage_cheese": "brânză_de vaci",
+  "soy_sauce": "sos_de_soia",
+  "frozen_pizza": "pizza_congelată",
+  "white_bread": "pâine_albă",
+  "deli_turkey": "deli_turkey",
+  "canned_soup": "supă_conservă"
 }

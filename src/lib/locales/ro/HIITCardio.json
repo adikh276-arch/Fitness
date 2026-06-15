@@ -66,5 +66,16 @@
   "workouts": "Antrenamente",
   "high_intensity_interval_training_toolkit": "Setul de instrumente de antrenament pe intervale de mare intensitate",
   "hiit_cardio": "HIIT și cardio",
-  "back_to_dashboard": "Înapoi la Tabloul de bord"
+  "back_to_dashboard": "Înapoi la Tabloul de bord",
+  "from_yellow_500_to_orange_500": "de la-galben-500 la-portocaliu-500",
+  "jumping_jacks_high_knees_shadow_boxing": "Jumping jacks, genunchi înalți, box în umbră",
+  "no_equipment_cardio": "Cardio fără echipament",
+  "from_orange_600_to_amber_600": "de la-portocaliu-600 la-chihlimbar-600",
+  "high_intensity_abdominal_work": "Munca abdominală de mare intensitate",
+  "core_shred": "Core Shred",
+  "from_red_500_to_rose_600": "de la-rosu-500 la-trandafir-600",
+  "burpees_squat_jumps_mountain_climbers": "Burpee, sărituri ghemuite, alpiniști",
+  "full_body_blast": "Explozie completă a corpului",
+  "from_orange_500_to_red_500": "de la-portocaliu-500 la-roșu-500",
+  "the_tabata_burn": "Arsura Tabata"
 }

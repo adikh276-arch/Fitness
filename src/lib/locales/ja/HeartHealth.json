@@ -163,5 +163,12 @@
     "cottage_cheese": "カッテージチーズ（1/2カップ）",
     "pickles": "ピクルス（中1個）",
     "salad_dressing": "サラダドレッシング（大さじ2）"
-  }
+  },
+  "salad_dressing": "サラダドレッシング",
+  "cottage_cheese": "カッテージチーズ",
+  "soy_sauce": "醤油",
+  "frozen_pizza": "冷凍ピザ",
+  "white_bread": "白パン",
+  "deli_turkey": "デリ_ターキー",
+  "canned_soup": "缶詰_スープ"
 }

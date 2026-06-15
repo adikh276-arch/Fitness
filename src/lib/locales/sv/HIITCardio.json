@@ -66,5 +66,16 @@
   "workouts": "Träningspass",
   "high_intensity_interval_training_toolkit": "Verktygssats för högintensiv intervallträning",
   "hiit_cardio": "HIIT & Cardio",
-  "back_to_dashboard": "Tillbaka till Dashboard"
+  "back_to_dashboard": "Tillbaka till Dashboard",
+  "from_yellow_500_to_orange_500": "från-gul-500 till-orange-500",
+  "jumping_jacks_high_knees_shadow_boxing": "Hoppande knekt, höga knän, skuggboxning",
+  "no_equipment_cardio": "Cardio utan utrustning",
+  "from_orange_600_to_amber_600": "från-orange-600 till-amber-600",
+  "high_intensity_abdominal_work": "Högintensivt bukarbete",
+  "core_shred": "Strimla kärna",
+  "from_red_500_to_rose_600": "från-röd-500 till-rosa-600",
+  "burpees_squat_jumps_mountain_climbers": "Burpees, knäböjshopp, bergsklättrare",
+  "full_body_blast": "Full Body Blast",
+  "from_orange_500_to_red_500": "från-orange-500 till-röd-500",
+  "the_tabata_burn": "Tabata-brännan"
 }

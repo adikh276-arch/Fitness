@@ -29,132 +29,6 @@ interface Pose {
   emoji: string;
 }
 
-const flows = [
-  {
-    id: 'sunrise',
-    name: 'Sunrise Flow',
-    duration: 15,
-    focus: 'Energy and spinal mobility',
-    vibe: 'Energizing',
-    vibeColor: 'from-orange-500 to-yellow-500',
-    bgColor: 'from-orange-50 to-yellow-50',
-    icon: '🌅',
-  },
-  {
-    id: 'desk-relief',
-    name: 'Desk Relief',
-    duration: 10,
-    focus: 'Neck, shoulders, and wrists',
-    vibe: 'Relaxing',
-    vibeColor: 'from-cyan-500 to-teal-500',
-    bgColor: 'from-cyan-50 to-teal-50',
-    icon: '💻',
-  },
-  {
-    id: 'deep-sleep',
-    name: 'Deep Sleep Yin',
-    duration: 20,
-    focus: 'Long-hold stretches for relaxation',
-    vibe: 'Calming',
-    vibeColor: 'from-indigo-500 to-purple-500',
-    bgColor: 'from-indigo-50 to-purple-50',
-    icon: '🌙',
-  },
-  {
-    id: 'power',
-    name: 'Power Yoga',
-    duration: 30,
-    focus: 'Strength and balance',
-    vibe: 'Sweaty',
-    vibeColor: 'from-red-500 to-orange-500',
-    bgColor: 'from-red-50 to-orange-50',
-    icon: '💪',
-  },
-];
-
-const poses: Pose[] = [
-  {
-    name: 'Pigeon Pose',
-    category: 'Hips',
-    alignment: 'Front knee at 90°, back leg extended straight, hips square to the front',
-    mistakes: 'Twisting hips to one side, collapsing into the front hip, forcing the stretch',
-    benefits: 'Opens hip flexors, releases tension in glutes, improves hip mobility',
-    emoji: '🕊️',
-  },
-  {
-    name: 'Butterfly Pose',
-    category: 'Hips',
-    alignment: 'Soles of feet together, knees falling to sides, spine long',
-    mistakes: 'Rounding the back excessively, forcing knees down, bouncing',
-    benefits: 'Opens inner thighs and groin, stimulates abdominal organs, calms the mind',
-    emoji: '🦋',
-  },
-  {
-    name: 'Cobra Pose',
-    category: 'Back',
-    alignment: 'Hands under shoulders, elbows close to ribs, lift through the chest',
-    mistakes: 'Hunching shoulders to ears, hyperextending neck, pushing too high',
-    benefits: 'Strengthens spine, opens chest and lungs, relieves stress',
-    emoji: '🐍',
-  },
-  {
-    name: 'Cat-Cow',
-    category: 'Back',
-    alignment: 'Hands under shoulders, knees under hips, alternate arching and rounding spine',
-    mistakes: 'Moving too quickly, not engaging core, overarching lower back',
-    benefits: 'Warms up spine, improves posture, relieves back tension',
-    emoji: '🐱',
-  },
-  {
-    name: 'Forward Fold',
-    category: 'Hamstrings',
-    alignment: 'Hinge at hips, keep spine long, slight bend in knees if needed',
-    mistakes: 'Rounding from lower back, locking knees, forcing the stretch',
-    benefits: 'Stretches hamstrings and calves, calms nervous system, relieves headaches',
-    emoji: '🙇',
-  },
-  {
-    name: 'Downward Dog',
-    category: 'Hamstrings',
-    alignment: 'Hands shoulder-width, feet hip-width, hips high, heels reaching toward floor',
-    mistakes: 'Rounding shoulders, arching lower back, locking elbows',
-    benefits: 'Full body stretch, strengthens arms and legs, energizes body',
-    emoji: '🐕',
-  },
-  {
-    name: 'Child\'s Pose',
-    category: 'Back',
-    alignment: 'Knees wide, big toes touching, forehead to floor, arms extended',
-    mistakes: 'Tensing shoulders, holding breath, forcing hips to heels',
-    benefits: 'Releases back tension, calms mind, gentle hip opener',
-    emoji: '🧘',
-  },
-  {
-    name: 'Triangle Pose',
-    category: 'Hips',
-    alignment: 'Front foot forward, back foot at 90°, reach forward then down, both sides of torso long',
-    mistakes: 'Collapsing into bottom side, hyperextending front knee, twisting torso forward',
-    benefits: 'Strengthens legs, opens hips and chest, improves balance',
-    emoji: '🔺',
-  },
-];
-
-const moodEmojis = [
-  { score: 1, emoji: '😤', label: 'Frustrated' },
-  { score: 2, emoji: '😕', label: 'Tense' },
-  { score: 3, emoji: '😊', label: 'Calm' },
-  { score: 4, emoji: '😌', label: 'Peaceful' },
-  { score: 5, emoji: '🧘', label: 'Zen' },
-];
-
-const deskStretches = [
-  'Neck Tilts',
-  'Shoulder Rolls',
-  'Wrist Circles',
-  'Seated Spinal Twist',
-  'Shoulder Blade Squeeze',
-];
-
 const flowPoses = {
   sunrise: [
     { name: 'Cat-Cow', duration: 60, emoji: '🐱' },
@@ -199,6 +73,128 @@ const flowPoses = {
 
 export default function YogaFlexibilityGuide({ onBack }: { onBack: () => void }) {
     const { t } = useTranslation('YogaFlexibility');
+    const deskStretches = [
+      t('neck_tilts', `Neck Tilts`),
+      t('shoulder_rolls', `Shoulder Rolls`),
+      t('wrist_circles', `Wrist Circles`),
+      t('seated_spinal_twist', `Seated Spinal Twist`),
+      t('shoulder_blade_squeeze', `Shoulder Blade Squeeze`),
+    ];
+    const moodEmojis = [
+      { score: 1, emoji: '😤', label: t('frustrated', `Frustrated`) },
+      { score: 2, emoji: '😕', label: t('tense', `Tense`) },
+      { score: 3, emoji: '😊', label: t('calm', `Calm`) },
+      { score: 4, emoji: '😌', label: t('peaceful', `Peaceful`) },
+      { score: 5, emoji: '🧘', label: t('zen', `Zen`) },
+    ];
+    const poses: Pose[] = [
+      {
+        name: t('pigeon_pose', `Pigeon Pose`),
+        category: t('hips', `Hips`),
+        alignment: t('front_knee_at_90_back_leg_extended_strai', `Front knee at 90°, back leg extended straight, hips square to the front`),
+        mistakes: t('twisting_hips_to_one_side_collapsing_int', `Twisting hips to one side, collapsing into the front hip, forcing the stretch`),
+        benefits: t('opens_hip_flexors_releases_tension_in_gl', `Opens hip flexors, releases tension in glutes, improves hip mobility`),
+        emoji: '🕊️',
+      },
+      {
+        name: t('butterfly_pose', `Butterfly Pose`),
+        category: t('hips', `Hips`),
+        alignment: t('soles_of_feet_together_knees_falling_to_', `Soles of feet together, knees falling to sides, spine long`),
+        mistakes: t('rounding_the_back_excessively_forcing_kn', `Rounding the back excessively, forcing knees down, bouncing`),
+        benefits: t('opens_inner_thighs_and_groin_stimulates_', `Opens inner thighs and groin, stimulates abdominal organs, calms the mind`),
+        emoji: '🦋',
+      },
+      {
+        name: t('cobra_pose', `Cobra Pose`),
+        category: t('back', `Back`),
+        alignment: t('hands_under_shoulders_elbows_close_to_ri', `Hands under shoulders, elbows close to ribs, lift through the chest`),
+        mistakes: t('hunching_shoulders_to_ears_hyperextendin', `Hunching shoulders to ears, hyperextending neck, pushing too high`),
+        benefits: t('strengthens_spine_opens_chest_and_lungs_', `Strengthens spine, opens chest and lungs, relieves stress`),
+        emoji: '🐍',
+      },
+      {
+        name: t('cat_cow', `Cat-Cow`),
+        category: t('back', `Back`),
+        alignment: t('hands_under_shoulders_knees_under_hips_a', `Hands under shoulders, knees under hips, alternate arching and rounding spine`),
+        mistakes: t('moving_too_quickly_not_engaging_core_ove', `Moving too quickly, not engaging core, overarching lower back`),
+        benefits: t('warms_up_spine_improves_posture_relieves', `Warms up spine, improves posture, relieves back tension`),
+        emoji: '🐱',
+      },
+      {
+        name: t('forward_fold', `Forward Fold`),
+        category: t('hamstrings', `Hamstrings`),
+        alignment: t('hinge_at_hips_keep_spine_long_slight_ben', `Hinge at hips, keep spine long, slight bend in knees if needed`),
+        mistakes: t('rounding_from_lower_back_locking_knees_f', `Rounding from lower back, locking knees, forcing the stretch`),
+        benefits: t('stretches_hamstrings_and_calves_calms_ne', `Stretches hamstrings and calves, calms nervous system, relieves headaches`),
+        emoji: '🙇',
+      },
+      {
+        name: t('downward_dog', `Downward Dog`),
+        category: t('hamstrings', `Hamstrings`),
+        alignment: t('hands_shoulder_width_feet_hip_width_hips', `Hands shoulder-width, feet hip-width, hips high, heels reaching toward floor`),
+        mistakes: t('rounding_shoulders_arching_lower_back_lo', `Rounding shoulders, arching lower back, locking elbows`),
+        benefits: t('full_body_stretch_strengthens_arms_and_l', `Full body stretch, strengthens arms and legs, energizes body`),
+        emoji: '🐕',
+      },
+      {
+        name: t('child_s_pose', `Child's Pose`),
+        category: t('back', `Back`),
+        alignment: t('knees_wide_big_toes_touching_forehead_to', `Knees wide, big toes touching, forehead to floor, arms extended`),
+        mistakes: t('tensing_shoulders_holding_breath_forcing', `Tensing shoulders, holding breath, forcing hips to heels`),
+        benefits: t('releases_back_tension_calms_mind_gentle_', `Releases back tension, calms mind, gentle hip opener`),
+        emoji: '🧘',
+      },
+      {
+        name: t('triangle_pose', `Triangle Pose`),
+        category: t('hips', `Hips`),
+        alignment: t('front_foot_forward_back_foot_at_90_reach', `Front foot forward, back foot at 90°, reach forward then down, both sides of torso long`),
+        mistakes: t('collapsing_into_bottom_side_hyperextendi', `Collapsing into bottom side, hyperextending front knee, twisting torso forward`),
+        benefits: t('strengthens_legs_opens_hips_and_chest_im', `Strengthens legs, opens hips and chest, improves balance`),
+        emoji: '🔺',
+      },
+    ];
+    const flows = [
+      {
+        id: 'sunrise',
+        name: t('sunrise_flow', `Sunrise Flow`),
+        duration: 15,
+        focus: t('energy_and_spinal_mobility', `Energy and spinal mobility`),
+        vibe: t('energizing', `Energizing`),
+        vibeColor: t('from_orange_500_to_yellow_500', `from-orange-500 to-yellow-500`),
+        bgColor: t('from_orange_50_to_yellow_50', `from-orange-50 to-yellow-50`),
+        icon: '🌅',
+      },
+      {
+        id: 'desk-relief',
+        name: t('desk_relief', `Desk Relief`),
+        duration: 10,
+        focus: t('neck_shoulders_and_wrists', `Neck, shoulders, and wrists`),
+        vibe: t('relaxing', `Relaxing`),
+        vibeColor: t('from_cyan_500_to_teal_500', `from-cyan-500 to-teal-500`),
+        bgColor: t('from_cyan_50_to_teal_50', `from-cyan-50 to-teal-50`),
+        icon: '💻',
+      },
+      {
+        id: 'deep-sleep',
+        name: t('deep_sleep_yin', `Deep Sleep Yin`),
+        duration: 20,
+        focus: t('long_hold_stretches_for_relaxation', `Long-hold stretches for relaxation`),
+        vibe: t('calming', `Calming`),
+        vibeColor: t('from_indigo_500_to_purple_500', `from-indigo-500 to-purple-500`),
+        bgColor: t('from_indigo_50_to_purple_50', `from-indigo-50 to-purple-50`),
+        icon: '🌙',
+      },
+      {
+        id: 'power',
+        name: t('power_yoga', `Power Yoga`),
+        duration: 30,
+        focus: t('strength_and_balance', `Strength and balance`),
+        vibe: t('sweaty', `Sweaty`),
+        vibeColor: t('from_red_500_to_orange_500', `from-red-500 to-orange-500`),
+        bgColor: t('from_red_50_to_orange_50', `from-red-50 to-orange-50`),
+        icon: '💪',
+      },
+    ];
   const [activeTab, setActiveTab] = useState<'flows' | 'library' | 'log'>('flows');
   const [yogaData, setYogaData] = useState<YogaData>(() => {
     const saved = localStorage.getItem('yoga-flexibility-data');

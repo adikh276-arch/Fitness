@@ -163,5 +163,12 @@
     "cottage_cheese": "Keso (1/2 kopp)",
     "pickles": "Pickles (1 medium)",
     "salad_dressing": "Salladsdressing (2 msk)"
-  }
+  },
+  "salad_dressing": "salladsdressing",
+  "cottage_cheese": "stugost",
+  "soy_sauce": "soja_sås",
+  "frozen_pizza": "frusen_pizza",
+  "white_bread": "vitt_bröd",
+  "deli_turkey": "deli_turkey",
+  "canned_soup": "konserverad_soppa"
 }

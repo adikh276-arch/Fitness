@@ -163,5 +163,12 @@
     "cottage_cheese": "Cottage Cheese (1/2 kopp)",
     "pickles": "Pickles (1 medium)",
     "salad_dressing": "Salatdressing (2 ss)"
-  }
+  },
+  "salad_dressing": "salatdressing",
+  "cottage_cheese": "cottage_cheese",
+  "soy_sauce": "soyasaus",
+  "frozen_pizza": "frozen_pizza",
+  "white_bread": "hvitt_brød",
+  "deli_turkey": "deli_turkey",
+  "canned_soup": "hermetisert_suppe"
 }

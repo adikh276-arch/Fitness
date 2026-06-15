@@ -163,5 +163,12 @@
     "cottage_cheese": "Raejuusto (1/2 kuppia)",
     "pickles": "suolakurkku (1 keskikokoinen)",
     "salad_dressing": "Salaattikastike (2 rkl)"
-  }
+  },
+  "salad_dressing": "salaattikastike",
+  "cottage_cheese": "mökki_juusto",
+  "soy_sauce": "soija_kastike",
+  "frozen_pizza": "pakaste_pizza",
+  "white_bread": "valkoinen_leipä",
+  "deli_turkey": "deli_turkey",
+  "canned_soup": "purkitettu_keitto"
 }

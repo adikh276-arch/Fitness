@@ -163,5 +163,12 @@
     "cottage_cheese": "코티지 치즈(1/2컵)",
     "pickles": "피클 (중간 크기 1개)",
     "salad_dressing": "샐러드드레싱(2큰술)"
-  }
+  },
+  "salad_dressing": "샐러드_드레싱",
+  "cottage_cheese": "별장_치즈",
+  "soy_sauce": "간장",
+  "frozen_pizza": "냉동_피자",
+  "white_bread": "흰빵",
+  "deli_turkey": "deli_turkey",
+  "canned_soup": "통조림_수프"
 }

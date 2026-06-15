@@ -163,5 +163,12 @@
     "cottage_cheese": "白乾酪（1/2 杯）",
     "pickles": "泡菜（1個中）",
     "salad_dressing": "沙拉醬（2大匙）"
-  }
+  },
+  "salad_dressing": "沙拉醬",
+  "cottage_cheese": "乾酪",
+  "soy_sauce": "醬油",
+  "frozen_pizza": "冷凍披薩",
+  "white_bread": "白麵包",
+  "deli_turkey": "熟食店_火雞",
+  "canned_soup": "罐頭湯"
 }

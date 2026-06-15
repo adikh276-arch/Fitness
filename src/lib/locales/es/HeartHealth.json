@@ -163,5 +163,12 @@
     "cottage_cheese": "Queso Cottage (1/2 taza)",
     "pickles": "Encurtidos (1 mediano)",
     "salad_dressing": "Aderezo para ensalada (2 cucharadas)"
-  }
+  },
+  "salad_dressing": "aderezo para ensalada",
+  "cottage_cheese": "queso cottage",
+  "soy_sauce": "salsa_soja",
+  "frozen_pizza": "pizza_congelada",
+  "white_bread": "pan_blanco",
+  "deli_turkey": "delicatessen_pavo",
+  "canned_soup": "sopa_enlatada"
 }

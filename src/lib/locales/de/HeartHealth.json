@@ -163,5 +163,12 @@
     "cottage_cheese": "Hüttenkäse (1/2 Tasse)",
     "pickles": "Gurken (1 mittelgroß)",
     "salad_dressing": "Salatdressing (2 EL)"
-  }
+  },
+  "salad_dressing": "Salatdressing",
+  "cottage_cheese": "Hüttenkäse",
+  "soy_sauce": "Sojasoße",
+  "frozen_pizza": "gefrorene_pizza",
+  "white_bread": "Weißbrot",
+  "deli_turkey": "deli_turkey",
+  "canned_soup": "Dosensuppe"
 }

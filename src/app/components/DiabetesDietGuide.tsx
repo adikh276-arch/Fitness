@@ -18,31 +18,28 @@ interface GlucoseReading {
 }
 
 // Metadata moved inside for translation
-const TIMING_OPTIONS = ['fasting', 'preMeal', 'postMeal1h', 'postMeal2h', 'bedtime'];
-
-const PLATE_CONFIG = {
-  veggies: {
-    id: 'veggies',
-    color: 'emerald',
-    foods: ['Spinach', 'Broccoli', 'Cauliflower', 'Bell Peppers', 'Zucchini', 'Asparagus', 'Cucumber', 'Tomatoes'],
-  },
-  protein: {
-    id: 'protein',
-    color: 'orange',
-    foods: ['Chicken Breast', 'Fish (Salmon, Tuna)', 'Tofu', 'Lentils', 'Eggs', 'Turkey', 'Greek Yogurt'],
-  },
-  carbs: {
-    id: 'carbs',
-    color: 'amber',
-    foods: ['Brown Rice', 'Quinoa', 'Sweet Potato', 'Whole Wheat Pasta', 'Oats', 'Barley'],
-  },
-};
-
 type TabType = 'log' | 'plate' | 'gi';
 
 export default function DiabetesDietGuide({ onBack }: { onBack: () => void }) {
   const { t, i18n } = useTranslation('DiabetesDiet');
-
+    const PLATE_CONFIG = {
+      veggies: {
+        id: 'veggies',
+        color: 'emerald',
+        foods: [t('spinach', `Spinach`), t('broccoli', `Broccoli`), t('cauliflower', `Cauliflower`), t('bell_peppers', `Bell Peppers`), t('zucchini', `Zucchini`), t('asparagus', `Asparagus`), t('cucumber', `Cucumber`), t('tomatoes', `Tomatoes`)],
+      },
+      protein: {
+        id: 'protein',
+        color: 'orange',
+        foods: [t('chicken_breast', `Chicken Breast`), t('fish_salmon_tuna', `Fish (Salmon, Tuna)`), t('tofu', `Tofu`), t('lentils', `Lentils`), t('eggs', `Eggs`), t('turkey', `Turkey`), t('greek_yogurt', `Greek Yogurt`)],
+      },
+      carbs: {
+        id: 'carbs',
+        color: 'amber',
+        foods: [t('brown_rice', `Brown Rice`), t('quinoa', `Quinoa`), t('sweet_potato', `Sweet Potato`), t('whole_wheat_pasta', `Whole Wheat Pasta`), t('oats', `Oats`), t('barley', `Barley`)],
+      },
+    };
+    const TIMING_OPTIONS = ['fasting', t('premeal', `preMeal`), t('postmeal1h', `postMeal1h`), t('postmeal2h', `postMeal2h`), 'bedtime'];
   const timingOptions = useMemo(() => TIMING_OPTIONS.map(opt => ({
     id: opt,
     label: t(`timing.${opt}`)

@@ -66,5 +66,16 @@
   "workouts": "Mga ehersisyo",
   "high_intensity_interval_training_toolkit": "High-intensity interval training toolkit",
   "hiit_cardio": "HIIT at Cardio",
-  "back_to_dashboard": "Bumalik sa Dashboard"
+  "back_to_dashboard": "Bumalik sa Dashboard",
+  "from_yellow_500_to_orange_500": "mula-dilaw-500 hanggang-kahel-500",
+  "jumping_jacks_high_knees_shadow_boxing": "Jumping jacks, mataas na tuhod, shadow boxing",
+  "no_equipment_cardio": "Walang Kagamitang Cardio",
+  "from_orange_600_to_amber_600": "mula-orange-600 hanggang-amber-600",
+  "high_intensity_abdominal_work": "High-intensity na gawain sa tiyan",
+  "core_shred": "Core Shred",
+  "from_red_500_to_rose_600": "mula-pula-500 hanggang-rosas-600",
+  "burpees_squat_jumps_mountain_climbers": "Burpees, Squat Jumps, Mountain Climbers",
+  "full_body_blast": "Full Body Blast",
+  "from_orange_500_to_red_500": "mula-orange-500 hanggang-pula-500",
+  "the_tabata_burn": "Ang Tabata Burn"
 }

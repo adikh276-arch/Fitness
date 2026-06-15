@@ -163,5 +163,12 @@
     "cottage_cheese": "Τυρί κότατζ (1/2 φλιτζάνι)",
     "pickles": "Τουρσιά (1 μέτρια)",
     "salad_dressing": "Ντρέσινγκ σαλάτας (2 κ.σ.)"
-  }
+  },
+  "salad_dressing": "salad_dressing",
+  "cottage_cheese": "cottage_cheese",
+  "soy_sauce": "σάλτσα σόγιας",
+  "frozen_pizza": "παγωμένη_πίτσα",
+  "white_bread": "λευκό_ψωμί",
+  "deli_turkey": "deli_turkey",
+  "canned_soup": "κονσέρβα_σούπα"
 }

@@ -163,5 +163,12 @@
     "cottage_cheese": "Hytteost (1/2 kop)",
     "pickles": "Pickles (1 medium)",
     "salad_dressing": "Salatdressing (2 spsk)"
-  }
+  },
+  "salad_dressing": "salatdressing",
+  "cottage_cheese": "hytte_ost",
+  "soy_sauce": "soja_sovs",
+  "frozen_pizza": "frossen_pizza",
+  "white_bread": "hvidt_brød",
+  "deli_turkey": "deli_tyrkiet",
+  "canned_soup": "dåsesuppe"
 }

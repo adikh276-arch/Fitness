@@ -66,5 +66,16 @@
   "workouts": "การออกกำลังกาย",
   "high_intensity_interval_training_toolkit": "ชุดเครื่องมือฝึกซ้อมช่วงความเข้มสูง",
   "hiit_cardio": "ไฮท์และคาร์ดิโอ",
-  "back_to_dashboard": "กลับไปที่แดชบอร์ด"
+  "back_to_dashboard": "กลับไปที่แดชบอร์ด",
+  "from_yellow_500_to_orange_500": "จาก-เหลือง-500 ถึง-ส้ม-500",
+  "jumping_jacks_high_knees_shadow_boxing": "แจ็คกระโดด เข่าสูง มวยเงา",
+  "no_equipment_cardio": "คาร์ดิโอแบบไม่มีอุปกรณ์",
+  "from_orange_600_to_amber_600": "จาก-ส้ม-600 ถึง-อำพัน-600",
+  "high_intensity_abdominal_work": "การทำงานของช่องท้องที่มีความเข้มสูง",
+  "core_shred": "ฉีกหลัก",
+  "from_red_500_to_rose_600": "จาก-แดง-500 ถึง-กุหลาบ-600",
+  "burpees_squat_jumps_mountain_climbers": "Burpees, Squat Jumps, นักปีนเขา",
+  "full_body_blast": "ระเบิดทั้งตัว",
+  "from_orange_500_to_red_500": "จากสีส้ม-500 ถึงสีแดง-500",
+  "the_tabata_burn": "ทาบาตะเบิร์น"
 }

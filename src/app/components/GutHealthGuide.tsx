@@ -23,65 +23,60 @@ interface DailyHabits {
 type TabType = 'log' | 'map' | 'habits';
 
 // Metadata moved inside for translation
-const BRISTOL_SCALE_CONFIG = [
-  { type: 1, icon: '●●●' },
-  { type: 2, icon: '◐◐◐' },
-  { type: 3, icon: '▬▬▬' },
-  { type: 4, icon: '━━━' },
-  { type: 5, icon: '◯◯◯' },
-  { type: 6, icon: '∼∼∼' },
-  { type: 7, icon: '≋≋≋' },
-];
-
-const SYMPTOMS = ['Bloating', 'Gas', 'Cramping', 'Reflux', 'Energy Dip'];
-const TRIGGERS = ['Dairy', 'Gluten', 'Coffee', 'Spicy Food', 'Alcohol', 'Stress', 'Other'];
-
-const PREBIOTICS_IDS = [
-  'Garlic', 'Onions', 'Leeks', 'Asparagus', 'Bananas', 'Oats',
-  'Apples', 'Flaxseed', 'Chicory Root', 'Jerusalem Artichoke'
-];
-
-const PROBIOTICS_IDS = [
-  'Greek Yogurt', 'Kefir', 'Kimchi', 'Sauerkraut', 'Kombucha',
-  'Miso', 'Tempeh', 'Pickles', 'Natto'
-];
-
-const PLANT_LIST_IDS = [
-  'Spinach', 'Kale', 'Arugula', 'Romaine',
-  'Broccoli', 'Cauliflower', 'Brussels Sprouts', 'Cabbage',
-  'Carrots', 'Sweet Potatoes', 'Beets', 'Radishes',
-  'Chickpeas', 'Lentils', 'Black Beans', 'Kidney Beans',
-  'Oats', 'Brown Rice', 'Quinoa', 'Barley',
-  'Almonds', 'Walnuts', 'Pistachios', 'Cashews',
-  'Chia', 'Flax', 'Pumpkin Seeds', 'Sunflower Seeds',
-  'Blueberries', 'Strawberries', 'Raspberries', 'Blackberries',
-  'Oranges', 'Lemons', 'Limes', 'Grapefruit',
-  'Bananas', 'Pineapple', 'Mango', 'Papaya',
-  'Peaches', 'Plums', 'Cherries', 'Apricots',
-  'Basil', 'Cilantro', 'Mint', 'Parsley', 'Rosemary',
-  'Turmeric', 'Ginger', 'Cinnamon', 'Cumin', 'Paprika',
-  'Kimchi', 'Sauerkraut', 'Miso', 'Tempeh',
-  'Button Mushrooms', 'Shiitake', 'Portobello', 'Oyster Mushrooms',
-  'Pumpkin', 'Butternut Squash', 'Zucchini', 'Acorn Squash',
-  'Bell Peppers', 'Jalapeños', 'Chili',
-  'Cherry Tomatoes', 'Roma Tomatoes', 'Beefsteak Tomatoes',
-  'Garlic', 'Onions', 'Leeks', 'Shallots',
-  'Alfalfa Sprouts', 'Broccoli Sprouts', 'Mung Bean Sprouts',
-  'Nori', 'Kelp', 'Wakame',
-  'Buckwheat', 'Farro', 'Amaranth', 'Millet',
-  'Watermelon', 'Cantaloupe', 'Honeydew',
-  'Apples', 'Pears',
-  'Avocado',
-  'Coconut', 'Coconut Milk', 'Coconut Water',
-  'Olives',
-  'Dark Chocolate', 'Cacao Nibs', 'Cocoa Powder',
-  'Green Tea', 'Black Tea', 'Chamomile', 'Peppermint Tea',
-  'Coffee',
-];
 
 export default function GutHealthGuide({ onBack }: { onBack: () => void }) {
   const { t, i18n } = useTranslation('GutHealth');
-
+    const PLANT_LIST_IDS = [
+      t('spinach', `Spinach`), t('kale', `Kale`), t('arugula', `Arugula`), t('romaine', `Romaine`),
+      t('broccoli', `Broccoli`), t('cauliflower', `Cauliflower`), t('brussels_sprouts', `Brussels Sprouts`), t('cabbage', `Cabbage`),
+      t('carrots', `Carrots`), t('sweet_potatoes', `Sweet Potatoes`), t('beets', `Beets`), t('radishes', `Radishes`),
+      t('chickpeas', `Chickpeas`), t('lentils', `Lentils`), t('black_beans', `Black Beans`), t('kidney_beans', `Kidney Beans`),
+      t('oats', `Oats`), t('brown_rice', `Brown Rice`), t('quinoa', `Quinoa`), t('barley', `Barley`),
+      t('almonds', `Almonds`), t('walnuts', `Walnuts`), t('pistachios', `Pistachios`), t('cashews', `Cashews`),
+      t('chia', `Chia`), t('flax', `Flax`), t('pumpkin_seeds', `Pumpkin Seeds`), t('sunflower_seeds', `Sunflower Seeds`),
+      t('blueberries', `Blueberries`), t('strawberries', `Strawberries`), t('raspberries', `Raspberries`), t('blackberries', `Blackberries`),
+      t('oranges', `Oranges`), t('lemons', `Lemons`), t('limes', `Limes`), t('grapefruit', `Grapefruit`),
+      t('bananas', `Bananas`), t('pineapple', `Pineapple`), t('mango', `Mango`), t('papaya', `Papaya`),
+      t('peaches', `Peaches`), t('plums', `Plums`), t('cherries', `Cherries`), t('apricots', `Apricots`),
+      t('basil', `Basil`), t('cilantro', `Cilantro`), t('mint', `Mint`), t('parsley', `Parsley`), t('rosemary', `Rosemary`),
+      t('turmeric', `Turmeric`), t('ginger', `Ginger`), t('cinnamon', `Cinnamon`), t('cumin', `Cumin`), t('paprika', `Paprika`),
+      t('kimchi', `Kimchi`), t('sauerkraut', `Sauerkraut`), t('miso', `Miso`), t('tempeh', `Tempeh`),
+      t('button_mushrooms', `Button Mushrooms`), t('shiitake', `Shiitake`), t('portobello', `Portobello`), t('oyster_mushrooms', `Oyster Mushrooms`),
+      t('pumpkin', `Pumpkin`), t('butternut_squash', `Butternut Squash`), t('zucchini', `Zucchini`), t('acorn_squash', `Acorn Squash`),
+      t('bell_peppers', `Bell Peppers`), t('jalape_os', `Jalapeños`), t('chili', `Chili`),
+      t('cherry_tomatoes', `Cherry Tomatoes`), t('roma_tomatoes', `Roma Tomatoes`), t('beefsteak_tomatoes', `Beefsteak Tomatoes`),
+      t('garlic', `Garlic`), t('onions', `Onions`), t('leeks', `Leeks`), t('shallots', `Shallots`),
+      t('alfalfa_sprouts', `Alfalfa Sprouts`), t('broccoli_sprouts', `Broccoli Sprouts`), t('mung_bean_sprouts', `Mung Bean Sprouts`),
+      t('nori', `Nori`), t('kelp', `Kelp`), t('wakame', `Wakame`),
+      t('buckwheat', `Buckwheat`), t('farro', `Farro`), t('amaranth', `Amaranth`), t('millet', `Millet`),
+      t('watermelon', `Watermelon`), t('cantaloupe', `Cantaloupe`), t('honeydew', `Honeydew`),
+      t('apples', `Apples`), t('pears', `Pears`),
+      t('avocado', `Avocado`),
+      t('coconut', `Coconut`), t('coconut_milk', `Coconut Milk`), t('coconut_water', `Coconut Water`),
+      t('olives', `Olives`),
+      t('dark_chocolate', `Dark Chocolate`), t('cacao_nibs', `Cacao Nibs`), t('cocoa_powder', `Cocoa Powder`),
+      t('green_tea', `Green Tea`), t('black_tea', `Black Tea`), t('chamomile', `Chamomile`), t('peppermint_tea', `Peppermint Tea`),
+      t('coffee', `Coffee`),
+    ];
+    const PROBIOTICS_IDS = [
+      t('greek_yogurt', `Greek Yogurt`), t('kefir', `Kefir`), t('kimchi', `Kimchi`), t('sauerkraut', `Sauerkraut`), t('kombucha', `Kombucha`),
+      t('miso', `Miso`), t('tempeh', `Tempeh`), t('pickles', `Pickles`), t('natto', `Natto`)
+    ];
+    const PREBIOTICS_IDS = [
+      t('garlic', `Garlic`), t('onions', `Onions`), t('leeks', `Leeks`), t('asparagus', `Asparagus`), t('bananas', `Bananas`), t('oats', `Oats`),
+      t('apples', `Apples`), t('flaxseed', `Flaxseed`), t('chicory_root', `Chicory Root`), t('jerusalem_artichoke', `Jerusalem Artichoke`)
+    ];
+    const TRIGGERS = [t('dairy', `Dairy`), t('gluten', `Gluten`), t('coffee', `Coffee`), t('spicy_food', `Spicy Food`), t('alcohol', `Alcohol`), t('stress', `Stress`), t('other', `Other`)];
+    const SYMPTOMS = [t('bloating', `Bloating`), t('gas', `Gas`), t('cramping', `Cramping`), t('reflux', `Reflux`), t('energy_dip', `Energy Dip`)];
+    const BRISTOL_SCALE_CONFIG = [
+      { type: 1, icon: '●●●' },
+      { type: 2, icon: '◐◐◐' },
+      { type: 3, icon: '▬▬▬' },
+      { type: 4, icon: '━━━' },
+      { type: 5, icon: '◯◯◯' },
+      { type: 6, icon: '∼∼∼' },
+      { type: 7, icon: '≋≋≋' },
+    ];
   const bristolScale = useMemo(() => BRISTOL_SCALE_CONFIG.map(s => ({
     ...s,
     label: t(`bristol.types.type${s.type}.label`),

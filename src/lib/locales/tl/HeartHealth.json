@@ -163,5 +163,12 @@
     "cottage_cheese": "Cottage Cheese (1/2 tasa)",
     "pickles": "Mga atsara (1 medium)",
     "salad_dressing": "Salad Dressing (2 tbsp)"
-  }
+  },
+  "salad_dressing": "salad_dressing",
+  "cottage_cheese": "cottage_cheese",
+  "soy_sauce": "toyo",
+  "frozen_pizza": "frozen_pizza",
+  "white_bread": "puting_tinapay",
+  "deli_turkey": "deli_turkey",
+  "canned_soup": "canned_soup"
 }

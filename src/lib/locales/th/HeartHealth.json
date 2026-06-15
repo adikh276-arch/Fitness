@@ -163,5 +163,12 @@
     "cottage_cheese": "คอทเทจชีส (1/2 ถ้วย)",
     "pickles": "ผักดอง (1 ขนาดกลาง)",
     "salad_dressing": "น้ำสลัด (2 ช้อนโต๊ะ)"
-  }
+  },
+  "salad_dressing": "น้ำสลัด",
+  "cottage_cheese": "คอทเทจ_ชีส",
+  "soy_sauce": "ซอสถั่วเหลือง",
+  "frozen_pizza": "แช่แข็ง_พิซซ่า",
+  "white_bread": "white_bread",
+  "deli_turkey": "deli_turkey",
+  "canned_soup": "กระป๋อง_ซุป"
 }

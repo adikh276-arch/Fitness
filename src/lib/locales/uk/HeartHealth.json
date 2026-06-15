@@ -163,5 +163,12 @@
     "cottage_cheese": "сир (1/2 склянки)",
     "pickles": "Солоні огірки (1 середній)",
     "salad_dressing": "Заправка для салату (2 ст.л.)"
-  }
+  },
+  "salad_dressing": "салатна_заправка",
+  "cottage_cheese": "сирний_сир",
+  "soy_sauce": "соєвий_соус",
+  "frozen_pizza": "заморожена_піца",
+  "white_bread": "білий_хліб",
+  "deli_turkey": "deli_turkey",
+  "canned_soup": "консервований_суп"
 }

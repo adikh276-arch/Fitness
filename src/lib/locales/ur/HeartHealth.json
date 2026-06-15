@@ -163,5 +163,12 @@
     "cottage_cheese": "کاٹیج پنیر (1/2 کپ)",
     "pickles": "اچار (1 درمیانہ)",
     "salad_dressing": "سلاد ڈریسنگ (2 کھانے کے چمچ)"
-  }
+  },
+  "salad_dressing": "سلاد_ڈریسنگ",
+  "cottage_cheese": "کاٹیج_پنیر",
+  "soy_sauce": "سویا ساس",
+  "frozen_pizza": "منجمد_پیزا",
+  "white_bread": "سفید_روٹی",
+  "deli_turkey": "ڈیلی_ترکی",
+  "canned_soup": "ڈبہ بند_سوپ"
 }

@@ -66,5 +66,16 @@
   "workouts": "వ్యాయామాలు",
   "high_intensity_interval_training_toolkit": "హై-ఇంటెన్సిటీ ఇంటర్వెల్ ట్రైనింగ్ టూల్‌కిట్",
   "hiit_cardio": "HIIT & కార్డియో",
-  "back_to_dashboard": "తిరిగి డాష్‌బోర్డ్‌కి"
+  "back_to_dashboard": "తిరిగి డాష్‌బోర్డ్‌కి",
+  "from_yellow_500_to_orange_500": "పసుపు-500 నుండి-నారింజ-500",
+  "jumping_jacks_high_knees_shadow_boxing": "జంపింగ్ జాక్స్, హై మోకాలు, షాడో బాక్సింగ్",
+  "no_equipment_cardio": "నో-ఎక్విప్‌మెంట్ కార్డియో",
+  "from_orange_600_to_amber_600": "నారింజ-600 నుండి అంబర్-600 వరకు",
+  "high_intensity_abdominal_work": "అధిక-తీవ్రత ఉదర పని",
+  "core_shred": "కోర్ ష్రెడ్",
+  "from_red_500_to_rose_600": "ఎరుపు-500 నుండి గులాబీ-600 వరకు",
+  "burpees_squat_jumps_mountain_climbers": "బర్పీస్, స్క్వాట్ జంప్స్, మౌంటైన్ క్లైంబర్స్",
+  "full_body_blast": "ఫుల్ బాడీ బ్లాస్ట్",
+  "from_orange_500_to_red_500": "నారింజ-500 నుండి ఎరుపు-500 వరకు",
+  "the_tabata_burn": "టబాటా బర్న్"
 }

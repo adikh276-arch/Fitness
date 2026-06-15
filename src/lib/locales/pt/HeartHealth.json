@@ -163,5 +163,12 @@
     "cottage_cheese": "Requeijão (1/2 xícara)",
     "pickles": "Picles (1 médio)",
     "salad_dressing": "Molho para Salada (2 colheres de sopa)"
-  }
+  },
+  "salad_dressing": "molho_salada",
+  "cottage_cheese": "cottage_queijo",
+  "soy_sauce": "molho de soja",
+  "frozen_pizza": "pizza_congelada",
+  "white_bread": "pão_branco",
+  "deli_turkey": "deli_turkey",
+  "canned_soup": "sopa_enlatada"
 }

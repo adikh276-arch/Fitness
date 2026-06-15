@@ -163,5 +163,12 @@
     "cottage_cheese": "Творог (1/2 стакана)",
     "pickles": "Соленые огурцы (1 средний)",
     "salad_dressing": "Салатная заправка (2 столовые ложки)"
-  }
+  },
+  "salad_dressing": "салат_одежда",
+  "cottage_cheese": "коттедж_сыр",
+  "soy_sauce": "соевый_соус",
+  "frozen_pizza": "замороженная_пицца",
+  "white_bread": "белый_хлеб",
+  "deli_turkey": "deli_turkey",
+  "canned_soup": "консервированный_суп"
 }

@@ -163,5 +163,12 @@
     "cottage_cheese": "Fromage cottage (1/2 tasse)",
     "pickles": "Cornichons (1 moyen)",
     "salad_dressing": "Vinaigrette (2 cuillères à soupe)"
-  }
+  },
+  "salad_dressing": "salade_dressing",
+  "cottage_cheese": "fromage_cottage",
+  "soy_sauce": "sauce_soja",
+  "frozen_pizza": "pizza_gelée",
+  "white_bread": "pain_blanc",
+  "deli_turkey": "charcuterie_dinde",
+  "canned_soup": "soupe_en conserve"
 }

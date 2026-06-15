@@ -101,51 +101,50 @@ const warmupInstructions: Record<string, string> = {
   'no-equipment': 'March in place, shoulder rolls, ankle circles, and easy jumping jacks',
 };
 
-const presetWorkouts = [
-  {
-    id: 'tabata',
-    name: 'The Tabata Burn',
-    duration: 4,
-    description: 'Pure 20s work/10s rest',
-    config: { warmup: 0, work: 20, rest: 10, rounds: 8 },
-    color: 'from-orange-500 to-red-500',
-    icon: '🔥',
-    exercises: workoutExercises.tabata,
-  },
-  {
-    id: 'full-body',
-    name: 'Full Body Blast',
-    duration: 15,
-    description: 'Burpees, Squat Jumps, Mountain Climbers',
-    config: { warmup: 120, work: 40, rest: 20, rounds: 12 },
-    color: 'from-red-500 to-rose-600',
-    icon: '💪',
-    exercises: workoutExercises['full-body'],
-  },
-  {
-    id: 'core-shred',
-    name: 'Core Shred',
-    duration: 10,
-    description: 'High-intensity abdominal work',
-    config: { warmup: 60, work: 45, rest: 15, rounds: 8 },
-    color: 'from-orange-600 to-amber-600',
-    icon: '⚡',
-    exercises: workoutExercises['core-shred'],
-  },
-  {
-    id: 'no-equipment',
-    name: 'No-Equipment Cardio',
-    duration: 20,
-    description: 'Jumping jacks, high knees, shadow boxing',
-    config: { warmup: 120, work: 50, rest: 10, rounds: 16 },
-    color: 'from-yellow-500 to-orange-500',
-    icon: '🥊',
-    exercises: workoutExercises['no-equipment'],
-  },
-];
-
 export default function HIITCardioGuide({ onBack }: { onBack: () => void }) {
     const { t } = useTranslation('HIITCardio');
+    const presetWorkouts = [
+      {
+        id: 'tabata',
+        name: t('the_tabata_burn', `The Tabata Burn`),
+        duration: 4,
+        description: 'Pure 20s work/10s rest',
+        config: { warmup: 0, work: 20, rest: 10, rounds: 8 },
+        color: t('from_orange_500_to_red_500', `from-orange-500 to-red-500`),
+        icon: '🔥',
+        exercises: workoutExercises.tabata,
+      },
+      {
+        id: 'full-body',
+        name: t('full_body_blast', `Full Body Blast`),
+        duration: 15,
+        description: t('burpees_squat_jumps_mountain_climbers', `Burpees, Squat Jumps, Mountain Climbers`),
+        config: { warmup: 120, work: 40, rest: 20, rounds: 12 },
+        color: t('from_red_500_to_rose_600', `from-red-500 to-rose-600`),
+        icon: '💪',
+        exercises: workoutExercises['full-body'],
+      },
+      {
+        id: 'core-shred',
+        name: t('core_shred', `Core Shred`),
+        duration: 10,
+        description: t('high_intensity_abdominal_work', `High-intensity abdominal work`),
+        config: { warmup: 60, work: 45, rest: 15, rounds: 8 },
+        color: t('from_orange_600_to_amber_600', `from-orange-600 to-amber-600`),
+        icon: '⚡',
+        exercises: workoutExercises['core-shred'],
+      },
+      {
+        id: 'no-equipment',
+        name: t('no_equipment_cardio', `No-Equipment Cardio`),
+        duration: 20,
+        description: t('jumping_jacks_high_knees_shadow_boxing', `Jumping jacks, high knees, shadow boxing`),
+        config: { warmup: 120, work: 50, rest: 10, rounds: 16 },
+        color: t('from_yellow_500_to_orange_500', `from-yellow-500 to-orange-500`),
+        icon: '🥊',
+        exercises: workoutExercises['no-equipment'],
+      },
+    ];
   const [activeTab, setActiveTab] = useState<'workouts' | 'analytics'>('workouts');
   const [hiitData, setHiitData] = useState<HIITData>(() => {
     const saved = localStorage.getItem('hiit-cardio-data');

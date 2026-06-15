@@ -66,5 +66,16 @@
   "workouts": "Προπονήσεις",
   "high_intensity_interval_training_toolkit": "Εργαλειοθήκη διαλειμματικής προπόνησης υψηλής έντασης",
   "hiit_cardio": "HIIT & Cardio",
-  "back_to_dashboard": "Επιστροφή στον Πίνακα ελέγχου"
+  "back_to_dashboard": "Επιστροφή στον Πίνακα ελέγχου",
+  "from_yellow_500_to_orange_500": "από-κίτρινο-500 έως-πορτοκαλί-500",
+  "jumping_jacks_high_knees_shadow_boxing": "Jumping jacks, ψηλά γόνατα, shadow boxing",
+  "no_equipment_cardio": "Cardio χωρίς εξοπλισμό",
+  "from_orange_600_to_amber_600": "από-πορτοκαλί-600 έως-κεχριμπαρένιο-600",
+  "high_intensity_abdominal_work": "Κοιλιακή εργασία υψηλής έντασης",
+  "core_shred": "Τεμαχισμός πυρήνα",
+  "from_red_500_to_rose_600": "από-κόκκινο-500 έως-ροζ-600",
+  "burpees_squat_jumps_mountain_climbers": "Burpees, Squat Jumps, Mountain Climbers",
+  "full_body_blast": "Full Body Blast",
+  "from_orange_500_to_red_500": "από-πορτοκαλί-500 έως-κόκκινο-500",
+  "the_tabata_burn": "The Tabata Burn"
 }

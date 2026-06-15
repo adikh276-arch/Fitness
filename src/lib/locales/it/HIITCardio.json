@@ -66,5 +66,16 @@
   "workouts": "Allenamenti",
   "high_intensity_interval_training_toolkit": "Kit di strumenti per l'allenamento a intervalli ad alta intensità",
   "hiit_cardio": "HIIT e cardio",
-  "back_to_dashboard": "Torna alla dashboard"
+  "back_to_dashboard": "Torna alla dashboard",
+  "from_yellow_500_to_orange_500": "dal-giallo-500 all'arancione-500",
+  "jumping_jacks_high_knees_shadow_boxing": "Jumping jack, ginocchia alte, shadow boxing",
+  "no_equipment_cardio": "Cardio senza attrezzatura",
+  "from_orange_600_to_amber_600": "da-arancio-600 a-ambra-600",
+  "high_intensity_abdominal_work": "Lavoro addominale ad alta intensità",
+  "core_shred": "Brandello centrale",
+  "from_red_500_to_rose_600": "dal-rosso-500 al-rosa-600",
+  "burpees_squat_jumps_mountain_climbers": "Burpees, salti squat, alpinisti",
+  "full_body_blast": "Esplosione per tutto il corpo",
+  "from_orange_500_to_red_500": "dall'arancione-500 al-rosso-500",
+  "the_tabata_burn": "L'ustione di Tabata"
 }

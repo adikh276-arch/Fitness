@@ -66,5 +66,16 @@
   "workouts": "운동",
   "high_intensity_interval_training_toolkit": "고강도 인터벌 트레이닝 툴킷",
   "hiit_cardio": "고강도 인터벌 트레이닝 및 심장 강화 운동",
-  "back_to_dashboard": "대시보드로 돌아가기"
+  "back_to_dashboard": "대시보드로 돌아가기",
+  "from_yellow_500_to_orange_500": "노란색-500에서 주황색-500까지",
+  "jumping_jacks_high_knees_shadow_boxing": "점핑잭, 하이니, 섀도우 복싱",
+  "no_equipment_cardio": "장비가 필요 없는 심장 강화 운동",
+  "from_orange_600_to_amber_600": "-주황색-600에서-호박색-600까지",
+  "high_intensity_abdominal_work": "고강도 복부 운동",
+  "core_shred": "코어 파쇄물",
+  "from_red_500_to_rose_600": "-red-500에서-rose-600으로",
+  "burpees_squat_jumps_mountain_climbers": "버피, 스쿼트 점프, 마운틴 클라이머",
+  "full_body_blast": "전신 폭발",
+  "from_orange_500_to_red_500": "-주황색-500에서-빨간색-500까지",
+  "the_tabata_burn": "타바타 번"
 }

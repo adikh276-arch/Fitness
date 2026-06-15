@@ -66,5 +66,16 @@
   "workouts": "Harjoitukset",
   "high_intensity_interval_training_toolkit": "Korkean intensiteetin intervalliharjoittelutyökalusarja",
   "hiit_cardio": "HIIT & Cardio",
-  "back_to_dashboard": "Takaisin hallintapaneeliin"
+  "back_to_dashboard": "Takaisin hallintapaneeliin",
+  "from_yellow_500_to_orange_500": "keltaisesta 500 oranssiin 500",
+  "jumping_jacks_high_knees_shadow_boxing": "Hyppyjälkit, korkeat polvet, varjonyrkkeily",
+  "no_equipment_cardio": "Varusteeton kardio",
+  "from_orange_600_to_amber_600": "oranssista 600 keltaiseen 600",
+  "high_intensity_abdominal_work": "Kovatehoinen vatsalihastyö",
+  "core_shred": "Core Shred",
+  "from_red_500_to_rose_600": "punaisesta 500 ruusuun 600",
+  "burpees_squat_jumps_mountain_climbers": "Burpees, kyykkyhypyt, vuorikiipeilijät",
+  "full_body_blast": "Full Body Blast",
+  "from_orange_500_to_red_500": "oranssista 500 punaiseen 500",
+  "the_tabata_burn": "Tabata Burn"
 }

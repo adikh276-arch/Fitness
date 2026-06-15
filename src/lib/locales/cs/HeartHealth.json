@@ -163,5 +163,12 @@
     "cottage_cheese": "Tvarohový sýr (1/2 šálku)",
     "pickles": "Nakládané okurky (1 střední)",
     "salad_dressing": "Salátový dresink (2 lžíce)"
-  }
+  },
+  "salad_dressing": "dresink na salát",
+  "cottage_cheese": "cottage_sýr",
+  "soy_sauce": "sójová_omáčka",
+  "frozen_pizza": "mražená_pizza",
+  "white_bread": "bílý_chléb",
+  "deli_turkey": "deli_turkey",
+  "canned_soup": "konzervovaná_polévka"
 }

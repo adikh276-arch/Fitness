@@ -163,5 +163,12 @@
     "cottage_cheese": "Ricotta (1/2 tazza)",
     "pickles": "Sottaceti (1 medio)",
     "salad_dressing": "Condimento per insalata (2 cucchiai)"
-  }
+  },
+  "salad_dressing": "condimento_per-insalata",
+  "cottage_cheese": "ricotta_formaggio",
+  "soy_sauce": "salsa_di_soia",
+  "frozen_pizza": "pizza_congelata",
+  "white_bread": "pane_bianco",
+  "deli_turkey": "deli_turkey",
+  "canned_soup": "zuppa_in scatola"
 }

@@ -25,20 +25,19 @@ interface DailyHabits {
 type TabType = 'vitals' | 'dash' | 'habits';
 
 // Metadata moved inside for translation
-const SNEAKY_SALT_FOODS = [
-  { id: 'canned_soup', sodium: 800 },
-  { id: 'deli_turkey', sodium: 520 },
-  { id: 'white_bread', sodium: 230 },
-  { id: 'frozen_pizza', sodium: 700 },
-  { id: 'soy_sauce', sodium: 1000 },
-  { id: 'cottage_cheese', sodium: 400 },
-  { id: 'pickles', sodium: 570 },
-  { id: 'salad_dressing', sodium: 300 },
-];
 
 export default function HeartHealthGuide({ onBack }: { onBack: () => void }) {
   const { t, i18n } = useTranslation('HeartHealth');
-
+    const SNEAKY_SALT_FOODS = [
+      { id: t('canned_soup', `canned_soup`), sodium: 800 },
+      { id: t('deli_turkey', `deli_turkey`), sodium: 520 },
+      { id: t('white_bread', `white_bread`), sodium: 230 },
+      { id: t('frozen_pizza', `frozen_pizza`), sodium: 700 },
+      { id: t('soy_sauce', `soy_sauce`), sodium: 1000 },
+      { id: t('cottage_cheese', `cottage_cheese`), sodium: 400 },
+      { id: 'pickles', sodium: 570 },
+      { id: t('salad_dressing', `salad_dressing`), sodium: 300 },
+    ];
   const sneakySaltFoods = useMemo(() => SNEAKY_SALT_FOODS.map(f => ({
     ...f,
     name: t(`foods.${f.id}`)

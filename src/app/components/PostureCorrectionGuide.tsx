@@ -56,171 +56,168 @@ interface WorkCompanionData {
   totalFocusMinutes: number;
 }
 
-const stretchRoutines: StretchRoutine[] = [
-  {
-    id: 'neck-relief',
-    name: 'Neck & Shoulder Relief',
-    description: 'Perfect for upper body tension and screen fatigue',
-    symptoms: ['Tight neck', 'Headaches', 'Shoulder tension', 'Eye strain'],
-    exercises: [
-      {
-        name: 'Chin Tucks',
-        duration: 30,
-        description: 'Pull chin back, creating a double chin. Hold for 5 seconds, repeat.',
-        targetArea: 'Text Neck / Forward Head',
-        gif: '👤',
-      },
-      {
-        name: 'Neck Stretches',
-        duration: 30,
-        description: 'Gently tilt head to each side, hold for 10 seconds.',
-        targetArea: 'Neck Tension',
-        gif: '👤',
-      },
-      {
-        name: 'Shoulder Rolls',
-        duration: 30,
-        description: 'Roll shoulders backward in large circles, 10 reps.',
-        targetArea: 'Shoulder Mobility',
-        gif: '💪',
-      },
-      {
-        name: 'Scapular Squeezes',
-        duration: 30,
-        description: 'Pull shoulder blades together, squeeze. Hold for 5 seconds.',
-        targetArea: 'Upper Back',
-        gif: '💪',
-      },
-    ],
-  },
-  {
-    id: 'back-rescue',
-    name: 'Lower Back Rescue',
-    description: 'Relieves sitting-related lower back pain',
-    symptoms: ['Low back ache', 'Hip tightness', 'Core weakness'],
-    exercises: [
-      {
-        name: 'Seated Spinal Twist',
-        duration: 30,
-        description: 'Sit tall, twist torso to each side, hold for 15 seconds.',
-        targetArea: 'Spinal Mobility',
-        gif: '🧘',
-      },
-      {
-        name: 'Hip Flexor Stretch',
-        duration: 30,
-        description: 'Stand, lunge forward, feel stretch in front hip.',
-        targetArea: 'Hip Flexors',
-        gif: '🦵',
-      },
-      {
-        name: 'Cat-Cow Stretch',
-        duration: 30,
-        description: 'On hands and knees, arch and round your back.',
-        targetArea: 'Spine Flexibility',
-        gif: '🧘',
-      },
-      {
-        name: 'Seated Piriformis Stretch',
-        duration: 30,
-        description: 'Cross ankle over opposite knee, lean forward gently.',
-        targetArea: 'Lower Back / Glutes',
-        gif: '🧘',
-      },
-    ],
-  },
-  {
-    id: 'wrist-reset',
-    name: 'Wrist & Hand Reset',
-    description: 'Essential for keyboard and mouse users',
-    symptoms: ['Wrist pain', 'Hand numbness', 'Finger stiffness'],
-    exercises: [
-      {
-        name: 'Wrist Circles',
-        duration: 30,
-        description: 'Rotate wrists in both directions, 10 circles each way.',
-        targetArea: 'Wrist Mobility',
-        gif: '✋',
-      },
-      {
-        name: 'Prayer Stretch',
-        duration: 30,
-        description: 'Press palms together, lower hands to feel forearm stretch.',
-        targetArea: 'Forearm Flexors',
-        gif: '🙏',
-      },
-      {
-        name: 'Finger Extensions',
-        duration: 30,
-        description: 'Spread fingers wide, hold for 5 seconds, repeat.',
-        targetArea: 'Hand Flexibility',
-        gif: '🖐️',
-      },
-      {
-        name: 'Reverse Prayer',
-        duration: 30,
-        description: 'Press backs of hands together, raise to feel stretch.',
-        targetArea: 'Forearm Extensors',
-        gif: '🤲',
-      },
-    ],
-  },
-  {
-    id: 'full-refresh',
-    name: 'Full Body Refresh',
-    description: 'Complete desk break for overall tension',
-    symptoms: ['Overall stiffness', 'Fatigue', 'Poor circulation', 'Tight chest'],
-    exercises: [
-      {
-        name: 'Standing Reach',
-        duration: 30,
-        description: 'Stand, reach arms overhead, stretch tall.',
-        targetArea: 'Full Body',
-        gif: '🙌',
-      },
-      {
-        name: 'Torso Twists',
-        duration: 30,
-        description: 'Stand, rotate torso side to side, arms loose.',
-        targetArea: 'Core Mobility',
-        gif: '🧘',
-      },
-      {
-        name: 'Wall Slides',
-        duration: 30,
-        description: 'Back against wall, arms at 90°. Slide arms up and down.',
-        targetArea: 'Shoulder Mobility',
-        gif: '💪',
-      },
-      {
-        name: 'Ankle Pumps',
-        duration: 30,
-        description: 'Seated, pump ankles up and down, improve circulation.',
-        targetArea: 'Lower Leg',
-        gif: '🦶',
-      },
-    ],
-  },
-];
-
-const allSymptoms = [
-  'Tight neck', 'Headaches', 'Shoulder tension', 'Eye strain',
-  'Low back ache', 'Hip tightness', 'Core weakness',
-  'Wrist pain', 'Hand numbness', 'Finger stiffness',
-  'Overall stiffness', 'Fatigue', 'Poor circulation', 'Tight chest',
-];
-
-const ergonomicItems = [
-  { key: 'monitorHeight' as const, label: 'Monitor at eye level', tip: 'Top of screen at or slightly below eye level' },
-  { key: 'elbowAngle' as const, label: 'Elbows at 90 degrees', tip: 'Arms form right angle when typing' },
-  { key: 'feetFlat' as const, label: 'Feet flat on floor', tip: 'Or use footrest for proper support' },
-  { key: 'backSupport' as const, label: 'Back supported by chair', tip: 'Lower back touches chair backrest' },
-  { key: 'keyboardDistance' as const, label: 'Keyboard close to body', tip: 'No reaching forward required' },
-  { key: 'screenDistance' as const, label: 'Screen arm\'s length away', tip: 'About 20-26 inches from eyes' },
-];
-
 export default function PostureCorrectionGuide({ onBack }: { onBack: () => void }) {
     const { t } = useTranslation('PostureCorrection');
+    const ergonomicItems = [
+      { key: t('monitorheight', `monitorHeight`) as const, label: t('monitor_at_eye_level', `Monitor at eye level`), tip: t('top_of_screen_at_or_slightly_below_eye_l', `Top of screen at or slightly below eye level`) },
+      { key: t('elbowangle', `elbowAngle`) as const, label: t('elbows_at_90_degrees', `Elbows at 90 degrees`), tip: t('arms_form_right_angle_when_typing', `Arms form right angle when typing`) },
+      { key: t('feetflat', `feetFlat`) as const, label: t('feet_flat_on_floor', `Feet flat on floor`), tip: t('or_use_footrest_for_proper_support', `Or use footrest for proper support`) },
+      { key: t('backsupport', `backSupport`) as const, label: t('back_supported_by_chair', `Back supported by chair`), tip: t('lower_back_touches_chair_backrest', `Lower back touches chair backrest`) },
+      { key: t('keyboarddistance', `keyboardDistance`) as const, label: t('keyboard_close_to_body', `Keyboard close to body`), tip: t('no_reaching_forward_required', `No reaching forward required`) },
+      { key: t('screendistance', `screenDistance`) as const, label: t('screen_arm_s_length_away', `Screen arm's length away`), tip: t('about_20_26_inches_from_eyes', `About 20-26 inches from eyes`) },
+    ];
+    const allSymptoms = [
+      t('tight_neck', `Tight neck`), t('headaches', `Headaches`), t('shoulder_tension', `Shoulder tension`), t('eye_strain', `Eye strain`),
+      t('low_back_ache', `Low back ache`), t('hip_tightness', `Hip tightness`), t('core_weakness', `Core weakness`),
+      t('wrist_pain', `Wrist pain`), t('hand_numbness', `Hand numbness`), t('finger_stiffness', `Finger stiffness`),
+      t('overall_stiffness', `Overall stiffness`), t('fatigue', `Fatigue`), t('poor_circulation', `Poor circulation`), t('tight_chest', `Tight chest`),
+    ];
+    const stretchRoutines: StretchRoutine[] = [
+      {
+        id: 'neck-relief',
+        name: t('neck_shoulder_relief', `Neck & Shoulder Relief`),
+        description: t('perfect_for_upper_body_tension_and_scree', `Perfect for upper body tension and screen fatigue`),
+        symptoms: [t('tight_neck', `Tight neck`), t('headaches', `Headaches`), t('shoulder_tension', `Shoulder tension`), t('eye_strain', `Eye strain`)],
+        exercises: [
+          {
+            name: t('chin_tucks', `Chin Tucks`),
+            duration: 30,
+            description: t('pull_chin_back_creating_a_double_chin_ho', `Pull chin back, creating a double chin. Hold for 5 seconds, repeat.`),
+            targetArea: 'Text Neck / Forward Head',
+            gif: '👤',
+          },
+          {
+            name: t('neck_stretches', `Neck Stretches`),
+            duration: 30,
+            description: t('gently_tilt_head_to_each_side_hold_for_1', `Gently tilt head to each side, hold for 10 seconds.`),
+            targetArea: t('neck_tension', `Neck Tension`),
+            gif: '👤',
+          },
+          {
+            name: t('shoulder_rolls', `Shoulder Rolls`),
+            duration: 30,
+            description: t('roll_shoulders_backward_in_large_circles', `Roll shoulders backward in large circles, 10 reps.`),
+            targetArea: t('shoulder_mobility', `Shoulder Mobility`),
+            gif: '💪',
+          },
+          {
+            name: t('scapular_squeezes', `Scapular Squeezes`),
+            duration: 30,
+            description: t('pull_shoulder_blades_together_squeeze_ho', `Pull shoulder blades together, squeeze. Hold for 5 seconds.`),
+            targetArea: t('upper_back', `Upper Back`),
+            gif: '💪',
+          },
+        ],
+      },
+      {
+        id: 'back-rescue',
+        name: t('lower_back_rescue', `Lower Back Rescue`),
+        description: t('relieves_sitting_related_lower_back_pain', `Relieves sitting-related lower back pain`),
+        symptoms: [t('low_back_ache', `Low back ache`), t('hip_tightness', `Hip tightness`), t('core_weakness', `Core weakness`)],
+        exercises: [
+          {
+            name: t('seated_spinal_twist', `Seated Spinal Twist`),
+            duration: 30,
+            description: t('sit_tall_twist_torso_to_each_side_hold_f', `Sit tall, twist torso to each side, hold for 15 seconds.`),
+            targetArea: t('spinal_mobility', `Spinal Mobility`),
+            gif: '🧘',
+          },
+          {
+            name: t('hip_flexor_stretch', `Hip Flexor Stretch`),
+            duration: 30,
+            description: t('stand_lunge_forward_feel_stretch_in_fron', `Stand, lunge forward, feel stretch in front hip.`),
+            targetArea: t('hip_flexors', `Hip Flexors`),
+            gif: '🦵',
+          },
+          {
+            name: t('cat_cow_stretch', `Cat-Cow Stretch`),
+            duration: 30,
+            description: t('on_hands_and_knees_arch_and_round_your_b', `On hands and knees, arch and round your back.`),
+            targetArea: t('spine_flexibility', `Spine Flexibility`),
+            gif: '🧘',
+          },
+          {
+            name: t('seated_piriformis_stretch', `Seated Piriformis Stretch`),
+            duration: 30,
+            description: t('cross_ankle_over_opposite_knee_lean_forw', `Cross ankle over opposite knee, lean forward gently.`),
+            targetArea: 'Lower Back / Glutes',
+            gif: '🧘',
+          },
+        ],
+      },
+      {
+        id: 'wrist-reset',
+        name: t('wrist_hand_reset', `Wrist & Hand Reset`),
+        description: t('essential_for_keyboard_and_mouse_users', `Essential for keyboard and mouse users`),
+        symptoms: [t('wrist_pain', `Wrist pain`), t('hand_numbness', `Hand numbness`), t('finger_stiffness', `Finger stiffness`)],
+        exercises: [
+          {
+            name: t('wrist_circles', `Wrist Circles`),
+            duration: 30,
+            description: t('rotate_wrists_in_both_directions_10_circ', `Rotate wrists in both directions, 10 circles each way.`),
+            targetArea: t('wrist_mobility', `Wrist Mobility`),
+            gif: '✋',
+          },
+          {
+            name: t('prayer_stretch', `Prayer Stretch`),
+            duration: 30,
+            description: t('press_palms_together_lower_hands_to_feel', `Press palms together, lower hands to feel forearm stretch.`),
+            targetArea: t('forearm_flexors', `Forearm Flexors`),
+            gif: '🙏',
+          },
+          {
+            name: t('finger_extensions', `Finger Extensions`),
+            duration: 30,
+            description: t('spread_fingers_wide_hold_for_5_seconds_r', `Spread fingers wide, hold for 5 seconds, repeat.`),
+            targetArea: t('hand_flexibility', `Hand Flexibility`),
+            gif: '🖐️',
+          },
+          {
+            name: t('reverse_prayer', `Reverse Prayer`),
+            duration: 30,
+            description: t('press_backs_of_hands_together_raise_to_f', `Press backs of hands together, raise to feel stretch.`),
+            targetArea: t('forearm_extensors', `Forearm Extensors`),
+            gif: '🤲',
+          },
+        ],
+      },
+      {
+        id: 'full-refresh',
+        name: t('full_body_refresh', `Full Body Refresh`),
+        description: t('complete_desk_break_for_overall_tension', `Complete desk break for overall tension`),
+        symptoms: [t('overall_stiffness', `Overall stiffness`), t('fatigue', `Fatigue`), t('poor_circulation', `Poor circulation`), t('tight_chest', `Tight chest`)],
+        exercises: [
+          {
+            name: t('standing_reach', `Standing Reach`),
+            duration: 30,
+            description: t('stand_reach_arms_overhead_stretch_tall', `Stand, reach arms overhead, stretch tall.`),
+            targetArea: t('full_body', `Full Body`),
+            gif: '🙌',
+          },
+          {
+            name: t('torso_twists', `Torso Twists`),
+            duration: 30,
+            description: t('stand_rotate_torso_side_to_side_arms_loo', `Stand, rotate torso side to side, arms loose.`),
+            targetArea: t('core_mobility', `Core Mobility`),
+            gif: '🧘',
+          },
+          {
+            name: t('wall_slides', `Wall Slides`),
+            duration: 30,
+            description: t('back_against_wall_arms_at_90_slide_arms_', `Back against wall, arms at 90°. Slide arms up and down.`),
+            targetArea: t('shoulder_mobility', `Shoulder Mobility`),
+            gif: '💪',
+          },
+          {
+            name: t('ankle_pumps', `Ankle Pumps`),
+            duration: 30,
+            description: t('seated_pump_ankles_up_and_down_improve_c', `Seated, pump ankles up and down, improve circulation.`),
+            targetArea: t('lower_leg', `Lower Leg`),
+            gif: '🦶',
+          },
+        ],
+      },
+    ];
   const [activeTab, setActiveTab] = useState<'symptom-map' | 'focus-timer' | 'desk-breaks' | 'ergonomic-wizard'>('symptom-map');
   const [workData, setWorkData] = useState<WorkCompanionData>(() => {
     const saved = localStorage.getItem('work-companion-data');

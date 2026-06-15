@@ -163,5 +163,12 @@
     "cottage_cheese": "पनीर (1/2 कप)",
     "pickles": "अचार (1 मध्यम)",
     "salad_dressing": "सलाद ड्रेसिंग (2 बड़े चम्मच)"
-  }
+  },
+  "salad_dressing": "सलाद_ड्रेसिंग",
+  "cottage_cheese": "कॉटेज_पनीर",
+  "soy_sauce": "सोया_सॉस",
+  "frozen_pizza": "जमे हुए_पिज़्ज़ा",
+  "white_bread": "सफ़ेद_रोटी",
+  "deli_turkey": "डेली_टर्की",
+  "canned_soup": "डिब्बाबंद_सूप"
 }

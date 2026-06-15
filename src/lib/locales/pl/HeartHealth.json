@@ -163,5 +163,12 @@
     "cottage_cheese": "Twarożek (1/2 szklanki)",
     "pickles": "Pikle (1 średni)",
     "salad_dressing": "Sos Sałatkowy (2 łyżki)"
-  }
+  },
+  "salad_dressing": "sos_sałatkowy",
+  "cottage_cheese": "ser_twaróg",
+  "soy_sauce": "sos_sojowy",
+  "frozen_pizza": "mrożona_pizza",
+  "white_bread": "biały_chleb",
+  "deli_turkey": "delikatesy_indyk",
+  "canned_soup": "zupa_konserwowa"
 }

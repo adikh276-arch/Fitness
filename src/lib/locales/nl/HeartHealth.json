@@ -163,5 +163,12 @@
     "cottage_cheese": "Kwark (1/2 kop)",
     "pickles": "Augurken (1 medium)",
     "salad_dressing": "Saladedressing (2 eetlepels)"
-  }
+  },
+  "salad_dressing": "salade_dressing",
+  "cottage_cheese": "kwark",
+  "soy_sauce": "sojasaus",
+  "frozen_pizza": "bevroren_pizza",
+  "white_bread": "witbrood",
+  "deli_turkey": "delicatessenwinkel",
+  "canned_soup": "ingeblikte_soep"
 }

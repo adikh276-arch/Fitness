@@ -163,5 +163,12 @@
     "cottage_cheese": "Cottage Cheese (1/2 cup)",
     "pickles": "Pickles (1 medium)",
     "salad_dressing": "Salad Dressing (2 tbsp)"
-  }
+  },
+  "salad_dressing": "salad_dressing",
+  "cottage_cheese": "cottage_cheese",
+  "soy_sauce": "soy_sauce",
+  "frozen_pizza": "frozen_pizza",
+  "white_bread": "white_bread",
+  "deli_turkey": "deli_turkey",
+  "canned_soup": "canned_soup"
 }

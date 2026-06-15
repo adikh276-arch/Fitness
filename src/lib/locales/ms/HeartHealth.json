@@ -163,5 +163,12 @@
     "cottage_cheese": "Keju Kotej (1/2 cawan)",
     "pickles": "Acar (1 medium)",
     "salad_dressing": "Salad Dressing (2 sudu besar)"
-  }
+  },
+  "salad_dressing": "salad_dressing",
+  "cottage_cheese": "keju_kotej",
+  "soy_sauce": "kicap",
+  "frozen_pizza": "pizza_beku",
+  "white_bread": "roti_putih",
+  "deli_turkey": "deli_turkey",
+  "canned_soup": "sup_tin"
 }

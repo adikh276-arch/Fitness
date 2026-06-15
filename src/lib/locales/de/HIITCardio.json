@@ -66,5 +66,16 @@
   "workouts": "Trainingseinheiten",
   "high_intensity_interval_training_toolkit": "Toolkit für hochintensives Intervalltraining",
   "hiit_cardio": "HIIT und Cardio",
-  "back_to_dashboard": "Zurück zum Dashboard"
+  "back_to_dashboard": "Zurück zum Dashboard",
+  "from_yellow_500_to_orange_500": "von-gelb-500 bis-orange-500",
+  "jumping_jacks_high_knees_shadow_boxing": "Jumping Jacks, High Knees, Schattenboxen",
+  "no_equipment_cardio": "Cardio ohne Ausrüstung",
+  "from_orange_600_to_amber_600": "von-orange-600 bis-bernsteinfarben-600",
+  "high_intensity_abdominal_work": "Hochintensives Bauchtraining",
+  "core_shred": "Kernschredder",
+  "from_red_500_to_rose_600": "von-rot-500 bis-rosa-600",
+  "burpees_squat_jumps_mountain_climbers": "Burpees, Squat Jumps, Bergsteiger",
+  "full_body_blast": "Ganzkörperexplosion",
+  "from_orange_500_to_red_500": "von-orange-500 bis-rot-500",
+  "the_tabata_burn": "Der Tabata-Burn"
 }

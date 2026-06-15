@@ -163,5 +163,12 @@
     "cottage_cheese": "גבינת קוטג' (1/2 כוס)",
     "pickles": "חמוצים (1 בינוני)",
     "salad_dressing": "רוטב לסלט (2 כפות)"
-  }
+  },
+  "salad_dressing": "רוטב_סלט",
+  "cottage_cheese": "גבינת_קוטג'",
+  "soy_sauce": "רוטב_סויה",
+  "frozen_pizza": "קפוא_פיצה",
+  "white_bread": "לחם_לבן",
+  "deli_turkey": "מעדנייה_טורקיה",
+  "canned_soup": "מרק_שימורים"
 }

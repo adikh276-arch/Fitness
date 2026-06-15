@@ -163,5 +163,12 @@
     "cottage_cheese": "কটেজ পনির (1/2 কাপ)",
     "pickles": "আচার (1 মাঝারি)",
     "salad_dressing": "সালাদ ড্রেসিং (2 টেবিল চামচ)"
-  }
+  },
+  "salad_dressing": "সালাদ_ড্রেসিং",
+  "cottage_cheese": "কুটির_পনির",
+  "soy_sauce": "সয়া_সস",
+  "frozen_pizza": "হিমায়িত_পিজা",
+  "white_bread": "সাদা_রুটি",
+  "deli_turkey": "ডেলি_টার্কি",
+  "canned_soup": "টিনজাত_স্যুপ"
 }
