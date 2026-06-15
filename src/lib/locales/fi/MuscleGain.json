@@ -128,9 +128,9 @@
       "weight": "Paino (kg)",
       "totalVolume": "Kokonaistilavuus",
       "remaining": "Jäljellä maaliin",
+      "recentLifts": "Viimeaikaiset hissit",
       "submit": "Lokimäärä",
       "logged": "{{lift}} kirjattu: kokonaistilavuus {{volume}}kg!",
-      "recentLifts": "Viimeaikaiset hissit",
       "placeholders": {
         "sets": "esim. 4",
         "reps": "esim. 8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "30 päivän tapaputki",
+      "tooltip": "Päivä {{day}}: {{count}}/5 tapaa",
       "legend": {
         "perfect": "Täydellinen (5/5)",
         "partial": "Osittainen",
         "none": "Keskeneräinen"
-      },
-      "tooltip": "Päivä {{day}}: {{count}}/5 tapaa"
+      }
     }
   },
   "essentials": {

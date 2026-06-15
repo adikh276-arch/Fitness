@@ -66,15 +66,17 @@
   "log": {
     "form": {
       "title": "Catat Kepantasan Hari Ini",
+      "dateLabel": "tarikh:",
       "lastMeal": "Waktu Makan Terakhir (Semalam):",
       "firstMeal": "Waktu Makan Pertama (Hari Ini):",
       "duration": "Tempoh Puasa Keseluruhan",
       "goalAchieved": "Matlamat Tercapai! Anda telah berpuasa selama 16+ jam!",
-      "submit": "Log Ini Dengan Cepat",
-      "dateLabel": "tarikh:"
+      "submit": "Log Ini Dengan Cepat"
     },
     "tracker": {
       "title": "Penjejak Pantas 30 Hari",
+      "today": "Hari ini",
+      "dayLabel": "Hari {{val}}",
       "streak": "Rentetan Semasa:",
       "streakDays": "{{count}} hari",
       "last30": "30 Hari Terakhir",
@@ -82,9 +84,7 @@
         "goalMet": "Matlamat Dicapai (16+ jam)",
         "today": "Hari ini",
         "missed": "Hari Terlepas"
-      },
-      "today": "Hari ini",
-      "dayLabel": "Hari {{val}}"
+      }
     },
     "recentFasts": {
       "title": "Puasa Terkini",

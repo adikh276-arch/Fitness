@@ -46,6 +46,18 @@
       "targetPost": "Zielmaximum (nach der Mahlzeit)"
     }
   },
+  "status": {
+    "normal": "NORMAL",
+    "high": "HOCH",
+    "low": "NIEDRIG"
+  },
+  "timing": {
+    "fasting": "Fasten",
+    "preMeal": "Vor dem Essen",
+    "postMeal1h": "Nach dem Essen (1 Stunde)",
+    "postMeal2h": "Nach dem Essen (2 Std.)",
+    "bedtime": "Schlafenszeit"
+  },
   "plate": {
     "intro": {
       "title": "Die diabetische Tellermethode",
@@ -96,26 +108,13 @@
       "medium": "Mittlerer GI (56-69): Mäßig",
       "high": "Hoher glykämischer Index (70+): Begrenzen"
     },
-    "searchPlaceholder": "Suche nach einem Lebensmittel...",
-    "noResults": "Es wurden keine Lebensmittel gefunden, die Ihrer Suche entsprechen.",
     "labels": {
       "low": "Niedriger glykämischer Index",
       "medium": "Mittlerer glykämischer Index",
       "high": "Hoher glykämischer Index"
     },
-    "search": "Nach einem Lebensmittel suchen (z. B. Hafer, Banane...)"
-  },
-  "timing": {
-    "fasting": "Fasten",
-    "preMeal": "Vor dem Essen",
-    "postMeal1h": "Nach dem Essen (1 Stunde)",
-    "postMeal2h": "Nach dem Essen (2 Std.)",
-    "bedtime": "Schlafenszeit"
-  },
-  "status": {
-    "low": "NIEDRIG",
-    "high": "HOCH",
-    "normal": "NORMAL"
+    "search": "Nach einem Lebensmittel suchen (z. B. Hafer, Banane...)",
+    "noResults": "Es wurden keine Lebensmittel gefunden, die Ihrer Suche entsprechen."
   },
   "foods": {
     "Spinach": "Spinat",

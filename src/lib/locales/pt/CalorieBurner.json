@@ -16,11 +16,11 @@
       "selectActivity": "Selecione a atividade",
       "weight": "Seu peso",
       "duration": "Duração (minutos)",
-      "submit": "Registrar atividade",
       "placeholders": {
         "weightKg": "Por exemplo, 70",
         "weightLbs": "Exemplo: 154"
-      }
+      },
+      "submit": "Registrar atividade"
     },
     "summary": {
       "title": "Resumo do Burn",

@@ -46,6 +46,18 @@
       "targetPost": "Alvo máximo (pós-refeição)"
     }
   },
+  "status": {
+    "normal": "NORMAL",
+    "high": "ALTO",
+    "low": "BAIXO"
+  },
+  "timing": {
+    "fasting": "Jejum",
+    "preMeal": "Antes da refeição",
+    "postMeal1h": "Pós-refeição (1h)",
+    "postMeal2h": "Pós-refeição (2h)",
+    "bedtime": "Hora de dormir"
+  },
   "plate": {
     "intro": {
       "title": "Método do Prato Diabético",
@@ -96,26 +108,13 @@
       "medium": "Índice glicêmico médio (56-69): Moderado",
       "high": "Alto índice glicêmico (70+): Limite"
     },
-    "searchPlaceholder": "Procure por comida...",
-    "noResults": "Nenhum alimento encontrado que corresponda à sua pesquisa.",
     "labels": {
       "low": "Baixo índice glicêmico",
       "medium": "Índice glicêmico médio",
       "high": "Alto índice glicêmico"
     },
-    "search": "Procure um alimento (por exemplo, aveia, banana...)"
-  },
-  "timing": {
-    "fasting": "Jejum",
-    "preMeal": "Antes da refeição",
-    "postMeal1h": "Pós-refeição (1h)",
-    "postMeal2h": "Pós-refeição (2h)",
-    "bedtime": "Hora de dormir"
-  },
-  "status": {
-    "low": "BAIXO",
-    "high": "ALTO",
-    "normal": "NORMAL"
+    "search": "Procure um alimento (por exemplo, aveia, banana...)",
+    "noResults": "Nenhum alimento encontrado que corresponda à sua pesquisa."
   },
   "foods": {
     "Spinach": "Espinafre",

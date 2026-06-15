@@ -128,9 +128,9 @@
       "weight": "Gewicht (kg)",
       "totalVolume": "Totaal volume",
       "remaining": "Resterend voor Doel",
+      "recentLifts": "Recente liften",
       "submit": "Logboekvolume",
       "logged": "{{lift}} geregistreerd: {{volume}} kg totaal volume!",
-      "recentLifts": "Recente liften",
       "placeholders": {
         "sets": "bijvoorbeeld 4",
         "reps": "bijvoorbeeld 8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "30 dagen achter elkaar een gewoonte volhouden",
+      "tooltip": "Dag {{day}}: {{count}}/5 gewoonten",
       "legend": {
         "perfect": "Perfect (5/5)",
         "partial": "Gedeeltelijk",
         "none": "Onvolledig"
-      },
-      "tooltip": "Dag {{day}}: {{count}}/5 gewoonten"
+      }
     }
   },
   "essentials": {

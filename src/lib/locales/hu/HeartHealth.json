@@ -7,7 +7,12 @@
   "alerts": {
     "crisis": {
       "title": "HIPERTENZÍV VÁLSÁG FIGYELMEZTETÉS",
-      "desc": "Vérnyomása veszélyesen magas (≥180/120). Ez azonnali orvosi ellátást igényel."
+      "desc": "Vérnyomása veszélyesen magas (≥180/120). Ez azonnali orvosi ellátást igényel.",
+      "actions": [
+        "Hívja a 911-et, vagy azonnal menjen az ügyeletre",
+        "Ne várja meg, hátha magától csökken a nyomás",
+        "Ez szélütéshez, szívrohamhoz vagy szervkárosodáshoz vezethet"
+      ]
     },
     "vitals": {
       "invalid": "Adjon meg érvényes értékeket",
@@ -76,19 +81,34 @@
       "potassium": {
         "title": "Kálium teljesítmény",
         "limit": "4700 mg naponta",
-        "source": "Teljes értékű élelmiszerekből"
+        "source": "Teljes értékű élelmiszerekből",
+        "foods": [
+          "Banán (422 mg táptalajonként)",
+          "Édes burgonya (540 mg táptalajonként)",
+          "Spenót (840 mg főtt csészénként)"
+        ]
       },
       "magnesium": {
         "title": "Magnézium és rost",
         "limit": "500mg Mg / 25-35g Rost",
-        "target": "Napi célok"
+        "target": "Napi célok",
+        "foods": [
+          "Mandula, kesudió, tökmag",
+          "Teljes kiőrlésű gabonák (zab, quinoa)",
+          "Hüvelyesek és sötét leveles zöldek"
+        ]
       }
     },
     "scanner": {
       "title": "⚠️ Rejtett nátrium-szkenner: \"Sneaky Salt\" ételek",
       "subtitle": "Ezek a látszólag ártatlan ételek több nátriumot tartalmaznak, mint gondolná:",
       "swaps": {
-        "title": "💡 DASH-barát cserék:"
+        "title": "💡 DASH-barát cserék:",
+        "items": [
+          "Házi leves alacsony nátriumtartalmú húslevessel (200 mg vs 800 mg)",
+          "Sült csirkemell csemegehús helyett (70mg vs 520mg)",
+          "Friss zöldségek konzerv helyett (5mg vs 300mg)"
+        ]
       }
     }
   },
@@ -125,7 +145,13 @@
       }
     },
     "tips": {
-      "title": "Szívegészségügyi alapok"
+      "title": "Szívegészségügyi alapok",
+      "items": [
+        "<strong>2. zóna kardió:</strong> Gyakoroljon 60-70%-os maximális pulzusszámmal (továbbra is folytathat beszélgetést)",
+        "<strong>A kálium segít kiüríteni a nátriumot:</strong> Törekedjen napi 4700 mg bevitelre teljes értékű élelmiszerekből",
+        "<strong>Konzisztencia > intenzitás:</strong> A napi séták felülmúlják a szórványos intenzív edzéseket a szív egészsége érdekében",
+        "<strong>Egyszeres monitorozás:</strong> Reggel ellenőrizze a vérnyomást a legpontosabb értékek érdekében"
+      ]
     }
   },
   "foods": {

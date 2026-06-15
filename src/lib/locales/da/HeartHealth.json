@@ -7,7 +7,12 @@
   "alerts": {
     "crisis": {
       "title": "ADVARSEL FOR HYPERTENSIV KRISE",
-      "desc": "Din blodtryksaflæsning er farligt høj (≥180/120). Dette kræver øjeblikkelig lægehjælp."
+      "desc": "Din blodtryksaflæsning er farligt høj (≥180/120). Dette kræver øjeblikkelig lægehjælp.",
+      "actions": [
+        "Ring 911 eller gå til skadestuen med det samme",
+        "Vent ikke med at se, om dit tryk falder af sig selv",
+        "Dette kan føre til slagtilfælde, hjerteanfald eller organskader"
+      ]
     },
     "vitals": {
       "invalid": "Indtast venligst gyldige aflæsninger",
@@ -76,19 +81,34 @@
       "potassium": {
         "title": "Kalium Power",
         "limit": "4.700 mg om dagen",
-        "source": "Fra hele fødevarer"
+        "source": "Fra hele fødevarer",
+        "foods": [
+          "Bananer (422 mg pr. medium)",
+          "Søde kartofler (540 mg pr. medium)",
+          "Spinat (840 mg pr. kop kogt)"
+        ]
       },
       "magnesium": {
         "title": "Magnesium & Fiber",
         "limit": "500mg Mg / 25-35g Fiber",
-        "target": "Daglige mål"
+        "target": "Daglige mål",
+        "foods": [
+          "Mandler, cashewnødder, græskarkerner",
+          "Fuldkorn (havre, quinoa)",
+          "Bælgplanter og mørke bladgrøntsager"
+        ]
       }
     },
     "scanner": {
       "title": "⚠️ Skjult natriumscanner: \"Sneaky Salt\" fødevarer",
       "subtitle": "Disse tilsyneladende uskyldige fødevarer indeholder mere natrium, end du tror:",
       "swaps": {
-        "title": "💡 DASH-venlige swaps:"
+        "title": "💡 DASH-venlige swaps:",
+        "items": [
+          "Hjemmelavet suppe med lavt natrium bouillon (200 mg vs 800 mg)",
+          "Stegt kyllingebryst i stedet for delikatessekød (70 mg vs 520 mg)",
+          "Friske grøntsager i stedet for dåse (5mg vs 300mg)"
+        ]
       }
     }
   },
@@ -125,7 +145,13 @@
       }
     },
     "tips": {
-      "title": "Hjertesundhed Essentials"
+      "title": "Hjertesundhed Essentials",
+      "items": [
+        "<strong>Zone 2 cardio:</strong> Træn med 60-70 % maks. puls (du kan stadig holde en samtale)",
+        "<strong>Kalium hjælper med at skylle natrium ud:</strong> Sigt efter 4.700 mg dagligt fra hele fødevarer",
+        "<strong>Konsistens > intensitet:</strong> Daglige gåture slår sporadiske intense træningspas for hjertesundheden",
+        "<strong>Overvåg på samme tid:</strong> Tjek BP om morgenen for at få de mest nøjagtige målinger"
+      ]
     }
   },
   "foods": {

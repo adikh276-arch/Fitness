@@ -7,7 +7,12 @@
   "alerts": {
     "crisis": {
       "title": "HYPERTENSIV KRISEADVARSEL",
-      "desc": "Blodtrykksavlesningen din er farlig høy (≥180/120). Dette krever øyeblikkelig legehjelp."
+      "desc": "Blodtrykksavlesningen din er farlig høy (≥180/120). Dette krever øyeblikkelig legehjelp.",
+      "actions": [
+        "Ring 911 eller gå til legevakten umiddelbart",
+        "Ikke vent å se om trykket går ned av seg selv",
+        "Dette kan føre til hjerneslag, hjerteinfarkt eller organskade"
+      ]
     },
     "vitals": {
       "invalid": "Vennligst skriv inn gyldige målinger",
@@ -76,19 +81,34 @@
       "potassium": {
         "title": "Kaliumkraft",
         "limit": "4700 mg per dag",
-        "source": "Fra hele matvarer"
+        "source": "Fra hele matvarer",
+        "foods": [
+          "Bananer (422 mg per medium)",
+          "Søtpoteter (540 mg per medium)",
+          "Spinat (840 mg per kopp kokt)"
+        ]
       },
       "magnesium": {
         "title": "Magnesium og fiber",
         "limit": "500mg Mg / 25-35g Fiber",
-        "target": "Daglige mål"
+        "target": "Daglige mål",
+        "foods": [
+          "Mandler, cashewnøtter, gresskarkjerner",
+          "Hele korn (havre, quinoa)",
+          "Belgvekster og mørke bladgrønt"
+        ]
       }
     },
     "scanner": {
       "title": "⚠️ Skjult natriumskanner: \"Sneaky Salt\" mat",
       "subtitle": "Disse tilsynelatende uskyldige matvarene inneholder mer natrium enn du tror:",
       "swaps": {
-        "title": "💡 DASH-vennlige bytter:"
+        "title": "💡 DASH-vennlige bytter:",
+        "items": [
+          "Hjemmelaget suppe med buljong med lite natrium (200 mg vs 800 mg)",
+          "Stekt kyllingbryst i stedet for delikatessekjøtt (70 mg vs 520 mg)",
+          "Ferske grønnsaker i stedet for hermetikk (5mg vs 300mg)"
+        ]
       }
     }
   },
@@ -125,7 +145,13 @@
       }
     },
     "tips": {
-      "title": "Essentials for hjertehelse"
+      "title": "Essentials for hjertehelse",
+      "items": [
+        "<strong>Sone 2 cardio:</strong> Tren med 60–70 % makspuls (du kan fortsatt holde en samtale)",
+        "<strong>Kalium hjelper til med å spyle natrium:</strong> Sikt på 4700 mg daglig fra hel mat",
+        "<strong>Konsistens > intensitet:</strong> Daglige turer slår sporadiske intense treningsøkter for hjertehelsen",
+        "<strong>Overvåk samtidig:</strong> Sjekk BP om morgenen for mest nøyaktige målinger"
+      ]
     }
   },
   "foods": {

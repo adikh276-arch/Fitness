@@ -61,22 +61,48 @@
       "b12": {
         "name": "Vitamín B12",
         "importance": "Rozhodující pro nervovou funkci a syntézu DNA",
-        "dosage": "2,4 mcg denně"
+        "dosage": "2,4 mcg denně",
+        "sources": [
+          "Obohacené rostlinné mléko",
+          "Nutriční kvasnice",
+          "Doplňky B12",
+          "Fortifikované cereálie"
+        ]
       },
       "iron": {
         "name": "Železo a zinek",
         "importance": "Nezbytný pro přenos kyslíku a imunitní funkce",
-        "dosage": "Železo: 18 mg, Zinek: 11 mg denně"
+        "dosage": "Železo: 18 mg, Zinek: 11 mg denně",
+        "sources": [
+          "Dýňová semínka",
+          "Čočka",
+          "Kešu ořechy",
+          "Špenát",
+          "Quinoa"
+        ]
       },
       "omega3": {
         "name": "Omega-3 (ALA)",
         "importance": "Zdraví mozku a protizánětlivé",
-        "dosage": "1,6 g denně"
+        "dosage": "1,6 g denně",
+        "sources": [
+          "Lněná semínka",
+          "Chia semínka",
+          "Vlašské ořechy",
+          "Konopná semínka"
+        ]
       },
       "calcium": {
         "name": "Vápník",
         "importance": "Zdraví kostí a funkce svalů",
-        "dosage": "1000 mg denně"
+        "dosage": "1000 mg denně",
+        "sources": [
+          "Bok choy",
+          "Tahini",
+          "Opevněné tofu",
+          "Kale",
+          "Mandle"
+        ]
       }
     }
   },
@@ -116,7 +142,7 @@
     }
   },
   "proteinSources": {
-    "tofu": "Tofu",
+    "tofu": "tofu",
     "tempeh": "Tempeh",
     "edamame": "Edamame",
     "soybeansBoiled": "Sójové boby vařené",

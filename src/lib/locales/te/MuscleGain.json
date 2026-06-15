@@ -128,9 +128,9 @@
       "weight": "బరువు (కిలోగ్రాములు)",
       "totalVolume": "మొత్తం పరిమాణం",
       "remaining": "లక్ష్యానికి మిగిలింది",
+      "recentLifts": "ఇటీవలి లిఫ్ట్‌లు",
       "submit": "లాగ్ వాల్యూమ్",
       "logged": "{{lift}} నమోదు చేసింది: {{volume}}kg మొత్తం పరిమాణం!",
-      "recentLifts": "ఇటీవలి లిఫ్ట్‌లు",
       "placeholders": {
         "sets": "ఉదా., 4",
         "reps": "ఉదా., 8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "30-రోజుల అలవాటు పరంపర",
+      "tooltip": "రోజు {{day}}: {{count}}/5 అలవాట్లు",
       "legend": {
         "perfect": "పరిపూర్ణం (5/5)",
         "partial": "పాక్షిక",
         "none": "అసంపూర్ణం"
-      },
-      "tooltip": "రోజు {{day}}: {{count}}/5 అలవాట్లు"
+      }
     }
   },
   "essentials": {

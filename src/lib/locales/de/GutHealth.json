@@ -133,7 +133,13 @@
     }
   },
   "essentials": {
-    "title": "Grundlagen der Darmgesundheit"
+    "title": "Grundlagen der Darmgesundheit",
+    "items": [
+      "<strong>Ballaststoffe sind Treibstoff:</strong> Ihre Darmbakterien fermentieren Ballaststoffe zu kurzkettigen Fettsäuren, die Entzündungen reduzieren",
+      "<strong>Vielfalt ist am wichtigsten:</strong> 30+ verschiedene Pflanzenarten pro Woche schaffen ein widerstandsfähiges Mikrobiom",
+      "<strong>Übernachtungsfasten:</strong> Mehr als 12 Stunden zwischen Abendessen und Frühstück ermöglichen die Reparatur der Darmbarriere",
+      "<strong>Gründlich kauen:</strong> Die Verdauung beginnt im Mund – richtiges Kauen reduziert Blähungen und verbessert die Nährstoffaufnahme"
+    ]
   },
   "plants": {
     "Spinach": "Spinat",

@@ -128,9 +128,9 @@
       "weight": "Vikt (kg)",
       "totalVolume": "Total volym",
       "remaining": "Återstående för mål",
+      "recentLifts": "Senaste lyften",
       "submit": "Loggvolym",
       "logged": "{{lift}} loggad: {{volume}}kg total volym!",
-      "recentLifts": "Senaste lyften",
       "placeholders": {
         "sets": "t.ex. 4",
         "reps": "t.ex. 8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "30-dagars vanesvit",
+      "tooltip": "Dag {{day}}: {{count}}/5 vanor",
       "legend": {
         "perfect": "Perfekt (5/5)",
         "partial": "Partiell",
         "none": "Ofullständig"
-      },
-      "tooltip": "Dag {{day}}: {{count}}/5 vanor"
+      }
     }
   },
   "essentials": {

@@ -128,9 +128,9 @@
       "weight": "Hmotnost (kg)",
       "totalVolume": "Celkový objem",
       "remaining": "Zbývá do cíle",
+      "recentLifts": "Nedávné výtahy",
       "submit": "Objem protokolu",
       "logged": "{{lift}} zaznamenáno: celkový objem {{volume}}kg!",
-      "recentLifts": "Nedávné výtahy",
       "placeholders": {
         "sets": "např. 4",
         "reps": "např. 8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "30denní série zlozvyků",
+      "tooltip": "Den {{day}}: {{count}}/5 zvyků",
       "legend": {
         "perfect": "Perfektní (5/5)",
         "partial": "Částečný",
         "none": "Neúplný"
-      },
-      "tooltip": "Den {{day}}: {{count}}/5 zvyků"
+      }
     }
   },
   "essentials": {

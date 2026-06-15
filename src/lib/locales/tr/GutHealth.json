@@ -133,7 +133,13 @@
     }
   },
   "essentials": {
-    "title": "Bağırsak Sağlığı Esasları"
+    "title": "Bağırsak Sağlığı Esasları",
+    "items": [
+      "<strong>Lif yakıttır:</strong> Bağırsak bakterileriniz lifi iltihabı azaltan kısa zincirli yağ asitlerine fermente eder",
+      "<strong>Çeşitlilik en önemli şeydir:</strong> Haftada 30'dan fazla farklı bitki türü dayanıklı bir mikrobiyom oluşturur",
+      "<strong>Gece orucu:</strong> Akşam yemeği ile kahvaltı arasında 12 saatten fazla süre bağırsak bariyerinin onarılmasına olanak tanır",
+      "<strong>İyice çiğneyin:</strong> Sindirim ağızda başlar; doğru çiğneme şişkinliği azaltır ve besin emilimini artırır"
+    ]
   },
   "plants": {
     "Spinach": "Ispanak",

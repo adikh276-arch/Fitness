@@ -45,11 +45,23 @@
       "title": "De skjulte faktorer",
       "hydration": {
         "title": "Hydrering",
-        "desc": "Korrekt hydrering hjælper:"
+        "desc": "Korrekt hydrering hjælper:",
+        "list": [
+          "Reguler appetitten",
+          "Boost stofskiftet",
+          "Reducer vandretention",
+          "Understøtter fedtoxidation"
+        ]
       },
       "sleep": {
         "title": "Søvn (7+ timer)",
-        "desc": "Kvalitetssøvn regulerer:"
+        "desc": "Kvalitetssøvn regulerer:",
+        "list": [
+          "Cortisol (stresshormon)",
+          "Ghrelin og leptin (sult)",
+          "Insulinfølsomhed",
+          "Restitution & energi"
+        ]
       }
     }
   },

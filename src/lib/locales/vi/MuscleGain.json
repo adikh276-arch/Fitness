@@ -128,9 +128,9 @@
       "weight": "Trọng lượng (kg)",
       "totalVolume": "Tổng thể tích",
       "remaining": "Vẫn còn cơ hội ghi bàn",
+      "recentLifts": "Mức tăng gần đây",
       "submit": "Khối lượng nhật ký",
       "logged": "{{lift}} đã ghi nhận: Tổng thể tích {{volume}}kg!",
-      "recentLifts": "Mức tăng gần đây",
       "placeholders": {
         "sets": "ví dụ: 4",
         "reps": "ví dụ: 8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "Chuỗi 30 ngày duy trì thói quen",
+      "tooltip": "Ngày {{day}}: {{count}}/5 thói quen",
       "legend": {
         "perfect": "Hoàn hảo (5/5)",
         "partial": "Một phần",
         "none": "Chưa hoàn chỉnh"
-      },
-      "tooltip": "Ngày {{day}}: {{count}}/5 thói quen"
+      }
     }
   },
   "essentials": {

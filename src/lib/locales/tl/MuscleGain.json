@@ -128,9 +128,9 @@
       "weight": "Timbang (kg)",
       "totalVolume": "Kabuuang Dami",
       "remaining": "Nanatili para sa Layunin",
+      "recentLifts": "Mga Kamakailang Lift",
       "submit": "Dami ng Log",
       "logged": "{{lift}} na naka-log: {{volume}}kg kabuuang volume!",
-      "recentLifts": "Mga Kamakailang Lift",
       "placeholders": {
         "sets": "hal., 4",
         "reps": "hal., 8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "30-Araw na Pagkakasunod-sunod ng Ugali",
+      "tooltip": "Araw {{day}}: {{count}}/5 gawi",
       "legend": {
         "perfect": "Perpekto (5/5)",
         "partial": "Bahagyang",
         "none": "Hindi kumpleto"
-      },
-      "tooltip": "Araw {{day}}: {{count}}/5 gawi"
+      }
     }
   },
   "essentials": {

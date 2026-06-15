@@ -151,7 +151,13 @@
     }
   },
   "benefits": {
-    "title": "Bakit Mahalaga ang Pang-araw-araw na Pag-uunat"
+    "title": "Bakit Mahalaga ang Pang-araw-araw na Pag-uunat",
+    "items": [
+      "Binabawasan ang panganib ng pinsala ng hanggang 50%",
+      "Nagpapabuti ng pagganap ng atletiko",
+      "Pinapaginhawa ang tensyon at stress ng kalamnan",
+      "Pinahuhusay ang sirkulasyon ng dugo"
+    ]
   },
   "tests": {
     "status": {
@@ -185,7 +191,13 @@
       }
     },
     "tips": {
-      "title": "Mga Tip sa Pagsubok"
+      "title": "Mga Tip sa Pagsubok",
+      "list": [
+        "Magsagawa ng mga pagsubok pagkatapos ng isang light warm-up, hindi malamig",
+        "Mag-retest tuwing 2-4 na linggo upang subaybayan ang pag-unlad",
+        "Tumutok sa mga lugar na nangangailangan ng trabaho na may naka-target na pag-uunat",
+        "Kumunsulta sa isang propesyonal para sa patuloy na mga limitasyon"
+      ]
     },
     "actions": {
       "pass": "✓ Pass",

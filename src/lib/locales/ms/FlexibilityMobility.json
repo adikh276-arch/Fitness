@@ -151,7 +151,13 @@
     }
   },
   "benefits": {
-    "title": "Mengapa Regangan Harian Penting"
+    "title": "Mengapa Regangan Harian Penting",
+    "items": [
+      "Mengurangkan risiko kecederaan sehingga 50%",
+      "Meningkatkan prestasi sukan",
+      "Melegakan ketegangan otot dan tekanan",
+      "Meningkatkan peredaran darah"
+    ]
   },
   "tests": {
     "status": {
@@ -185,7 +191,13 @@
       }
     },
     "tips": {
-      "title": "Petua Ujian"
+      "title": "Petua Ujian",
+      "list": [
+        "Lakukan ujian selepas pemanasan ringan, bukan sejuk",
+        "Uji semula setiap 2-4 minggu untuk mengesan kemajuan",
+        "Fokus pada kawasan yang memerlukan kerja dengan regangan yang disasarkan",
+        "Rujuk profesional untuk had berterusan"
+      ]
     },
     "actions": {
       "pass": "✓ Lulus",

@@ -151,7 +151,13 @@
     }
   },
   "benefits": {
-    "title": "Por que o alongamento diário é importante"
+    "title": "Por que o alongamento diário é importante",
+    "items": [
+      "Reduz o risco de lesões em até 50%",
+      "Melhora o desempenho atlético",
+      "Alivia a tensão muscular e o estresse",
+      "Melhora a circulação sanguínea"
+    ]
   },
   "tests": {
     "status": {
@@ -185,7 +191,13 @@
       }
     },
     "tips": {
-      "title": "Dicas de teste"
+      "title": "Dicas de teste",
+      "list": [
+        "Realize testes após um aquecimento leve, não frio",
+        "Teste novamente a cada 2 a 4 semanas para acompanhar o progresso",
+        "Concentre-se nas áreas que precisam de trabalho com alongamento direcionado",
+        "Consulte um profissional para limitações persistentes"
+      ]
     },
     "actions": {
       "pass": "✓ Passe",

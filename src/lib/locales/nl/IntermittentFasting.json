@@ -66,15 +66,17 @@
   "log": {
     "form": {
       "title": "Noteer het vasten van vandaag",
+      "dateLabel": "Datum:",
       "lastMeal": "Laatste maaltijd (gisteren):",
       "firstMeal": "Eerste maaltijd (vandaag):",
       "duration": "Totale vastenduur",
       "goalAchieved": "Doel bereikt! Je hebt meer dan 16 uur gevast!",
-      "submit": "Registreer dit snel",
-      "dateLabel": "Datum:"
+      "submit": "Registreer dit snel"
     },
     "tracker": {
       "title": "30-dagen sneltracker",
+      "today": "Vandaag",
+      "dayLabel": "Dag {{val}}",
       "streak": "Huidige reeks:",
       "streakDays": "{{count}} dagen",
       "last30": "Afgelopen 30 dagen",
@@ -82,9 +84,7 @@
         "goalMet": "Doel bereikt (16+ uur)",
         "today": "Vandaag",
         "missed": "Gemiste dag"
-      },
-      "today": "Vandaag",
-      "dayLabel": "Dag {{val}}"
+      }
     },
     "recentFasts": {
       "title": "Recente vasten",

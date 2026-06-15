@@ -1,49 +1,49 @@
 {
   "header": {
-    "title": "Flexibility & Mobility",
-    "subtitle": "Improve range of motion and prevent injuries",
+    "title": "Flexibilitet och rörlighet",
+    "subtitle": "Förbättra rörelseomfånget och förebygg skador",
     "back": "Tillbaka till Dashboard"
   },
   "tabs": {
-    "stretches": "Daily Stretches",
-    "tests": "Mobility Tests",
-    "log": "Recovery Log"
+    "stretches": "Dagliga sträckor",
+    "tests": "Rörlighetstester",
+    "log": "Återställningslogg"
   },
   "player": {
-    "stretch": "Stretch {{current}} of {{total}}",
-    "resume": "Resume",
+    "stretch": "Stretch {{current}} av {{total}}",
+    "resume": "Återuppta",
     "pause": "Pausa",
     "skip": "Hoppa över",
     "cancel": "Avbryt",
     "bilateral_hint": "💡 Kom ihåg att byta sida när timern tar slut",
     "preview": {
-      "stretches_count": "{{count}} Stretches ({{duration}} min total):",
-      "start": "Start {{duration}}-Min Routine",
+      "stretches_count": "{{count}} sträckningar ({{duration}} min totalt):",
+      "start": "Starta {{duration}}-Min rutin",
       "cancel": "Avbryt"
     },
     "complete": {
-      "title": "Routine Complete!",
-      "desc": "Great job completing {{name}}!",
-      "rate_label": "Feel Better? Rate your improvement: {{rating}}/10",
-      "worse": "Worse",
-      "same": "Same",
-      "much_better": "Much Better",
-      "save": "Save Session",
-      "done": "Done"
+      "title": "Rutinen klar!",
+      "desc": "Bra jobbat med att slutföra {{name}}!",
+      "rate_label": "Mår du bättre? Betygsätt din förbättring: {{rating}}/10",
+      "worse": "Värre",
+      "same": "Samma",
+      "much_better": "Mycket bättre",
+      "save": "Spara session",
+      "done": "Klart"
     }
   },
   "routines": {
     "upper-body": {
-      "name": "Upper Body Open",
-      "focus": "Chest, Shoulders, Mid-Back",
-      "desc": "Release tension from desk work and phone use",
+      "name": "Öppen kropp",
+      "focus": "Bröst, Axlar, Mitt på ryggen",
+      "desc": "Släpp spänningen från skrivbordsarbete och telefonanvändning",
       "stretches": {
         "Doorway Chest Stretch": {
           "name": "Stretch för dörröppning",
           "desc": "Stå i dörröppningen, placera underarmarna på ramen, luta dig framåt för att känna att bröstkorgen sträcker sig."
         },
         "Shoulder Rolls": {
-          "name": "Shoulder Rolls",
+          "name": "Axelrullar",
           "desc": "Rulla axlarna bakåt i stora cirklar, 10 reps."
         },
         "Thoracic Rotation": {
@@ -125,7 +125,7 @@
     "dynamic-warmup": {
       "name": "Dynamisk uppvärmning",
       "focus": "Aktivering före träning",
-      "desc": "Prepare your body before exercise",
+      "desc": "Förbered din kropp innan träning",
       "stretches": {
         "Leg Swings": {
           "name": "Bengungor",
@@ -133,11 +133,11 @@
         },
         "Arm Circles": {
           "name": "Arm cirklar",
-          "desc": "Small to large circles, forward and backward."
+          "desc": "Små till stora cirklar, framåt och bakåt."
         },
         "Torso Twists": {
           "name": "Torso Twists",
-          "desc": "Rotate upper body side to side with arms loose."
+          "desc": "Rotera överkroppen sida till sida med armarna lösa."
         },
         "Walking Lunges": {
           "name": "Walking Lunges",
@@ -145,18 +145,24 @@
         },
         "High Knees": {
           "name": "Höga knän",
-          "desc": "March in place bringing knees to hip height."
+          "desc": "Mars på plats för att få knäna till höfthöjd."
         }
       }
     }
   },
   "benefits": {
-    "title": "Why Daily Stretching Matters"
+    "title": "Varför daglig stretching är viktig",
+    "items": [
+      "Minskar skaderisken med upp till 50 %",
+      "Förbättrar atletisk prestation",
+      "Lindrar muskelspänningar och stress",
+      "Förbättrar blodcirkulationen"
+    ]
   },
   "tests": {
     "status": {
       "title": "Din mobilitetsstatus",
-      "based_on": "Based on {{count}} test results",
+      "based_on": "Baserat på {{count}} testresultat",
       "complete_below": "Komplettera testerna nedan",
       "score_label": "Poäng: {{poäng}}/6 poäng (Godkänd=2, Delvis=1, Behöver arbete=0)",
       "elite": "Elitmobilitet",
@@ -167,25 +173,31 @@
     "items": {
       "sit-reach": {
         "name": "Sit & Reach-test",
-        "desc": "Sit with legs straight, reach toward toes",
+        "desc": "Sitt med raka ben, sträck dig mot tårna",
         "pass": "Kan röra eller passera tårna",
-        "fail": "More than 6 inches from toes"
+        "fail": "Mer än 6 tum från tårna"
       },
       "shoulder-pass": {
         "name": "Axelpassering",
         "desc": "Håll ett band/pinne, höj armarna över huvudet och bakom ryggen",
-        "pass": "Can pass through smoothly",
+        "pass": "Kan passera smidigt",
         "fail": "Kan inte slutföra rörelsen"
       },
       "deep-squat": {
         "name": "Deep Squat Hold",
-        "desc": "Squat down with heels flat, hold for 30 seconds",
+        "desc": "Sätt dig på huk med hälarna platta, håll i 30 sekunder",
         "pass": "Kan hålla 30-tal, klackar ner",
-        "fail": "Heels lift or cannot hold"
+        "fail": "Klackarna lyfter eller kan inte hålla"
       }
     },
     "tips": {
-      "title": "Testtips"
+      "title": "Testtips",
+      "list": [
+        "Utför tester efter en lätt uppvärmning, inte kyla",
+        "Testa om var 2-4:e vecka för att spåra framsteg",
+        "Fokusera på områden som behöver arbeta med riktad stretching",
+        "Rådfråga en professionell för ihållande begränsningar"
+      ]
     },
     "actions": {
       "pass": "✓ Godkänt",
@@ -196,15 +208,15 @@
   "log": {
     "title": "Loggåterställningssession",
     "duration": "Varaktighet (minuter)",
-    "focus_areas": "Focus Areas (select all that apply)",
-    "soreness_label": "Soreness Before Session: {{level}}/10",
+    "focus_areas": "Fokusområden (markera allt som stämmer)",
+    "soreness_label": "Ömhet före session: {{level}}/10",
     "no_pain": "1 - Ingen smärta",
     "moderate": "5 - Måttlig",
     "very_sore": "10 - Mycket ont",
     "submit": "🧘 Loggsession",
     "heatmap": {
       "title": "Recovery Heatmap",
-      "legend": "Purple dots mark days with recovery sessions"
+      "legend": "Lila prickar markerar dagar med återhämtningssessioner"
     },
     "badge": {
       "title": "Skadebevis!",

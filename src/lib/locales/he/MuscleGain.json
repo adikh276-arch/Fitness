@@ -128,9 +128,9 @@
       "weight": "משקל (ק\"ג)",
       "totalVolume": "נפח כולל",
       "remaining": "נותרים לשער",
+      "recentLifts": "העליות האחרונות",
       "submit": "נפח יומן",
       "logged": "נרשם ב-{{lift}}: נפח כולל של {{volume}} ק\"ג!",
-      "recentLifts": "העליות האחרונות",
       "placeholders": {
         "sets": "למשל, 4",
         "reps": "למשל, 8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "רצף הרגלים של 30 יום",
+      "tooltip": "יום {{day}}: {{count}}/5 הרגלים",
       "legend": {
         "perfect": "מושלם (5/5)",
         "partial": "חֶלקִי",
         "none": "לֹא שָׁלֵם"
-      },
-      "tooltip": "יום {{day}}: {{count}}/5 הרגלים"
+      }
     }
   },
   "essentials": {

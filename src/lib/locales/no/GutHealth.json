@@ -133,7 +133,13 @@
     }
   },
   "essentials": {
-    "title": "Essentialer for tarmhelse"
+    "title": "Essentialer for tarmhelse",
+    "items": [
+      "<strong>Fiber er drivstoff:</strong> Dine tarmbakterier gjærer fiber til kortkjedede fettsyrer som reduserer betennelse",
+      "<strong>Mangfold er viktigst:</strong> 30+ forskjellige plantetyper ukentlig skaper et spenstig mikrobiom",
+      "<strong>Fasting over natten:</strong> 12+ timer mellom middag og frokost tillater reparasjon av tarmbarrieren",
+      "<strong>Tygg grundig:</strong> Fordøyelsen begynner i munnen - riktig tygging reduserer oppblåsthet og forbedrer næringsopptaket"
+    ]
   },
   "plants": {
     "Spinach": "Spinat",

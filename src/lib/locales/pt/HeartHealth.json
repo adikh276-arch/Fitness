@@ -7,7 +7,12 @@
   "alerts": {
     "crisis": {
       "title": "AVISO DE CRISE HIPERTENSIVA",
-      "desc": "A leitura da sua pressão arterial está perigosamente alta (≥180/120). Isso requer atenção médica imediata."
+      "desc": "A leitura da sua pressão arterial está perigosamente alta (≥180/120). Isso requer atenção médica imediata.",
+      "actions": [
+        "Ligue para o 911 ou vá para o pronto-socorro imediatamente",
+        "Não espere para ver se sua pressão diminui sozinha",
+        "Isso pode causar acidente vascular cerebral, ataque cardíaco ou danos a órgãos"
+      ]
     },
     "vitals": {
       "invalid": "Insira leituras válidas",
@@ -76,19 +81,34 @@
       "potassium": {
         "title": "Poder de potássio",
         "limit": "4.700 mg por dia",
-        "source": "De alimentos integrais"
+        "source": "De alimentos integrais",
+        "foods": [
+          "Bananas (422mg por meio)",
+          "Batata Doce (540mg por meio)",
+          "Espinafre (840mg por xícara cozida)"
+        ]
       },
       "magnesium": {
         "title": "Magnésio e Fibra",
         "limit": "500mg Mg / 25-35g Fibra",
-        "target": "Metas diárias"
+        "target": "Metas diárias",
+        "foods": [
+          "Amêndoas, castanhas de caju, sementes de abóbora",
+          "Grãos integrais (aveia, quinoa)",
+          "Leguminosas e folhas verdes escuras"
+        ]
       }
     },
     "scanner": {
       "title": "⚠️ Scanner de sódio oculto: alimentos com \"sal sorrateiro\"",
       "subtitle": "Esses alimentos aparentemente inocentes contêm mais sódio do que você pensa:",
       "swaps": {
-        "title": "💡 Trocas compatíveis com DASH:"
+        "title": "💡 Trocas compatíveis com DASH:",
+        "items": [
+          "Sopa caseira com caldo com baixo teor de sódio (200mg vs 800mg)",
+          "Peito de frango assado em vez de carne fria (70mg vs 520mg)",
+          "Legumes frescos em vez de enlatados (5mg vs 300mg)"
+        ]
       }
     }
   },
@@ -125,7 +145,13 @@
       }
     },
     "tips": {
-      "title": "Fundamentos para a saúde do coração"
+      "title": "Fundamentos para a saúde do coração",
+      "items": [
+        "<strong>Zona 2 cardio:</strong> exercite-se a 60-70% da frequência cardíaca máxima (você ainda pode manter uma conversa)",
+        "<strong>O potássio ajuda a eliminar o sódio:</strong> Apontar para 4.700 mg diários de alimentos integrais",
+        "<strong>Consistência > intensidade:</strong> caminhadas diárias superam treinos intensos esporádicos para a saúde do coração",
+        "<strong>Monitore ao mesmo tempo:</strong> verifique a pressão arterial pela manhã para obter leituras mais precisas"
+      ]
     }
   },
   "foods": {

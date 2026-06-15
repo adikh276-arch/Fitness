@@ -7,7 +7,12 @@
   "alerts": {
     "crisis": {
       "title": "AVERTISSEMENT DE CRISE HYPERTENSIVE",
-      "desc": "Votre tension artérielle est dangereusement élevée (≥180/120). Cela nécessite des soins médicaux immédiats."
+      "desc": "Votre tension artérielle est dangereusement élevée (≥180/120). Cela nécessite des soins médicaux immédiats.",
+      "actions": [
+        "Appelez le 911 ou rendez-vous immédiatement aux urgences",
+        "N'attendez pas de voir si votre pression descend d'elle-même",
+        "Cela peut entraîner un accident vasculaire cérébral, une crise cardiaque ou des lésions organiques."
+      ]
     },
     "vitals": {
       "invalid": "Veuillez entrer des lectures valides",
@@ -76,19 +81,34 @@
       "potassium": {
         "title": "Puissance potassique",
         "limit": "4 700 mg par jour",
-        "source": "À partir d'aliments entiers"
+        "source": "À partir d'aliments entiers",
+        "foods": [
+          "Bananes (422 mg par support)",
+          "Patates douces (540 mg par support)",
+          "Épinards (840 mg par tasse cuite)"
+        ]
       },
       "magnesium": {
         "title": "Magnésium et fibres",
         "limit": "500 mg de magnésium / 25 à 35 g de fibres",
-        "target": "Objectifs quotidiens"
+        "target": "Objectifs quotidiens",
+        "foods": [
+          "Amandes, noix de cajou, graines de citrouille",
+          "Céréales entières (avoine, quinoa)",
+          "Légumineuses et légumes-feuilles foncés"
+        ]
       }
     },
     "scanner": {
       "title": "⚠️ Scanner de sodium caché : aliments « sel sournois »",
       "subtitle": "Ces aliments apparemment innocents contiennent plus de sodium que vous ne le pensez :",
       "swaps": {
-        "title": "💡 Échanges compatibles DASH :"
+        "title": "💡 Échanges compatibles DASH :",
+        "items": [
+          "Soupe maison avec bouillon pauvre en sodium (200 mg vs 800 mg)",
+          "Poitrine de poulet rôtie au lieu de charcuterie (70 mg vs 520 mg)",
+          "Légumes frais au lieu d'en conserve (5 mg contre 300 mg)"
+        ]
       }
     }
   },
@@ -125,7 +145,13 @@
       }
     },
     "tips": {
-      "title": "Les essentiels de la santé cardiaque"
+      "title": "Les essentiels de la santé cardiaque",
+      "items": [
+        "<strong>Cardio zone 2</strong> : faites de l'exercice à une fréquence cardiaque maximale de 60 à 70 % (vous pouvez toujours tenir une conversation)",
+        "<strong>Le potassium aide à éliminer le sodium</strong> : visez 4 700 mg par jour à partir d'aliments entiers.",
+        "<strong>Cohérence > intensité :</strong> les promenades quotidiennes battent les entraînements intenses sporadiques pour la santé cardiaque",
+        "<strong>Surveillez en même temps :</strong> Vérifiez la pression artérielle le matin pour obtenir des lectures plus précises"
+      ]
     }
   },
   "foods": {

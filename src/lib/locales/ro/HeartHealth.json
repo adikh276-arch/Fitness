@@ -7,7 +7,12 @@
   "alerts": {
     "crisis": {
       "title": "AVERTISMENT DE CRISĂ HIPERTENSIVĂ",
-      "desc": "Citirea tensiunii arteriale este periculos de ridicată (≥180/120). Acest lucru necesită asistență medicală imediată."
+      "desc": "Citirea tensiunii arteriale este periculos de ridicată (≥180/120). Acest lucru necesită asistență medicală imediată.",
+      "actions": [
+        "Sunați la 911 sau mergeți imediat la camera de urgență",
+        "Nu așteptați să vedeți dacă presiunea scade de la sine",
+        "Acest lucru poate duce la accident vascular cerebral, atac de cord sau leziuni ale organelor"
+      ]
     },
     "vitals": {
       "invalid": "Vă rugăm să introduceți valori valide",
@@ -76,19 +81,34 @@
       "potassium": {
         "title": "Puterea de potasiu",
         "limit": "4.700 mg pe zi",
-        "source": "Din alimente integrale"
+        "source": "Din alimente integrale",
+        "foods": [
+          "Banane (422 mg pe mediu)",
+          "Cartofi dulci (540 mg pe mediu)",
+          "Spanac (840 mg per cană gătită)"
+        ]
       },
       "magnesium": {
         "title": "Magneziu și fibre",
         "limit": "500mg Mg / 25-35g Fibre",
-        "target": "Obiective zilnice"
+        "target": "Obiective zilnice",
+        "foods": [
+          "Migdale, caju, seminte de dovleac",
+          "Cereale integrale (ovăz, quinoa)",
+          "Leguminoase și verdeață cu frunze închise"
+        ]
       }
     },
     "scanner": {
       "title": "⚠️ Scaner de sodiu ascuns: Alimente „Sarea mascate”.",
       "subtitle": "Aceste alimente aparent inocente conțin mai mult sodiu decât credeți:",
       "swaps": {
-        "title": "💡 Schimburi prietenoase cu DASH:"
+        "title": "💡 Schimburi prietenoase cu DASH:",
+        "items": [
+          "Supă de casă cu bulion cu conținut scăzut de sodiu (200 mg vs 800 mg)",
+          "Piept de pui prăjit în loc de carne de delicatese (70 mg vs 520 mg)",
+          "Legume proaspete în loc de conserve (5 mg vs 300 mg)"
+        ]
       }
     }
   },
@@ -125,7 +145,13 @@
       }
     },
     "tips": {
-      "title": "Elemente esențiale pentru sănătatea inimii"
+      "title": "Elemente esențiale pentru sănătatea inimii",
+      "items": [
+        "<strong>Zona 2 cardio:</strong> exercițiu la 60-70% ritm cardiac maxim (puteți încă purta o conversație)",
+        "<strong>Potasiul ajută la eliminarea sodiului:</strong> urmăriți 4.700 mg zilnic din alimente integrale",
+        "<strong>Consecvență > intensitate:</strong> plimbările zilnice înving antrenamentele sporadice intense pentru sănătatea inimii",
+        "<strong>Monitorizați în același timp:</strong> verificați TA dimineața pentru citiri cele mai precise"
+      ]
     }
   },
   "foods": {

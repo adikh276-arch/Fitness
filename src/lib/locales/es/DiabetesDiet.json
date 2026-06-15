@@ -46,6 +46,18 @@
       "targetPost": "Objetivo máximo (después de las comidas)"
     }
   },
+  "status": {
+    "normal": "NORMAL",
+    "high": "ALTO",
+    "low": "BAJO"
+  },
+  "timing": {
+    "fasting": "Ayuno",
+    "preMeal": "Antes de la comida",
+    "postMeal1h": "Después de la comida (1 hora)",
+    "postMeal2h": "Después de la comida (2 h)",
+    "bedtime": "Hora de acostarse"
+  },
   "plate": {
     "intro": {
       "title": "El método del plato para diabéticos",
@@ -96,26 +108,13 @@
       "medium": "GI medio (56-69): Moderado",
       "high": "Índice glucémico alto (70+): Limitar"
     },
-    "searchPlaceholder": "Buscar un alimento...",
-    "noResults": "No se encontraron alimentos que coincidan con su búsqueda.",
     "labels": {
       "low": "IG bajo",
       "medium": "GI medio",
       "high": "Alto índice glucémico"
     },
-    "search": "Buscar un alimento (por ejemplo, avena, plátano...)"
-  },
-  "timing": {
-    "fasting": "Ayuno",
-    "preMeal": "Antes de la comida",
-    "postMeal1h": "Después de la comida (1 hora)",
-    "postMeal2h": "Después de la comida (2 h)",
-    "bedtime": "Hora de acostarse"
-  },
-  "status": {
-    "low": "BAJO",
-    "high": "ALTO",
-    "normal": "NORMAL"
+    "search": "Buscar un alimento (por ejemplo, avena, plátano...)",
+    "noResults": "No se encontraron alimentos que coincidan con su búsqueda."
   },
   "foods": {
     "Spinach": "Espinaca",

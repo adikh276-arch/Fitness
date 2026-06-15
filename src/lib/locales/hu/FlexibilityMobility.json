@@ -151,7 +151,13 @@
     }
   },
   "benefits": {
-    "title": "Miért számít a napi nyújtás?"
+    "title": "Miért számít a napi nyújtás?",
+    "items": [
+      "Akár 50%-kal csökkenti a sérülés kockázatát",
+      "Javítja az atlétikai teljesítményt",
+      "Oldja az izomfeszültséget és a stresszt",
+      "Fokozza a vérkeringést"
+    ]
   },
   "tests": {
     "status": {
@@ -185,7 +191,13 @@
       }
     },
     "tips": {
-      "title": "Tesztelési tippek"
+      "title": "Tesztelési tippek",
+      "list": [
+        "A teszteket enyhe bemelegítés után végezze, ne hidegen",
+        "2-4 hetente ismételje meg a tesztet a fejlődés nyomon követéséhez",
+        "Fókuszáljon azokra a területekre, ahol célzott nyújtással kell dolgozni",
+        "A tartós korlátozásokért forduljon szakemberhez"
+      ]
     },
     "actions": {
       "pass": "✓ Pass",

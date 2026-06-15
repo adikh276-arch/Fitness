@@ -128,9 +128,9 @@
       "weight": "重量（公斤）",
       "totalVolume": "總體積",
       "remaining": "剩餘目標",
+      "recentLifts": "最近的電梯",
       "submit": "對數卷",
       "logged": "{{lift}} 記錄：{{volume}}kg 總體積！",
-      "recentLifts": "最近的電梯",
       "placeholders": {
         "sets": "例如，4",
         "reps": "例如，8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "30天習慣養成",
+      "tooltip": "第 {{day}} 天：{{count}}/5 個習慣",
       "legend": {
         "perfect": "完美 (5/5)",
         "partial": "部分的",
         "none": "未完成"
-      },
-      "tooltip": "第 {{day}} 天：{{count}}/5 個習慣"
+      }
     }
   },
   "essentials": {

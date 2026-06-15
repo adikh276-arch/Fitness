@@ -151,7 +151,13 @@
     }
   },
   "benefits": {
-    "title": "Waarom dagelijks stretchen belangrijk is"
+    "title": "Waarom dagelijks stretchen belangrijk is",
+    "items": [
+      "Vermindert het letselrisico tot 50%",
+      "Verbetert de atletische prestaties",
+      "Verlicht spierspanning en stress",
+      "Verbetert de bloedcirculatie"
+    ]
   },
   "tests": {
     "status": {
@@ -185,7 +191,13 @@
       }
     },
     "tips": {
-      "title": "Testtips"
+      "title": "Testtips",
+      "list": [
+        "Voer tests uit na een lichte warming-up, niet koud",
+        "Test elke 2-4 weken opnieuw om de voortgang te volgen",
+        "Concentreer u op gebieden die werk nodig hebben door gericht te strekken",
+        "Raadpleeg een professional bij aanhoudende beperkingen"
+      ]
     },
     "actions": {
       "pass": "✓ Pass",

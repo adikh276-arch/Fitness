@@ -151,7 +151,13 @@
     }
   },
   "benefits": {
-    "title": "Tại sao việc kéo dãn hàng ngày lại quan trọng"
+    "title": "Tại sao việc kéo dãn hàng ngày lại quan trọng",
+    "items": [
+      "Giảm nguy cơ chấn thương tới 50%",
+      "Cải thiện hiệu suất thể thao",
+      "Giảm căng cơ và căng thẳng",
+      "Tăng cường lưu thông máu"
+    ]
   },
   "tests": {
     "status": {
@@ -185,7 +191,13 @@
       }
     },
     "tips": {
-      "title": "Mẹo kiểm tra"
+      "title": "Mẹo kiểm tra",
+      "list": [
+        "Thực hiện các bài kiểm tra sau khi khởi động nhẹ, không để nguội",
+        "Kiểm tra lại sau mỗi 2-4 tuần để theo dõi tiến độ",
+        "Tập trung vào các khu vực cần làm việc với việc kéo dài có mục tiêu",
+        "Tham khảo ý kiến chuyên gia về những hạn chế dai dẳng"
+      ]
     },
     "actions": {
       "pass": "✓ Đạt",

@@ -7,7 +7,12 @@
   "alerts": {
     "crisis": {
       "title": "BABALA sa HYPERTENSIVE CRISIS",
-      "desc": "Ang iyong pagbabasa ng presyon ng dugo ay mapanganib na mataas (≥180/120). Nangangailangan ito ng agarang medikal na atensyon."
+      "desc": "Ang iyong pagbabasa ng presyon ng dugo ay mapanganib na mataas (≥180/120). Nangangailangan ito ng agarang medikal na atensyon.",
+      "actions": [
+        "Tumawag sa 911 o pumunta kaagad sa emergency room",
+        "Huwag maghintay upang makita kung ang iyong presyon ay bumaba sa sarili nitong",
+        "Ito ay maaaring humantong sa stroke, atake sa puso, o pinsala sa organ"
+      ]
     },
     "vitals": {
       "invalid": "Mangyaring maglagay ng mga wastong pagbabasa",
@@ -76,19 +81,34 @@
       "potassium": {
         "title": "Potassium Power",
         "limit": "4,700mg bawat araw",
-        "source": "Mula sa buong pagkain"
+        "source": "Mula sa buong pagkain",
+        "foods": [
+          "Mga saging (422mg bawat medium)",
+          "Sweet Potatoes (540mg bawat medium)",
+          "Spinach (840mg bawat tasa na niluto)"
+        ]
       },
       "magnesium": {
         "title": "Magnesium at Fiber",
         "limit": "500mg Mg / 25-35g Fiber",
-        "target": "Araw-araw na mga target"
+        "target": "Araw-araw na mga target",
+        "foods": [
+          "Mga almendras, kasoy, buto ng kalabasa",
+          "Buong butil (oats, quinoa)",
+          "Legumes at maitim na madahong gulay"
+        ]
       }
     },
     "scanner": {
       "title": "⚠️ Nakatagong Sodium Scanner: Mga Pagkaing \"Sneaky Salt\".",
       "subtitle": "Ang mga mukhang inosenteng pagkain na ito ay naglalaman ng mas maraming sodium kaysa sa iyong iniisip:",
       "swaps": {
-        "title": "💡 DASH-Friendly na Pagpalit:"
+        "title": "💡 DASH-Friendly na Pagpalit:",
+        "items": [
+          "Homemade na sopas na may low-sodium broth (200mg vs 800mg)",
+          "Inihaw na dibdib ng manok sa halip na deli meat (70mg vs 520mg)",
+          "Mga sariwang gulay sa halip na de-latang (5mg vs 300mg)"
+        ]
       }
     }
   },
@@ -125,7 +145,13 @@
       }
     },
     "tips": {
-      "title": "Mahahalagang Kalusugan ng Puso"
+      "title": "Mahahalagang Kalusugan ng Puso",
+      "items": [
+        "<strong>Zone 2 cardio:</strong> Mag-ehersisyo sa 60-70% max na tibok ng puso (maaari ka pa ring makipag-usap)",
+        "<strong>Tumutulong ang potasa sa pag-flush ng sodium:</strong> Maghangad ng 4,700mg araw-araw mula sa buong pagkain",
+        "<strong>Consistency > intensity:</strong> Ang pang-araw-araw na paglalakad ay higit pa sa kalat-kalat na matinding ehersisyo para sa kalusugan ng puso",
+        "<strong>Subaybayan nang sabay-sabay:</strong> Suriin ang BP sa umaga para sa pinakatumpak na pagbabasa"
+      ]
     }
   },
   "foods": {

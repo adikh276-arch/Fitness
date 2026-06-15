@@ -61,22 +61,48 @@
       "b12": {
         "name": "Vitamine B12",
         "importance": "Cruciaal voor de zenuwfunctie en DNA-synthese",
-        "dosage": "2,4 mcg per dag"
+        "dosage": "2,4 mcg per dag",
+        "sources": [
+          "Versterkte plantaardige melk",
+          "Voedingsgist",
+          "B12-supplementen",
+          "Versterkte granen"
+        ]
       },
       "iron": {
         "name": "IJzer & Zink",
         "importance": "Essentieel voor zuurstoftransport en immuunfunctie",
-        "dosage": "IJzer: 18 mg, zink: 11 mg per dag"
+        "dosage": "IJzer: 18 mg, zink: 11 mg per dag",
+        "sources": [
+          "Pompoenpitten",
+          "Linzen",
+          "Cashewnoten",
+          "Spinazie",
+          "Quinoa"
+        ]
       },
       "omega3": {
         "name": "Omega-3 (ALA)",
         "importance": "Hersengezondheid en ontstekingsremmend",
-        "dosage": "1,6 g per dag"
+        "dosage": "1,6 g per dag",
+        "sources": [
+          "Lijnzaad",
+          "Chia-zaden",
+          "Walnoten",
+          "Hennep zaden"
+        ]
       },
       "calcium": {
         "name": "Kalk",
         "importance": "Botgezondheid en spierfunctie",
-        "dosage": "1000mg per dag"
+        "dosage": "1000mg per dag",
+        "sources": [
+          "Bok choy",
+          "Tahin",
+          "Versterkte tofu",
+          "Boerenkool",
+          "Amandelen"
+        ]
       }
     }
   },

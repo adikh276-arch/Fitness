@@ -128,9 +128,9 @@
       "weight": "Vekt (kg)",
       "totalVolume": "Totalvolum",
       "remaining": "Gjenværende for mål",
+      "recentLifts": "Nylige løft",
       "submit": "Loggvolum",
       "logged": "{{lift}} logget: {{volume}}kg totalt volum!",
-      "recentLifts": "Nylige løft",
       "placeholders": {
         "sets": "f.eks. 4",
         "reps": "f.eks. 8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "30-dagers vaneserie",
+      "tooltip": "Dag {{dag}}: {{count}}/5 vaner",
       "legend": {
         "perfect": "Perfekt (5/5)",
         "partial": "Delvis",
         "none": "Ufullstendig"
-      },
-      "tooltip": "Dag {{dag}}: {{count}}/5 vaner"
+      }
     }
   },
   "essentials": {

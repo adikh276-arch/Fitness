@@ -1,7 +1,7 @@
 {
   "header": {
     "title": "Gut Health Guide",
-    "subtitle": "Track digestive health and build a thriving microbiome",
+    "subtitle": "Spåra matsmältningshälsan och bygg ett blomstrande mikrobiom",
     "back": "Tillbaka till Dashboard"
   },
   "tabs": {
@@ -11,11 +11,11 @@
   },
   "bristol": {
     "title": "Bristol pallvåg",
-    "info": "The gold standard for tracking digestive transit time and gut health",
+    "info": "Guldstandarden för att spåra matsmältningstransittid och tarmhälsa",
     "types": {
       "type1": {
         "label": "Typ 1",
-        "desc": "Severe constipation - Separate hard lumps"
+        "desc": "Svår förstoppning - Separera hårda klumpar"
       },
       "type2": {
         "label": "Typ 2",
@@ -23,11 +23,11 @@
       },
       "type3": {
         "label": "Typ 3",
-        "desc": "Normal - Sausage with cracks"
+        "desc": "Normal - Korv med sprickor"
       },
       "type4": {
         "label": "Typ 4",
-        "desc": "Ideal - Smooth, soft sausage"
+        "desc": "Perfekt - Slät, mjuk korv"
       },
       "type5": {
         "label": "Typ 5",
@@ -68,7 +68,7 @@
   },
   "log": {
     "submit": "Logginmatning",
-    "success": "Gut log saved successfully!",
+    "success": "Magloggen har sparats!",
     "recent": {
       "title": "Senaste loggar",
       "trigger": "Utlösare:"
@@ -77,12 +77,12 @@
   "microbiome": {
     "prebiotics": {
       "title": "Prebiotika",
-      "subtitle": "The Food for Your Gut Bacteria",
+      "subtitle": "Maten för dina tarmbakterier",
       "desc": "Prebiotika är fiberrika livsmedel som matar de nyttiga bakterierna i din tarm, vilket hjälper dem att frodas och föröka sig."
     },
     "probiotics": {
       "title": "Probiotika",
-      "subtitle": "The Live Beneficial Bacteria",
+      "subtitle": "De levande nyttiga bakterierna",
       "desc": "Probiotika är levande mikroorganismer som finns i fermenterade livsmedel som direkt tillför nyttiga bakterier till din tarm."
     }
   },
@@ -107,7 +107,7 @@
         "desc": "Från fullkorn, frukt och grönsaker"
       },
       "fermented": {
-        "label": "Included 1 Fermented Food",
+        "label": "Ingår 1 fermenterad mat",
         "desc": "Kimchi, yoghurt, kefir eller surkål"
       },
       "mindful": {
@@ -133,7 +133,13 @@
     }
   },
   "essentials": {
-    "title": "Tarmhälsa Essentials"
+    "title": "Tarmhälsa Essentials",
+    "items": [
+      "<strong>Fiber är bränsle:</strong> Dina tarmbakterier fermenterar fibrer till kortkedjiga fettsyror som minskar inflammation",
+      "<strong>Mångfald är viktigast:</strong> 30+ olika växttyper varje vecka skapar en motståndskraftig mikrobiom",
+      "<strong>Fasta över natten:</strong> 12+ timmar mellan middag och frukost möjliggör reparation av tarmbarriären",
+      "<strong>Tugga noggrant:</strong> Matsmältningen börjar i munnen - korrekt tuggning minskar uppblåsthet och förbättrar näringsupptaget"
+    ]
   },
   "plants": {
     "Spinach": "Spenat",

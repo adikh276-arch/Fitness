@@ -46,6 +46,18 @@
       "targetPost": "Cible Max (après le repas)"
     }
   },
+  "status": {
+    "normal": "NORMALE",
+    "high": "HAUT",
+    "low": "FAIBLE"
+  },
+  "timing": {
+    "fasting": "Jeûne",
+    "preMeal": "Avant le repas",
+    "postMeal1h": "Après le repas (1h)",
+    "postMeal2h": "Après le repas (2h)",
+    "bedtime": "Heure du coucher"
+  },
   "plate": {
     "intro": {
       "title": "La méthode de l'assiette pour diabétiques",
@@ -96,26 +108,13 @@
       "medium": "IG moyen (56-69) : Modéré",
       "high": "IG élevé (70+) : Limite"
     },
-    "searchPlaceholder": "Recherche de nourriture...",
-    "noResults": "Aucun aliment ne correspond à votre recherche.",
     "labels": {
       "low": "Faible indice glycémique",
       "medium": "IG moyen",
       "high": "IG élevé"
     },
-    "search": "Rechercher un aliment (ex. avoine, banane...)"
-  },
-  "timing": {
-    "fasting": "Jeûne",
-    "preMeal": "Avant le repas",
-    "postMeal1h": "Après le repas (1h)",
-    "postMeal2h": "Après le repas (2h)",
-    "bedtime": "Heure du coucher"
-  },
-  "status": {
-    "low": "FAIBLE",
-    "high": "HAUT",
-    "normal": "NORMALE"
+    "search": "Rechercher un aliment (ex. avoine, banane...)",
+    "noResults": "Aucun aliment ne correspond à votre recherche."
   },
   "foods": {
     "Spinach": "Épinard",

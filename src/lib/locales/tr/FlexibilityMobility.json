@@ -151,7 +151,13 @@
     }
   },
   "benefits": {
-    "title": "Günlük Esneme Neden Önemlidir?"
+    "title": "Günlük Esneme Neden Önemlidir?",
+    "items": [
+      "Yaralanma riskini %50'ye kadar azaltır",
+      "Atletik performansı artırır",
+      "Kas gerginliğini ve stresi hafifletir",
+      "Kan dolaşımını artırır"
+    ]
   },
   "tests": {
     "status": {
@@ -185,7 +191,13 @@
       }
     },
     "tips": {
-      "title": "Test İpuçları"
+      "title": "Test İpuçları",
+      "list": [
+        "Testleri soğuktan değil, hafif bir ısınmadan sonra yapın",
+        "İlerlemeyi takip etmek için her 2-4 haftada bir yeniden test yapın",
+        "Hedeflenen esneme ile çalışma gerektiren alanlara odaklanın",
+        "Kalıcı kısıtlamalar için bir uzmana danışın"
+      ]
     },
     "actions": {
       "pass": "✓ Geç",

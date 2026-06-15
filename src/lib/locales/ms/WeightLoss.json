@@ -45,11 +45,23 @@
       "title": "Faktor Tersembunyi",
       "hydration": {
         "title": "Penghidratan",
-        "desc": "Penghidratan yang betul membantu:"
+        "desc": "Penghidratan yang betul membantu:",
+        "list": [
+          "Mengawal selera makan",
+          "Tingkatkan metabolisme",
+          "Kurangkan pengekalan air",
+          "Menyokong pengoksidaan lemak"
+        ]
       },
       "sleep": {
         "title": "Tidur (7+ Jam)",
-        "desc": "Tidur berkualiti mengawal:"
+        "desc": "Tidur berkualiti mengawal:",
+        "list": [
+          "Kortisol (hormon tekanan)",
+          "Ghrelin & leptin (kelaparan)",
+          "Sensitiviti insulin",
+          "Pemulihan & tenaga"
+        ]
       }
     }
   },

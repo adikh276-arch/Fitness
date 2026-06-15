@@ -128,9 +128,9 @@
       "weight": "Peso (kg)",
       "totalVolume": "Volume totale",
       "remaining": "Rimangono per il gol",
+      "recentLifts": "Sollevamenti recenti",
       "submit": "Registro",
       "logged": "{{lift}} registrato: {{volume}}kg volume totale!",
-      "recentLifts": "Sollevamenti recenti",
       "placeholders": {
         "sets": "ad esempio, 4",
         "reps": "ad esempio, 8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "Serie di abitudini di 30 giorni",
+      "tooltip": "Giorno {{day}}: {{count}}/5 abitudini",
       "legend": {
         "perfect": "Perfetto (5/5)",
         "partial": "Parziale",
         "none": "Incompleto"
-      },
-      "tooltip": "Giorno {{day}}: {{count}}/5 abitudini"
+      }
     }
   },
   "essentials": {

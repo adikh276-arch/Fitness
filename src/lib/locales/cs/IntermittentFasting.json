@@ -66,15 +66,17 @@
   "log": {
     "form": {
       "title": "Zaznamenejte si dnešní půst",
+      "dateLabel": "datum:",
       "lastMeal": "Poslední jídlo (včera):",
       "firstMeal": "První jídlo (dnes):",
       "duration": "Celková doba půstu",
       "goalAchieved": "Cíl dosažen! Dokončili jste 16+ hodinový půst!",
-      "submit": "Zaznamenejte to rychle",
-      "dateLabel": "datum:"
+      "submit": "Zaznamenejte to rychle"
     },
     "tracker": {
       "title": "30denní rychlý průběh",
+      "today": "dnes",
+      "dayLabel": "Den {{val}}",
       "streak": "Aktuální série:",
       "streakDays": "{{count}} dní",
       "last30": "Posledních 30 dní",
@@ -82,9 +84,7 @@
         "goalMet": "Cíl splněn (16+ hodin)",
         "today": "Dnes",
         "missed": "Zmeškaný den"
-      },
-      "today": "dnes",
-      "dayLabel": "Den {{val}}"
+      }
     },
     "recentFasts": {
       "title": "Nedávné půsty",

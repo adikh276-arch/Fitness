@@ -128,9 +128,9 @@
       "weight": "Súly (kg)",
       "totalVolume": "Teljes térfogat",
       "remaining": "Hátralévő gól",
+      "recentLifts": "Legutóbbi felvonók",
       "submit": "Naplókötet",
       "logged": "{{lift}} naplózott: {{volume}}kg össztérfogat!",
-      "recentLifts": "Legutóbbi felvonók",
       "placeholders": {
         "sets": "például 4",
         "reps": "például 8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "30 napos szokássorozat",
+      "tooltip": "{{day}}. nap: {{count}}/5 szokás",
       "legend": {
         "perfect": "Tökéletes (5/5)",
         "partial": "Részleges",
         "none": "Befejezetlen"
-      },
-      "tooltip": "{{day}}. nap: {{count}}/5 szokás"
+      }
     }
   },
   "essentials": {

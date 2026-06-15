@@ -7,7 +7,12 @@
   "alerts": {
     "crisis": {
       "title": "HYPERTENSIEVE CRISIS WAARSCHUWING",
-      "desc": "Uw bloeddrukwaarde is gevaarlijk hoog (≥180/120). Dit vereist onmiddellijke medische aandacht."
+      "desc": "Uw bloeddrukwaarde is gevaarlijk hoog (≥180/120). Dit vereist onmiddellijke medische aandacht.",
+      "actions": [
+        "Bel 911 of ga onmiddellijk naar de eerste hulp",
+        "Wacht niet om te zien of de druk vanzelf daalt",
+        "Dit kan leiden tot een beroerte, een hartaanval of orgaanschade"
+      ]
     },
     "vitals": {
       "invalid": "Voer geldige meetwaarden in",
@@ -76,19 +81,34 @@
       "potassium": {
         "title": "Kaliumkracht",
         "limit": "4.700 mg per dag",
-        "source": "Van hele voedingsmiddelen"
+        "source": "Van hele voedingsmiddelen",
+        "foods": [
+          "Bananen (422 mg per medium)",
+          "Zoete Aardappelen (540 mg per medium)",
+          "Spinazie (840 mg per gekookte kop)"
+        ]
       },
       "magnesium": {
         "title": "Magnesium en vezels",
         "limit": "500 mg mg / 25-35 g vezels",
-        "target": "Dagelijkse doelstellingen"
+        "target": "Dagelijkse doelstellingen",
+        "foods": [
+          "Amandelen, cashewnoten, pompoenpitten",
+          "Volle granen (haver, quinoa)",
+          "Peulvruchten en donkere bladgroenten"
+        ]
       }
     },
     "scanner": {
       "title": "⚠️ Verborgen natriumscanner: \"Sneaky Salt\" -voedingsmiddelen",
       "subtitle": "Deze ogenschijnlijk onschuldige voedingsmiddelen bevatten meer natrium dan je denkt:",
       "swaps": {
-        "title": "💡 DASH-vriendelijke swaps:"
+        "title": "💡 DASH-vriendelijke swaps:",
+        "items": [
+          "Zelfgemaakte soep met natriumarme bouillon (200 mg versus 800 mg)",
+          "Geroosterde kippenborst in plaats van delicatessenvlees (70 mg versus 520 mg)",
+          "Verse groenten in plaats van blik (5 mg versus 300 mg)"
+        ]
       }
     }
   },
@@ -125,7 +145,13 @@
       }
     },
     "tips": {
-      "title": "Essentiële zaken voor hartgezondheid"
+      "title": "Essentiële zaken voor hartgezondheid",
+      "items": [
+        "<strong>Zone 2 cardio:</strong> Train met een maximale hartslag van 60-70% (je kunt nog steeds een gesprek voeren)",
+        "<strong>Kalium helpt natrium weg te spoelen:</strong> Streef naar 4.700 mg per dag uit volwaardige voedingsmiddelen",
+        "<strong>Consistentie > intensiteit:</strong> dagelijkse wandelingen verslaan sporadische intensieve trainingen voor de gezondheid van het hart",
+        "<strong>Tegelijkertijd monitoren:</strong> Controleer uw bloeddruk 's ochtends voor de meest nauwkeurige metingen"
+      ]
     }
   },
   "foods": {

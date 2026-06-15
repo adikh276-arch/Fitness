@@ -7,7 +7,12 @@
   "alerts": {
     "crisis": {
       "title": "CẢNH BÁO KHỦNG HOẢNG TĂNG ÁP",
-      "desc": "Chỉ số huyết áp của bạn cao đến mức nguy hiểm (>180/120). Điều này đòi hỏi sự chăm sóc y tế ngay lập tức."
+      "desc": "Chỉ số huyết áp của bạn cao đến mức nguy hiểm (>180/120). Điều này đòi hỏi sự chăm sóc y tế ngay lập tức.",
+      "actions": [
+        "Gọi 911 hoặc đến phòng cấp cứu ngay lập tức",
+        "Đừng chờ xem áp lực của bạn có tự giảm hay không",
+        "Điều này có thể dẫn đến đột quỵ, đau tim hoặc tổn thương nội tạng"
+      ]
     },
     "vitals": {
       "invalid": "Vui lòng nhập số đọc hợp lệ",
@@ -76,19 +81,34 @@
       "potassium": {
         "title": "năng lượng kali",
         "limit": "4.700 mg mỗi ngày",
-        "source": "Từ thực phẩm toàn phần"
+        "source": "Từ thực phẩm toàn phần",
+        "foods": [
+          "Chuối (422mg mỗi vừa)",
+          "Khoai lang (540mg mỗi vừa)",
+          "Rau bina (840mg mỗi cốc nấu chín)"
+        ]
       },
       "magnesium": {
         "title": "Magie & Chất xơ",
         "limit": "500mg Mg / 25-35g Chất xơ",
-        "target": "Mục tiêu hàng ngày"
+        "target": "Mục tiêu hàng ngày",
+        "foods": [
+          "Hạnh nhân, hạt điều, hạt bí",
+          "Ngũ cốc nguyên hạt (yến mạch, quinoa)",
+          "Các loại đậu và rau lá xanh đậm"
+        ]
       }
     },
     "scanner": {
       "title": "��️ Máy quét natri ẩn: Thực phẩm \"muối lén lút\"",
       "subtitle": "Những thực phẩm tưởng chừng như vô hại này lại chứa nhiều natri hơn bạn nghĩ:",
       "swaps": {
-        "title": "💡 Hoán đổi thân thiện với DASH:"
+        "title": "💡 Hoán đổi thân thiện với DASH:",
+        "items": [
+          "Súp tự làm với nước dùng ít natri (200mg so với 800mg)",
+          "Ức gà nướng thay vì thịt nguội (70mg so với 520mg)",
+          "Rau tươi thay vì đóng hộp (5mg so với 300mg)"
+        ]
       }
     }
   },
@@ -125,7 +145,13 @@
       }
     },
     "tips": {
-      "title": "Yếu tố cần thiết cho sức khỏe tim mạch"
+      "title": "Yếu tố cần thiết cho sức khỏe tim mạch",
+      "items": [
+        "<strong>Tập tim mạch vùng 2:</strong> Tập thể dục với nhịp tim tối đa 60-70% (bạn vẫn có thể trò chuyện)",
+        "<strong>Kali giúp loại bỏ natri:</strong> Mục tiêu là 4.700 mg mỗi ngày từ thực phẩm nguyên chất",
+        "<strong>Tính nhất quán > cường độ:</strong> Đi bộ hàng ngày đánh bại các bài tập cường độ cao lẻ tẻ để cải thiện sức khỏe tim mạch",
+        "<strong>Theo dõi cùng lúc:</strong> Kiểm tra huyết áp vào buổi sáng để có kết quả chính xác nhất"
+      ]
     }
   },
   "foods": {

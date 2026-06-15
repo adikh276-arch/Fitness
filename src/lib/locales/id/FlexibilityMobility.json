@@ -151,7 +151,13 @@
     }
   },
   "benefits": {
-    "title": "Mengapa Peregangan Harian Penting"
+    "title": "Mengapa Peregangan Harian Penting",
+    "items": [
+      "Mengurangi risiko cedera hingga 50%",
+      "Meningkatkan kinerja atletik",
+      "Meredakan ketegangan otot dan stres",
+      "Meningkatkan sirkulasi darah"
+    ]
   },
   "tests": {
     "status": {
@@ -185,7 +191,13 @@
       }
     },
     "tips": {
-      "title": "Tip Pengujian"
+      "title": "Tip Pengujian",
+      "list": [
+        "Lakukan tes setelah pemanasan ringan, bukan dingin",
+        "Tes ulang setiap 2-4 minggu untuk melacak kemajuan",
+        "Fokus pada area yang membutuhkan pekerjaan dengan peregangan yang ditargetkan",
+        "Konsultasikan dengan profesional untuk mengetahui keterbatasan yang terus-menerus"
+      ]
     },
     "actions": {
       "pass": "✓ Lulus",

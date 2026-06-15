@@ -16,11 +16,11 @@
       "selectActivity": "アクティビティを選択",
       "weight": "あなたの体重",
       "duration": "所要時間（分）",
-      "submit": "ログアクティビティ",
       "placeholders": {
         "weightKg": "例：70",
         "weightLbs": "例：154"
-      }
+      },
+      "submit": "ログアクティビティ"
     },
     "summary": {
       "title": "燃焼概要",

@@ -133,7 +133,13 @@
     }
   },
   "essentials": {
-    "title": "Fundamentos para a saúde intestinal"
+    "title": "Fundamentos para a saúde intestinal",
+    "items": [
+      "<strong>Fibra é combustível:</strong> as bactérias intestinais fermentam a fibra em ácidos graxos de cadeia curta que reduzem a inflamação",
+      "<strong>A diversidade é o que mais importa:</strong> mais de 30 tipos diferentes de plantas por semana criam um microbioma resiliente",
+      "<strong>Jejum noturno:</strong> mais de 12 horas entre o jantar e o café da manhã permite a reparação da barreira intestinal",
+      "<strong>Mastigue bem:</strong> A digestão começa na boca - a mastigação adequada reduz o inchaço e melhora a absorção de nutrientes"
+    ]
   },
   "plants": {
     "Spinach": "Espinafre",

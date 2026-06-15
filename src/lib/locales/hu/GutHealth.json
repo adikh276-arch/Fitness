@@ -133,7 +133,13 @@
     }
   },
   "essentials": {
-    "title": "A bél egészségének alapjai"
+    "title": "A bél egészségének alapjai",
+    "items": [
+      "<strong>A rost üzemanyag:</strong> A bélbaktériumok a rostokat rövid szénláncú zsírsavakká erjesztik, amelyek csökkentik a gyulladást",
+      "<strong>A sokféleség a legfontosabb:</strong> hetente több mint 30 különböző növénytípus hoz létre ellenálló mikrobiomot",
+      "<strong>Egyéjszakai koplalás:</strong> A vacsora és a reggeli között több mint 12 óra lehetővé teszi a bélgát helyreállítását",
+      "<strong>Rágjon meg alaposan:</strong> Az emésztés a szájban kezdődik – a megfelelő rágás csökkenti a puffadást és javítja a tápanyag felszívódását"
+    ]
   },
   "plants": {
     "Spinach": "Spenót",

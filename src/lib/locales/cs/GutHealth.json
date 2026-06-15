@@ -133,7 +133,13 @@
     }
   },
   "essentials": {
-    "title": "Základy zdraví střev"
+    "title": "Základy zdraví střev",
+    "items": [
+      "<strong>Vláknina je palivo:</strong> Vaše střevní bakterie fermentují vlákninu na mastné kyseliny s krátkým řetězcem, které snižují zánět",
+      "<strong>Na rozmanitosti záleží nejvíce:</strong> Více než 30 různých typů rostlin týdně vytváří odolný mikrobiom",
+      "<strong>Půst přes noc:</strong> 12 a více hodin mezi večeří a snídaní umožňuje opravu střevní bariéry",
+      "<strong>Důkladně žvýkejte:</strong> Trávení začíná v ústech – správné žvýkání snižuje nadýmání a zlepšuje vstřebávání živin"
+    ]
   },
   "plants": {
     "Spinach": "Špenát",

@@ -133,7 +133,13 @@
     }
   },
   "essentials": {
-    "title": "Keperluan Kesihatan Usus"
+    "title": "Keperluan Kesihatan Usus",
+    "items": [
+      "<strong>Serat ialah bahan api:</strong> Bakteria usus anda menapai serat menjadi asid lemak rantai pendek yang mengurangkan keradangan",
+      "<strong>Kepelbagaian paling penting:</strong> 30+ jenis tumbuhan berbeza setiap minggu mencipta mikrobiom yang berdaya tahan",
+      "<strong>Puasa semalaman:</strong> 12+ jam antara makan malam dan sarapan membolehkan pembaikan halangan usus",
+      "<strong>Kunyah dengan teliti:</strong> Pencernaan bermula di dalam mulut - mengunyah yang betul mengurangkan kembung perut dan meningkatkan penyerapan nutrien"
+    ]
   },
   "plants": {
     "Spinach": "Bayam",

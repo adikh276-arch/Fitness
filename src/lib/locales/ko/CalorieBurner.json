@@ -16,11 +16,11 @@
       "selectActivity": "활동을 선택하세요",
       "weight": "당신의 몸무게",
       "duration": "소요 시간(분)",
-      "submit": "로그 활동",
       "placeholders": {
         "weightKg": "예: 70",
         "weightLbs": "예: 154"
-      }
+      },
+      "submit": "로그 활동"
     },
     "summary": {
       "title": "연소 요약",

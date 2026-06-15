@@ -151,7 +151,13 @@
     }
   },
   "benefits": {
-    "title": "Perché lo stretching quotidiano è importante"
+    "title": "Perché lo stretching quotidiano è importante",
+    "items": [
+      "Riduce il rischio di lesioni fino al 50%",
+      "Migliora le prestazioni atletiche",
+      "Allevia la tensione muscolare e lo stress",
+      "Migliora la circolazione sanguigna"
+    ]
   },
   "tests": {
     "status": {
@@ -185,7 +191,13 @@
       }
     },
     "tips": {
-      "title": "Suggerimenti per i test"
+      "title": "Suggerimenti per i test",
+      "list": [
+        "Eseguire i test dopo un leggero riscaldamento, non a freddo",
+        "Ripetere il test ogni 2-4 settimane per monitorare i progressi",
+        "Concentrati sulle aree che necessitano di lavoro con stretching mirato",
+        "Consultare un professionista per limitazioni persistenti"
+      ]
     },
     "actions": {
       "pass": "✓ Passa",

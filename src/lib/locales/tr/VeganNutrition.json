@@ -61,22 +61,48 @@
       "b12": {
         "name": "B12 Vitamini",
         "importance": "Sinir fonksiyonu ve DNA sentezi için kritik",
-        "dosage": "Günlük 2,4 mcg"
+        "dosage": "Günlük 2,4 mcg",
+        "sources": [
+          "Güçlendirilmiş bitkisel süt",
+          "Besin mayası",
+          "B12 takviyeleri",
+          "Güçlendirilmiş tahıllar"
+        ]
       },
       "iron": {
         "name": "Demir ve Çinko",
         "importance": "Oksijen taşınması ve bağışıklık fonksiyonu için gereklidir",
-        "dosage": "Demir: 18mg, Çinko: Günlük 11mg"
+        "dosage": "Demir: 18mg, Çinko: Günlük 11mg",
+        "sources": [
+          "Kabak çekirdeği",
+          "Mercimek",
+          "Kaju fıstığı",
+          "Ispanak",
+          "Kinoa"
+        ]
       },
       "omega3": {
         "name": "Omega-3 (ALA)",
         "importance": "Beyin sağlığı ve antiinflamatuar",
-        "dosage": "Günlük 1.6g"
+        "dosage": "Günlük 1.6g",
+        "sources": [
+          "Keten tohumu",
+          "Chia tohumları",
+          "Ceviz",
+          "Kenevir tohumları"
+        ]
       },
       "calcium": {
         "name": "Kalsiyum",
         "importance": "Kemik sağlığı ve kas fonksiyonu",
-        "dosage": "Günlük 1000mg"
+        "dosage": "Günlük 1000mg",
+        "sources": [
+          "Çin lahanası",
+          "Tahin",
+          "Güçlendirilmiş tofu",
+          "Lahana",
+          "Badem"
+        ]
       }
     }
   },

@@ -66,15 +66,17 @@
   "log": {
     "form": {
       "title": "Ghi nhật ký nhanh hôm nay",
+      "dateLabel": "Ngày:",
       "lastMeal": "Bữa ăn cuối cùng (Hôm qua):",
       "firstMeal": "Giờ ăn đầu tiên (Hôm nay):",
       "duration": "Tổng thời gian nhịn ăn",
       "goalAchieved": "Mục tiêu đã đạt được! Bạn đã hoàn thành việc nhịn ăn hơn 16 tiếng!",
-      "submit": "Ghi nhật ký nhanh",
-      "dateLabel": "Ngày:"
+      "submit": "Ghi nhật ký nhanh"
     },
     "tracker": {
       "title": "Chương trình tăng tốc 30 ngày",
+      "today": "hôm nay",
+      "dayLabel": "Ngày {{val}}",
       "streak": "Chuỗi trận hiện tại:",
       "streakDays": "{{count}} ngày",
       "last30": "30 ngày cuối cùng",
@@ -82,9 +84,7 @@
         "goalMet": "Mục tiêu đã đạt được (hơn 16 giờ)",
         "today": "Hôm nay",
         "missed": "Ngày nghỉ"
-      },
-      "today": "hôm nay",
-      "dayLabel": "Ngày {{val}}"
+      }
     },
     "recentFasts": {
       "title": "Những lần nhịn ăn gần đây",

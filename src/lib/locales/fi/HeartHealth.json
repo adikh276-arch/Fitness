@@ -7,7 +7,12 @@
   "alerts": {
     "crisis": {
       "title": "HYPERTENSIIVINEN KRIISI VAROITUS",
-      "desc": "Verenpainelukemasi on vaarallisen korkea (≥180/120). Tämä vaatii välitöntä lääkärinhoitoa."
+      "desc": "Verenpainelukemasi on vaarallisen korkea (≥180/120). Tämä vaatii välitöntä lääkärinhoitoa.",
+      "actions": [
+        "Soita 911 tai mene heti ensiapuun",
+        "Älä odota, laskeeko paineesi itsestään",
+        "Tämä voi johtaa aivohalvaukseen, sydänkohtaukseen tai elinvaurioon"
+      ]
     },
     "vitals": {
       "invalid": "Anna kelvolliset lukemat",
@@ -76,19 +81,34 @@
       "potassium": {
         "title": "Kalium teho",
         "limit": "4700 mg päivässä",
-        "source": "Kokonaisista ruoista"
+        "source": "Kokonaisista ruoista",
+        "foods": [
+          "Banaanit (422mg per medium)",
+          "Bataatit (540mg per medium)",
+          "Pinaatti (840mg per kuppi keitettynä)"
+        ]
       },
       "magnesium": {
         "title": "Magnesium & Kuitu",
         "limit": "500mg Mg / 25-35g Kuitua",
-        "target": "Päivittäiset tavoitteet"
+        "target": "Päivittäiset tavoitteet",
+        "foods": [
+          "Mantelit, cashewpähkinät, kurpitsansiemenet",
+          "Täysjyvävilja (kaura, kvinoa)",
+          "Palkokasvit ja tummat lehtivihreät"
+        ]
       }
     },
     "scanner": {
       "title": "⚠️ Piilotettu natriumskanneri: \"Sneaky Salt\" -ruoat",
       "subtitle": "Nämä näennäisesti viattomat ruoat sisältävät enemmän natriumia kuin luulet:",
       "swaps": {
-        "title": "💡 DASH-ystävälliset vaihdot:"
+        "title": "💡 DASH-ystävälliset vaihdot:",
+        "items": [
+          "Kotitekoinen keitto vähänatriumliemellä (200mg vs 800mg)",
+          "Paahdettua kananrintaa deli-lihan sijaan (70mg vs 520mg)",
+          "Tuoreet vihannekset purkkien sijaan (5mg vs 300mg)"
+        ]
       }
     }
   },
@@ -125,7 +145,13 @@
       }
     },
     "tips": {
-      "title": "Sydämen terveyden perusasiat"
+      "title": "Sydämen terveyden perusasiat",
+      "items": [
+        "<strong>Vyöhykkeen 2 kardio:</strong> Harjoittele maksimisykkeellä 60–70 % (voit silti keskustella)",
+        "<strong>Kalium auttaa huuhtomaan natriumia:</strong> Pyri saamaan 4 700 mg päivässä kokonaisista ruoista",
+        "<strong>Johdonmukaisuus > intensiteetti:</strong> päivittäiset kävelyt päihittävät satunnaiset intensiiviset harjoitukset sydämen terveydelle",
+        "<strong>Seuraa samanaikaisesti:</strong> Tarkista verenpaine aamulla tarkimpien lukemien saamiseksi"
+      ]
     }
   },
   "foods": {

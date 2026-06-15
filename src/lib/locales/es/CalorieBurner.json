@@ -16,11 +16,11 @@
       "selectActivity": "Seleccionar actividad",
       "weight": "Tu peso",
       "duration": "Duración (minutos)",
-      "submit": "Registrar actividad",
       "placeholders": {
         "weightKg": "p. ej., 70",
         "weightLbs": "p. ej., 154"
-      }
+      },
+      "submit": "Registrar actividad"
     },
     "summary": {
       "title": "Resumen de quemaduras",

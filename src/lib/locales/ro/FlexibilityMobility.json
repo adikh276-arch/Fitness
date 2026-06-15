@@ -151,7 +151,13 @@
     }
   },
   "benefits": {
-    "title": "De ce este importantă întinderea zilnică"
+    "title": "De ce este importantă întinderea zilnică",
+    "items": [
+      "Reduce riscul de accidentare cu până la 50%",
+      "Îmbunătățește performanța atletică",
+      "Ameliorează tensiunea musculară și stresul",
+      "Îmbunătățește circulația sângelui"
+    ]
   },
   "tests": {
     "status": {
@@ -185,7 +191,13 @@
       }
     },
     "tips": {
-      "title": "Sfaturi de testare"
+      "title": "Sfaturi de testare",
+      "list": [
+        "Efectuați teste după o încălzire ușoară, nu rece",
+        "Retestați la fiecare 2-4 săptămâni pentru a urmări progresul",
+        "Concentrați-vă pe zonele care necesită lucru cu întindere țintită",
+        "Consultați un profesionist pentru limitări persistente"
+      ]
     },
     "actions": {
       "pass": "✓ Treci",

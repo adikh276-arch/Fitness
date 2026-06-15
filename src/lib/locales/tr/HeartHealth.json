@@ -7,7 +7,12 @@
   "alerts": {
     "crisis": {
       "title": "HİPERTANSİF KRİZ UYARISI",
-      "desc": "Kan basıncınız tehlikeli derecede yüksek (≥180/120). Bu acil tıbbi müdahale gerektirir."
+      "desc": "Kan basıncınız tehlikeli derecede yüksek (≥180/120). Bu acil tıbbi müdahale gerektirir.",
+      "actions": [
+        "911'i arayın veya hemen acil servise gidin",
+        "Basınçınızın kendiliğinden düşüp düşmeyeceğini görmek için beklemeyin",
+        "Bu felç, kalp krizi veya organ hasarına yol açabilir"
+      ]
     },
     "vitals": {
       "invalid": "Lütfen geçerli okuma değerlerini girin",
@@ -76,19 +81,34 @@
       "potassium": {
         "title": "Potasyum Gücü",
         "limit": "Günde 4.700 mg",
-        "source": "Bütün gıdalardan"
+        "source": "Bütün gıdalardan",
+        "foods": [
+          "Muz (orta boy başına 422 mg)",
+          "Tatlı Patates (orta boy başına 540 mg)",
+          "Ispanak (pişirilmiş fincan başına 840 mg)"
+        ]
       },
       "magnesium": {
         "title": "Magnezyum ve Lif",
         "limit": "500mg Mg / 25-35g Lif",
-        "target": "Günlük hedefler"
+        "target": "Günlük hedefler",
+        "foods": [
+          "Badem, kaju fıstığı, kabak çekirdeği",
+          "Tam tahıllar (yulaf, kinoa)",
+          "Baklagiller ve koyu yeşil yapraklı sebzeler"
+        ]
       }
     },
     "scanner": {
       "title": "⚠️ Gizli Sodyum Tarayıcı: \"Sinsi Tuzlu\" Yiyecekler",
       "subtitle": "Bu görünüşte masum yiyecekler düşündüğünüzden daha fazla sodyum içerir:",
       "swaps": {
-        "title": "💡 DASH Dostu Takaslar:"
+        "title": "💡 DASH Dostu Takaslar:",
+        "items": [
+          "Düşük sodyumlu et suyu ile ev yapımı çorba (200mg vs 800mg)",
+          "Şarküteri eti yerine kavrulmuş tavuk göğsü (70mg vs 520mg)",
+          "Konserve yerine taze sebzeler (5mg vs 300mg)"
+        ]
       }
     }
   },
@@ -125,7 +145,13 @@
       }
     },
     "tips": {
-      "title": "Kalp Sağlığının Temelleri"
+      "title": "Kalp Sağlığının Temelleri",
+      "items": [
+        "<strong>Bölge 2 kardiyo:</strong> Maksimum %60-70 kalp atış hızında egzersiz yapın (yine de sohbet edebilirsiniz)",
+        "<strong>Potasyum, sodyumun vücuttan atılmasına yardımcı olur:</strong> Tam gıdalardan günde 4.700 mg almayı hedefleyin",
+        "<strong>Tutarlılık > yoğunluk:</strong> Kalp sağlığı için günlük yürüyüşler ara sıra yapılan yoğun egzersizlerden üstündür",
+        "<strong>Aynı anda izleyin:</strong> En doğru ölçümler için sabahları kan basıncını kontrol edin"
+      ]
     }
   },
   "foods": {

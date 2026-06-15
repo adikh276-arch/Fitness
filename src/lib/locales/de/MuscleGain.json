@@ -128,9 +128,9 @@
       "weight": "Gewicht (kg)",
       "totalVolume": "Gesamtvolumen",
       "remaining": "Verbleibend bis zum Tor",
+      "recentLifts": "Jüngste Aufzüge",
       "submit": "Protokollvolumen",
       "logged": "{{lift}} protokolliert: {{volume}}kg Gesamtvolumen!",
-      "recentLifts": "Jüngste Aufzüge",
       "placeholders": {
         "sets": "z.B. 4",
         "reps": "z.B. 8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "30-Tage-Gewohnheitsserie",
+      "tooltip": "Tag {{day}}: {{count}}/5 Gewohnheiten",
       "legend": {
         "perfect": "Perfekt (5/5)",
         "partial": "Teilweise",
         "none": "Unvollständig"
-      },
-      "tooltip": "Tag {{day}}: {{count}}/5 Gewohnheiten"
+      }
     }
   },
   "essentials": {

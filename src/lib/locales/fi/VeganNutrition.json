@@ -61,22 +61,48 @@
       "b12": {
         "name": "B12-vitamiini",
         "importance": "Kriittinen hermotoiminnalle ja DNA-synteesille",
-        "dosage": "2,4 mcg päivässä"
+        "dosage": "2,4 mcg päivässä",
+        "sources": [
+          "Vahvistettu kasvimaito",
+          "Ravitseva hiiva",
+          "B12 lisäravinteet",
+          "Vahvistetut viljat"
+        ]
       },
       "iron": {
         "name": "Rauta & Sinkki",
         "importance": "Välttämätön hapen kuljetukselle ja immuunitoiminnalle",
-        "dosage": "Rauta: 18 mg, sinkki: 11 mg päivässä"
+        "dosage": "Rauta: 18 mg, sinkki: 11 mg päivässä",
+        "sources": [
+          "Kurpitsan siemenet",
+          "Linssit",
+          "Cashewpähkinät",
+          "Pinaatti",
+          "Quinoa"
+        ]
       },
       "omega3": {
         "name": "Omega-3 (ALA)",
         "importance": "Aivojen terveyttä ja tulehdusta ehkäisevää",
-        "dosage": "1,6 g päivässä"
+        "dosage": "1,6 g päivässä",
+        "sources": [
+          "Pellavan siemenet",
+          "Chia siemenet",
+          "Saksanpähkinät",
+          "Hampun siemenet"
+        ]
       },
       "calcium": {
         "name": "Kalsium",
         "importance": "Luuston terveys ja lihasten toiminta",
-        "dosage": "1000mg päivässä"
+        "dosage": "1000mg päivässä",
+        "sources": [
+          "Bok choy",
+          "Tahini",
+          "Vahvistettu tofu",
+          "Lehtikaali",
+          "Mantelit"
+        ]
       }
     }
   },

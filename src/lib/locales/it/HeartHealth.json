@@ -7,7 +7,12 @@
   "alerts": {
     "crisis": {
       "title": "AVVISO DI CRISI IPERtensiva",
-      "desc": "La lettura della pressione sanguigna è pericolosamente alta (≥180/120). Ciò richiede cure mediche immediate."
+      "desc": "La lettura della pressione sanguigna è pericolosamente alta (≥180/120). Ciò richiede cure mediche immediate.",
+      "actions": [
+        "Chiama il 911 o vai immediatamente al pronto soccorso",
+        "Non aspettare per vedere se la tua pressione diminuisce da sola",
+        "Ciò può portare a ictus, infarto o danni agli organi"
+      ]
     },
     "vitals": {
       "invalid": "Inserisci letture valide",
@@ -76,19 +81,34 @@
       "potassium": {
         "title": "Potere del potassio",
         "limit": "4.700 mg al giorno",
-        "source": "Da cibi integrali"
+        "source": "Da cibi integrali",
+        "foods": [
+          "Banane (422 mg per mezzo)",
+          "Patate dolci (540 mg per mezzo)",
+          "Spinaci (840 mg per tazza cotta)"
+        ]
       },
       "magnesium": {
         "title": "Magnesio e fibre",
         "limit": "500 mg di mg / 25-35 g di fibre",
-        "target": "Obiettivi giornalieri"
+        "target": "Obiettivi giornalieri",
+        "foods": [
+          "Mandorle, anacardi, semi di zucca",
+          "Cereali integrali (avena, quinoa)",
+          "Legumi e verdure a foglia scura"
+        ]
       }
     },
     "scanner": {
       "title": "⚠️ Scanner nascosto del sodio: alimenti \"sale subdolo\".",
       "subtitle": "Questi alimenti apparentemente innocenti contengono più sodio di quanto pensi:",
       "swaps": {
-        "title": "💡 Swap compatibili con DASH:"
+        "title": "💡 Swap compatibili con DASH:",
+        "items": [
+          "Zuppa fatta in casa con brodo a basso contenuto di sodio (200 mg contro 800 mg)",
+          "Petto di pollo arrosto al posto del salume (70 mg contro 520 mg)",
+          "Verdura fresca anziché in scatola (5 mg contro 300 mg)"
+        ]
       }
     }
   },
@@ -125,7 +145,13 @@
       }
     },
     "tips": {
-      "title": "Elementi essenziali per la salute del cuore"
+      "title": "Elementi essenziali per la salute del cuore",
+      "items": [
+        "<strong>Cardio zona 2:</strong> esercizio al 60-70% della frequenza cardiaca massima (puoi comunque sostenere una conversazione)",
+        "<strong>Il potassio aiuta a eliminare il sodio:</strong> punta a 4.700 mg al giorno da cibi integrali",
+        "<strong>Coerenza > intensità:</strong> le passeggiate quotidiane battono gli allenamenti sporadici e intensi per la salute del cuore",
+        "<strong>Monitoraggio allo stesso tempo:</strong> controlla la pressione arteriosa al mattino per ottenere letture più accurate"
+      ]
     }
   },
   "foods": {

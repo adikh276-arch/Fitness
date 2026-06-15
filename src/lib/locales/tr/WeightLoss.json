@@ -45,11 +45,23 @@
       "title": "Gizli Faktörler",
       "hydration": {
         "title": "Hidrasyon",
-        "desc": "Doğru hidrasyon aşağıdakilere yardımcı olur:"
+        "desc": "Doğru hidrasyon aşağıdakilere yardımcı olur:",
+        "list": [
+          "İştahı düzenler",
+          "Metabolizmayı artırın",
+          "Su tutulmasını azaltın",
+          "Yağ oksidasyonunu destekleyin"
+        ]
       },
       "sleep": {
         "title": "Uyku (7+ Saat)",
-        "desc": "Kaliteli uyku şunları düzenler:"
+        "desc": "Kaliteli uyku şunları düzenler:",
+        "list": [
+          "Kortizol (stres hormonu)",
+          "Ghrelin ve leptin (açlık)",
+          "İnsülin duyarlılığı",
+          "Kurtarma ve enerji"
+        ]
       }
     }
   },

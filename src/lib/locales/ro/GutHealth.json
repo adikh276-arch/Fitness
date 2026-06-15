@@ -133,7 +133,13 @@
     }
   },
   "essentials": {
-    "title": "Elemente esențiale pentru sănătatea intestinală"
+    "title": "Elemente esențiale pentru sănătatea intestinală",
+    "items": [
+      "<strong>Fibrele sunt combustibil:</strong> bacteriile intestinale fermentează fibrele în acizi grași cu lanț scurt care reduc inflamația",
+      "<strong>Diversitatea contează cel mai mult:</strong> peste 30 de tipuri diferite de plante săptămânal creează un microbiom rezistent",
+      "<strong>Postul peste noapte:</strong> peste 12 ore între cină și micul dejun permite repararea barierei intestinale",
+      "<strong>Mestecați bine:</strong> digestia începe în gură - mestecarea corectă reduce balonarea și îmbunătățește absorbția nutrienților"
+    ]
   },
   "plants": {
     "Spinach": "Spanacul",

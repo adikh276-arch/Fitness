@@ -128,9 +128,9 @@
       "weight": "Ağırlık (kg)",
       "totalVolume": "Toplam Hacim",
       "remaining": "Gol için kalan",
+      "recentLifts": "Son Asansörler",
       "submit": "Günlük Hacmi",
       "logged": "{{lift}} kaydedildi: {{volume}}kg toplam hacim!",
-      "recentLifts": "Son Asansörler",
       "placeholders": {
         "sets": "örneğin 4",
         "reps": "örneğin 8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "30 Günlük Alışkanlık Serisi",
+      "tooltip": "Gün {{day}}: {{count}}/5 alışkanlık",
       "legend": {
         "perfect": "Mükemmel (5/5)",
         "partial": "Kısmi",
         "none": "Eksik"
-      },
-      "tooltip": "Gün {{day}}: {{count}}/5 alışkanlık"
+      }
     }
   },
   "essentials": {

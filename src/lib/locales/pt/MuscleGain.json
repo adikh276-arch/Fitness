@@ -128,9 +128,9 @@
       "weight": "Peso (kg)",
       "totalVolume": "Volume total",
       "remaining": "Restam poucos metros para o gol",
+      "recentLifts": "Elevadores recentes",
       "submit": "Volume de registro",
       "logged": "{{lift}} registrou: {{volume}}kg volume total!",
-      "recentLifts": "Elevadores recentes",
       "placeholders": {
         "sets": "Exemplo: 4",
         "reps": "Exemplo: 8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "Sequência de Hábitos de 30 Dias",
+      "tooltip": "Dia {{day}}: {{count}}/5 hábitos",
       "legend": {
         "perfect": "Perfeito (5/5)",
         "partial": "Parcial",
         "none": "Incompleto"
-      },
-      "tooltip": "Dia {{day}}: {{count}}/5 hábitos"
+      }
     }
   },
   "essentials": {

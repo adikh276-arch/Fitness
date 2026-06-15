@@ -61,22 +61,48 @@
       "b12": {
         "name": "Vitamina B12",
         "importance": "Esențial pentru funcția nervoasă și sinteza ADN-ului",
-        "dosage": "2,4 mcg pe zi"
+        "dosage": "2,4 mcg pe zi",
+        "sources": [
+          "Lapte vegetal fortificat",
+          "Drojdie nutritivă",
+          "suplimente de vitamina B12",
+          "Cereale fortificate"
+        ]
       },
       "iron": {
         "name": "Fier și zinc",
         "importance": "Esențial pentru transportul oxigenului și funcția imunitară",
-        "dosage": "Fier: 18 mg, Zinc: 11 mg pe zi"
+        "dosage": "Fier: 18 mg, Zinc: 11 mg pe zi",
+        "sources": [
+          "Seminte de dovleac",
+          "Linte",
+          "Caju",
+          "Spanacul",
+          "Quinoa"
+        ]
       },
       "omega3": {
         "name": "Omega-3 (ALA)",
         "importance": "Sănătatea creierului și antiinflamator",
-        "dosage": "1,6 g pe zi"
+        "dosage": "1,6 g pe zi",
+        "sources": [
+          "Semințe de in",
+          "Seminte de chia",
+          "Nuci",
+          "Semințe de cânepă"
+        ]
       },
       "calcium": {
         "name": "calciu",
         "importance": "Sănătatea oaselor și funcția musculară",
-        "dosage": "1000 mg pe zi"
+        "dosage": "1000 mg pe zi",
+        "sources": [
+          "Bok choy",
+          "Tahini",
+          "Tofu fortificat",
+          "Kale",
+          "Migdale"
+        ]
       }
     }
   },

@@ -128,9 +128,9 @@
       "weight": "Poids (kg)",
       "totalVolume": "Volume total",
       "remaining": "Restant à marquer",
+      "recentLifts": "Rénovations récentes",
       "submit": "Volume journalier",
       "logged": "{{lift}} enregistré : {{volume}}kg volume total !",
-      "recentLifts": "Rénovations récentes",
       "placeholders": {
         "sets": "par exemple, 4",
         "reps": "par exemple, 8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "Série de 30 jours d'habitudes",
+      "tooltip": "Jour {{day}} : {{count}}/5 habitudes",
       "legend": {
         "perfect": "Parfait (5/5)",
         "partial": "Partiel",
         "none": "Incomplet"
-      },
-      "tooltip": "Jour {{day}} : {{count}}/5 habitudes"
+      }
     }
   },
   "essentials": {

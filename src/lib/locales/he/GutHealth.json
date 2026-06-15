@@ -15,23 +15,23 @@
     "types": {
       "type1": {
         "label": "סוג 1",
-        "desc": "Severe constipation - Separate hard lumps"
+        "desc": "עצירות קשה - הפרידו גושים קשים"
       },
       "type2": {
         "label": "סוג 2",
-        "desc": "Mild constipation - Lumpy and sausage-like"
+        "desc": "עצירות קלה - גושי ודמוי נקניק"
       },
       "type3": {
         "label": "סוג 3",
-        "desc": "Normal - Sausage with cracks"
+        "desc": "רגיל - נקניק עם סדקים"
       },
       "type4": {
         "label": "סוג 4",
-        "desc": "Ideal - Smooth, soft sausage"
+        "desc": "אידיאלי - נקניק חלק רך"
       },
       "type5": {
         "label": "סוג 5",
-        "desc": "Lacking fiber - Soft blobs"
+        "desc": "חסר סיבים - כתמים רכים"
       },
       "type6": {
         "label": "סוג 6",
@@ -42,7 +42,7 @@
         "desc": "שלשול חמור - נוזלי"
       }
     },
-    "alert": "Please select a Bristol Stool Scale type"
+    "alert": "אנא בחר סוג סולם שרפרף בריסטול"
   },
   "symptoms": {
     "title": "תסמינים היום",
@@ -68,7 +68,7 @@
   },
   "log": {
     "submit": "רישום יומן",
-    "success": "Gut log saved successfully!",
+    "success": "יומן בטן נשמר בהצלחה!",
     "recent": {
       "title": "יומנים אחרונים",
       "trigger": "טריגר:"
@@ -77,17 +77,17 @@
   "microbiome": {
     "prebiotics": {
       "title": "פרביוטיקה",
-      "subtitle": "The Food for Your Gut Bacteria",
+      "subtitle": "המזון לחיידקי המעיים שלך",
       "desc": "פרה-ביוטיקה היא מזונות עשירים בסיבים המזינים את החיידקים המועילים במעיים, ועוזרים להם לשגשג ולהתרבות."
     },
     "probiotics": {
       "title": "פרוביוטיקה",
-      "subtitle": "The Live Beneficial Bacteria",
+      "subtitle": "החיידקים המועילים החיים",
       "desc": "פרוביוטיקה היא מיקרואורגניזמים חיים המצויים במזונות מותססים ומוסיפים ישירות חיידקים מועילים למעי שלך."
     }
   },
   "diversity": {
-    "title": "The 30 Plants a Week Challenge",
+    "title": "אתגר 30 הצמחים בשבוע",
     "subtitle": "מחקרים מראים שאכילת 30+ צמחים שונים בשבוע תומכת במגוון מעיים אופטימלי",
     "score_label": "/ 30 צמחים",
     "weekly_score": "ציון גיוון שבועי",
@@ -104,25 +104,25 @@
     "items": {
       "fiber": {
         "label": "25 גרם+ סיבים נצרכו",
-        "desc": "From whole grains, fruits, and vegetables"
+        "desc": "מדגנים מלאים, פירות וירקות"
       },
       "fermented": {
-        "label": "Included 1 Fermented Food",
-        "desc": "Kimchi, yogurt, kefir, or sauerkraut"
+        "label": "כולל 1 מזון מותסס",
+        "desc": "קמחי, יוגורט, קפיר או כרוב כבוש"
       },
       "mindful": {
-        "label": "Mindful Eating (20+ Chews)",
-        "desc": "Proper chewing aids digestion"
+        "label": "אכילה מודעת (20+ לעיסות)",
+        "desc": "לעיסה נכונה מסייעת לעיכול"
       },
       "fast": {
-        "label": "12-Hour Overnight Gut Rest",
-        "desc": "Fasting window allows gut repair"
+        "label": "מנוחת לילה של 12 שעות",
+        "desc": "חלון צום מאפשר תיקון מעיים"
       }
     }
   },
   "tracker": {
     "title": "מעקב הרגלים ל-30 יום",
-    "tooltip": "Day {{dayNum}}: {{count}}/4 habits",
+    "tooltip": "יום {{dayNum}}: {{count}}/4 הרגלים",
     "legend": {
       "none": "אין",
       "one": "1",
@@ -133,7 +133,13 @@
     }
   },
   "essentials": {
-    "title": "יסודות בריאות המעיים"
+    "title": "יסודות בריאות המעיים",
+    "items": [
+      "<strong>סיבים הם דלק:</strong> חיידקי המעי שלך מתסיסים סיבים לחומצות שומן קצרות שרשרת המפחיתות דלקת",
+      "<strong>הגיוון הכי חשוב:</strong> 30+ סוגי צמחים שונים מדי שבוע יוצרים מיקרוביום גמיש",
+      "<strong>צום לילה:</strong> 12+ שעות בין ארוחת הערב לארוחת הבוקר מאפשר תיקון מחסום המעיים",
+      "<strong>לעיסה ביסודיות:</strong> העיכול מתחיל בפה - לעיסה נכונה מפחיתה נפיחות ומשפרת את ספיגת החומרים המזינים"
+    ]
   },
   "plants": {
     "Spinach": "תרד",

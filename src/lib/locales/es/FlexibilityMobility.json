@@ -151,7 +151,13 @@
     }
   },
   "benefits": {
-    "title": "Por qué es importante el estiramiento diario"
+    "title": "Por qué es importante el estiramiento diario",
+    "items": [
+      "Reduce el riesgo de lesiones hasta en un 50%.",
+      "Mejora el rendimiento deportivo",
+      "Alivia la tensión muscular y el estrés.",
+      "Mejora la circulación sanguínea."
+    ]
   },
   "tests": {
     "status": {
@@ -185,7 +191,13 @@
       }
     },
     "tips": {
-      "title": "Consejos de prueba"
+      "title": "Consejos de prueba",
+      "list": [
+        "Realizar pruebas después de un ligero calentamiento, no frío.",
+        "Vuelva a realizar la prueba cada 2 a 4 semanas para realizar un seguimiento del progreso",
+        "Concéntrese en las áreas que necesitan trabajar con estiramientos específicos",
+        "Consulte a un profesional si presenta limitaciones persistentes."
+      ]
     },
     "actions": {
       "pass": "✓ Pase",

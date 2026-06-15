@@ -61,22 +61,48 @@
       "b12": {
         "name": "Bitamina B12",
         "importance": "Kritikal para sa nerve function at DNA synthesis",
-        "dosage": "2.4 mcg araw-araw"
+        "dosage": "2.4 mcg araw-araw",
+        "sources": [
+          "Pinatibay na gatas ng halaman",
+          "Nutritional yeast",
+          "Mga suplemento ng B12",
+          "Mga pinatibay na cereal"
+        ]
       },
       "iron": {
         "name": "Bakal at Zinc",
         "importance": "Mahalaga para sa transportasyon ng oxygen at immune function",
-        "dosage": "Iron: 18mg, Zinc: 11mg araw-araw"
+        "dosage": "Iron: 18mg, Zinc: 11mg araw-araw",
+        "sources": [
+          "Mga buto ng kalabasa",
+          "Mga lentil",
+          "kasoy",
+          "kangkong",
+          "Quinoa"
+        ]
       },
       "omega3": {
         "name": "Omega-3 (ALA)",
         "importance": "Kalusugan ng utak at anti-namumula",
-        "dosage": "1.6g araw-araw"
+        "dosage": "1.6g araw-araw",
+        "sources": [
+          "Mga buto ng flax",
+          "Mga buto ng chia",
+          "Mga nogales",
+          "Mga buto ng abaka"
+        ]
       },
       "calcium": {
         "name": "Kaltsyum",
         "importance": "Kalusugan ng buto at paggana ng kalamnan",
-        "dosage": "1000mg araw-araw"
+        "dosage": "1000mg araw-araw",
+        "sources": [
+          "Bok choy",
+          "Tahini",
+          "Pinatibay na tokwa",
+          "Kale",
+          "Almendras"
+        ]
       }
     }
   },

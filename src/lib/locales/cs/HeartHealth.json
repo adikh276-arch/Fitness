@@ -7,7 +7,12 @@
   "alerts": {
     "crisis": {
       "title": "HYPERTENZIVNÍ VAROVÁNÍ KRIZE",
-      "desc": "Váš krevní tlak je nebezpečně vysoký (≥180/120). To vyžaduje okamžitou lékařskou pomoc."
+      "desc": "Váš krevní tlak je nebezpečně vysoký (≥180/120). To vyžaduje okamžitou lékařskou pomoc.",
+      "actions": [
+        "Zavolejte 911 nebo okamžitě jděte na pohotovost",
+        "Nečekejte, až se vám tlak sníží sám od sebe",
+        "To může vést k mrtvici, srdečnímu infarktu nebo poškození orgánů"
+      ]
     },
     "vitals": {
       "invalid": "Zadejte prosím platné hodnoty",
@@ -76,19 +81,34 @@
       "potassium": {
         "title": "Síla draslíku",
         "limit": "4 700 mg denně",
-        "source": "Z celých potravin"
+        "source": "Z celých potravin",
+        "foods": [
+          "Banány (422 mg na médium)",
+          "Sladké brambory (540 mg na médium)",
+          "Špenát (840 mg na vařený šálek)"
+        ]
       },
       "magnesium": {
         "title": "Hořčík a vláknina",
         "limit": "500 mg Mg / 25-35 g vlákniny",
-        "target": "Denní cíle"
+        "target": "Denní cíle",
+        "foods": [
+          "Mandle, kešu, dýňová semínka",
+          "Celá zrna (oves, quinoa)",
+          "Luštěniny a tmavá listová zelenina"
+        ]
       }
     },
     "scanner": {
       "title": "⚠️ Skrytý sodíkový skener: Potraviny „záludné soli“.",
       "subtitle": "Tyto zdánlivě nevinné potraviny obsahují více sodíku, než si myslíte:",
       "swaps": {
-        "title": "💡 DASH-Friendly swapy:"
+        "title": "💡 DASH-Friendly swapy:",
+        "items": [
+          "Domácí polévka s vývarem s nízkým obsahem sodíku (200 mg vs 800 mg)",
+          "Pečená kuřecí prsa místo lahůdkového masa (70 mg vs 520 mg)",
+          "Čerstvá zelenina místo konzervy (5 mg oproti 300 mg)"
+        ]
       }
     }
   },
@@ -125,7 +145,13 @@
       }
     },
     "tips": {
-      "title": "Základy zdraví srdce"
+      "title": "Základy zdraví srdce",
+      "items": [
+        "<strong>Kardio zóna 2:</strong> Cvičte při maximální tepové frekvenci 60–70 % (stále můžete konverzovat)",
+        "<strong>Draslík pomáhá vyplavovat sodík:</strong> Zaměřte se na 4 700 mg denně z celých potravin",
+        "<strong>Konzistence > intenzita:</strong> Každodenní procházky překonávají sporadické intenzivní cvičení pro zdraví srdce",
+        "<strong>Současné monitorování:</strong> Kontrolujte krevní tlak ráno, abyste získali nejpřesnější hodnoty"
+      ]
     }
   },
   "foods": {

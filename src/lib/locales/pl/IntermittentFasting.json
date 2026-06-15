@@ -66,15 +66,17 @@
   "log": {
     "form": {
       "title": "Zapisz dzisiejszy post",
+      "dateLabel": "Data:",
       "lastMeal": "Ostatni posiłek (wczoraj):",
       "firstMeal": "Czas pierwszego posiłku (dzisiaj):",
       "duration": "Całkowity czas postu",
       "goalAchieved": "Cel osiągnięty! Ukończyłeś ponad 16-godzinny post!",
-      "submit": "Zaloguj się szybko",
-      "dateLabel": "Data:"
+      "submit": "Zaloguj się szybko"
     },
     "tracker": {
       "title": "30-dniowy szybki tracker",
+      "today": "Dzisiaj",
+      "dayLabel": "Dzień {{val}}",
       "streak": "Aktualna passa:",
       "streakDays": "{{count}} dni",
       "last30": "Ostatnie 30 dni",
@@ -82,9 +84,7 @@
         "goalMet": "Cel osiągnięty (16+ godz.)",
         "today": "Dzisiaj",
         "missed": "Pominięty dzień"
-      },
-      "today": "Dzisiaj",
-      "dayLabel": "Dzień {{val}}"
+      }
     },
     "recentFasts": {
       "title": "Ostatnie posty",

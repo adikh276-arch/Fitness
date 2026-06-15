@@ -66,15 +66,17 @@
   "log": {
     "form": {
       "title": "Protokolliere das heutige Fasten",
+      "dateLabel": "Datum:",
       "lastMeal": "Letzte Mahlzeit (gestern):",
       "firstMeal": "Erste Mahlzeit (heute):",
       "duration": "Gesamte Fastendauer",
       "goalAchieved": "Ziel erreicht! Du hast ein Fasten von über 16 Stunden erfolgreich absolviert!",
-      "submit": "Protokollieren Sie dies schnell",
-      "dateLabel": "Datum:"
+      "submit": "Protokollieren Sie dies schnell"
     },
     "tracker": {
       "title": "30-Tage-Schnelltest",
+      "today": "Heute",
+      "dayLabel": "Tag {{val}}",
       "streak": "Aktuelle Siegesserie:",
       "streakDays": "{{count}} Tage",
       "last30": "Letzte 30 Tage",
@@ -82,9 +84,7 @@
         "goalMet": "Ziel erreicht (16+ Std.)",
         "today": "Heute",
         "missed": "Verpasster Tag"
-      },
-      "today": "Heute",
-      "dayLabel": "Tag {{val}}"
+      }
     },
     "recentFasts": {
       "title": "Aktuelle Fasten",

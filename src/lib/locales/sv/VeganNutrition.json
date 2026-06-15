@@ -61,22 +61,48 @@
       "b12": {
         "name": "Vitamin B12",
         "importance": "Kritisk för nervfunktion och DNA-syntes",
-        "dosage": "2,4 mcg dagligen"
+        "dosage": "2,4 mcg dagligen",
+        "sources": [
+          "Förstärkt växtmjölk",
+          "Näringsjäst",
+          "B12-tillskott",
+          "Förstärkta spannmål"
+        ]
       },
       "iron": {
         "name": "Järn & Zink",
         "importance": "Viktigt för syretransport och immunförsvar",
-        "dosage": "Järn: 18mg, Zink: 11mg dagligen"
+        "dosage": "Järn: 18mg, Zink: 11mg dagligen",
+        "sources": [
+          "Pumpafrön",
+          "Linser",
+          "Cashewnötter",
+          "Spenat",
+          "Quinoa"
+        ]
       },
       "omega3": {
         "name": "Omega-3 (ALA)",
         "importance": "Hjärnhälsa och antiinflammatorisk",
-        "dosage": "1,6g dagligen"
+        "dosage": "1,6g dagligen",
+        "sources": [
+          "Linfrön",
+          "Chiafrön",
+          "Valnötter",
+          "Hampa frön"
+        ]
       },
       "calcium": {
         "name": "Kalcium",
         "importance": "Benhälsa och muskelfunktion",
-        "dosage": "1000mg dagligen"
+        "dosage": "1000mg dagligen",
+        "sources": [
+          "Bok choy",
+          "Tahini",
+          "Förstärkt tofu",
+          "Grönkål",
+          "Mandel"
+        ]
       }
     }
   },

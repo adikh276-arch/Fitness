@@ -133,7 +133,13 @@
     }
   },
   "essentials": {
-    "title": "Suoliston terveyden välttämättömyydet"
+    "title": "Suoliston terveyden välttämättömyydet",
+    "items": [
+      "<strong>Kuitu on polttoainetta:</strong> Suolistobakteerisi fermentoivat kuidun lyhytketjuisiksi rasvahapoiksi, jotka vähentävät tulehdusta",
+      "<strong>Monimuotoisuus on tärkeintä:</strong> yli 30 eri kasvityyppiä viikossa luo kestävän mikrobiomin",
+      "<strong>Yön paasto:</strong> 12+ tuntia päivällisen ja aamiaisen välillä mahdollistaa suoliston esteen korjaamisen",
+      "<strong>Pueskelu perusteellisesti:</strong> Ruoansulatus alkaa suussa – oikea pureskelu vähentää turvotusta ja parantaa ravinteiden imeytymistä"
+    ]
   },
   "plants": {
     "Spinach": "Pinaatti",

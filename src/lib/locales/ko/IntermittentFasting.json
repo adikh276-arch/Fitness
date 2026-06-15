@@ -66,15 +66,17 @@
   "log": {
     "form": {
       "title": "오늘의 금식 기록",
+      "dateLabel": "날짜:",
       "lastMeal": "어제 마지막 식사 시간:",
       "firstMeal": "오늘 첫 식사 시간:",
       "duration": "총 단식 시간",
       "goalAchieved": "목표 달성! 16시간 이상 단식을 성공적으로 마쳤습니다!",
-      "submit": "빨리 기록하세요",
-      "dateLabel": "날짜:"
+      "submit": "빨리 기록하세요"
     },
     "tracker": {
       "title": "30일 속성 트래커",
+      "today": "오늘",
+      "dayLabel": "일 {{val}}",
       "streak": "현재 연속 기록:",
       "streakDays": "{{count}}일",
       "last30": "지난 30일",
@@ -82,9 +84,7 @@
         "goalMet": "목표 달성 (16시간 이상)",
         "today": "오늘",
         "missed": "결석일"
-      },
-      "today": "오늘",
-      "dayLabel": "일 {{val}}"
+      }
     },
     "recentFasts": {
       "title": "최근 단식",

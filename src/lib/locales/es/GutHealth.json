@@ -133,7 +133,13 @@
     }
   },
   "essentials": {
-    "title": "Esenciales para la salud intestinal"
+    "title": "Esenciales para la salud intestinal",
+    "items": [
+      "<strong>La fibra es combustible:</strong> las bacterias intestinales fermentan la fibra y la convierten en ácidos grasos de cadena corta que reducen la inflamación.",
+      "<strong>La diversidad es lo más importante:</strong> más de 30 tipos de plantas diferentes cada semana crean un microbioma resistente",
+      "<strong>Ayuno nocturno:</strong> más de 12 horas entre la cena y el desayuno permiten reparar la barrera intestinal",
+      "<strong>Mastique bien:</strong> la digestión comienza en la boca: la masticación adecuada reduce la hinchazón y mejora la absorción de nutrientes."
+    ]
   },
   "plants": {
     "Spinach": "espinacas",

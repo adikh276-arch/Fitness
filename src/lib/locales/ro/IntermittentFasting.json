@@ -66,15 +66,17 @@
   "log": {
     "form": {
       "title": "Înregistrați postul de astăzi",
+      "dateLabel": "Data:",
       "lastMeal": "Ultima oră de masă (ieri):",
       "firstMeal": "Prima masă (astăzi):",
       "duration": "Durata totală a postului",
       "goalAchieved": "Obiectiv atins! Ai terminat un post de peste 16 ore!",
-      "submit": "Înregistrează asta rapid",
-      "dateLabel": "Data:"
+      "submit": "Înregistrează asta rapid"
     },
     "tracker": {
       "title": "Urmărire rapidă de 30 de zile",
+      "today": "Astăzi",
+      "dayLabel": "Ziua {{val}}",
       "streak": "Seria curentă:",
       "streakDays": "{{count}} zile",
       "last30": "Ultimele 30 de zile",
@@ -82,9 +84,7 @@
         "goalMet": "Obiectiv atins (16+ ore)",
         "today": "Astăzi",
         "missed": "Ziua ratată"
-      },
-      "today": "Astăzi",
-      "dayLabel": "Ziua {{val}}"
+      }
     },
     "recentFasts": {
       "title": "Posturi recente",

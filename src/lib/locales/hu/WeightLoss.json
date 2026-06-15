@@ -45,11 +45,23 @@
       "title": "A rejtett tényezők",
       "hydration": {
         "title": "Hidratálás",
-        "desc": "A megfelelő hidratálás segít:"
+        "desc": "A megfelelő hidratálás segít:",
+        "list": [
+          "Szabályozza az étvágyat",
+          "Fokozza az anyagcserét",
+          "Csökkentse a vízvisszatartást",
+          "Támogatja a zsírok oxidációját"
+        ]
       },
       "sleep": {
         "title": "Alvás (7+ óra)",
-        "desc": "A minőségi alvás szabályozza:"
+        "desc": "A minőségi alvás szabályozza:",
+        "list": [
+          "Kortizol (stressz hormon)",
+          "Ghrelin és leptin (éhség)",
+          "Inzulinérzékenység",
+          "Gyógyulás és energia"
+        ]
       }
     }
   },

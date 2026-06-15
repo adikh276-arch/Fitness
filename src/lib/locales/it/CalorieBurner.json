@@ -16,11 +16,11 @@
       "selectActivity": "Seleziona l'attività",
       "weight": "Il tuo peso",
       "duration": "Durata (minuti)",
-      "submit": "Registra attività",
       "placeholders": {
         "weightKg": "ad esempio, 70",
         "weightLbs": "ad esempio, 154"
-      }
+      },
+      "submit": "Registra attività"
     },
     "summary": {
       "title": "Riepilogo delle ustioni",

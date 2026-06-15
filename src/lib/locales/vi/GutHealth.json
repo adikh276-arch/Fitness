@@ -133,7 +133,13 @@
     }
   },
   "essentials": {
-    "title": "Yếu tố cần thiết cho sức khỏe đường ruột"
+    "title": "Yếu tố cần thiết cho sức khỏe đường ruột",
+    "items": [
+      "<strong>Chất xơ là nhiên liệu:</strong> Vi khuẩn đường ruột của bạn lên men chất xơ thành axit béo chuỗi ngắn giúp giảm viêm",
+      "<strong>Sự đa dạng quan trọng nhất:</strong> Hơn 30 loại thực vật khác nhau hàng tuần tạo ra một hệ vi sinh vật có khả năng phục hồi",
+      "<strong>Nhịn ăn qua đêm:</strong> Hơn 12 giờ giữa bữa tối và bữa sáng giúp sửa chữa hàng rào ruột",
+      "<strong>Nhai kỹ:</strong> Quá trình tiêu hóa bắt đầu từ miệng - nhai đúng cách giúp giảm đầy hơi và cải thiện khả năng hấp thụ chất dinh dưỡng"
+    ]
   },
   "plants": {
     "Spinach": "rau chân vịt",

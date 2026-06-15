@@ -66,15 +66,17 @@
   "log": {
     "form": {
       "title": "Naplózza a mai böjtöt",
+      "dateLabel": "Dátum:",
       "lastMeal": "Utolsó étkezés időpontja (tegnap):",
       "firstMeal": "Első étkezés (ma):",
       "duration": "Teljes böjtölés időtartama",
       "goalAchieved": "Cél elérve! Teljesítettél egy több mint 16 órás böjtöt!",
-      "submit": "Naplózza ezt gyorsan",
-      "dateLabel": "Dátum:"
+      "submit": "Naplózza ezt gyorsan"
     },
     "tracker": {
       "title": "30 napos gyorskövető",
+      "today": "Ma",
+      "dayLabel": "{{val}}. nap",
       "streak": "Jelenlegi sorozat:",
       "streakDays": "{{count}} nap",
       "last30": "Utolsó 30 nap",
@@ -82,9 +84,7 @@
         "goalMet": "Cél teljesült (16+ óra)",
         "today": "Ma",
         "missed": "Elmulasztott nap"
-      },
-      "today": "Ma",
-      "dayLabel": "{{val}}. nap"
+      }
     },
     "recentFasts": {
       "title": "Legutóbbi böjtök",

@@ -128,9 +128,9 @@
       "weight": "Berat (kg)",
       "totalVolume": "Jumlah Isipadu",
       "remaining": "Kekal untuk Gol",
+      "recentLifts": "Lif Terkini",
       "submit": "Volum Log",
       "logged": "{{angkat}} direkodkan: {{volume}}kg jumlah isipadu!",
-      "recentLifts": "Lif Terkini",
       "placeholders": {
         "sets": "cth., 4",
         "reps": "cth., 8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "Rentetan Tabiat 30 Hari",
+      "tooltip": "Hari {{hari}}: {{count}}/5 tabiat",
       "legend": {
         "perfect": "Sempurna (5/5)",
         "partial": "Sebahagian",
         "none": "Tidak lengkap"
-      },
-      "tooltip": "Hari {{hari}}: {{count}}/5 tabiat"
+      }
     }
   },
   "essentials": {

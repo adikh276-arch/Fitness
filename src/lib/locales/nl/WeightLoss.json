@@ -45,11 +45,23 @@
       "title": "De verborgen factoren",
       "hydration": {
         "title": "Hydratatie",
-        "desc": "Een goede hydratatie helpt:"
+        "desc": "Een goede hydratatie helpt:",
+        "list": [
+          "Reguleer de eetlust",
+          "Verhoog de stofwisseling",
+          "Verminder het vasthouden van water",
+          "Ondersteuning van vetoxidatie"
+        ]
       },
       "sleep": {
         "title": "Slaap (7+ uur)",
-        "desc": "Kwaliteitsslaap reguleert:"
+        "desc": "Kwaliteitsslaap reguleert:",
+        "list": [
+          "Cortisol (stresshormoon)",
+          "Ghreline & leptine (honger)",
+          "Gevoeligheid voor insuline",
+          "Herstel & energie"
+        ]
       }
     }
   },

@@ -66,15 +66,17 @@
   "log": {
     "form": {
       "title": "记录今日快速",
+      "dateLabel": "日期：",
       "lastMeal": "昨日最后一餐时间：",
       "firstMeal": "今天第一餐时间：",
       "duration": "总禁食时间",
       "goalAchieved": "目标达成！你完成了超过16小时的禁食！",
-      "submit": "快速记录",
-      "dateLabel": "日期："
+      "submit": "快速记录"
     },
     "tracker": {
       "title": "30天快速追踪",
+      "today": "今天",
+      "dayLabel": "第 {{val}} 天",
       "streak": "当前连胜：",
       "streakDays": "{{count}} 天",
       "last30": "过去30天",
@@ -82,9 +84,7 @@
         "goalMet": "目标达成（16小时以上）",
         "today": "今天",
         "missed": "错过的一天"
-      },
-      "today": "今天",
-      "dayLabel": "第 {{val}} 天"
+      }
     },
     "recentFasts": {
       "title": "最近的斋戒",

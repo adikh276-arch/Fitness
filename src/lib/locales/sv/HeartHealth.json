@@ -7,7 +7,12 @@
   "alerts": {
     "crisis": {
       "title": "HYPERTENSIV KRISVARNING",
-      "desc": "Din blodtrycksavläsning är farligt hög (≥180/120). Detta kräver omedelbar läkarvård."
+      "desc": "Din blodtrycksavläsning är farligt hög (≥180/120). Detta kräver omedelbar läkarvård.",
+      "actions": [
+        "Ring 911 eller gå till akuten omedelbart",
+        "Vänta inte för att se om ditt tryck går ner av sig självt",
+        "Detta kan leda till stroke, hjärtinfarkt eller organskador"
+      ]
     },
     "vitals": {
       "invalid": "Vänligen ange giltiga avläsningar",
@@ -76,19 +81,34 @@
       "potassium": {
         "title": "Kaliumkraft",
         "limit": "4 700 mg per dag",
-        "source": "Från hela livsmedel"
+        "source": "Från hela livsmedel",
+        "foods": [
+          "Bananer (422mg per medium)",
+          "Sötpotatis (540 mg per medium)",
+          "Spenat (840 mg per kopp tillagad)"
+        ]
       },
       "magnesium": {
         "title": "Magnesium & Fiber",
         "limit": "500mg Mg / 25-35g Fiber",
-        "target": "Dagliga mål"
+        "target": "Dagliga mål",
+        "foods": [
+          "Mandel, cashewnötter, pumpafrön",
+          "Fullkorn (havre, quinoa)",
+          "Baljväxter och mörka bladgrönsaker"
+        ]
       }
     },
     "scanner": {
       "title": "⚠️ Hidden Sodium Scanner: \"Sneaky Salt\" livsmedel",
       "subtitle": "Dessa till synes oskyldiga livsmedel innehåller mer natrium än du tror:",
       "swaps": {
-        "title": "💡 DASH-vänliga byten:"
+        "title": "💡 DASH-vänliga byten:",
+        "items": [
+          "Hemlagad soppa med buljong med låg natriumhalt (200 mg mot 800 mg)",
+          "Stekt kycklingbröst istället för delikatesskött (70 mg mot 520 mg)",
+          "Färska grönsaker istället för konserverade (5mg vs 300mg)"
+        ]
       }
     }
   },
@@ -125,7 +145,13 @@
       }
     },
     "tips": {
-      "title": "Essentials för hjärthälsa"
+      "title": "Essentials för hjärthälsa",
+      "items": [
+        "<strong>Zon 2 cardio:</strong> Träna med 60-70 % maxpuls (du kan fortfarande hålla en konversation)",
+        "<strong>Kalium hjälper till att spola natrium:</strong> Sikta på 4 700 mg dagligen från hela livsmedel",
+        "<strong>Konsistens > intensitet:</strong> Dagliga promenader slår sporadiska intensiva träningspass för hjärthälsa",
+        "<strong>Övervaka samtidigt:</strong> Kontrollera blodtrycket på morgonen för de mest exakta avläsningarna"
+      ]
     }
   },
   "foods": {

@@ -151,7 +151,13 @@
     }
   },
   "benefits": {
-    "title": "Miksi päivittäinen venyttely on tärkeää"
+    "title": "Miksi päivittäinen venyttely on tärkeää",
+    "items": [
+      "Vähentää loukkaantumisriskiä jopa 50 %",
+      "Parantaa urheilullista suorituskykyä",
+      "Lievittää lihasjännitystä ja stressiä",
+      "Parantaa verenkiertoa"
+    ]
   },
   "tests": {
     "status": {
@@ -185,7 +191,13 @@
       }
     },
     "tips": {
-      "title": "Testausvinkkejä"
+      "title": "Testausvinkkejä",
+      "list": [
+        "Suorita testit kevyen lämmittelyn jälkeen, älä kylmänä",
+        "Testaa uudelleen 2–4 viikon välein edistymisen seuraamiseksi",
+        "Keskity alueille, jotka vaativat työtä kohdistetulla venyttelyllä",
+        "Pyydä asiantuntijaa pysyvistä rajoituksista"
+      ]
     },
     "actions": {
       "pass": "✓ Hyväksy",

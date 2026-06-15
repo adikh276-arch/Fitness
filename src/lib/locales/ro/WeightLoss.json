@@ -45,11 +45,23 @@
       "title": "Factorii ascunși",
       "hydration": {
         "title": "Hidratarea",
-        "desc": "Hidratarea adecvată ajută la:"
+        "desc": "Hidratarea adecvată ajută la:",
+        "list": [
+          "Reglați apetitul",
+          "Stimulează metabolismul",
+          "Reduce retenția de apă",
+          "Sprijină oxidarea grăsimilor"
+        ]
       },
       "sleep": {
         "title": "Somn (7+ ore)",
-        "desc": "Somnul de calitate reglează:"
+        "desc": "Somnul de calitate reglează:",
+        "list": [
+          "Cortizol (hormonul stresului)",
+          "Grelină și leptina (foame)",
+          "Sensibilitatea la insulină",
+          "Recuperare și energie"
+        ]
       }
     }
   },

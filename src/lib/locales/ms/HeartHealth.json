@@ -7,7 +7,12 @@
   "alerts": {
     "crisis": {
       "title": "AMARAN KRISIS HIPERTENSIF",
-      "desc": "Bacaan tekanan darah anda sangat tinggi (≥180/120). Ini memerlukan perhatian perubatan segera."
+      "desc": "Bacaan tekanan darah anda sangat tinggi (≥180/120). Ini memerlukan perhatian perubatan segera.",
+      "actions": [
+        "Hubungi 911 atau pergi ke bilik kecemasan dengan segera",
+        "Jangan tunggu untuk melihat jika tekanan anda turun dengan sendirinya",
+        "Ini boleh menyebabkan strok, serangan jantung, atau kerosakan organ"
+      ]
     },
     "vitals": {
       "invalid": "Sila masukkan bacaan yang sah",
@@ -76,19 +81,34 @@
       "potassium": {
         "title": "Kuasa Kalium",
         "limit": "4,700mg sehari",
-        "source": "Daripada makanan keseluruhan"
+        "source": "Daripada makanan keseluruhan",
+        "foods": [
+          "Pisang (422mg setiap medium)",
+          "Kentang Manis (540mg setiap medium)",
+          "Bayam (840mg setiap cawan dimasak)"
+        ]
       },
       "magnesium": {
         "title": "Magnesium & Serat",
         "limit": "500mg Mg / 25-35g Serat",
-        "target": "Sasaran harian"
+        "target": "Sasaran harian",
+        "foods": [
+          "Badam, gajus, biji labu",
+          "Bijirin penuh (oat, quinoa)",
+          "Kekacang dan sayur-sayuran berdaun gelap"
+        ]
       }
     },
     "scanner": {
       "title": "⚠️ Pengimbas Sodium Tersembunyi: Makanan \"Garam Licik\".",
       "subtitle": "Makanan yang kelihatan tidak bersalah ini membungkus lebih banyak natrium daripada yang anda fikirkan:",
       "swaps": {
-        "title": "💡 Pertukaran Mesra DASH:"
+        "title": "💡 Pertukaran Mesra DASH:",
+        "items": [
+          "Sup buatan sendiri dengan sup natrium rendah (200mg vs 800mg)",
+          "Dada ayam panggang dan bukannya daging deli (70mg vs 520mg)",
+          "Sayuran segar dan bukannya dalam tin (5mg vs 300mg)"
+        ]
       }
     }
   },
@@ -125,7 +145,13 @@
       }
     },
     "tips": {
-      "title": "Keperluan Kesihatan Jantung"
+      "title": "Keperluan Kesihatan Jantung",
+      "items": [
+        "<strong>Kardio Zon 2:</strong> Bersenam pada kadar denyutan jantung maksimum 60-70% (anda masih boleh mengadakan perbualan)",
+        "<strong>Kalium membantu menyiram natrium:</strong> Sasarkan untuk 4,700mg setiap hari daripada makanan keseluruhan",
+        "<strong>Ketekalan > keamatan:</strong> Berjalan setiap hari mengatasi senaman sengit sporadis untuk kesihatan jantung",
+        "<strong>Pantau pada masa yang sama:</strong> Semak BP pada waktu pagi untuk bacaan yang paling tepat"
+      ]
     }
   },
   "foods": {

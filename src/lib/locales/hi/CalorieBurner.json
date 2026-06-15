@@ -16,11 +16,11 @@
       "selectActivity": "गतिविधि का चयन करें",
       "weight": "आपका वज़न",
       "duration": "अवधि (मिनटों में)",
-      "submit": "लॉग गतिविधि",
       "placeholders": {
         "weightKg": "उदाहरण के लिए, 70",
         "weightLbs": "उदाहरण के लिए, 154"
-      }
+      },
+      "submit": "लॉग गतिविधि"
     },
     "summary": {
       "title": "जलने का सारांश",

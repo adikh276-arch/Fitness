@@ -133,7 +133,13 @@
     }
   },
   "essentials": {
-    "title": "Essentiële zaken voor darmgezondheid"
+    "title": "Essentiële zaken voor darmgezondheid",
+    "items": [
+      "<strong>Vezel is brandstof:</strong> Je darmbacteriën fermenteren vezels tot vetzuren met een korte keten die ontstekingen verminderen",
+      "<strong>Diversiteit is het belangrijkst:</strong> 30+ verschillende plantensoorten per week zorgen voor een veerkrachtig microbioom",
+      "<strong>Nachtelijk vasten:</strong> 12+ uur tussen het avondeten en het ontbijt zorgt voor herstel van de darmbarrière",
+      "<strong>Goed kauwen:</strong> de spijsvertering begint in de mond - goed kauwen vermindert een opgeblazen gevoel en verbetert de opname van voedingsstoffen"
+    ]
   },
   "plants": {
     "Spinach": "Spinazie",

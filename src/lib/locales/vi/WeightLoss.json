@@ -45,11 +45,23 @@
       "title": "Các yếu tố tiềm ẩn",
       "hydration": {
         "title": "Hydrat hóa",
-        "desc": "Hydrat hóa thích hợp giúp:"
+        "desc": "Hydrat hóa thích hợp giúp:",
+        "list": [
+          "Điều chỉnh sự thèm ăn",
+          "Tăng cường trao đổi chất",
+          "Giảm khả năng giữ nước",
+          "Hỗ trợ quá trình oxy hóa chất béo"
+        ]
       },
       "sleep": {
         "title": "Ngủ (hơn 7 giờ)",
-        "desc": "Chất lượng giấc ngủ điều hòa:"
+        "desc": "Chất lượng giấc ngủ điều hòa:",
+        "list": [
+          "Cortisol (hormone căng thẳng)",
+          "Ghrelin & leptin (đói)",
+          "Độ nhạy insulin",
+          "Phục hồi & năng lượng"
+        ]
       }
     }
   },

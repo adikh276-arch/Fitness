@@ -1,7 +1,7 @@
 {
   "header": {
     "title": "Fleksibilitet og mobilitet",
-    "subtitle": "Improve range of motion and prevent injuries",
+    "subtitle": "Forbedre bevægelsesområdet og forebygge skader",
     "back": "Tilbage til Dashboard"
   },
   "tabs": {
@@ -10,22 +10,22 @@
     "log": "Gendannelseslog"
   },
   "player": {
-    "stretch": "Stretch {{current}} of {{total}}",
+    "stretch": "Stræk {{current}} af {{total}}",
     "resume": "Genoptag",
     "pause": "Pause",
     "skip": "Spring over",
     "cancel": "Annuller",
     "bilateral_hint": "💡 Husk at skifte side, når timeren slutter",
     "preview": {
-      "stretches_count": "{{count}} Stretches ({{duration}} min total):",
-      "start": "Start {{duration}}-Min Routine",
+      "stretches_count": "{{count}} strækninger ({{duration}} min i alt):",
+      "start": "Start {{duration}}-Min rutine",
       "cancel": "Annuller"
     },
     "complete": {
       "title": "Rutine gennemført!",
-      "desc": "Great job completing {{name}}!",
-      "rate_label": "Feel Better? Rate your improvement: {{rating}}/10",
-      "worse": "Worse",
+      "desc": "Godt stykke arbejde med at fuldføre {{name}}!",
+      "rate_label": "Har du det bedre? Bedøm din forbedring: {{rating}}/10",
+      "worse": "Værre",
       "same": "Samme",
       "much_better": "Meget bedre",
       "save": "Gem session",
@@ -35,8 +35,8 @@
   "routines": {
     "upper-body": {
       "name": "Overkrop åben",
-      "focus": "Chest, Shoulders, Mid-Back",
-      "desc": "Release tension from desk work and phone use",
+      "focus": "Bryst, skuldre, midt på ryggen",
+      "desc": "Slip spændinger fra skrivebordsarbejde og telefonbrug",
       "stretches": {
         "Doorway Chest Stretch": {
           "name": "Døråbningsbryststræk",
@@ -83,7 +83,7 @@
         },
         "Calf Stretch": {
           "name": "Kalvstræk",
-          "desc": "Step forward in lunge, keep back heel down to stretch calf."
+          "desc": "Træd frem i udfaldet, hold ryggen nede for at strække læggen."
         }
       }
     },
@@ -98,7 +98,7 @@
         },
         "Downward Dog": {
           "name": "Nedadgående hund",
-          "desc": "Hands and feet planted, hips high, forming an inverted V."
+          "desc": "Hænder og fødder plantet, hofter høje, danner et omvendt V."
         },
         "Child's Pose": {
           "name": "Barnets stilling",
@@ -125,7 +125,7 @@
     "dynamic-warmup": {
       "name": "Dynamisk opvarmning",
       "focus": "Aktivering før træning",
-      "desc": "Prepare your body before exercise",
+      "desc": "Forbered din krop før træning",
       "stretches": {
         "Leg Swings": {
           "name": "Bengynger",
@@ -133,11 +133,11 @@
         },
         "Arm Circles": {
           "name": "Arm cirkler",
-          "desc": "Small to large circles, forward and backward."
+          "desc": "Små til store cirkler, frem og tilbage."
         },
         "Torso Twists": {
           "name": "Torso Twists",
-          "desc": "Rotate upper body side to side with arms loose."
+          "desc": "Roter overkroppen side til side med armene løse."
         },
         "Walking Lunges": {
           "name": "Walking Lunges",
@@ -151,7 +151,13 @@
     }
   },
   "benefits": {
-    "title": "Hvorfor daglig udstrækning betyder noget"
+    "title": "Hvorfor daglig udstrækning betyder noget",
+    "items": [
+      "Reducerer risikoen for skader med op til 50 %",
+      "Forbedrer atletisk præstation",
+      "Lindrer muskelspændinger og stress",
+      "Forbedrer blodcirkulationen"
+    ]
   },
   "tests": {
     "status": {
@@ -173,7 +179,7 @@
       },
       "shoulder-pass": {
         "name": "Skuldergennemføring",
-        "desc": "Hold a band/stick, raise arms overhead and behind back",
+        "desc": "Hold et bånd/pind, løft armene over hovedet og bag ryggen",
         "pass": "Kan passere glat igennem",
         "fail": "Kan ikke fuldføre bevægelse"
       },
@@ -185,7 +191,13 @@
       }
     },
     "tips": {
-      "title": "Testtips"
+      "title": "Testtips",
+      "list": [
+        "Udfør test efter en let opvarmning, ikke kold",
+        "Gentest hver 2-4 uge for at spore fremskridt",
+        "Fokuser på områder, der skal arbejde med målrettet udstrækning",
+        "Kontakt en professionel for vedvarende begr��nsninger"
+      ]
     },
     "actions": {
       "pass": "✓ Bestå",
@@ -208,7 +220,7 @@
     },
     "badge": {
       "title": "Skadebevis!",
-      "desc": "You've completed {{count}} recovery sessions this week!"
+      "desc": "Du har gennemført {{count}} gendannelsessessioner i denne uge!"
     },
     "stats": {
       "total": "Samlede minutter",

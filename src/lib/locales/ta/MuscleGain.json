@@ -128,9 +128,9 @@
       "weight": "எடை (கிலோ)",
       "totalVolume": "மொத்த அளவு",
       "remaining": "கோலுக்காக மீதமுள்ளவை",
+      "recentLifts": "சமீபத்திய லிஃப்ட்",
       "submit": "பதிவு அளவு",
       "logged": "{{lift}} பதிவு செய்தது: மொத்த கன அளவு {{volume}} கிலோகிராம்!",
-      "recentLifts": "சமீபத்திய லிஃப்ட்",
       "placeholders": {
         "sets": "எ.கா., 4",
         "reps": "எ.கா., 8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "30-நாள் பழக்கத் தொடர்",
+      "tooltip": "நாள் {{day}}: {{count}}/5 பழக்கங்கள்",
       "legend": {
         "perfect": "சிறந்தது (5/5)",
         "partial": "பகுதி",
         "none": "முழுமையற்ற"
-      },
-      "tooltip": "நாள் {{day}}: {{count}}/5 பழக்கங்கள்"
+      }
     }
   },
   "essentials": {

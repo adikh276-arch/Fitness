@@ -16,11 +16,11 @@
       "selectActivity": "Aktivität auswählen",
       "weight": "Ihr Gewicht",
       "duration": "Dauer (Minuten)",
-      "submit": "Protokollaktivität",
       "placeholders": {
         "weightKg": "z.B. 70",
         "weightLbs": "z.B. 154"
-      }
+      },
+      "submit": "Protokollaktivität"
     },
     "summary": {
       "title": "Zusammenfassung der Verbrennung",

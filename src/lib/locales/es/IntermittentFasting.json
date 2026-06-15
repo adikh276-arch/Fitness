@@ -66,15 +66,17 @@
   "log": {
     "form": {
       "title": "Registra la comida rápida de hoy",
+      "dateLabel": "Fecha:",
       "lastMeal": "Última hora de la comida (ayer):",
       "firstMeal": "Primera comida (hoy):",
       "duration": "Duración total del ayuno",
       "goalAchieved": "¡Objetivo alcanzado! ¡Has completado un ayuno de más de 16 horas!",
-      "submit": "Registra esto rápidamente",
-      "dateLabel": "Fecha:"
+      "submit": "Registra esto rápidamente"
     },
     "tracker": {
       "title": "Programa de acceso rápido de 30 días",
+      "today": "Hoy",
+      "dayLabel": "Día {{val}}",
       "streak": "Racha actual:",
       "streakDays": "{{count}} días",
       "last30": "Últimos 30 días",
@@ -82,9 +84,7 @@
         "goalMet": "Objetivo alcanzado (más de 16 horas)",
         "today": "Hoy",
         "missed": "Día perdido"
-      },
-      "today": "Hoy",
-      "dayLabel": "Día {{val}}"
+      }
     },
     "recentFasts": {
       "title": "Ayunos recientes",

@@ -72,95 +72,76 @@ async function translateBatch(texts, targetLang) {
   return results;
 }
 
-// Flatten JSON
-function flattenObject(obj, prefix = '', res = {}) {
-  for (const key of Object.keys(obj)) {
-    const propName = prefix ? `${prefix}.${key}` : key;
-    if (typeof obj[key] === 'object' && obj[key] !== null && !Array.isArray(obj[key])) {
-      flattenObject(obj[key], propName, res);
-    } else {
-      res[propName] = obj[key];
+// Recursively get all paths to string values
+function getStringPaths(obj, currentPath = [], result = []) {
+  if (typeof obj === 'string') {
+    result.push({ path: currentPath, value: obj });
+  } else if (Array.isArray(obj)) {
+    for (let i = 0; i < obj.length; i++) {
+      getStringPaths(obj[i], [...currentPath, i], result);
     }
-  }
-  return res;
-}
-
-// Unflatten JSON
-function unflattenObject(data) {
-  const result = {};
-  for (const key of Object.keys(data)) {
-    const parts = key.split('.');
-    let current = result;
-    for (let i = 0; i < parts.length; i++) {
-      const part = parts[i];
-      if (i === parts.length - 1) {
-        current[part] = data[key];
-      } else {
-        current[part] = current[part] || {};
-        current = current[part];
-      }
+  } else if (typeof obj === 'object' && obj !== null) {
+    for (const key of Object.keys(obj)) {
+      getStringPaths(obj[key], [...currentPath, key], result);
     }
   }
   return result;
 }
 
-// Helper to translate array
-async function translateArray(arr, existingArr, targetLang) {
-  const results = [];
-  for (let i = 0; i < arr.length; i++) {
-    const item = arr[i];
-    const existingItem = existingArr && existingArr[i];
-    if (existingItem && existingItem !== '' && existingItem !== item) {
-      results.push(existingItem);
-    } else if (typeof item === 'string') {
-      results.push(await translateTextSingle(item, targetLang));
-    } else if (typeof item === 'object' && item !== null) {
-      results.push(await translateObjectHelper(item, existingItem || {}, targetLang));
-    } else {
-      results.push(item);
+// Helper to set a value at a given path in an object
+function setValueAtPath(obj, path, value) {
+  let current = obj;
+  for (let i = 0; i < path.length - 1; i++) {
+    const key = path[i];
+    const nextKey = path[i + 1];
+    if (current[key] === undefined) {
+      current[key] = typeof nextKey === 'number' ? [] : {};
     }
+    current = current[key];
   }
-  return results;
+  const lastKey = path[path.length - 1];
+  current[lastKey] = value;
+}
+
+// Helper to get a value at a given path in an object
+function getValueAtPath(obj, path) {
+  let current = obj;
+  for (const key of path) {
+    if (current === undefined || current === null) return undefined;
+    current = current[key];
+  }
+  return current;
 }
 
 async function translateObjectHelper(enObj, existingObj, targetLang) {
-  const flatEn = flattenObject(enObj);
-  const flatExisting = flattenObject(existingObj || {});
+  const result = JSON.parse(JSON.stringify(enObj));
+  const stringPaths = getStringPaths(enObj);
   
-  const keysToTranslate = [];
-  const enValuesToTranslate = [];
+  const pathsToTranslate = [];
+  const valuesToTranslate = [];
   
-  for (const key of Object.keys(flatEn)) {
-    const enVal = flatEn[key];
-    if (typeof enVal === 'string') {
-      const existVal = flatExisting[key];
-      if (!existVal || existVal === '' || existVal === enVal) {
-        keysToTranslate.push(key);
-        enValuesToTranslate.push(enVal);
-      }
+  for (const { path, value } of stringPaths) {
+    const existVal = getValueAtPath(existingObj || {}, path);
+    if (typeof existVal === 'string' && existVal.trim() !== '' && existVal !== value) {
+      setValueAtPath(result, path, existVal);
+    } else {
+      pathsToTranslate.push(path);
+      valuesToTranslate.push(value);
     }
   }
   
-  if (keysToTranslate.length > 0) {
+  if (pathsToTranslate.length > 0) {
     const batchSize = 30;
     const translatedValues = [];
-    for (let i = 0; i < enValuesToTranslate.length; i += batchSize) {
-      const batch = enValuesToTranslate.slice(i, i + batchSize);
+    for (let i = 0; i < valuesToTranslate.length; i += batchSize) {
+      const batch = valuesToTranslate.slice(i, i + batchSize);
       const translated = await translateBatch(batch, targetLang);
       translatedValues.push(...translated);
       await new Promise(r => setTimeout(r, 50));
     }
     
-    for (let i = 0; i < keysToTranslate.length; i++) {
-      flatExisting[keysToTranslate[i]] = translatedValues[i];
-    }
-  }
-  
-  const result = unflattenObject(flatExisting);
-  
-  for (const key of Object.keys(enObj)) {
-    if (Array.isArray(enObj[key])) {
-      result[key] = await translateArray(enObj[key], existingObj ? existingObj[key] : null, targetLang);
+    for (let i = 0; i < pathsToTranslate.length; i++) {
+      setValueAtPath(result, pathsToTranslate[i], translatedValues[i]);
     }
   }
   

@@ -128,9 +128,9 @@
       "weight": "体重（kg）",
       "totalVolume": "総容量",
       "remaining": "ゴールまであとわずか",
+      "recentLifts": "最近のリフト",
       "submit": "対数ボリューム",
       "logged": "{{lift}} が記録されました: {{volume}}kg 総容量!",
-      "recentLifts": "最近のリフト",
       "placeholders": {
         "sets": "例：4",
         "reps": "例：8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "30日間の習慣継続",
+      "tooltip": "1日{{day}}:{{count}}/5の習慣",
       "legend": {
         "perfect": "完璧（5/5）",
         "partial": "部分的",
         "none": "不完全"
-      },
-      "tooltip": "1日{{day}}:{{count}}/5の習慣"
+      }
     }
   },
   "essentials": {

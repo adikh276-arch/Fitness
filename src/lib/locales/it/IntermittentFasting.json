@@ -66,15 +66,17 @@
   "log": {
     "form": {
       "title": "Registra il digiuno di oggi",
+      "dateLabel": "Data:",
       "lastMeal": "Ultimo pasto (ieri):",
       "firstMeal": "Primo pasto (oggi):",
       "duration": "Durata totale del digiuno",
       "goalAchieved": "Obiettivo raggiunto! Hai completato un digiuno di oltre 16 ore!",
-      "submit": "Registra questo velocemente",
-      "dateLabel": "Data:"
+      "submit": "Registra questo velocemente"
     },
     "tracker": {
       "title": "Percorso accelerato di 30 giorni",
+      "today": "Oggi",
+      "dayLabel": "Giorno {{val}}",
       "streak": "Serie attuale:",
       "streakDays": "{{count}} giorni",
       "last30": "Ultimi 30 giorni",
@@ -82,9 +84,7 @@
         "goalMet": "Obiettivo raggiunto (oltre 16 ore)",
         "today": "Oggi",
         "missed": "Giorno di assenza"
-      },
-      "today": "Oggi",
-      "dayLabel": "Giorno {{val}}"
+      }
     },
     "recentFasts": {
       "title": "Digiuni recenti",

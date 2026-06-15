@@ -45,11 +45,23 @@
       "title": "Piilotetut tekijät",
       "hydration": {
         "title": "Nesteytys",
-        "desc": "Oikea nesteytys auttaa:"
+        "desc": "Oikea nesteytys auttaa:",
+        "list": [
+          "Säädä ruokahalua",
+          "Tehosta aineenvaihduntaa",
+          "Vähennä vedenpidätyskykyä",
+          "Tukee rasvan hapettumista"
+        ]
       },
       "sleep": {
         "title": "Nukkuminen (yli 7 tuntia)",
-        "desc": "Laadukas uni säätelee:"
+        "desc": "Laadukas uni säätelee:",
+        "list": [
+          "Kortisoli (stressihormoni)",
+          "Greliini ja leptiini (nälkä)",
+          "Insuliiniherkkyys",
+          "Palautuminen & energiaa"
+        ]
       }
     }
   },

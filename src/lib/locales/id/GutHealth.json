@@ -133,7 +133,13 @@
     }
   },
   "essentials": {
-    "title": "Esensi Kesehatan Usus"
+    "title": "Esensi Kesehatan Usus",
+    "items": [
+      "<strong>Serat adalah bahan bakar:</strong> Bakteri usus Anda memfermentasi serat menjadi asam lemak rantai pendek yang mengurangi peradangan",
+      "<strong>Keanekaragaman paling penting:</strong> 30+ jenis tanaman berbeda setiap minggunya menciptakan mikrobioma yang tangguh",
+      "<strong>Puasa semalaman:</strong> 12+ jam antara makan malam dan sarapan memungkinkan perbaikan penghalang usus",
+      "<strong>Kunyah secara menyeluruh:</strong> Pencernaan dimulai di mulut - mengunyah dengan benar mengurangi kembung dan meningkatkan penyerapan nutrisi"
+    ]
   },
   "plants": {
     "Spinach": "Bayam",

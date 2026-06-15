@@ -66,15 +66,17 @@
   "log": {
     "form": {
       "title": "Catat Puasa Hari Ini",
+      "dateLabel": "Tanggal:",
       "lastMeal": "Waktu Makan Terakhir (Kemarin):",
       "firstMeal": "Waktu Makan Pertama (Hari Ini):",
       "duration": "Total Durasi Puasa",
       "goalAchieved": "Tujuan Tercapai! Anda telah menyelesaikan puasa selama lebih dari 16 jam!",
-      "submit": "Catat Ini dengan Cepat",
-      "dateLabel": "Tanggal:"
+      "submit": "Catat Ini dengan Cepat"
     },
     "tracker": {
       "title": "Program Percepatan 30 Hari",
+      "today": "Hari ini",
+      "dayLabel": "Hari {{val}}",
       "streak": "Rentetan Saat Ini:",
       "streakDays": "{{count}} hari",
       "last30": "30 Hari Terakhir",
@@ -82,9 +84,7 @@
         "goalMet": "Target Tercapai (16+ jam)",
         "today": "Hari ini",
         "missed": "Hari yang Terlewatkan"
-      },
-      "today": "Hari ini",
-      "dayLabel": "Hari {{val}}"
+      }
     },
     "recentFasts": {
       "title": "Puasa Terbaru",

@@ -45,11 +45,23 @@
       "title": "Ukryte czynniki",
       "hydration": {
         "title": "Nawilżenie",
-        "desc": "Prawidłowe nawodnienie pomaga:"
+        "desc": "Prawidłowe nawodnienie pomaga:",
+        "list": [
+          "Reguluj apetyt",
+          "Zwiększ metabolizm",
+          "Zmniejsz retencję wody",
+          "Wspomagaj utlenianie tłuszczów"
+        ]
       },
       "sleep": {
         "title": "Sen (ponad 7 godzin)",
-        "desc": "Jakość snu reguluje:"
+        "desc": "Jakość snu reguluje:",
+        "list": [
+          "Kortyzol (hormon stresu)",
+          "Grelina i leptyna (głód)",
+          "Wrażliwość na insulinę",
+          "Regeneracja i energia"
+        ]
       }
     }
   },

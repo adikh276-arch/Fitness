@@ -45,11 +45,23 @@
       "title": "Skryté faktory",
       "hydration": {
         "title": "Hydratace",
-        "desc": "Správná hydratace pomáhá:"
+        "desc": "Správná hydratace pomáhá:",
+        "list": [
+          "Regulovat chuť k jídlu",
+          "Zrychlit metabolismus",
+          "Snižte zadržování vody",
+          "Podporujte oxidaci tuků"
+        ]
       },
       "sleep": {
         "title": "Spánek (7 a více hodin)",
-        "desc": "Kvalitní spánek reguluje:"
+        "desc": "Kvalitní spánek reguluje:",
+        "list": [
+          "Kortizol (stresový hormon)",
+          "Ghrelin a leptin (hlad)",
+          "Citlivost na inzulín",
+          "Regenerace a energie"
+        ]
       }
     }
   },

@@ -128,9 +128,9 @@
       "weight": "Peso (kg)",
       "totalVolume": "Volumen total",
       "remaining": "Restante para el gol",
+      "recentLifts": "Ascensores recientes",
       "submit": "Volumen de registro",
       "logged": "{{lift}} registrado: {{volumen}} ¡volumen total de kg!",
-      "recentLifts": "Ascensores recientes",
       "placeholders": {
         "sets": "p. ej., 4",
         "reps": "p. ej., 8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "Racha de 30 días sin hábitos",
+      "tooltip": "Día {{day}}: {{count}}/5 hábitos",
       "legend": {
         "perfect": "Perfecto (5/5)",
         "partial": "Parcial",
         "none": "Incompleto"
-      },
-      "tooltip": "Día {{day}}: {{count}}/5 hábitos"
+      }
     }
   },
   "essentials": {

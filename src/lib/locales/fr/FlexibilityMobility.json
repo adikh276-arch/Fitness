@@ -151,7 +151,13 @@
     }
   },
   "benefits": {
-    "title": "Pourquoi les étirements quotidiens sont importants"
+    "title": "Pourquoi les étirements quotidiens sont importants",
+    "items": [
+      "Réduit le risque de blessure jusqu'à 50 %",
+      "Améliore les performances sportives",
+      "Soulage les tensions musculaires et le stress",
+      "Améliore la circulation sanguine"
+    ]
   },
   "tests": {
     "status": {
@@ -185,7 +191,13 @@
       }
     },
     "tips": {
-      "title": "Conseils de test"
+      "title": "Conseils de test",
+      "list": [
+        "Effectuer les tests après un léger échauffement, pas à froid",
+        "Réessayez toutes les 2 à 4 semaines pour suivre les progrès",
+        "Concentrez-vous sur les zones qui nécessitent un travail avec des étirements ciblés",
+        "Consulter un professionnel pour les limitations persistantes"
+      ]
     },
     "actions": {
       "pass": "✓ Passer",

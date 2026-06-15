@@ -128,9 +128,9 @@
       "weight": "Greutate (kg)",
       "totalVolume": "Volum total",
       "remaining": "Rămas pentru gol",
+      "recentLifts": "Lifturi recente",
       "submit": "Volumul jurnalului",
       "logged": "{{lift}} înregistrat: {{volume}}kg volum total!",
-      "recentLifts": "Lifturi recente",
       "placeholders": {
         "sets": "de exemplu, 4",
         "reps": "de exemplu, 8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "Seria de obiceiuri de 30 de zile",
+      "tooltip": "Ziua {{day}}: {{count}}/5 obiceiuri",
       "legend": {
         "perfect": "Perfect (5/5)",
         "partial": "Parţial",
         "none": "Incomplet"
-      },
-      "tooltip": "Ziua {{day}}: {{count}}/5 obiceiuri"
+      }
     }
   },
   "essentials": {

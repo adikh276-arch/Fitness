@@ -61,22 +61,48 @@
       "b12": {
         "name": "Vitamin B12",
         "importance": "Kritikal untuk fungsi saraf & sintesis DNA",
-        "dosage": "2.4 mcg setiap hari"
+        "dosage": "2.4 mcg setiap hari",
+        "sources": [
+          "Susu tumbuhan yang diperkaya",
+          "Yis pemakanan",
+          "Suplemen B12",
+          "Bijirin diperkaya"
+        ]
       },
       "iron": {
         "name": "Besi & Zink",
         "importance": "Penting untuk pengangkutan oksigen & fungsi imun",
-        "dosage": "Zat besi: 18mg, Zink: 11mg setiap hari"
+        "dosage": "Zat besi: 18mg, Zink: 11mg setiap hari",
+        "sources": [
+          "Biji labu",
+          "Lentil",
+          "Gajus",
+          "Bayam",
+          "Quinoa"
+        ]
       },
       "omega3": {
         "name": "Omega-3 (ALA)",
         "importance": "Kesihatan otak & anti-radang",
-        "dosage": "1.6g setiap hari"
+        "dosage": "1.6g setiap hari",
+        "sources": [
+          "Biji rami",
+          "Biji chia",
+          "kenari",
+          "Biji rami"
+        ]
       },
       "calcium": {
         "name": "Kalsium",
         "importance": "Kesihatan tulang & fungsi otot",
-        "dosage": "1000mg setiap hari"
+        "dosage": "1000mg setiap hari",
+        "sources": [
+          "Bok choy",
+          "Tahini",
+          "Tauhu diperkaya",
+          "Kale",
+          "badam"
+        ]
       }
     }
   },

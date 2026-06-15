@@ -128,9 +128,9 @@
       "weight": "وزن (کلوگرام)",
       "totalVolume": "کل حجم",
       "remaining": "گول کے لیے باقی ہے۔",
+      "recentLifts": "حالیہ لفٹیں۔",
       "submit": "لاگ والیوم",
       "logged": "{{lift}} لاگ ان: {{volume}}kg کل حجم!",
-      "recentLifts": "حالیہ لفٹیں۔",
       "placeholders": {
         "sets": "مثال کے طور پر، 4",
         "reps": "مثال کے طور پر، 8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "30 دن کی عادت کا سلسلہ",
+      "tooltip": "دن {{day}}: {{count}}/5 عادات",
       "legend": {
         "perfect": "کامل (5/5)",
         "partial": "جزوی",
         "none": "نامکمل"
-      },
-      "tooltip": "دن {{day}}: {{count}}/5 عادات"
+      }
     }
   },
   "essentials": {

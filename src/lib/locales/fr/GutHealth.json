@@ -133,7 +133,13 @@
     }
   },
   "essentials": {
-    "title": "Les essentiels de la santé intestinale"
+    "title": "Les essentiels de la santé intestinale",
+    "items": [
+      "<strong>Les fibres sont un carburant</strong> : vos bactéries intestinales fermentent les fibres en acides gras à chaîne courte qui réduisent l'inflammation.",
+      "<strong>La diversité compte le plus :</strong> plus de 30 types de plantes différents chaque semaine créent un microbiome résilient",
+      "<strong>Jeûne nocturne</strong> : plus de 12 heures entre le dîner et le petit-déjeuner permettent de réparer la barrière intestinale.",
+      "<strong>Mâchez soigneusement :</strong> La digestion commence dans la bouche : une mastication appropriée réduit les ballonnements et améliore l'absorption des nutriments."
+    ]
   },
   "plants": {
     "Spinach": "Épinards",

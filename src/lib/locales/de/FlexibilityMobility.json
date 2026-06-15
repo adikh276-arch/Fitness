@@ -151,7 +151,13 @@
     }
   },
   "benefits": {
-    "title": "Warum tägliches Dehnen wichtig ist"
+    "title": "Warum tägliches Dehnen wichtig ist",
+    "items": [
+      "Reduziert das Verletzungsrisiko um bis zu 50 %",
+      "Verbessert die sportliche Leistung",
+      "Lindert Muskelverspannungen und Stress",
+      "Verbessert die Durchblutung"
+    ]
   },
   "tests": {
     "status": {
@@ -185,7 +191,13 @@
       }
     },
     "tips": {
-      "title": "Testtipps"
+      "title": "Testtipps",
+      "list": [
+        "Führen Sie die Tests nach einer leichten Aufwärmphase durch, nicht in der Kälte",
+        "Führen Sie den Test alle 2–4 Wochen erneut durch, um den Fortschritt zu verfolgen",
+        "Konzentrieren Sie sich auf Bereiche, die durch gezieltes Dehnen bearbeitet werden müssen",
+        "Bei anhaltenden Einschränkungen wenden Sie sich an einen Fachmann"
+      ]
     },
     "actions": {
       "pass": "✓ Bestehen",

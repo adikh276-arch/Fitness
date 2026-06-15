@@ -128,9 +128,9 @@
       "weight": "ওজন (কেজি)",
       "totalVolume": "মোট আয়তন",
       "remaining": "লক্ষ্যের জন্য বাকি",
+      "recentLifts": "সাম্প্রতিক লিফট",
       "submit": "লগ ভলিউম",
       "logged": "উত্তোলন রেকর্ড করা হয়েছে: মোট আয়তন {{volume}} কেজি!",
-      "recentLifts": "সাম্প্রতিক লিফট",
       "placeholders": {
         "sets": "যেমন, 4",
         "reps": "যেমন, 8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "৩০ দিনের অভ্যাসের ধারা",
+      "tooltip": "দিন {{day}}: {{count}}/5 অভ্যাস",
       "legend": {
         "perfect": "নিখুঁত (৫/৫)",
         "partial": "আংশিক",
         "none": "অসম্পূর্ণ"
-      },
-      "tooltip": "দিন {{day}}: {{count}}/5 অভ্যাস"
+      }
     }
   },
   "essentials": {

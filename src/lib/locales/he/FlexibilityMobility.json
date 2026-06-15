@@ -1,7 +1,7 @@
 {
   "header": {
     "title": "גמישות וניידות",
-    "subtitle": "Improve range of motion and prevent injuries",
+    "subtitle": "שפר את טווחי התנועה ומניעת פציעות",
     "back": "חזרה ללוח המחוונים"
   },
   "tabs": {
@@ -10,20 +10,20 @@
     "log": "יומן שחזור"
   },
   "player": {
-    "stretch": "Stretch {{current}} of {{total}}",
+    "stretch": "מתיחה {{current}} מתוך {{total}}",
     "resume": "קורות חיים",
     "pause": "השהה",
     "skip": "דלג",
     "cancel": "בטל",
     "bilateral_hint": "💡 זכור להחליף צד כאשר הטיימר מסתיים",
     "preview": {
-      "stretches_count": "{{count}} Stretches ({{duration}} min total):",
-      "start": "Start {{duration}}-Min Routine",
+      "stretches_count": "{{count}} מתיחות ({{duration}} דקות בסך הכל):",
+      "start": "התחל את השגרה של {{duration}}-מינימום",
       "cancel": "בטל"
     },
     "complete": {
       "title": "השגרה הושלמה!",
-      "desc": "Great job completing {{name}}!",
+      "desc": "עבודה נהדרת בהשלמת {{name}}!",
       "rate_label": "מרגיש טוב יותר? Rate your improvement: {{rating}}/10",
       "worse": "יותר גרוע",
       "same": "אותו דבר",
@@ -35,8 +35,8 @@
   "routines": {
     "upper-body": {
       "name": "פלג גוף עליון פתוח",
-      "focus": "Chest, Shoulders, Mid-Back",
-      "desc": "Release tension from desk work and phone use",
+      "focus": "חזה, כתפיים, אמצע גב",
+      "desc": "שחרר מתח מעבודה שולחנית ושימוש בטלפון",
       "stretches": {
         "Doorway Chest Stretch": {
           "name": "מתיחה לחזה בדלת",
@@ -118,45 +118,51 @@
         },
         "Arm Circles": {
           "name": "מעגלי זרוע",
-          "desc": "Extend arms wide, make large circles forward then backward."
+          "desc": "הושיטו את הידיים לרוחב, עשו עיגולים גדולים קדימה ואז אחורה."
         }
       }
     },
     "dynamic-warmup": {
       "name": "חימום דינמי",
       "focus": "הפעלה לפני אימון",
-      "desc": "Prepare your body before exercise",
+      "desc": "הכן את הגוף שלך לפני האימון",
       "stretches": {
         "Leg Swings": {
           "name": "נדנדות רגליים",
-          "desc": "Hold wall, swing leg forward and back, then side to side."
+          "desc": "אחזו בקיר, הניפו את הרגל קדימה ואחורה, ואז מצד לצד."
         },
         "Arm Circles": {
           "name": "מעגלי זרוע",
-          "desc": "Small to large circles, forward and backward."
+          "desc": "עיגולים קטנים עד גדולים, קדימה ואחורה."
         },
         "Torso Twists": {
           "name": "טורסו טוויסטים",
-          "desc": "Rotate upper body side to side with arms loose."
+          "desc": "סובב את פלג הגוף העליון מצד לצד עם הידיים משוחררות."
         },
         "Walking Lunges": {
           "name": "Walking Lunges",
-          "desc": "Step forward into lunge, alternate legs while moving forward."
+          "desc": "צעד קדימה לתוך לזנק, החלף רגליים תוך כדי תנועה קדימה."
         },
         "High Knees": {
           "name": "ברכיים גבוהות",
-          "desc": "March in place bringing knees to hip height."
+          "desc": "צעדה במקום מביאה את הברכיים לגובה הירכיים."
         }
       }
     }
   },
   "benefits": {
-    "title": "Why Daily Stretching Matters"
+    "title": "למה מתיחה יומית חשובה",
+    "items": [
+      "מפחית את הסיכון לפציעה עד 50%",
+      "משפר ביצועים אתלטיים",
+      "מקל על מתח ומתח בשרירים",
+      "משפר את זרימת הדם"
+    ]
   },
   "tests": {
     "status": {
       "title": "סטטוס הניידות שלך",
-      "based_on": "Based on {{count}} test results",
+      "based_on": "מבוסס על {{count}} תוצאות בדיקה",
       "complete_below": "השלם את הבדיקות למטה",
       "score_label": "ציון: {{נקודות}}/6 נקודות (עבר=2, חלקי=1, צריך עבודה=0)",
       "elite": "ניידות עילית",
@@ -167,25 +173,31 @@
     "items": {
       "sit-reach": {
         "name": "מבחן ישיבה והגעה",
-        "desc": "Sit with legs straight, reach toward toes",
+        "desc": "שבו עם רגליים ישרות, הושיטו לכיוון בהונות",
         "pass": "יכול לגעת או להעביר בהונות",
-        "fail": "More than 6 inches from toes"
+        "fail": "יותר מ-6 אינץ' מהבהונות"
       },
       "shoulder-pass": {
         "name": "מעבר כתף",
         "desc": "החזק רצועה/מקל, הרם את הידיים מעל הראש ומאחורי הגב",
-        "pass": "Can pass through smoothly",
+        "pass": "יכול לעבור בצורה חלקה",
         "fail": "לא ניתן להשלים את התנועה"
       },
       "deep-squat": {
         "name": "Deep Squat Hold",
-        "desc": "Squat down with heels flat, hold for 30 seconds",
+        "desc": "כפוף עם עקבים שטוחים, החזיקו למשך 30 שניות",
         "pass": "יכול להחזיק שנות 30, עקבים למטה",
-        "fail": "Heels lift or cannot hold"
+        "fail": "עקבים מתרוממים או לא יכולים להחזיק"
       }
     },
     "tips": {
-      "title": "טיפים לבדיקה"
+      "title": "טיפים לבדיקה",
+      "list": [
+        "בצע בדיקות לאחר חימום קל, לא קר",
+        "בדוק שוב כל 2-4 שבועות כדי לעקוב אחר ההתקדמות",
+        "התמקד באזורים הזקוקים לעבודה עם מתיחות ממוקדות",
+        "התייעץ עם איש מקצוע למגבלות מתמשכות"
+      ]
     },
     "actions": {
       "pass": "✓ עוברים",
@@ -196,15 +208,15 @@
   "log": {
     "title": "סשן שחזור יומן",
     "duration": "משך (דקות)",
-    "focus_areas": "Focus Areas (select all that apply)",
-    "soreness_label": "Soreness Before Session: {{level}}/10",
+    "focus_areas": "אזורי מיקוד (בחר את כל המתאימים)",
+    "soreness_label": "כאב לפני הפגישה: {{רמה}}/10",
     "no_pain": "1 - ללא כאב",
     "moderate": "5 - בינוני",
     "very_sore": "10 - כואב מאוד",
     "submit": "🧘 יומן הפעלה",
     "heatmap": {
       "title": "מפת חום לשחזור",
-      "legend": "Purple dots mark days with recovery sessions"
+      "legend": "נקודות סגולות מציינות ימים עם הפעלות התאוששות"
     },
     "badge": {
       "title": "הוכחת פציעה!",

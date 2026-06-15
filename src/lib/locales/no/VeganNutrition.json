@@ -61,22 +61,48 @@
       "b12": {
         "name": "Vitamin B12",
         "importance": "Kritisk for nervefunksjon og DNA-syntese",
-        "dosage": "2,4 mcg daglig"
+        "dosage": "2,4 mcg daglig",
+        "sources": [
+          "Beriket plantemelk",
+          "Næringsgjær",
+          "B12 kosttilskudd",
+          "Forsterkede korn"
+        ]
       },
       "iron": {
         "name": "Jern og sink",
         "importance": "Viktig for oksygentransport og immunfunksjon",
-        "dosage": "Jern: 18mg, sink: 11mg daglig"
+        "dosage": "Jern: 18mg, sink: 11mg daglig",
+        "sources": [
+          "Gresskarfrø",
+          "Linser",
+          "Cashewnøtter",
+          "Spinat",
+          "Quinoa"
+        ]
       },
       "omega3": {
         "name": "Omega-3 (ALA)",
         "importance": "Hjernehelse og antiinflammatorisk",
-        "dosage": "1,6g daglig"
+        "dosage": "1,6g daglig",
+        "sources": [
+          "Linfrø",
+          "Chiafrø",
+          "Valnøtter",
+          "Hampfrø"
+        ]
       },
       "calcium": {
         "name": "Kalsium",
         "importance": "Benhelse og muskelfunksjon",
-        "dosage": "1000mg daglig"
+        "dosage": "1000mg daglig",
+        "sources": [
+          "Bok choy",
+          "Tahini",
+          "Forsterket tofu",
+          "Grønnkål",
+          "Mandler"
+        ]
       }
     }
   },

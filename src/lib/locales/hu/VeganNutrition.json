@@ -61,22 +61,48 @@
       "b12": {
         "name": "B12 vitamin",
         "importance": "Kritikus az idegműködéshez és a DNS szintézishez",
-        "dosage": "2,4 mcg naponta"
+        "dosage": "2,4 mcg naponta",
+        "sources": [
+          "Dúsított növényi tej",
+          "Táplálkozási élesztő",
+          "B12 kiegészítők",
+          "Dúsított gabonafélék"
+        ]
       },
       "iron": {
         "name": "Vas és cink",
         "importance": "Nélkülözhetetlen az oxigénszállításhoz és az immunrendszer működéséhez",
-        "dosage": "Vas: 18 mg, cink: 11 mg naponta"
+        "dosage": "Vas: 18 mg, cink: 11 mg naponta",
+        "sources": [
+          "Tökmag",
+          "Lencse",
+          "Kesudió",
+          "Spenót",
+          "Quinoa"
+        ]
       },
       "omega3": {
         "name": "Omega-3 (ALA)",
         "importance": "Az agy egészsége és gyulladáscsökkentő",
-        "dosage": "1,6 g naponta"
+        "dosage": "1,6 g naponta",
+        "sources": [
+          "Lenmag",
+          "Chia mag",
+          "Dió",
+          "Kendermag"
+        ]
       },
       "calcium": {
         "name": "kalcium",
         "importance": "Csontok egészsége és izomműködés",
-        "dosage": "1000 mg naponta"
+        "dosage": "1000 mg naponta",
+        "sources": [
+          "Bok choy",
+          "Tahini",
+          "Dúsított tofu",
+          "Kelkáposzta",
+          "Mandula"
+        ]
       }
     }
   },

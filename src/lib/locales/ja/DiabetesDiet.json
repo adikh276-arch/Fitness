@@ -46,6 +46,18 @@
       "targetPost": "ターゲットマックス（食後）"
     }
   },
+  "status": {
+    "normal": "普通",
+    "high": "高い",
+    "low": "低い"
+  },
+  "timing": {
+    "fasting": "断食",
+    "preMeal": "食前",
+    "postMeal1h": "食後（1時間後）",
+    "postMeal2h": "食後（2時間）",
+    "bedtime": "就寝時間"
+  },
   "plate": {
     "intro": {
       "title": "糖尿病患者向けプレートメソッド",
@@ -96,26 +108,13 @@
       "medium": "中等度GI（56-69）：中等度",
       "high": "高GI（70以上）：制限"
     },
-    "searchPlaceholder": "食べ物を検索...",
-    "noResults": "検索条件に一致する食品は見つかりませんでした。",
     "labels": {
       "low": "低GI",
       "medium": "中程度のGI値",
       "high": "高GI"
     },
-    "search": "食べ物を検索します (例: オーツ麦、バナナなど)"
-  },
-  "timing": {
-    "fasting": "断食",
-    "preMeal": "食前",
-    "postMeal1h": "食後（1時間後）",
-    "postMeal2h": "食後（2時間）",
-    "bedtime": "就寝時間"
-  },
-  "status": {
-    "low": "低い",
-    "high": "高い",
-    "normal": "普通"
+    "search": "食べ物を検索します (例: オーツ麦、バナナなど)",
+    "noResults": "検索条件に一致する食品は見つかりませんでした。"
   },
   "foods": {
     "Spinach": "ほうれん草",

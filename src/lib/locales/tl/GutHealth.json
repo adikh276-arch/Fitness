@@ -133,7 +133,13 @@
     }
   },
   "essentials": {
-    "title": "Mga Mahahalagang Kalusugan ng Gut"
+    "title": "Mga Mahahalagang Kalusugan ng Gut",
+    "items": [
+      "<strong>Ang hibla ay panggatong:</strong> Ang iyong bakterya sa bituka ay nagbuburo ng hibla sa mga short-chain na fatty acid na nagpapababa ng pamamaga",
+      "<strong>Ang pagkakaiba-iba ang pinakamahalaga:</strong> 30+ iba't ibang uri ng halaman linggu-linggo ay lumilikha ng isang nababanat na microbiome",
+      "<strong>Magdamag na pag-aayuno:</strong> 12+ na oras sa pagitan ng hapunan at almusal ay nagbibigay-daan sa pagkumpuni ng gut barrier",
+      "<strong>Nguya ng maigi:</strong> Ang panunaw ay nagsisimula sa bibig - ang wastong pagnguya ay nakakabawas sa pamumulaklak at nagpapabuti sa pagsipsip ng sustansya"
+    ]
   },
   "plants": {
     "Spinach": "kangkong",

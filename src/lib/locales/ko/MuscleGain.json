@@ -128,9 +128,9 @@
       "weight": "무게(kg)",
       "totalVolume": "총 용량",
       "remaining": "남은 골",
+      "recentLifts": "최근 리프트",
       "submit": "로그 볼륨",
       "logged": "{{lift}} 기록됨: 총 부피 {{volume}}kg!",
-      "recentLifts": "최근 리프트",
       "placeholders": {
         "sets": "예: 4",
         "reps": "예: 8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "30일 연속 습관 실천",
+      "tooltip": "일 {{day}}: {{count}}/5가지 습관",
       "legend": {
         "perfect": "완벽함 (5/5)",
         "partial": "부분적",
         "none": "불완전한"
-      },
-      "tooltip": "일 {{day}}: {{count}}/5가지 습관"
+      }
     }
   },
   "essentials": {

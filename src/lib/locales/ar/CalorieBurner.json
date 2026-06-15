@@ -16,11 +16,11 @@
       "selectActivity": "حدد النشاط",
       "weight": "وزنك",
       "duration": "المدة (بالدقائق)",
-      "submit": "سجل النشاط",
       "placeholders": {
         "weightKg": "مثال: 70",
         "weightLbs": "مثال: 154"
-      }
+      },
+      "submit": "سجل النشاط"
     },
     "summary": {
       "title": "ملخص الحرق",

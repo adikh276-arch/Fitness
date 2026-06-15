@@ -45,11 +45,23 @@
       "title": "Ang mga Nakatagong Salik",
       "hydration": {
         "title": "Hydration",
-        "desc": "Nakakatulong ang wastong hydration:"
+        "desc": "Nakakatulong ang wastong hydration:",
+        "list": [
+          "I-regulate ang gana sa pagkain",
+          "Palakasin ang metabolismo",
+          "Bawasan ang pagpapanatili ng tubig",
+          "Suportahan ang fat oxidation"
+        ]
       },
       "sleep": {
         "title": "Matulog (7+ Oras)",
-        "desc": "Kinokontrol ng kalidad ng pagtulog:"
+        "desc": "Kinokontrol ng kalidad ng pagtulog:",
+        "list": [
+          "Cortisol (stress hormone)",
+          "Ghrelin at leptin (gutom)",
+          "Pagkasensitibo sa insulin",
+          "Pagbawi at enerhiya"
+        ]
       }
     }
   },

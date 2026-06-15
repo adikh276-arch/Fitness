@@ -128,9 +128,9 @@
       "weight": "Вага (кг)",
       "totalVolume": "Загальний обсяг",
       "remaining": "Залишилося до голу",
+      "recentLifts": "Останні підйоми",
       "submit": "Обсяг журналу",
       "logged": "{{lift}} зареєстровано: загальний об'єм {{volume}}кг!",
-      "recentLifts": "Останні підйоми",
       "placeholders": {
         "sets": "наприклад, 4",
         "reps": "наприклад, 8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "30-денна серія звичок",
+      "tooltip": "День {{day}}: {{count}}/5 звичок",
       "legend": {
         "perfect": "Ідеально (5/5)",
         "partial": "Часткове",
         "none": "Незавершене"
-      },
-      "tooltip": "День {{day}}: {{count}}/5 звичок"
+      }
     }
   },
   "essentials": {

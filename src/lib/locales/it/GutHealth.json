@@ -133,7 +133,13 @@
     }
   },
   "essentials": {
-    "title": "Elementi essenziali per la salute dell'intestino"
+    "title": "Elementi essenziali per la salute dell'intestino",
+    "items": [
+      "<strong>La fibra è carburante:</strong> i batteri intestinali fermentano la fibra in acidi grassi a catena corta che riducono l'infiammazione",
+      "<strong>La diversità conta di più:</strong> più di 30 tipi di piante diverse ogni settimana creano un microbioma resiliente",
+      "<strong>Digiuno notturno:</strong> più di 12 ore tra la cena e la colazione consentono la riparazione della barriera intestinale",
+      "<strong>Masticare accuratamente:</strong> la digestione inizia in bocca: una corretta masticazione riduce il gonfiore e migliora l'assorbimento dei nutrienti"
+    ]
   },
   "plants": {
     "Spinach": "Spinaci",

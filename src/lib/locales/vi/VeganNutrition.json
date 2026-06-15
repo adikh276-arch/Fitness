@@ -61,22 +61,48 @@
       "b12": {
         "name": "Vitamin B12",
         "importance": "Quan trọng đối với chức năng thần kinh và tổng hợp DNA",
-        "dosage": "2,4 mcg mỗi ngày"
+        "dosage": "2,4 mcg mỗi ngày",
+        "sources": [
+          "Sữa thực vật tăng cường",
+          "Men dinh dưỡng",
+          "bổ sung B12",
+          "Ngũ cốc tăng cường"
+        ]
       },
       "iron": {
         "name": "Sắt & Kẽm",
         "importance": "Cần thiết cho việc vận chuyển oxy và chức năng miễn dịch",
-        "dosage": "Sắt: 18mg, Kẽm: 11mg mỗi ngày"
+        "dosage": "Sắt: 18mg, Kẽm: 11mg mỗi ngày",
+        "sources": [
+          "Hạt bí ngô",
+          "đậu lăng",
+          "hạt điều",
+          "rau chân vịt",
+          "diêm mạch"
+        ]
       },
       "omega3": {
         "name": "Omega-3 (ALA)",
         "importance": "Sức khỏe não bộ và chống viêm",
-        "dosage": "1,6g mỗi ngày"
+        "dosage": "1,6g mỗi ngày",
+        "sources": [
+          "Hạt lanh",
+          "hạt chia",
+          "quả óc chó",
+          "Hạt cây gai dầu"
+        ]
       },
       "calcium": {
         "name": "canxi",
         "importance": "Sức khỏe xương & chức năng cơ bắp",
-        "dosage": "1000mg mỗi ngày"
+        "dosage": "1000mg mỗi ngày",
+        "sources": [
+          "cải chíp",
+          "Tahini",
+          "Đậu phụ tăng cường",
+          "cải xoăn",
+          "hạnh nhân"
+        ]
       }
     }
   },

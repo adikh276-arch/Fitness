@@ -128,9 +128,9 @@
       "weight": "Berat (kg)",
       "totalVolume": "Volume Total",
       "remaining": "Sisa Gol",
+      "recentLifts": "Lift Terbaru",
       "submit": "Volume Log",
       "logged": "{{lift}} tercatat: {{volume}}kg total volume!",
-      "recentLifts": "Lift Terbaru",
       "placeholders": {
         "sets": "misalnya, 4",
         "reps": "misalnya, 8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "Rentetan Kebiasaan 30 Hari",
+      "tooltip": "Hari {{hari}}: {{count}}/5 kebiasaan",
       "legend": {
         "perfect": "Sempurna (5/5)",
         "partial": "Sebagian",
         "none": "Tidak lengkap"
-      },
-      "tooltip": "Hari {{hari}}: {{count}}/5 kebiasaan"
+      }
     }
   },
   "essentials": {

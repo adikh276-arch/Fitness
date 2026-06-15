@@ -66,15 +66,17 @@
   "log": {
     "form": {
       "title": "Logg dagens faste",
+      "dateLabel": "Dato:",
       "lastMeal": "Siste måltidstid (i går):",
       "firstMeal": "Første måltid (i dag):",
       "duration": "Total fastevarighet",
       "goalAchieved": "Mål oppnådd! Du fullførte en faste på over 16 timer!",
-      "submit": "Logg dette raskt",
-      "dateLabel": "Dato:"
+      "submit": "Logg dette raskt"
     },
     "tracker": {
       "title": "30-dagers hurtigsporing",
+      "today": "I dag",
+      "dayLabel": "Dag {{val}}",
       "streak": "Nåværende rekke:",
       "streakDays": "{{count}} dager",
       "last30": "Siste 30 dager",
@@ -82,9 +84,7 @@
         "goalMet": "Mål nådd (16+ timer)",
         "today": "I dag",
         "missed": "Tapt dag"
-      },
-      "today": "I dag",
-      "dayLabel": "Dag {{val}}"
+      }
     },
     "recentFasts": {
       "title": "Nylige faster",

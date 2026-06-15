@@ -61,22 +61,48 @@
       "b12": {
         "name": "Witamina B12",
         "importance": "Krytyczne dla funkcjonowania nerwów i syntezy DNA",
-        "dosage": "2,4 mcg dziennie"
+        "dosage": "2,4 mcg dziennie",
+        "sources": [
+          "Wzbogacone mleko roślinne",
+          "Drożdże odżywcze",
+          "Suplementy B12",
+          "Wzbogacone zboża"
+        ]
       },
       "iron": {
         "name": "Żelazo i cynk",
         "importance": "Niezbędny do transportu tlenu i funkcji odpornościowych",
-        "dosage": "Żelazo: 18 mg, Cynk: 11 mg dziennie"
+        "dosage": "Żelazo: 18 mg, Cynk: 11 mg dziennie",
+        "sources": [
+          "Nasiona dyni",
+          "Soczewica",
+          "Orzechy nerkowca",
+          "Szpinak",
+          "Komosa ryżowa"
+        ]
       },
       "omega3": {
         "name": "Omega-3 (ALA)",
         "importance": "Zdrowie mózgu i działanie przeciwzapalne",
-        "dosage": "1,6 g dziennie"
+        "dosage": "1,6 g dziennie",
+        "sources": [
+          "Nasiona lnu",
+          "Nasiona Chia",
+          "Orzechy włoskie",
+          "Nasiona konopi"
+        ]
       },
       "calcium": {
         "name": "Wapń",
         "importance": "Zdrowie kości i funkcja mięśni",
-        "dosage": "1000 mg dziennie"
+        "dosage": "1000 mg dziennie",
+        "sources": [
+          "Bok choy",
+          "Tahini",
+          "Wzmocnione tofu",
+          "Kale",
+          "Migdały"
+        ]
       }
     }
   },

@@ -151,7 +151,13 @@
     }
   },
   "benefits": {
-    "title": "Dlaczego codzienne rozciąganie ma znaczenie"
+    "title": "Dlaczego codzienne rozciąganie ma znaczenie",
+    "items": [
+      "Zmniejsza ryzyko obrażeń nawet o 50%",
+      "Poprawia wyniki sportowe",
+      "Łagodzi napięcie i stres mięśni",
+      "Poprawia krążenie krwi"
+    ]
   },
   "tests": {
     "status": {
@@ -185,7 +191,13 @@
       }
     },
     "tips": {
-      "title": "Wskazówki dotyczące testowania"
+      "title": "Wskazówki dotyczące testowania",
+      "list": [
+        "Testy wykonuj po lekkiej rozgrzewce, a nie zimnej",
+        "Powtarzaj test co 2–4 tygodnie, aby śledzić postępy",
+        "Skoncentruj się na obszarach wymagających pracy, stosując ukierunkowane rozciąganie",
+        "W przypadku utrzymujących się ograniczeń skonsultuj się ze specjalistą"
+      ]
     },
     "actions": {
       "pass": "✓ Pass",

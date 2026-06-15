@@ -133,7 +133,13 @@
     }
   },
   "essentials": {
-    "title": "Podstawy zdrowia jelit"
+    "title": "Podstawy zdrowia jelit",
+    "items": [
+      "<strong>Błonnik to paliwo:</strong> Twoje bakterie jelitowe fermentują błonnik do krótkołańcuchowych kwasów tłuszczowych, które zmniejszają stany zapalne",
+      "<strong>Różnorodność ma największe znaczenie:</strong> ponad 30 różnych rodzajów roślin tygodniowo tworzy odporny mikrobiom",
+      "<strong>Poszczenie nocne:</strong> ponad 12 godzin między kolacją a śniadaniem umożliwia naprawę bariery jelitowej",
+      "<strong>Przeżuwaj dokładnie:</strong> trawienie rozpoczyna się w ustach – prawidłowe żucie zmniejsza wzdęcia i poprawia wchłanianie składników odżywczych"
+    ]
   },
   "plants": {
     "Spinach": "Szpinak",

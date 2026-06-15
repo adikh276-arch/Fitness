@@ -128,9 +128,9 @@
       "weight": "重量（公斤）",
       "totalVolume": "总体积",
       "remaining": "剩余目标",
+      "recentLifts": "最近的电梯",
       "submit": "对数卷",
       "logged": "{{lift}} 记录：{{volume}}kg 总体积！",
-      "recentLifts": "最近的电梯",
       "placeholders": {
         "sets": "例如，4",
         "reps": "例如，8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "30天习惯养成",
+      "tooltip": "第 {{day}} 天：{{count}}/5 个习惯",
       "legend": {
         "perfect": "完美 (5/5)",
         "partial": "部分的",
         "none": "未完成"
-      },
-      "tooltip": "第 {{day}} 天：{{count}}/5 个习惯"
+      }
     }
   },
   "essentials": {

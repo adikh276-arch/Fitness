@@ -46,6 +46,18 @@
       "targetPost": "Target massimo (post-pasto)"
     }
   },
+  "status": {
+    "normal": "NORMALE",
+    "high": "ALTO",
+    "low": "BASSO"
+  },
+  "timing": {
+    "fasting": "Digiuno",
+    "preMeal": "Prima del pasto",
+    "postMeal1h": "Dopo il pasto (1 ora)",
+    "postMeal2h": "Dopo il pasto (2 ore)",
+    "bedtime": "Ora di andare a letto"
+  },
   "plate": {
     "intro": {
       "title": "Il metodo della piastra per diabetici",
@@ -96,26 +108,13 @@
       "medium": "Indice gastrointestinale medio (56-69): moderato",
       "high": "Indice glicemico elevato (70+): Limite"
     },
-    "searchPlaceholder": "Cerca un cibo...",
-    "noResults": "Nessun alimento trovato corrispondente alla tua ricerca",
     "labels": {
       "low": "Basso indice glicemico",
       "medium": "Gastrointestinale medio",
       "high": "Alto indice glicemico"
     },
-    "search": "Cerca un alimento (es. avena, banana...)"
-  },
-  "timing": {
-    "fasting": "Digiuno",
-    "preMeal": "Prima del pasto",
-    "postMeal1h": "Dopo il pasto (1 ora)",
-    "postMeal2h": "Dopo il pasto (2 ore)",
-    "bedtime": "Ora di andare a letto"
-  },
-  "status": {
-    "low": "BASSO",
-    "high": "ALTO",
-    "normal": "NORMALE"
+    "search": "Cerca un alimento (es. avena, banana...)",
+    "noResults": "Nessun alimento trovato corrispondente alla tua ricerca"
   },
   "foods": {
     "Spinach": "Spinaci",

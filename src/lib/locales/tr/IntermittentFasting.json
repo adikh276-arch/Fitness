@@ -66,15 +66,17 @@
   "log": {
     "form": {
       "title": "Bugünkü Hızlı Beslenme Günlüğü",
+      "dateLabel": "Tarih:",
       "lastMeal": "Dünkü Son Yemek Saati:",
       "firstMeal": "Bugün İlk Yemek Zamanı:",
       "duration": "Toplam Oruç Süresi",
       "goalAchieved": "Hedefe Ulaşıldı! 16 saatten fazla süren orucu tamamladınız!",
-      "submit": "Bunu hızlıca kaydet",
-      "dateLabel": "Tarih:"
+      "submit": "Bunu hızlıca kaydet"
     },
     "tracker": {
       "title": "30 Günlük Hızlı Takip Programı",
+      "today": "Bugün",
+      "dayLabel": "Gün {{val}}",
       "streak": "Mevcut Seri:",
       "streakDays": "{{count}} gün",
       "last30": "Son 30 Gün",
@@ -82,9 +84,7 @@
         "goalMet": "Hedefe Ulaşıldı (16+ saat)",
         "today": "Bugün",
         "missed": "Kaçırılan Gün"
-      },
-      "today": "Bugün",
-      "dayLabel": "Gün {{val}}"
+      }
     },
     "recentFasts": {
       "title": "Son Oruçlar",

@@ -1,7 +1,7 @@
 {
   "header": {
     "title": "Flexibilita a mobilita",
-    "subtitle": "Improve range of motion and prevent injuries",
+    "subtitle": "Zlepšete rozsah pohybu a předcházejte zraněním",
     "back": "Zpět na Dashboard"
   },
   "tabs": {
@@ -10,20 +10,20 @@
     "log": "Protokol obnovy"
   },
   "player": {
-    "stretch": "Stretch {{current}} of {{total}}",
+    "stretch": "Úsek {{current}} z {{total}}",
     "resume": "Pokračovat",
     "pause": "Pauza",
     "skip": "Přeskočit",
     "cancel": "Zrušit",
-    "bilateral_hint": "💡 Remember to switch sides when the timer ends",
+    "bilateral_hint": "💡 Nezapomeňte změnit strany, když časovač skončí",
     "preview": {
-      "stretches_count": "{{count}} Stretches ({{duration}} min total):",
-      "start": "Start {{duration}}-Min Routine",
+      "stretches_count": "{{count}} úseky (celkem {{duration}} min):",
+      "start": "Spustit rutinu {{duration}}-Min",
       "cancel": "Zrušit"
     },
     "complete": {
       "title": "Rutina dokončena!",
-      "desc": "Great job completing {{name}}!",
+      "desc": "Skvělá práce při dokončení {{name}}!",
       "rate_label": "Cítit se lépe? Rate your improvement: {{rating}}/10",
       "worse": "horší",
       "same": "Totéž",
@@ -35,16 +35,16 @@
   "routines": {
     "upper-body": {
       "name": "Horní část těla otevřená",
-      "focus": "Chest, Shoulders, Mid-Back",
-      "desc": "Release tension from desk work and phone use",
+      "focus": "Hrudník, ramena, střední část zad",
+      "desc": "Uvolněte napětí z práce na stole a používání telefonu",
       "stretches": {
         "Doorway Chest Stretch": {
           "name": "Doorway Hrudník Stretch",
-          "desc": "Stand in doorway, place forearms on frame, lean forward to feel chest stretch."
+          "desc": "Postavte se do dveří, položte předloktí na rám, předkloňte se, abyste cítili natažení hrudníku."
         },
         "Shoulder Rolls": {
           "name": "Ramenní rolády",
-          "desc": "Roll shoulders backward in large circles, 10 reps."
+          "desc": "Rolujte rameny dozadu ve velkých kruzích, 10 opakování."
         },
         "Thoracic Rotation": {
           "name": "Rotace hrudníku",
@@ -151,7 +151,13 @@
     }
   },
   "benefits": {
-    "title": "Proč je důležité každodenní protahování"
+    "title": "Proč je důležité každodenní protahování",
+    "items": [
+      "Snižuje riziko zranění až o 50 %",
+      "Zlepšuje sportovní výkon",
+      "Uvolňuje svalové napětí a stres",
+      "Zlepšuje krevní oběh"
+    ]
   },
   "tests": {
     "status": {
@@ -185,7 +191,13 @@
       }
     },
     "tips": {
-      "title": "Tipy na testování"
+      "title": "Tipy na testování",
+      "list": [
+        "Testy provádějte po lehkém zahřátí, nikoli nachlazení",
+        "Opakujte test každé 2-4 týdny, abyste mohli sledovat pokrok",
+        "Zaměřte se na oblasti, které potřebují pracovat s cíleným strečinkem",
+        "O přetrvávajících omezeních se poraďte s odborníkem"
+      ]
     },
     "actions": {
       "pass": "✓ Pass",

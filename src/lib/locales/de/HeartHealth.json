@@ -7,7 +7,12 @@
   "alerts": {
     "crisis": {
       "title": "Warnung vor einer hypertensiven Krise",
-      "desc": "Ihr Blutdruckwert ist gefährlich hoch (≥180/120). Dies erfordert sofortige ärztliche Hilfe."
+      "desc": "Ihr Blutdruckwert ist gefährlich hoch (≥180/120). Dies erfordert sofortige ärztliche Hilfe.",
+      "actions": [
+        "Rufen Sie 911 an oder gehen Sie sofort in die Notaufnahme",
+        "Warten Sie nicht ab, ob Ihr Druck von selbst nachlässt",
+        "Dies kann zu Schlaganfall, Herzinfarkt oder Organschäden führen"
+      ]
     },
     "vitals": {
       "invalid": "Bitte geben Sie gültige Messwerte ein",
@@ -76,19 +81,34 @@
       "potassium": {
         "title": "Kaliumkraft",
         "limit": "4.700 mg pro Tag",
-        "source": "Aus Vollwertkost"
+        "source": "Aus Vollwertkost",
+        "foods": [
+          "Bananen (422 mg pro Medium)",
+          "Süßkartoffeln (540 mg pro Medium)",
+          "Spinat (840 mg pro Tasse gekocht)"
+        ]
       },
       "magnesium": {
         "title": "Magnesium und Ballaststoffe",
         "limit": "500 mg Mg / 25–35 g Ballaststoffe",
-        "target": "Tagesziele"
+        "target": "Tagesziele",
+        "foods": [
+          "Mandeln, Cashewnüsse, Kürbiskerne",
+          "Vollkorn (Hafer, Quinoa)",
+          "Hülsenfrüchte und dunkles Blattgemüse"
+        ]
       }
     },
     "scanner": {
       "title": "⚠️ Versteckter Natriumscanner: „Hinterhältige Salz“-Lebensmittel",
       "subtitle": "Diese scheinbar harmlosen Lebensmittel enthalten mehr Natrium als Sie denken:",
       "swaps": {
-        "title": "💡 DASH-freundliche Swaps:"
+        "title": "💡 DASH-freundliche Swaps:",
+        "items": [
+          "Hausgemachte Suppe mit natriumarmer Brühe (200 mg vs. 800 mg)",
+          "Gebratene Hähnchenbrust statt Feinkostfleisch (70 mg vs. 520 mg)",
+          "Frisches Gemüse statt Dosengemüse (5 mg vs. 300 mg)"
+        ]
       }
     }
   },
@@ -125,7 +145,13 @@
       }
     },
     "tips": {
-      "title": "Grundlagen der Herzgesundheit"
+      "title": "Grundlagen der Herzgesundheit",
+      "items": [
+        "<strong>Zone 2 Cardio:</strong> Trainieren Sie mit 60–70 % der maximalen Herzfrequenz (Sie können trotzdem ein Gespräch führen)",
+        "<strong>Kalium hilft, Natrium auszuspülen:</strong> Streben Sie täglich 4.700 mg aus Vollwertkost an",
+        "<strong>Konsistenz > Intensität:</strong> Tägliche Spaziergänge schlagen sporadisch intensive Trainingseinheiten für die Herzgesundheit",
+        "<strong>Gleichzeitig überwachen:</strong> Überprüfen Sie morgens den Blutdruck, um möglichst genaue Messwerte zu erhalten"
+      ]
     }
   },
   "foods": {

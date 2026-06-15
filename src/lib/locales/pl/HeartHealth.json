@@ -7,7 +7,12 @@
   "alerts": {
     "crisis": {
       "title": "OSTRZEŻENIE O KRYZYSIE NADCIŚNIENIOWYM",
-      "desc": "Twój odczyt ciśnienia krwi jest niebezpiecznie wysoki (≥180/120). Wymaga to natychmiastowej pomocy lekarskiej."
+      "desc": "Twój odczyt ciśnienia krwi jest niebezpiecznie wysoki (≥180/120). Wymaga to natychmiastowej pomocy lekarskiej.",
+      "actions": [
+        "Zadzwoń pod numer 911 lub natychmiast udaj się na pogotowie",
+        "Nie czekaj, aby zobaczyć, czy ciśnienie samoczynnie spadnie",
+        "Może to prowadzić do udaru mózgu, zawału serca lub uszkodzenia narządów"
+      ]
     },
     "vitals": {
       "invalid": "Proszę wprowadzić prawidłowe odczyty",
@@ -76,19 +81,34 @@
       "potassium": {
         "title": "Moc potasu",
         "limit": "4700 mg dziennie",
-        "source": "Z całej żywności"
+        "source": "Z całej żywności",
+        "foods": [
+          "Banany (422 mg na medium)",
+          "Słodkie ziemniaki (540 mg na średnie)",
+          "Szpinak (840 mg na filiżankę ugotowanego)"
+        ]
       },
       "magnesium": {
         "title": "Magnez i błonnik",
         "limit": "500 mg Mg / 25-35 g błonnika",
-        "target": "Cele dzienne"
+        "target": "Cele dzienne",
+        "foods": [
+          "Migdały, orzechy nerkowca, pestki dyni",
+          "Całe ziarna (owies, komosa ryżowa)",
+          "Rośliny strączkowe i ciemne warzywa liściaste"
+        ]
       }
     },
     "scanner": {
       "title": "⚠️ Ukryty skaner sodu: żywność „podstępna sól”.",
       "subtitle": "Te pozornie niewinne produkty spożywcze zawierają więcej sodu, niż myślisz:",
       "swaps": {
-        "title": "💡 Zamiana przyjazna dla DASH:"
+        "title": "💡 Zamiana przyjazna dla DASH:",
+        "items": [
+          "Domowa zupa z bulionem niskosodowym (200mg vs 800mg)",
+          "Pieczona pierś z kurczaka zamiast wędlin (70 mg vs 520 mg)",
+          "Świeże warzywa zamiast konserw (5 mg vs 300 mg)"
+        ]
       }
     }
   },
@@ -125,7 +145,13 @@
       }
     },
     "tips": {
-      "title": "Podstawy zdrowia serca"
+      "title": "Podstawy zdrowia serca",
+      "items": [
+        "<strong>Strefa 2 cardio:</strong> ćwicz przy 60–70% maksymalnego tętna (nadal możesz prowadzić rozmowę)",
+        "<strong>Potas pomaga wypłukiwać sód:</strong> staraj się dostarczać 4700 mg dziennie z pełnoziarnistej żywności",
+        "<strong>Konsystencja > intensywność:</strong> Codzienne spacery zastępują sporadyczne intensywne treningi poprawiające zdrowie serca",
+        "<strong>Jednoczesne monitorowanie:</strong> Sprawdź ciśnienie krwi rano, aby uzyskać najdokładniejsze odczyty"
+      ]
     }
   },
   "foods": {

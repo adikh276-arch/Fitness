@@ -128,9 +128,9 @@
       "weight": "Waga (kg)",
       "totalVolume": "Całkowita objętość",
       "remaining": "Pozostało do bramki",
+      "recentLifts": "Ostatnie liftingi",
       "submit": "Objętość dziennika",
       "logged": "{{lift}} zalogowano: {{volume}}kg całkowitej objętości!",
-      "recentLifts": "Ostatnie liftingi",
       "placeholders": {
         "sets": "np. 4",
         "reps": "np. 8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "30-dniowa seria nawyków",
+      "tooltip": "Dzień {{day}}: {{count}}/5 nawyków",
       "legend": {
         "perfect": "Idealny (5/5)",
         "partial": "Częściowy",
         "none": "Niekompletny"
-      },
-      "tooltip": "Dzień {{day}}: {{count}}/5 nawyków"
+      }
     }
   },
   "essentials": {

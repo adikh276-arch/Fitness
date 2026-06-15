@@ -9,9 +9,9 @@
       "title": "고혈압 위기 경고",
       "desc": "혈압 수치가 위험할 정도로 높습니다(≥180/120). 이는 즉각적인 치료가 필요합니다.",
       "actions": [
-        "Call 911 or go to the emergency room immediately",
-        "Do not wait to see if your pressure goes down on its own",
-        "This can lead to stroke, heart attack, or organ damage"
+        "즉시 911에 전화하거나 응급실로 가세요",
+        "압력이 저절로 낮아지는지 기다리지 마십시오.",
+        "이로 인해 뇌졸중, 심장마비 또는 장기 손상이 발생할 수 있습니다."
       ]
     },
     "vitals": {
@@ -83,9 +83,9 @@
         "limit": "하루 4,700mg",
         "source": "전체 식품에서",
         "foods": [
-          "Bananas (422mg per medium)",
-          "Sweet Potatoes (540mg per medium)",
-          "Spinach (840mg per cup cooked)"
+          "바나나 (배지당 422mg)",
+          "고구마 (매체당 540mg)",
+          "시금치 (요리된 컵당 840mg)"
         ]
       },
       "magnesium": {
@@ -93,9 +93,9 @@
         "limit": "500mg Mg / 25-35g 섬유질",
         "target": "일일 목표",
         "foods": [
-          "Almonds, cashews, pumpkin seeds",
-          "Whole grains (oats, quinoa)",
-          "Legumes and dark leafy greens"
+          "아몬드, 캐슈, 호박씨",
+          "통곡물(귀리, 퀴노아)",
+          "콩과 식물과 짙은 잎이 많은 채소"
         ]
       }
     },
@@ -105,9 +105,9 @@
       "swaps": {
         "title": "💡 DASH 친화적인 스왑:",
         "items": [
-          "Homemade soup with low-sodium broth (200mg vs 800mg)",
-          "Roasted chicken breast instead of deli meat (70mg vs 520mg)",
-          "Fresh vegetables instead of canned (5mg vs 300mg)"
+          "저염육수로 만든 수프(200mg vs 800mg)",
+          "델리 고기 대신 구운 닭 가슴살 (70mg 대 520mg)",
+          "통조림 대신 신선한 야채(5mg 대 300mg)"
         ]
       }
     }
@@ -147,10 +147,10 @@
     "tips": {
       "title": "심장 건강 필수품",
       "items": [
-        "<strong>Zone 2 cardio:</strong> Exercise at 60-70% max heart rate (you can still hold a conversation)",
-        "<strong>Potassium helps flush sodium:</strong> Aim for 4,700mg daily from whole foods",
-        "<strong>Consistency > intensity:</strong> Daily walks beat sporadic intense workouts for heart health",
-        "<strong>Monitor at the same time:</strong> Check BP in the morning for most accurate readings"
+        "<strong>영역 2 심장강화:</strong> 최대 심박수의 60~70%로 운동하세요(계속 대화할 수 있음).",
+        "<strong>칼륨은 나트륨 배출에 도움이 됩니다.</strong> 전체 식품을 통해 매일 4,700mg을 섭취하는 것을 목표로 하세요.",
+        "<strong>일관성 > 강도:</strong> 매일 걷는 것이 산발적인 강렬한 운동보다 심장 건강에 좋습니다.",
+        "<strong>동시에 모니터링:</strong> 가장 정확한 측정값을 얻으려면 아침에 혈압을 확인하세요."
       ]
     }
   },

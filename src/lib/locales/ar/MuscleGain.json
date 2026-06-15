@@ -128,9 +128,9 @@
       "weight": "الوزن (كجم)",
       "totalVolume": "الحجم الإجمالي",
       "remaining": "المتبقي لتحقيق الهدف",
+      "recentLifts": "عمليات الرفع الحديثة",
       "submit": "حجم السجل",
       "logged": "تم تسجيل {{lift}}: حجم إجمالي قدره {{volume}} كجم!",
-      "recentLifts": "عمليات الرفع الحديثة",
       "placeholders": {
         "sets": "مثال: 4",
         "reps": "مثال: 8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "سلسلة عادات لمدة 30 يومًا",
+      "tooltip": "اليوم {{day}}: {{count}}/5 عادات",
       "legend": {
         "perfect": "ممتاز (5/5)",
         "partial": "جزئي",
         "none": "غير مكتمل"
-      },
-      "tooltip": "اليوم {{day}}: {{count}}/5 عادات"
+      }
     }
   },
   "essentials": {

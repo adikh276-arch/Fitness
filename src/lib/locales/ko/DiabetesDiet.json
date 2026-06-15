@@ -46,6 +46,18 @@
       "targetPost": "Target Max (식후)"
     }
   },
+  "status": {
+    "normal": "정상",
+    "high": "높은",
+    "low": "낮은"
+  },
+  "timing": {
+    "fasting": "단식",
+    "preMeal": "식전",
+    "postMeal1h": "식후 (1시간)",
+    "postMeal2h": "식후 (2시간)",
+    "bedtime": "취침 시간"
+  },
   "plate": {
     "intro": {
       "title": "당뇨병 환자용 접시법",
@@ -96,26 +108,13 @@
       "medium": "중간 GI (56-69): 보통",
       "high": "높은 GI 지수(70 이상): 제한"
     },
-    "searchPlaceholder": "음식을 검색하세요...",
-    "noResults": "검색 조건과 일치하는 음식이 없습니다.",
     "labels": {
       "low": "낮은 GI",
       "medium": "중형 GI",
       "high": "높은 GI"
     },
-    "search": "음식 검색(예: 귀리, 바나나...)"
-  },
-  "timing": {
-    "fasting": "단식",
-    "preMeal": "식전",
-    "postMeal1h": "식후 (1시간)",
-    "postMeal2h": "식후 (2시간)",
-    "bedtime": "취침 시간"
-  },
-  "status": {
-    "low": "낮은",
-    "high": "높은",
-    "normal": "정상"
+    "search": "음식 검색(예: 귀리, 바나나...)",
+    "noResults": "검색 조건과 일치하는 음식이 없습니다."
   },
   "foods": {
     "Spinach": "시금치",

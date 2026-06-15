@@ -128,9 +128,9 @@
       "weight": "वजन (किलोग्राम)",
       "totalVolume": "कुल मात्रा",
       "remaining": "गोल के लिए शेष",
+      "recentLifts": "हाल ही में उठाए गए",
       "submit": "लॉग वॉल्यूम",
       "logged": "लॉग किया गया: कुल आयतन (किलोग्राम)!",
-      "recentLifts": "हाल ही में उठाए गए",
       "placeholders": {
         "sets": "उदाहरण के लिए, 4",
         "reps": "उदाहरण के लिए, 8",
@@ -179,12 +179,12 @@
     },
     "calendar": {
       "title": "30-दिन की आदत की निरंतरता",
+      "tooltip": "दिन {{day}}: {{count}}/5 आदतें",
       "legend": {
         "perfect": "उत्तम (5/5)",
         "partial": "आंशिक",
         "none": "अधूरा"
-      },
-      "tooltip": "दिन {{day}}: {{count}}/5 आदतें"
+      }
     }
   },
   "essentials": {

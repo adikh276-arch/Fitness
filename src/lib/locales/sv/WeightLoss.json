@@ -45,11 +45,23 @@
       "title": "De dolda faktorerna",
       "hydration": {
         "title": "Hydrering",
-        "desc": "Korrekt hydrering hjälper:"
+        "desc": "Korrekt hydrering hjälper:",
+        "list": [
+          "Reglera aptiten",
+          "Öka ämnesomsättningen",
+          "Minska vattenretention",
+          "Stödja fettoxidation"
+        ]
       },
       "sleep": {
         "title": "Sömn (7+ timmar)",
-        "desc": "Kvalitetssömn reglerar:"
+        "desc": "Kvalitetssömn reglerar:",
+        "list": [
+          "Kortisol (stresshormon)",
+          "Ghrelin och leptin (hunger)",
+          "Insulinkänslighet",
+          "Återhämtning & energi"
+        ]
       }
     }
   },

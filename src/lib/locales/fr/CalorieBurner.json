@@ -16,11 +16,11 @@
       "selectActivity": "Sélectionner une activité",
       "weight": "Votre poids",
       "duration": "Durée (minutes)",
-      "submit": "Journal des activités",
       "placeholders": {
         "weightKg": "par exemple, 70",
         "weightLbs": "par exemple, 154"
-      }
+      },
+      "submit": "Journal des activités"
     },
     "summary": {
       "title": "Résumé des brûlures",

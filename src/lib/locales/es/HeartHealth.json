@@ -7,7 +7,12 @@
   "alerts": {
     "crisis": {
       "title": "ADVERTENCIA DE CRISIS HIPERTENSIVA",
-      "desc": "Su lectura de presión arterial es peligrosamente alta (≥180/120). Esto requiere atención médica inmediata."
+      "desc": "Su lectura de presión arterial es peligrosamente alta (≥180/120). Esto requiere atención médica inmediata.",
+      "actions": [
+        "Llame al 911 o vaya a la sala de emergencias de inmediato.",
+        "No esperes a ver si tu presión baja por sí sola",
+        "Esto puede provocar un derrame cerebral, un ataque cardíaco o daño a órganos."
+      ]
     },
     "vitals": {
       "invalid": "Por favor ingrese lecturas válidas",
@@ -76,19 +81,34 @@
       "potassium": {
         "title": "Poder de potasio",
         "limit": "4.700 mg por día",
-        "source": "De alimentos integrales"
+        "source": "De alimentos integrales",
+        "foods": [
+          "Plátanos (422 mg por medio)",
+          "Batatas (540 mg por medio)",
+          "Espinacas (840 mg por taza cocida)"
+        ]
       },
       "magnesium": {
         "title": "Magnesio y Fibra",
         "limit": "500 mg / 25-35 g de fibra",
-        "target": "Objetivos diarios"
+        "target": "Objetivos diarios",
+        "foods": [
+          "Almendras, anacardos, semillas de calabaza.",
+          "Cereales integrales (avena, quinua)",
+          "Legumbres y verduras de hojas verdes oscuras."
+        ]
       }
     },
     "scanner": {
       "title": "⚠️ Escáner de sodio oculto: alimentos con \"sal furtiva\"",
       "subtitle": "Estos alimentos aparentemente inocentes contienen más sodio de lo que crees:",
       "swaps": {
-        "title": "💡 Swaps compatibles con DASH:"
+        "title": "💡 Swaps compatibles con DASH:",
+        "items": [
+          "Sopa casera con caldo bajo en sodio (200 mg frente a 800 mg)",
+          "Pechuga de pollo asada en lugar de carnes frías (70 mg frente a 520 mg)",
+          "Verduras frescas en lugar de enlatadas (5 mg frente a 300 mg)"
+        ]
       }
     }
   },
@@ -125,7 +145,13 @@
       }
     },
     "tips": {
-      "title": "Esenciales para la salud del corazón"
+      "title": "Esenciales para la salud del corazón",
+      "items": [
+        "<strong>Zona cardiovascular 2:</strong> haga ejercicio a un ritmo cardíaco máximo del 60 % al 70 % (aún puede mantener una conversación)",
+        "<strong>El potasio ayuda a eliminar el sodio:</strong> Intente consumir 4700 mg diarios de alimentos integrales.",
+        "<strong>Consistencia > intensidad:</strong> las caminatas diarias superan a los entrenamientos intensos esporádicos para la salud del corazón",
+        "<strong>Monitoree al mismo tiempo:</strong> controle la presión arterial por la mañana para obtener lecturas más precisas"
+      ]
     }
   },
   "foods": {
