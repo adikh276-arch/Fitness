@@ -317,5 +317,9 @@
   "tuna": "تونة",
   "salmon": "سمك السلمون",
   "beef_steak": "شريحة لحم البقر",
-  "chicken_breast": "صدر دجاج"
+  "chicken_breast": "صدر دجاج",
+  "high": "عالية",
+  "medium": "متوسط",
+  "low": "منخفض",
+  "popular_items_use_search_to_se": "(العناصر الشائعة - استخدم البحث لرؤية المزيد)"
 }

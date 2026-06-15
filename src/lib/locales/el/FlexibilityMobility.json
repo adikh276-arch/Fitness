@@ -372,5 +372,8 @@
   "hips": "Γοφούς",
   "back": "Πίσω",
   "shoulders": "Ώμοι",
-  "neck": "Λαιμός"
+  "neck": "Λαιμός",
+  "elite_mobility": "Elite Mobility",
+  "good_mobility": "Καλή κινητικότητα",
+  "limited_mobility": "Περιορισμένη Κινητικότητα"
 }

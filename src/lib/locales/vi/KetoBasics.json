@@ -317,5 +317,9 @@
   "tuna": "cá ngừ",
   "salmon": "cá hồi",
   "beef_steak": "Bò bít tết",
-  "chicken_breast": "Ức gà"
+  "chicken_breast": "Ức gà",
+  "high": "Cao",
+  "medium": "Trung bình",
+  "low": "Thấp",
+  "popular_items_use_search_to_se": "(Các mặt hàng phổ biến - sử dụng tìm kiếm để xem thêm)"
 }

@@ -317,5 +317,9 @@
   "tuna": "Tunfisk",
   "salmon": "Laks",
   "beef_steak": "Biff biff",
-  "chicken_breast": "Kyllingbryst"
+  "chicken_breast": "Kyllingbryst",
+  "high": "Høy",
+  "medium": "Middels",
+  "low": "Lavt",
+  "popular_items_use_search_to_se": "(Populære varer - bruk søk for å se mer)"
 }

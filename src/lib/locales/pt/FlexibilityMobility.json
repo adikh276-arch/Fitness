@@ -372,5 +372,8 @@
   "hips": "Quadris",
   "back": "Voltar",
   "shoulders": "Ombros",
-  "neck": "Pescoço"
+  "neck": "Pescoço",
+  "elite_mobility": "Mobilidade de Elite",
+  "good_mobility": "Boa mobilidade",
+  "limited_mobility": "Mobilidade Limitada"
 }

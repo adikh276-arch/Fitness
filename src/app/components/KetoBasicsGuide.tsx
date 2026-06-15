@@ -322,7 +322,7 @@ export default function KetoBasicsGuide({ onBack }: { onBack: () => void }) {
 
   // Calculate ketosis probability based on habits
   const anyHabitsChecked = todayHabits.under_limit || todayHabits.electrolytes || todayHabits.moderate_protein || todayHabits.high_fat;
-  const ketosisProb = todayHabits.under_limit ? 'High' : anyHabitsChecked ? 'Medium' : 'Low';
+  const ketosisProb = todayHabits.under_limit ? t('high', 'High') : anyHabitsChecked ? t('medium', 'Medium') : t('low', 'Low');
 
   // Get start date based on first logged habit, or today if none
   const getStartDate = () => {
@@ -584,7 +584,7 @@ export default function KetoBasicsGuide({ onBack }: { onBack: () => void }) {
                   {t('green_light_foods')}
                                                   </h3>
                 <p className="text-xs lg:text-sm text-gray-500 mb-4 lg:mb-6">
-                  {t('net_carbs_per_100g_serving')} {!searchQuery && '(Popular items - use search to see more)'}
+                  {t('net_carbs_per_100g_serving')} {!searchQuery && t('popular_items_use_search_to_se', '(Popular items - use search to see more)')}
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-4">
@@ -612,7 +612,7 @@ export default function KetoBasicsGuide({ onBack }: { onBack: () => void }) {
                   {t('keto_killers_avoid_these')}
                                                   </h3>
                 <p className="text-xs lg:text-sm text-gray-600 mb-4 lg:mb-6">
-                  {t('high_carb_foods_that_will_kick_you_out_o')} {!searchQuery && '(Popular items - use search to see more)'}
+                  {t('high_carb_foods_that_will_kick_you_out_o')} {!searchQuery && t('popular_items_use_search_to_se', '(Popular items - use search to see more)')}
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-4">

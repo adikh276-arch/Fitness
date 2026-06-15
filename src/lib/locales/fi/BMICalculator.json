@@ -96,5 +96,7 @@
       "healthyCount": "Terve Count",
       "bestStreak": "Paras putki"
     }
-  }
+  },
+  "kg": "kg",
+  "lbs": "lbs"
 }

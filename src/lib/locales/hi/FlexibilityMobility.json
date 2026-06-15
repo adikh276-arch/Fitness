@@ -372,5 +372,8 @@
   "hips": "कूल्हे",
   "back": "वापस",
   "shoulders": "कंधे",
-  "neck": "गरदन"
+  "neck": "गरदन",
+  "elite_mobility": "संभ्रांत गतिशीलता",
+  "good_mobility": "अच्छी गतिशीलता",
+  "limited_mobility": "सीमित गतिशीलता"
 }

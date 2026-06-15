@@ -317,5 +317,9 @@
   "tuna": "金枪鱼",
   "salmon": "鲑鱼",
   "beef_steak": "牛排",
-  "chicken_breast": "鸡胸肉"
+  "chicken_breast": "鸡胸肉",
+  "high": "高",
+  "medium": "中等",
+  "low": "低",
+  "popular_items_use_search_to_se": "（热门商品-使用搜索查看更多）"
 }

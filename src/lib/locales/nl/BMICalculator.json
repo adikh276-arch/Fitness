@@ -96,5 +96,7 @@
       "healthyCount": "Gezonde telling",
       "bestStreak": "Beste reeks"
     }
-  }
+  },
+  "kg": "kg",
+  "lbs": "pond"
 }

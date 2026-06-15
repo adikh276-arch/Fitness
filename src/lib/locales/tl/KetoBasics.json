@@ -317,5 +317,9 @@
   "tuna": "Tuna",
   "salmon": "Salmon",
   "beef_steak": "Beef Steak",
-  "chicken_breast": "Dibdib ng Manok"
+  "chicken_breast": "Dibdib ng Manok",
+  "high": "Mataas",
+  "medium": "Katamtaman",
+  "low": "Mababa",
+  "popular_items_use_search_to_se": "(Mga sikat na item - gamitin ang paghahanap para makakita pa)"
 }

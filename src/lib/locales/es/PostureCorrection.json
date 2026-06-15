@@ -140,5 +140,7 @@
   "elbowangle": "codoángulo",
   "top_of_screen_at_or_slightly_below_eye_l": "Parte superior de la pantalla al nivel de los ojos o ligeramente por debajo",
   "monitor_at_eye_level": "Monitorear a la altura de los ojos",
-  "monitorheight": "monitorAltura"
+  "monitorheight": "monitorAltura",
+  "recommended_routines": "Rutinas recomendadas",
+  "all_desk_break_routines": "Todas las rutinas de descanso en el escritorio"
 }

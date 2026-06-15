@@ -317,5 +317,9 @@
   "tuna": "টুনা",
   "salmon": "সালমন",
   "beef_steak": "গরুর মাংস স্টেক",
-  "chicken_breast": "মুরগির স্তন"
+  "chicken_breast": "মুরগির স্তন",
+  "high": "উচ্চ",
+  "medium": "মাঝারি",
+  "low": "কম",
+  "popular_items_use_search_to_se": "(জনপ্রিয় আইটেম - আরও দেখতে অনুসন্ধান ব্যবহার করুন)"
 }

@@ -317,5 +317,9 @@
   "tuna": "Tuńczyk",
   "salmon": "Łosoś",
   "beef_steak": "Stek Wołowy",
-  "chicken_breast": "Pierś Z Kurczaka"
+  "chicken_breast": "Pierś Z Kurczaka",
+  "high": "Wysoka",
+  "medium": "Średni",
+  "low": "Niski",
+  "popular_items_use_search_to_se": "(Popularne przedmioty — użyj wyszukiwania, aby zobaczyć więcej)"
 }

@@ -140,5 +140,7 @@
   "elbowangle": "elbowAngle",
   "top_of_screen_at_or_slightly_below_eye_l": "Tuktok ng screen sa o bahagyang mas mababa sa antas ng mata",
   "monitor_at_eye_level": "Subaybayan sa antas ng mata",
-  "monitorheight": "monitorHeight"
+  "monitorheight": "monitorHeight",
+  "recommended_routines": "Mga Inirerekomendang Routine",
+  "all_desk_break_routines": "Lahat ng Desk Break Routines"
 }

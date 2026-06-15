@@ -96,5 +96,7 @@
       "healthyCount": "健康なカウント",
       "bestStreak": "ベストストリーク"
     }
-  }
+  },
+  "kg": "kg",
+  "lbs": "ポンド"
 }

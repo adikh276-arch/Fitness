@@ -96,5 +96,7 @@
       "healthyCount": "Healthy Count",
       "bestStreak": "Καλύτερο σερί"
     }
-  }
+  },
+  "kg": "κιλά",
+  "lbs": "λίβρες"
 }

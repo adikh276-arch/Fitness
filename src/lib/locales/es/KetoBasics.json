@@ -317,5 +317,9 @@
   "tuna": "atún",
   "salmon": "Salmón",
   "beef_steak": "Filete De Res",
-  "chicken_breast": "Pechuga de pollo"
+  "chicken_breast": "Pechuga de pollo",
+  "high": "Alto",
+  "medium": "Medio",
+  "low": "Bajo",
+  "popular_items_use_search_to_se": "(Artículos populares: utilice la búsqueda para ver más)"
 }

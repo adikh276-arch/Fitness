@@ -117,5 +117,10 @@
   "seated_spinal_twist": "الجلوس في العمود الفقري",
   "wrist_circles": "دوائر المعصم",
   "shoulder_rolls": "لفات الكتف",
-  "neck_tilts": "إمالة الرقبة"
+  "neck_tilts": "إمالة الرقبة",
+  "breathe_in": "تنفس في...",
+  "breathe_out": "أخرج نفسا...",
+  "paused_press_play": "متوقف مؤقتًا - اضغط على تشغيل للمتابعة",
+  "stretch_changes_every_2_minut": "يتغير التمدد كل دقيقتين",
+  "focus_on_your_breath_and_alig": "ركز على أنفاسك ومواءمتك"
 }

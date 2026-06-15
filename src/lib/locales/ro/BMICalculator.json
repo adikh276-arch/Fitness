@@ -96,5 +96,7 @@
       "healthyCount": "Număr sănătos",
       "bestStreak": "Cea mai bună serie"
     }
-  }
+  },
+  "kg": "kg",
+  "lbs": "lbs"
 }

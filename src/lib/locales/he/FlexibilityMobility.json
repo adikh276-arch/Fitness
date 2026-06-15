@@ -372,5 +372,8 @@
   "hips": "ירכיים",
   "back": "חזרה",
   "shoulders": "כתפיים",
-  "neck": "צוואר"
+  "neck": "צוואר",
+  "elite_mobility": "ניידות עילית",
+  "good_mobility": "ניידות טובה",
+  "limited_mobility": "ניידות מוגבלת"
 }

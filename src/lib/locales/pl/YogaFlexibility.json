@@ -117,5 +117,10 @@
   "seated_spinal_twist": "Skręt kręgosłupa w pozycji siedzącej",
   "wrist_circles": "Kręgi nadgarstków",
   "shoulder_rolls": "Roladki na ramię",
-  "neck_tilts": "Pochylenie szyi"
+  "neck_tilts": "Pochylenie szyi",
+  "breathe_in": "Wdech...",
+  "breathe_out": "Wydech...",
+  "paused_press_play": "Wstrzymano — naciśnij przycisk Odtwórz, aby kontynuować",
+  "stretch_changes_every_2_minut": "Rozciągnięcie zmienia się co 2 minuty",
+  "focus_on_your_breath_and_alig": "Skoncentruj się na oddechu i wyrównaniu"
 }

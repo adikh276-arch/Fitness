@@ -140,5 +140,7 @@
   "elbowangle": "肘の角度",
   "top_of_screen_at_or_slightly_below_eye_l": "画面の上部、または目の高さよりわずかに低い位置",
   "monitor_at_eye_level": "目の高さでモニターする",
-  "monitorheight": "モニターの高さ"
+  "monitorheight": "モニターの高さ",
+  "recommended_routines": "おすすめのルーティン",
+  "all_desk_break_routines": "すべてのデスクブレイクのルーチン"
 }

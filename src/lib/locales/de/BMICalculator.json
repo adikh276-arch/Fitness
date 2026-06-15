@@ -96,5 +96,7 @@
       "healthyCount": "Gesunde Anzahl",
       "bestStreak": "Beste Siegesserie"
     }
-  }
+  },
+  "kg": "kg",
+  "lbs": "Pfund"
 }

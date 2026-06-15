@@ -117,5 +117,10 @@
   "seated_spinal_twist": "טוויסט בעמוד השדרה בישיבה",
   "wrist_circles": "מעגלי שורש כף היד",
   "shoulder_rolls": "גלילי כתף",
-  "neck_tilts": "הטיית צוואר"
+  "neck_tilts": "הטיית צוואר",
+  "breathe_in": "לנשום פנימה...",
+  "breathe_out": "לנשום החוצה...",
+  "paused_press_play": "מושהה - לחץ על הפעל כדי להמשיך",
+  "stretch_changes_every_2_minut": "משתנה מתיחה כל 2 דקות",
+  "focus_on_your_breath_and_alig": "התמקד בנשימה שלך ובהתאמה"
 }

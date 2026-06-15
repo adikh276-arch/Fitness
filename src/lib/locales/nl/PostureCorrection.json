@@ -140,5 +140,7 @@
   "elbowangle": "ellebooghoek",
   "top_of_screen_at_or_slightly_below_eye_l": "Bovenkant van het scherm op of iets onder ooghoogte",
   "monitor_at_eye_level": "Monitor op ooghoogte",
-  "monitorheight": "monitorHoogte"
+  "monitorheight": "monitorHoogte",
+  "recommended_routines": "Aanbevolen routines",
+  "all_desk_break_routines": "Alle bureaupauzeroutines"
 }

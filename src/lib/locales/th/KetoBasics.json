@@ -317,5 +317,9 @@
   "tuna": "ปลาทูน่า",
   "salmon": "แซลมอน",
   "beef_steak": "สเต็กเนื้อ",
-  "chicken_breast": "อกไก่"
+  "chicken_breast": "อกไก่",
+  "high": "สูง",
+  "medium": "ปานกลาง",
+  "low": "ต่ำ",
+  "popular_items_use_search_to_se": "(สินค้ายอดนิยม - ใช้การค้นหาเพื่อดูเพิ่มเติม)"
 }

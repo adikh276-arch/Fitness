@@ -578,7 +578,7 @@ export default function FlexibilityMobilityGuide({ onBack }: { onBack: () => voi
     // Database log
     logUserActivity('flexibility_mobility', 'mobility_test', {
       test_results: Object.fromEntries(allScores.map(s => [s.testId, s.score])),
-      overall_status: totalPoints >= 6 ? 'Elite Mobility' : totalPoints >= 4 ? 'Good Mobility' : 'Limited Mobility',
+      overall_status: totalPoints >= 6 ? t('elite_mobility', 'Elite Mobility') : totalPoints >= 4 ? t('good_mobility', 'Good Mobility') : t('limited_mobility', 'Limited Mobility'),
       total_points: totalPoints,
       timestamp: new Date().toISOString(),
     });

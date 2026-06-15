@@ -768,7 +768,7 @@ export default function BMICalculator({ onBack }: { onBack: () => void }) {
                                 {isHealthy && <Check className="w-4 h-4 text-emerald-600" />}
                               </div>
                               <div className="flex items-center gap-2 text-xs lg:text-sm text-gray-600">
-                                <span>{record.weight} {record.unit === 'metric' ? 'kg' : 'lbs'}</span>
+                                <span>{record.weight} {record.unit === 'metric' ? t('kg', 'kg') : t('lbs', 'lbs')}</span>
                                 <span className="text-gray-400">•</span>
                                 <span className={`font-medium ${cat.color}`}>{cat.label}</span>
                               </div>

@@ -117,5 +117,10 @@
   "seated_spinal_twist": "Xoay cột sống khi ngồi",
   "wrist_circles": "Vòng cổ tay",
   "shoulder_rolls": "Cuộn vai",
-  "neck_tilts": "Nghiêng cổ"
+  "neck_tilts": "Nghiêng cổ",
+  "breathe_in": "Hít vào...",
+  "breathe_out": "Thở ra...",
+  "paused_press_play": "Đã tạm dừng - Nhấn Play để tiếp tục",
+  "stretch_changes_every_2_minut": "Kéo dài thay đổi cứ sau 2 phút",
+  "focus_on_your_breath_and_alig": "Tập trung vào hơi thở và sự liên kết của bạn"
 }

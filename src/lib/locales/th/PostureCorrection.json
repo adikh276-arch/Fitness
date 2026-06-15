@@ -140,5 +140,7 @@
   "elbowangle": "ข้อศอกมุม",
   "top_of_screen_at_or_slightly_below_eye_l": "ด้านบนของหน้าจออยู่ที่หรือต่ำกว่าระดับสายตาเล็กน้อย",
   "monitor_at_eye_level": "มอนิเตอร์ในระดับสายตา",
-  "monitorheight": "จอภาพความสูง"
+  "monitorheight": "จอภาพความสูง",
+  "recommended_routines": "กิจวัตรที่แนะนำ",
+  "all_desk_break_routines": "กิจวัตรการแบ่งโต๊ะทั้งหมด"
 }

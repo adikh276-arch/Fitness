@@ -117,5 +117,10 @@
   "seated_spinal_twist": "बैठा हुआ स्पाइनल ट्विस्ट",
   "wrist_circles": "कलाई के घेरे",
   "shoulder_rolls": "कंधे घुमाना",
-  "neck_tilts": "गर्दन झुकाना"
+  "neck_tilts": "गर्दन झुकाना",
+  "breathe_in": "साँस अंदर लें...",
+  "breathe_out": "साँस छोड़ें...",
+  "paused_press_play": "रोका गया - जारी रखने के लिए प्ले दबाएँ",
+  "stretch_changes_every_2_minut": "हर 2 मिनट में खिंचाव बदलता है",
+  "focus_on_your_breath_and_alig": "अपनी सांस और संरेखण पर ध्यान दें"
 }

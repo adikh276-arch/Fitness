@@ -372,5 +372,8 @@
   "hips": "Csípő",
   "back": "Vissza",
   "shoulders": "Vállak",
-  "neck": "Nyak"
+  "neck": "Nyak",
+  "elite_mobility": "Elit Mobilitás",
+  "good_mobility": "Jó mobilitás",
+  "limited_mobility": "Korlátozott mobilitás"
 }

@@ -96,5 +96,7 @@
       "healthyCount": "Zdrowy licznik",
       "bestStreak": "Najlepsza passa"
     }
-  }
+  },
+  "kg": "kg",
+  "lbs": "funty"
 }

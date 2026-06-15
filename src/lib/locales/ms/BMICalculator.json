@@ -96,5 +96,7 @@
       "healthyCount": "Kiraan Sihat",
       "bestStreak": "Streak Terbaik"
     }
-  }
+  },
+  "kg": "kg",
+  "lbs": "lbs"
 }

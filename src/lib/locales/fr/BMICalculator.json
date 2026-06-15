@@ -96,5 +96,7 @@
       "healthyCount": "Nombre sain",
       "bestStreak": "Meilleure série"
     }
-  }
+  },
+  "kg": "kilos",
+  "lbs": "livres"
 }

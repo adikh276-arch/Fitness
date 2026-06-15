@@ -372,5 +372,8 @@
   "hips": "الوركين",
   "back": "العودة",
   "shoulders": "أكتاف",
-  "neck": "الرقبة"
+  "neck": "الرقبة",
+  "elite_mobility": "النخبة التنقل",
+  "good_mobility": "التنقل الجيد",
+  "limited_mobility": "محدودية الحركة"
 }

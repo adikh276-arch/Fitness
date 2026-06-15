@@ -372,5 +372,8 @@
   "hips": "Höfter",
   "back": "Tillbaka",
   "shoulders": "Axlar",
-  "neck": "Hals"
+  "neck": "Hals",
+  "elite_mobility": "Elitmobilitet",
+  "good_mobility": "Bra rörlighet",
+  "limited_mobility": "Begränsad rörlighet"
 }

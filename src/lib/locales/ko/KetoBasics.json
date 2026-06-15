@@ -317,5 +317,9 @@
   "tuna": "참치",
   "salmon": "연어",
   "beef_steak": "쇠고기 스테이크",
-  "chicken_breast": "닭가슴살"
+  "chicken_breast": "닭가슴살",
+  "high": "높음",
+  "medium": "중간",
+  "low": "낮음",
+  "popular_items_use_search_to_se": "(인기상품 - 검색을 이용하시면 더 많은 상품을 보실 수 있습니다)"
 }

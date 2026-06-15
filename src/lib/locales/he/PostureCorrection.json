@@ -140,5 +140,7 @@
   "elbowangle": "elbowAngle",
   "top_of_screen_at_or_slightly_below_eye_l": "החלק העליון של המסך בגובה העיניים או מעט מתחתיו",
   "monitor_at_eye_level": "ניטור בגובה העיניים",
-  "monitorheight": "monitorHeight"
+  "monitorheight": "monitorHeight",
+  "recommended_routines": "רוטינות מומלצות",
+  "all_desk_break_routines": "כל שגרות הפסקת השולחן"
 }

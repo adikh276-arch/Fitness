@@ -372,5 +372,8 @@
   "hips": "Hips",
   "back": "Back",
   "shoulders": "Shoulders",
-  "neck": "Neck"
+  "neck": "Neck",
+  "elite_mobility": "Elite Mobility",
+  "good_mobility": "Good Mobility",
+  "limited_mobility": "Limited Mobility"
 }

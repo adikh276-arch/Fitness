@@ -117,5 +117,10 @@
   "seated_spinal_twist": "ท่านั่งบิดกระดูกสันหลัง",
   "wrist_circles": "วงข้อมือ",
   "shoulder_rolls": "ไหล่ม้วน",
-  "neck_tilts": "คอเอียง"
+  "neck_tilts": "คอเอียง",
+  "breathe_in": "หายใจเข้า...",
+  "breathe_out": "หายใจออก...",
+  "paused_press_play": "หยุดชั่วคราว - กดเล่นเพื่อดำเนินการต่อ",
+  "stretch_changes_every_2_minut": "การยืดเปลี่ยนทุกๆ 2 นาที",
+  "focus_on_your_breath_and_alig": "มุ่งเน้นไปที่ลมหายใจและการจัดตำแหน่งของคุณ"
 }

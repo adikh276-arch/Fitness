@@ -372,5 +372,8 @@
   "hips": "Kalçalar",
   "back": "Geri",
   "shoulders": "Omuzlar",
-  "neck": "Boyun"
+  "neck": "Boyun",
+  "elite_mobility": "Elit Hareketlilik",
+  "good_mobility": "İyi Hareketlilik",
+  "limited_mobility": "Sınırlı Hareketlilik"
 }

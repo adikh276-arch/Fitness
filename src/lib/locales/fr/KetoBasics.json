@@ -317,5 +317,9 @@
   "tuna": "Thon",
   "salmon": "Saumon",
   "beef_steak": "Steak de boeuf",
-  "chicken_breast": "Poitrine De Poulet"
+  "chicken_breast": "Poitrine De Poulet",
+  "high": "Élevé",
+  "medium": "Moyen",
+  "low": "Faible",
+  "popular_items_use_search_to_se": "(Articles populaires - utilisez la recherche pour en voir plus)"
 }

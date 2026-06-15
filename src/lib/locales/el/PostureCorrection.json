@@ -140,5 +140,7 @@
   "elbowangle": "αγκώνας Γωνία",
   "top_of_screen_at_or_slightly_below_eye_l": "Πάνω μέρος της οθόνης στο επίπεδο των ματιών ή λίγο πιο κάτω",
   "monitor_at_eye_level": "Παρακολούθηση στο ύψος των ματιών",
-  "monitorheight": "Ύψος οθόνης"
+  "monitorheight": "Ύψος οθόνης",
+  "recommended_routines": "Προτεινόμενες ρουτίνες",
+  "all_desk_break_routines": "Όλες οι ρουτίνες διαλείμματος στο γραφείο"
 }

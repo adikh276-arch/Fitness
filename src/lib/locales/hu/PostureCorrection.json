@@ -140,5 +140,7 @@
   "elbowangle": "könyökSzög",
   "top_of_screen_at_or_slightly_below_eye_l": "A képernyő teteje szemmagasságban vagy valamivel alatta",
   "monitor_at_eye_level": "Monitor szemmagasságban",
-  "monitorheight": "monitorHeight"
+  "monitorheight": "monitorHeight",
+  "recommended_routines": "Ajánlott rutinok",
+  "all_desk_break_routines": "Minden asztali szünet rutin"
 }

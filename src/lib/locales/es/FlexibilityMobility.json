@@ -372,5 +372,8 @@
   "hips": "Caderas",
   "back": "Atrás",
   "shoulders": "Hombros",
-  "neck": "cuello"
+  "neck": "cuello",
+  "elite_mobility": "Movilidad de élite",
+  "good_mobility": "Buena movilidad",
+  "limited_mobility": "Movilidad limitada"
 }

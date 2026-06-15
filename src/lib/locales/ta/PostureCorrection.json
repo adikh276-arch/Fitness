@@ -140,5 +140,7 @@
   "elbowangle": "முழங்கை கோணம்",
   "top_of_screen_at_or_slightly_below_eye_l": "கண் மட்டத்தில் அல்லது சற்று கீழே திரையின் மேல்",
   "monitor_at_eye_level": "கண் மட்டத்தில் கண்காணிக்கவும்",
-  "monitorheight": "மானிட்டர் உயரம்"
+  "monitorheight": "மானிட்டர் உயரம்",
+  "recommended_routines": "பரிந்துரைக்கப்பட்ட நடைமுறைகள்",
+  "all_desk_break_routines": "அனைத்து டெஸ்க் பிரேக் நடைமுறைகள்"
 }

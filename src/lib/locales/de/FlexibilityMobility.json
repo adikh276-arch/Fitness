@@ -372,5 +372,8 @@
   "hips": "Hüften",
   "back": "Zurück",
   "shoulders": "Schultern",
-  "neck": "Hals"
+  "neck": "Hals",
+  "elite_mobility": "Elite-Mobilität",
+  "good_mobility": "Gute Mobilität",
+  "limited_mobility": "Eingeschränkte Mobilität"
 }

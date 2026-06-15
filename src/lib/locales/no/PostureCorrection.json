@@ -140,5 +140,7 @@
   "elbowangle": "albueVinkel",
   "top_of_screen_at_or_slightly_below_eye_l": "Øverst på skjermen i eller litt under øyehøyde",
   "monitor_at_eye_level": "Overvåk i øyehøyde",
-  "monitorheight": "monitorhøyde"
+  "monitorheight": "monitorhøyde",
+  "recommended_routines": "Anbefalte rutiner",
+  "all_desk_break_routines": "Alle rutiner for skrivebordspause"
 }

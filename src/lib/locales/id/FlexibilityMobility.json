@@ -372,5 +372,8 @@
   "hips": "pinggul",
   "back": "Kembali",
   "shoulders": "Bahu",
-  "neck": "Leher"
+  "neck": "Leher",
+  "elite_mobility": "Mobilitas Elit",
+  "good_mobility": "Mobilitas yang Baik",
+  "limited_mobility": "Mobilitas Terbatas"
 }

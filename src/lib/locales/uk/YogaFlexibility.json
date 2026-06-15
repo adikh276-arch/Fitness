@@ -117,5 +117,10 @@
   "seated_spinal_twist": "Скручування хребта сидячи",
   "wrist_circles": "Запястні кола",
   "shoulder_rolls": "Рулони на плечі",
-  "neck_tilts": "Нахили шиї"
+  "neck_tilts": "Нахили шиї",
+  "breathe_in": "Вдихни...",
+  "breathe_out": "Видихни...",
+  "paused_press_play": "Призупинено – натисніть «Відтворити», щоб продовжити",
+  "stretch_changes_every_2_minut": "Розтяжка змінюється кожні 2 хвилини",
+  "focus_on_your_breath_and_alig": "Зосередьтеся на своєму диханні та вирівнюванні"
 }

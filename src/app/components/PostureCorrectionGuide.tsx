@@ -691,7 +691,7 @@ export default function PostureCorrectionGuide({ onBack }: { onBack: () => void 
               {/* Recommended Routines */}
               <div className="bg-white rounded-xl lg:rounded-2xl p-4 lg:p-6 border border-gray-200">
                 <h2 className="text-base lg:text-lg font-semibold text-gray-900 mb-3 lg:mb-4">
-                  {selectedSymptoms.length > 0 ? 'Recommended Routines' : 'All Desk Break Routines'}
+                  {selectedSymptoms.length > 0 ? t('recommended_routines', 'Recommended Routines') : t('all_desk_break_routines', 'All Desk Break Routines')}
                 </h2>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 lg:gap-4">
                   {getRecommendedRoutines().map(routine => {

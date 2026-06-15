@@ -140,5 +140,7 @@
   "elbowangle": "armbågsvinkel",
   "top_of_screen_at_or_slightly_below_eye_l": "Överst på skärmen i eller något under ögonhöjd",
   "monitor_at_eye_level": "Övervaka i ögonhöjd",
-  "monitorheight": "övervaka Höjd"
+  "monitorheight": "övervaka Höjd",
+  "recommended_routines": "Rekommenderade rutiner",
+  "all_desk_break_routines": "Alla rutiner för skrivbordsavbrott"
 }

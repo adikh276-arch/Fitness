@@ -140,5 +140,7 @@
   "elbowangle": "cotoveloAngle",
   "top_of_screen_at_or_slightly_below_eye_l": "Parte superior da tela no nível dos olhos ou um pouco abaixo",
   "monitor_at_eye_level": "Monitore ao nível dos olhos",
-  "monitorheight": "monitorHeight"
+  "monitorheight": "monitorHeight",
+  "recommended_routines": "Rotinas recomendadas",
+  "all_desk_break_routines": "Todas as rotinas de pausa na mesa"
 }

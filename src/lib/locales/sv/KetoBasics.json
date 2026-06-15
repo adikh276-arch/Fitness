@@ -317,5 +317,9 @@
   "tuna": "Tonfisk",
   "salmon": "Lax",
   "beef_steak": "Biffstek",
-  "chicken_breast": "Kycklingbröst"
+  "chicken_breast": "Kycklingbröst",
+  "high": "Hög",
+  "medium": "Medium",
+  "low": "Låg",
+  "popular_items_use_search_to_se": "(Populära föremål - använd sök för att se mer)"
 }

@@ -372,5 +372,8 @@
   "hips": "Heupen",
   "back": "Terug",
   "shoulders": "Schouders",
-  "neck": "Nek"
+  "neck": "Nek",
+  "elite_mobility": "Elite-mobiliteit",
+  "good_mobility": "Goede mobiliteit",
+  "limited_mobility": "Beperkte mobiliteit"
 }

@@ -317,5 +317,9 @@
   "tuna": "Thunfisch",
   "salmon": "Lachs",
   "beef_steak": "Rindersteak",
-  "chicken_breast": "Hähnchenbrust"
+  "chicken_breast": "Hähnchenbrust",
+  "high": "Hoch",
+  "medium": "Mittel",
+  "low": "Niedrig",
+  "popular_items_use_search_to_se": "(Beliebte Artikel – verwenden Sie die Suche, um mehr zu sehen)"
 }

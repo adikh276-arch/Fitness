@@ -96,5 +96,7 @@
       "healthyCount": "Contagem saudável",
       "bestStreak": "Melhor sequência"
     }
-  }
+  },
+  "kg": "kg",
+  "lbs": "libras"
 }

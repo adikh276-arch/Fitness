@@ -372,5 +372,8 @@
   "hips": "balakang",
   "back": "Bumalik",
   "shoulders": "Mga balikat",
-  "neck": "leeg"
+  "neck": "leeg",
+  "elite_mobility": "Elite Mobility",
+  "good_mobility": "Magandang Mobility",
+  "limited_mobility": "Limitadong Mobility"
 }

@@ -372,5 +372,8 @@
   "hips": "Fianchi",
   "back": "Indietro",
   "shoulders": "Spalle",
-  "neck": "Collo"
+  "neck": "Collo",
+  "elite_mobility": "Mobilità d'élite",
+  "good_mobility": "Buona mobilità",
+  "limited_mobility": "Mobilità limitata"
 }

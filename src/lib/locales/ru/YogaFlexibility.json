@@ -117,5 +117,10 @@
   "seated_spinal_twist": "Скручивание позвоночника сидя",
   "wrist_circles": "Круги на запястьях",
   "shoulder_rolls": "Вращение плечами",
-  "neck_tilts": "Наклоны шеи"
+  "neck_tilts": "Наклоны шеи",
+  "breathe_in": "Вдохните...",
+  "breathe_out": "Выдохните...",
+  "paused_press_play": "Приостановлено. Нажмите «Воспроизвести», чтобы продолжить.",
+  "stretch_changes_every_2_minut": "Растяжка меняется каждые 2 минуты.",
+  "focus_on_your_breath_and_alig": "Сосредоточьтесь на своем дыхании и выравнивании"
 }

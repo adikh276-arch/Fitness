@@ -117,5 +117,10 @@
   "seated_spinal_twist": "앉은 척추 비틀기",
   "wrist_circles": "손목 서클",
   "shoulder_rolls": "숄더 롤",
-  "neck_tilts": "목 기울기"
+  "neck_tilts": "목 기울기",
+  "breathe_in": "숨을 들이쉬세요...",
+  "breathe_out": "숨을 내쉬세요...",
+  "paused_press_play": "일시중지됨 - 계속하려면 재생을 누르세요.",
+  "stretch_changes_every_2_minut": "2분마다 스트레칭 변경",
+  "focus_on_your_breath_and_alig": "호흡과 정렬에 집중하세요."
 }

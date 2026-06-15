@@ -96,5 +96,7 @@
       "healthyCount": "Zdravý počet",
       "bestStreak": "Nejlepší Streak"
     }
-  }
+  },
+  "kg": "kg",
+  "lbs": "lbs"
 }

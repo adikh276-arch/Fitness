@@ -372,5 +372,8 @@
   "hips": "পোঁদ",
   "back": "ফিরে",
   "shoulders": "কাঁধ",
-  "neck": "ঘাড়"
+  "neck": "ঘাড়",
+  "elite_mobility": "অভিজাত গতিশীলতা",
+  "good_mobility": "ভাল গতিশীলতা",
+  "limited_mobility": "সীমিত গতিশীলতা"
 }

@@ -117,5 +117,10 @@
   "seated_spinal_twist": "座位脊椎ツイスト",
   "wrist_circles": "リストサークル",
   "shoulder_rolls": "ショルダーロール",
-  "neck_tilts": "首の傾き"
+  "neck_tilts": "首の傾き",
+  "breathe_in": "息を吸って…",
+  "breathe_out": "息を吐き出す...",
+  "paused_press_play": "一時停止 - 続行するには再生を押してください",
+  "stretch_changes_every_2_minut": "ストレッチは 2 分ごとに変化します",
+  "focus_on_your_breath_and_alig": "呼吸と調整に集中する"
 }

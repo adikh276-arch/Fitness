@@ -96,5 +96,7 @@
       "healthyCount": "Frisk räkning",
       "bestStreak": "Bästa Streak"
     }
-  }
+  },
+  "kg": "kg",
+  "lbs": "lbs"
 }

@@ -372,5 +372,8 @@
   "hips": "Boky",
   "back": "Zpět",
   "shoulders": "Ramena",
-  "neck": "Krk"
+  "neck": "Krk",
+  "elite_mobility": "Elitní mobilita",
+  "good_mobility": "Dobrá mobilita",
+  "limited_mobility": "Omezená mobilita"
 }

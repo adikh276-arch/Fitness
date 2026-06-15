@@ -140,5 +140,7 @@
   "elbowangle": "ліктьовий кут",
   "top_of_screen_at_or_slightly_below_eye_l": "Верх екрана на рівні очей або трохи нижче",
   "monitor_at_eye_level": "Монітор на рівні очей",
-  "monitorheight": "monitorHeight"
+  "monitorheight": "monitorHeight",
+  "recommended_routines": "Рекомендовані процедури",
+  "all_desk_break_routines": "Усі процедури перерви"
 }

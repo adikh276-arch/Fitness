@@ -96,5 +96,7 @@
       "healthyCount": "Egészséges gróf",
       "bestStreak": "Legjobb sorozat"
     }
-  }
+  },
+  "kg": "kg",
+  "lbs": "lbs"
 }

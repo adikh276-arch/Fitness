@@ -372,5 +372,8 @@
   "hips": "엉덩이",
   "back": "뒤로",
   "shoulders": "어깨",
-  "neck": "목"
+  "neck": "목",
+  "elite_mobility": "엘리트 모빌리티",
+  "good_mobility": "좋은 이동성",
+  "limited_mobility": "제한된 이동성"
 }

@@ -372,5 +372,8 @@
   "hips": "สะโพก",
   "back": "กลับ",
   "shoulders": "ไหล่",
-  "neck": "คอ"
+  "neck": "คอ",
+  "elite_mobility": "ความคล่องตัวระดับสูง",
+  "good_mobility": "คล่องตัวดี",
+  "limited_mobility": "การเคลื่อนไหวที่จำกัด"
 }

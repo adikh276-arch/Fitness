@@ -372,5 +372,8 @@
   "hips": "Hanches",
   "back": "Retour",
   "shoulders": "Épaules",
-  "neck": "Cou"
+  "neck": "Cou",
+  "elite_mobility": "Mobilité d'élite",
+  "good_mobility": "Bonne mobilité",
+  "limited_mobility": "Mobilité limitée"
 }

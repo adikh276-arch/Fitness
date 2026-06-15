@@ -140,5 +140,7 @@
   "elbowangle": "Ellenbogenwinkel",
   "top_of_screen_at_or_slightly_below_eye_l": "Oberer Bildschirmrand auf Augenhöhe oder leicht darunter",
   "monitor_at_eye_level": "Auf Augenhöhe überwachen",
-  "monitorheight": "Monitorhöhe"
+  "monitorheight": "Monitorhöhe",
+  "recommended_routines": "Empfohlene Routinen",
+  "all_desk_break_routines": "Alle Schreibtischpausenroutinen"
 }

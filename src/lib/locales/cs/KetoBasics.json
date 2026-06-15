@@ -317,5 +317,9 @@
   "tuna": "Tuňák",
   "salmon": "Losos",
   "beef_steak": "Hovězí steak",
-  "chicken_breast": "Kuřecí prsa"
+  "chicken_breast": "Kuřecí prsa",
+  "high": "Vysoká",
+  "medium": "Střední",
+  "low": "Nízká",
+  "popular_items_use_search_to_se": "(Oblíbené položky – použijte vyhledávání pro zobrazení více)"
 }

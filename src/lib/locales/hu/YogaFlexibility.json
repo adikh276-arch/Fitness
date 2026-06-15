@@ -117,5 +117,10 @@
   "seated_spinal_twist": "Ülő gerinccsavar",
   "wrist_circles": "Csukló körök",
   "shoulder_rolls": "Válltekercsek",
-  "neck_tilts": "Nyak dönthető"
+  "neck_tilts": "Nyak dönthető",
+  "breathe_in": "Lélegezz be...",
+  "breathe_out": "Lélegezz ki...",
+  "paused_press_play": "Szüneteltetve – A folytatáshoz nyomja meg a Lejátszás gombot",
+  "stretch_changes_every_2_minut": "A nyújtás 2 percenként változik",
+  "focus_on_your_breath_and_alig": "Koncentrálj a légzésedre és az igazodásra"
 }

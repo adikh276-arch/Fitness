@@ -317,5 +317,9 @@
   "tuna": "Ton balığı",
   "salmon": "Somon",
   "beef_steak": "Dana biftek",
-  "chicken_breast": "Tavuk Göğsü"
+  "chicken_breast": "Tavuk Göğsü",
+  "high": "Yüksek",
+  "medium": "Orta",
+  "low": "Düşük",
+  "popular_items_use_search_to_se": "(Popüler öğeler - daha fazlasını görmek için aramayı kullanın)"
 }

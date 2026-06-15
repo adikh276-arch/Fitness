@@ -117,5 +117,10 @@
   "seated_spinal_twist": "উপবিষ্ট স্পাইনাল টুইস্ট",
   "wrist_circles": "কব্জি চেনাশোনা",
   "shoulder_rolls": "শোল্ডার রোলস",
-  "neck_tilts": "ঘাড় কাত"
+  "neck_tilts": "ঘাড় কাত",
+  "breathe_in": "শ্বাস নিন...",
+  "breathe_out": "শ্বাস ছাড়ুন...",
+  "paused_press_play": "বিরাম দেওয়া হয়েছে - চালিয়ে যেতে প্লে টিপুন",
+  "stretch_changes_every_2_minut": "প্রতি 2 মিনিটে প্রসারিত পরিবর্তন",
+  "focus_on_your_breath_and_alig": "আপনার শ্বাস এবং প্রান্তিককরণের উপর ফোকাস করুন"
 }

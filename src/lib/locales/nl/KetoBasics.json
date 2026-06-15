@@ -317,5 +317,9 @@
   "tuna": "Tonijn",
   "salmon": "Zalm",
   "beef_steak": "Biefstuk",
-  "chicken_breast": "Kipfilet"
+  "chicken_breast": "Kipfilet",
+  "high": "Hoog",
+  "medium": "Middelmatig",
+  "low": "Laag",
+  "popular_items_use_search_to_se": "(Populaire items - gebruik de zoekfunctie om meer te zien)"
 }

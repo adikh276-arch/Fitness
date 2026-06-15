@@ -117,5 +117,10 @@
   "seated_spinal_twist": "Torsione spinale seduta",
   "wrist_circles": "Cerchi del polso",
   "shoulder_rolls": "Rotoli sulle spalle",
-  "neck_tilts": "Il collo si inclina"
+  "neck_tilts": "Il collo si inclina",
+  "breathe_in": "Inspira...",
+  "breathe_out": "Espira...",
+  "paused_press_play": "In pausa: premi Riproduci per continuare",
+  "stretch_changes_every_2_minut": "L'allungamento cambia ogni 2 minuti",
+  "focus_on_your_breath_and_alig": "Concentrati sul respiro e sull'allineamento"
 }

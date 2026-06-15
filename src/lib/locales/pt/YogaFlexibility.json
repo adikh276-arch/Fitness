@@ -117,5 +117,10 @@
   "seated_spinal_twist": "Torção espinhal sentada",
   "wrist_circles": "Círculos de pulso",
   "shoulder_rolls": "Rolinhos de Ombro",
-  "neck_tilts": "Inclinações do pescoço"
+  "neck_tilts": "Inclinações do pescoço",
+  "breathe_in": "Inspire...",
+  "breathe_out": "Expire...",
+  "paused_press_play": "Pausado - Pressione Play para continuar",
+  "stretch_changes_every_2_minut": "O alongamento muda a cada 2 minutos",
+  "focus_on_your_breath_and_alig": "Concentre-se na respiração e no alinhamento"
 }

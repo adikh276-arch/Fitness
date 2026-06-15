@@ -140,5 +140,7 @@
   "elbowangle": "локотьУгол",
   "top_of_screen_at_or_slightly_below_eye_l": "Верхняя часть экрана на уровне глаз или чуть ниже",
   "monitor_at_eye_level": "Монитор на уровне глаз",
-  "monitorheight": "высота монитора"
+  "monitorheight": "высота монитора",
+  "recommended_routines": "Рекомендуемые процедуры",
+  "all_desk_break_routines": "Все программы перерывов на рабочем столе"
 }

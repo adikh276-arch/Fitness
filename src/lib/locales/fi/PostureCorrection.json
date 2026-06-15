@@ -140,5 +140,7 @@
   "elbowangle": "kyynärpääKulma",
   "top_of_screen_at_or_slightly_below_eye_l": "Näytön yläreuna silmien tasolla tai hieman sen alapuolella",
   "monitor_at_eye_level": "Monitori silmien tasolla",
-  "monitorheight": "monitorHeight"
+  "monitorheight": "monitorHeight",
+  "recommended_routines": "Suositellut rutiinit",
+  "all_desk_break_routines": "Kaikki työpöydän taukoohjelmat"
 }

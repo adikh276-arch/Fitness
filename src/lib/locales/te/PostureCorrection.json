@@ -140,5 +140,7 @@
   "elbowangle": "elbowAngle",
   "top_of_screen_at_or_slightly_below_eye_l": "స్క్రీన్ పైభాగంలో లేదా కంటి స్థాయికి కొద్దిగా దిగువన",
   "monitor_at_eye_level": "కంటి స్థాయిలో పర్యవేక్షించండి",
-  "monitorheight": "మానిటర్ ఎత్తు"
+  "monitorheight": "మానిటర్ ఎత్తు",
+  "recommended_routines": "సిఫార్సు చేయబడిన దినచర్యలు",
+  "all_desk_break_routines": "అన్ని డెస్క్ బ్రేక్ రొటీన్‌లు"
 }

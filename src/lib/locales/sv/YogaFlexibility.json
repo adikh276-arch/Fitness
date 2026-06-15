@@ -117,5 +117,10 @@
   "seated_spinal_twist": "Sittande Spinal Twist",
   "wrist_circles": "Handledscirklar",
   "shoulder_rolls": "Axelrullar",
-  "neck_tilts": "Nacken lutas"
+  "neck_tilts": "Nacken lutas",
+  "breathe_in": "Andas in...",
+  "breathe_out": "Andas ut...",
+  "paused_press_play": "Pausad - Tryck på Play för att fortsätta",
+  "stretch_changes_every_2_minut": "Stretchbyten varannan minut",
+  "focus_on_your_breath_and_alig": "Fokusera på din andning och anpassning"
 }

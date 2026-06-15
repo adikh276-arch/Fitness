@@ -372,5 +372,8 @@
   "hips": "Biodra",
   "back": "Powrót",
   "shoulders": "Ramiona",
-  "neck": "Szyja"
+  "neck": "Szyja",
+  "elite_mobility": "Elitarna mobilność",
+  "good_mobility": "Dobra mobilność",
+  "limited_mobility": "Ograniczona mobilność"
 }

@@ -251,5 +251,6 @@
   "weight_shifts_to_toes": "体重がつま先に移動します",
   "lower_back_rounds": "腰のラウンド",
   "knees_cave_inward": "膝が内側に凹む",
-  "keep_chest_up_brace_core_weight_on_mid_f": "胸を張り、体幹を支え、足の中央に体重を乗せ、膝をつま先の上に乗せます。"
+  "keep_chest_up_brace_core_weight_on_mid_f": "胸を張り、体幹を支え、足の中央に体重を乗せ、膝をつま先の上に乗せます。",
+  "choose_an_exercise": "エクササイズを選択してください..."
 }

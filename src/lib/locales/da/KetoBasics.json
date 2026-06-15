@@ -317,5 +317,9 @@
   "tuna": "Tun",
   "salmon": "Laks",
   "beef_steak": "Oksekød bøf",
-  "chicken_breast": "Kyllingebryst"
+  "chicken_breast": "Kyllingebryst",
+  "high": "Høj",
+  "medium": "Medium",
+  "low": "Lav",
+  "popular_items_use_search_to_se": "(Populære varer - brug søgning for at se mere)"
 }

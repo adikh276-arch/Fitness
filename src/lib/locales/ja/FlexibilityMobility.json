@@ -372,5 +372,8 @@
   "hips": "ヒップ",
   "back": "戻る",
   "shoulders": "肩",
-  "neck": "ネック"
+  "neck": "ネック",
+  "elite_mobility": "エリートモビリティ",
+  "good_mobility": "優れた機動性",
+  "limited_mobility": "可動性の制限"
 }

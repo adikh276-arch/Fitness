@@ -372,5 +372,8 @@
   "hips": "Hofter",
   "back": "Tilbake",
   "shoulders": "Skuldre",
-  "neck": "Hals"
+  "neck": "Hals",
+  "elite_mobility": "Elite mobilitet",
+  "good_mobility": "God mobilitet",
+  "limited_mobility": "Begrenset mobilitet"
 }

@@ -117,5 +117,10 @@
   "seated_spinal_twist": "Seated Spinal Twist",
   "wrist_circles": "Wrist Circles",
   "shoulder_rolls": "Shoulder Rolls",
-  "neck_tilts": "Neck Tilts"
+  "neck_tilts": "Neck Tilts",
+  "breathe_in": "Breathe In...",
+  "breathe_out": "Breathe Out...",
+  "paused_press_play": "Paused - Press Play to continue",
+  "stretch_changes_every_2_minut": "Stretch changes every 2 minutes",
+  "focus_on_your_breath_and_alig": "Focus on your breath and alignment"
 }

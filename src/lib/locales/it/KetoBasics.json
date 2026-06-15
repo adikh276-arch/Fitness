@@ -317,5 +317,9 @@
   "tuna": "Tonno",
   "salmon": "Salmone",
   "beef_steak": "Bistecca di manzo",
-  "chicken_breast": "Petto di pollo"
+  "chicken_breast": "Petto di pollo",
+  "high": "Alto",
+  "medium": "Medio",
+  "low": "Basso",
+  "popular_items_use_search_to_se": "(Articoli popolari: utilizza la ricerca per vedere di più)"
 }

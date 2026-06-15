@@ -317,5 +317,9 @@
   "tuna": "ट्यूना",
   "salmon": "सामन",
   "beef_steak": "बीफ़ स्टेक",
-  "chicken_breast": "चिकन ब्रेस्ट"
+  "chicken_breast": "चिकन ब्रेस्ट",
+  "high": "ऊँचा",
+  "medium": "मध्यम",
+  "low": "नीचा",
+  "popular_items_use_search_to_se": "(लोकप्रिय आइटम - अधिक देखने के लिए खोज का उपयोग करें)"
 }

@@ -317,5 +317,9 @@
   "tuna": "Atum",
   "salmon": "Salmão",
   "beef_steak": "Bife de carne",
-  "chicken_breast": "Peito de Frango"
+  "chicken_breast": "Peito de Frango",
+  "high": "Alto",
+  "medium": "Médio",
+  "low": "Baixo",
+  "popular_items_use_search_to_se": "(Itens populares - use a pesquisa para ver mais)"
 }

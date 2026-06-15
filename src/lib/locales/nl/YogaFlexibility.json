@@ -117,5 +117,10 @@
   "seated_spinal_twist": "Zittende wervelkolomdraaiing",
   "wrist_circles": "Pols cirkels",
   "shoulder_rolls": "Schouderrollen",
-  "neck_tilts": "Nek kantelt"
+  "neck_tilts": "Nek kantelt",
+  "breathe_in": "Adem in...",
+  "breathe_out": "Adem uit...",
+  "paused_press_play": "Gepauzeerd - Druk op Afspelen om door te gaan",
+  "stretch_changes_every_2_minut": "De rek verandert elke 2 minuten",
+  "focus_on_your_breath_and_alig": "Concentreer u op uw ademhaling en uitlijning"
 }

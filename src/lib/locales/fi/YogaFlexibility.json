@@ -117,5 +117,10 @@
   "seated_spinal_twist": "Istuva Spinal Twist",
   "wrist_circles": "Rannerenkaat",
   "shoulder_rolls": "Olkapäärullat",
-  "neck_tilts": "Kaulan kallistukset"
+  "neck_tilts": "Kaulan kallistukset",
+  "breathe_in": "Hengitä sisään...",
+  "breathe_out": "Hengitä ulos...",
+  "paused_press_play": "Keskeytetty - Jatka painamalla Toista",
+  "stretch_changes_every_2_minut": "Venyttely vaihtuu 2 minuutin välein",
+  "focus_on_your_breath_and_alig": "Keskity hengitykseen ja linjaamiseen"
 }

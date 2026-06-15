@@ -317,5 +317,9 @@
   "tuna": "טונה",
   "salmon": "סלמון",
   "beef_steak": "סטייק בקר",
-  "chicken_breast": "חזה עוף"
+  "chicken_breast": "חזה עוף",
+  "high": "גבוה",
+  "medium": "בינוני",
+  "low": "נמוך",
+  "popular_items_use_search_to_se": "(פריטים פופולריים - השתמש בחיפוש כדי לראות עוד)"
 }

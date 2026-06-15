@@ -117,5 +117,10 @@
   "seated_spinal_twist": "Giro espinal sentado",
   "wrist_circles": "Círculos de muñeca",
   "shoulder_rolls": "Rollos de hombro",
-  "neck_tilts": "Inclinaciones del cuello"
+  "neck_tilts": "Inclinaciones del cuello",
+  "breathe_in": "Respira...",
+  "breathe_out": "Exhale...",
+  "paused_press_play": "En pausa: pulsa Reproducir para continuar",
+  "stretch_changes_every_2_minut": "El estiramiento cambia cada 2 minutos.",
+  "focus_on_your_breath_and_alig": "Concéntrate en tu respiración y alineación."
 }

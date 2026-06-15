@@ -117,5 +117,10 @@
   "seated_spinal_twist": "Torsion vertébrale assise",
   "wrist_circles": "Cercles de poignet",
   "shoulder_rolls": "Rouleaux d'épaules",
-  "neck_tilts": "Inclinaisons du cou"
+  "neck_tilts": "Inclinaisons du cou",
+  "breathe_in": "Inspirez...",
+  "breathe_out": "Expirez...",
+  "paused_press_play": "En pause – Appuyez sur Lecture pour continuer",
+  "stretch_changes_every_2_minut": "L'étirement change toutes les 2 minutes",
+  "focus_on_your_breath_and_alig": "Concentrez-vous sur votre respiration et votre alignement"
 }

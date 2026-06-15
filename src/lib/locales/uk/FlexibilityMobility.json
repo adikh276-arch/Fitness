@@ -372,5 +372,8 @@
   "hips": "Стегна",
   "back": "Назад",
   "shoulders": "Плечі",
-  "neck": "Шия"
+  "neck": "Шия",
+  "elite_mobility": "Елітна мобільність",
+  "good_mobility": "Хороша мобільність",
+  "limited_mobility": "Обмежена мобільність"
 }

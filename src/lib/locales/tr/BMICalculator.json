@@ -96,5 +96,7 @@
       "healthyCount": "Sağlıklı Sayım",
       "bestStreak": "En İyi Seri"
     }
-  }
+  },
+  "kg": "kilo",
+  "lbs": "lbs"
 }

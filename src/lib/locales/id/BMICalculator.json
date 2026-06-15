@@ -96,5 +96,7 @@
       "healthyCount": "Hitungan Sehat",
       "bestStreak": "Garis Terbaik"
     }
-  }
+  },
+  "kg": "kg",
+  "lbs": "pon"
 }

@@ -669,7 +669,7 @@ export default function StrengthTrainingGuide({ onBack }: { onBack: () => void }
                     className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-slate-500/20 focus:border-slate-500 flex items-center justify-between bg-white"
                   >
                     <span className={selectedExercise ? 'text-gray-900' : 'text-gray-400'}>
-                      {selectedExercise || 'Choose an exercise...'}
+                      {selectedExercise || t('choose_an_exercise', 'Choose an exercise...')}
                     </span>
                     <ChevronDown className={`w-5 h-5 text-gray-400 transition-transform ${isDropdownOpen ? 'rotate-180' : ''}`} />
                   </button>

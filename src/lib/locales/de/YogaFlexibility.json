@@ -117,5 +117,10 @@
   "seated_spinal_twist": "Sitzende Wirbelsäulendrehung",
   "wrist_circles": "Handgelenkskreise",
   "shoulder_rolls": "Schulterrollen",
-  "neck_tilts": "Nackenneigungen"
+  "neck_tilts": "Nackenneigungen",
+  "breathe_in": "Atme ein...",
+  "breathe_out": "Atme aus...",
+  "paused_press_play": "Angehalten – Drücken Sie „Play“, um fortzufahren",
+  "stretch_changes_every_2_minut": "Die Dehnung wechselt alle 2 Minuten",
+  "focus_on_your_breath_and_alig": "Konzentrieren Sie sich auf Ihren Atem und Ihre Ausrichtung"
 }

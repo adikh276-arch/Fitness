@@ -140,5 +140,7 @@
   "elbowangle": "手肘角度",
   "top_of_screen_at_or_slightly_below_eye_l": "螢幕頂部位於或略低於視線水平",
   "monitor_at_eye_level": "與視線齊平進行監控",
-  "monitorheight": "顯示器高度"
+  "monitorheight": "顯示器高度",
+  "recommended_routines": "推薦行程",
+  "all_desk_break_routines": "所有辦公桌休息例程"
 }

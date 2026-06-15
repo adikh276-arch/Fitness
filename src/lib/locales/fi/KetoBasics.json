@@ -317,5 +317,9 @@
   "tuna": "Tonnikala",
   "salmon": "lohi",
   "beef_steak": "Naudan pihvi",
-  "chicken_breast": "Kanan rinta"
+  "chicken_breast": "Kanan rinta",
+  "high": "Korkea",
+  "medium": "Keskikokoinen",
+  "low": "Matala",
+  "popular_items_use_search_to_se": "(Suositut tuotteet - käytä hakua nähdäksesi lisää)"
 }

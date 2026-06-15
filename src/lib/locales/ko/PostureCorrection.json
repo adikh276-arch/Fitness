@@ -140,5 +140,7 @@
   "elbowangle": "팔꿈치 각도",
   "top_of_screen_at_or_slightly_below_eye_l": "눈높이 또는 약간 아래 화면 상단",
   "monitor_at_eye_level": "눈높이에서 모니터링",
-  "monitorheight": "모니터높이"
+  "monitorheight": "모니터높이",
+  "recommended_routines": "권장 루틴",
+  "all_desk_break_routines": "모든 책상 휴식 루틴"
 }

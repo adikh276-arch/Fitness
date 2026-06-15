@@ -747,7 +747,7 @@ export default function YogaFlexibilityGuide({ onBack }: { onBack: () => void })
                                     animate={{ opacity: 1 }}
                                     className="mt-6 text-2xl font-semibold text-gray-900"
                                   >
-                                    {breathPhase === 'inhale' ? 'Breathe In...' : 'Breathe Out...'}
+                                    {breathPhase === 'inhale' ? t('breathe_in', 'Breathe In...') : t('breathe_out', 'Breathe Out...')}
                                   </motion.p>
                                   <p className="text-sm text-gray-600 mt-2">{t('4_seconds')} {breathPhase}</p>
                                 </div>
@@ -813,7 +813,7 @@ export default function YogaFlexibilityGuide({ onBack }: { onBack: () => void })
                               )}
                             </div>
                             <p className="text-xs text-gray-500 text-center mt-4">
-                              {isPaused ? 'Paused - Press Play to continue' : activeFlow === 'desk-relief' ? 'Stretch changes every 2 minutes' : 'Focus on your breath and alignment'}
+                              {isPaused ? t('paused_press_play', 'Paused - Press Play to continue') : activeFlow === 'desk-relief' ? t('stretch_changes_every_2_minut', 'Stretch changes every 2 minutes') : t('focus_on_your_breath_and_alig', 'Focus on your breath and alignment')}
                             </p>
                           </div>
                         </motion.div>

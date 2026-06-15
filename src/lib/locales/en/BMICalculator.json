@@ -1,5 +1,7 @@
 {
-  "nav": { "back": "Back to Dashboard" },
+  "nav": {
+    "back": "Back to Dashboard"
+  },
   "header": {
     "title": "Smart BMI & Body Context",
     "subtitle": "Track your body metrics with clinical precision"
@@ -73,8 +75,14 @@
     },
     "comparison": {
       "title": "BMI vs WHtR: The Difference",
-      "bmi": { "title": "BMI", "desc": "General weight category, doesn't account for muscle mass or fat distribution" },
-      "whtr": { "title": "WHtR", "desc": "Measures central obesity, better predictor of cardiovascular disease and diabetes" }
+      "bmi": {
+        "title": "BMI",
+        "desc": "General weight category, doesn't account for muscle mass or fat distribution"
+      },
+      "whtr": {
+        "title": "WHtR",
+        "desc": "Measures central obesity, better predictor of cardiovascular disease and diabetes"
+      }
     }
   },
   "history": {
@@ -88,5 +96,7 @@
       "healthyCount": "Healthy Count",
       "bestStreak": "Best Streak"
     }
-  }
+  },
+  "kg": "kg",
+  "lbs": "lbs"
 }

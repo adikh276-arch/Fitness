@@ -140,5 +140,7 @@
   "elbowangle": "gomitoAngolo",
   "top_of_screen_at_or_slightly_below_eye_l": "Parte superiore dello schermo all'altezza degli occhi o leggermente al di sotto",
   "monitor_at_eye_level": "Monitorare all'altezza degli occhi",
-  "monitorheight": "monitorHeight"
+  "monitorheight": "monitorHeight",
+  "recommended_routines": "Routine consigliate",
+  "all_desk_break_routines": "Tutte le routine per le pause alla scrivania"
 }

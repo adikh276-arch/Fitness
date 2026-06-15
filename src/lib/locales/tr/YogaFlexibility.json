@@ -117,5 +117,10 @@
   "seated_spinal_twist": "Oturmuş Spinal Twist",
   "wrist_circles": "Bilek Halkaları",
   "shoulder_rolls": "Omuz Ruloları",
-  "neck_tilts": "Boyun Eğimleri"
+  "neck_tilts": "Boyun Eğimleri",
+  "breathe_in": "Nefes alın...",
+  "breathe_out": "Nefes ver...",
+  "paused_press_play": "Duraklatıldı - Devam etmek için Oynat'a basın",
+  "stretch_changes_every_2_minut": "Her 2 dakikada bir streç değişiklikleri",
+  "focus_on_your_breath_and_alig": "Nefesinize ve hizalanmanıza odaklanın"
 }

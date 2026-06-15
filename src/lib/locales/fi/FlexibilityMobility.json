@@ -372,5 +372,8 @@
   "hips": "Lonkat",
   "back": "Takaisin",
   "shoulders": "Hartiat",
-  "neck": "Kaula"
+  "neck": "Kaula",
+  "elite_mobility": "Elite Mobility",
+  "good_mobility": "Hyvä liikkuvuus",
+  "limited_mobility": "Rajoitettu liikkuvuus"
 }

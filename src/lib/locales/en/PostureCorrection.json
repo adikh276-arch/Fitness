@@ -140,5 +140,7 @@
   "elbowangle": "elbowAngle",
   "top_of_screen_at_or_slightly_below_eye_l": "Top of screen at or slightly below eye level",
   "monitor_at_eye_level": "Monitor at eye level",
-  "monitorheight": "monitorHeight"
+  "monitorheight": "monitorHeight",
+  "recommended_routines": "Recommended Routines",
+  "all_desk_break_routines": "All Desk Break Routines"
 }

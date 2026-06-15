@@ -117,5 +117,10 @@
   "seated_spinal_twist": "Siddende Spinal Twist",
   "wrist_circles": "Håndledscirkler",
   "shoulder_rolls": "Skulderruller",
-  "neck_tilts": "Hals tilt"
+  "neck_tilts": "Hals tilt",
+  "breathe_in": "Træk vejret ind...",
+  "breathe_out": "Pust ud...",
+  "paused_press_play": "Pause - Tryk på Afspil for at fortsætte",
+  "stretch_changes_every_2_minut": "Strækskift hvert 2. minut",
+  "focus_on_your_breath_and_alig": "Fokuser på dit åndedræt og tilpasning"
 }

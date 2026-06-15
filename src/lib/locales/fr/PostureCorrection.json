@@ -140,5 +140,7 @@
   "elbowangle": "coudeAngle",
   "top_of_screen_at_or_slightly_below_eye_l": "Haut de l'écran au niveau des yeux ou légèrement en dessous",
   "monitor_at_eye_level": "Surveiller au niveau des yeux",
-  "monitorheight": "hauteur du moniteur"
+  "monitorheight": "hauteur du moniteur",
+  "recommended_routines": "Routines recommandées",
+  "all_desk_break_routines": "Toutes les routines de pause au bureau"
 }

@@ -96,5 +96,7 @@
       "healthyCount": "健康计数",
       "bestStreak": "最佳连胜纪录"
     }
-  }
+  },
+  "kg": "千克",
+  "lbs": "磅"
 }

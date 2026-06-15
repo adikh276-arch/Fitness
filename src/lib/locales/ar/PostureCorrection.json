@@ -140,5 +140,7 @@
   "elbowangle": "زاوية الكوع",
   "top_of_screen_at_or_slightly_below_eye_l": "أعلى الشاشة عند مستوى العين أو أقل بقليل",
   "monitor_at_eye_level": "مراقبة على مستوى العين",
-  "monitorheight": "MonitorHeight"
+  "monitorheight": "MonitorHeight",
+  "recommended_routines": "الإجراءات الموصى بها",
+  "all_desk_break_routines": "جميع إجراءات استراحة المكتب"
 }

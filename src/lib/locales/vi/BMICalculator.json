@@ -96,5 +96,7 @@
       "healthyCount": "Số lượng khỏe mạnh",
       "bestStreak": "Chuỗi hay nhất"
     }
-  }
+  },
+  "kg": "kg",
+  "lbs": "pound"
 }

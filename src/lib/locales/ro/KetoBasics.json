@@ -317,5 +317,9 @@
   "tuna": "ton",
   "salmon": "somon",
   "beef_steak": "Friptura de vita",
-  "chicken_breast": "Piept de pui"
+  "chicken_breast": "Piept de pui",
+  "high": "Înalt",
+  "medium": "Mediu",
+  "low": "Scăzut",
+  "popular_items_use_search_to_se": "(Articole populare - utilizați căutarea pentru a vedea mai multe)"
 }

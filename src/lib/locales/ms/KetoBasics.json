@@ -317,5 +317,9 @@
   "tuna": "Tuna",
   "salmon": "Salmon",
   "beef_steak": "Daging Steak",
-  "chicken_breast": "Dada Ayam"
+  "chicken_breast": "Dada Ayam",
+  "high": "tinggi",
+  "medium": "Sederhana",
+  "low": "rendah",
+  "popular_items_use_search_to_se": "(Item popular - gunakan carian untuk melihat lebih banyak)"
 }

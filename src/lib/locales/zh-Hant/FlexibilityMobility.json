@@ -372,5 +372,8 @@
   "hips": "臀部",
   "back": "返回",
   "shoulders": "肩膀",
-  "neck": "頸部"
+  "neck": "頸部",
+  "elite_mobility": "精英流動性",
+  "good_mobility": "良好的機動性",
+  "limited_mobility": "行動不便"
 }

@@ -117,5 +117,10 @@
   "seated_spinal_twist": "కూర్చున్న స్పైనల్ ట్విస్ట్",
   "wrist_circles": "మణికట్టు వలయాలు",
   "shoulder_rolls": "భుజం రోల్స్",
-  "neck_tilts": "మెడ ఒంపులు"
+  "neck_tilts": "మెడ ఒంపులు",
+  "breathe_in": "ఊపిరి పీల్చుకోండి...",
+  "breathe_out": "ఊపిరి పీల్చుకోండి...",
+  "paused_press_play": "పాజ్ చేయబడింది - కొనసాగించడానికి ప్లేని నొక్కండి",
+  "stretch_changes_every_2_minut": "ప్రతి 2 నిమిషాలకు స్ట్రెచ్ మార్పులు",
+  "focus_on_your_breath_and_alig": "మీ శ్వాస మరియు అమరికపై దృష్టి పెట్టండి"
 }

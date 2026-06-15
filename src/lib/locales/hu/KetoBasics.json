@@ -317,5 +317,9 @@
   "tuna": "Tonhal",
   "salmon": "Lazac",
   "beef_steak": "Marha Steak",
-  "chicken_breast": "Csirkemell"
+  "chicken_breast": "Csirkemell",
+  "high": "Magas",
+  "medium": "Közepes",
+  "low": "Alacsony",
+  "popular_items_use_search_to_se": "(Népszerű tételek – továbbiak megtekintéséhez használja a keresést)"
 }

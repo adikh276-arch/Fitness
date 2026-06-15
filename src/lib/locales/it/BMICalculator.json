@@ -96,5 +96,7 @@
       "healthyCount": "Conteggio sano",
       "bestStreak": "Miglior serie"
     }
-  }
+  },
+  "kg": "kg",
+  "lbs": "libbre"
 }

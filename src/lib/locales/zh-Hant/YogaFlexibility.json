@@ -117,5 +117,10 @@
   "seated_spinal_twist": "坐脊椎扭轉",
   "wrist_circles": "手腕圈",
   "shoulder_rolls": "肩部捲起",
-  "neck_tilts": "頸部傾斜"
+  "neck_tilts": "頸部傾斜",
+  "breathe_in": "吸氣...",
+  "breathe_out": "呼氣...",
+  "paused_press_play": "已暫停 - 按“播放”繼續",
+  "stretch_changes_every_2_minut": "伸展運動每 2 分鐘改變一次",
+  "focus_on_your_breath_and_alig": "專注於你的呼吸和對齊"
 }

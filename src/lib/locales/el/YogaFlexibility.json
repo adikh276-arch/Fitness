@@ -117,5 +117,10 @@
   "seated_spinal_twist": "Καθιστή Σπονδυλική Στρίψιμο",
   "wrist_circles": "Κύκλοι καρπού",
   "shoulder_rolls": "Roller Shoulder",
-  "neck_tilts": "Ανακλίσεις λαιμού"
+  "neck_tilts": "Ανακλίσεις λαιμού",
+  "breathe_in": "Εισπνεύστε...",
+  "breathe_out": "Αναπνεύστε...",
+  "paused_press_play": "Παύση - Πατήστε Αναπαραγωγή για να συνεχίσετε",
+  "stretch_changes_every_2_minut": "Το Stretch αλλάζει κάθε 2 λεπτά",
+  "focus_on_your_breath_and_alig": "Εστιάστε στην αναπνοή και την ευθυγράμμισή σας"
 }

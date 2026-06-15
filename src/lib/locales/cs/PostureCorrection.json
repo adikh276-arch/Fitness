@@ -140,5 +140,7 @@
   "elbowangle": "loketAngle",
   "top_of_screen_at_or_slightly_below_eye_l": "Horní část obrazovky v úrovni očí nebo mírně pod ní",
   "monitor_at_eye_level": "Monitor ve výši očí",
-  "monitorheight": "výška monitoru"
+  "monitorheight": "výška monitoru",
+  "recommended_routines": "Doporučené rutiny",
+  "all_desk_break_routines": "Všechny rutiny přestávky u stolu"
 }

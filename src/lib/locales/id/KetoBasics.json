@@ -317,5 +317,9 @@
   "tuna": "ikan tuna",
   "salmon": "ikan salmon",
   "beef_steak": "Steak Daging Sapi",
-  "chicken_breast": "Dada Ayam"
+  "chicken_breast": "Dada Ayam",
+  "high": "Tinggi",
+  "medium": "Sedang",
+  "low": "Rendah",
+  "popular_items_use_search_to_se": "(Item populer - gunakan pencarian untuk melihat lebih banyak)"
 }

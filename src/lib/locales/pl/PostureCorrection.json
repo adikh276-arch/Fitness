@@ -140,5 +140,7 @@
   "elbowangle": "Kąt łokcia",
   "top_of_screen_at_or_slightly_below_eye_l": "Górna część ekranu na poziomie oczu lub nieco poniżej",
   "monitor_at_eye_level": "Monitoruj na poziomie oczu",
-  "monitorheight": "wysokość monitora"
+  "monitorheight": "wysokość monitora",
+  "recommended_routines": "Polecane procedury",
+  "all_desk_break_routines": "Wszystkie procedury związane z przerwami przy biurku"
 }

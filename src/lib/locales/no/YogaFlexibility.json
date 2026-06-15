@@ -117,5 +117,10 @@
   "seated_spinal_twist": "Sittende Spinal Twist",
   "wrist_circles": "Håndleddssirkler",
   "shoulder_rolls": "Skulderruller",
-  "neck_tilts": "Hals vipper"
+  "neck_tilts": "Hals vipper",
+  "breathe_in": "Pust inn...",
+  "breathe_out": "Pust ut...",
+  "paused_press_play": "Pausert - Trykk på Spill av for å fortsette",
+  "stretch_changes_every_2_minut": "Strekkskift hvert 2. minutt",
+  "focus_on_your_breath_and_alig": "Fokuser på pusten og justeringen"
 }

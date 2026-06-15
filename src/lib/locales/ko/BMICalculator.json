@@ -96,5 +96,7 @@
       "healthyCount": "건강 수치",
       "bestStreak": "최고 연속 기록"
     }
-  }
+  },
+  "kg": "kg",
+  "lbs": "파운드"
 }

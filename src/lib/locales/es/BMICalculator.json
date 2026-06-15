@@ -96,5 +96,7 @@
       "healthyCount": "Recuento saludable",
       "bestStreak": "Mejor racha"
     }
-  }
+  },
+  "kg": "kilos",
+  "lbs": "libras"
 }

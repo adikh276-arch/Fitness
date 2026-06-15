@@ -317,5 +317,9 @@
   "tuna": "Tuna",
   "salmon": "Salmon",
   "beef_steak": "Beef Steak",
-  "chicken_breast": "Chicken Breast"
+  "chicken_breast": "Chicken Breast",
+  "high": "High",
+  "medium": "Medium",
+  "low": "Low",
+  "popular_items_use_search_to_se": "(Popular items - use search to see more)"
 }
