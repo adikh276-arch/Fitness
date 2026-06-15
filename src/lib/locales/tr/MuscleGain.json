@@ -1,0 +1,174 @@
+{
+  "nav": {
+    "back": "Kontrol Paneline Geri Dön"
+  },
+  "header": {
+    "title": "Kas Kazanımı Rehberi",
+    "subtitle": "Kas ve güç geliştirmeye yönelik bilimsel yaklaşım"
+  },
+  "tabs": {
+    "plan": "Büyüme Planı",
+    "metrics": "Vücut Ölçümleri Günlüğü",
+    "habits": "Hipertrofi Alışkanlıkları"
+  },
+  "plan": {
+    "pillars": {
+      "caloric": {
+        "title": "Kalori Fazlası",
+        "value": "TDEE + 250 ila 500 kcal",
+        "desc": "Vücudunuzun yeni kas dokusu oluşturmak için ekstra enerjiye ihtiyacı vardır. Çok az enerji büyümenizi engeller; çok fazla enerji ise gereksiz yağlanmaya yol açar. Günlük Toplam Enerji Harcamanızın (TDEE) 250-500 kcal üzerinde enerji almayı hedefleyin."
+      },
+      "protein": {
+        "title": "Protein Sentezi",
+        "value": "kilogram başına 1,8 ila 2,2 gram",
+        "desc": "Protein, kasların yapı taşıdır. Araştırmalar, vücut ağırlığının kilogramı başına 1,8-2,2 gram proteinin kas protein sentezini ve iyileşmesini en üst düzeye çıkardığını göstermektedir."
+      },
+      "overload": {
+        "title": "Aşamalı Aşırı Yüklenme",
+        "value": "Haftalık ilerleme",
+        "desc": "Kaslar artan taleplere yanıt olarak büyür. Her hafta ağırlığı, tekrar sayısını veya set sayısını artırmayı hedefleyin. Tutarlı ilerleme sağlamak için toplam hacminizi (set × tekrar × ağırlık) takip edin."
+      }
+    },
+    "mealTiming": {
+      "title": "Kas Gelişimi İçin Yemek Zamanlaması",
+      "subtitle": "Günlük toplam alım miktarı en önemli faktör olsa da, stratejik zamanlama performansı ve toparlanmayı optimize edebilir:",
+      "preWorkoutLong": {
+        "time": "2-3 saat önce",
+        "title": "Antrenman Öncesi",
+        "desc": "Karbonhidrat ve protein içeren dengeli bir öğün."
+      },
+      "preWorkoutCarbs": {
+        "time": "30-60 dakika önce",
+        "title": "Antrenman Öncesi Karbonhidratlar",
+        "desc": "Hızlı enerji sağlayan karbonhidratlar (muz, pirinç krakeri)"
+      },
+      "training": {
+        "time": "Sırasında",
+        "title": "Eğitim",
+        "desc": "Su ihtiyacı + isteğe bağlı antrenman içi karbonhidrat alımı"
+      },
+      "postWorkout": {
+        "time": "2 saat içinde",
+        "title": "Antrenman Sonrası Protein",
+        "desc": "30-40 gr protein + karbonhidrat (iyileşme için)"
+      },
+      "eveningProtein": {
+        "time": "yatmadan önce",
+        "title": "Akşam Proteini",
+        "desc": "Kazein veya yavaş sindirilen protein"
+      }
+    },
+    "principles": {
+      "title": "Başarı İçin Temel İlkeler",
+      "p1": {
+        "title": "Tutarlılık mükemmellikten daha önemlidir:",
+        "desc": "Bir antrenmanı veya öğünü kaçırmak kazanımları öldürmez, ancak istikrarsızlık öldürür."
+      },
+      "p2": {
+        "title": "Uyku anaboliktir:",
+        "desc": "En iyi iyileşme ve büyüme hormonu salınımı için geceleri 7-9 saat uyumayı hedefleyin."
+      },
+      "p3": {
+        "title": "Ses seviyenizi takip edin:",
+        "desc": "Ölçülen şey geliştirilir - kademeli yüklenmeyi sağlamak için kaldırdığınız ağırlıkları kaydedin."
+      },
+      "p4": {
+        "title": "Sabır gereklidir:",
+        "desc": "Doğal kas gelişimi, yeni başlayanlar için ayda 0,5-1 kg arasındadır, ileri seviyedeki sporcular için ise daha yavaştır."
+      }
+    }
+  },
+  "metrics": {
+    "strength": {
+      "totalVolume": "Toplam Haftalık Hacim",
+      "volumeTarget": "{{weight}}kg Vücut Kitlesi için Hacim Hedefi",
+      "kgLifted": "kg kaldırıldı",
+      "goal": "{{goal}}kg hedef",
+      "awayFromTarget": "Hedef kilonuzun çalışma kapasitesine {{gap}}kg uzaktasınız.",
+      "setTarget": "Hedef kilonuzu aşağıdan belirleyerek hacim hedefinizi görün.",
+      "statusLabels": {
+        "setTarget": "Hedef Ağırlığı Belirle",
+        "building": "Bina Temeli",
+        "growth": "Büyüme Bölgesi",
+        "hit": "Hedef Kapasiteye Ulaşıldı"
+      }
+    },
+    "form": {
+      "title": "Gövde Ölçüleri",
+      "currentWeight": "Mevcut Ağırlık (kg)",
+      "targetWeight": "Hedef Ağırlık (kg) *",
+      "targetWeightHint": "Hacim hedefi belirler.",
+      "chest": "Göğüs (inç)",
+      "chestHint": "Meme başı hizasından ölçün.",
+      "waist": "Bel (inç)",
+      "waistHint": "Göbek hizasında",
+      "bicepR": "Sağ Pazı (içeride)",
+      "bicepRHint": "Bükülmüş, en geniş kısım",
+      "bicepL": "Sol Pazı (içeride)",
+      "bicepLHint": "İsteğe bağlı",
+      "thigh": "Uyluk (inç)",
+      "thighHint": "En geniş kısım",
+      "submit": "Log Ölçümleri",
+      "success": "Ölçümler başarıyla kaydedildi!"
+    },
+    "volume": {
+      "title": "Hacim Hesaplayıcı",
+      "exercise": "Egzersiz yapmak",
+      "sets": "Setler",
+      "reps": "Temsilciler",
+      "weight": "Ağırlık (kg)",
+      "totalVolume": "Toplam Hacim",
+      "remaining": "Gol için kalan",
+      "submit": "Günlük Hacmi",
+      "logged": "{{lift}} kaydedildi: {{volume}}kg toplam hacim!"
+    },
+    "chart": {
+      "title": "İlerleme Grafiği",
+      "weight": "Ağırlık (kg)",
+      "chest": "Göğüs (içinde)",
+      "bicep": "Pazı (içeride)"
+    },
+    "noData": "Henüz hiçbir ölçüm kaydedilmedi. İlerlemenizi görmek için ölçümleri takip etmeye başlayın!"
+  },
+  "habits": {
+    "title": "Günümüzün Hipertrofi Alışkanlıkları",
+    "subtitle": "Her alışkanlığı tamamladığınızda işaretleyin.",
+    "items": {
+      "surplus": {
+        "title": "Kalori Fazlası Met",
+        "desc": "Bugün kalori hedefinize ulaşın"
+      },
+      "protein": {
+        "title": "Protein Hedefine Ulaşıldı",
+        "desc": "Vücut ağırlığının kilogramı başına 1,8-2,2 gram"
+      },
+      "creatine": {
+        "title": "Kreatin Alındı",
+        "desc": "Performansı artırmak için günde 3-5 gram."
+      },
+      "sleep": {
+        "title": "Kaliteli Uyku",
+        "desc": "En iyi iyileşme için 7-9 saat"
+      },
+      "trained": {
+        "title": "Bugün Eğitim Aldım",
+        "desc": "Antrenman seansınızı tamamladınız."
+      }
+    },
+    "recovery": {
+      "title": "Kurtarma Durumu",
+      "good": "Kurtarma Optimize Edildi",
+      "goodDesc": "Uyku ve protein alımında harika iş çıkardınız! Kaslarınız en iyi şekilde iyileşiyor.",
+      "improve": "Geliştirilebilecek Alanlar",
+      "improveDesc": "Daha iyi bir toparlanma için uykuya ve protein hedefinize ulaşmaya odaklanın."
+    },
+    "calendar": {
+      "title": "30 Günlük Alışkanlık Serisi",
+      "legend": {
+        "perfect": "Mükemmel (5/5)",
+        "partial": "Kısmi",
+        "none": "Eksik"
+      }
+    }
+  }
+}

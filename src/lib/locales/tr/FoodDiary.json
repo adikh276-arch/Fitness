@@ -1,0 +1,53 @@
+{
+  "common": {
+    "next": "Sonraki",
+    "subtitle": "Yemeklerinizi ve hislerinizi takip edin.",
+    "title": "Yemek Günlüğü"
+  },
+  "feelings": {
+    "description": "Vücudunuzu dinleyin; size her zaman söyleyecek bir şeyleri vardır!",
+    "placeholder": "Örneğin, öğle yemeğinden sonra kendimi tok hissettim ama akşam yemeğinden sonra biraz ağırlık hissettim...",
+    "title": "Yemekten sonra nasıl hissettiniz?"
+  },
+  "history": {
+    "empty": "Henüz hiçbir giriş yok. İlk yemek günlüğünüzü tamamlayarak burada görün!",
+    "subtitle": "Geçmiş girişleriniz"
+  },
+  "intro": {
+    "description": "Ne yediğinizi takip etmek, vücudunuzu daha iyi anlamanıza yardımcı olur; size neyin enerji verdiğini, neyin sizi ağır hissettirdiğini ve nerede basit iyileştirmeler yapabileceğinizi gösterir. Burası yargısız bir alan. Sadece dürüst olun ve sürecin tadını çıkarın!",
+    "startButton": "Başlayalım →",
+    "subtitle": "Sağlığınızda büyük değişiklikler için küçük adımlar!",
+    "title": "Yemek Günlüğünüze Hoş Geldiniz"
+  },
+  "meals": {
+    "breakfast": {
+      "label": "Kahvaltı",
+      "placeholder": "Ne yediniz?"
+    },
+    "description": "Her öğünü veya atıştırmalığı aşağıya not edin. Kabaca bir not bile sayılır!",
+    "dinner": {
+      "label": "Akşam yemeği",
+      "placeholder": "Ne yediniz?"
+    },
+    "lunch": {
+      "label": "Öğle yemeği",
+      "placeholder": "Ne yediniz?"
+    },
+    "snacks": {
+      "label": "Atıştırmalıklar",
+      "placeholder": "Bunların arasında bir şey var mı?"
+    },
+    "title": "Bugün ne yedin?"
+  },
+  "messages": {
+    "entryDeleted": "Giriş silindi",
+    "entrySaved": "Giriş kaydedildi!"
+  },
+  "reflection": {
+    "encouragement": "Yaptığınız her paylaşım sizi daha sağlıklı ve mutlu bir yaşama bir adım daha yaklaştırıyor. Devamlı paylaşımlar yapmaya devam edin — asıl sır tutarlılıkta yatıyor!",
+    "placeholder": "Düşüncelerinizi buraya yazın...",
+    "question": "Yarın daha az yemek istediğiniz bir şey nedir?",
+    "saveButton": "Girişi Kaydet",
+    "title": "Bugünkü görevi tamamladığınız için tebrikler!"
+  }
+}

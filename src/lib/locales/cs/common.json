@@ -1,0 +1,80 @@
+{
+  "shell": {
+    "title": "Zdroje péče o sebe",
+    "subtitle": "Prozkoumejte nástroje a rady pro vaši cestu k wellness"
+  },
+  "sections": {
+    "tools": "Nástroje",
+    "guides": "Průvodci výživou a dietami",
+    "workouts": "Cvičební prostory",
+    "learning": "Doporučené vzdělávání"
+  },
+  "tools": {
+    "macro": {
+      "label": "Kalkulačka výživy",
+      "desc": "Výpočet maker"
+    },
+    "calories": {
+      "label": "Spalovač kalorií",
+      "desc": "Aktivity protokolování"
+    },
+    "fasting": {
+      "label": "Půstový záznamník",
+      "desc": "Sledujte půst"
+    },
+    "bmi": {
+      "label": "Kalkulačka BMI",
+      "desc": "Tělesné metriky"
+    }
+  },
+  "guides": {
+    "weightLoss": "Hubnutí",
+    "diabetes": "Diabetická dieta",
+    "muscle": "Získávání svalové hmoty",
+    "gut": "Zdraví střev",
+    "keto": "Základy keto diety",
+    "heart": "Zdraví srdce",
+    "fasting": "Přerušovaný půst",
+    "vegan": "Veganská výživa"
+  },
+  "workouts": {
+    "yoga": "Jóga",
+    "hiit": "Vysoce pokročilý trénink (HIIT)",
+    "strength": "Silový trénink",
+    "posture": "Korekce držení těla",
+    "home": "Domácí cvičení",
+    "flexibility": "Flexibilita"
+  },
+  "learning": {
+    "macros": {
+      "title": "Pochopení makroživin",
+      "desc": "Naučte se základy bílkovin, sacharidů a tuků"
+    },
+    "others": {
+      "title": "Ostatní",
+      "desc": "Prozkoumejte další interaktivní nástroje pro zdraví"
+    }
+  },
+  "others": {
+    "title": "Další zdroje",
+    "subtitle": "Prozkoumejte další nástroje pro vaši cestu ke zdraví",
+    "tools": {
+      "foodDiary": {
+        "label": "Deník jídla",
+        "desc": "Sledujte svá jídla"
+      },
+      "planPlate": {
+        "label": "Naplánujte si talíř",
+        "desc": "Vyvažte svá jídla"
+      },
+      "sugarEase": {
+        "label": "Denní snižování cukru",
+        "desc": "Řízení příjmu cukru"
+      },
+      "recipeLog": {
+        "label": "Záznam zdravých receptů",
+        "desc": "Uložte si své recepty"
+      }
+    }
+  }
+}

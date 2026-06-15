@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "back": "Tillbaka till instrumentpanelen"
+  },
+  "header": {
+    "title": "Guide till periodisk fasta",
+    "subtitle": "Bemästra vetenskapen om tidsbegränsat ätande"
+  },
+  "tabs": {
+    "lab": "Fastelabbet",
+    "log": "Framgångslogg"
+  },
+  "lab": {
+    "timeline": {
+      "title": "Den biologiska tidslinjen",
+      "stages": [
+        {
+          "hours": "0-4 timmar",
+          "title": "Matsmältningsfas (anabolt tillstånd)",
+          "description": "Din kropp smälter mat och lagrar energi. Blodsockret stiger när näringsämnen absorberas."
+        },
+        {
+          "hours": "4–12 timmar",
+          "title": "Fettförbränningen börjar (kataboliskt tillstånd)",
+          "description": "Insulinnivåerna sjunker och kroppen börjar bryta ner lagrat fett för energi."
+        },
+        {
+          "hours": "12–18 timmar",
+          "title": "Cellulär rening (autofagi)",
+          "description": "Din kropp börjar ta bort skadade celler och återvinna gamla proteiner – som en inre vårstädning."
+        },
+        {
+          "hours": "18+ timmar",
+          "title": "Maximal fettförbränning (djup ketos)",
+          "description": "Din kropp är helt beroende av fett. Tillväxthormonet ökar och fettförbränningen når sin topp."
+        }
+      ]
+    },
+    "breaksFast": {
+      "title": "Vad bryter en fasta?",
+      "safe": "Säkert under fastan:",
+      "safeList": "Vatten, svart kaffe, vanligt te, kolsyrat vatten, salt/elektrolyter",
+      "breaks": "Bryter din fasta:",
+      "breaksList": "Allt med kalorier - mjölk, socker, grädde, proteinshakes, BCAA, lightläsk med artificiella sötningsmedel"
+    },
+    "tips": {
+      "title": "Proffstips för framgång",
+      "tip1": {
+        "title": "Börja gradvis",
+        "desc": "Börja med 12:12 och arbeta dig upp till längre fastor"
+      },
+      "tip2": {
+        "title": "Håll dig hydrerad",
+        "desc": "Drick mycket vatten under hela din fasta"
+      },
+      "tip3": {
+        "title": "Lyssna på din kropp",
+        "desc": "Känner du dig dålig? Det är okej att bryta fastan"
+      },
+      "tip4": {
+        "title": "Kvalitet är viktigt",
+        "desc": "Fokusera på näringsrika livsmedel under ätfönstret"
+      }
+    }
+  },
+  "log": {
+    "form": {
+      "title": "Logga dagens fasta",
+      "lastMeal": "Sista måltidstid (igår):",
+      "firstMeal": "Första måltiden (idag):",
+      "duration": "Total fastetid",
+      "goalAchieved": "Mål uppnått! Du har fastat i över 16 timmar!",
+      "submit": "Logga detta snabbt"
+    },
+    "tracker": {
+      "title": "30-dagars snabbspårare",
+      "streak": "Nuvarande svit:",
+      "streakDays": "{{count}} dagar",
+      "last30": "Senaste 30 dagarna",
+      "legend": {
+        "goalMet": "Mål uppnått (16+ timmar)",
+        "today": "I dag",
+        "missed": "Missad dag"
+      }
+    },
+    "recentFasts": {
+      "title": "Senaste fastorna",
+      "goalMet": "Mål med"
+    }
+  }
+}

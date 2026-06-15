@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "back": "Volver al panel de control"
+  },
+  "header": {
+    "title": "Contador de pasos",
+    "subtitle": "Controla tus pasos diarios y alcanza tus objetivos.",
+    "profile": "Perfil"
+  },
+  "tabs": {
+    "tracker": "Rastreador",
+    "history": "Historia"
+  },
+  "tracker": {
+    "stepsToday": "pasos hoy",
+    "goalAchieved": "¡Objetivo alcanzado!",
+    "stats": {
+      "distance": "Distancia",
+      "calories": "calorías",
+      "activeTime": "Tiempo activo",
+      "km": "kilómetros",
+      "kcal": "kcal",
+      "mins": "minutos"
+    },
+    "goal": {
+      "label": "Meta diaria",
+      "value": "{{val}} pasos",
+      "change": "Objetivo de cambio"
+    },
+    "quickAdd": {
+      "title": "Pasos para agregar rápidamente",
+      "label": "Pasos personalizados",
+      "placeholder": "p. ej., 3500",
+      "submit": "Agregar"
+    },
+    "insights": {
+      "title": "Reflexiones de hoy",
+      "remaining": "Pasos restantes",
+      "stride": "Longitud de zancada",
+      "progress": "Progreso",
+      "complete": "¡Completo!",
+      "percentOfGoal": "{{val}}% del objetivo"
+    },
+    "reset": "Restablecer los pasos de hoy"
+  },
+  "history": {
+    "title": "Historial de pasos",
+    "noHistory": "Aún no hay historial. ¡Empieza a registrar tus pasos!",
+    "today": "Hoy",
+    "stats": {
+      "steps": "Pasos",
+      "goal": "Meta",
+      "progress": "Progreso"
+    }
+  },
+  "modals": {
+    "goal": {
+      "title": "Establecer una meta diaria",
+      "subtitle": "Introduce tu objetivo de pasos diarios",
+      "placeholder": "p. ej., 10000",
+      "cancel": "Cancelar",
+      "save": "Ahorrar"
+    },
+    "profile": {
+      "title": "Actualizar perfil",
+      "subtitle": "Esto ayuda a calcular con precisión la distancia y las calorías.",
+      "height": "Altura (cm)",
+      "weight": "Peso (kg)",
+      "gender": "Género",
+      "male": "Masculino",
+      "female": "Femenino",
+      "placeholderHeight": "p. ej., 170",
+      "placeholderWeight": "p. ej., 70",
+      "cancel": "Cancelar",
+      "save": "Ahorrar"
+    }
+  }
+}

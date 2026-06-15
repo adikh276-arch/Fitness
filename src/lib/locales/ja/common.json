@@ -1,0 +1,80 @@
+{
+  "shell": {
+    "title": "セルフケアに関するリソース",
+    "subtitle": "あなたの健康への道のりをサポートするツールとガイダンスを探ってみましょう"
+  },
+  "sections": {
+    "tools": "ツール",
+    "guides": "栄養と食事ガイド",
+    "workouts": "トレーニングエリア",
+    "learning": "注目の学習"
+  },
+  "tools": {
+    "macro": {
+      "label": "栄養計算ツール",
+      "desc": "マクロを計算する"
+    },
+    "calories": {
+      "label": "カロリーバーナー",
+      "desc": "ログアクティビティ"
+    },
+    "fasting": {
+      "label": "断食記録者",
+      "desc": "断食の記録"
+    },
+    "bmi": {
+      "label": "BMI計算機",
+      "desc": "身体計測値"
+    }
+  },
+  "guides": {
+    "weightLoss": "減量",
+    "diabetes": "糖尿病食",
+    "muscle": "筋肉増強",
+    "gut": "腸内環境",
+    "keto": "ケトダイエットの基本",
+    "heart": "心臓の健康",
+    "fasting": "断続的断食",
+    "vegan": "ビーガン栄養"
+  },
+  "workouts": {
+    "yoga": "ヨガ",
+    "hiit": "HIIT",
+    "strength": "筋力トレーニング",
+    "posture": "姿勢矯正",
+    "home": "自宅でのトレーニング",
+    "flexibility": "柔軟性"
+  },
+  "learning": {
+    "macros": {
+      "title": "主要栄養素の理解",
+      "desc": "タンパク質、炭水化物、脂質の基本を学びましょう"
+    },
+    "others": {
+      "title": "その他",
+      "desc": "その他のインタラクティブな健康ツールをご覧ください"
+    }
+  },
+  "others": {
+    "title": "その他のリソース",
+    "subtitle": "健康への道のりに役立つツールをもっと探してみましょう。",
+    "tools": {
+      "foodDiary": {
+        "label": "食事日記",
+        "desc": "食事を記録する"
+      },
+      "planPlate": {
+        "label": "食事の計画を立てよう",
+        "desc": "食事のバランスをとる"
+      },
+      "sugarEase": {
+        "label": "毎日の砂糖の節約",
+        "desc": "糖分の摂取量を管理する"
+      },
+      "recipeLog": {
+        "label": "ヘルシーレシピ記録",
+        "desc": "レシピを保存する"
+      }
+    }
+  }
+}

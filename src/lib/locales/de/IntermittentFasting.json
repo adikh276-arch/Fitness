@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "back": "Zurück zum Dashboard"
+  },
+  "header": {
+    "title": "Leitfaden zum Intervallfasten",
+    "subtitle": "Meistere die Wissenschaft des zeitlich begrenzten Essens"
+  },
+  "tabs": {
+    "lab": "Das Fastenlabor",
+    "log": "Erfolgsprotokoll"
+  },
+  "lab": {
+    "timeline": {
+      "title": "Die biologische Zeitleiste",
+      "stages": [
+        {
+          "hours": "0-4 Stunden",
+          "title": "Verdauungsphase (Anabole Phase)",
+          "description": "Ihr Körper verdaut Nahrung und speichert Energie. Der Blutzuckerspiegel steigt mit der Aufnahme der Nährstoffe."
+        },
+        {
+          "hours": "4-12 Stunden",
+          "title": "Fettverbrennung beginnt (kataboler Zustand)",
+          "description": "Der Insulinspiegel sinkt und der Körper beginnt, gespeichertes Fett zur Energiegewinnung abzubauen."
+        },
+        {
+          "hours": "12-18 Stunden",
+          "title": "Zelluläre Reinigung (Autophagie)",
+          "description": "Ihr Körper beginnt, beschädigte Zellen abzubauen und alte Proteine zu recyceln – wie ein innerer Frühjahrsputz."
+        },
+        {
+          "hours": "Ab 18 Jahren",
+          "title": "Maximale Fettverbrennung (Tiefe Ketose)",
+          "description": "Ihr Körper arbeitet vollständig auf Fettverbrennung. Das Wachstumshormon steigt an und die Fettverbrennung erreicht ihren Höhepunkt."
+        }
+      ]
+    },
+    "breaksFast": {
+      "title": "Was bricht das Fasten?",
+      "safe": "Sicher während des Fastens:",
+      "safeList": "Wasser, schwarzer Kaffee, einfacher Tee, Mineralwasser, Salz/Elektrolyte",
+      "breaks": "Unterbricht dein Fasten:",
+      "breaksList": "Alles, was Kalorien enthält – Milch, Zucker, Sahne, Proteinshakes, BCAAs, Diätlimonaden mit künstlichen Süßstoffen"
+    },
+    "tips": {
+      "title": "Profi-Tipps für den Erfolg",
+      "tip1": {
+        "title": "Fangen Sie schrittweise an",
+        "desc": "Beginnen Sie mit 12:12 Minuten und steigern Sie die Fastendauer allmählich."
+      },
+      "tip2": {
+        "title": "Bleiben Sie hydratisiert",
+        "desc": "Trinken Sie während des Fastens reichlich Wasser."
+      },
+      "tip3": {
+        "title": "Höre auf deinen Körper",
+        "desc": "Fühlst du dich unwohl? Es ist in Ordnung, das Fasten zu brechen."
+      },
+      "tip4": {
+        "title": "Qualität zählt",
+        "desc": "Konzentrieren Sie sich während des Essensfensters auf nährstoffreiche Lebensmittel."
+      }
+    }
+  },
+  "log": {
+    "form": {
+      "title": "Protokolliere das heutige Fasten",
+      "lastMeal": "Letzte Mahlzeit (gestern):",
+      "firstMeal": "Erste Mahlzeit (heute):",
+      "duration": "Gesamte Fastendauer",
+      "goalAchieved": "Ziel erreicht! Du hast ein Fasten von über 16 Stunden erfolgreich absolviert!",
+      "submit": "Protokollieren Sie dies schnell",
+      "dateLabel": "Datum:"
+    },
+    "tracker": {
+      "title": "30-Tage-Schnelltest",
+      "streak": "Aktuelle Siegesserie:",
+      "streakDays": "{{count}} Tage",
+      "last30": "Letzte 30 Tage",
+      "legend": {
+        "goalMet": "Ziel erreicht (16+ Std.)",
+        "today": "Heute",
+        "missed": "Verpasster Tag"
+      },
+      "today": "Heute",
+      "dayLabel": "Tag {{val}}"
+    },
+    "recentFasts": {
+      "title": "Aktuelle Fasten",
+      "goalMet": "Tor mit"
+    }
+  }
+}

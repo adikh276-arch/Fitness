@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "back": "Back to Dashboard"
+  },
+  "header": {
+    "title": "Diabetes Diet Guide",
+    "subtitle": "Monitor glucose and master the plate method"
+  },
+  "alert": {
+    "title": "Low Blood Sugar Warning",
+    "desc": "Your reading indicates hypoglycemia (low blood sugar). Please take action immediately:",
+    "actions": {
+      "carbs": "Consume 15g of fast-acting carbs (e.g., 4oz juice, 3-4 glucose tabs)",
+      "wait": "Wait 15 minutes",
+      "repeat": "Test again; if still low, repeat treatment",
+      "contact": "Contact your doctor if levels don't stabilize"
+    }
+  },
+  "tabs": {
+    "plate": "Diabetes Plate",
+    "log": "Glucose Log",
+    "gi": "GI Lookup"
+  },
+  "log": {
+    "title": "Log Glucose Reading",
+    "unit": "Measurement Unit",
+    "value": "Glucose Level ({{unit}})",
+    "valuePlaceholder": "Enter value (e.g. 110)",
+    "valuePlaceholderMmol": "Enter value (e.g. 6.1)",
+    "timing": "Reading Timing",
+    "mealContext": "Meal Context / Notes",
+    "mealContextPlaceholder": "What did you eat? How do you feel?",
+    "submit": "Save Reading",
+    "success": "Glucose reading saved successfully!",
+    "targets": {
+      "title": "Standard Target Ranges (mg/dL)",
+      "fasting": "Fasting: 80-130 mg/dL",
+      "postMeal": "1-2h Post-meal: < 180 mg/dL",
+      "low": "Low: < 70 mg/dL"
+    },
+    "recent": {
+      "title": "Recent Readings",
+      "noReadings": "No readings logged yet",
+      "trend": "Glucose Trend (Last 7 Readings)",
+      "targetMax": "Target Max (Fasting)",
+      "targetPost": "Target Max (Post-meal)"
+    }
+  },
+  "status": {
+    "normal": "Normal",
+    "high": "High",
+    "low": "Low"
+  },
+  "timing": {
+    "fasting": "Fasting / Before Meal",
+    "preMeal": "Pre-meal",
+    "postMeal1h": "1h Post-meal",
+    "postMeal2h": "2h Post-meal",
+    "bedtime": "Bedtime"
+  },
+  "plate": {
+    "intro": {
+      "title": "The Diabetes Plate Method",
+      "desc": "The Plate Method is a simple way to plan meals without counting. It focuses on portion control and balance to help manage blood sugar levels."
+    },
+    "build": {
+      "title": "Build Your Plate",
+      "hint": "Click a section to see recommended foods"
+    },
+    "categories": {
+      "veggies": {
+        "name": "Non-Starchy Veggies",
+        "percent": "50%",
+        "desc": "Fill half your plate with colorful, fiber-rich vegetables"
+      },
+      "protein": {
+        "name": "Lean Protein",
+        "percent": "25%",
+        "desc": "Fill a quarter with lean protein sources"
+      },
+      "carbs": {
+        "name": "Healthy Carbs",
+        "percent": "25%",
+        "desc": "Fill a quarter with whole grains or starchy veggies"
+      }
+    },
+    "principles": {
+      "title": "Plate Method Principles",
+      "veggies": {
+        "title": "Veggies First",
+        "desc": "Eat your vegetables first to slow down the absorption of glucose from the rest of your meal."
+      },
+      "protein": {
+        "title": "Quality Protein",
+        "desc": "Choose lean options to support muscle maintenance without excessive saturated fats."
+      },
+      "carbs": {
+        "title": "Mindful Carbs",
+        "desc": "Stick to complex carbohydrates that have a lower impact on blood sugar spikes."
+      }
+    }
+  },
+  "gi": {
+    "intro": {
+      "title": "Glycemic Index (GI) Lookup",
+      "desc": "The Glycemic Index ranks carbohydrates by how much they raise blood glucose levels compared to a reference food.",
+      "low": "Low (0-55)",
+      "medium": "Medium (56-69)",
+      "high": "High (70+)"
+    },
+    "labels": {
+      "low": "Low GI",
+      "medium": "Medium GI",
+      "high": "High GI"
+    },
+    "search": "Search for a food (e.g. oats, banana...)",
+    "noResults": "No foods found matching your search"
+  },
+  "foods": {
+    "Spinach": "Spinach",
+    "Broccoli": "Broccoli",
+    "Cauliflower": "Cauliflower",
+    "Bell Peppers": "Bell Peppers",
+    "Zucchini": "Zucchini",
+    "Asparagus": "Asparagus",
+    "Cucumber": "Cucumber",
+    "Tomatoes": "Tomatoes",
+    "Chicken Breast": "Chicken Breast",
+    "Fish (Salmon, Tuna)": "Fish (Salmon, Tuna)",
+    "Tofu": "Tofu",
+    "Lentils": "Lentils",
+    "Eggs": "Eggs",
+    "Turkey": "Turkey",
+    "Greek Yogurt": "Greek Yogurt",
+    "Brown Rice": "Brown Rice",
+    "Quinoa": "Quinoa",
+    "Sweet Potato": "Sweet Potato",
+    "Whole Wheat Pasta": "Whole Wheat Pasta",
+    "Oats": "Oats",
+    "Barley": "Barley"
+  }
+}

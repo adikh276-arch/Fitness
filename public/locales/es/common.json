@@ -1,0 +1,80 @@
+{
+  "shell": {
+    "title": "Recursos de Autocuidado",
+    "subtitle": "Explore herramientas y orientación para su viaje de bienestar"
+  },
+  "sections": {
+    "tools": "Herramientas",
+    "guides": "Guías de Nutrición y Dieta",
+    "workouts": "Áreas de Entrenamiento",
+    "learning": "Aprendizaje Destacado"
+  },
+  "tools": {
+    "macro": {
+      "label": "Calculadora de Nutrición",
+      "desc": "Calcular macros"
+    },
+    "calories": {
+      "label": "Quemador de Calorías",
+      "desc": "Registrar actividades"
+    },
+    "fasting": {
+      "label": "Registro de Ayuno",
+      "desc": "Seguimiento de ayuno"
+    },
+    "bmi": {
+      "label": "Calculadora de IMC",
+      "desc": "Métricas corporales"
+    }
+  },
+  "guides": {
+    "weightLoss": "Pérdida de peso",
+    "diabetes": "Dieta para la diabetes",
+    "muscle": "Ganancia muscular",
+    "gut": "Salud intestinal",
+    "keto": "Conceptos básicos de Keto",
+    "heart": "Salud del corazón",
+    "fasting": "Ayuno intermitente",
+    "vegan": "Nutrición vegana"
+  },
+  "workouts": {
+    "yoga": "Yoga",
+    "hiit": "HIIT",
+    "strength": "Entrenamiento de fuerza",
+    "posture": "Corrección de postura",
+    "home": "Entrenamientos en casa",
+    "flexibility": "Flexibilidad"
+  },
+  "learning": {
+    "macros": {
+      "title": "Entendiendo los macronutrientes",
+      "desc": "Aprenda los fundamentos de las proteínas, carbohidratos y grasas"
+    },
+    "others": {
+      "title": "Otros",
+      "desc": "Explore más herramientas de salud interactivas"
+    }
+  },
+  "others": {
+    "title": "Otros Recursos",
+    "subtitle": "Explore más herramientas para su viaje de salud",
+    "tools": {
+      "foodDiary": {
+        "label": "Diario de Alimentos",
+        "desc": "Sigue tus comidas"
+      },
+      "planPlate": {
+        "label": "Planifica tu plato",
+        "desc": "Equilibra tus comidas"
+      },
+      "sugarEase": {
+        "label": "Facilidad de Azúcar Diaria",
+        "desc": "Gestionar la ingesta de azúcar"
+      },
+      "recipeLog": {
+        "label": "Registro de Recetas Saludables",
+        "desc": "Guarda tus recetas"
+      }
+    }
+  }
+}

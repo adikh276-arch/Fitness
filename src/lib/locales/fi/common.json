@@ -1,0 +1,80 @@
+{
+  "shell": {
+    "title": "Itsehoitoresurssit",
+    "subtitle": "Tutustu työkaluihin ja ohjeisiin hyvinvointimatkallesi"
+  },
+  "sections": {
+    "tools": "Työkalut",
+    "guides": "Ravitsemus- ja ruokavalio-oppaat",
+    "workouts": "Harjoitusalueet",
+    "learning": "Esitellyt oppimismahdollisuudet"
+  },
+  "tools": {
+    "macro": {
+      "label": "Ravintoarvolaskuri",
+      "desc": "Laske makrot"
+    },
+    "calories": {
+      "label": "Kalorienpolttaja",
+      "desc": "Lokitoiminnot"
+    },
+    "fasting": {
+      "label": "Paasto-metsuri",
+      "desc": "Seuraa paastoa"
+    },
+    "bmi": {
+      "label": "Painoindeksilaskin",
+      "desc": "Kehon mittarit"
+    }
+  },
+  "guides": {
+    "weightLoss": "Painonpudotus",
+    "diabetes": "Diabetesruokavalio",
+    "muscle": "Lihaskasvu",
+    "gut": "Suoliston terveys",
+    "keto": "Keto-perusteet",
+    "heart": "Sydänterveys",
+    "fasting": "Pätkäpaasto",
+    "vegan": "Vegaaninen ravitsemus"
+  },
+  "workouts": {
+    "yoga": "Jooga",
+    "hiit": "HIIT-treeni",
+    "strength": "Voimaharjoittelu",
+    "posture": "Ryhdin korjaus",
+    "home": "Kotitreenit",
+    "flexibility": "Joustavuus"
+  },
+  "learning": {
+    "macros": {
+      "title": "Makroravinteiden ymmärtäminen",
+      "desc": "Opi proteiinin, hiilihydraattien ja rasvojen perusteet"
+    },
+    "others": {
+      "title": "Muut",
+      "desc": "Tutustu muihin interaktiivisiin terveystyökaluihin"
+    }
+  },
+  "others": {
+    "title": "Muut resurssit",
+    "subtitle": "Tutustu muihin työkaluihin terveysmatkaasi varten",
+    "tools": {
+      "foodDiary": {
+        "label": "Ruokapäiväkirja",
+        "desc": "Seuraa aterioitasi"
+      },
+      "planPlate": {
+        "label": "Suunnittele lautasesi",
+        "desc": "Tasapainota ateriat"
+      },
+      "sugarEase": {
+        "label": "Päivittäinen sokerin helppous",
+        "desc": "Hallitse sokerin saantia"
+      },
+      "recipeLog": {
+        "label": "Terveellisten reseptien loki",
+        "desc": "Tallenna reseptisi"
+      }
+    }
+  }
+}

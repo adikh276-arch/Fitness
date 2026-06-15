@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "back": "Takaisin kojelautaan"
+  },
+  "header": {
+    "title": "Pätkäpaasto-opas",
+    "subtitle": "Hallitse aikarajoitetun syömisen tiede"
+  },
+  "tabs": {
+    "lab": "Paastolaboratorio",
+    "log": "Onnistumisloki"
+  },
+  "lab": {
+    "timeline": {
+      "title": "Biologinen aikajana",
+      "stages": [
+        {
+          "hours": "0–4 tuntia",
+          "title": "Ruoansulatusvaihe (anabolinen tila)",
+          "description": "Kehosi sulattaa ruokaa ja varastoi energiaa. Verensokeri nousee ravintoaineiden imeytyessä."
+        },
+        {
+          "hours": "4–12 tuntia",
+          "title": "Rasvanpoltto alkaa (katabolinen tila)",
+          "description": "Insuliinitasot laskevat ja kehosi alkaa hajottaa varastoitua rasvaa energiaksi."
+        },
+        {
+          "hours": "12–18 tuntia",
+          "title": "Solujen puhdistus (autofagia)",
+          "description": "Kehosi alkaa poistaa vaurioituneita soluja ja kierrättää vanhoja proteiineja – aivan kuin tekisi sisäistä kevätsiivousta."
+        },
+        {
+          "hours": "18+ tuntia",
+          "title": "Huippurasvanpoltto (syväketoosi)",
+          "description": "Kehosi käyttää vain rasvaa. Kasvuhormonin tuotanto lisääntyy ja rasvanpoltto saavuttaa huippunsa."
+        }
+      ]
+    },
+    "breaksFast": {
+      "title": "Mikä rikkoo paaston?",
+      "safe": "Turvallinen paaston aikana:",
+      "safeList": "Vesi, musta kahvi, tavallinen tee, hiilihapotettu vesi, suola/elektrolyytit",
+      "breaks": "Katkaisee paastosi:",
+      "breaksList": "Mikä tahansa kaloreita sisältävä - maito, sokeri, kerma, proteiinipirtelöt, BCAA:t, keinotekoisilla makeutusaineilla maustetut kevytlimsat"
+    },
+    "tips": {
+      "title": "Vinkkejä menestykseen",
+      "tip1": {
+        "title": "Aloita vähitellen",
+        "desc": "Aloita klo 12.12 ja lisää paastoja pidempiin."
+      },
+      "tip2": {
+        "title": "Pysy nesteytettynä",
+        "desc": "Juo runsaasti vettä koko paaston ajan"
+      },
+      "tip3": {
+        "title": "Kuuntele kehoasi",
+        "desc": "Tunnetko olosi huonovointiseksi? Voit rikkoa paastosi"
+      },
+      "tip4": {
+        "title": "Laatu on tärkeää",
+        "desc": "Keskity ravinnepitoisiin ruokiin ruokailuikkunan aikana"
+      }
+    }
+  },
+  "log": {
+    "form": {
+      "title": "Loki tämän päivän paasto",
+      "lastMeal": "Viimeisin ateria-aika (eilen):",
+      "firstMeal": "Ensimmäinen ateria (tänään):",
+      "duration": "Kokonaispaastoaika",
+      "goalAchieved": "Tavoite saavutettu! Olet suorittanut yli 16 tunnin paaston!",
+      "submit": "Kirjaudu näin nopeasti"
+    },
+    "tracker": {
+      "title": "30 päivän pikaseuranta",
+      "streak": "Nykyinen putki:",
+      "streakDays": "{{count}} päivää",
+      "last30": "Viimeiset 30 päivää",
+      "legend": {
+        "goalMet": "Tavoite saavutettu (yli 16 tuntia)",
+        "today": "Tänään",
+        "missed": "Menetetty päivä"
+      }
+    },
+    "recentFasts": {
+      "title": "Viimeaikaiset paastoajat",
+      "goalMet": "Maali"
+    }
+  }
+}

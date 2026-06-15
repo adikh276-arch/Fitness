@@ -1,0 +1,76 @@
+{
+  "nav": { "back": "Back to Dashboard" },
+  "header": {
+    "title": "Step Tracker",
+    "subtitle": "Track your daily steps and reach your goals",
+    "profile": "Profile"
+  },
+  "tabs": {
+    "tracker": "Tracker",
+    "history": "History"
+  },
+  "tracker": {
+    "stepsToday": "steps today",
+    "goalAchieved": "Goal Achieved!",
+    "stats": {
+      "distance": "Distance",
+      "calories": "Calories",
+      "activeTime": "Active Time",
+      "km": "km",
+      "kcal": "kcal",
+      "mins": "mins"
+    },
+    "goal": {
+      "label": "Daily Goal",
+      "value": "{{val}} steps",
+      "change": "Change Goal"
+    },
+    "quickAdd": {
+      "title": "Quick Add Steps",
+      "label": "Custom Steps",
+      "placeholder": "e.g., 3500",
+      "submit": "Add"
+    },
+    "insights": {
+      "title": "Today's Insights",
+      "remaining": "Remaining Steps",
+      "stride": "Stride Length",
+      "progress": "Progress",
+      "complete": "Complete!",
+      "percentOfGoal": "{{val}}% of goal"
+    },
+    "reset": "Reset Today's Steps"
+  },
+  "history": {
+    "title": "Step History",
+    "noHistory": "No history yet. Start tracking your steps!",
+    "today": "Today",
+    "stats": {
+      "steps": "Steps",
+      "goal": "Goal",
+      "progress": "Progress"
+    }
+  },
+  "modals": {
+    "goal": {
+      "title": "Set Daily Goal",
+      "subtitle": "Enter your target daily steps",
+      "placeholder": "e.g., 10000",
+      "cancel": "Cancel",
+      "save": "Save"
+    },
+    "profile": {
+      "title": "Update Profile",
+      "subtitle": "This helps calculate accurate distance and calories",
+      "height": "Height (cm)",
+      "weight": "Weight (kg)",
+      "gender": "Gender",
+      "male": "Male",
+      "female": "Female",
+      "placeholderHeight": "e.g., 170",
+      "placeholderWeight": "e.g., 70",
+      "cancel": "Cancel",
+      "save": "Save"
+    }
+  }
+}

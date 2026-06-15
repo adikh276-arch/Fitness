@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "back": "대시보드로 돌아가기"
+  },
+  "header": {
+    "title": "칼로리 소모제",
+    "subtitle": "활동 중 소모된 칼로리를 추적하세요"
+  },
+  "tabs": {
+    "calculator": "계산자",
+    "log": "활동 로그({{count}})"
+  },
+  "calculator": {
+    "form": {
+      "title": "활동 세부 정보",
+      "selectActivity": "활동을 선택하세요",
+      "weight": "당신의 몸무게",
+      "duration": "소요 시간(분)",
+      "submit": "로그 활동",
+      "placeholders": {
+        "weightKg": "예: 70",
+        "weightLbs": "예: 154"
+      }
+    },
+    "summary": {
+      "title": "연소 요약",
+      "calories": "소모 칼로리",
+      "activity": "활동",
+      "duration": "지속",
+      "weight": "무게",
+      "burnRate": "칼로리 소모율",
+      "formula": "공식: (MET × 3.5 × 체중(kg) / 200) × 운동 시간(분)"
+    }
+  },
+  "log": {
+    "noActivities": "아직 활동 내역이 없습니다.",
+    "noActivitiesDesc": "운동 기록을 시작하면 여기에서 확인할 수 있습니다.",
+    "logFirst": "첫 번째 활동을 기록하세요",
+    "summary": {
+      "title": "총 요약",
+      "totalActivities": "총 활동량",
+      "totalCalories": "총 칼로리",
+      "totalTime": "총 소요 시간",
+      "avgSession": "세션당 평균 칼로리"
+    },
+    "item": {
+      "duration": "지속",
+      "met": "메트",
+      "calories": "칼로리",
+      "minutes": "최소"
+    }
+  },
+  "activities": {
+    "walking": "걷기 (빠른 걸음)",
+    "running": "달리기 (마일당 9분)",
+    "cycling": "자전거 타기 (중간 강도)",
+    "yoga": "요가",
+    "swimming": "수영 (랩)",
+    "strength": "근력 훈련",
+    "household": "집안일",
+    "dance": "댄스/에어로빅"
+  }
+}

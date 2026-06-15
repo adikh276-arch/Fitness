@@ -1,0 +1,61 @@
+{
+  "nav": { "back": "Back to Dashboard" },
+  "header": {
+    "title": "Calorie Burner",
+    "subtitle": "Track calories burned during your activities"
+  },
+  "tabs": {
+    "calculator": "Calculator",
+    "log": "Activity Log ({{count}})"
+  },
+  "calculator": {
+    "form": {
+      "title": "Activity Details",
+      "selectActivity": "Select Activity",
+      "weight": "Your Weight",
+      "duration": "Duration (minutes)",
+      "placeholders": {
+        "weightKg": "e.g., 70",
+        "weightLbs": "e.g., 154"
+      },
+      "submit": "Log Activity"
+    },
+    "summary": {
+      "title": "Burn Summary",
+      "calories": "Calories Burned",
+      "activity": "Activity",
+      "duration": "Duration",
+      "weight": "Weight",
+      "burnRate": "Calorie Burn Rate",
+      "formula": "Formula: (MET × 3.5 × Weight kg / 200) × Duration min"
+    }
+  },
+  "log": {
+    "noActivities": "No Activities Logged Yet",
+    "noActivitiesDesc": "Start tracking your workouts to see them here",
+    "logFirst": "Log Your First Activity",
+    "summary": {
+      "title": "Total Summary",
+      "totalActivities": "Total Activities",
+      "totalCalories": "Total Calories",
+      "totalTime": "Total Time",
+      "avgSession": "Avg Cal/Session"
+    },
+    "item": {
+      "duration": "Duration",
+      "met": "MET",
+      "calories": "Calories",
+      "minutes": "min"
+    }
+  },
+  "activities": {
+    "walking": "Walking (Brisk)",
+    "running": "Running (9 min/mile)",
+    "cycling": "Cycling (Moderate)",
+    "yoga": "Yoga",
+    "swimming": "Swimming (Laps)",
+    "strength": "Strength Training",
+    "household": "Household Chores",
+    "dance": "Dance/Aerobics"
+  }
+}

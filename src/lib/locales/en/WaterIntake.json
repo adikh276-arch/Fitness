@@ -1,0 +1,53 @@
+{
+  "nav": { "back": "Back to Dashboard" },
+  "header": {
+    "title": "Water Intake Tracker",
+    "subtitle": "Track your daily hydration and reach your goals"
+  },
+  "tabs": {
+    "tracker": "Today's Tracker",
+    "history": "History"
+  },
+  "tracker": {
+    "consumed": "ml consumed",
+    "goalLabel": "Daily Goal",
+    "remainingLabel": "Remaining",
+    "changeGoal": "Change daily goal",
+    "quickAdd": {
+      "title": "Quick Add",
+      "smallGlass": "Small Glass",
+      "bottle": "Bottle",
+      "largeBottle": "Large Bottle",
+      "jug": "Jug"
+    },
+    "custom": {
+      "label": "Custom Amount (ml)",
+      "placeholder": "e.g., 350",
+      "submit": "Add",
+      "undo": "Undo Last Entry"
+    }
+  },
+  "history": {
+    "title": "Water Intake History",
+    "noHistory": "No history available yet",
+    "today": "Today",
+    "summary": "{{total}} ml / {{goal}} ml ({{percent}}%)",
+    "stats": {
+      "total": "Total",
+      "entries": "Entries"
+    }
+  },
+  "modal": {
+    "title": "Set Daily Goal",
+    "subtitle": "Enter your target daily water intake",
+    "placeholder": "e.g., 2500",
+    "calcToggleShow": "Calculate Recommended",
+    "calcToggleHide": "Hide Calculator",
+    "formula": "Formula: Weight (kg) × 35ml",
+    "weightLabel": "Your Weight (kg)",
+    "weightPlaceholder": "e.g., 70",
+    "calcBtn": "Calculate & Apply",
+    "cancel": "Cancel",
+    "save": "Save"
+  }
+}

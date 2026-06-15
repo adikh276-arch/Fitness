@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "back": "대시보드로 돌아가기"
+  },
+  "header": {
+    "title": "수분 섭취량 추적기",
+    "subtitle": "매일 수분 섭취량을 기록하고 목표를 달성하세요."
+  },
+  "tabs": {
+    "tracker": "오늘의 트래커",
+    "history": "역사"
+  },
+  "tracker": {
+    "consumed": "ml 소비됨",
+    "goalLabel": "일일 목표",
+    "remainingLabel": "남은",
+    "changeGoal": "일일 목표 변경",
+    "quickAdd": {
+      "title": "빠른 추가",
+      "smallGlass": "작은 유리잔",
+      "bottle": "병",
+      "largeBottle": "큰 병",
+      "jug": "조끼"
+    },
+    "custom": {
+      "label": "사용자 지정 용량(ml)",
+      "placeholder": "예: 350",
+      "submit": "추가하다",
+      "undo": "마지막 입력 취소"
+    }
+  },
+  "history": {
+    "title": "물 섭취 이력",
+    "noHistory": "아직 이용 가능한 기록이 없습니다.",
+    "today": "오늘",
+    "summary": "{{total}} ml / {{goal}} ml ({{percent}}%)",
+    "stats": {
+      "total": "총",
+      "entries": "항목"
+    }
+  },
+  "modal": {
+    "title": "일일 목표 설정",
+    "subtitle": "하루 목표 수분 섭취량을 입력하세요",
+    "placeholder": "예: 2500",
+    "calcToggleShow": "권장 계산",
+    "calcToggleHide": "계산기 숨기기",
+    "formula": "공식: 체중(kg) × 35ml",
+    "weightLabel": "몸무게(kg)",
+    "weightPlaceholder": "예: 70",
+    "calcBtn": "계산 및 적용",
+    "cancel": "취소",
+    "save": "구하다"
+  }
+}

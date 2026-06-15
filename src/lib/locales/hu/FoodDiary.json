@@ -1,0 +1,53 @@
+{
+  "common": {
+    "next": "Következő",
+    "subtitle": "Kövesd nyomon az étkezéseidet és az érzéseidet",
+    "title": "Élelmiszernapló"
+  },
+  "feelings": {
+    "description": "Figyelj a testedre – mindig van valami mondanivalója!",
+    "placeholder": "Pl. ebéd után jóllakottnak éreztem magam, de vacsora után egy kicsit nehézkesnek...",
+    "title": "Hogy érezted magad evés után?"
+  },
+  "history": {
+    "empty": "Még nincsenek bejegyzések. Töltsd ki az első étkezési naplódat, hogy itt lásd!",
+    "subtitle": "Korábbi bejegyzéseid"
+  },
+  "intro": {
+    "description": "Az étkezéseid nyomon követése segít jobban megérteni a tested – mi ad energiát, mitől érzed magad nehéznek, és hol tehetsz egyszerű változtatásokat. Ez egy ítélkezésmentes zóna. Légy őszinte, és élvezd a folyamatot!",
+    "startButton": "Kezdjük →",
+    "subtitle": "Kis lépésekkel a nagy egészségügyi változásokért!",
+    "title": "Üdvözlünk az Élelmiszernaplódban"
+  },
+  "meals": {
+    "breakfast": {
+      "label": "Reggeli",
+      "placeholder": "Mit ettem?"
+    },
+    "description": "Jegyezz fel minden étkezést vagy uzsonnát. Még egy vázlatos feljegyzés is számít!",
+    "dinner": {
+      "label": "Vacsora",
+      "placeholder": "Mit ettem?"
+    },
+    "lunch": {
+      "label": "Ebéd",
+      "placeholder": "Mit ettem?"
+    },
+    "snacks": {
+      "label": "rágcsálnivalók",
+      "placeholder": "Van valami a kettő között?"
+    },
+    "title": "Mit ettél ma?"
+  },
+  "messages": {
+    "entryDeleted": "Bejegyzés törölve",
+    "entrySaved": "Bejegyzés mentve!"
+  },
+  "reflection": {
+    "encouragement": "Minden bejegyzés, amit beírsz, egy lépéssel közelebb visz egy egészségesebb, boldogabb énedhez. Jelentkezz folyamatosan – a következetesség az igazi titok!",
+    "placeholder": "Írd le ide a gondolataidat...",
+    "question": "Mi az az egy dolog, amit holnap jobban szeretnél enni?",
+    "saveButton": "Bejegyzés mentése",
+    "title": "Nagyszerű munka a mai napló kitöltése!"
+  }
+}

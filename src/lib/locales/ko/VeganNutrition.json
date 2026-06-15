@@ -1,0 +1,238 @@
+{
+  "nav": {
+    "back": "대시보드로 돌아가기"
+  },
+  "header": {
+    "title": "비건 영양 가이드",
+    "subtitle": "완벽한 식물성 영양 가이드"
+  },
+  "tabs": {
+    "plate": "비건 플레이트",
+    "nutrients": "미량 영양소",
+    "calculator": "단백질 계산기"
+  },
+  "plate": {
+    "title": "완벽한 비건 식사",
+    "proportions": {
+      "legumes": {
+        "title": "콩류/콩류",
+        "subtitle": "단백질의 보고",
+        "examples": "예시: 렌틸콩, 병아리콩, 검은콩, 두부, 템페"
+      },
+      "grains": {
+        "title": "통곡물",
+        "subtitle": "지속 가능한 에너지",
+        "examples": "예시: 퀴노아, 현미, 귀리, 통밀, 보리"
+      },
+      "vegetables": {
+        "title": "채소",
+        "subtitle": "미량 영양소가 풍부함",
+        "examples": "예시: 잎채소, 브로콜리, 피망, 당근, 토마토"
+      },
+      "fats": {
+        "title": "건강한 지방/씨앗류",
+        "subtitle": "호르몬 건강",
+        "examples": "예시: 아보카도, 견과류, 씨앗류, 올리브 오일, 타히니"
+      }
+    },
+    "tip": {
+      "title": "꿀팁: 철분 흡수율 높이기",
+      "desc": "식물성 철분(비헴철)은 동물성 철분보다 흡수율이 낮습니다. 철분이 풍부한 식품과 비타민 C를 함께 섭취하면 흡수율을 최대 300%까지 높일 수 있습니다!",
+      "ironRich": "철분이 풍부한 식품",
+      "ironExamples": "시금치, 렌틸콩, 퀴노아, 두부, 호박씨",
+      "vitaminC": "비타민 C 부스터",
+      "vitaminCExamples": "레몬 주스, 피망, 토마토, 브로콜리, 오렌지",
+      "perfectCombo": "완벽한 조합: 레몬즙을 곁들인 렌틸콩 수프, 피망을 넣은 시금치 샐러드"
+    }
+  },
+  "nutrients": {
+    "title": "4대 주요 영양소 추적기",
+    "progress": {
+      "title": "오늘의 진행 상황",
+      "done": "완료",
+      "pending": "보류 중"
+    },
+    "why": {
+      "title": "이러한 항목을 추적하는 이유는 무엇일까요?",
+      "desc1": "이 네 가지 영양소는 식물성 식단에서 가장 흔하게 부족한 영양소입니다. 일일 섭취량을 추적하면 완전한 영양 섭취를 보장할 수 있습니다.",
+      "note": "참고: 비타민 B12는 식물에 자연적으로 함유되어 있지 않으므로 보충제를 복용하거나 강화식품을 통해 섭취해야 합니다."
+    },
+    "micronutrients": {
+      "b12": {
+        "name": "비타민 B12",
+        "importance": "신경 기능 및 DNA 합성에 필수적",
+        "dosage": "하루 2.4mcg",
+        "sources": [
+          "강화 식물성 우유",
+          "영양 효모",
+          "비타민 B12 보충제",
+          "강화 시리얼"
+        ]
+      },
+      "iron": {
+        "name": "철과 아연",
+        "importance": "산소 운반 및 면역 기능에 필수적입니다.",
+        "dosage": "철분: 18mg, 아연: 11mg (매일 권장량)",
+        "sources": [
+          "호박씨",
+          "렌틸콩",
+          "캐슈넛",
+          "시금치",
+          "퀴노아"
+        ]
+      },
+      "omega3": {
+        "name": "오메가-3(ALA)",
+        "importance": "뇌 건강 및 항염증 효과",
+        "dosage": "하루 1.6g",
+        "sources": [
+          "아마씨",
+          "치아씨드",
+          "호두",
+          "대마씨앗"
+        ]
+      },
+      "calcium": {
+        "name": "칼슘",
+        "importance": "뼈 건강 및 근육 기능",
+        "dosage": "매일 1000mg",
+        "sources": [
+          "청경채",
+          "타히니",
+          "강화 두부",
+          "케일",
+          "아몬드"
+        ]
+      }
+    }
+  },
+  "calculator": {
+    "title": "단백질 지식 가이드",
+    "subtitle": "원하는 식품을 선택하고 양을 입력하면 단백질 함량을 즉시 확인할 수 있습니다.",
+    "form": {
+      "selectFood": "음식 항목을 검색하고 선택하세요",
+      "placeholderFood": "음식을 고르세요...",
+      "searchPlaceholder": "음식을 검색하세요...",
+      "amount": "양(그램)",
+      "placeholderAmount": "100",
+      "add": "계산에 추가",
+      "proteinPer100": "100g당 {{val}}g",
+      "matches": "{{total}}개의 일치 항목 중 5개를 표시합니다.",
+      "noMatches": "음식을 찾을 수 없습니다."
+    },
+    "results": {
+      "title": "단백질 분해",
+      "estProtein": "예상 단백질 함량",
+      "calcInfo": "{{amount}}g의 {{food}}",
+      "summary": "현재 계산 요약",
+      "total": "총 단백질",
+      "aminoAcid": "아미노산 완전성",
+      "aminoComplete": "컴플리트 아미노 프로필",
+      "aminoIncomplete": "곡물이나 콩류가 부족함",
+      "aminoNote": "콩류(렌틸콩/강낭콩/대두) + 곡물류(쌀/퀴노아/귀리) = 완전 단백질",
+      "save": "로그 합계를 기록에 저장",
+      "success": "단백질 섭취량 기록 완료!",
+      "ironTip": {
+        "title": "팁:",
+        "desc": "비타민 C(레몬, 피망, 토마토)와 함께 섭취하면 철분 흡수율을 최대 300%까지 높일 수 있습니다!"
+      }
+    },
+    "reference": {
+      "title": "빠른 참조 가이드"
+    }
+  },
+  "proteinSources": {
+    "tofu": "두부",
+    "tempeh": "템페",
+    "edamame": "에다마메",
+    "soybeansBoiled": "삶은 콩",
+    "soyChunks": "콩고기/TVP 건조",
+    "soyMince": "건조 콩고기",
+    "soyMilk": "무가당 두유",
+    "soyYogurt": "두유 플레인 요거트",
+    "seitan": "세이탄",
+    "lentilsCooked": "삶은 렌틸콩",
+    "redLentilsCooked": "삶은 붉은 렌틸콩",
+    "greenLentilsCooked": "삶은 녹색 렌틸콩",
+    "blackLentilsCooked": "삶은 검은 렌틸콩",
+    "chickpeasCooked": "삶은 병아리콩",
+    "blackBeansCooked": "삶은 검은콩",
+    "kidneyBeansCooked": "삶은 강낭콩",
+    "pintoBeansCooked": "핀토콩을 익힌 것",
+    "cannelliniBeansCooked": "삶은 카넬리니 콩",
+    "navyBeansCooked": "삶은 네이비빈",
+    "adzukiBeansCooked": "삶은 팥",
+    "mungBeansCooked": "삶은 녹두",
+    "lupinBeans": "루핀콩",
+    "splitPeasCooked": "삶은 완두콩",
+    "greenPeas": "녹색 완두콩",
+    "peaProteinIsolate": "완두콩 단백질 분리물",
+    "peaMilk": "완두콩 우유",
+    "hummus": "후무스",
+    "falafel": "팔라펠",
+    "quinoaCooked": "퀴노아 조리",
+    "amaranthCooked": "아마란스 요리",
+    "buckwheatCooked": "메밀 요리",
+    "oatsDry": "건조 귀리",
+    "rolledOats": "압착 귀리",
+    "steelCutOats": "스틸컷 오트밀",
+    "oatBran": "귀리겨",
+    "barleyCooked": "보리 요리",
+    "milletCooked": "기장 요리",
+    "brownRiceCooked": "현미밥",
+    "wildRiceCooked": "야생 쌀밥",
+    "teffCooked": "테프 요리",
+    "farroCooked": "파로를 익힌 것",
+    "freekehCooked": "프리케 요리",
+    "wholeWheatPastaCooked": "통밀 파스타 삶은 것",
+    "chickpeaPastaDry": "병아리콩 파스타 (건조)",
+    "lentilPastaDry": "렌틸 파스타 건식",
+    "blackBeanPastaDry": "블랙빈 파스타 (건조)",
+    "spirulinaDry": "스피룰리나 건조물",
+    "nutritionalYeast": "영양 효모",
+    "mushroomsWhite": "버섯 화이트",
+    "portobelloMushrooms": "포토벨로 버섯",
+    "spinach": "시금치",
+    "kale": "케일",
+    "broccoli": "브로콜리",
+    "brusselsSprouts": "방울양배추",
+    "sweetCorn": "스위트콘",
+    "artichoke": "아티초크",
+    "avocado": "아보카도",
+    "pumpkinSeeds": "호박씨",
+    "hempSeeds": "대마씨앗",
+    "chiaSeeds": "치아씨드",
+    "flaxSeeds": "아마씨",
+    "sesameSeeds": "참깨",
+    "sunflowerSeeds": "해바라기씨",
+    "watermelonSeeds": "수박씨",
+    "almonds": "아몬드",
+    "peanuts": "시시한 것",
+    "peanutButterNatural": "땅콩버터 내추럴",
+    "cashews": "캐슈넛",
+    "pistachios": "피스타치오",
+    "walnuts": "호두",
+    "hazelnuts": "헤이즐넛",
+    "brazilNuts": "브라질너트",
+    "almondButter": "아몬드 버터",
+    "tahini": "타히니",
+    "cashewButter": "캐슈버터",
+    "pumpkinSeedButter": "호박씨 버터",
+    "sunflowerSeedButter": "해바라기씨 버터",
+    "almondFlour": "아몬드 가루",
+    "chickpeaFlour": "병아리콩가루 / 베산",
+    "soyFlour": "콩가루",
+    "wholeWheatFlour": "통밀가루",
+    "breadWholeWheat": "통밀빵",
+    "ezekielBread": "에스겔 빵",
+    "proteinBreadVegan": "단백질 빵 (비건)",
+    "roastedChickpeas": "구운 병아리콩",
+    "dryRoastedEdamame": "건조 로스팅한 에다마메",
+    "proteinBarVegan": "단백질 바 (비건)",
+    "veganSausage": "비건 소시지",
+    "veganBurgerPatty": "비건 버거 패티",
+    "mycoproteinVegan": "마이코프로틴 비건",
+    "beanSprouts": "콩나물",
+    "alfalfaSprouts": "알팔파 새싹"
+  }
+}

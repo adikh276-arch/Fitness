@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "back": "Volver al panel de control"
+  },
+  "header": {
+    "title": "Comprender los macronutrientes",
+    "subtitle": "Aprende los fundamentos de las proteínas, los carbohidratos y las grasas."
+  },
+  "tabs": {
+    "protein": "Proteína",
+    "carbs": "Carbohidratos",
+    "fats": "grasas",
+    "plate": "Constructor de placas"
+  },
+  "protein": {
+    "title": "Proteína",
+    "kcal": "4 kcal/gram",
+    "whyMatters": {
+      "title": "Por qué es importante:",
+      "muscle": {
+        "title": "Reparación y crecimiento muscular:",
+        "desc": "Esencial para desarrollar y mantener la masa muscular magra."
+      },
+      "satiety": {
+        "title": "Saciedad:",
+        "desc": "Te mantiene saciado por más tiempo, reduciendo la ingesta total de calorías."
+      },
+      "metabolic": {
+        "title": "Impulso metabólico:",
+        "desc": "Mayor efecto termogénico de todos los macronutrientes (entre el 20% y el 30% de las calorías que se queman durante la digestión)."
+      }
+    },
+    "target": {
+      "title": "Objetivo diario:",
+      "desc": "Para una salud y un mantenimiento muscular óptimos, procure consumir entre 1,6 y 2,2 g por kg de peso corporal. Los atletas y quienes buscan aumentar su masa muscular pueden necesitar hasta 2,5 g/kg."
+    },
+    "sources": "Principales fuentes de proteínas:"
+  },
+  "carbs": {
+    "title": "Carbohidratos",
+    "kcal": "4 kcal/gram",
+    "whyMatters": {
+      "title": "Por qué es importante:",
+      "energy": {
+        "title": "Fuente de energía primaria:",
+        "desc": "El combustible preferido de tu cuerpo para la actividad cerebral y física."
+      },
+      "performance": {
+        "title": "Actuación:",
+        "desc": "Fundamental para el ejercicio de alta intensidad y el rendimiento atlético."
+      },
+      "nutrients": {
+        "title": "Fibra y nutrientes:",
+        "desc": "Los carbohidratos integrales proporcionan vitaminas, minerales y salud digestiva esenciales."
+      }
+    },
+    "target": {
+      "title": "Objetivo diario:",
+      "desc": "Para personas activas, procure consumir entre 3 y 6 g por kg de peso corporal. Las personas sedentarias pueden necesitar menos (2-3 g/kg). Concéntrese en fuentes de alimentos integrales y complejos."
+    },
+    "sources": "Principales fuentes de carbohidratos:"
+  },
+  "fats": {
+    "title": "grasas",
+    "kcal": "9 kcal/gram",
+    "whyMatters": {
+      "title": "Por qué es importante:",
+      "hormone": {
+        "title": "Producción hormonal:",
+        "desc": "Esencial para la testosterona, el estrógeno y otras hormonas vitales."
+      },
+      "vitamin": {
+        "title": "Absorción de vitaminas:",
+        "desc": "Necesario para absorber las vitaminas liposolubles (A, D, E, K)."
+      },
+      "brain": {
+        "title": "Salud cerebral:",
+        "desc": "Tu cerebro está compuesto en un 60% de grasa; los omega-3 son cruciales para la función cognitiva."
+      }
+    },
+    "target": {
+      "title": "Objetivo diario:",
+      "desc": "Procure consumir entre 0,8 y 1,2 g por kg de peso corporal, o entre el 20 y el 35 % del total de calorías. Priorice las grasas insaturadas (aceite de oliva, frutos secos, pescado) sobre las grasas saturadas."
+    },
+    "sources": "Principales fuentes de grasa:"
+  },
+  "plate": {
+    "title": "Crea tu comida equilibrada",
+    "legend": {
+      "protein": "Proteína {{val}}%",
+      "carbs": "Carbohidratos {{val}}%",
+      "fats": "Grasas {{val}}%"
+    },
+    "sliders": {
+      "protein": {
+        "title": "Proteína",
+        "desc": "Músculo y saciedad"
+      },
+      "carbs": {
+        "title": "Carbohidratos",
+        "desc": "Energía y rendimiento"
+      },
+      "fats": {
+        "title": "grasas",
+        "desc": "Hormonas y vitaminas"
+      }
+    },
+    "calories": {
+      "title": "Calorías estimadas",
+      "subtitle": "(basado en una porción de 200 g)",
+      "unit": "kcal"
+    },
+    "warning": {
+      "title": "Recomendación de equilibrio",
+      "desc": "Para una nutrición óptima: Procure consumir al menos un 15-25 % de proteínas (músculo y saciedad), un 20-35 % de grasas saludables (hormonas) y un 40-60 % de carbohidratos (energía). Ajuste las proporciones para alcanzar estos objetivos."
+    }
+  },
+  "foods": {
+    "chicken": "Pechuga de pollo",
+    "yogurt": "Yogur griego",
+    "eggs": "Huevos",
+    "eggUnit": "1 huevo = 6 g de proteína",
+    "salmon": "Salmón",
+    "lentils": "Lentejas",
+    "tofu": "Tofu",
+    "rice": "arroz integral",
+    "oats": "Avena",
+    "potato": "Batata",
+    "quinoa": "Quinoa",
+    "banana": "Banana",
+    "bananaUnit": "1 porción mediana = 27 g de carbohidratos",
+    "bread": "Pan de trigo entero",
+    "breadUnit": "1 rebanada = 12 g de carbohidratos",
+    "avocado": "Palta",
+    "almonds": "Almendras",
+    "almondsUnit": "28 g = 14 g de grasa",
+    "oil": "Aceite de oliva",
+    "oilUnit": "1 cucharada = 14 g de grasa",
+    "peanutButter": "Manteca de cacahuete",
+    "pbUnit": "2 cucharadas = 16 g de grasa",
+    "chocolate": "Chocolate oscuro",
+    "chocolateUnit": "28 g = 9 g de grasa",
+    "unit100g": "100 g = {{val}} g {{macro}}"
+  }
+}

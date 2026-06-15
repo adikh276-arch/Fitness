@@ -1,0 +1,56 @@
+{
+  "shell": {
+    "title": "Self-Care Resources",
+    "subtitle": "Explore tools and guidance for your wellness journey"
+  },
+  "sections": {
+    "tools": "Tools",
+    "guides": "Nutrition & Diet Guides",
+    "workouts": "Workout Areas",
+    "learning": "Featured Learning"
+  },
+  "tools": {
+    "macro": { "label": "Nutrition Calculator", "desc": "Calculate macros" },
+    "calories": { "label": "Calorie Burner", "desc": "Log activities" },
+    "fasting": { "label": "Fasting Logger", "desc": "Track fasting" },
+    "bmi": { "label": "BMI Calculator", "desc": "Body metrics" }
+  },
+  "guides": {
+    "weightLoss": "Weight Loss",
+    "diabetes": "Diabetes Diet",
+    "muscle": "Muscle Gain",
+    "gut": "Gut Health",
+    "keto": "Keto Basics",
+    "heart": "Heart Health",
+    "fasting": "Intermittent Fasting",
+    "vegan": "Vegan Nutrition"
+  },
+  "workouts": {
+    "yoga": "Yoga",
+    "hiit": "HIIT",
+    "strength": "Strength Training",
+    "posture": "Posture Correction",
+    "home": "Home Workouts",
+    "flexibility": "Flexibility"
+  },
+  "learning": {
+    "macros": {
+      "title": "Understanding Macro-nutrients",
+      "desc": "Learn the fundamentals of protein, carbs, and fats"
+    },
+    "others": {
+      "title": "Others",
+      "desc": "Explore more interactive health tools"
+    }
+  },
+  "others": {
+    "title": "Other Resources",
+    "subtitle": "Explore more tools for your health journey",
+    "tools": {
+      "foodDiary": { "label": "Food Diary", "desc": "Track your meals" },
+      "planPlate": { "label": "Plan Your Plate", "desc": "Balance your meals" },
+      "sugarEase": { "label": "Daily Sugar Ease", "desc": "Manage sugar intake" },
+      "recipeLog": { "label": "Healthy Recipe Log", "desc": "Save your recipes" }
+    }
+  }
+}

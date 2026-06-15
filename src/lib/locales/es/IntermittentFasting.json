@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "back": "Volver al panel de control"
+  },
+  "header": {
+    "title": "Guía de ayuno intermitente",
+    "subtitle": "Domina la ciencia de la alimentación con restricción de tiempo."
+  },
+  "tabs": {
+    "lab": "El Laboratorio del Ayuno",
+    "log": "Registro de éxito"
+  },
+  "lab": {
+    "timeline": {
+      "title": "La línea de tiempo biológica",
+      "stages": [
+        {
+          "hours": "0-4 horas",
+          "title": "Fase de digestión (estado anabólico)",
+          "description": "Tu cuerpo está digiriendo los alimentos y almacenando energía. El nivel de azúcar en la sangre aumenta a medida que se absorben los nutrientes."
+        },
+        {
+          "hours": "4-12 horas",
+          "title": "Comienza la quema de grasa (estado catabólico)",
+          "description": "Los niveles de insulina disminuyen y el cuerpo comienza a descomponer la grasa almacenada para obtener energía."
+        },
+        {
+          "hours": "12-18 horas",
+          "title": "Limpieza celular (autofagia)",
+          "description": "Tu cuerpo comienza a eliminar las células dañadas y a reciclar las proteínas viejas, como si fuera una limpieza interna de primavera."
+        },
+        {
+          "hours": "Más de 18 horas",
+          "title": "Máxima quema de grasa (cetosis profunda)",
+          "description": "Tu cuerpo funciona principalmente con grasa. La hormona del crecimiento aumenta y la quema de grasa alcanza su punto máximo."
+        }
+      ]
+    },
+    "breaksFast": {
+      "title": "¿Qué rompe el ayuno?",
+      "safe": "Seguro durante el ayuno:",
+      "safeList": "Agua, café solo, té solo, agua con gas, sal/electrolitos",
+      "breaks": "Rompe tu ayuno:",
+      "breaksList": "Todo lo que contenga calorías: leche, azúcar, nata, batidos de proteínas, BCAA, refrescos dietéticos con edulcorantes artificiales."
+    },
+    "tips": {
+      "title": "Consejos profesionales para el éxito",
+      "tip1": {
+        "title": "Comience gradualmente",
+        "desc": "Comienza con 12:12 y ve aumentando gradualmente la duración del ayuno."
+      },
+      "tip2": {
+        "title": "Mantente hidratado",
+        "desc": "Bebe mucha agua durante todo el ayuno."
+      },
+      "tip3": {
+        "title": "Escucha a tu cuerpo.",
+        "desc": "¿Te sientes mal? No hay problema en romper el ayuno."
+      },
+      "tip4": {
+        "title": "La calidad importa",
+        "desc": "Concéntrese en alimentos ricos en nutrientes durante la ventana de alimentación."
+      }
+    }
+  },
+  "log": {
+    "form": {
+      "title": "Registra la comida rápida de hoy",
+      "lastMeal": "Última hora de la comida (ayer):",
+      "firstMeal": "Primera comida (hoy):",
+      "duration": "Duración total del ayuno",
+      "goalAchieved": "¡Objetivo alcanzado! ¡Has completado un ayuno de más de 16 horas!",
+      "submit": "Registra esto rápidamente",
+      "dateLabel": "Fecha:"
+    },
+    "tracker": {
+      "title": "Programa de acceso rápido de 30 días",
+      "streak": "Racha actual:",
+      "streakDays": "{{count}} días",
+      "last30": "Últimos 30 días",
+      "legend": {
+        "goalMet": "Objetivo alcanzado (más de 16 horas)",
+        "today": "Hoy",
+        "missed": "Día perdido"
+      },
+      "today": "Hoy",
+      "dayLabel": "Día {{val}}"
+    },
+    "recentFasts": {
+      "title": "Ayunos recientes",
+      "goalMet": "Gol con"
+    }
+  }
+}

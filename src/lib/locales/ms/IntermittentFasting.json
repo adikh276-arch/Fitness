@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "back": "Kembali ke Papan Pemuka"
+  },
+  "header": {
+    "title": "Panduan Puasa Berselang-seli",
+    "subtitle": "Kuasai sains pemakanan terhad masa"
+  },
+  "tabs": {
+    "lab": "Makmal Puasa",
+    "log": "Log Kejayaan"
+  },
+  "lab": {
+    "timeline": {
+      "title": "Garis Masa Biologi",
+      "stages": [
+        {
+          "hours": "0-4 Jam",
+          "title": "Fasa Penghadaman (Keadaan Anabolik)",
+          "description": "Badan anda sedang mencerna makanan dan menyimpan tenaga. Gula dalam darah meningkat apabila nutrien diserap."
+        },
+        {
+          "hours": "4-12 Jam",
+          "title": "Pembakaran Lemak Bermula (Keadaan Katabolik)",
+          "description": "Tahap insulin menurun dan badan anda mula memecahkan lemak yang disimpan untuk tenaga."
+        },
+        {
+          "hours": "12-18 Jam",
+          "title": "Pembersihan Selular (Autophagy)",
+          "description": "Badan anda mula membuang sel yang rosak dan mengitar semula protein lama - seperti pembersihan musim bunga dalaman."
+        },
+        {
+          "hours": "18+ Jam",
+          "title": "Pembakaran Lemak Puncak (Ketosis Mendalam)",
+          "description": "Badan anda dibekalkan sepenuhnya oleh lemak. Hormon tumbesaran meningkat dan pembakaran lemak mencapai kemuncaknya."
+        }
+      ]
+    },
+    "breaksFast": {
+      "title": "Apa yang Membatalkan Puasa?",
+      "safe": "Selamat Semasa Berpuasa:",
+      "safeList": "Air, Kopi Hitam, Teh Biasa, Air Berkarbonat, Garam/Elektrolit",
+      "breaks": "Membatalkan Puasa Anda:",
+      "breaksList": "Apa-apa sahaja yang mengandungi kalori - susu, gula, krim, protein shake, BCAA, soda diet dengan pemanis tiruan"
+    },
+    "tips": {
+      "title": "Petua Profesional untuk Kejayaan",
+      "tip1": {
+        "title": "Mulakan Secara Beransur-ansur",
+        "desc": "Mulakan dengan 12:12 dan tingkatkan kepada puasa yang lebih lama"
+      },
+      "tip2": {
+        "title": "Kekal Terhidrat",
+        "desc": "Minum banyak air sepanjang puasa anda"
+      },
+      "tip3": {
+        "title": "Dengarlah Badan Anda",
+        "desc": "Rasa tidak sihat? Tidak mengapa untuk berbuka puasa"
+      },
+      "tip4": {
+        "title": "Kualiti Penting",
+        "desc": "Tumpukan pada makanan yang padat nutrien semasa waktu makan"
+      }
+    }
+  },
+  "log": {
+    "form": {
+      "title": "Catat Kepantasan Hari Ini",
+      "lastMeal": "Waktu Makan Terakhir (Semalam):",
+      "firstMeal": "Waktu Makan Pertama (Hari Ini):",
+      "duration": "Tempoh Puasa Keseluruhan",
+      "goalAchieved": "Matlamat Tercapai! Anda telah berpuasa selama 16+ jam!",
+      "submit": "Log Ini Dengan Cepat"
+    },
+    "tracker": {
+      "title": "Penjejak Pantas 30 Hari",
+      "streak": "Rentetan Semasa:",
+      "streakDays": "{{count}} hari",
+      "last30": "30 Hari Terakhir",
+      "legend": {
+        "goalMet": "Matlamat Dicapai (16+ jam)",
+        "today": "Hari ini",
+        "missed": "Hari Terlepas"
+      }
+    },
+    "recentFasts": {
+      "title": "Puasa Terkini",
+      "goalMet": "Gol Dengan"
+    }
+  }
+}

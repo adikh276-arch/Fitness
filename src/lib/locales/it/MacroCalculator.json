@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "back": "Torna alla dashboard"
+  },
+  "header": {
+    "title": "Calcolatrice macro",
+    "subtitle": "Calcola il tuo fabbisogno giornaliero di calorie e macronutrienti"
+  },
+  "tabs": {
+    "input": "I tuoi dati",
+    "results": "I tuoi risultati"
+  },
+  "form": {
+    "title": "I tuoi dati",
+    "age": "Età (anni)",
+    "gender": "Genere",
+    "male": "Maschio",
+    "female": "Femmina",
+    "weight": "Peso",
+    "height": "Altezza",
+    "activity": "Livello di attività",
+    "goal": "Obiettivo",
+    "submit": "Calcola le macro",
+    "placeholders": {
+      "age": "ad esempio, 30",
+      "weightKg": "ad esempio, 70",
+      "weightLbs": "ad esempio, 154",
+      "heightCm": "ad esempio, 175",
+      "heightFt": "Piedi",
+      "heightIn": "Pollici"
+    },
+    "activityLevels": {
+      "sedentary": "Sedentario (poca o nessuna attività fisica)",
+      "light": "Attività fisica leggera (1-3 giorni a settimana)",
+      "moderate": "Attività moderata (3-5 giorni a settimana)",
+      "very": "Molto attivo (6-7 giorni a settimana)"
+    },
+    "goals": {
+      "maintenance": "Manutenzione",
+      "loss": "perdita di peso",
+      "gain": "Aumento della massa muscolare"
+    }
+  },
+  "results": {
+    "title": "I tuoi risultati",
+    "calorieTarget": "Obiettivo calorico giornaliero",
+    "kcalPerDay": "kcal/giorno",
+    "bmrLabel": "BMR: {{val}} kcal",
+    "protein": "Proteina",
+    "carbs": "Carboidrati",
+    "fat": "Grasso",
+    "submit": "Salva nel profilo",
+    "placeholder": "Inserisci i tuoi dati e clicca su Calcola per visualizzare i risultati.",
+    "success": "Dati macro salvati! I dettagli del tuo profilo sono stati sincronizzati.",
+    "validation": "Inserisci valori validi"
+  }
+}

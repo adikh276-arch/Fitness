@@ -1,0 +1,80 @@
+{
+  "shell": {
+    "title": "Risorse per la cura di sé",
+    "subtitle": "Scopri strumenti e consigli per il tuo percorso di benessere."
+  },
+  "sections": {
+    "tools": "Utensili",
+    "guides": "Guide nutrizionali e dietetiche",
+    "workouts": "Aree di allenamento",
+    "learning": "Apprendimento in primo piano"
+  },
+  "tools": {
+    "macro": {
+      "label": "Calcolatore nutrizionale",
+      "desc": "Calcola le macro"
+    },
+    "calories": {
+      "label": "Brucia calorie",
+      "desc": "Registra le attività"
+    },
+    "fasting": {
+      "label": "Registro del digiuno",
+      "desc": "Digiuno in pista"
+    },
+    "bmi": {
+      "label": "Calcolatore dell'IMC",
+      "desc": "metriche corporee"
+    }
+  },
+  "guides": {
+    "weightLoss": "perdita di peso",
+    "diabetes": "Dieta per diabetici",
+    "muscle": "Aumento della massa muscolare",
+    "gut": "Salute intestinale",
+    "keto": "Nozioni di base sulla dieta chetogenica",
+    "heart": "Salute del cuore",
+    "fasting": "Digiuno intermittente",
+    "vegan": "Nutrizione vegana"
+  },
+  "workouts": {
+    "yoga": "Yoga",
+    "hiit": "HIIT",
+    "strength": "Allenamento di forza",
+    "posture": "Correzione della postura",
+    "home": "Allenamenti a casa",
+    "flexibility": "Flessibilità"
+  },
+  "learning": {
+    "macros": {
+      "title": "Comprendere i macronutrienti",
+      "desc": "Impara le nozioni fondamentali su proteine, carboidrati e grassi."
+    },
+    "others": {
+      "title": "Altri",
+      "desc": "Scopri altri strumenti interattivi per la salute."
+    }
+  },
+  "others": {
+    "title": "Altre risorse",
+    "subtitle": "Scopri altri strumenti per il tuo percorso di salute.",
+    "tools": {
+      "foodDiary": {
+        "label": "Diario alimentare",
+        "desc": "Tieni traccia dei tuoi pasti"
+      },
+      "planPlate": {
+        "label": "Pianifica il tuo piatto",
+        "desc": "Bilancia i tuoi pasti"
+      },
+      "sugarEase": {
+        "label": "Alleviare quotidianamente lo zucchero",
+        "desc": "Gestire gli assunzioni di zucchero"
+      },
+      "recipeLog": {
+        "label": "Registro di ricette salutari",
+        "desc": "Salva le tue ricette"
+      }
+    }
+  }
+}

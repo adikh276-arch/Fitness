@@ -1,0 +1,80 @@
+{
+  "shell": {
+    "title": "셀프케어 자료",
+    "subtitle": "건강 여정을 위한 도구와 지침을 살펴보세요"
+  },
+  "sections": {
+    "tools": "도구",
+    "guides": "영양 및 다이어트 가이드",
+    "workouts": "운동 공간",
+    "learning": "추천 학습 콘텐츠"
+  },
+  "tools": {
+    "macro": {
+      "label": "영양 계산기",
+      "desc": "매크로를 계산합니다"
+    },
+    "calories": {
+      "label": "칼로리 소모제",
+      "desc": "활동 기록"
+    },
+    "fasting": {
+      "label": "단식 기록",
+      "desc": "단식 추적"
+    },
+    "bmi": {
+      "label": "BMI 계산기",
+      "desc": "신체 측정치"
+    }
+  },
+  "guides": {
+    "weightLoss": "체중 감량",
+    "diabetes": "당뇨병 식단",
+    "muscle": "근육 증가",
+    "gut": "장 건강",
+    "keto": "케토 다이어트 기초",
+    "heart": "심장 건강",
+    "fasting": "간헐적 단식",
+    "vegan": "비건 영양"
+  },
+  "workouts": {
+    "yoga": "요가",
+    "hiit": "HIIT",
+    "strength": "근력 훈련",
+    "posture": "자세 교정",
+    "home": "집에서 하는 운동",
+    "flexibility": "유연성"
+  },
+  "learning": {
+    "macros": {
+      "title": "다량 영양소 이해하기",
+      "desc": "단백질, 탄수화물, 지방의 기본 원리를 배우세요"
+    },
+    "others": {
+      "title": "기타",
+      "desc": "더욱 다양한 대화형 건강 도구를 살펴보세요"
+    }
+  },
+  "others": {
+    "title": "기타 자료",
+    "subtitle": "건강 관리 여정에 도움이 되는 더 많은 도구를 살펴보세요",
+    "tools": {
+      "foodDiary": {
+        "label": "음식 일기",
+        "desc": "식단을 기록하세요"
+      },
+      "planPlate": {
+        "label": "식단을 계획하세요",
+        "desc": "균형 잡힌 식사를 하세요"
+      },
+      "sugarEase": {
+        "label": "데일리 슈가 이즈",
+        "desc": "설탕 섭취량을 관리하세요"
+      },
+      "recipeLog": {
+        "label": "건강 레시피 기록",
+        "desc": "레시피를 저장하세요"
+      }
+    }
+  }
+}

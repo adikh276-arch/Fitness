@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "back": "Retour au tableau de bord"
+  },
+  "header": {
+    "title": "Guide du jeûne intermittent",
+    "subtitle": "Maîtrisez la science de l'alimentation à horaires restreints"
+  },
+  "tabs": {
+    "lab": "Le laboratoire du jeûne",
+    "log": "Journal des succès"
+  },
+  "lab": {
+    "timeline": {
+      "title": "La chronologie biologique",
+      "stages": [
+        {
+          "hours": "0-4 heures",
+          "title": "Phase de digestion (état anabolique)",
+          "description": "Votre corps digère les aliments et stocke de l'énergie. La glycémie augmente à mesure que les nutriments sont absorbés."
+        },
+        {
+          "hours": "4 à 12 heures",
+          "title": "Début de la combustion des graisses (état catabolique)",
+          "description": "Le taux d'insuline diminue et votre corps commence à dégrader les graisses stockées pour produire de l'énergie."
+        },
+        {
+          "hours": "12 à 18 heures",
+          "title": "Nettoyage cellulaire (autophagie)",
+          "description": "Votre corps commence à éliminer les cellules endommagées et à recycler les vieilles protéines – comme un grand nettoyage de printemps interne."
+        },
+        {
+          "hours": "18 heures et plus",
+          "title": "Combustion maximale des graisses (cétose profonde)",
+          "description": "Votre corps fonctionne entièrement grâce aux graisses. L'hormone de croissance augmente et la combustion des graisses atteint son maximum."
+        }
+      ]
+    },
+    "breaksFast": {
+      "title": "Qu’est-ce qui rompt le jeûne ?",
+      "safe": "Sans danger pendant le jeûne :",
+      "safeList": "Eau, café noir, thé nature, eau gazeuse, sel/électrolytes",
+      "breaks": "Rompt votre jeûne :",
+      "breaksList": "Tout ce qui contient des calories : lait, sucre, crème, boissons protéinées, BCAA, sodas light avec édulcorants artificiels."
+    },
+    "tips": {
+      "title": "Conseils de pro pour réussir",
+      "tip1": {
+        "title": "Commencez progressivement",
+        "desc": "Commencez par un jeûne de 12:12 et augmentez progressivement la durée."
+      },
+      "tip2": {
+        "title": "Restez hydraté",
+        "desc": "Buvez beaucoup d'eau pendant votre jeûne."
+      },
+      "tip3": {
+        "title": "Écoutez votre corps",
+        "desc": "Vous ne vous sentez pas bien ? Il est tout à fait normal de rompre votre jeûne."
+      },
+      "tip4": {
+        "title": "La qualité compte",
+        "desc": "Privilégiez les aliments riches en nutriments pendant votre période d'alimentation."
+      }
+    }
+  },
+  "log": {
+    "form": {
+      "title": "Enregistrez votre jeûne d'aujourd'hui",
+      "lastMeal": "Heure du dernier repas (hier) :",
+      "firstMeal": "Premier repas (aujourd'hui) :",
+      "duration": "Durée totale du jeûne",
+      "goalAchieved": "Objectif atteint ! Vous avez jeûné pendant plus de 16 heures !",
+      "submit": "Enregistrez ceci rapidement",
+      "dateLabel": "Date:"
+    },
+    "tracker": {
+      "title": "Suivi rapide en 30 jours",
+      "streak": "Série actuelle :",
+      "streakDays": "{{count}} jours",
+      "last30": "30 derniers jours",
+      "legend": {
+        "goalMet": "Objectif atteint (plus de 16 heures)",
+        "today": "Aujourd'hui",
+        "missed": "Journée manquée"
+      },
+      "today": "Aujourd'hui",
+      "dayLabel": "Jour {{val}}"
+    },
+    "recentFasts": {
+      "title": "Jeûnes récents",
+      "goalMet": "Objectif avec"
+    }
+  }
+}

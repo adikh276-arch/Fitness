@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "back": "ダッシュボードに戻る"
+  },
+  "header": {
+    "title": "歩数計",
+    "subtitle": "毎日の歩数を記録して目標を達成しましょう",
+    "profile": "プロフィール"
+  },
+  "tabs": {
+    "tracker": "トラッカー",
+    "history": "歴史"
+  },
+  "tracker": {
+    "stepsToday": "今日の歩数",
+    "goalAchieved": "目標達成！",
+    "stats": {
+      "distance": "距離",
+      "calories": "カロリー",
+      "activeTime": "アクティブ時間",
+      "km": "キロ",
+      "kcal": "kcal",
+      "mins": "分"
+    },
+    "goal": {
+      "label": "日々の目標",
+      "value": "手順",
+      "change": "目標を変更する"
+    },
+    "quickAdd": {
+      "title": "簡単な追加手順",
+      "label": "カスタムステップ",
+      "placeholder": "例：3500",
+      "submit": "追加"
+    },
+    "insights": {
+      "title": "今日の洞察",
+      "remaining": "残りの手順",
+      "stride": "歩幅",
+      "progress": "進捗",
+      "complete": "完了！",
+      "percentOfGoal": "目標の{{val}}％"
+    },
+    "reset": "今日の歩数をリセットする"
+  },
+  "history": {
+    "title": "ステップ履歴",
+    "noHistory": "まだ履歴がありません。歩数を記録し始めましょう！",
+    "today": "今日",
+    "stats": {
+      "steps": "手順",
+      "goal": "ゴール",
+      "progress": "進捗"
+    }
+  },
+  "modals": {
+    "goal": {
+      "title": "毎日の目標を設定する",
+      "subtitle": "1日の目標歩数を入力してください",
+      "placeholder": "例：10000",
+      "cancel": "キャンセル",
+      "save": "保存"
+    },
+    "profile": {
+      "title": "プロフィールの更新",
+      "subtitle": "これは正確な距離とカロリーを計算するのに役立ちます",
+      "height": "身長（cm）",
+      "weight": "体重（kg）",
+      "gender": "性別",
+      "male": "男",
+      "female": "女性",
+      "placeholderHeight": "例：170",
+      "placeholderWeight": "例：70",
+      "cancel": "キャンセル",
+      "save": "保存"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "back": "Voltar ao painel de controle"
+  },
+  "header": {
+    "title": "Contador de passos",
+    "subtitle": "Monitore seus passos diários e alcance seus objetivos.",
+    "profile": "Perfil"
+  },
+  "tabs": {
+    "tracker": "Rastreador",
+    "history": "História"
+  },
+  "tracker": {
+    "stepsToday": "passos hoje",
+    "goalAchieved": "Objetivo alcançado!",
+    "stats": {
+      "distance": "Distância",
+      "calories": "Calorias",
+      "activeTime": "Tempo ativo",
+      "km": "km",
+      "kcal": "kcal",
+      "mins": "minutos"
+    },
+    "goal": {
+      "label": "Meta diária",
+      "value": "{{val}} passos",
+      "change": "Meta de mudança"
+    },
+    "quickAdd": {
+      "title": "Etapas de Adição Rápida",
+      "label": "Etapas personalizadas",
+      "placeholder": "Exemplo: 3500",
+      "submit": "Adicionar"
+    },
+    "insights": {
+      "title": "Análises de hoje",
+      "remaining": "Etapas restantes",
+      "stride": "Comprimento da passada",
+      "progress": "Progresso",
+      "complete": "Completo!",
+      "percentOfGoal": "{{val}}% da meta"
+    },
+    "reset": "Reiniciar passos de hoje"
+  },
+  "history": {
+    "title": "Histórico de passos",
+    "noHistory": "Ainda não há histórico. Comece a registrar seus passos!",
+    "today": "Hoje",
+    "stats": {
+      "steps": "Passos",
+      "goal": "Meta",
+      "progress": "Progresso"
+    }
+  },
+  "modals": {
+    "goal": {
+      "title": "Defina uma meta diária.",
+      "subtitle": "Insira sua meta diária de passos.",
+      "placeholder": "Por exemplo, 10000",
+      "cancel": "Cancelar",
+      "save": "Salvar"
+    },
+    "profile": {
+      "title": "Atualizar perfil",
+      "subtitle": "Isso ajuda a calcular com precisão a distância e as calorias.",
+      "height": "Altura (cm)",
+      "weight": "Peso (kg)",
+      "gender": "Gênero",
+      "male": "Macho",
+      "female": "Fêmea",
+      "placeholderHeight": "Exemplo: 170",
+      "placeholderWeight": "Por exemplo, 70",
+      "cancel": "Cancelar",
+      "save": "Salvar"
+    }
+  }
+}

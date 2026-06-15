@@ -1,0 +1,238 @@
+{
+  "nav": {
+    "back": "Voltar ao painel de controle"
+  },
+  "header": {
+    "title": "Guia de Nutrição Vegana",
+    "subtitle": "Kit completo de ferramentas para nutrição à base de plantas"
+  },
+  "tabs": {
+    "plate": "Prato Vegano",
+    "nutrients": "Micronutrientes",
+    "calculator": "Calculadora de Proteínas"
+  },
+  "plate": {
+    "title": "A Refeição Vegana Completa",
+    "proportions": {
+      "legumes": {
+        "title": "Leguminosas/Feijões",
+        "subtitle": "Potência proteica",
+        "examples": "Exemplos: lentilhas, grão-de-bico, feijão preto, tofu, tempeh"
+      },
+      "grains": {
+        "title": "Grãos integrais",
+        "subtitle": "Energia sustentada",
+        "examples": "Exemplos: Quinoa, arroz integral, aveia, trigo integral, cevada"
+      },
+      "vegetables": {
+        "title": "Vegetais",
+        "subtitle": "Rico em micronutrientes",
+        "examples": "Exemplos: Verduras folhosas, brócolis, pimentões, cenouras, tomates"
+      },
+      "fats": {
+        "title": "Gorduras/Sementes Saudáveis",
+        "subtitle": "Saúde hormonal",
+        "examples": "Exemplos: Abacate, nozes, sementes, azeite, tahine"
+      }
+    },
+    "tip": {
+      "title": "Dica profissional: Aumente a absorção de ferro",
+      "desc": "O ferro de origem vegetal (ferro não heme) é absorvido com menos eficiência do que o ferro de origem animal. Combine alimentos ricos em ferro com vitamina C para aumentar a absorção em até 300%!",
+      "ironRich": "Alimentos ricos em ferro",
+      "ironExamples": "Espinafre, lentilhas, quinoa, tofu, sementes de abóbora",
+      "vitaminC": "Reforços de vitamina C",
+      "vitaminCExamples": "Suco de limão, pimentões, tomates, brócolis, laranjas",
+      "perfectCombo": "Combinação perfeita: Sopa de lentilha com suco de limão, salada de espinafre com pimentões."
+    }
+  },
+  "nutrients": {
+    "title": "O Guia dos 4 Grandes Nutrientes",
+    "progress": {
+      "title": "Progresso de hoje",
+      "done": "Feito",
+      "pending": "Pendente"
+    },
+    "why": {
+      "title": "Por que monitorar esses dados?",
+      "desc1": "Esses quatro nutrientes são as deficiências mais comuns em dietas à base de plantas. Monitorar a ingestão diária garante que você esteja obtendo uma nutrição completa.",
+      "note": "Observação: a vitamina B12 deve ser suplementada ou consumida através de alimentos fortificados, pois não está presente naturalmente em plantas."
+    },
+    "micronutrients": {
+      "b12": {
+        "name": "Vitamina B12",
+        "importance": "Essencial para a função nervosa e síntese de DNA.",
+        "dosage": "2,4 mcg diariamente",
+        "sources": [
+          "Leite vegetal fortificado",
+          "Levedura nutricional",
+          "Suplementos de vitamina B12",
+          "Cereais fortificados"
+        ]
+      },
+      "iron": {
+        "name": "Ferro e zinco",
+        "importance": "Essencial para o transporte de oxigênio e função imunológica.",
+        "dosage": "Ferro: 18 mg, Zinco: 11 mg por dia",
+        "sources": [
+          "Sementes de abóbora",
+          "Lentilhas",
+          "Castanhas de caju",
+          "Espinafre",
+          "Quinoa"
+        ]
+      },
+      "omega3": {
+        "name": "Ômega-3 (ALA)",
+        "importance": "Saúde cerebral e anti-inflamatório",
+        "dosage": "1,6 g por dia",
+        "sources": [
+          "Sementes de linho",
+          "Sementes de chia",
+          "Nozes",
+          "Sementes de cânhamo"
+        ]
+      },
+      "calcium": {
+        "name": "Cálcio",
+        "importance": "Saúde óssea e função muscular",
+        "dosage": "1000 mg diariamente",
+        "sources": [
+          "Bok choy",
+          "Tahine",
+          "Tofu fortificado",
+          "Couve",
+          "Amêndoas"
+        ]
+      }
+    }
+  },
+  "calculator": {
+    "title": "Guia de Conhecimento sobre Proteínas",
+    "subtitle": "Selecione um alimento e insira a quantidade para ver instantaneamente seu teor de proteína.",
+    "form": {
+      "selectFood": "Pesquisar e selecionar item alimentar",
+      "placeholderFood": "Escolha um alimento...",
+      "searchPlaceholder": "Pesquisar alimentos...",
+      "amount": "Quantidade (gramas)",
+      "placeholderAmount": "100",
+      "add": "Adicionar ao cálculo",
+      "proteinPer100": "{{val}}g por 100g",
+      "matches": "Exibindo 5 de {{total}} resultados",
+      "noMatches": "Nenhum alimento encontrado"
+    },
+    "results": {
+      "title": "Degradação de proteínas",
+      "estProtein": "Conteúdo estimado de proteína",
+      "calcInfo": "{{quantidade}}g de {{alimento}}",
+      "summary": "Resumo dos Cálculos Atuais",
+      "total": "Proteína Total",
+      "aminoAcid": "Completude de aminoácidos",
+      "aminoComplete": "Perfil completo do Amino",
+      "aminoIncomplete": "Grãos ou leguminosas ausentes",
+      "aminoNote": "Leguminosas (lentilhas/feijões/soja) + grãos (arroz/quinoa/aveia) = proteína completa",
+      "save": "Total de registros no histórico",
+      "success": "Proteína registrada com sucesso!",
+      "ironTip": {
+        "title": "Dica:",
+        "desc": "Combine com vitamina C (limão, pimentão, tomate) para aumentar a absorção de ferro em até 300%!"
+      }
+    },
+    "reference": {
+      "title": "Guia de Referência Rápida"
+    }
+  },
+  "proteinSources": {
+    "tofu": "Tofu",
+    "tempeh": "Tempeh",
+    "edamame": "Edamame",
+    "soybeansBoiled": "Soja cozida",
+    "soyChunks": "Proteína Texturizada de Soja em Pedaços / Seca",
+    "soyMince": "Carne de soja moída seca",
+    "soyMilk": "Leite de soja sem açúcar",
+    "soyYogurt": "Iogurte de soja natural",
+    "seitan": "Seitan",
+    "lentilsCooked": "Lentilhas cozidas",
+    "redLentilsCooked": "Lentilhas vermelhas cozidas",
+    "greenLentilsCooked": "Lentilhas verdes cozidas",
+    "blackLentilsCooked": "Lentilhas pretas cozidas",
+    "chickpeasCooked": "Grão-de-bico cozido",
+    "blackBeansCooked": "Feijão preto cozido",
+    "kidneyBeansCooked": "Feijão-carioca cozido",
+    "pintoBeansCooked": "Feijão Pinto Cozido",
+    "cannelliniBeansCooked": "Feijão Cannellini Cozido",
+    "navyBeansCooked": "Feijão branco cozido",
+    "adzukiBeansCooked": "Feijão Azuki Cozido",
+    "mungBeansCooked": "Feijão mungo cozido",
+    "lupinBeans": "Feijões de tremoço",
+    "splitPeasCooked": "Ervilhas partidas cozidas",
+    "greenPeas": "Ervilhas verdes",
+    "peaProteinIsolate": "Proteína isolada de ervilha",
+    "peaMilk": "Leite de ervilha",
+    "hummus": "Hummus",
+    "falafel": "Falafel",
+    "quinoaCooked": "Quinoa cozida",
+    "amaranthCooked": "Amaranto cozido",
+    "buckwheatCooked": "Trigo sarraceno cozido",
+    "oatsDry": "Aveia seca",
+    "rolledOats": "Aveia em flocos",
+    "steelCutOats": "Aveia em flocos grossos",
+    "oatBran": "farelo de aveia",
+    "barleyCooked": "Cevada cozida",
+    "milletCooked": "Milho cozido",
+    "brownRiceCooked": "Arroz integral cozido",
+    "wildRiceCooked": "Arroz selvagem cozido",
+    "teffCooked": "Teff cozido",
+    "farroCooked": "Farro cozido",
+    "freekehCooked": "Freekeh cozido",
+    "wholeWheatPastaCooked": "Massa integral cozida",
+    "chickpeaPastaDry": "Massa seca de grão-de-bico",
+    "lentilPastaDry": "Massa de lentilha seca",
+    "blackBeanPastaDry": "Macarrão seco de feijão preto",
+    "spirulinaDry": "Spirulina seca",
+    "nutritionalYeast": "Levedura nutricional",
+    "mushroomsWhite": "Cogumelos brancos",
+    "portobelloMushrooms": "Cogumelos Portobello",
+    "spinach": "Espinafre",
+    "kale": "Couve",
+    "broccoli": "Brócolis",
+    "brusselsSprouts": "Couve-de-bruxelas",
+    "sweetCorn": "Milho doce",
+    "artichoke": "Alcachofra",
+    "avocado": "Abacate",
+    "pumpkinSeeds": "Sementes de abóbora",
+    "hempSeeds": "Sementes de cânhamo",
+    "chiaSeeds": "Sementes de chia",
+    "flaxSeeds": "Sementes de linho",
+    "sesameSeeds": "Sementes de gergelim",
+    "sunflowerSeeds": "Sementes de girassol",
+    "watermelonSeeds": "Sementes de Melancia",
+    "almonds": "Amêndoas",
+    "peanuts": "Amendoins",
+    "peanutButterNatural": "Manteiga de Amendoim Natural",
+    "cashews": "Castanhas de caju",
+    "pistachios": "Pistaches",
+    "walnuts": "Nozes",
+    "hazelnuts": "Avelãs",
+    "brazilNuts": "Castanhas-do-pará",
+    "almondButter": "Manteiga de amêndoa",
+    "tahini": "Tahine",
+    "cashewButter": "Manteiga de caju",
+    "pumpkinSeedButter": "Manteiga de Semente de Abóbora",
+    "sunflowerSeedButter": "Manteiga de Semente de Girassol",
+    "almondFlour": "Farinha de amêndoa",
+    "chickpeaFlour": "Farinha de grão-de-bico / Besan",
+    "soyFlour": "Farinha de soja",
+    "wholeWheatFlour": "Farinha de trigo integral",
+    "breadWholeWheat": "Pão integral",
+    "ezekielBread": "Pão de Ezequiel",
+    "proteinBreadVegan": "Pão proteico vegano",
+    "roastedChickpeas": "Grão-de-bico assado",
+    "dryRoastedEdamame": "Edamame torrado a seco",
+    "proteinBarVegan": "Barra de Proteína Vegana",
+    "veganSausage": "Salsicha vegana",
+    "veganBurgerPatty": "Hambúrguer vegano",
+    "mycoproteinVegan": "Micoproteína Vegana",
+    "beanSprouts": "Brotos de feijão",
+    "alfalfaSprouts": "Brotos de alfafa"
+  }
+}

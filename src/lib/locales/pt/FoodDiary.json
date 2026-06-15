@@ -1,0 +1,53 @@
+{
+  "common": {
+    "next": "Próximo",
+    "subtitle": "Monitore suas refeições e seus sentimentos.",
+    "title": "Diário alimentar"
+  },
+  "feelings": {
+    "description": "Escute o seu corpo — ele sempre tem algo a lhe dizer!",
+    "placeholder": "Por exemplo, senti-me satisfeito após o almoço, mas um pouco pesado após o jantar...",
+    "title": "Como você se sentiu depois de comer?"
+  },
+  "history": {
+    "empty": "Ainda não há entradas. Complete seu primeiro diário alimentar para vê-lo aqui!",
+    "subtitle": "Suas postagens anteriores"
+  },
+  "intro": {
+    "description": "Registrar o que você come ajuda a entender melhor o seu corpo — o que lhe dá energia, o que lhe causa sensação de peso e onde você pode fazer pequenas melhorias. Este é um espaço livre de julgamentos. Seja honesto(a) e aproveite o processo!",
+    "startButton": "Vamos começar →",
+    "subtitle": "Pequenos passos para grandes mudanças na saúde!",
+    "title": "Bem-vindo(a) ao seu Diário Alimentar"
+  },
+  "meals": {
+    "breakfast": {
+      "label": "Café da manhã",
+      "placeholder": "O que você pediu?"
+    },
+    "description": "Registre cada refeição ou lanche abaixo. Mesmo uma anotação rápida conta!",
+    "dinner": {
+      "label": "Jantar",
+      "placeholder": "O que você pediu?"
+    },
+    "lunch": {
+      "label": "Almoço",
+      "placeholder": "O que você pediu?"
+    },
+    "snacks": {
+      "label": "Lanches",
+      "placeholder": "Existe algo entre esses dois extremos?"
+    },
+    "title": "O que você comeu hoje?"
+  },
+  "messages": {
+    "entryDeleted": "Entrada excluída",
+    "entrySaved": "Entrada salva!"
+  },
+  "reflection": {
+    "encouragement": "Cada postagem que você faz te aproxima de uma vida mais saudável e feliz. Continue participando — a consistência é o verdadeiro segredo!",
+    "placeholder": "Escreva aqui suas ideias...",
+    "question": "O que você gostaria de comer melhor amanhã?",
+    "saveButton": "Salvar entrada",
+    "title": "Ótimo trabalho ao concluir o registro de hoje!"
+  }
+}

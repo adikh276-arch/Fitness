@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "back": "Zurück zum Dashboard"
+  },
+  "header": {
+    "title": "Intelligenter BMI und Körperkontext",
+    "subtitle": "Erfassen Sie Ihre Körperwerte mit klinischer Präzision."
+  },
+  "streak": {
+    "title": "Gesundes Weidegebiet erhalten!",
+    "subtitle": "{{count}} aufeinanderfolgende Messwerte im gesunden Bereich 🎉"
+  },
+  "tabs": {
+    "calculator": "BMI-Rechner",
+    "context": "Jenseits des BMI",
+    "history": "Trendverlauf"
+  },
+  "calculator": {
+    "title": "Berechnen Sie Ihren BMI",
+    "inputs": {
+      "height": "Höhe",
+      "weight": "Gewicht",
+      "feet": "Füße",
+      "inches": "Zoll",
+      "placeholders": {
+        "heightCm": "z.B. 170",
+        "heightFt": "Füße",
+        "heightIn": "Zoll",
+        "weightKg": "z.B. 70",
+        "weightLbs": "z.B. 154"
+      }
+    },
+    "results": {
+      "yourBMI": "Ihr BMI",
+      "placeholder": "Geben Sie Ihre Maße ein, um Ihren BMI zu ermitteln.",
+      "submit": "Zum Profil hinzufügen",
+      "success": "✓ Erfolgreich gespeichert!",
+      "categories": {
+        "underweight": "Untergewicht",
+        "healthy": "Gesundes Gewicht",
+        "normal": "Normal",
+        "overweight": "Übergewicht",
+        "obese": "Fettleibig",
+        "enterData": "Daten eingeben"
+      }
+    },
+    "tip": "Erwägen Sie, regelmäßige Bewegung und eine ausgewogene Ernährung in Ihren Alltag einzubauen.",
+    "disclaimer": {
+      "title": "Medizinischer Haftungsausschluss",
+      "text": "Der BMI ist ein allgemeines Screening-Instrument und unterscheidet nicht zwischen Muskel- und Fettmasse. Lassen Sie sich von medizinischem Fachpersonal individuell beraten."
+    }
+  },
+  "beyond": {
+    "title": "Taille-zu-Körpergröße-Verhältnis (WHtR)",
+    "why": {
+      "title": "Warum das wichtig ist",
+      "desc": "Ein Taillenumfang von weniger als der Hälfte der Körpergröße reduziert das Herz-Kreislauf-Risiko. Das Taille-Hüft-Verhältnis (WHtR) ist zur Vorhersage von Stoffwechselerkrankungen genauer als der BMI.",
+      "target": "Zielwert: Verhältnis < 0,5 für optimale Gesundheit"
+    },
+    "inputs": {
+      "waist": "Taillenumfang",
+      "waistHint": "Messen Sie an der schmalsten Stelle Ihrer Taille, normalerweise direkt über dem Bauchnabel.",
+      "placeholders": {
+        "waistCm": "z. B. 80",
+        "waistIn": "z. B. 31"
+      }
+    },
+    "results": {
+      "healthy": "Gesunde Form",
+      "elevated": "Erhöhtes Risiko",
+      "placeholder": "Bitte geben Sie Ihre Körpergröße und Ihren Taillenumfang ein, um Ihr Verhältnis zu berechnen.",
+      "waistMeasurementPlaceholder": "Taillenumfang eingeben",
+      "label": "Taille-zu-Körpergröße-Verhältnis",
+      "submit": "Im Profil speichern (BMI + WHtR)"
+    },
+    "comparison": {
+      "title": "BMI vs. WHtR: Der Unterschied",
+      "bmi": {
+        "title": "BMI",
+        "desc": "Allgemeine Gewichtskategorie, berücksichtigt weder Muskelmasse noch Fettverteilung."
+      },
+      "whtr": {
+        "title": "WHtR",
+        "desc": "Misst die zentrale Fettleibigkeit und ist ein besserer Prädiktor für Herz-Kreislauf-Erkrankungen und Diabetes."
+      }
+    }
+  },
+  "history": {
+    "title": "Aktuelle Messungen",
+    "noHistory": "Noch keine Historie",
+    "noHistoryDesc": "Beginnen Sie damit, Ihren BMI und Ihre Körpermaße zu erfassen, um Ihre Fortschritte im Laufe der Zeit zu verfolgen.",
+    "stats": {
+      "title": "Ihre Statistiken",
+      "total": "Gesamtzahl der Datensätze",
+      "latest": "Aktueller BMI",
+      "healthyCount": "Gesunde Anzahl",
+      "bestStreak": "Beste Siegesserie"
+    }
+  }
+}

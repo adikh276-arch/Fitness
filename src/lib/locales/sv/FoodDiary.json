@@ -1,0 +1,53 @@
+{
+  "common": {
+    "next": "Nästa",
+    "subtitle": "Spåra dina måltider och känslor",
+    "title": "Matdagbok"
+  },
+  "feelings": {
+    "description": "Lyssna på din kropp – den har alltid något att berätta för dig!",
+    "placeholder": "t.ex. jag kände mig mätt efter lunch men lite trött efter middagen...",
+    "title": "Hur kände du dig efter att ha ätit?"
+  },
+  "history": {
+    "empty": "Inga inlägg ännu. Fyll i din första matdagbok för att se den här!",
+    "subtitle": "Dina tidigare inlägg"
+  },
+  "intro": {
+    "description": "Att hålla koll på vad du äter hjälper dig att förstå din kropp bättre – vad som ger dig energi, vad som får dig att känna dig tung och var du kan göra enkla förbättringar. Detta är en zon fri från dömanden. Var bara ärlig och njut av processen!",
+    "startButton": "Låt oss börja →",
+    "subtitle": "Små steg till stora hälsoförändringar!",
+    "title": "Välkommen till din matdagbok"
+  },
+  "meals": {
+    "breakfast": {
+      "label": "Frukost",
+      "placeholder": "Vad hade du?"
+    },
+    "description": "Anteckna varje måltid eller mellanmål nedan. Även en grov anteckning räknas!",
+    "dinner": {
+      "label": "Middag",
+      "placeholder": "Vad hade du?"
+    },
+    "lunch": {
+      "label": "Lunch",
+      "placeholder": "Vad hade du?"
+    },
+    "snacks": {
+      "label": "Snacks",
+      "placeholder": "Något däremellan?"
+    },
+    "title": "Vad åt du idag?"
+  },
+  "messages": {
+    "entryDeleted": "Posten raderad",
+    "entrySaved": "Inlägg sparat!"
+  },
+  "reflection": {
+    "encouragement": "Varje bidrag du gör tar dig ett steg närmare ett friskare och lyckligare jag. Fortsätt att dyka upp – konsekvens är den verkliga hemligheten!",
+    "placeholder": "Skriv dina tankar här...",
+    "question": "Vad är en sak du skulle vilja äta bättre imorgon?",
+    "saveButton": "Spara post",
+    "title": "Bra jobbat med att slutföra dagens logg!"
+  }
+}

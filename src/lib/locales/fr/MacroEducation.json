@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "back": "Retour au tableau de bord"
+  },
+  "header": {
+    "title": "Comprendre les macronutriments",
+    "subtitle": "Apprenez les bases des protéines, des glucides et des lipides."
+  },
+  "tabs": {
+    "protein": "Protéine",
+    "carbs": "Crabes",
+    "fats": "graisses",
+    "plate": "Constructeur de plaques"
+  },
+  "protein": {
+    "title": "Protéine",
+    "kcal": "4 kcal/gramme",
+    "whyMatters": {
+      "title": "Pourquoi c'est important :",
+      "muscle": {
+        "title": "Réparation et croissance musculaire :",
+        "desc": "Essentiel pour développer et maintenir la masse musculaire maigre"
+      },
+      "satiety": {
+        "title": "Satiété:",
+        "desc": "Procure une sensation de satiété prolongée, réduisant ainsi l'apport calorique total."
+      },
+      "metabolic": {
+        "title": "Stimulation métabolique :",
+        "desc": "L'effet thermique le plus élevé de tous les macronutriments (20 à 30 % des calories brûlées pendant la digestion)"
+      }
+    },
+    "target": {
+      "title": "Objectif quotidien :",
+      "desc": "Pour une santé optimale et le maintien de la masse musculaire, visez un apport de 1,6 à 2,2 g par kg de poids corporel. Les athlètes et les personnes souhaitant développer leur masse musculaire peuvent avoir besoin de jusqu'à 2,5 g/kg."
+    },
+    "sources": "Principales sources de protéines :"
+  },
+  "carbs": {
+    "title": "Glucides",
+    "kcal": "4 kcal/gramme",
+    "whyMatters": {
+      "title": "Pourquoi c'est important :",
+      "energy": {
+        "title": "Source d'énergie primaire :",
+        "desc": "Le carburant préféré de votre corps pour l'activité cérébrale et physique"
+      },
+      "performance": {
+        "title": "Performance:",
+        "desc": "Essentiel pour l'exercice de haute intensité et la performance athlétique"
+      },
+      "nutrients": {
+        "title": "Fibres et nutriments :",
+        "desc": "Les glucides complets fournissent des vitamines, des minéraux et des nutriments essentiels à la santé digestive."
+      }
+    },
+    "target": {
+      "title": "Objectif quotidien :",
+      "desc": "Pour les personnes actives, visez 3 à 6 g par kg de poids corporel. Les personnes sédentaires peuvent avoir besoin de moins (2 à 3 g/kg). Privilégiez les aliments complets et complexes."
+    },
+    "sources": "Principales sources de glucides :"
+  },
+  "fats": {
+    "title": "graisses",
+    "kcal": "9 kcal/gramme",
+    "whyMatters": {
+      "title": "Pourquoi c'est important :",
+      "hormone": {
+        "title": "Production d'hormones :",
+        "desc": "Essentiel pour la testostérone, les œstrogènes et d'autres hormones vitales."
+      },
+      "vitamin": {
+        "title": "Absorption des vitamines :",
+        "desc": "Nécessaire pour absorber les vitamines liposolubles (A, D, E, K)"
+      },
+      "brain": {
+        "title": "Santé cérébrale :",
+        "desc": "Votre cerveau est composé à 60 % de lipides ; les oméga-3 sont essentiels aux fonctions cognitives."
+      }
+    },
+    "target": {
+      "title": "Objectif quotidien :",
+      "desc": "Visez un apport de 0,8 à 1,2 g par kg de poids corporel, soit 20 à 35 % de l'apport calorique total. Privilégiez les graisses insaturées (huile d'olive, noix, poisson) aux graisses saturées."
+    },
+    "sources": "Principales sources de matières grasses :"
+  },
+  "plate": {
+    "title": "Composez votre repas équilibré",
+    "legend": {
+      "protein": "Protéines {{val}}%",
+      "carbs": "Glucides {{val}}%",
+      "fats": "Matières grasses {{val}}%"
+    },
+    "sliders": {
+      "protein": {
+        "title": "Protéine",
+        "desc": "Muscle et satiété"
+      },
+      "carbs": {
+        "title": "Glucides",
+        "desc": "Énergie et performance"
+      },
+      "fats": {
+        "title": "graisses",
+        "desc": "Hormones et vitamines"
+      }
+    },
+    "calories": {
+      "title": "Calories estimées",
+      "subtitle": "(pour une portion de 200 g)",
+      "unit": "kcal"
+    },
+    "warning": {
+      "title": "Recommandation d'équilibre",
+      "desc": "Pour une nutrition optimale : visez au moins 15 à 25 % de protéines (pour les muscles et la satiété), 20 à 35 % de lipides sains (pour les hormones) et 40 à 60 % de glucides (pour l’énergie). Ajustez vos proportions en fonction de ces objectifs."
+    }
+  },
+  "foods": {
+    "chicken": "Blanc de poulet",
+    "yogurt": "Yaourt grec",
+    "eggs": "Œufs",
+    "eggUnit": "1 œuf = 6 g de protéines",
+    "salmon": "Saumon",
+    "lentils": "Lentilles",
+    "tofu": "Tofu",
+    "rice": "riz brun",
+    "oats": "Avoine",
+    "potato": "Patate douce",
+    "quinoa": "Quinoa",
+    "banana": "Banane",
+    "bananaUnit": "1 portion moyenne = 27 g de glucides",
+    "bread": "Pain complet",
+    "breadUnit": "1 tranche = 12 g de glucides",
+    "avocado": "Avocat",
+    "almonds": "Amandes",
+    "almondsUnit": "28 g = 14 g de matières grasses",
+    "oil": "huile d'olive",
+    "oilUnit": "1 cuillère à soupe = 14 g de matières grasses",
+    "peanutButter": "Beurre de cacahuète",
+    "pbUnit": "2 cuillères à soupe = 16 g de matières grasses",
+    "chocolate": "Chocolat noir",
+    "chocolateUnit": "28 g = 9 g de matières grasses",
+    "unit100g": "100 g = {{val}} g {{macro}}"
+  }
+}

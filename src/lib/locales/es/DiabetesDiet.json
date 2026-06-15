@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "back": "Volver al panel de control"
+  },
+  "header": {
+    "title": "Dieta y control de la diabetes",
+    "subtitle": "Controla el nivel de azúcar en sangre, aprende a planificar comidas para diabéticos y consulta los valores de IG."
+  },
+  "alert": {
+    "title": "¡Alerta de bajo nivel de azúcar en sangre!",
+    "desc": "Su nivel de glucosa es inferior a 70 mg/dL. Tome medidas inmediatas:",
+    "actions": {
+      "carbs": "Consume 15 g de carbohidratos de acción rápida (4 tabletas de glucosa, 1/2 taza de jugo o 1 cucharada de miel).",
+      "wait": "Espere 15 minutos y vuelva a realizar la prueba.",
+      "repeat": "Si sigue bajo, repita.",
+      "contact": "Comuníquese con su proveedor de atención médica si los síntomas persisten."
+    }
+  },
+  "tabs": {
+    "plate": "El plato diabético",
+    "log": "Registro de glucosa en sangre",
+    "gi": "Herramienta de búsqueda GI"
+  },
+  "log": {
+    "title": "Registro de lectura de glucosa",
+    "unit": "Unidad",
+    "value": "Valor de glucosa ({{unit}})",
+    "valuePlaceholder": "p. ej., 120",
+    "valuePlaceholderMmol": "p. ej., 6.7",
+    "timing": "Momento",
+    "mealContext": "¿Qué comiste? (Opcional)",
+    "mealContextPlaceholder": "Por ejemplo, tomé un tazón de avena con bayas.",
+    "submit": "Lectura de registro",
+    "success": "¡Lectura registrada correctamente!",
+    "targets": {
+      "title": "Alcances de los objetivos:",
+      "fasting": "En ayunas: 80-130 mg/dL",
+      "postMeal": "Después de las comidas: <180 mg/dL",
+      "low": "Bajo: <70 mg/dL (tome medidas)"
+    },
+    "recent": {
+      "title": "Lecturas recientes",
+      "noReadings": "Aún no se han registrado lecturas.",
+      "trend": "Tendencia de 7 días",
+      "targetMax": "Objetivo máximo"
+    }
+  },
+  "plate": {
+    "intro": {
+      "title": "El método del plato para diabéticos",
+      "desc": "Una guía visual sencilla para preparar comidas equilibradas que ayuden a controlar los niveles de azúcar en sangre. Haz clic en cada sección para ver las mejores opciones de alimentos."
+    },
+    "build": {
+      "title": "Construye tu plato equilibrado",
+      "hint": "Haz clic en cada sección"
+    },
+    "categories": {
+      "veggies": {
+        "name": "Verduras sin almidón",
+        "percent": "50%",
+        "desc": "Alto contenido en fibra, bajo en carbohidratos"
+      },
+      "protein": {
+        "name": "Proteína magra",
+        "percent": "25%",
+        "desc": "Estabiliza el nivel de azúcar en la sangre."
+      },
+      "carbs": {
+        "name": "Carbohidratos complejos",
+        "percent": "25%",
+        "desc": "Digestión lenta"
+      }
+    },
+    "principles": {
+      "title": "Principios clave",
+      "veggies": {
+        "title": "Llena la mitad de tu plato con verduras sin almidón.",
+        "desc": "Son bajas en carbohidratos, ricas en fibra y están repletas de nutrientes que no provocan picos de azúcar en la sangre."
+      },
+      "protein": {
+        "title": "Cuarto de plato con proteína magra",
+        "desc": "Las proteínas ayudan a estabilizar el azúcar en la sangre y a mantener la sensación de saciedad durante más tiempo."
+      },
+      "carbs": {
+        "title": "Cuarto de plato con carbohidratos complejos",
+        "desc": "Elige cereales integrales y opciones ricas en fibra que se digieran lentamente y eviten los picos de azúcar en la sangre."
+      }
+    }
+  },
+  "gi": {
+    "intro": {
+      "title": "Consulta del índice glucémico (IG)",
+      "desc": "El índice glucémico mide la rapidez con la que los alimentos elevan el nivel de azúcar en la sangre. Un índice más bajo es mejor para el control de la diabetes.",
+      "low": "Índice glucémico bajo (0-55): Seguro",
+      "medium": "GI medio (56-69): Moderado",
+      "high": "Índice glucémico alto (70+): Limitar"
+    },
+    "searchPlaceholder": "Buscar un alimento...",
+    "noResults": "No se encontraron alimentos que coincidan con su búsqueda.",
+    "labels": {
+      "low": "IG bajo",
+      "medium": "GI medio",
+      "high": "Alto índice glucémico"
+    }
+  },
+  "timing": {
+    "fasting": "Ayuno",
+    "preMeal": "Antes de la comida",
+    "postMeal1h": "Después de la comida (1 hora)",
+    "postMeal2h": "Después de la comida (2 h)",
+    "bedtime": "Hora de acostarse"
+  },
+  "status": {
+    "low": "BAJO",
+    "high": "ALTO",
+    "normal": "NORMAL"
+  },
+  "foods": {
+    "Spinach": "Espinaca",
+    "Broccoli": "Brócoli",
+    "Cauliflower": "Coliflor",
+    "Bell Peppers": "pimientos morrones",
+    "Zucchini": "Calabacín",
+    "Asparagus": "Espárragos",
+    "Cucumber": "Pepino",
+    "Tomatoes": "Tomates",
+    "Chicken Breast": "Pechuga de pollo",
+    "Fish (Salmon, Tuna)": "Pescado (salmón, atún)",
+    "Tofu": "Tofu",
+    "Lentils": "Lentejas",
+    "Eggs": "Huevos",
+    "Turkey": "Pavo",
+    "Greek Yogurt": "Yogur griego",
+    "Brown Rice": "arroz integral",
+    "Quinoa": "Quinoa",
+    "Sweet Potato": "Batata",
+    "Whole Wheat Pasta": "Pasta integral",
+    "Oats": "Avena",
+    "Barley": "Cebada"
+  }
+}

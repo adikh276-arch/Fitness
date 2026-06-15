@@ -1,0 +1,150 @@
+{
+  "nav": {
+    "back": "Zurück zum Dashboard"
+  },
+  "header": {
+    "title": "Leitfaden zur Gewichtsabnahme",
+    "subtitle": "Ihr vollständiger Leitfaden für nachhaltiges Abnehmen"
+  },
+  "tabs": {
+    "plan": "Der Plan",
+    "tracker": "Tracker",
+    "habits": "Gewohnheiten"
+  },
+  "plan": {
+    "goldenRule": {
+      "title": "Die Goldene Regel",
+      "subtitle": "Kaloriendefizit vs. Nährstoffdichte",
+      "desc": "Zum Abnehmen ist ein Kaloriendefizit erforderlich, doch die Qualität der Kalorien ist genauso wichtig wie deren Menge. Setzen Sie auf nährstoffreiche Vollwertkost, die Sie satt macht und gleichzeitig das für den Fettabbau notwendige Defizit erzeugt."
+    },
+    "proteinFirst": {
+      "title": "Protein First",
+      "subtitle": "Warum 1,2–1,6 g Protein pro kg für die Fettverbrennung unerlässlich sind:",
+      "muscle": "Erhält die Muskelmasse bei Kalorienrestriktion",
+      "thermic": "Höherer thermischer Effekt (30 % der Proteinkalorien werden während der Verdauung verbrannt)",
+      "satiety": "Ein gesteigertes Sättigungsgefühl sorgt dafür, dass Sie sich länger satt fühlen.",
+      "sugar": "Stabilisiert den Blutzucker und reduziert Heißhungerattacken."
+    },
+    "plateMethod": {
+      "title": "Die Plattenmethode",
+      "subtitle": "Eine einfache visuelle Anleitung für ausgewogene Mahlzeiten, die die Fettverbrennung fördern:",
+      "veg": {
+        "title": "Gemüse",
+        "desc": "Nicht stärkehaltiges Gemüse für mehr Volumen und Nährstoffe"
+      },
+      "protein": {
+        "title": "Protein",
+        "desc": "Mageres Fleisch, Fisch, Eier oder pflanzliche Quellen"
+      },
+      "carbs": {
+        "title": "Ballaststoffreiche Kohlenhydrate",
+        "desc": "Vollkornprodukte, Süßkartoffeln, Quinoa, Hülsenfrüchte"
+      }
+    },
+    "hiddenFactors": {
+      "title": "Die verborgenen Faktoren",
+      "hydration": {
+        "title": "Flüssigkeitszufuhr",
+        "desc": "Ausreichende Flüssigkeitszufuhr hilft:",
+        "list": [
+          "Appetit regulieren",
+          "Stoffwechsel ankurbeln",
+          "Wassereinlagerungen reduzieren",
+          "Unterstützen Sie die Fettoxidation"
+        ]
+      },
+      "sleep": {
+        "title": "Schlaf (7+ Stunden)",
+        "desc": "Qualitativ hochwertiger Schlaf reguliert:",
+        "list": [
+          "Cortisol (Stresshormon)",
+          "Ghrelin & Leptin (Hunger)",
+          "Insulinsensitivität",
+          "Erholung & Energie"
+        ]
+      }
+    }
+  },
+  "tracker": {
+    "progress": {
+      "title": "Ihr Fortschritt",
+      "change": "Ziele ändern",
+      "lost": "Gewichtsverlust",
+      "remaining": "Übrig",
+      "percent": "Fortschritt",
+      "complete": "Vollständig"
+    },
+    "log": {
+      "title": "Heutige Kennzahlen protokollieren",
+      "weight": "Aktuelles Gewicht (kg)",
+      "chest": "Brustumfang (Zoll, optional)",
+      "waist": "Taillenumfang (Zoll, optional)",
+      "hips": "Hüftumfang (Zoll, optional)",
+      "placeholder": "z.B. {{val}}",
+      "submit": "Protokollmetriken"
+    },
+    "history": {
+      "title": "Metrikverlauf",
+      "total": "Gesamtprotokolle",
+      "first": "Erstes Gewicht",
+      "latest": "Aktuelles Gewicht",
+      "unit": "kg",
+      "inches": "Zoll",
+      "chest": "Brust",
+      "waist": "Taille",
+      "hips": "Hüften"
+    }
+  },
+  "habits": {
+    "consistency": {
+      "title": "Wöchentliche Konstanz",
+      "subtitle": "Pflegen Sie weiterhin diese gesunden Gewohnheiten!"
+    },
+    "today": {
+      "title": "Heutige Gewohnheiten",
+      "subtitle": "Haken Sie jede Gewohnheit ab, sobald Sie sie heute erledigt haben.",
+      "protein": {
+        "label": "Proteinziel erreicht",
+        "desc": "1,2–1,6 g pro kg Körpergewicht"
+      },
+      "noSugar": {
+        "label": "Keine zuckerhaltigen Getränke",
+        "desc": "Nur Wasser, Tee oder schwarzer Kaffee"
+      },
+      "walk": {
+        "label": "10-minütiger Spaziergang nach dem Essen",
+        "desc": "Leichte Aktivität nach dem Essen"
+      },
+      "sleep": {
+        "label": "7+ Stunden Schlaf",
+        "desc": "Qualitativ hochwertige Erholung zur Regeneration"
+      }
+    },
+    "tracker30": {
+      "title": "30-Tage-Gewohnheitstracker",
+      "legend": {
+        "none": "Keiner",
+        "low": "1",
+        "mid": "2-3",
+        "high": "3",
+        "all": "Alle 4"
+      }
+    },
+    "whyMatters": {
+      "title": "Warum diese Gewohnheiten wichtig sind",
+      "protein": "Die Proteinzufuhr erhält die Muskelmasse und erhöht das Sättigungsgefühl während der Gewichtsabnahme.",
+      "noSugar": "Der Verzicht auf zuckerhaltige Getränke eliminiert leere Kalorien und reduziert Insulinspitzen.",
+      "walk": "Spaziergänge nach dem Essen verbessern die Insulinsensitivität und fördern die Verdauung.",
+      "sleep": "Guter Schlaf reguliert die Hungerhormone und unterstützt den Fettabbau."
+    }
+  },
+  "modal": {
+    "title": "Setze dir Ziele",
+    "subtitle": "Lass uns deinen Weg zur Gewichtsabnahme individuell gestalten.",
+    "start": "Startgewicht (kg)",
+    "target": "Zielgewicht (kg)",
+    "date": "Zieldatum",
+    "save": "Tor retten",
+    "fillAll": "Bitte füllen Sie alle Felder aus."
+  }
+}

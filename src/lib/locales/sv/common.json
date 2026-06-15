@@ -1,0 +1,80 @@
+{
+  "shell": {
+    "title": "Resurser för egenvård",
+    "subtitle": "Utforska verktyg och vägledning för din välbefinnanderesa"
+  },
+  "sections": {
+    "tools": "Verktyg",
+    "guides": "Närings- och kostguider",
+    "workouts": "Träningsområden",
+    "learning": "Utvald lärande"
+  },
+  "tools": {
+    "macro": {
+      "label": "Näringskalkylator",
+      "desc": "Beräkna makron"
+    },
+    "calories": {
+      "label": "Kaloriförbrännare",
+      "desc": "Logga aktiviteter"
+    },
+    "fasting": {
+      "label": "Fastande Logger",
+      "desc": "Spårfasta"
+    },
+    "bmi": {
+      "label": "BMI-kalkylator",
+      "desc": "Kroppsstatistik"
+    }
+  },
+  "guides": {
+    "weightLoss": "Viktminskning",
+    "diabetes": "Diabetesdiet",
+    "muscle": "Muskelökning",
+    "gut": "Tarmhälsa",
+    "keto": "Keto-grunderna",
+    "heart": "Hjärthälsa",
+    "fasting": "Intermittent fasta",
+    "vegan": "Vegansk näring"
+  },
+  "workouts": {
+    "yoga": "Yoga",
+    "hiit": "HIIT",
+    "strength": "Styrketräning",
+    "posture": "Hållningskorrigering",
+    "home": "Hemträning",
+    "flexibility": "Flexibilitet"
+  },
+  "learning": {
+    "macros": {
+      "title": "Förstå makronäringsämnen",
+      "desc": "Lär dig grunderna om protein, kolhydrater och fetter"
+    },
+    "others": {
+      "title": "Andra",
+      "desc": "Utforska fler interaktiva hälsoverktyg"
+    }
+  },
+  "others": {
+    "title": "Andra resurser",
+    "subtitle": "Utforska fler verktyg för din hälsoresa",
+    "tools": {
+      "foodDiary": {
+        "label": "Matdagbok",
+        "desc": "Spåra dina måltider"
+      },
+      "planPlate": {
+        "label": "Planera din tallrik",
+        "desc": "Balansera dina måltider"
+      },
+      "sugarEase": {
+        "label": "Daglig sockerlättnad",
+        "desc": "Hantera sockerintaget"
+      },
+      "recipeLog": {
+        "label": "Hälsosam receptlogg",
+        "desc": "Spara dina recept"
+      }
+    }
+  }
+}

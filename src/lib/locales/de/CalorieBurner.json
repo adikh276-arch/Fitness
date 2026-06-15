@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "back": "Zurück zum Dashboard"
+  },
+  "header": {
+    "title": "Kalorienverbrenner",
+    "subtitle": "Verfolge den Kalorienverbrauch während deiner Aktivitäten"
+  },
+  "tabs": {
+    "calculator": "Kalkulator",
+    "log": "Aktivitätsprotokoll ({{count}})"
+  },
+  "calculator": {
+    "form": {
+      "title": "Aktivitätsdetails",
+      "selectActivity": "Aktivität auswählen",
+      "weight": "Ihr Gewicht",
+      "duration": "Dauer (Minuten)",
+      "submit": "Protokollaktivität",
+      "placeholders": {
+        "weightKg": "z.B. 70",
+        "weightLbs": "z.B. 154"
+      }
+    },
+    "summary": {
+      "title": "Zusammenfassung der Verbrennung",
+      "calories": "Verbrannte Kalorien",
+      "activity": "Aktivität",
+      "duration": "Dauer",
+      "weight": "Gewicht",
+      "burnRate": "Kalorienverbrauch",
+      "formula": "Formel: (MET × 3,5 × Gewicht kg / 200) × Dauer min"
+    }
+  },
+  "log": {
+    "noActivities": "Bisher wurden keine Aktivitäten protokolliert.",
+    "noActivitiesDesc": "Beginne jetzt mit der Aufzeichnung deiner Trainingseinheiten, um sie hier einzusehen.",
+    "logFirst": "Protokollieren Sie Ihre erste Aktivität",
+    "summary": {
+      "title": "Gesamtübersicht",
+      "totalActivities": "Gesamtaktivitäten",
+      "totalCalories": "Gesamtkalorien",
+      "totalTime": "Gesamtzeit",
+      "avgSession": "Durchschnittlicher Kalorienverbrauch pro Sitzung"
+    },
+    "item": {
+      "duration": "Dauer",
+      "met": "MET",
+      "calories": "Kalorien",
+      "minutes": "min"
+    }
+  },
+  "activities": {
+    "walking": "Gehen (zügig)",
+    "running": "Laufen (9 min/Meile)",
+    "cycling": "Radfahren (mittelschwer)",
+    "yoga": "Yoga",
+    "swimming": "Schwimmen (Bahnen)",
+    "strength": "Krafttraining",
+    "household": "Hausarbeiten",
+    "dance": "Tanz/Aerobic"
+  }
+}

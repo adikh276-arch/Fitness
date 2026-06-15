@@ -1,0 +1,174 @@
+{
+  "nav": {
+    "back": "Zpět na řídicí panel"
+  },
+  "header": {
+    "title": "Průvodce nabíráním svalové hmoty",
+    "subtitle": "Vědecky založený přístup k budování svalů a síly"
+  },
+  "tabs": {
+    "plan": "Plán růstu",
+    "metrics": "Záznam metrik těla",
+    "habits": "Hypertrofické návyky"
+  },
+  "plan": {
+    "pillars": {
+      "caloric": {
+        "title": "Kalorický přebytek",
+        "value": "TDEE + 250 až 500 kcal",
+        "desc": "Vaše tělo potřebuje extra energii k budování nové svalové tkáně. Pokud jí je málo, nebudete růst, pokud je jí příliš mnoho, naberete zbytečný tuk. Snažte se o 250–500 kcal vyšší, než je váš celkový denní energetický výdej (TDEE)."
+      },
+      "protein": {
+        "title": "Syntéza proteinů",
+        "value": "1,8 g až 2,2 g na kg",
+        "desc": "Bílkoviny jsou stavebním kamenem svalů. Výzkum ukazuje, že 1,8–2,2 g bílkovin na kilogram tělesné hmotnosti maximalizuje syntézu svalových bílkovin a regeneraci."
+      },
+      "overload": {
+        "title": "Progresivní přetížení",
+        "value": "Týdenní postup",
+        "desc": "Svaly rostou v reakci na zvyšující se zátěž. Každý týden se snažte zvyšovat váhu, počet opakování nebo sérií. Sledujte svůj celkový objem (série × opakování × váha), abyste zajistili konzistentní postup."
+      }
+    },
+    "mealTiming": {
+      "title": "Načasování jídla pro růst svalů",
+      "subtitle": "I když je nejdůležitější celkový denní příjem, strategické načasování může optimalizovat výkon a regeneraci:",
+      "preWorkoutLong": {
+        "time": "2–3 hodiny předem",
+        "title": "Předtréninkový program",
+        "desc": "Vyvážené jídlo se sacharidy a bílkovinami"
+      },
+      "preWorkoutCarbs": {
+        "time": "30–60 minut před",
+        "title": "Sacharidy před tréninkem",
+        "desc": "Rychlé sacharidy pro energii (banány, rýžové koláčky)"
+      },
+      "training": {
+        "time": "Během",
+        "title": "Výcvik",
+        "desc": "Hydratace + volitelné sacharidy během tréninku"
+      },
+      "postWorkout": {
+        "time": "Do 2 hodin",
+        "title": "Protein po tréninku",
+        "desc": "30-40 g bílkovin + sacharidů pro regeneraci"
+      },
+      "eveningProtein": {
+        "time": "Před spaním",
+        "title": "Večerní protein",
+        "desc": "Kasein neboli pomalu stravitelný protein"
+      }
+    },
+    "principles": {
+      "title": "Klíčové principy pro úspěch",
+      "p1": {
+        "title": "Konzistence převyšuje dokonalost:",
+        "desc": "Vynechání jednoho tréninku nebo jídla sice nezničí zisky, ale nepravidelnost ano."
+      },
+      "p2": {
+        "title": "Spánek je anabolický:",
+        "desc": "Pro optimální regeneraci a uvolňování růstového hormonu se snažte spát 7–9 hodin denně."
+      },
+      "p3": {
+        "title": "Sledujte svůj objem:",
+        "desc": "Co se měří, se zlepšuje – zaznamenávejte si své zdvihy, abyste zajistili postupné přetížení"
+      },
+      "p4": {
+        "title": "Trpělivost je nutná:",
+        "desc": "Přirozený růst svalů je 0,5-1 kg za měsíc pro začátečníky, pomalejší pro pokročilé liftery"
+      }
+    }
+  },
+  "metrics": {
+    "strength": {
+      "totalVolume": "Celkový týdenní objem",
+      "volumeTarget": "Cílový objem pro tělesnou hmotnost {{weight}}kg",
+      "kgLifted": "zvednuté kg",
+      "goal": "cílové hmotnosti {{goal}}kg",
+      "awayFromTarget": "Chybí vám {{gap}}kg do dosažení pracovní kapacity vaší cílové hmotnosti",
+      "setTarget": "Nastavte si níže cílovou hmotnost a zobrazte si cílový objem",
+      "statusLabels": {
+        "setTarget": "Stanovte si cílovou hmotnost",
+        "building": "Základy budovy",
+        "growth": "Růstová zóna",
+        "hit": "Dosažení cílové kapacity"
+      }
+    },
+    "form": {
+      "title": "Měření těla logu",
+      "currentWeight": "Aktuální hmotnost (kg)",
+      "targetWeight": "Cílová hmotnost (kg) *",
+      "targetWeightHint": "Stanovuje cílový objem",
+      "chest": "Hrudník (palce)",
+      "chestHint": "Měření v úrovni bradavek",
+      "waist": "Pas (v palcích)",
+      "waistHint": "Na úrovni pupku",
+      "bicepR": "Pravý biceps (dovnitř)",
+      "bicepRHint": "Ohnutá, nejširší část",
+      "bicepL": "Levý biceps (dovnitř)",
+      "bicepLHint": "Volitelný",
+      "thigh": "Stehno (dovnitř)",
+      "thighHint": "Nejširší část",
+      "submit": "Měření protokolů",
+      "success": "Metriky úspěšně zaznamenány!"
+    },
+    "volume": {
+      "title": "Kalkulačka objemu",
+      "exercise": "Cvičení",
+      "sets": "Sady",
+      "reps": "Opakování",
+      "weight": "Hmotnost (kg)",
+      "totalVolume": "Celkový objem",
+      "remaining": "Zbývá do cíle",
+      "submit": "Objem protokolu",
+      "logged": "{{lift}} zaznamenáno: celkový objem {{volume}}kg!"
+    },
+    "chart": {
+      "title": "Graf průběhu",
+      "weight": "Hmotnost (kg)",
+      "chest": "Hrudník (v)",
+      "bicep": "Biceps (dovnitř)"
+    },
+    "noData": "Zatím nejsou zaznamenána žádná měření. Začněte sledovat a sledujte svůj pokrok!"
+  },
+  "habits": {
+    "title": "Dnešní návyky při hypertrofii",
+    "subtitle": "Odškrtávejte si každý návyk, jakmile ho splníte",
+    "items": {
+      "surplus": {
+        "title": "Kalorický přebytek Met",
+        "desc": "Dosáhněte svého kalorického cíle ještě dnes."
+      },
+      "protein": {
+        "title": "Cílový obsah bílkovin splněn",
+        "desc": "1,8–2,2 g na kg tělesné hmotnosti"
+      },
+      "creatine": {
+        "title": "Užívání kreatinu",
+        "desc": "3-5 g denně pro lepší výkon"
+      },
+      "sleep": {
+        "title": "Kvalitní spánek",
+        "desc": "7–9 hodin pro optimální regeneraci"
+      },
+      "trained": {
+        "title": "Dnes vyškoleno",
+        "desc": "Dokončili jste trénink"
+      }
+    },
+    "recovery": {
+      "title": "Stav zotavení",
+      "good": "Optimalizované zotavení",
+      "goodDesc": "Skvělá práce se spánkem a bílkovinami! Vaše svaly se optimálně regenerují.",
+      "improve": "Prostor pro zlepšení",
+      "improveDesc": "Pro lepší regeneraci se zaměřte na spánek a dosažení cílového příjmu bílkovin."
+    },
+    "calendar": {
+      "title": "30denní série zlozvyků",
+      "legend": {
+        "perfect": "Perfektní (5/5)",
+        "partial": "Částečný",
+        "none": "Neúplný"
+      }
+    }
+  }
+}

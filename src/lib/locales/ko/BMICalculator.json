@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "back": "대시보드로 돌아가기"
+  },
+  "header": {
+    "title": "스마트 BMI 및 신체 맥락",
+    "subtitle": "임상적으로 정확한 방식으로 신체 지표를 추적하세요."
+  },
+  "streak": {
+    "title": "건강한 범위 유지!",
+    "subtitle": "건강 범위에서 {{count}}번 연속 측정 🎉"
+  },
+  "tabs": {
+    "calculator": "BMI 계산기",
+    "context": "BMI 그 이상",
+    "history": "추세 기록"
+  },
+  "calculator": {
+    "title": "체질량지수(BMI)를 계산하세요",
+    "inputs": {
+      "height": "키",
+      "weight": "무게",
+      "feet": "피트",
+      "inches": "신장",
+      "placeholders": {
+        "heightCm": "예: 170",
+        "heightFt": "피트",
+        "heightIn": "신장",
+        "weightKg": "예: 70",
+        "weightLbs": "예: 154"
+      }
+    },
+    "results": {
+      "yourBMI": "당신의 BMI",
+      "placeholder": "측정값을 입력하여 BMI를 확인하세요.",
+      "submit": "프로필에 저장",
+      "success": "✓ 성공적으로 저장되었습니다!",
+      "categories": {
+        "underweight": "저체중",
+        "healthy": "건강한 체중",
+        "normal": "정상",
+        "overweight": "초과 중량",
+        "obese": "뚱뚱한",
+        "enterData": "데이터를 입력하세요"
+      }
+    },
+    "tip": "규칙적인 운동과 균형 잡힌 식단을 일상생활에 포함시키는 것을 고려해 보세요.",
+    "disclaimer": {
+      "title": "의료 면책 조항",
+      "text": "BMI는 일반적인 선별 도구이며 근육량과 체지방량을 구분하지 못합니다. 개인별 맞춤 의학적 조언을 받으려면 의료 전문가와 상담하십시오."
+    }
+  },
+  "beyond": {
+    "title": "허리둘레 대 키 비율(WHtR)",
+    "why": {
+      "title": "이것이 중요한 이유",
+      "desc": "허리둘레를 키의 절반 이하로 유지하면 심혈관 질환 위험을 줄일 수 있습니다. 허리-키 비율(WHtR)은 체질량지수(BMI)보다 대사 건강 상태를 예측하는 데 더 정확합니다.",
+      "target": "목표: 최적의 건강을 위해서는 비율이 0.5 미만이어야 합니다."
+    },
+    "inputs": {
+      "waist": "허리둘레",
+      "waistHint": "허리에서 가장 가는 부분, 보통 배꼽 바로 위쪽을 측정하세요.",
+      "placeholders": {
+        "waistCm": "예: 80",
+        "waistIn": "예: 31"
+      }
+    },
+    "results": {
+      "healthy": "건강한 형태",
+      "elevated": "위험 증가",
+      "placeholder": "신체 비율을 확인하려면 키와 허리둘레를 입력하세요.",
+      "waistMeasurementPlaceholder": "허리 사이즈를 입력하세요",
+      "label": "허리둘레 대 키 비율",
+      "submit": "프로필에 저장 (BMI + WHtR)"
+    },
+    "comparison": {
+      "title": "BMI와 WHtR의 차이점",
+      "bmi": {
+        "title": "체질량지수(BMI)",
+        "desc": "일반적인 체중 범주이며, 근육량이나 체지방 분포는 고려하지 않습니다."
+      },
+      "whtr": {
+        "title": "WHtR",
+        "desc": "중심 비만 측정은 심혈관 질환 및 당뇨병을 더 잘 예측합니다."
+      }
+    }
+  },
+  "history": {
+    "title": "최근 측정 결과",
+    "noHistory": "아직 기록이 없습니다.",
+    "noHistoryDesc": "체질량지수(BMI)와 신체 지표를 추적하여 시간 경과에 따른 변화 추이를 확인하세요.",
+    "stats": {
+      "title": "내 통계",
+      "total": "총 기록 수",
+      "latest": "최신 BMI",
+      "healthyCount": "건강 수치",
+      "bestStreak": "최고 연속 기록"
+    }
+  }
+}

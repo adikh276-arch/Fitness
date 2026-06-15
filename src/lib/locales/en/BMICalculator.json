@@ -1,0 +1,92 @@
+{
+  "nav": { "back": "Back to Dashboard" },
+  "header": {
+    "title": "Smart BMI & Body Context",
+    "subtitle": "Track your body metrics with clinical precision"
+  },
+  "streak": {
+    "title": "Maintained Healthy Range!",
+    "subtitle": "{{count}} consecutive readings in the healthy zone 🎉"
+  },
+  "tabs": {
+    "calculator": "BMI Calculator",
+    "context": "Beyond BMI",
+    "history": "Trend History"
+  },
+  "calculator": {
+    "title": "Calculate Your BMI",
+    "inputs": {
+      "height": "Height",
+      "weight": "Weight",
+      "feet": "Feet",
+      "inches": "Inches",
+      "placeholders": {
+        "heightCm": "e.g., 170",
+        "heightFt": "Feet",
+        "heightIn": "Inches",
+        "weightKg": "e.g., 70",
+        "weightLbs": "e.g., 154"
+      }
+    },
+    "results": {
+      "yourBMI": "Your BMI",
+      "placeholder": "Enter your measurements to see your BMI",
+      "submit": "Save to Profile",
+      "success": "✓ Saved successfully!",
+      "categories": {
+        "underweight": "Underweight",
+        "healthy": "Healthy Weight",
+        "normal": "Normal",
+        "overweight": "Overweight",
+        "obese": "Obese",
+        "enterData": "Enter data"
+      }
+    },
+    "tip": "Consider incorporating regular exercise and a balanced diet into your routine.",
+    "disclaimer": {
+      "title": "Medical Disclaimer",
+      "text": "BMI is a general screening tool and does not differentiate between muscle and fat mass. Consult with healthcare professionals for personalized medical advice."
+    }
+  },
+  "beyond": {
+    "title": "Waist-to-Height Ratio (WHtR)",
+    "why": {
+      "title": "Why This Matters",
+      "desc": "Keeping your waist circumference to less than half your height reduces cardiovascular risk. WHtR is more accurate than BMI for predicting metabolic health conditions.",
+      "target": "Target: Ratio < 0.5 for optimal health"
+    },
+    "inputs": {
+      "waist": "Waist Circumference",
+      "waistHint": "Measure at the narrowest point of your waist, usually just above the belly button",
+      "placeholders": {
+        "waistCm": "e.g., 80",
+        "waistIn": "e.g., 31"
+      }
+    },
+    "results": {
+      "healthy": "Healthy Shape",
+      "elevated": "Elevated Risk",
+      "placeholder": "Please enter height and waist to see your ratio",
+      "waistMeasurementPlaceholder": "Enter waist measurement",
+      "label": "Waist-to-Height Ratio",
+      "submit": "Save to Profile (BMI + WHtR)"
+    },
+    "comparison": {
+      "title": "BMI vs WHtR: The Difference",
+      "bmi": { "title": "BMI", "desc": "General weight category, doesn't account for muscle mass or fat distribution" },
+      "whtr": { "title": "WHtR", "desc": "Measures central obesity, better predictor of cardiovascular disease and diabetes" }
+    }
+  },
+  "history": {
+    "title": "Recent Measurements",
+    "noHistory": "No History Yet",
+    "noHistoryDesc": "Start tracking your BMI and body metrics to see your progress trends over time.",
+    "stats": {
+      "title": "Your Stats",
+      "total": "Total Records",
+      "latest": "Latest BMI",
+      "healthyCount": "Healthy Count",
+      "bestStreak": "Best Streak"
+    }
+  }
+}

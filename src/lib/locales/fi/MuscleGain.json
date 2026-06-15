@@ -1,0 +1,174 @@
+{
+  "nav": {
+    "back": "Takaisin kojelautaan"
+  },
+  "header": {
+    "title": "Lihaskasvun opas",
+    "subtitle": "Tieteeseen perustuva lähestymistapa lihasten ja voiman rakentamiseen"
+  },
+  "tabs": {
+    "plan": "Kasvusuunnitelma",
+    "metrics": "Kehon mittausloki",
+    "habits": "Hypertrofiatottumukset"
+  },
+  "plan": {
+    "pillars": {
+      "caloric": {
+        "title": "Kalorien ylijäämä",
+        "value": "TDEE + 250–500 kcal",
+        "desc": "Kehosi tarvitsee lisäenergiaa uuden lihaskudoksen rakentamiseen. Liian vähän energiaa, etkä kasva; liian paljon, ja kerrytät tarpeetonta rasvaa. Pyri saamaan 250–500 kcal enemmän kuin päivittäinen kokonaisenergiankulutuksesi (TDEE)."
+      },
+      "protein": {
+        "title": "Proteiinisynteesi",
+        "value": "1,8–2,2 g / kg",
+        "desc": "Proteiini on lihasten rakennuspalikka. Tutkimukset osoittavat, että 1,8–2,2 g proteiinia painokiloa kohden maksimoi lihasproteiinisynteesin ja palautumisen."
+      },
+      "overload": {
+        "title": "Progressiivinen ylikuormitus",
+        "value": "Viikoittainen eteneminen",
+        "desc": "Lihakset kasvavat vastauksena kasvaviin vaatimuksiin. Pyri lisäämään painoja, toistoja tai sarjoja joka viikko. Seuraa kokonaisvolyymiasi (sarjat × toistot × paino) varmistaaksesi tasaisen edistymisen."
+      }
+    },
+    "mealTiming": {
+      "title": "Aterioiden ajoitus lihaskasvun edistämiseksi",
+      "subtitle": "Vaikka päivittäinen kokonaissaanti on tärkeintä, strateginen ajoitus voi optimoida suorituskyvyn ja palautumisen:",
+      "preWorkoutLong": {
+        "time": "2–3 tuntia ennen",
+        "title": "Ennen treeniä",
+        "desc": "Tasapainoinen ateria, jossa on hiilihydraatteja ja proteiinia"
+      },
+      "preWorkoutCarbs": {
+        "time": "30–60 minuuttia ennen",
+        "title": "Harjoitusta edeltävät hiilihydraatit",
+        "desc": "Nopeat hiilihydraatit energiaksi (banaani, riisikakut)"
+      },
+      "training": {
+        "time": "Aikana",
+        "title": "Koulutus",
+        "desc": "Nesteytys + valinnaiset treenin aikaiset hiilihydraatit"
+      },
+      "postWorkout": {
+        "time": "Kahden tunnin sisällä",
+        "title": "Treenin jälkeinen proteiini",
+        "desc": "30–40 g proteiinia + hiilihydraatteja palautumiseen"
+      },
+      "eveningProtein": {
+        "time": "Ennen nukkumaanmenoa",
+        "title": "Iltaproteiini",
+        "desc": "Kaseiini eli hitaasti imeytyvä proteiini"
+      }
+    },
+    "principles": {
+      "title": "Menestyksen keskeiset periaatteet",
+      "p1": {
+        "title": "Johdonmukaisuus voittaa täydellisyyden:",
+        "desc": "Yhden treenin tai aterian väliin jättäminen ei tapa tuloksia, mutta epäjohdonmukaisuus kyllä."
+      },
+      "p2": {
+        "title": "Uni on anabolista:",
+        "desc": "Pyri nukkumaan 7–9 tuntia yössä optimaalisen palautumisen ja kasvuhormonin vapautumisen varmistamiseksi."
+      },
+      "p3": {
+        "title": "Seuraa äänenvoimakkuuttasi:",
+        "desc": "Mitattua parannetaan – kirjaa nostosi varmistaaksesi progressiivisen ylikuormituksen"
+      },
+      "p4": {
+        "title": "Kärsivällisyyttä tarvitaan:",
+        "desc": "Luonnollinen lihaskasvu on aloittelijoilla 0,5–1 kg kuukaudessa, edistyneillä nostajilla hitaampaa."
+      }
+    }
+  },
+  "metrics": {
+    "strength": {
+      "totalVolume": "Viikoittainen kokonaisvolyymi",
+      "volumeTarget": "Tilavuustavoite {{weight}}kg:n painolle",
+      "kgLifted": "nostettu kg",
+      "goal": "{{goal}}kg:n tavoitteesta",
+      "awayFromTarget": "Olet {{gap}}kg päässä tavoitepainosi työkyvystä",
+      "setTarget": "Aseta tavoitepainosi alla nähdäksesi volyymitavoitteesi",
+      "statusLabels": {
+        "setTarget": "Aseta tavoitepaino",
+        "building": "Rakennuksen perustus",
+        "growth": "Kasvuvyöhyke",
+        "hit": "Kohdekapasiteetti osui"
+      }
+    },
+    "form": {
+      "title": "Lokin vartalon mitat",
+      "currentWeight": "Nykyinen paino (kg)",
+      "targetWeight": "Tavoitepaino (kg) *",
+      "targetWeightHint": "Asettaa volyymitavoitteen",
+      "chest": "Rintakehä (tuumina)",
+      "chestHint": "Mittaa nännin kohdalta",
+      "waist": "Vyötärö (tuumaa)",
+      "waistHint": "Navan tasolla",
+      "bicepR": "Oikea hauislihas (sisään)",
+      "bicepRHint": "Joustava, levein kohta",
+      "bicepL": "Vasen hauislihas (sisään)",
+      "bicepLHint": "Valinnainen",
+      "thigh": "Reisi (tuumaa)",
+      "thighHint": "Levein kohta",
+      "submit": "Lokin mittaukset",
+      "success": "Mittarit kirjattu onnistuneesti!"
+    },
+    "volume": {
+      "title": "Tilavuuslaskuri",
+      "exercise": "Käyttää",
+      "sets": "Setit",
+      "reps": "Toistoja",
+      "weight": "Paino (kg)",
+      "totalVolume": "Kokonaistilavuus",
+      "remaining": "Jäljellä maaliin",
+      "submit": "Lokimäärä",
+      "logged": "{{lift}} kirjattu: kokonaistilavuus {{volume}}kg!"
+    },
+    "chart": {
+      "title": "Edistymiskaavio",
+      "weight": "Paino (kg)",
+      "chest": "Rintakehä (sisään)",
+      "bicep": "Hauislihas (sisään)"
+    },
+    "noData": "Ei vielä tallennettuja mittauksia. Aloita seuranta nähdäksesi edistymisesi!"
+  },
+  "habits": {
+    "title": "Nykypäivän hypertrofiatottumukset",
+    "subtitle": "Rastita jokainen tapa sitä mukaa, kun suoritat sen",
+    "items": {
+      "surplus": {
+        "title": "Kalorien ylijäämä",
+        "desc": "Saavuta kaloritavoitteesi tänään"
+      },
+      "protein": {
+        "title": "Proteiinitavoite saavutettu",
+        "desc": "1,8–2,2 g painokiloa kohden"
+      },
+      "creatine": {
+        "title": "Kreatiini otettu",
+        "desc": "3–5 g päivässä paremman suorituskyvyn saavuttamiseksi"
+      },
+      "sleep": {
+        "title": "Laadukas uni",
+        "desc": "7–9 tuntia optimaalisen palautumisen saavuttamiseksi"
+      },
+      "trained": {
+        "title": "Koulutettu tänään",
+        "desc": "Suoritit treenisi"
+      }
+    },
+    "recovery": {
+      "title": "Palautumistila",
+      "good": "Palautuminen optimoitu",
+      "goodDesc": "Hienoa työtä unen ja proteiinin suhteen! Lihaksesi palautuvat optimaalisesti.",
+      "improve": "Parantamisen varaa",
+      "improveDesc": "Keskity uneen ja proteiinitavoitteesi saavuttamiseen paremman palautumisen saavuttamiseksi."
+    },
+    "calendar": {
+      "title": "30 päivän tapaputki",
+      "legend": {
+        "perfect": "Täydellinen (5/5)",
+        "partial": "Osittainen",
+        "none": "Keskeneräinen"
+      }
+    }
+  }
+}

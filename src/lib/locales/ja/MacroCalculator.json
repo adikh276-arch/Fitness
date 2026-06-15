@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "back": "ダッシュボードに戻る"
+  },
+  "header": {
+    "title": "マクロ計算機",
+    "subtitle": "1日のカロリーと主要栄養素の必要量を計算してください"
+  },
+  "tabs": {
+    "input": "お客様の情報",
+    "results": "あなたの結果"
+  },
+  "form": {
+    "title": "お客様の情報",
+    "age": "年齢（歳）",
+    "gender": "性別",
+    "male": "男",
+    "female": "女性",
+    "weight": "重さ",
+    "height": "身長",
+    "activity": "活動レベル",
+    "goal": "ゴール",
+    "submit": "マクロを計算する",
+    "placeholders": {
+      "age": "例：30",
+      "weightKg": "例：70",
+      "weightLbs": "例：154",
+      "heightCm": "例：175",
+      "heightFt": "足",
+      "heightIn": "インチ"
+    },
+    "activityLevels": {
+      "sedentary": "座りがちな生活（運動をほとんどしない／全くしない）",
+      "light": "軽度の運動（週1～3日）",
+      "moderate": "適度な活動量（週3～5日）",
+      "very": "非常に活動的（週6～7日）"
+    },
+    "goals": {
+      "maintenance": "メンテナンス",
+      "loss": "減量",
+      "gain": "筋肉増強"
+    }
+  },
+  "results": {
+    "title": "あなたの結果",
+    "calorieTarget": "1日の摂取カロリー目標",
+    "kcalPerDay": "1日あたりのカロリー（kcal/日）",
+    "bmrLabel": "基礎代謝量：{{val}} kcal",
+    "protein": "タンパク質",
+    "carbs": "炭水化物",
+    "fat": "脂肪",
+    "submit": "プロフィールに保存",
+    "placeholder": "詳細を入力して「計算」をクリックすると結果が表示されます。",
+    "success": "マクロデータが保存されました！プロフィール情報が同期されました。",
+    "validation": "有効な値を入力してください"
+  }
+}

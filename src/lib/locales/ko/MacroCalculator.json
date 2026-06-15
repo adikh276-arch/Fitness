@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "back": "대시보드로 돌아가기"
+  },
+  "header": {
+    "title": "매크로 계산기",
+    "subtitle": "일일 칼로리 및 다량 영양소 필요량을 계산하세요"
+  },
+  "tabs": {
+    "input": "귀하의 정보",
+    "results": "검색 결과"
+  },
+  "form": {
+    "title": "귀하의 정보",
+    "age": "나이(세)",
+    "gender": "성별",
+    "male": "남성",
+    "female": "여성",
+    "weight": "무게",
+    "height": "키",
+    "activity": "활동 수준",
+    "goal": "목표",
+    "submit": "매크로 계산",
+    "placeholders": {
+      "age": "예: 30",
+      "weightKg": "예: 70",
+      "weightLbs": "예: 154",
+      "heightCm": "예: 175",
+      "heightFt": "피트",
+      "heightIn": "신장"
+    },
+    "activityLevels": {
+      "sedentary": "좌식 생활 (운동을 거의 또는 전혀 하지 않음)",
+      "light": "가벼운 활동 (주 1-3회)",
+      "moderate": "적당히 활동적임 (주 3-5일)",
+      "very": "매우 활동적임 (주 6-7일)"
+    },
+    "goals": {
+      "maintenance": "유지",
+      "loss": "체중 감량",
+      "gain": "근육 증가"
+    }
+  },
+  "results": {
+    "title": "검색 결과",
+    "calorieTarget": "일일 칼로리 목표량",
+    "kcalPerDay": "하루 칼로리",
+    "bmrLabel": "기초대사량: {{val}} kcal",
+    "protein": "단백질",
+    "carbs": "탄수화물",
+    "fat": "지방",
+    "submit": "프로필에 저장",
+    "placeholder": "세부 정보를 입력하고 '계산'을 클릭하여 결과를 확인하세요.",
+    "success": "매크로 데이터가 저장되었습니다! 프로필 정보가 동기화되었습니다.",
+    "validation": "유효한 값을 입력하세요."
+  }
+}

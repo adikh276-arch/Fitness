@@ -1,0 +1,55 @@
+{
+  "nav": { "back": "Back to Dashboard" },
+  "header": {
+    "title": "Macro Calculator",
+    "subtitle": "Calculate your daily calorie and macronutrient needs"
+  },
+  "tabs": {
+    "input": "Your Details",
+    "results": "Your Results"
+  },
+  "form": {
+    "title": "Your Details",
+    "age": "Age (years)",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "weight": "Weight",
+    "height": "Height",
+    "activity": "Activity Level",
+    "goal": "Goal",
+    "submit": "Calculate Macros",
+    "placeholders": {
+      "age": "e.g., 30",
+      "weightKg": "e.g., 70",
+      "weightLbs": "e.g., 154",
+      "heightCm": "e.g., 175",
+      "heightFt": "Feet",
+      "heightIn": "Inches"
+    },
+    "activityLevels": {
+      "sedentary": "Sedentary (little/no exercise)",
+      "light": "Lightly Active (1-3 days/week)",
+      "moderate": "Moderately Active (3-5 days/week)",
+      "very": "Very Active (6-7 days/week)"
+    },
+    "goals": {
+      "maintenance": "Maintenance",
+      "loss": "Weight Loss",
+      "gain": "Muscle Gain"
+    }
+  },
+  "results": {
+    "title": "Your Results",
+    "calorieTarget": "Daily Calorie Target",
+    "kcalPerDay": "kcal/day",
+    "bmrLabel": "BMR: {{val}} kcal",
+    "protein": "Protein",
+    "carbs": "Carbs",
+    "fat": "Fat",
+    "submit": "Save to Profile",
+    "placeholder": "Enter your details and click Calculate to see your results",
+    "success": "Macro data saved! Your profile details have been synced.",
+    "validation": "Please enter valid values"
+  }
+}

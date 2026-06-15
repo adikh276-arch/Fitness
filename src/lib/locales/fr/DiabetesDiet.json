@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "back": "Retour au tableau de bord"
+  },
+  "header": {
+    "title": "Régime alimentaire et prise en charge du diabète",
+    "subtitle": "Surveillez votre glycémie, apprenez à planifier vos repas pour les diabétiques et consultez les valeurs de l'IG."
+  },
+  "alert": {
+    "title": "Alerte hypoglycémie !",
+    "desc": "Votre taux est inférieur à 70 mg/dL. Agissez immédiatement :",
+    "actions": {
+      "carbs": "Consommez 15 g de glucides à action rapide (4 comprimés de glucose, 1/2 tasse de jus ou 1 cuillère à soupe de miel).",
+      "wait": "Attendez 15 minutes et refaites le test.",
+      "repeat": "Si le niveau reste bas, répétez",
+      "contact": "Contactez votre professionnel de santé si les symptômes persistent."
+    }
+  },
+  "tabs": {
+    "plate": "L'assiette pour diabétiques",
+    "log": "Journal de glycémie",
+    "gi": "Outil de recherche GI"
+  },
+  "log": {
+    "title": "Lecture du glycémie enregistrée",
+    "unit": "Unité",
+    "value": "Valeur de glucose ({{unit}})",
+    "valuePlaceholder": "par exemple, 120",
+    "valuePlaceholderMmol": "par exemple, 6.7",
+    "timing": "Timing",
+    "mealContext": "Qu'avez-vous mangé ? (Facultatif)",
+    "mealContextPlaceholder": "Par exemple, j'ai mangé un bol de gruau aux baies",
+    "submit": "Lecture du journal",
+    "success": "Lecture enregistrée avec succès !",
+    "targets": {
+      "title": "Portées cibles :",
+      "fasting": "À jeun : 80-130 mg/dL",
+      "postMeal": "Après le repas : <180 mg/dL",
+      "low": "Faible : <70 mg/dL (prendre des mesures)"
+    },
+    "recent": {
+      "title": "Lectures récentes",
+      "noReadings": "Aucune donnée enregistrée pour le moment",
+      "trend": "Tendance sur 7 jours",
+      "targetMax": "Objectif max"
+    }
+  },
+  "plate": {
+    "intro": {
+      "title": "La méthode de l'assiette pour diabétiques",
+      "desc": "Un guide visuel simple pour composer des repas équilibrés qui aident à contrôler la glycémie. Cliquez sur chaque section pour découvrir les meilleurs choix alimentaires."
+    },
+    "build": {
+      "title": "Composez votre assiette équilibrée",
+      "hint": "Cliquez sur chaque section"
+    },
+    "categories": {
+      "veggies": {
+        "name": "Légumes non féculents",
+        "percent": "50%",
+        "desc": "Riche en fibres, faible en glucides"
+      },
+      "protein": {
+        "name": "Protéines maigres",
+        "percent": "25%",
+        "desc": "Stabilise la glycémie"
+      },
+      "carbs": {
+        "name": "Glucides complexes",
+        "percent": "25%",
+        "desc": "Digestion lente"
+      }
+    },
+    "principles": {
+      "title": "Principes clés",
+      "veggies": {
+        "title": "Remplissez la moitié de votre assiette de légumes non féculents.",
+        "desc": "Ces aliments sont pauvres en glucides, riches en fibres et regorgent de nutriments qui ne provoquent pas de pic de glycémie."
+      },
+      "protein": {
+        "title": "Quart d'assiette avec protéines maigres",
+        "desc": "Les protéines contribuent à stabiliser la glycémie et à prolonger la sensation de satiété."
+      },
+      "carbs": {
+        "title": "Quart de plaque avec glucides complexes",
+        "desc": "Privilégiez les céréales complètes et les aliments riches en fibres qui se digèrent lentement et préviennent les pics de glycémie."
+      }
+    }
+  },
+  "gi": {
+    "intro": {
+      "title": "Recherche de l'indice glycémique (IG)",
+      "desc": "L'indice glycémique mesure la vitesse à laquelle les aliments font augmenter la glycémie. Plus il est bas, mieux c'est pour la gestion du diabète.",
+      "low": "Faible IG (0-55) : Sans danger",
+      "medium": "IG moyen (56-69) : Modéré",
+      "high": "IG élevé (70+) : Limite"
+    },
+    "searchPlaceholder": "Recherche de nourriture...",
+    "noResults": "Aucun aliment ne correspond à votre recherche.",
+    "labels": {
+      "low": "Faible indice glycémique",
+      "medium": "IG moyen",
+      "high": "IG élevé"
+    }
+  },
+  "timing": {
+    "fasting": "Jeûne",
+    "preMeal": "Avant le repas",
+    "postMeal1h": "Après le repas (1h)",
+    "postMeal2h": "Après le repas (2h)",
+    "bedtime": "Heure du coucher"
+  },
+  "status": {
+    "low": "FAIBLE",
+    "high": "HAUT",
+    "normal": "NORMALE"
+  },
+  "foods": {
+    "Spinach": "Épinard",
+    "Broccoli": "Brocoli",
+    "Cauliflower": "Chou-fleur",
+    "Bell Peppers": "Poivrons",
+    "Zucchini": "Courgettes",
+    "Asparagus": "Asperge",
+    "Cucumber": "Concombre",
+    "Tomatoes": "Tomates",
+    "Chicken Breast": "Blanc de poulet",
+    "Fish (Salmon, Tuna)": "Poisson (saumon, thon)",
+    "Tofu": "Tofu",
+    "Lentils": "Lentilles",
+    "Eggs": "Œufs",
+    "Turkey": "Turquie",
+    "Greek Yogurt": "Yaourt grec",
+    "Brown Rice": "riz brun",
+    "Quinoa": "Quinoa",
+    "Sweet Potato": "Patate douce",
+    "Whole Wheat Pasta": "Pâtes de blé entier",
+    "Oats": "Avoine",
+    "Barley": "Orge"
+  }
+}

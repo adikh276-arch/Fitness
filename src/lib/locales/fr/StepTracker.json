@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "back": "Retour au tableau de bord"
+  },
+  "header": {
+    "title": "Suivi des pas",
+    "subtitle": "Suivez votre nombre de pas quotidien et atteignez vos objectifs.",
+    "profile": "Profil"
+  },
+  "tabs": {
+    "tracker": "Traqueur",
+    "history": "Histoire"
+  },
+  "tracker": {
+    "stepsToday": "étapes aujourd'hui",
+    "goalAchieved": "Objectif atteint !",
+    "stats": {
+      "distance": "Distance",
+      "calories": "Calories",
+      "activeTime": "Temps actif",
+      "km": "km",
+      "kcal": "kcal",
+      "mins": "minutes"
+    },
+    "goal": {
+      "label": "Objectif quotidien",
+      "value": "{{val}} étapes",
+      "change": "Objectif de changement"
+    },
+    "quickAdd": {
+      "title": "Étapes d'ajout rapide",
+      "label": "Étapes personnalisées",
+      "placeholder": "par exemple, 3500",
+      "submit": "Ajouter"
+    },
+    "insights": {
+      "title": "Perspectives du jour",
+      "remaining": "Étapes restantes",
+      "stride": "longueur de foulée",
+      "progress": "Progrès",
+      "complete": "Complet!",
+      "percentOfGoal": "{{val}}% de l'objectif"
+    },
+    "reset": "Réinitialiser le nombre de pas d'aujourd'hui"
+  },
+  "history": {
+    "title": "Historique des étapes",
+    "noHistory": "Aucun historique pour le moment. Commencez à suivre vos pas !",
+    "today": "Aujourd'hui",
+    "stats": {
+      "steps": "Mesures",
+      "goal": "But",
+      "progress": "Progrès"
+    }
+  },
+  "modals": {
+    "goal": {
+      "title": "Se fixer un objectif quotidien",
+      "subtitle": "Saisissez votre objectif de pas quotidiens.",
+      "placeholder": "par exemple, 10000",
+      "cancel": "Annuler",
+      "save": "Sauvegarder"
+    },
+    "profile": {
+      "title": "Mettre à jour le profil",
+      "subtitle": "Cela permet de calculer avec précision la distance et les calories.",
+      "height": "Hauteur (cm)",
+      "weight": "Poids (kg)",
+      "gender": "Genre",
+      "male": "Mâle",
+      "female": "Femelle",
+      "placeholderHeight": "par exemple, 170",
+      "placeholderWeight": "par exemple, 70",
+      "cancel": "Annuler",
+      "save": "Sauvegarder"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "shell": {
+    "title": "Ressources pour prendre soin de soi",
+    "subtitle": "Explorez des outils et des conseils pour votre parcours de bien-être"
+  },
+  "sections": {
+    "tools": "Outils",
+    "guides": "Guides de nutrition et de diététique",
+    "workouts": "Zones d'entraînement",
+    "learning": "Apprentissage en vedette"
+  },
+  "tools": {
+    "macro": {
+      "label": "Calculateur nutritionnel",
+      "desc": "Macros de calcul"
+    },
+    "calories": {
+      "label": "Brûleur de calories",
+      "desc": "Journal des activités"
+    },
+    "fasting": {
+      "label": "Journaliste de jeûne",
+      "desc": "Suivre le jeûne"
+    },
+    "bmi": {
+      "label": "Calculateur d'IMC",
+      "desc": "Mesures corporelles"
+    }
+  },
+  "guides": {
+    "weightLoss": "Perte de poids",
+    "diabetes": "Régime alimentaire pour diabétiques",
+    "muscle": "Prise de masse musculaire",
+    "gut": "Santé intestinale",
+    "keto": "Principes de base du régime cétogène",
+    "heart": "Santé cardiaque",
+    "fasting": "Jeûne intermittent",
+    "vegan": "nutrition végétalienne"
+  },
+  "workouts": {
+    "yoga": "Yoga",
+    "hiit": "HIIT",
+    "strength": "Entraînement musculaire",
+    "posture": "Correction de la posture",
+    "home": "Entraînements à domicile",
+    "flexibility": "Flexibilité"
+  },
+  "learning": {
+    "macros": {
+      "title": "Comprendre les macronutriments",
+      "desc": "Apprenez les bases des protéines, des glucides et des lipides."
+    },
+    "others": {
+      "title": "Autres",
+      "desc": "Explorez davantage d'outils de santé interactifs"
+    }
+  },
+  "others": {
+    "title": "Autres ressources",
+    "subtitle": "Explorez davantage d'outils pour votre parcours de santé",
+    "tools": {
+      "foodDiary": {
+        "label": "Journal alimentaire",
+        "desc": "Suivez vos repas"
+      },
+      "planPlate": {
+        "label": "Composez votre assiette",
+        "desc": "Équilibrez vos repas"
+      },
+      "sugarEase": {
+        "label": "Daily Sugar Ease",
+        "desc": "Gérer sa consommation de sucre"
+      },
+      "recipeLog": {
+        "label": "Carnet de recettes saines",
+        "desc": "Enregistrez vos recettes"
+      }
+    }
+  }
+}

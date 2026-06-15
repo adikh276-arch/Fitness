@@ -1,0 +1,53 @@
+{
+  "common": {
+    "next": "Volgende",
+    "subtitle": "Houd bij wat je eet en hoe je je voelt.",
+    "title": "Voedingsdagboek"
+  },
+  "feelings": {
+    "description": "Luister naar je lichaam – het heeft je altijd wel iets te vertellen! 😌",
+    "placeholder": "Bijvoorbeeld: ik voelde me voldaan na de lunch, maar een beetje zwaar na het avondeten...",
+    "title": "Hoe voelde je je na het eten?"
+  },
+  "history": {
+    "empty": "Nog geen gegevens. Vul je eerste voedingsdagboek in om het hier te bekijken!",
+    "subtitle": "Uw eerdere berichten"
+  },
+  "intro": {
+    "description": "Door bij te houden wat je eet, leer je je lichaam beter kennen: wat geeft je energie, waardoor je je zwaar voelt en waar je kleine verbeteringen kunt aanbrengen. Dit is een oordeelvrije zone. Wees gewoon eerlijk en geniet van het proces!",
+    "startButton": "Laten we beginnen →",
+    "subtitle": "Kleine stapjes leiden tot grote veranderingen in je gezondheid!",
+    "title": "Welkom bij je voedingsdagboek."
+  },
+  "meals": {
+    "breakfast": {
+      "label": "Ontbijt",
+      "placeholder": "Wat had je?"
+    },
+    "description": "Noteer hieronder elke maaltijd of snack. Zelfs een korte notitie is voldoende! 🍽️",
+    "dinner": {
+      "label": "Diner",
+      "placeholder": "Wat had je?"
+    },
+    "lunch": {
+      "label": "Lunch",
+      "placeholder": "Wat had je?"
+    },
+    "snacks": {
+      "label": "Snacks",
+      "placeholder": "Iets daartussenin?"
+    },
+    "title": "Wat heb je vandaag gegeten?"
+  },
+  "messages": {
+    "entryDeleted": "Invoer verwijderd",
+    "entrySaved": "Inzending opgeslagen! 🌱"
+  },
+  "reflection": {
+    "encouragement": "Elke keer dat je iets opschrijft, kom je een stap dichter bij een gezonder en gelukkiger leven. Blijf meedoen – consistentie is het echte geheim! 💪",
+    "placeholder": "Schrijf hier je gedachten op...",
+    "question": "Wat is één ding dat je morgen graag beter zou willen eten?",
+    "saveButton": "Invoer opslaan",
+    "title": "Goed gedaan met het voltooien van het logboek van vandaag!"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "nav": {
+    "back": "Trở lại trang chủ"
+  },
+  "header": {
+    "title": "Hướng dẫn tăng cơ",
+    "subtitle": "Phương pháp khoa học để xây dựng cơ bắp và sức mạnh"
+  },
+  "tabs": {
+    "plan": "Kế hoạch tăng trưởng",
+    "metrics": "Nhật ký đo lường cơ thể",
+    "habits": "Thói quen tăng cơ"
+  },
+  "plan": {
+    "pillars": {
+      "caloric": {
+        "title": "Lượng calo dư thừa",
+        "value": "TDEE + 250 đến 500 kcal",
+        "desc": "Cơ thể bạn cần thêm năng lượng để xây dựng mô cơ mới. Thiếu năng lượng sẽ khiến bạn không phát triển; thừa năng lượng sẽ làm tăng lượng mỡ không cần thiết. Hãy đặt mục tiêu nạp thêm 250-500 kcal so với Tổng Năng lượng Tiêu hao Hàng ngày (TDEE)."
+      },
+      "protein": {
+        "title": "Tổng hợp protein",
+        "value": "1,8g đến 2,2g mỗi kg",
+        "desc": "Protein là thành phần cấu tạo nên cơ bắp. Nghiên cứu cho thấy rằng 1,8-2,2g protein trên mỗi kilogram trọng lượng cơ thể giúp tối đa hóa quá trình tổng hợp và phục hồi protein cơ bắp."
+      },
+      "overload": {
+        "title": "Quá tải tăng dần",
+        "value": "Tiến trình hàng tuần",
+        "desc": "Cơ bắp phát triển khi nhu cầu tăng lên. Mỗi tuần, hãy đặt mục tiêu tăng trọng lượng, số lần lặp hoặc số hiệp. Theo dõi tổng khối lượng tập luyện (số hiệp × số lần lặp × trọng lượng) để đảm bảo sự tiến bộ đều đặn."
+      }
+    },
+    "mealTiming": {
+      "title": "Thời điểm ăn uống phù hợp cho sự phát triển cơ bắp",
+      "subtitle": "Mặc dù tổng lượng calo nạp vào hàng ngày là quan trọng nhất, nhưng thời điểm ăn uống hợp lý có thể tối ưu hóa hiệu suất và khả năng phục hồi:",
+      "preWorkoutLong": {
+        "time": "2-3 giờ trước đó",
+        "title": "Trước khi tập luyện",
+        "desc": "Bữa ăn cân bằng với tinh bột và protein"
+      },
+      "preWorkoutCarbs": {
+        "time": "30-60 phút trước",
+        "title": "Carbohydrate trước khi tập luyện",
+        "desc": "Tinh bột nhanh cung cấp năng lượng (chuối, bánh gạo)"
+      },
+      "training": {
+        "time": "Trong lúc",
+        "title": "Đào tạo",
+        "desc": "Bổ sung nước và carbohydrate (tùy chọn) trong khi tập luyện."
+      },
+      "postWorkout": {
+        "time": "Trong vòng 2 giờ",
+        "title": "Protein sau tập luyện",
+        "desc": "30-40g protein + tinh bột để phục hồi"
+      },
+      "eveningProtein": {
+        "time": "Trước khi đi ngủ",
+        "title": "Protein buổi tối",
+        "desc": "Casein hoặc protein tiêu hóa chậm"
+      }
+    },
+    "principles": {
+      "title": "Nguyên tắc then chốt để thành công",
+      "p1": {
+        "title": "Tính nhất quán vượt trội hơn sự hoàn hảo:",
+        "desc": "Bỏ lỡ một buổi tập hoặc một bữa ăn sẽ không làm mất đi thành quả tập luyện, nhưng sự thiếu nhất quán thì có."
+      },
+      "p2": {
+        "title": "Giấc ngủ có tác dụng đồng hóa:",
+        "desc": "Nên ngủ từ 7-9 tiếng mỗi đêm để phục hồi tối ưu và kích thích sản sinh hormone tăng trưởng."
+      },
+      "p3": {
+        "title": "Theo dõi âm lượng của bạn:",
+        "desc": "Cái gì được đo lường thì sẽ được cải thiện - hãy ghi lại số lần nâng tạ của bạn để đảm bảo tăng dần cường độ tập luyện."
+      },
+      "p4": {
+        "title": "Cần phải kiên nhẫn:",
+        "desc": "Tốc độ tăng cơ tự nhiên là 0,5-1kg mỗi tháng đối với người mới bắt đầu, chậm hơn đối với người tập luyện nâng cao."
+      }
+    }
+  },
+  "metrics": {
+    "strength": {
+      "totalVolume": "Tổng khối lượng hàng tuần",
+      "volumeTarget": "Mục tiêu thể tích cho khối lượng cơ thể {{weight}}kg",
+      "kgLifted": "kg đã nâng",
+      "goal": "mục tiêu {{goal}}kg",
+      "awayFromTarget": "Bạn còn cách mức cân nặng mục tiêu (tức là khả năng làm việc) {{gap}}kg",
+      "setTarget": "Đặt mục tiêu cân nặng của bạn bên dưới để xem mục tiêu khối lượng của bạn",
+      "statusLabels": {
+        "setTarget": "Đặt mục tiêu cân nặng",
+        "building": "Nền móng xây dựng",
+        "growth": "Khu vực tăng trưởng",
+        "hit": "Đạt công suất mục tiêu"
+      }
+    },
+    "form": {
+      "title": "Ghi lại số đo cơ thể",
+      "currentWeight": "Trọng lượng hiện tại (kg)",
+      "targetWeight": "Mục tiêu cân nặng (kg) *",
+      "targetWeightHint": "Đặt mục tiêu âm lượng",
+      "chest": "Ngực (inch)",
+      "chestHint": "Đo tại vị trí ngang núm vú.",
+      "waist": "Vòng eo (inch)",
+      "waistHint": "Ở ngang rốn",
+      "bicepR": "Cơ bắp tay phải (tính bằng inch)",
+      "bicepRHint": "Uốn cong, phần rộng nhất",
+      "bicepL": "Cơ bắp tay trái (tính bằng inch)",
+      "bicepLHint": "Không bắt buộc",
+      "thigh": "Đùi (trong)",
+      "thighHint": "Phần rộng nhất",
+      "submit": "Ghi nhật ký đo lường",
+      "success": "Số liệu đã được ghi lại thành công!"
+    },
+    "volume": {
+      "title": "Máy tính thể tích",
+      "exercise": "Bài tập",
+      "sets": "Bộ",
+      "reps": "Đại diện",
+      "weight": "Trọng lượng (kg)",
+      "totalVolume": "Tổng thể tích",
+      "remaining": "Vẫn còn cơ hội ghi bàn",
+      "submit": "Khối lượng nhật ký",
+      "logged": "{{lift}} đã ghi nhận: Tổng thể tích {{volume}}kg!"
+    },
+    "chart": {
+      "title": "Biểu đồ tiến độ",
+      "weight": "Trọng lượng (kg)",
+      "chest": "Ngực (trong)",
+      "bicep": "Cơ bắp tay (tính bằng inch)"
+    },
+    "noData": "Chưa có số liệu nào được ghi lại. Hãy bắt đầu theo dõi để xem tiến độ của bạn!"
+  },
+  "habits": {
+    "title": "Những thói quen tăng cơ bắp ngày nay",
+    "subtitle": "Đánh dấu vào mỗi thói quen khi bạn hoàn thành nó.",
+    "items": {
+      "surplus": {
+        "title": "Lượng calo dư thừa đã được đáp ứng",
+        "desc": "Hãy đạt mục tiêu calo của bạn ngay hôm nay!"
+      },
+      "protein": {
+        "title": "Đã đạt mục tiêu protein.",
+        "desc": "1,8-2,2g/kg trọng lượng cơ thể"
+      },
+      "creatine": {
+        "title": "Creatine đã dùng",
+        "desc": "3-5g mỗi ngày để tăng cường hiệu quả"
+      },
+      "sleep": {
+        "title": "Giấc ngủ chất lượng",
+        "desc": "7-9 giờ để phục hồi tối ưu"
+      },
+      "trained": {
+        "title": "Được đào tạo hôm nay",
+        "desc": "Bạn đã hoàn thành buổi tập luyện của mình."
+      }
+    },
+    "recovery": {
+      "title": "Trạng thái phục hồi",
+      "good": "Tối ưu hóa quá trình phục hồi",
+      "goodDesc": "Chúc mừng bạn đã ngủ đủ giấc và bổ sung protein đầy đủ! Cơ bắp của bạn đang phục hồi tối ưu.",
+      "improve": "Còn chỗ để cải thiện",
+      "improveDesc": "Hãy tập trung vào giấc ngủ và đảm bảo đủ lượng protein cần thiết để phục hồi tốt hơn."
+    },
+    "calendar": {
+      "title": "Chuỗi 30 ngày duy trì thói quen",
+      "legend": {
+        "perfect": "Hoàn hảo (5/5)",
+        "partial": "Một phần",
+        "none": "Chưa hoàn chỉnh"
+      }
+    }
+  }
+}

@@ -1,0 +1,329 @@
+name,category,net_carb_per_100g
+Chicken Breast,Protein,0
+Chicken Thigh,Protein,0
+Turkey Breast,Protein,0
+Duck Meat,Protein,0
+Beef Steak,Protein,0
+Ground Beef,Protein,0
+Lamb Chop,Protein,0
+Pork Chop,Protein,0
+Bacon,Protein,1
+Ham,Protein,2
+Salmon,Seafood,0
+Tuna,Seafood,0
+Sardines,Seafood,0
+Mackerel,Seafood,0
+Cod,Seafood,0
+Tilapia,Seafood,0
+Shrimp,Seafood,1
+Prawns,Seafood,1
+Crab,Seafood,0
+Lobster,Seafood,1
+Mussels,Seafood,4
+Clams,Seafood,5
+Oysters,Seafood,4
+Egg Whole,Protein,1
+Egg White,Protein,1
+Duck Egg,Protein,1
+Cheddar Cheese,Dairy,1
+Mozzarella,Dairy,2
+Parmesan,Dairy,4
+Brie,Dairy,1
+Goat Cheese,Dairy,1
+Cream Cheese,Dairy,4
+Paneer,Dairy,2
+Feta,Dairy,4
+Ricotta,Dairy,3
+Cottage Cheese,Dairy,3
+Greek Yogurt Plain,Dairy,4
+Heavy Cream,Dairy,3
+Butter,Fats,0
+Ghee,Fats,0
+Olive Oil,Fats,0
+Coconut Oil,Fats,0
+Avocado Oil,Fats,0
+MCT Oil,Fats,0
+Lard,Fats,0
+Mayonnaise,Fats,1
+Almonds,Nuts,10
+Walnuts,Nuts,7
+Pecans,Nuts,4
+Macadamia Nuts,Nuts,5
+Brazil Nuts,Nuts,4
+Hazelnuts,Nuts,7
+Pistachios,Nuts,18
+Peanuts,Nuts,8
+Cashews,Nuts,27
+Pine Nuts,Nuts,9
+Chia Seeds,Seeds,8
+Flax Seeds,Seeds,2
+Pumpkin Seeds,Seeds,5
+Sunflower Seeds,Seeds,11
+Sesame Seeds,Seeds,12
+Hemp Seeds,Seeds,2
+Broccoli,Vegetables,4
+Cauliflower,Vegetables,3
+Spinach,Vegetables,1
+Kale,Vegetables,5
+Lettuce,Vegetables,2
+Romaine Lettuce,Vegetables,2
+Iceberg Lettuce,Vegetables,2
+Arugula,Vegetables,2
+Cabbage Green,Vegetables,3
+Cabbage Red,Vegetables,5
+Brussels Sprouts,Vegetables,5
+Asparagus,Vegetables,2
+Zucchini,Vegetables,3
+Cucumber,Vegetables,3
+Celery,Vegetables,2
+Bell Pepper Green,Vegetables,3
+Bell Pepper Red,Vegetables,4
+Bell Pepper Yellow,Vegetables,5
+Mushrooms White,Vegetables,3
+Portobello Mushroom,Vegetables,4
+Eggplant,Vegetables,6
+Okra,Vegetables,4
+Green Beans,Vegetables,4
+Snow Peas,Vegetables,7
+Snap Peas,Vegetables,7
+Radish,Vegetables,2
+Turnip,Vegetables,4
+Bok Choy,Vegetables,1
+Swiss Chard,Vegetables,2
+Collard Greens,Vegetables,3
+Mustard Greens,Vegetables,2
+Beet Greens,Vegetables,2
+Watercress,Vegetables,1
+Leek,Vegetables,12
+Onion White,Vegetables,7
+Onion Red,Vegetables,8
+Garlic,Vegetables,31
+Shallot,Vegetables,13
+Tomato,Vegetables,3
+Cherry Tomato,Vegetables,4
+Tomatillo,Vegetables,5
+Avocado,Fruit,2
+Olives Green,Fruit,4
+Olives Black,Fruit,3
+Coconut Meat,Fruit,6
+Strawberries,Fruit,6
+Raspberries,Fruit,5
+Blackberries,Fruit,5
+Blueberries,Fruit,12
+Cranberries,Fruit,8
+Lemon,Fruit,6
+Lime,Fruit,8
+Kiwi,Fruit,12
+Peach,Fruit,8
+Plum,Fruit,10
+Apricot,Fruit,9
+Cherries,Fruit,13
+Watermelon,Fruit,8
+Cantaloupe,Fruit,8
+Honeydew,Fruit,9
+Papaya,Fruit,9
+Guava,Fruit,9
+Passion Fruit,Fruit,10
+Pomegranate,Fruit,14
+Apple,Fruit,12
+Pear,Fruit,12
+Orange,Fruit,9
+Mandarin,Fruit,11
+Grapefruit,Fruit,7
+Grapes,Fruit,17
+Mango,Fruit,14
+Pineapple,Fruit,12
+Banana,Fruit,20
+Dates,Fruit,68
+Raisins,Fruit,65
+Figs Fresh,Fruit,16
+Figs Dried,Fruit,48
+Prunes,Fruit,38
+Artichoke,Vegetables,5
+Beetroot,Vegetables,7
+Carrot,Vegetables,7
+Parsnip,Vegetables,13
+Sweet Potato,Vegetables,17
+Potato White,Vegetables,17
+Potato Red,Vegetables,16
+Yam,Vegetables,23
+Cassava,Vegetables,36
+Taro,Vegetables,26
+Corn Sweet,Vegetables,16
+Peas Green,Vegetables,9
+Pumpkin,Vegetables,5
+Butternut Squash,Vegetables,10
+Acorn Squash,Vegetables,9
+Spaghetti Squash,Vegetables,6
+Zoodles,Vegetables,3
+Cauliflower Rice,Vegetables,3
+Shirataki Noodles,Low Carb Alternative,1
+Konjac Rice,Low Carb Alternative,1
+Tofu,Protein,2
+Tempeh,Protein,7
+Edamame,Protein,4
+Soybeans Boiled,Protein,4
+Seitan,Protein,14
+Black Beans,Legumes,16
+Kidney Beans,Legumes,15
+Pinto Beans,Legumes,14
+Chickpeas,Legumes,20
+Lentils,Legumes,12
+Split Peas,Legumes,9
+Cannellini Beans,Legumes,15
+Navy Beans,Legumes,19
+Black Eyed Peas,Legumes,14
+Mung Beans,Legumes,14
+Hummus,Legumes,12
+Almond Flour,Baking,10
+Coconut Flour,Baking,21
+Flax Meal,Baking,2
+Psyllium Husk,Baking,0
+Oat Fiber,Baking,0
+Whey Protein Isolate,Baking,3
+Baking Powder,Baking,28
+Cocoa Powder,Baking,14
+Dark Chocolate 90%,Dessert,14
+Dark Chocolate 85%,Dessert,19
+Sugar Free Chocolate,Dessert,8
+Peanut Butter,Spread,8
+Almond Butter,Spread,9
+Tahini,Spread,3
+Hazelnut Butter,Spread,8
+Sunflower Seed Butter,Spread,9
+Jam Sugar Free,Spread,5
+Ketchup,Sauce,22
+Mustard,Sauce,3
+Hot Sauce,Sauce,1
+Soy Sauce,Sauce,5
+Tamari,Sauce,4
+Coconut Aminos,Sauce,17
+Pesto,Sauce,4
+Salsa,Sauce,6
+Guacamole,Sauce,4
+BBQ Sauce,Sauce,30
+Tomato Sauce,Sauce,8
+Marinara Sauce,Sauce,7
+Ranch Dressing,Sauce,4
+Caesar Dressing,Sauce,3
+Blue Cheese Dressing,Sauce,4
+Italian Dressing,Sauce,5
+Vinegar Apple Cider,Condiment,0
+Vinegar White,Condiment,0
+Pickles Dill,Condiment,2
+Sauerkraut,Condiment,2
+Kimchi,Condiment,3
+Cucumber Pickle Sweet,Condiment,18
+Coffee Black,Beverage,0
+Tea Green,Beverage,0
+Tea Black,Beverage,0
+Espresso,Beverage,1
+Almond Milk Unsweetened,Beverage,1
+Coconut Milk Unsweetened,Beverage,2
+Soy Milk Unsweetened,Beverage,2
+Oat Milk,Beverage,7
+Rice Milk,Beverage,21
+Heavy Cream Coffee,Beverage,3
+Bone Broth,Beverage,0
+Sparkling Water,Beverage,0
+Diet Soda,Beverage,0
+Beer,Beverage,13
+Dry Wine Red,Beverage,3
+Dry Wine White,Beverage,2
+Whiskey,Beverage,0
+Vodka,Beverage,0
+Rum,Beverage,0
+Gin,Beverage,0
+Tequila,Beverage,0
+Protein Powder Whey,Supplement,6
+Protein Powder Plant,Supplement,8
+Collagen Peptides,Supplement,0
+Electrolyte Mix Sugar Free,Supplement,2
+Stevia,Sweetener,0
+Erythritol,Sweetener,0
+Monk Fruit,Sweetener,0
+Xylitol,Sweetener,99
+Honey,Sweetener,82
+Maple Syrup,Sweetener,67
+Sugar White,Sweetener,100
+Brown Sugar,Sweetener,98
+Agave Syrup,Sweetener,76
+Molasses,Sweetener,75
+Quinoa,Grains,57
+White Rice,Grains,28
+Brown Rice,Grains,23
+Oats,Grains,56
+Barley,Grains,65
+Millet,Grains,67
+Buckwheat,Grains,62
+Farro,Grains,63
+Bulgur,Grains,19
+Bread White,Bakery,49
+Bread Whole Wheat,Bakery,41
+Bagel,Bakery,53
+Croissant,Bakery,43
+Muffin,Bakery,52
+Donut,Bakery,51
+Pizza Crust,Bakery,48
+Pasta Cooked,Grains,30
+Spaghetti Cooked,Grains,31
+Macaroni Cooked,Grains,30
+Ramen Noodles,Grains,59
+Rice Noodles,Grains,25
+Corn Tortilla,Bakery,39
+Flour Tortilla,Bakery,47
+Crackers Saltine,Snacks,74
+Potato Chips,Snacks,49
+Popcorn,Snacks,58
+Pretzels,Snacks,71
+Trail Mix,Snacks,28
+Granola,Snacks,56
+Protein Bar Low Carb,Snacks,12
+Jerky Beef,Snacks,11
+Pork Rinds,Snacks,0
+Seaweed Snacks,Snacks,6
+Cheese Crisps,Snacks,3
+Celery Sticks,Snacks,2
+Cucumber Slices,Snacks,3
+Olives Snack,Snacks,4
+Boiled Egg,Snacks,1
+String Cheese,Snacks,2
+Greek Yogurt Cup,Dairy,4
+Cottage Cheese Cup,Dairy,3
+Paneer Cubes,Dairy,2
+Butter Chicken,Prepared Food,6
+Grilled Chicken Salad,Prepared Food,5
+Caesar Salad Chicken,Prepared Food,6
+Bunless Burger,Prepared Food,4
+Burger With Bun,Prepared Food,28
+Taco Bowl,Prepared Food,9
+Burrito,Prepared Food,26
+Sushi Roll,Prepared Food,28
+Fried Rice,Prepared Food,32
+Chicken Curry,Prepared Food,7
+Dal Tadka,Prepared Food,14
+Paneer Tikka,Prepared Food,5
+Paneer Butter Masala,Prepared Food,9
+Palak Paneer,Prepared Food,6
+Omelette Cheese,Prepared Food,3
+Scrambled Eggs,Prepared Food,2
+Frittata,Prepared Food,3
+Meatballs,Prepared Food,4
+Meatloaf,Prepared Food,8
+Roasted Turkey,Prepared Food,2
+Roast Beef,Prepared Food,2
+Chicken Wings,Prepared Food,5
+Buffalo Wings,Prepared Food,4
+Chicken Nuggets,Prepared Food,18
+Fish Fry,Prepared Food,12
+Shrimp Garlic Butter,Prepared Food,3
+Salmon Teriyaki,Prepared Food,11
+Tofu Stir Fry,Prepared Food,8
+Zucchini Lasagna,Prepared Food,7
+Cauliflower Pizza,Prepared Food,9
+Keto Bread,Low Carb Alternative,6
+Keto Tortilla,Low Carb Alternative,8
+Keto Granola,Low Carb Alternative,10
+Keto Cookie,Low Carb Alternative,9
+Keto Brownie,Low Carb Alternative,8
+Keto Ice Cream,Low Carb Alternative,12

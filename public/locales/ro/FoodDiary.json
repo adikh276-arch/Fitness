@@ -1,0 +1,53 @@
+{
+  "common": {
+    "next": "Următorul",
+    "subtitle": "Urmărește-ți mesele și sentimentele",
+    "title": "Jurnal alimentar"
+  },
+  "feelings": {
+    "description": "Ascultă-ți corpul — are întotdeauna ceva să-ți spună! 😌",
+    "placeholder": "de exemplu, m-am simțit sătul după prânz, dar puțin cam greoi după cină...",
+    "title": "Cum te-ai simțit după ce ai mâncat?"
+  },
+  "history": {
+    "empty": "Nicio intrare încă. Completează-ți primul jurnal alimentar pentru a-l vedea aici!",
+    "subtitle": "Intrările tale anterioare"
+  },
+  "intro": {
+    "description": "Monitorizarea a ceea ce mănânci te ajută să-ți înțelegi mai bine corpul - ce îți dă energie, ce te face să te simți greoi și unde poți face îmbunătățiri simple. Aceasta este o zonă fără prejudecăți. Fii sincer și bucură-te de proces!",
+    "startButton": "Să începem →",
+    "subtitle": "Pași mici către schimbări majore în sănătate!",
+    "title": "Bine ați venit în Jurnalul vostru Alimentar"
+  },
+  "meals": {
+    "breakfast": {
+      "label": "Mic dejun",
+      "placeholder": "Ce ai avut?"
+    },
+    "description": "Înregistrează fiecare masă sau gustare mai jos. Chiar și o notă aproximativă contează! 🍽️",
+    "dinner": {
+      "label": "Cină",
+      "placeholder": "Ce ai avut?"
+    },
+    "lunch": {
+      "label": "Prânz",
+      "placeholder": "Ce ai avut?"
+    },
+    "snacks": {
+      "label": "Gustări",
+      "placeholder": "Ceva între acestea?"
+    },
+    "title": "Ce ai mâncat astăzi?"
+  },
+  "messages": {
+    "entryDeleted": "Intrare ștearsă",
+    "entrySaved": "Intrare salvată! 🌱"
+  },
+  "reflection": {
+    "encouragement": "Fiecare înregistrare pe care o faci te aduce cu un pas mai aproape de o versiune mai sănătoasă și mai fericită a ta. Continuă să fii prezentă - consecvența este adevăratul secret! 💪",
+    "placeholder": "Scrie-ți gândurile aici...",
+    "question": "Ce ți-ar plăcea să mănânci mai bine mâine?",
+    "saveButton": "Salvați intrarea",
+    "title": "Bravo ai completat jurnalul de azi!"
+  }
+}

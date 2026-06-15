@@ -1,0 +1,53 @@
+{
+  "common": {
+    "next": "Næste",
+    "subtitle": "Spor dine måltider og følelser",
+    "title": "Maddagbog"
+  },
+  "feelings": {
+    "description": "Lyt til din krop – den har altid noget at fortælle dig!",
+    "placeholder": "f.eks. jeg følte mig mæt efter frokost, men lidt tung efter aftensmaden...",
+    "title": "Hvordan havde du det efter at have spist?"
+  },
+  "history": {
+    "empty": "Ingen indlæg endnu. Udfyld din første maddagbog for at se den her!",
+    "subtitle": "Dine tidligere indlæg"
+  },
+  "intro": {
+    "description": "At holde styr på, hvad du spiser, hjælper dig med at forstå din krop bedre – hvad giver dig energi, hvad får dig til at føle dig overvægtig, og hvor du kan foretage simple forbedringer. Dette er en zone uden fordømmelse. Bare vær ærlig og nyd processen!",
+    "startButton": "Lad os starte →",
+    "subtitle": "Små skridt til store sundhedsforandringer!",
+    "title": "Velkommen til din maddagbog"
+  },
+  "meals": {
+    "breakfast": {
+      "label": "Morgenmad",
+      "placeholder": "Hvad havde du?"
+    },
+    "description": "Registrer hvert måltid eller hver snack nedenfor. Selv en simpel note tæller!",
+    "dinner": {
+      "label": "Aftensmad",
+      "placeholder": "Hvad havde du?"
+    },
+    "lunch": {
+      "label": "Frokost",
+      "placeholder": "Hvad havde du?"
+    },
+    "snacks": {
+      "label": "Snacks",
+      "placeholder": "Noget derimellem?"
+    },
+    "title": "Hvad spiste du i dag?"
+  },
+  "messages": {
+    "entryDeleted": "Indtastning slettet",
+    "entrySaved": "Indtastning gemt!"
+  },
+  "reflection": {
+    "encouragement": "Hvert bidrag du laver bringer dig et skridt tættere på et sundere og gladere dig. Bliv ved med at møde op – vedholdenhed er den virkelige hemmelighed!",
+    "placeholder": "Skriv dine tanker her...",
+    "question": "Hvad er én ting, du gerne vil spise bedre i morgen?",
+    "saveButton": "Gem indtastning",
+    "title": "Godt gået med at færdiggøre dagens logbog!"
+  }
+}

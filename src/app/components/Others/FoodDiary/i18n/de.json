@@ -1,0 +1,53 @@
+{
+  "common": {
+    "next": "Nächste",
+    "subtitle": "Dokumentiere deine Mahlzeiten und Gefühle",
+    "title": "Ernährungstagebuch"
+  },
+  "feelings": {
+    "description": "Hör auf deinen Körper – er hat dir immer etwas zu sagen! 😌",
+    "placeholder": "z. B. fühlte ich mich nach dem Mittagessen satt, aber nach dem Abendessen etwas schwer im Magen...",
+    "title": "Wie haben Sie sich nach dem Essen gefühlt?"
+  },
+  "history": {
+    "empty": "Noch keine Einträge. Vervollständige dein erstes Ernährungstagebuch, um es hier zu sehen!",
+    "subtitle": "Ihre bisherigen Einträge"
+  },
+  "intro": {
+    "description": "Wenn du deine Ernährung dokumentierst, verstehst du deinen Körper besser – was dir Energie gibt, was dich schwer macht und wo du mit kleinen Verbesserungen etwas verbessern kannst. Hier gibt es keine Wertung. Sei einfach ehrlich und genieße den Prozess!",
+    "startButton": "Los geht's →",
+    "subtitle": "Kleine Schritte zu großen Veränderungen für die Gesundheit!",
+    "title": "Willkommen zu Ihrem Ernährungstagebuch"
+  },
+  "meals": {
+    "breakfast": {
+      "label": "Frühstück",
+      "placeholder": "Was hast du gegessen?"
+    },
+    "description": "Trage jede Mahlzeit oder jeden Snack unten ein. Selbst eine kurze Notiz zählt! 🍽️",
+    "dinner": {
+      "label": "Abendessen",
+      "placeholder": "Was hast du gegessen?"
+    },
+    "lunch": {
+      "label": "Mittagessen",
+      "placeholder": "Was hast du gegessen?"
+    },
+    "snacks": {
+      "label": "Snacks",
+      "placeholder": "Irgendetwas dazwischen?"
+    },
+    "title": "Was hast du heute gegessen?"
+  },
+  "messages": {
+    "entryDeleted": "Eintrag gelöscht",
+    "entrySaved": "Eintrag gespeichert! 🌱"
+  },
+  "reflection": {
+    "encouragement": "Jeder Eintrag bringt dich deinem gesünderen und glücklicheren Ich einen Schritt näher. Bleib dran – Beständigkeit ist der Schlüssel zum Erfolg! 💪",
+    "placeholder": "Schreiben Sie hier Ihre Gedanken auf...",
+    "question": "Was würden Sie morgen gerne besser essen?",
+    "saveButton": "Eintrag speichern",
+    "title": "Super, dass du das heutige Logbucheintrag fertiggestellt hast!"
+  }
+}

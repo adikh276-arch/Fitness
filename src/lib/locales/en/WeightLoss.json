@@ -1,0 +1,119 @@
+{
+  "nav": {
+    "back": "Back to Dashboard"
+  },
+  "header": {
+    "title": "Weight Loss Guide",
+    "subtitle": "Your complete guide to sustainable weight loss"
+  },
+  "tabs": {
+    "plan": "The Plan",
+    "tracker": "Tracker",
+    "habits": "Habits"
+  },
+  "plan": {
+    "goldenRule": {
+      "title": "The Golden Rule",
+      "subtitle": "Calorie Deficit vs. Nutrient Density",
+      "desc": "Weight loss requires a calorie deficit, but the quality of those calories matters just as much as the quantity. Focus on nutrient-dense whole foods that keep you satisfied while creating the deficit needed for fat loss."
+    },
+    "proteinFirst": {
+      "title": "Protein First",
+      "subtitle": "Why 1.2g–1.6g of protein per kg is non-negotiable for fat loss:",
+      "muscle": "Preserves muscle mass during calorie restriction",
+      "thermic": "Higher thermic effect (30% of protein calories burned during digestion)",
+      "satiety": "Increased satiety helps you feel full longer",
+      "sugar": "Stabilizes blood sugar and reduces cravings"
+    },
+    "plateMethod": {
+      "title": "The Plate Method",
+      "subtitle": "A simple visual guide for balanced meals that promote fat loss:",
+      "veg": { "title": "Vegetables", "desc": "Non-starchy veggies for volume and nutrients" },
+      "protein": { "title": "Protein", "desc": "Lean meats, fish, eggs, or plant-based sources" },
+      "carbs": { "title": "Fiber-Rich Carbs", "desc": "Whole grains, sweet potato, quinoa, legumes" }
+    },
+    "hiddenFactors": {
+      "title": "The Hidden Factors",
+      "hydration": {
+        "title": "Hydration",
+        "desc": "Proper hydration helps:",
+        "list": ["Regulate appetite", "Boost metabolism", "Reduce water retention", "Support fat oxidation"]
+      },
+      "sleep": {
+        "title": "Sleep (7+ Hours)",
+        "desc": "Quality sleep regulates:",
+        "list": ["Cortisol (stress hormone)", "Ghrelin & leptin (hunger)", "Insulin sensitivity", "Recovery & energy"]
+      }
+    }
+  },
+  "tracker": {
+    "progress": {
+      "title": "Your Progress",
+      "change": "Change Goals",
+      "lost": "Weight Lost",
+      "remaining": "Remaining",
+      "percent": "Progress",
+      "complete": "Complete"
+    },
+    "log": {
+      "title": "Log Today's Metrics",
+      "weight": "Current Weight (kg)",
+      "chest": "Chest (inches, Optional)",
+      "waist": "Waist (inches, Optional)",
+      "hips": "Hips (inches, Optional)",
+      "placeholder": "e.g., {{val}}",
+      "submit": "Log Metrics"
+    },
+    "history": {
+      "title": "Metrics History",
+      "total": "Total Logs",
+      "first": "First Weight",
+      "latest": "Latest Weight",
+      "unit": "kg",
+      "inches": "inches",
+      "chest": "chest",
+      "waist": "waist",
+      "hips": "hips"
+    }
+  },
+  "habits": {
+    "consistency": {
+      "title": "Weekly Consistency",
+      "subtitle": "Keep building those healthy habits!"
+    },
+    "today": {
+      "title": "Today's Habits",
+      "subtitle": "Check off each habit as you complete it today",
+      "protein": { "label": "Hit Protein Goal", "desc": "1.2-1.6g per kg of body weight" },
+      "noSugar": { "label": "No Sugary Drinks", "desc": "Water, tea, or black coffee only" },
+      "walk": { "label": "10-Min Post-Meal Walk", "desc": "Light activity after eating" },
+      "sleep": { "label": "7+ Hours of Sleep", "desc": "Quality rest for recovery" }
+    },
+    "tracker30": {
+      "title": "30-Day Habit Tracker",
+      "legend": {
+        "none": "None",
+        "low": "1",
+        "mid": "2-3",
+        "high": "3",
+        "all": "All 4"
+      }
+    },
+    "whyMatters": {
+      "title": "Why These Habits Matter",
+      "protein": "Protein intake preserves muscle and increases satiety during weight loss",
+      "noSugar": "Avoiding sugar drinks eliminates empty calories and reduces insulin spikes",
+      "walk": "Post-meal walks improve insulin sensitivity and aid digestion",
+      "sleep": "Quality sleep regulates hunger hormones and supports fat loss"
+    }
+  },
+  "modal": {
+    "title": "Set Your Goals",
+    "subtitle": "Let's personalize your weight loss journey",
+    "start": "Starting Weight (kg)",
+    "target": "Target Weight (kg)",
+    "date": "Target Date",
+    "save": "Save Goal",
+    "fillAll": "Please fill in all fields"
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "header": {
+    "title": "Heart Health Guide",
+    "subtitle": "Track vitals, learn DASH diet, and build heart-healthy habits",
+    "back": "Back to Dashboard"
+  },
+  "alerts": {
+    "crisis": {
+      "title": "HYPERTENSIVE CRISIS WARNING",
+      "desc": "Your blood pressure reading is dangerously high (≥180/120). This requires immediate medical attention.",
+      "actions": [
+        "Call 911 or go to the emergency room immediately",
+        "Do not wait to see if your pressure goes down on its own",
+        "This can lead to stroke, heart attack, or organ damage"
+      ]
+    },
+    "vitals": {
+      "invalid": "Please enter valid readings",
+      "success": "Reading logged: {{sys}}/{{dia}} - {{category}}"
+    }
+  },
+  "tabs": {
+    "dash": "DASH Diet",
+    "vitals": "Vitals Log",
+    "habits": "Heart Habits"
+  },
+  "vitals": {
+    "form": {
+      "title": "Log Your Vitals",
+      "bp": {
+        "label": "Blood Pressure",
+        "systolic": "Systolic",
+        "systolic_desc": "Top number",
+        "diastolic": "Diastolic",
+        "diastolic_desc": "Bottom number"
+      },
+      "heart_rate": {
+        "label": "Resting Heart Rate (BPM)",
+        "placeholder": "e.g., 72"
+      },
+      "submit": "Log Reading"
+    },
+    "recent": {
+      "title": "Recent Readings",
+      "empty": "No readings logged yet",
+      "bpm": "{{count}} BPM"
+    },
+    "chart": {
+      "title": "7-Day Blood Pressure Trend",
+      "systolic": "Systolic",
+      "diastolic": "Diastolic"
+    },
+    "guidelines": {
+      "title": "AHA Blood Pressure Categories:",
+      "normal": "Normal: <120/80",
+      "elevated": "Elevated: 120-129/<80",
+      "stage1": "Stage 1: 130-139/80-89",
+      "stage2": "Stage 2: ≥140/90"
+    },
+    "categories": {
+      "crisis": "Hypertensive Crisis",
+      "stage2": "Hypertension Stage 2",
+      "stage1": "Hypertension Stage 1",
+      "elevated": "Elevated",
+      "normal": "Normal",
+      "unknown": "Unknown"
+    }
+  },
+  "dash": {
+    "intro": {
+      "title": "The DASH Diet",
+      "desc": "Dietary Approaches to Stop Hypertension - A scientifically proven eating plan that lowers blood pressure naturally."
+    },
+    "principles": {
+      "sodium": {
+        "title": "Sodium Limit",
+        "limit": "<2,300mg per day",
+        "high_risk": "(Or 1,500mg for high-risk individuals)",
+        "desc": "Excess sodium causes water retention, increasing blood volume and pressure on artery walls."
+      },
+      "potassium": {
+        "title": "Potassium Power",
+        "limit": "4,700mg per day",
+        "source": "From whole foods",
+        "foods": [
+          "Bananas (422mg per medium)",
+          "Sweet Potatoes (540mg per medium)",
+          "Spinach (840mg per cup cooked)"
+        ]
+      },
+      "magnesium": {
+        "title": "Magnesium & Fiber",
+        "limit": "500mg Mg / 25-35g Fiber",
+        "target": "Daily targets",
+        "foods": [
+          "Almonds, cashews, pumpkin seeds",
+          "Whole grains (oats, quinoa)",
+          "Legumes and dark leafy greens"
+        ]
+      }
+    },
+    "scanner": {
+      "title": "⚠️ Hidden Sodium Scanner: \"Sneaky Salt\" Foods",
+      "subtitle": "These seemingly innocent foods pack more sodium than you think:",
+      "swaps": {
+        "title": "💡 DASH-Friendly Swaps:",
+        "items": [
+          "Homemade soup with low-sodium broth (200mg vs 800mg)",
+          "Roasted chicken breast instead of deli meat (70mg vs 520mg)",
+          "Fresh vegetables instead of canned (5mg vs 300mg)"
+        ]
+      }
+    }
+  },
+  "habits": {
+    "vitality": {
+      "title": "Vitality Score",
+      "start": "Start building your heart-healthy streak!",
+      "streak_good": "🔥 {{count}} day streak! Your heart is thriving",
+      "streak_continue": "{{count}} days - Keep going!",
+      "streak_continue_singular": "{{count}} day - Keep going!",
+      "days": "day streak",
+      "goal": "{{count}} / 30 days goal"
+    },
+    "checklist": {
+      "title": "Daily Cardio Checklist",
+      "subtitle": "Complete these habits daily to build cardiovascular strength",
+      "items": {
+        "cardio": {
+          "label": "30 Mins Zone 2 Cardio",
+          "desc": "Brisk walk, cycling, or swimming at conversational pace"
+        },
+        "low_sodium": {
+          "label": "Stayed Under Sodium Limit",
+          "desc": "<2,300mg (or 1,500mg if high-risk)"
+        },
+        "no_salt": {
+          "label": "No Added Salt at the Table",
+          "desc": "Let food's natural flavors shine"
+        },
+        "meds": {
+          "label": "Medication Taken (Optional)",
+          "desc": "For those on BP medication"
+        }
+      }
+    },
+    "tips": {
+      "title": "Heart Health Essentials",
+      "items": [
+        "<strong>Zone 2 cardio:</strong> Exercise at 60-70% max heart rate (you can still hold a conversation)",
+        "<strong>Potassium helps flush sodium:</strong> Aim for 4,700mg daily from whole foods",
+        "<strong>Consistency > intensity:</strong> Daily walks beat sporadic intense workouts for heart health",
+        "<strong>Monitor at the same time:</strong> Check BP in the morning for most accurate readings"
+      ]
+    }
+  },
+  "foods": {
+    "canned_soup": "Canned Soup (1 cup)",
+    "deli_turkey": "Deli Turkey (2 oz)",
+    "white_bread": "White Bread (2 slices)",
+    "frozen_pizza": "Frozen Pizza (1 slice)",
+    "soy_sauce": "Soy Sauce (1 tbsp)",
+    "cottage_cheese": "Cottage Cheese (1/2 cup)",
+    "pickles": "Pickles (1 medium)",
+    "salad_dressing": "Salad Dressing (2 tbsp)"
+  }
+}

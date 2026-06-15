@@ -1,0 +1,214 @@
+{
+  "nav": { "back": "Back to Dashboard" },
+  "header": {
+    "title": "Vegan Nutrition Guide",
+    "subtitle": "Complete plant-based nutrition toolkit"
+  },
+  "tabs": {
+    "plate": "Vegan Plate",
+    "nutrients": "Micronutrients",
+    "calculator": "Protein Calculator"
+  },
+  "plate": {
+    "title": "The Complete Vegan Meal",
+    "proportions": {
+      "legumes": {
+        "title": "Legumes/Beans",
+        "subtitle": "Protein powerhouse",
+        "examples": "Examples: Lentils, chickpeas, black beans, tofu, tempeh"
+      },
+      "grains": {
+        "title": "Whole Grains",
+        "subtitle": "Sustained energy",
+        "examples": "Examples: Quinoa, brown rice, oats, whole wheat, barley"
+      },
+      "vegetables": {
+        "title": "Vegetables",
+        "subtitle": "Micronutrient rich",
+        "examples": "Examples: Leafy greens, broccoli, peppers, carrots, tomatoes"
+      },
+      "fats": {
+        "title": "Healthy Fats/Seeds",
+        "subtitle": "Hormone health",
+        "examples": "Examples: Avocado, nuts, seeds, olive oil, tahini"
+      }
+    },
+    "tip": {
+      "title": "Pro-Tip: Boost Iron Absorption",
+      "desc": "Plant-based iron (non-heme iron) is absorbed less efficiently than animal iron. Pair iron-rich foods with Vitamin C to increase absorption by up to 300%!",
+      "ironRich": "Iron-Rich Foods",
+      "ironExamples": "Spinach, lentils, quinoa, tofu, pumpkin seeds",
+      "vitaminC": "Vitamin C Boosters",
+      "vitaminCExamples": "Lemon juice, bell peppers, tomatoes, broccoli, oranges",
+      "perfectCombo": "Perfect Combo: Lentil soup with lemon juice, spinach salad with bell peppers"
+    }
+  },
+  "nutrients": {
+    "title": "The Big 4 Nutrient Tracker",
+    "progress": {
+      "title": "Today's Progress",
+      "done": "Done",
+      "pending": "Pending"
+    },
+    "why": {
+      "title": "Why Track These?",
+      "desc1": "These four nutrients are the most common deficiencies in plant-based diets. Tracking daily intake ensures you're getting complete nutrition.",
+      "note": "Note: B12 must be supplemented or consumed through fortified foods - it's not naturally present in plants."
+    },
+    "micronutrients": {
+      "b12": {
+        "name": "Vitamin B12",
+        "importance": "Critical for nerve function & DNA synthesis",
+        "dosage": "2.4 mcg daily",
+        "sources": ["Fortified plant milk", "Nutritional yeast", "B12 supplements", "Fortified cereals"]
+      },
+      "iron": {
+        "name": "Iron & Zinc",
+        "importance": "Essential for oxygen transport & immune function",
+        "dosage": "Iron: 18mg, Zinc: 11mg daily",
+        "sources": ["Pumpkin seeds", "Lentils", "Cashews", "Spinach", "Quinoa"]
+      },
+      "omega3": {
+        "name": "Omega-3 (ALA)",
+        "importance": "Brain health & anti-inflammatory",
+        "dosage": "1.6g daily",
+        "sources": ["Flax seeds", "Chia seeds", "Walnuts", "Hemp seeds"]
+      },
+      "calcium": {
+        "name": "Calcium",
+        "importance": "Bone health & muscle function",
+        "dosage": "1000mg daily",
+        "sources": ["Bok choy", "Tahini", "Fortified tofu", "Kale", "Almonds"]
+      }
+    }
+  },
+  "calculator": {
+    "title": "Protein Knowledge Guide",
+    "subtitle": "Select a food and enter the amount to instantly see its protein content",
+    "form": {
+      "selectFood": "Search & Select Food Item",
+      "placeholderFood": "Choose a food...",
+      "searchPlaceholder": "Search foods...",
+      "amount": "Amount (grams)",
+      "placeholderAmount": "100",
+      "add": "Add to Calculation",
+      "proteinPer100": "{{val}}g per 100g",
+      "matches": "Showing 5 of {{total}} matches",
+      "noMatches": "No foods found"
+    },
+    "results": {
+      "title": "Protein Breakdown",
+      "estProtein": "Estimated Protein Content",
+      "calcInfo": "{{amount}}g of {{food}}",
+      "summary": "Current Calculation Summary",
+      "total": "Total Protein",
+      "aminoAcid": "Amino Acid Completeness",
+      "aminoComplete": "Complete Amino Profile",
+      "aminoIncomplete": "Missing Grains or Legumes",
+      "aminoNote": "Legumes (Lentils/Beans/Soy) + Grains (Rice/Quinoa/Oats) = Complete Protein",
+      "save": "Log Total to History",
+      "success": "Protein logged successfully!",
+      "ironTip": {
+        "title": "Tip:",
+        "desc": "Pair with Vitamin C (lemon, peppers, tomatoes) to boost iron absorption by up to 300%!"
+      }
+    },
+    "reference": {
+      "title": "Quick Reference Guide"
+    }
+  },
+  "proteinSources": {
+    "tofu": "Tofu",
+    "tempeh": "Tempeh",
+    "edamame": "Edamame",
+    "soybeansBoiled": "Soybeans Boiled",
+    "soyChunks": "Soy Chunks / TVP Dry",
+    "soyMince": "Soy Mince Dry",
+    "soyMilk": "Soy Milk Unsweetened",
+    "soyYogurt": "Soy Yogurt Plain",
+    "seitan": "Seitan",
+    "lentilsCooked": "Lentils Cooked",
+    "redLentilsCooked": "Red Lentils Cooked",
+    "greenLentilsCooked": "Green Lentils Cooked",
+    "blackLentilsCooked": "Black Lentils Cooked",
+    "chickpeasCooked": "Chickpeas Cooked",
+    "blackBeansCooked": "Black Beans Cooked",
+    "kidneyBeansCooked": "Kidney Beans Cooked",
+    "pintoBeansCooked": "Pinto Beans Cooked",
+    "cannelliniBeansCooked": "Cannellini Beans Cooked",
+    "navyBeansCooked": "Navy Beans Cooked",
+    "adzukiBeansCooked": "Adzuki Beans Cooked",
+    "mungBeansCooked": "Mung Beans Cooked",
+    "lupinBeans": "Lupin Beans",
+    "splitPeasCooked": "Split Peas Cooked",
+    "greenPeas": "Green Peas",
+    "peaProteinIsolate": "Pea Protein Isolate",
+    "peaMilk": "Pea Milk",
+    "hummus": "Hummus",
+    "falafel": "Falafel",
+    "quinoaCooked": "Quinoa Cooked",
+    "amaranthCooked": "Amaranth Cooked",
+    "buckwheatCooked": "Buckwheat Cooked",
+    "oatsDry": "Oats Dry",
+    "rolledOats": "Rolled Oats",
+    "steelCutOats": "Steel Cut Oats",
+    "oatBran": "Oat Bran",
+    "barleyCooked": "Barley Cooked",
+    "milletCooked": "Millet Cooked",
+    "brownRiceCooked": "Brown Rice Cooked",
+    "wildRiceCooked": "Wild Rice Cooked",
+    "teffCooked": "Teff Cooked",
+    "farroCooked": "Farro Cooked",
+    "freekehCooked": "Freekeh Cooked",
+    "wholeWheatPastaCooked": "Whole Wheat Pasta Cooked",
+    "chickpeaPastaDry": "Chickpea Pasta Dry",
+    "lentilPastaDry": "Lentil Pasta Dry",
+    "blackBeanPastaDry": "Black Bean Pasta Dry",
+    "spirulinaDry": "Spirulina Dry",
+    "nutritionalYeast": "Nutritional Yeast",
+    "mushroomsWhite": "Mushrooms White",
+    "portobelloMushrooms": "Portobello Mushrooms",
+    "spinach": "Spinach",
+    "kale": "Kale",
+    "broccoli": "Broccoli",
+    "brusselsSprouts": "Brussels Sprouts",
+    "sweetCorn": "Sweet Corn",
+    "artichoke": "Artichoke",
+    "avocado": "Avocado",
+    "pumpkinSeeds": "Pumpkin Seeds",
+    "hempSeeds": "Hemp Seeds",
+    "chiaSeeds": "Chia Seeds",
+    "flaxSeeds": "Flax Seeds",
+    "sesameSeeds": "Sesame Seeds",
+    "sunflowerSeeds": "Sunflower Seeds",
+    "watermelonSeeds": "Watermelon Seeds",
+    "almonds": "Almonds",
+    "peanuts": "Peanuts",
+    "peanutButterNatural": "Peanut Butter Natural",
+    "cashews": "Cashews",
+    "pistachios": "Pistachios",
+    "walnuts": "Walnuts",
+    "hazelnuts": "Hazelnuts",
+    "brazilNuts": "Brazil Nuts",
+    "almondButter": "Almond Butter",
+    "tahini": "Tahini",
+    "cashewButter": "Cashew Butter",
+    "pumpkinSeedButter": "Pumpkin Seed Butter",
+    "sunflowerSeedButter": "Sunflower Seed Butter",
+    "almondFlour": "Almond Flour",
+    "chickpeaFlour": "Chickpea Flour / Besan",
+    "soyFlour": "Soy Flour",
+    "wholeWheatFlour": "Whole Wheat Flour",
+    "breadWholeWheat": "Bread Whole Wheat",
+    "ezekielBread": "Ezekiel Bread",
+    "proteinBreadVegan": "Protein Bread Vegan",
+    "roastedChickpeas": "Roasted Chickpeas",
+    "dryRoastedEdamame": "Dry Roasted Edamame",
+    "proteinBarVegan": "Protein Bar Vegan",
+    "veganSausage": "Vegan Sausage",
+    "veganBurgerPatty": "Vegan Burger Patty",
+    "mycoproteinVegan": "Mycoprotein Vegan",
+    "beanSprouts": "Bean Sprouts",
+    "alfalfaSprouts": "Alfalfa Sprouts"
+  }
+}

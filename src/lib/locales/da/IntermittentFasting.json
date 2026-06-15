@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "back": "Tilbage til dashboardet"
+  },
+  "header": {
+    "title": "Guide til periodisk faste",
+    "subtitle": "Mestrer videnskaben om tidsbegrænset spisning"
+  },
+  "tabs": {
+    "lab": "Fastelaboratoriet",
+    "log": "Succeslog"
+  },
+  "lab": {
+    "timeline": {
+      "title": "Den biologiske tidslinje",
+      "stages": [
+        {
+          "hours": "0-4 timer",
+          "title": "Fordøjelsesfase (anabolsk tilstand)",
+          "description": "Din krop fordøjer mad og lagrer energi. Blodsukkeret stiger, efterhånden som næringsstoffer absorberes."
+        },
+        {
+          "hours": "4-12 timer",
+          "title": "Fedtforbrænding begynder (katabolsk tilstand)",
+          "description": "Insulinniveauet falder, og din krop begynder at nedbryde lagret fedt til energi."
+        },
+        {
+          "hours": "12-18 timer",
+          "title": "Cellulær oprydning (autofagi)",
+          "description": "Din krop begynder at fjerne beskadigede celler og genbruge gamle proteiner – ligesom en intern forårsrengøring."
+        },
+        {
+          "hours": "18+ timer",
+          "title": "Maksimal fedtforbrænding (dyb ketose)",
+          "description": "Din krop kører fuldt ud på fedt. Væksthormonet stiger, og fedtforbrændingen når sit højdepunkt."
+        }
+      ]
+    },
+    "breaksFast": {
+      "title": "Hvad bryder en faste?",
+      "safe": "Sikkert under faste:",
+      "safeList": "Vand, sort kaffe, almindelig te, danskvand, salt/elektrolytter",
+      "breaks": "Bryder din faste:",
+      "breaksList": "Alt med kalorier - mælk, sukker, fløde, proteinshakes, BCAA'er, light sodavand med kunstige sødestoffer"
+    },
+    "tips": {
+      "title": "Professionelle tips til succes",
+      "tip1": {
+        "title": "Start gradvist",
+        "desc": "Start med 12:12 og arbejd dig op til længere faster"
+      },
+      "tip2": {
+        "title": "Hold dig hydreret",
+        "desc": "Drik rigeligt med vand under hele din faste"
+      },
+      "tip3": {
+        "title": "Lyt til din krop",
+        "desc": "Føler du dig utilpas? Det er okay at bryde din faste"
+      },
+      "tip4": {
+        "title": "Kvalitet er vigtig",
+        "desc": "Fokuser på næringsrige fødevarer i spiseperioden"
+      }
+    }
+  },
+  "log": {
+    "form": {
+      "title": "Log dagens faste",
+      "lastMeal": "Sidste måltidstidspunkt (i går):",
+      "firstMeal": "Første måltid (i dag):",
+      "duration": "Samlet fastevarighed",
+      "goalAchieved": "Mål nået! Du har fuldført en faste på over 16 timer!",
+      "submit": "Log dette hurtigt"
+    },
+    "tracker": {
+      "title": "30-dages hurtigsporing",
+      "streak": "Nuværende serie:",
+      "streakDays": "{{count}} dage",
+      "last30": "Sidste 30 dage",
+      "legend": {
+        "goalMet": "Mål nået (16+ timer)",
+        "today": "I dag",
+        "missed": "Mistet dag"
+      }
+    },
+    "recentFasts": {
+      "title": "Nylige faster",
+      "goalMet": "Mål med"
+    }
+  }
+}

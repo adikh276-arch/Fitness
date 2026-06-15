@@ -1,0 +1,53 @@
+{
+  "common": {
+    "next": "Seuraava",
+    "subtitle": "Seuraa aterioitasi ja tuntemuksiasi",
+    "title": "Ruokapäiväkirja"
+  },
+  "feelings": {
+    "description": "Kuuntele kehoasi – sillä on aina jotain sanottavaa!",
+    "placeholder": "esim. lounaan jälkeen tunsin oloni kylläiseksi, mutta illallisen jälkeen olin vähän raskas...",
+    "title": "Miltä sinusta tuntui syömisen jälkeen?"
+  },
+  "history": {
+    "empty": "Ei vielä merkintöjä. Täytä ensimmäinen ruokapäiväkirjasi nähdäksesi sen täällä!",
+    "subtitle": "Aiemmat merkinnät"
+  },
+  "intro": {
+    "description": "Syömisen seuraaminen auttaa sinua ymmärtämään kehoasi paremmin – mikä antaa sinulle energiaa, mikä saa sinut tuntemaan olosi raskaaksi ja missä voit tehdä yksinkertaisia parannuksia. Tämä on tuomitsemisen vapaa alue. Ole vain rehellinen ja nauti prosessista!",
+    "startButton": "Aloitetaan →",
+    "subtitle": "Pienin askelin kohti suuria terveysmuutoksia!",
+    "title": "Tervetuloa ruokapäiväkirjaasi"
+  },
+  "meals": {
+    "breakfast": {
+      "label": "Aamiainen",
+      "placeholder": "Mitä sinulla oli?"
+    },
+    "description": "Kirjaa jokainen ateria tai välipala alle. Jopa summittainen muistiinpano on tärkeä!",
+    "dinner": {
+      "label": "Illallinen",
+      "placeholder": "Mitä sinulla oli?"
+    },
+    "lunch": {
+      "label": "Lounas",
+      "placeholder": "Mitä sinulla oli?"
+    },
+    "snacks": {
+      "label": "Välipalat",
+      "placeholder": "Jotain siltä väliltä?"
+    },
+    "title": "Mitä söit tänään?"
+  },
+  "messages": {
+    "entryDeleted": "Merkintä poistettu",
+    "entrySaved": "Merkintä tallennettu!"
+  },
+  "reflection": {
+    "encouragement": "Jokainen tekemäsi merkintä vie sinua askeleen lähemmäksi terveellisempää ja onnellisempaa sinua. Ole läsnä – johdonmukaisuus on todellinen salaisuus!",
+    "placeholder": "Kirjoita ajatuksesi tähän...",
+    "question": "Mitä haluaisit syödä paremmin huomenna?",
+    "saveButton": "Tallenna merkintä",
+    "title": "Hienoa työtä tämän päivän lokin täyttämisessä!"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "shell": {
+    "title": "Mga Mapagkukunan sa Pangangalaga sa Sarili",
+    "subtitle": "Galugarin ang mga tool at gabay para sa iyong paglalakbay sa kalusugan"
+  },
+  "sections": {
+    "tools": "Mga Kagamitan",
+    "guides": "Mga Gabay sa Nutrisyon at Diyeta",
+    "workouts": "Mga Lugar ng Pag-eehersisyo",
+    "learning": "Itinatampok na Pagkatuto"
+  },
+  "tools": {
+    "macro": {
+      "label": "Kalkulador ng Nutrisyon",
+      "desc": "Kalkulahin ang mga macro"
+    },
+    "calories": {
+      "label": "Pangsunog ng Kaloriya",
+      "desc": "Mga aktibidad sa pag-log"
+    },
+    "fasting": {
+      "label": "Tagapagtala ng Pag-aayuno",
+      "desc": "Subaybayan ang pag-aayuno"
+    },
+    "bmi": {
+      "label": "Kalkulador ng BMI",
+      "desc": "Mga sukatan ng katawan"
+    }
+  },
+  "guides": {
+    "weightLoss": "Pagbaba ng Timbang",
+    "diabetes": "Diyeta para sa Diyabetis",
+    "muscle": "Pagtaas ng Kalamnan",
+    "gut": "Kalusugan ng Tiyan",
+    "keto": "Mga Pangunahing Kaalaman sa Keto",
+    "heart": "Kalusugan ng Puso",
+    "fasting": "Pasulput-sulpot na Pag-aayuno",
+    "vegan": "Nutrisyon ng Vegan"
+  },
+  "workouts": {
+    "yoga": "Yoga",
+    "hiit": "HIIT",
+    "strength": "Pagsasanay sa Lakas",
+    "posture": "Pagwawasto ng postura",
+    "home": "Mga Pag-eehersisyo sa Bahay",
+    "flexibility": "Kakayahang umangkop"
+  },
+  "learning": {
+    "macros": {
+      "title": "Pag-unawa sa mga Macronutrient",
+      "desc": "Alamin ang mga pangunahing kaalaman tungkol sa protina, carbohydrates, at taba"
+    },
+    "others": {
+      "title": "Iba pa",
+      "desc": "Galugarin ang mas maraming interactive na tool sa kalusugan"
+    }
+  },
+  "others": {
+    "title": "Iba pang mga Mapagkukunan",
+    "subtitle": "Galugarin ang higit pang mga tool para sa iyong paglalakbay sa kalusugan",
+    "tools": {
+      "foodDiary": {
+        "label": "Talaarawan ng Pagkain",
+        "desc": "Subaybayan ang iyong mga pagkain"
+      },
+      "planPlate": {
+        "label": "Planuhin ang Iyong Plato",
+        "desc": "Balansehin ang iyong mga pagkain"
+      },
+      "sugarEase": {
+        "label": "Pang-araw-araw na Kaginhawahan sa Asukal",
+        "desc": "Pamahalaan ang paggamit ng asukal"
+      },
+      "recipeLog": {
+        "label": "Talaan ng Malusog na Recipe",
+        "desc": "I-save ang iyong mga recipe"
+      }
+    }
+  }
+}

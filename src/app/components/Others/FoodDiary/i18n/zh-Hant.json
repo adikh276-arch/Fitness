@@ -1,0 +1,53 @@
+{
+  "common": {
+    "next": "下一個",
+    "subtitle": "記錄你的飲食和感受",
+    "title": "食物日記"
+  },
+  "feelings": {
+    "description": "傾聽你身體的聲音－它總有話要告訴你！ 😌",
+    "placeholder": "例如，我午餐後感覺很滿足，但晚餐後感覺有點油膩…",
+    "title": "飯後感覺如何？"
+  },
+  "history": {
+    "empty": "目前還沒有記錄。完成你的第一份飲食日記，即可在此處查看！",
+    "subtitle": "您過去的條目"
+  },
+  "intro": {
+    "description": "記錄飲食有助於你更了解自己的身體——哪些食物讓你精力充沛，哪些食物讓你感覺沉重，以及你可以從哪些方面進行簡單的改進。這裡沒有評判，只需誠實面對自己，享受這個過程！",
+    "startButton": "讓我們開始吧 →",
+    "subtitle": "踏出小步，改變健康！",
+    "title": "歡迎來到你的飲食日記"
+  },
+  "meals": {
+    "breakfast": {
+      "label": "早餐",
+      "placeholder": "你有什麼？"
+    },
+    "description": "請在下方記錄每一餐或零食。即使是粗略記錄也算數！ 🍽️",
+    "dinner": {
+      "label": "晚餐",
+      "placeholder": "你有什麼？"
+    },
+    "lunch": {
+      "label": "午餐",
+      "placeholder": "你有什麼？"
+    },
+    "snacks": {
+      "label": "點心",
+      "placeholder": "介於兩者之間的還有嗎？"
+    },
+    "title": "你今天吃了什麼？"
+  },
+  "messages": {
+    "entryDeleted": "條目已刪除",
+    "entrySaved": "參賽作品已保存！ 🌱"
+  },
+  "reflection": {
+    "encouragement": "你的每一次記錄都讓你離更健康、更快樂的自己更近一步。堅持下去－持之以恆才是真正的秘訣！ 💪",
+    "placeholder": "請在此寫下您的想法…",
+    "question": "你明天最想吃得更好的東西是什麼？",
+    "saveButton": "儲存條目",
+    "title": "今天的日誌完成得真棒！"
+  }
+}

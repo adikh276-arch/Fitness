@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "back": "Zurück zum Dashboard"
+  },
+  "header": {
+    "title": "Schrittzähler",
+    "subtitle": "Verfolge deine täglichen Schritte und erreiche deine Ziele",
+    "profile": "Profil"
+  },
+  "tabs": {
+    "tracker": "Tracker",
+    "history": "Geschichte"
+  },
+  "tracker": {
+    "stepsToday": "Schritte heute",
+    "goalAchieved": "Ziel erreicht!",
+    "stats": {
+      "distance": "Distanz",
+      "calories": "Kalorien",
+      "activeTime": "Aktive Zeit",
+      "km": "km",
+      "kcal": "kcal",
+      "mins": "Minuten"
+    },
+    "goal": {
+      "label": "Tagesziel",
+      "value": "{{val}} Schritte",
+      "change": "Zieländerung"
+    },
+    "quickAdd": {
+      "title": "Schnelle Schritte zum Hinzufügen",
+      "label": "Benutzerdefinierte Schritte",
+      "placeholder": "z.B. 3500",
+      "submit": "Hinzufügen"
+    },
+    "insights": {
+      "title": "Heutige Erkenntnisse",
+      "remaining": "Verbleibende Schritte",
+      "stride": "Schrittlänge",
+      "progress": "Fortschritt",
+      "complete": "Vollständig!",
+      "percentOfGoal": "{{val}}% des Ziels"
+    },
+    "reset": "Heutige Schritte zurücksetzen"
+  },
+  "history": {
+    "title": "Schrittgeschichte",
+    "noHistory": "Noch keine Historie. Beginne jetzt, deine Schritte zu erfassen!",
+    "today": "Heute",
+    "stats": {
+      "steps": "Schritte",
+      "goal": "Ziel",
+      "progress": "Fortschritt"
+    }
+  },
+  "modals": {
+    "goal": {
+      "title": "Setze dir ein tägliches Ziel",
+      "subtitle": "Geben Sie Ihre angestrebten täglichen Schritte ein",
+      "placeholder": "z.B. 10000",
+      "cancel": "Stornieren",
+      "save": "Speichern"
+    },
+    "profile": {
+      "title": "Profil aktualisieren",
+      "subtitle": "Dies hilft bei der genauen Berechnung von Distanz und Kalorienverbrauch.",
+      "height": "Höhe (cm)",
+      "weight": "Gewicht (kg)",
+      "gender": "Geschlecht",
+      "male": "Männlich",
+      "female": "Weiblich",
+      "placeholderHeight": "z.B. 170",
+      "placeholderWeight": "z.B. 70",
+      "cancel": "Stornieren",
+      "save": "Speichern"
+    }
+  }
+}

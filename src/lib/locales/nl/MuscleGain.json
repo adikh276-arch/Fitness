@@ -1,0 +1,174 @@
+{
+  "nav": {
+    "back": "Terug naar het dashboard"
+  },
+  "header": {
+    "title": "Gids voor spiergroei",
+    "subtitle": "Wetenschappelijk onderbouwde aanpak voor het opbouwen van spieren en kracht."
+  },
+  "tabs": {
+    "plan": "Het Groeiplan",
+    "metrics": "Lichaamsmetriekenlogboek",
+    "habits": "Hypertrofiegewoonten"
+  },
+  "plan": {
+    "pillars": {
+      "caloric": {
+        "title": "Calorisch overschot",
+        "value": "TDEE + 250 tot 500 kcal",
+        "desc": "Je lichaam heeft extra energie nodig om nieuw spierweefsel op te bouwen. Te weinig en je groeit niet; te veel en je komt onnodig vet aan. Streef naar 250-500 kcal boven je totale dagelijkse energieverbruik (TDEE)."
+      },
+      "protein": {
+        "title": "Eiwitsynthese",
+        "value": "1,8 tot 2,2 gram per kg",
+        "desc": "Eiwit is de bouwsteen van spieren. Onderzoek toont aan dat 1,8-2,2 gram eiwit per kilogram lichaamsgewicht de spiereiwitsynthese en het herstel maximaliseert."
+      },
+      "overload": {
+        "title": "Progressieve overbelasting",
+        "value": "Wekelijkse voortgang",
+        "desc": "Spieren groeien als reactie op toenemende belasting. Probeer elke week het gewicht, het aantal herhalingen of het aantal sets te verhogen. Houd je totale volume bij (sets × herhalingen × gewicht) om consistente vooruitgang te garanderen."
+      }
+    },
+    "mealTiming": {
+      "title": "Maaltijdtiming voor spiergroei",
+      "subtitle": "Hoewel de totale dagelijkse inname het belangrijkst is, kan een strategische timing de prestaties en het herstel optimaliseren:",
+      "preWorkoutLong": {
+        "time": "2-3 uur van tevoren",
+        "title": "Pre-workout",
+        "desc": "Evenwichtige maaltijd met koolhydraten en eiwitten"
+      },
+      "preWorkoutCarbs": {
+        "time": "30-60 minuten van tevoren",
+        "title": "Koolhydraten vóór de training",
+        "desc": "Snelle koolhydraten voor energie (banaan, rijstwafels)"
+      },
+      "training": {
+        "time": "Tijdens",
+        "title": "Opleiding",
+        "desc": "Hydratatie + optionele koolhydraten tijdens de training"
+      },
+      "postWorkout": {
+        "time": "Binnen 2 uur",
+        "title": "Eiwit na de training",
+        "desc": "30-40 g eiwitten + koolhydraten voor herstel"
+      },
+      "eveningProtein": {
+        "time": "Voor het slapengaan",
+        "title": "Eiwit 's avonds",
+        "desc": "Caseïne of langzaam verteerbaar eiwit"
+      }
+    },
+    "principles": {
+      "title": "Kernprincipes voor succes",
+      "p1": {
+        "title": "Consistentie is beter dan perfectie:",
+        "desc": "Het overslaan van één training of maaltijd zal je vooruitgang niet tenietdoen, maar inconsistentie wel."
+      },
+      "p2": {
+        "title": "Slaap heeft een anabole werking:",
+        "desc": "Streef naar 7-9 uur slaap per nacht voor optimaal herstel en de afgifte van groeihormoon."
+      },
+      "p3": {
+        "title": "Houd uw volume in de gaten:",
+        "desc": "Wat gemeten wordt, kan verbeterd worden - registreer je lifts om progressieve overbelasting te garanderen."
+      },
+      "p4": {
+        "title": "Geduld is vereist:",
+        "desc": "Natuurlijke spiergroei bedraagt 0,5-1 kg per maand voor beginners, langzamer voor gevorderde krachtsporters."
+      }
+    }
+  },
+  "metrics": {
+    "strength": {
+      "totalVolume": "Totaal wekelijks volume",
+      "volumeTarget": "Volumedoel voor een lichaamsgewicht van {{weight}} kg",
+      "kgLifted": "kg getild",
+      "goal": "van {{goal}}kg doel",
+      "awayFromTarget": "Je bent nog {{gap}} kg verwijderd van het maximale werkvermogen dat je nodig hebt om je streefgewicht te bereiken.",
+      "setTarget": "Stel hieronder je streefgewicht in om je streefvolume te zien.",
+      "statusLabels": {
+        "setTarget": "Stel het streefgewicht in",
+        "building": "Fundament van het gebouw",
+        "growth": "Groeizone",
+        "hit": "Doelcapaciteit bereikt"
+      }
+    },
+    "form": {
+      "title": "Lichaamsafmetingen registreren",
+      "currentWeight": "Huidig gewicht (kg)",
+      "targetWeight": "Streefgewicht (kg) *",
+      "targetWeightHint": "Stelt een volumedoel vast",
+      "chest": "Borstomvang (in inches)",
+      "chestHint": "Meet ter hoogte van de tepel.",
+      "waist": "Taille (in)",
+      "waistHint": "Op navelhoogte",
+      "bicepR": "Rechter biceps (in)",
+      "bicepRHint": "Gebogen, breedste deel",
+      "bicepL": "Linker biceps (in)",
+      "bicepLHint": "Optioneel",
+      "thigh": "Dij (in)",
+      "thighHint": "Breedste deel",
+      "submit": "Logaritmische metingen",
+      "success": "Metingen succesvol geregistreerd!"
+    },
+    "volume": {
+      "title": "Volumecalculator",
+      "exercise": "Oefening",
+      "sets": "Sets",
+      "reps": "Vertegenwoordigers",
+      "weight": "Gewicht (kg)",
+      "totalVolume": "Totaal volume",
+      "remaining": "Resterend voor Doel",
+      "submit": "Logboekvolume",
+      "logged": "{{lift}} geregistreerd: {{volume}} kg totaal volume!"
+    },
+    "chart": {
+      "title": "Voortgangsgrafiek",
+      "weight": "Gewicht (kg)",
+      "chest": "Borst (in)",
+      "bicep": "Biceps (in)"
+    },
+    "noData": "Er zijn nog geen metingen geregistreerd. Begin met bijhouden om je voortgang te zien!"
+  },
+  "habits": {
+    "title": "Hypertrofie-gewoonten van vandaag",
+    "subtitle": "Vink elke gewoonte af zodra je die hebt voltooid.",
+    "items": {
+      "surplus": {
+        "title": "Calorisch overschot Met",
+        "desc": "Haal vandaag nog je caloriedoel."
+      },
+      "protein": {
+        "title": "Eiwitdoel behaald",
+        "desc": "1,8-2,2 gram per kilogram lichaamsgewicht"
+      },
+      "creatine": {
+        "title": "Creatine ingenomen",
+        "desc": "3-5 gram per dag voor betere prestaties."
+      },
+      "sleep": {
+        "title": "Goede nachtrust",
+        "desc": "7-9 uur voor optimaal herstel."
+      },
+      "trained": {
+        "title": "Vandaag getraind",
+        "desc": "Je trainingssessie is voltooid."
+      }
+    },
+    "recovery": {
+      "title": "Herstelstatus",
+      "good": "Herstel geoptimaliseerd",
+      "goodDesc": "Goed bezig met slapen en voldoende eiwitten! Je spieren herstellen optimaal.",
+      "improve": "Ruimte voor verbetering",
+      "improveDesc": "Focus op slaap en het behalen van je eiwitdoel voor een beter herstel."
+    },
+    "calendar": {
+      "title": "30 dagen achter elkaar een gewoonte volhouden",
+      "legend": {
+        "perfect": "Perfect (5/5)",
+        "partial": "Gedeeltelijk",
+        "none": "Onvolledig"
+      }
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "back": "Torna alla dashboard"
+  },
+  "header": {
+    "title": "Dieta e gestione del diabete",
+    "subtitle": "Monitora la glicemia, impara a pianificare i pasti per diabetici e consulta i valori dell'indice glicemico."
+  },
+  "alert": {
+    "title": "Allarme ipoglicemia!",
+    "desc": "Il tuo valore è inferiore a 70 mg/dL. Intervieni immediatamente:",
+    "actions": {
+      "carbs": "Assumi 15 g di carboidrati ad azione rapida (4 compresse di glucosio, 1/2 tazza di succo di frutta o 1 cucchiaio di miele).",
+      "wait": "Attendi 15 minuti e riprova.",
+      "repeat": "Se il livello è ancora basso, ripetere",
+      "contact": "Contatta il tuo medico se i sintomi persistono."
+    }
+  },
+  "tabs": {
+    "plate": "La piastra diabetica",
+    "log": "Registro della glicemia",
+    "gi": "Strumento di ricerca GI"
+  },
+  "log": {
+    "title": "Registro della lettura della glicemia",
+    "unit": "Unità",
+    "value": "Valore del glucosio ({{unità}})",
+    "valuePlaceholder": "ad esempio, 120",
+    "valuePlaceholderMmol": "ad esempio, 6.7",
+    "timing": "Tempistica",
+    "mealContext": "Cosa hai mangiato? (Facoltativo)",
+    "mealContextPlaceholder": "Ad esempio, ho mangiato una ciotola di farina d'avena con frutti di bosco.",
+    "submit": "Lettura del registro",
+    "success": "Lettura completata con successo!",
+    "targets": {
+      "title": "Intervalli target:",
+      "fasting": "A digiuno: 80-130 mg/dL",
+      "postMeal": "Dopo il pasto: <180 mg/dL",
+      "low": "Basso: <70 mg/dL (intervenire)"
+    },
+    "recent": {
+      "title": "Letture recenti",
+      "noReadings": "Nessuna lettura registrata finora",
+      "trend": "Andamento a 7 giorni",
+      "targetMax": "Target Max"
+    }
+  },
+  "plate": {
+    "intro": {
+      "title": "Il metodo della piastra per diabetici",
+      "desc": "Una semplice guida visiva per creare pasti equilibrati che aiutino a gestire i livelli di glicemia. Clicca su ciascuna sezione per scoprire le migliori scelte alimentari."
+    },
+    "build": {
+      "title": "Crea il tuo piatto equilibrato",
+      "hint": "Fai clic su ciascuna sezione"
+    },
+    "categories": {
+      "veggies": {
+        "name": "Verdure non amidacee",
+        "percent": "50%",
+        "desc": "Ricco di fibre, povero di carboidrati"
+      },
+      "protein": {
+        "name": "Proteine magre",
+        "percent": "25%",
+        "desc": "Stabilizza la glicemia"
+      },
+      "carbs": {
+        "name": "Carboidrati complessi",
+        "percent": "25%",
+        "desc": "Digestione lenta"
+      }
+    },
+    "principles": {
+      "title": "Principi chiave",
+      "veggies": {
+        "title": "Riempi metà del piatto con verdure non amidacee",
+        "desc": "Questi alimenti sono a basso contenuto di carboidrati, ricchi di fibre e pieni di nutrienti che non provocano picchi di glicemia."
+      },
+      "protein": {
+        "title": "Un quarto di piatto con proteine magre",
+        "desc": "Le proteine aiutano a stabilizzare la glicemia e a prolungare il senso di sazietà."
+      },
+      "carbs": {
+        "title": "Un quarto di piatto con carboidrati complessi",
+        "desc": "Scegli cereali integrali e alimenti ricchi di fibre che vengono digeriti lentamente e prevengono i picchi di glicemia."
+      }
+    }
+  },
+  "gi": {
+    "intro": {
+      "title": "Ricerca dell'indice glicemico (IG)",
+      "desc": "L'indice glicemico misura la velocità con cui gli alimenti aumentano la glicemia. Un valore più basso è preferibile per la gestione del diabete.",
+      "low": "Basso indice glicemico (0-55): Sicuro",
+      "medium": "Indice gastrointestinale medio (56-69): moderato",
+      "high": "Indice glicemico elevato (70+): Limite"
+    },
+    "searchPlaceholder": "Cerca un cibo...",
+    "noResults": "Nessun alimento trovato corrispondente alla tua ricerca",
+    "labels": {
+      "low": "Basso indice glicemico",
+      "medium": "Gastrointestinale medio",
+      "high": "Alto indice glicemico"
+    }
+  },
+  "timing": {
+    "fasting": "Digiuno",
+    "preMeal": "Prima del pasto",
+    "postMeal1h": "Dopo il pasto (1 ora)",
+    "postMeal2h": "Dopo il pasto (2 ore)",
+    "bedtime": "Ora di andare a letto"
+  },
+  "status": {
+    "low": "BASSO",
+    "high": "ALTO",
+    "normal": "NORMALE"
+  },
+  "foods": {
+    "Spinach": "Spinaci",
+    "Broccoli": "Broccoli",
+    "Cauliflower": "Cavolfiore",
+    "Bell Peppers": "Peperoni",
+    "Zucchini": "Zucchine",
+    "Asparagus": "Asparago",
+    "Cucumber": "Cetriolo",
+    "Tomatoes": "Pomodori",
+    "Chicken Breast": "Petto di pollo",
+    "Fish (Salmon, Tuna)": "Pesce (Salmone, Tonno)",
+    "Tofu": "Tofu",
+    "Lentils": "Lenticchie",
+    "Eggs": "Uova",
+    "Turkey": "Tacchino",
+    "Greek Yogurt": "Yogurt greco",
+    "Brown Rice": "Riso integrale",
+    "Quinoa": "Quinoa",
+    "Sweet Potato": "patata dolce",
+    "Whole Wheat Pasta": "Pasta integrale",
+    "Oats": "Avena",
+    "Barley": "Orzo"
+  }
+}

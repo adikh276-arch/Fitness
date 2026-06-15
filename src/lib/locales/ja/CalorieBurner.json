@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "back": "ダッシュボードに戻る"
+  },
+  "header": {
+    "title": "カロリーバーナー",
+    "subtitle": "アクティビティ中に消費したカロリーを記録しましょう。"
+  },
+  "tabs": {
+    "calculator": "電卓",
+    "log": "アクティビティログ（{{count}}）"
+  },
+  "calculator": {
+    "form": {
+      "title": "アクティビティの詳細",
+      "selectActivity": "アクティビティを選択",
+      "weight": "あなたの体重",
+      "duration": "所要時間（分）",
+      "submit": "ログアクティビティ",
+      "placeholders": {
+        "weightKg": "例：70",
+        "weightLbs": "例：154"
+      }
+    },
+    "summary": {
+      "title": "燃焼概要",
+      "calories": "消費カロリー",
+      "activity": "活動",
+      "duration": "間隔",
+      "weight": "重さ",
+      "burnRate": "カロリー消費率",
+      "formula": "計算式：（MET × 3.5 × 体重（kg）/ 200）× 運動時間（分）"
+    }
+  },
+  "log": {
+    "noActivities": "まだアクティビティは記録されていません",
+    "noActivitiesDesc": "ワークアウトの記録を開始して、ここで確認しましょう。",
+    "logFirst": "最初のアクティビティを記録します",
+    "summary": {
+      "title": "合計",
+      "totalActivities": "総活動量",
+      "totalCalories": "総カロリー",
+      "totalTime": "合計時間",
+      "avgSession": "セッションあたりの平均消費カロリー"
+    },
+    "item": {
+      "duration": "間隔",
+      "met": "メット",
+      "calories": "カロリー",
+      "minutes": "ミニ"
+    }
+  },
+  "activities": {
+    "walking": "ウォーキング（速足）",
+    "running": "ランニング（9分/マイル）",
+    "cycling": "サイクリング（中級）",
+    "yoga": "ヨガ",
+    "swimming": "水泳（ラップ）",
+    "strength": "筋力トレーニング",
+    "household": "家事",
+    "dance": "ダンス／エアロビクス"
+  }
+}

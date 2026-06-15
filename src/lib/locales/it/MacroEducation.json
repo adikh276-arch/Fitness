@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "back": "Torna alla dashboard"
+  },
+  "header": {
+    "title": "Comprendere i macronutrienti",
+    "subtitle": "Impara le nozioni fondamentali su proteine, carboidrati e grassi."
+  },
+  "tabs": {
+    "protein": "Proteina",
+    "carbs": "Carboidrati",
+    "fats": "Grassi",
+    "plate": "Costruttore di piastre"
+  },
+  "protein": {
+    "title": "Proteina",
+    "kcal": "4 kcal/gram",
+    "whyMatters": {
+      "title": "Perché è importante:",
+      "muscle": {
+        "title": "Riparazione e crescita muscolare:",
+        "desc": "Essenziale per costruire e mantenere la massa muscolare magra"
+      },
+      "satiety": {
+        "title": "Sazietà:",
+        "desc": "Ti aiuta a sentirti sazio più a lungo, riducendo l'apporto calorico complessivo."
+      },
+      "metabolic": {
+        "title": "Stimolo metabolico:",
+        "desc": "Il macronutriente con il più alto effetto termogenico (20-30% delle calorie bruciate durante la digestione)"
+      }
+    },
+    "target": {
+      "title": "Obiettivo giornaliero:",
+      "desc": "Per una salute ottimale e il mantenimento della massa muscolare, l'obiettivo è un apporto di <1>1,6-2,2 g per kg</1> di peso corporeo. Gli atleti e coloro che desiderano aumentare la massa muscolare potrebbero aver bisogno fino a 2,5 g/kg."
+    },
+    "sources": "Principali fonti proteiche:"
+  },
+  "carbs": {
+    "title": "Carboidrati",
+    "kcal": "4 kcal/gram",
+    "whyMatters": {
+      "title": "Perché è importante:",
+      "energy": {
+        "title": "Fonte energetica primaria:",
+        "desc": "Il carburante preferito dal tuo corpo per l'attività cerebrale e fisica"
+      },
+      "performance": {
+        "title": "Prestazione:",
+        "desc": "Fondamentale per l'esercizio ad alta intensità e le prestazioni atletiche"
+      },
+      "nutrients": {
+        "title": "Fibre e nutrienti:",
+        "desc": "I carboidrati integrali forniscono vitamine, minerali e benefici essenziali per la salute dell'apparato digerente."
+      }
+    },
+    "target": {
+      "title": "Obiettivo giornaliero:",
+      "desc": "Per le persone attive, l'obiettivo è di assumere <1>3-6 g per kg</1> di peso corporeo. Le persone sedentarie potrebbero aver bisogno di meno (2-3 g/kg). Concentrarsi su fonti alimentari complesse e integrali."
+    },
+    "sources": "Principali fonti di carboidrati:"
+  },
+  "fats": {
+    "title": "Grassi",
+    "kcal": "9 kcal/gram",
+    "whyMatters": {
+      "title": "Perché è importante:",
+      "hormone": {
+        "title": "Produzione ormonale:",
+        "desc": "Essenziale per il testosterone, gli estrogeni e altri ormoni vitali"
+      },
+      "vitamin": {
+        "title": "Assorbimento vitaminico:",
+        "desc": "Necessario per l'assorbimento delle vitamine liposolubili (A, D, E, K)"
+      },
+      "brain": {
+        "title": "Salute del cervello:",
+        "desc": "Il tuo cervello è composto per il 60% da grassi: gli omega-3 sono fondamentali per le funzioni cognitive."
+      }
+    },
+    "target": {
+      "title": "Obiettivo giornaliero:",
+      "desc": "Punta a un apporto di <1>0,8-1,2 g per kg</1> di peso corporeo, ovvero il 20-35% delle calorie totali. Dai la priorità ai grassi insaturi (olio d'oliva, frutta secca, pesce) rispetto ai grassi saturi."
+    },
+    "sources": "Principali fonti di grassi:"
+  },
+  "plate": {
+    "title": "Crea il tuo pasto equilibrato",
+    "legend": {
+      "protein": "Proteina {{val}}%",
+      "carbs": "Carboidrati {{val}}%",
+      "fats": "Grassi {{val}}%"
+    },
+    "sliders": {
+      "protein": {
+        "title": "Proteina",
+        "desc": "Muscoli e sazietà"
+      },
+      "carbs": {
+        "title": "Carboidrati",
+        "desc": "energia e prestazioni"
+      },
+      "fats": {
+        "title": "Grassi",
+        "desc": "Ormoni e vitamine"
+      }
+    },
+    "calories": {
+      "title": "Calorie stimate",
+      "subtitle": "(basato su una porzione da 200 g)",
+      "unit": "kcal"
+    },
+    "warning": {
+      "title": "Raccomandazione di bilanciamento",
+      "desc": "Per un'alimentazione ottimale: punta ad almeno il 15-25% di proteine (muscoli e sazietà), il 20-35% di grassi sani (ormoni) e il 40-60% di carboidrati (energia). Regola le proporzioni per raggiungere questi obiettivi."
+    }
+  },
+  "foods": {
+    "chicken": "Petto di pollo",
+    "yogurt": "Yogurt greco",
+    "eggs": "Uova",
+    "eggUnit": "1 uovo = 6 g di proteine",
+    "salmon": "Salmone",
+    "lentils": "Lenticchie",
+    "tofu": "Tofu",
+    "rice": "Riso integrale",
+    "oats": "Avena",
+    "potato": "patata dolce",
+    "quinoa": "Quinoa",
+    "banana": "Banana",
+    "bananaUnit": "1 porzione media = 27 g di carboidrati",
+    "bread": "Pane integrale",
+    "breadUnit": "1 fetta = 12 g di carboidrati",
+    "avocado": "Avocado",
+    "almonds": "Mandorle",
+    "almondsUnit": "28 g = 14 g di grassi",
+    "oil": "olio d'oliva",
+    "oilUnit": "1 cucchiaio = 14 g di grassi",
+    "peanutButter": "Burro di arachidi",
+    "pbUnit": "2 cucchiai = 16 g di grassi",
+    "chocolate": "Cioccolato fondente",
+    "chocolateUnit": "28 g = 9 g di grassi",
+    "unit100g": "100 g = {{val}} g {{macro}}"
+  }
+}

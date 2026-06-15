@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "back": "Trở lại trang chủ"
+  },
+  "header": {
+    "title": "Hướng dẫn nhịn ăn gián đoạn",
+    "subtitle": "Nắm vững khoa học về chế độ ăn uống hạn chế thời gian"
+  },
+  "tabs": {
+    "lab": "Phòng thí nghiệm nhịn ăn",
+    "log": "Nhật ký thành công"
+  },
+  "lab": {
+    "timeline": {
+      "title": "Dòng thời gian sinh học",
+      "stages": [
+        {
+          "hours": "0-4 giờ",
+          "title": "Giai đoạn tiêu hóa (Trạng thái đồng hóa)",
+          "description": "Cơ thể bạn đang tiêu hóa thức ăn và tích trữ năng lượng. Lượng đường trong máu tăng lên khi các chất dinh dưỡng được hấp thụ."
+        },
+        {
+          "hours": "4-12 giờ",
+          "title": "Quá trình đốt mỡ bắt đầu (Trạng thái dị hóa)",
+          "description": "Nồng độ insulin giảm xuống và cơ thể bạn bắt đầu phân giải chất béo dự trữ để tạo năng lượng."
+        },
+        {
+          "hours": "12-18 giờ",
+          "title": "Dọn dẹp tế bào (Tự thực bào)",
+          "description": "Cơ thể bạn bắt đầu loại bỏ các tế bào bị hư hại và tái chế các protein cũ - giống như một cuộc dọn dẹp mùa xuân bên trong."
+        },
+        {
+          "hours": "Trên 18 giờ",
+          "title": "Đốt cháy mỡ tối đa (Chế độ ăn Ketosis sâu)",
+          "description": "Cơ thể bạn đang hoạt động hoàn toàn bằng năng lượng dự trữ. Hormone tăng trưởng tăng lên và quá trình đốt cháy chất béo đạt đỉnh điểm."
+        }
+      ]
+    },
+    "breaksFast": {
+      "title": "Món ăn nào được dùng để kết thúc thời gian nhịn ăn?",
+      "safe": "An toàn khi nhịn ăn:",
+      "safeList": "Nước, cà phê đen, trà không đường, nước khoáng có ga, muối/chất điện giải",
+      "breaks": "Kết thúc thời gian nhịn ăn:",
+      "breaksList": "Bất cứ thứ gì chứa calo - sữa, đường, kem, đồ uống protein, BCAA, nước ngọt ăn kiêng có chất tạo ngọt nhân tạo."
+    },
+    "tips": {
+      "title": "Mẹo chuyên nghiệp để thành công",
+      "tip1": {
+        "title": "Bắt đầu từ từ",
+        "desc": "Hãy bắt đầu với phương pháp nhịn ăn 12:12 và tăng dần thời gian nhịn ăn lên."
+      },
+      "tip2": {
+        "title": "Hãy uống đủ nước.",
+        "desc": "Hãy uống nhiều nước trong suốt thời gian nhịn ăn."
+      },
+      "tip3": {
+        "title": "Hãy lắng nghe cơ thể của bạn",
+        "desc": "Cảm thấy không khỏe? Không sao cả, bạn có thể tạm dừng việc nhịn ăn."
+      },
+      "tip4": {
+        "title": "Chất lượng là điều quan trọng",
+        "desc": "Hãy tập trung vào các thực phẩm giàu chất dinh dưỡng trong khung giờ ăn."
+      }
+    }
+  },
+  "log": {
+    "form": {
+      "title": "Ghi nhật ký nhanh hôm nay",
+      "lastMeal": "Bữa ăn cuối cùng (Hôm qua):",
+      "firstMeal": "Giờ ăn đầu tiên (Hôm nay):",
+      "duration": "Tổng thời gian nhịn ăn",
+      "goalAchieved": "Mục tiêu đã đạt được! Bạn đã hoàn thành việc nhịn ăn hơn 16 tiếng!",
+      "submit": "Ghi nhật ký nhanh"
+    },
+    "tracker": {
+      "title": "Chương trình tăng tốc 30 ngày",
+      "streak": "Chuỗi trận hiện tại:",
+      "streakDays": "{{count}} ngày",
+      "last30": "30 ngày cuối cùng",
+      "legend": {
+        "goalMet": "Mục tiêu đã đạt được (hơn 16 giờ)",
+        "today": "Hôm nay",
+        "missed": "Ngày nghỉ"
+      }
+    },
+    "recentFasts": {
+      "title": "Những lần nhịn ăn gần đây",
+      "goalMet": "Mục tiêu với"
+    }
+  }
+}

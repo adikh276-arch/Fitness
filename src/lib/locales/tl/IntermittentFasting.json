@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "back": "Balik sa Dashboard"
+  },
+  "header": {
+    "title": "Gabay sa Pasulput-sulpot na Pag-aayuno",
+    "subtitle": "Pag-aralan ang agham ng pagkain na may limitadong oras"
+  },
+  "tabs": {
+    "lab": "Ang Laboratoryo ng Pag-aayuno",
+    "log": "Talaan ng Tagumpay"
+  },
+  "lab": {
+    "timeline": {
+      "title": "Ang Biyolohikal na Timeline",
+      "stages": [
+        {
+          "hours": "0-4 na Oras",
+          "title": "Yugto ng Pagtunaw (Estado ng Anabolic)",
+          "description": "Ang iyong katawan ay nagtutunaw ng pagkain at nag-iimbak ng enerhiya. Tumataas ang asukal sa dugo habang nasisipsip ang mga sustansya."
+        },
+        {
+          "hours": "4-12 Oras",
+          "title": "Nagsisimula ang Pagsunog ng Taba (Estado ng Catabolic)",
+          "description": "Bumababa ang antas ng insulin at nagsisimulang basagin ng iyong katawan ang nakaimbak na taba para sa enerhiya."
+        },
+        {
+          "hours": "12-18 Oras",
+          "title": "Paglilinis ng Selula (Autophagy)",
+          "description": "Nagsisimulang tanggalin ng iyong katawan ang mga sirang selula at i-recycle ang mga lumang protina - tulad ng panloob na paglilinis tuwing tagsibol."
+        },
+        {
+          "hours": "18+ Oras",
+          "title": "Pinakamataas na Pagsunog ng Taba (Deep Ketosis)",
+          "description": "Ang iyong katawan ay ganap na nauubusan ng taba. Tumataas ang growth hormone at umaabot sa sukdulan ang pagsunog ng taba."
+        }
+      ]
+    },
+    "breaksFast": {
+      "title": "Ano ang Nakakasira ng Pag-aayuno?",
+      "safe": "Ligtas Habang Nag-aayuno:",
+      "safeList": "Tubig, Itim na Kape, Plain Tea, Sparkling Water, Asin/Electrolytes",
+      "breaks": "Nagpapatigil sa Iyong Pag-aayuno:",
+      "breaksList": "Anumang bagay na may calories - gatas, asukal, cream, protein shakes, BCAAs, diet soda na may artipisyal na pampatamis"
+    },
+    "tips": {
+      "title": "Mga Tip para sa Tagumpay",
+      "tip1": {
+        "title": "Simulan nang Unti-unti",
+        "desc": "Magsimula sa 12:12 at dagdagan pa ng mas mahabang pag-aayuno"
+      },
+      "tip2": {
+        "title": "Manatiling Hydrated",
+        "desc": "Uminom ng maraming tubig sa buong pag-aayuno mo"
+      },
+      "tip3": {
+        "title": "Pakinggan ang Iyong Katawan",
+        "desc": "Masama ang pakiramdam? Ayos lang na itigil ang pag-aayuno"
+      },
+      "tip4": {
+        "title": "Mahalaga ang Kalidad",
+        "desc": "Tumutok sa mga pagkaing mayaman sa sustansya habang kumakain"
+      }
+    }
+  },
+  "log": {
+    "form": {
+      "title": "Mag-log ng Mabilis Ngayon",
+      "lastMeal": "Huling Oras ng Pagkain (Kahapon):",
+      "firstMeal": "Unang Oras ng Pagkain (Ngayon):",
+      "duration": "Kabuuang Tagal ng Pag-aayuno",
+      "goalAchieved": "Nakamit ang Layunin! Nakumpleto mo ang 16+ oras na pag-aayuno!",
+      "submit": "Mag-log Ito Nang Mabilis"
+    },
+    "tracker": {
+      "title": "30-Araw na Mabilis na Tagasubaybay",
+      "streak": "Kasalukuyang Guhit:",
+      "streakDays": "{{count}} araw",
+      "last30": "Huling 30 Araw",
+      "legend": {
+        "goalMet": "Naabot ang Layunin (16+ oras)",
+        "today": "Ngayon",
+        "missed": "Hindi Natapos na Araw"
+      }
+    },
+    "recentFasts": {
+      "title": "Mga Kamakailang Pag-aayuno",
+      "goalMet": "Layunin Gamit ang"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "shell": {
+    "title": "Sumber Penjagaan Diri",
+    "subtitle": "Terokai alatan dan panduan untuk perjalanan kesejahteraan anda"
+  },
+  "sections": {
+    "tools": "Alatan",
+    "guides": "Panduan Pemakanan & Diet",
+    "workouts": "Kawasan Senaman",
+    "learning": "Pembelajaran Pilihan"
+  },
+  "tools": {
+    "macro": {
+      "label": "Kalkulator Pemakanan",
+      "desc": "Kira makro"
+    },
+    "calories": {
+      "label": "Pembakar Kalori",
+      "desc": "Aktiviti log"
+    },
+    "fasting": {
+      "label": "Pencatat Puasa",
+      "desc": "Jejaki puasa"
+    },
+    "bmi": {
+      "label": "Kalkulator BMI",
+      "desc": "Metrik badan"
+    }
+  },
+  "guides": {
+    "weightLoss": "Penurunan Berat Badan",
+    "diabetes": "Diet Diabetes",
+    "muscle": "Peningkatan Otot",
+    "gut": "Kesihatan Usus",
+    "keto": "Asas Keto",
+    "heart": "Kesihatan Jantung",
+    "fasting": "Puasa Berselang-seli",
+    "vegan": "Pemakanan Vegan"
+  },
+  "workouts": {
+    "yoga": "Yoga",
+    "hiit": "HIIT",
+    "strength": "Latihan Kekuatan",
+    "posture": "Pembetulan Postur",
+    "home": "Senaman di Rumah",
+    "flexibility": "Fleksibiliti"
+  },
+  "learning": {
+    "macros": {
+      "title": "Memahami Makronutrien",
+      "desc": "Ketahui asas protein, karbohidrat dan lemak"
+    },
+    "others": {
+      "title": "Lain-lain",
+      "desc": "Terokai lebih banyak alatan kesihatan interaktif"
+    }
+  },
+  "others": {
+    "title": "Sumber Lain",
+    "subtitle": "Terokai lebih banyak alat untuk perjalanan kesihatan anda",
+    "tools": {
+      "foodDiary": {
+        "label": "Diari Makanan",
+        "desc": "Jejaki makanan anda"
+      },
+      "planPlate": {
+        "label": "Rancang Pinggan Anda",
+        "desc": "Seimbangkan hidangan anda"
+      },
+      "sugarEase": {
+        "label": "Kemudahan Gula Harian",
+        "desc": "Urus pengambilan gula"
+      },
+      "recipeLog": {
+        "label": "Log Resipi Sihat",
+        "desc": "Simpan resipi anda"
+      }
+    }
+  }
+}

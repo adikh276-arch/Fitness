@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "back": "Retour au tableau de bord"
+  },
+  "header": {
+    "title": "IMC intelligent et contexte corporel",
+    "subtitle": "Suivez vos paramètres corporels avec une précision clinique"
+  },
+  "streak": {
+    "title": "Maintien d'une gamme saine !",
+    "subtitle": "{{count}} lectures consécutives dans la zone saine 🎉"
+  },
+  "tabs": {
+    "calculator": "Calculateur d'IMC",
+    "context": "Au-delà de l'IMC",
+    "history": "Historique des tendances"
+  },
+  "calculator": {
+    "title": "Calculez votre IMC",
+    "inputs": {
+      "height": "Hauteur",
+      "weight": "Poids",
+      "feet": "Pieds",
+      "inches": "Pouces",
+      "placeholders": {
+        "heightCm": "par exemple, 170",
+        "heightFt": "Pieds",
+        "heightIn": "Pouces",
+        "weightKg": "par exemple, 70",
+        "weightLbs": "par exemple, 154"
+      }
+    },
+    "results": {
+      "yourBMI": "Votre IMC",
+      "placeholder": "Saisissez vos mensurations pour connaître votre IMC",
+      "submit": "Enregistrer dans le profil",
+      "success": "✓ Sauvegarde réussie !",
+      "categories": {
+        "underweight": "Insuffisance pondérale",
+        "healthy": "Poids santé",
+        "normal": "Normale",
+        "overweight": "Embonpoint",
+        "obese": "Obèse",
+        "enterData": "Saisir les données"
+      }
+    },
+    "tip": "Pensez à intégrer une activité physique régulière et une alimentation équilibrée à votre routine.",
+    "disclaimer": {
+      "title": "Avertissement médical",
+      "text": "L'IMC est un outil de dépistage général et ne fait pas la distinction entre la masse musculaire et la masse grasse. Consultez un professionnel de la santé pour obtenir des conseils médicaux personnalisés."
+    }
+  },
+  "beyond": {
+    "title": "Rapport taille-hauteur (RTH)",
+    "why": {
+      "title": "Pourquoi c'est important",
+      "desc": "Maintenir son tour de taille en dessous de la moitié de sa taille réduit le risque cardiovasculaire. Le rapport taille/hauteur (RTH) est plus précis que l'IMC pour prédire les problèmes de santé métabolique.",
+      "target": "Objectif : un ratio inférieur à 0,5 pour une santé optimale"
+    },
+    "inputs": {
+      "waist": "Tour de taille",
+      "waistHint": "Mesurez votre tour de taille à l'endroit le plus étroit, généralement juste au-dessus du nombril.",
+      "placeholders": {
+        "waistCm": "par exemple, 80",
+        "waistIn": "par exemple, 31"
+      }
+    },
+    "results": {
+      "healthy": "Forme saine",
+      "elevated": "Risque élevé",
+      "placeholder": "Veuillez saisir votre taille et votre tour de taille pour connaître votre ratio.",
+      "waistMeasurementPlaceholder": "Saisissez votre tour de taille",
+      "label": "Rapport taille-hauteur",
+      "submit": "Enregistrer dans le profil (IMC + rapport taille/hanches)"
+    },
+    "comparison": {
+      "title": "IMC vs rapport taille/hanches : La différence",
+      "bmi": {
+        "title": "IMC",
+        "desc": "Catégorie de poids générale, ne tenant pas compte de la masse musculaire ni de la répartition des graisses"
+      },
+      "whtr": {
+        "title": "WHtR",
+        "desc": "Mesure l'obésité abdominale, meilleur indicateur des maladies cardiovasculaires et du diabète"
+      }
+    }
+  },
+  "history": {
+    "title": "Mesures récentes",
+    "noHistory": "Aucune histoire pour le moment",
+    "noHistoryDesc": "Commencez à suivre votre IMC et vos mensurations corporelles pour observer l'évolution de vos progrès au fil du temps.",
+    "stats": {
+      "title": "Vos statistiques",
+      "total": "Enregistrements totaux",
+      "latest": "IMC le plus récent",
+      "healthyCount": "Nombre sain",
+      "bestStreak": "Meilleure série"
+    }
+  }
+}

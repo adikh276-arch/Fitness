@@ -1,0 +1,109 @@
+{
+  "nav": {
+    "back": "Back to Dashboard"
+  },
+  "header": {
+    "title": "Understanding Macro-nutrients",
+    "subtitle": "Learn the fundamentals of protein, carbs, and fats"
+  },
+  "tabs": {
+    "protein": "Protein",
+    "carbs": "Carbs",
+    "fats": "Fats",
+    "plate": "Plate Builder"
+  },
+  "protein": {
+    "title": "Protein",
+    "kcal": "4 kcal/gram",
+    "whyMatters": {
+      "title": "Why It Matters:",
+      "muscle": { "title": "Muscle Repair & Growth:", "desc": "Essential for building and maintaining lean muscle mass" },
+      "satiety": { "title": "Satiety:", "desc": "Keeps you feeling full longer, reducing overall calorie intake" },
+      "metabolic": { "title": "Metabolic Boost:", "desc": "Highest thermic effect of all macros (20-30% of calories burned during digestion)" }
+    },
+    "target": {
+      "title": "Daily Target:",
+      "desc": "For optimal health and muscle maintenance, aim for <1>1.6-2.2g per kg</1> of body weight. Athletes and those building muscle may need up to 2.5g/kg."
+    },
+    "sources": "Top Protein Sources:"
+  },
+  "carbs": {
+    "title": "Carbohydrates",
+    "kcal": "4 kcal/gram",
+    "whyMatters": {
+      "title": "Why It Matters:",
+      "energy": { "title": "Primary Energy Source:", "desc": "Your body's preferred fuel for brain and physical activity" },
+      "performance": { "title": "Performance:", "desc": "Critical for high-intensity exercise and athletic performance" },
+      "nutrients": { "title": "Fiber & Nutrients:", "desc": "Whole carbs provide essential vitamins, minerals, and digestive health" }
+    },
+    "target": {
+      "title": "Daily Target:",
+      "desc": "For active individuals, aim for <1>3-6g per kg</1> of body weight. Sedentary individuals may need less (2-3g/kg). Focus on complex, whole-food sources."
+    },
+    "sources": "Top Carb Sources:"
+  },
+  "fats": {
+    "title": "Fats",
+    "kcal": "9 kcal/gram",
+    "whyMatters": {
+      "title": "Why It Matters:",
+      "hormone": { "title": "Hormone Production:", "desc": "Essential for testosterone, estrogen, and other vital hormones" },
+      "vitamin": { "title": "Vitamin Absorption:", "desc": "Required to absorb fat-soluble vitamins (A, D, E, K)" },
+      "brain": { "title": "Brain Health:", "desc": "Your brain is 60% fat - omega-3s are crucial for cognitive function" }
+    },
+    "target": {
+      "title": "Daily Target:",
+      "desc": "Aim for <1>0.8-1.2g per kg</1> of body weight, or 20-35% of total calories. Prioritize unsaturated fats (olive oil, nuts, fish) over saturated fats."
+    },
+    "sources": "Top Fat Sources:"
+  },
+  "plate": {
+    "title": "Build Your Balanced Meal",
+    "legend": {
+      "protein": "Protein {{val}}%",
+      "carbs": "Carbs {{val}}%",
+      "fats": "Fats {{val}}%"
+    },
+    "sliders": {
+      "protein": { "title": "Protein", "desc": "Muscle & satiety" },
+      "carbs": { "title": "Carbohydrates", "desc": "Energy & performance" },
+      "fats": { "title": "Fats", "desc": "Hormones & vitamins" }
+    },
+    "calories": {
+      "title": "Estimated Calories",
+      "subtitle": "(based on 200g portion)",
+      "unit": "kcal"
+    },
+    "warning": {
+      "title": "Balance Recommendation",
+      "desc": "For optimal nutrition: Aim for at least 15-25% protein (muscle & satiety), 20-35% healthy fats (hormones), and 40-60% carbs (energy). Adjust your ratios to meet these targets."
+    }
+  },
+  "foods": {
+    "chicken": "Chicken Breast",
+    "yogurt": "Greek Yogurt",
+    "eggs": "Eggs",
+    "eggUnit": "1 egg = 6g protein",
+    "salmon": "Salmon",
+    "lentils": "Lentils",
+    "tofu": "Tofu",
+    "rice": "Brown Rice",
+    "oats": "Oats",
+    "potato": "Sweet Potato",
+    "quinoa": "Quinoa",
+    "banana": "Banana",
+    "bananaUnit": "1 medium = 27g carbs",
+    "bread": "Whole Wheat Bread",
+    "breadUnit": "1 slice = 12g carbs",
+    "avocado": "Avocado",
+    "almonds": "Almonds",
+    "almondsUnit": "28g = 14g fat",
+    "oil": "Olive Oil",
+    "oilUnit": "1 tbsp = 14g fat",
+    "peanutButter": "Peanut Butter",
+    "pbUnit": "2 tbsp = 16g fat",
+    "chocolate": "Dark Chocolate",
+    "chocolateUnit": "28g = 9g fat",
+    "unit100g": "100g = {{val}}g {{macro}}"
+  }
+}

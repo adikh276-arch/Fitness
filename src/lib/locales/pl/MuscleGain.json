@@ -1,0 +1,174 @@
+{
+  "nav": {
+    "back": "Powrót do pulpitu nawigacyjnego"
+  },
+  "header": {
+    "title": "Przewodnik po budowaniu masy mięśniowej",
+    "subtitle": "Podejście oparte na nauce do budowania mięśni i siły"
+  },
+  "tabs": {
+    "plan": "Plan wzrostu",
+    "metrics": "Rejestr metryk ciała",
+    "habits": "Nawyki hipertroficzne"
+  },
+  "plan": {
+    "pillars": {
+      "caloric": {
+        "title": "Nadwyżka kaloryczna",
+        "value": "TDEE + 250 do 500 kcal",
+        "desc": "Twój organizm potrzebuje dodatkowej energii do budowy nowej tkanki mięśniowej. Zbyt mało oznacza brak wzrostu; zbyt dużo – zbędny tłuszcz. Staraj się spożywać o 250–500 kcal więcej niż wynosi Twoje całkowite dzienne zapotrzebowanie energetyczne (TDEE)."
+      },
+      "protein": {
+        "title": "Synteza białek",
+        "value": "1,8 g do 2,2 g na kg",
+        "desc": "Białko jest budulcem mięśni. Badania pokazują, że 1,8–2,2 g białka na kilogram masy ciała maksymalizuje syntezę białek mięśniowych i ich regenerację."
+      },
+      "overload": {
+        "title": "Progresywne przeciążenie",
+        "value": "Postęp tygodniowy",
+        "desc": "Mięśnie rosną w odpowiedzi na rosnące wymagania. Każdego tygodnia staraj się zwiększać ciężar, liczbę powtórzeń lub serii. Śledź swoją całkowitą objętość (seria × powtórzenia × ciężar), aby zapewnić stały progres."
+      }
+    },
+    "mealTiming": {
+      "title": "Czas posiłków dla wzrostu mięśni",
+      "subtitle": "Chociaż najważniejsze jest całkowite dzienne spożycie, strategiczne rozplanowanie czasu może zoptymalizować wydajność i regenerację:",
+      "preWorkoutLong": {
+        "time": "2-3 godziny przed",
+        "title": "Przedtreningówka",
+        "desc": "Zbilansowany posiłek z węglowodanami i białkiem"
+      },
+      "preWorkoutCarbs": {
+        "time": "30-60 minut przed",
+        "title": "Węglowodany przedtreningowe",
+        "desc": "Szybkie węglowodany dostarczające energii (banan, ciastka ryżowe)"
+      },
+      "training": {
+        "time": "Podczas",
+        "title": "Szkolenie",
+        "desc": "Nawodnienie + opcjonalne węglowodany w trakcie treningu"
+      },
+      "postWorkout": {
+        "time": "W ciągu 2 godzin",
+        "title": "Białko po treningu",
+        "desc": "30-40 g białka + węglowodany na regenerację"
+      },
+      "eveningProtein": {
+        "time": "Przed snem",
+        "title": "Wieczorne białko",
+        "desc": "Kazeina lub białko wolno trawione"
+      }
+    },
+    "principles": {
+      "title": "Kluczowe zasady sukcesu",
+      "p1": {
+        "title": "Konsekwencja jest ważniejsza od perfekcji:",
+        "desc": "Pominięcie jednego treningu lub posiłku nie zabije przyrostów, ale brak konsekwencji tak."
+      },
+      "p2": {
+        "title": "Sen jest anaboliczny:",
+        "desc": "Aby zapewnić optymalną regenerację i uwalnianie hormonu wzrostu, staraj się spać 7–9 godzin każdej nocy"
+      },
+      "p3": {
+        "title": "Śledź swoją głośność:",
+        "desc": "To, co się mierzy, można ulepszyć – rejestruj swoje podnoszenia, aby zapewnić progresywne przeciążenie"
+      },
+      "p4": {
+        "title": "Wymagana jest cierpliwość:",
+        "desc": "Naturalny przyrost masy mięśniowej wynosi 0,5–1 kg miesięcznie u początkujących, wolniejszy u zaawansowanych podnosicieli ciężarów"
+      }
+    }
+  },
+  "metrics": {
+    "strength": {
+      "totalVolume": "Całkowity tygodniowy wolumen",
+      "volumeTarget": "Docelowa objętość dla {{weight}}kg masy ciała",
+      "kgLifted": "podniesionych kg",
+      "goal": "celu {{celu}}kg",
+      "awayFromTarget": "Brakuje Ci {{gap}} kg do osiągnięcia docelowej masy ciała",
+      "setTarget": "Ustaw poniżej swoją docelową wagę, aby zobaczyć swój cel objętościowy",
+      "statusLabels": {
+        "setTarget": "Ustaw wagę docelową",
+        "building": "Fundament budynku",
+        "growth": "Strefa wzrostu",
+        "hit": "Osiągnięto docelową pojemność"
+      }
+    },
+    "form": {
+      "title": "Pomiary ciała dziennika",
+      "currentWeight": "Aktualna waga (kg)",
+      "targetWeight": "Waga docelowa (kg) *",
+      "targetWeightHint": "Ustawia cel wolumenowy",
+      "chest": "Klatka piersiowa (cale)",
+      "chestHint": "Zmierz na linii sutka",
+      "waist": "Talia (cale)",
+      "waistHint": "Na poziomie pępka",
+      "bicepR": "Prawy biceps (wewnątrz)",
+      "bicepRHint": "Zgięta, najszersza część",
+      "bicepL": "Lewy biceps (wewnątrz)",
+      "bicepLHint": "Fakultatywny",
+      "thigh": "Udo (w)",
+      "thighHint": "Najszersza część",
+      "submit": "Pomiary kłód",
+      "success": "Metryki zostały pomyślnie zarejestrowane!"
+    },
+    "volume": {
+      "title": "Kalkulator objętości",
+      "exercise": "Ćwiczenia",
+      "sets": "Zestawy",
+      "reps": "Przedstawiciele",
+      "weight": "Waga (kg)",
+      "totalVolume": "Całkowita objętość",
+      "remaining": "Pozostało do bramki",
+      "submit": "Objętość dziennika",
+      "logged": "{{lift}} zalogowano: {{volume}}kg całkowitej objętości!"
+    },
+    "chart": {
+      "title": "Wykres postępu",
+      "weight": "Waga (kg)",
+      "chest": "Klatka piersiowa (w)",
+      "bicep": "Biceps (w)"
+    },
+    "noData": "Nie zarejestrowano jeszcze żadnych pomiarów. Zacznij śledzić swoje postępy!"
+  },
+  "habits": {
+    "title": "Dzisiejsze nawyki hipertroficzne",
+    "subtitle": "Zaznacz każdy nawyk po jego wykonaniu",
+    "items": {
+      "surplus": {
+        "title": "Nadwyżka kaloryczna Met",
+        "desc": "Osiągnij swój cel kaloryczny już dziś"
+      },
+      "protein": {
+        "title": "Cel białkowy osiągnięty",
+        "desc": "1,8-2,2 g na kg masy ciała"
+      },
+      "creatine": {
+        "title": "Kreatyna przyjmowana",
+        "desc": "3-5 g dziennie dla lepszej wydajności"
+      },
+      "sleep": {
+        "title": "Jakościowy sen",
+        "desc": "7-9 godzin dla optymalnej regeneracji"
+      },
+      "trained": {
+        "title": "Wyszkolony dzisiaj",
+        "desc": "Ukończyłeś sesję treningową"
+      }
+    },
+    "recovery": {
+      "title": "Stan odzyskiwania",
+      "good": "Zoptymalizowane odzyskiwanie",
+      "goodDesc": "Świetna robota z tym snem i białkiem! Twoje mięśnie regenerują się optymalnie.",
+      "improve": "Miejsce na poprawę",
+      "improveDesc": "Skoncentruj się na śnie i osiągnięciu założonego celu dotyczącego spożycia białka, aby lepiej się regenerować."
+    },
+    "calendar": {
+      "title": "30-dniowa seria nawyków",
+      "legend": {
+        "perfect": "Idealny (5/5)",
+        "partial": "Częściowy",
+        "none": "Niekompletny"
+      }
+    }
+  }
+}

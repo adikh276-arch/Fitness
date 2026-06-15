@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "back": "Volver al panel de control"
+  },
+  "header": {
+    "title": "Rastreador de ingesta de agua",
+    "subtitle": "Controla tu hidratación diaria y alcanza tus objetivos."
+  },
+  "tabs": {
+    "tracker": "Rastreador de hoy",
+    "history": "Historia"
+  },
+  "tracker": {
+    "consumed": "ml consumidos",
+    "goalLabel": "Meta diaria",
+    "remainingLabel": "Restante",
+    "changeGoal": "Cambiar la meta diaria",
+    "quickAdd": {
+      "title": "Agregar rápidamente",
+      "smallGlass": "Cortadillo",
+      "bottle": "Botella",
+      "largeBottle": "Botella grande",
+      "jug": "Jarra"
+    },
+    "custom": {
+      "label": "Cantidad personalizada (ml)",
+      "placeholder": "p. ej., 350",
+      "submit": "Agregar",
+      "undo": "Deshacer la última entrada"
+    }
+  },
+  "history": {
+    "title": "Historial de captación de agua",
+    "noHistory": "Aún no hay historial disponible",
+    "today": "Hoy",
+    "summary": "{{total}} ml / {{objetivo}} ml ({{porcentaje}}%)",
+    "stats": {
+      "total": "Total",
+      "entries": "Entradas"
+    }
+  },
+  "modal": {
+    "title": "Establecer una meta diaria",
+    "subtitle": "Introduce tu ingesta diaria de agua objetivo.",
+    "placeholder": "p. ej., 2500",
+    "calcToggleShow": "Calcular recomendado",
+    "calcToggleHide": "Ocultar calculadora",
+    "formula": "Fórmula: Peso (kg) × 35 ml",
+    "weightLabel": "Tu peso (kg)",
+    "weightPlaceholder": "p. ej., 70",
+    "calcBtn": "Calcular y aplicar",
+    "cancel": "Cancelar",
+    "save": "Ahorrar"
+  }
+}

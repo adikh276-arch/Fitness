@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "back": "Voltar ao painel de controle"
+  },
+  "header": {
+    "title": "IMC Inteligente e Contexto Corporal",
+    "subtitle": "Monitore suas métricas corporais com precisão clínica."
+  },
+  "streak": {
+    "title": "Faixa de temperatura saudável mantida!",
+    "subtitle": "{{count}} leituras consecutivas na zona saudável 🎉"
+  },
+  "tabs": {
+    "calculator": "Calculadora de IMC",
+    "context": "Além do IMC",
+    "history": "Histórico de tendências"
+  },
+  "calculator": {
+    "title": "Calcule seu IMC",
+    "inputs": {
+      "height": "Altura",
+      "weight": "Peso",
+      "feet": "Pés",
+      "inches": "Polegadas",
+      "placeholders": {
+        "heightCm": "Exemplo: 170",
+        "heightFt": "Pés",
+        "heightIn": "Polegadas",
+        "weightKg": "Por exemplo, 70",
+        "weightLbs": "Exemplo: 154"
+      }
+    },
+    "results": {
+      "yourBMI": "Seu IMC",
+      "placeholder": "Insira suas medidas para calcular seu IMC.",
+      "submit": "Salvar no perfil",
+      "success": "✓ Salvo com sucesso!",
+      "categories": {
+        "underweight": "Abaixo do peso",
+        "healthy": "Peso saudável",
+        "normal": "Normal",
+        "overweight": "Sobrepeso",
+        "obese": "Obeso",
+        "enterData": "Insira os dados"
+      }
+    },
+    "tip": "Considere incorporar exercícios físicos regulares e uma dieta equilibrada à sua rotina.",
+    "disclaimer": {
+      "title": "Aviso Médico",
+      "text": "O IMC é uma ferramenta geral de triagem e não diferencia entre massa muscular e massa gorda. Consulte profissionais de saúde para obter aconselhamento médico personalizado."
+    }
+  },
+  "beyond": {
+    "title": "Relação cintura-estatura (RCE)",
+    "why": {
+      "title": "Por que isso é importante",
+      "desc": "Manter a circunferência da cintura em menos da metade da sua altura reduz o risco cardiovascular. A relação cintura-estatura (RCE) é mais precisa do que o IMC para prever condições de saúde metabólica.",
+      "target": "Meta: Proporção < 0,5 para uma saúde ideal."
+    },
+    "inputs": {
+      "waist": "Circunferência da cintura",
+      "waistHint": "Meça na parte mais estreita da sua cintura, geralmente logo acima do umbigo.",
+      "placeholders": {
+        "waistCm": "Por exemplo, 80",
+        "waistIn": "Exemplo: 31"
+      }
+    },
+    "results": {
+      "healthy": "Forma saudável",
+      "elevated": "Risco elevado",
+      "placeholder": "Por favor, insira sua altura e circunferência da cintura para calcular sua proporção.",
+      "waistMeasurementPlaceholder": "Insira a medida da cintura",
+      "label": "Relação cintura-altura",
+      "submit": "Salvar no perfil (IMC + RCQ)"
+    },
+    "comparison": {
+      "title": "IMC vs. Relação cintura-estatura: a diferença",
+      "bmi": {
+        "title": "IMC",
+        "desc": "Categoria de peso geral, não leva em consideração a massa muscular ou a distribuição de gordura."
+      },
+      "whtr": {
+        "title": "WHtR",
+        "desc": "Mede a obesidade central, melhor preditor de doenças cardiovasculares e diabetes."
+      }
+    }
+  },
+  "history": {
+    "title": "Medições recentes",
+    "noHistory": "Ainda não há histórico.",
+    "noHistoryDesc": "Comece a monitorar seu IMC e suas medidas corporais para acompanhar sua evolução ao longo do tempo.",
+    "stats": {
+      "title": "Suas estatísticas",
+      "total": "Registros totais",
+      "latest": "Último IMC",
+      "healthyCount": "Contagem saudável",
+      "bestStreak": "Melhor sequência"
+    }
+  }
+}

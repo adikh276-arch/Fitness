@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "back": "Zurück zum Dashboard"
+  },
+  "header": {
+    "title": "Makro-Rechner",
+    "subtitle": "Berechnen Sie Ihren täglichen Kalorien- und Makronährstoffbedarf."
+  },
+  "tabs": {
+    "input": "Ihre Angaben",
+    "results": "Ihre Ergebnisse"
+  },
+  "form": {
+    "title": "Ihre Angaben",
+    "age": "Alter (Jahre)",
+    "gender": "Geschlecht",
+    "male": "Männlich",
+    "female": "Weiblich",
+    "weight": "Gewicht",
+    "height": "Höhe",
+    "activity": "Aktivitätsniveau",
+    "goal": "Ziel",
+    "submit": "Makros berechnen",
+    "placeholders": {
+      "age": "z.B. 30",
+      "weightKg": "z.B. 70",
+      "weightLbs": "z.B. 154",
+      "heightCm": "z.B. 175",
+      "heightFt": "Füße",
+      "heightIn": "Zoll"
+    },
+    "activityLevels": {
+      "sedentary": "Sitzender Lebensstil (wenig/keine Bewegung)",
+      "light": "Leicht aktiv (1-3 Tage/Woche)",
+      "moderate": "Mäßig aktiv (3-5 Tage/Woche)",
+      "very": "Sehr aktiv (6-7 Tage/Woche)"
+    },
+    "goals": {
+      "maintenance": "Wartung",
+      "loss": "Gewichtsverlust",
+      "gain": "Muskelaufbau"
+    }
+  },
+  "results": {
+    "title": "Ihre Ergebnisse",
+    "calorieTarget": "Tägliches Kalorienziel",
+    "kcalPerDay": "kcal/Tag",
+    "bmrLabel": "Grundumsatz: {{val}} kcal",
+    "protein": "Protein",
+    "carbs": "Kohlenhydrate",
+    "fat": "Fett",
+    "submit": "Zum Profil hinzufügen",
+    "placeholder": "Geben Sie Ihre Daten ein und klicken Sie auf „Berechnen“, um Ihre Ergebnisse anzuzeigen.",
+    "success": "Makrodaten gespeichert! Ihre Profildetails wurden synchronisiert.",
+    "validation": "Bitte geben Sie gültige Werte ein."
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "back": "Terug naar het dashboard"
+  },
+  "header": {
+    "title": "Handleiding voor intermitterend vasten",
+    "subtitle": "Beheers de wetenschap van tijdgebonden eten."
+  },
+  "tabs": {
+    "lab": "Het vastenlaboratorium",
+    "log": "Succeslogboek"
+  },
+  "lab": {
+    "timeline": {
+      "title": "De biologische tijdlijn",
+      "stages": [
+        {
+          "hours": "0-4 uur",
+          "title": "Spijsverteringsfase (anabole toestand)",
+          "description": "Je lichaam verteert voedsel en slaat energie op. De bloedsuikerspiegel stijgt naarmate voedingsstoffen worden opgenomen."
+        },
+        {
+          "hours": "4-12 uur",
+          "title": "Vetverbranding begint (katabole toestand)",
+          "description": "Het insulineniveau daalt en je lichaam begint opgeslagen vet af te breken voor energie."
+        },
+        {
+          "hours": "12-18 uur",
+          "title": "Cellulaire opruiming (autofagie)",
+          "description": "Je lichaam begint beschadigde cellen te verwijderen en oude eiwitten te recyclen - een soort interne voorjaarsschoonmaak."
+        },
+        {
+          "hours": "18+ uur",
+          "title": "Maximale vetverbranding (diepe ketose)",
+          "description": "Je lichaam draait volledig op vet. De groeihormoonspiegel stijgt en de vetverbranding bereikt een piek."
+        }
+      ]
+    },
+    "breaksFast": {
+      "title": "Wat verbreekt het vasten?",
+      "safe": "Veilig tijdens het vasten:",
+      "safeList": "Water, zwarte koffie, gewone thee, bruisend water, zout/elektrolyten",
+      "breaks": "Het vasten wordt verbroken:",
+      "breaksList": "Alles wat calorieën bevat: melk, suiker, room, proteïneshakes, BCAA's, light frisdrank met kunstmatige zoetstoffen."
+    },
+    "tips": {
+      "title": "Professionele tips voor succes",
+      "tip1": {
+        "title": "Begin geleidelijk.",
+        "desc": "Begin met 12:12 en bouw het vasten geleidelijk op naar langere periodes."
+      },
+      "tip2": {
+        "title": "Blijf gehydrateerd.",
+        "desc": "Drink tijdens het vasten veel water."
+      },
+      "tip3": {
+        "title": "Luister naar je lichaam.",
+        "desc": "Voelt u zich niet lekker? Dan mag u gerust uw vasten verbreken."
+      },
+      "tip4": {
+        "title": "Kwaliteit is belangrijk",
+        "desc": "Richt je tijdens het eetvenster op voedzame producten."
+      }
+    }
+  },
+  "log": {
+    "form": {
+      "title": "Noteer het vasten van vandaag",
+      "lastMeal": "Laatste maaltijd (gisteren):",
+      "firstMeal": "Eerste maaltijd (vandaag):",
+      "duration": "Totale vastenduur",
+      "goalAchieved": "Doel bereikt! Je hebt meer dan 16 uur gevast!",
+      "submit": "Registreer dit snel"
+    },
+    "tracker": {
+      "title": "30-dagen sneltracker",
+      "streak": "Huidige reeks:",
+      "streakDays": "{{count}} dagen",
+      "last30": "Afgelopen 30 dagen",
+      "legend": {
+        "goalMet": "Doel bereikt (16+ uur)",
+        "today": "Vandaag",
+        "missed": "Gemiste dag"
+      }
+    },
+    "recentFasts": {
+      "title": "Recente vasten",
+      "goalMet": "Goal Met"
+    }
+  }
+}

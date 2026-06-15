@@ -1,0 +1,53 @@
+{
+  "common": {
+    "next": "Neste",
+    "subtitle": "Spor måltidene og følelsene dine",
+    "title": "Matdagbok"
+  },
+  "feelings": {
+    "description": "Lytt til kroppen din – den har alltid noe å fortelle deg! 😌",
+    "placeholder": "f.eks. følte jeg meg mett etter lunsj, men litt tung etter middag...",
+    "title": "Hvordan følte du deg etter å ha spist?"
+  },
+  "history": {
+    "empty": "Ingen oppføringer ennå. Fullfør din første matdagbok for å se den her!",
+    "subtitle": "Dine tidligere innlegg"
+  },
+  "intro": {
+    "description": "Å spore hva du spiser hjelper deg å forstå kroppen din bedre – hva som gir deg energi, hva som får deg til å føle deg tung og hvor du kan gjøre enkle forbedringer. Dette er en sone uten fordømmelse. Bare vær ærlig og nyt prosessen!",
+    "startButton": "La oss starte →",
+    "subtitle": "Små skritt til store helseforandringer!",
+    "title": "Velkommen til din matdagbok"
+  },
+  "meals": {
+    "breakfast": {
+      "label": "Frokost",
+      "placeholder": "Hva hadde du?"
+    },
+    "description": "Logg hvert måltid eller mellommåltid nedenfor. Selv en grov notat teller! 🍽️",
+    "dinner": {
+      "label": "Middag",
+      "placeholder": "Hva hadde du?"
+    },
+    "lunch": {
+      "label": "Lunsj",
+      "placeholder": "Hva hadde du?"
+    },
+    "snacks": {
+      "label": "Snacks",
+      "placeholder": "Noe imellom?"
+    },
+    "title": "Hva spiste du i dag?"
+  },
+  "messages": {
+    "entryDeleted": "Oppføring slettet",
+    "entrySaved": "Bidrag lagret! 🌱"
+  },
+  "reflection": {
+    "encouragement": "Hvert bidrag du legger inn bringer deg ett skritt nærmere et sunnere og lykkeligere deg. Fortsett å møte opp – konsistens er den virkelige hemmeligheten! 💪",
+    "placeholder": "Skriv dine tanker her ...",
+    "question": "Hva er én ting du gjerne skulle spist bedre i morgen?",
+    "saveButton": "Lagre oppføring",
+    "title": "Flott jobb med å fullføre dagens logg!"
+  }
+}

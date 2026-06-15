@@ -1,0 +1,53 @@
+{
+  "common": {
+    "next": "Susunod",
+    "subtitle": "Subaybayan ang iyong mga pagkain at damdamin",
+    "title": "Talaarawan ng Pagkain"
+  },
+  "feelings": {
+    "description": "Makinig sa iyong katawan — lagi itong may sinasabi sa iyo! 😌",
+    "placeholder": "hal. Nakaramdam ako ng kasiyahan pagkatapos ng tanghalian ngunit medyo mabigat pagkatapos ng hapunan...",
+    "title": "Ano ang naramdaman mo pagkatapos kumain?"
+  },
+  "history": {
+    "empty": "Wala pang entry. Kumpletuhin ang iyong unang food diary para makita ito rito!",
+    "subtitle": "Ang iyong mga nakaraang entry"
+  },
+  "intro": {
+    "description": "Ang pagsubaybay sa iyong kinakain ay makakatulong sa iyo na mas maunawaan ang iyong katawan — kung ano ang nagbibigay sa iyo ng enerhiya, kung ano ang nagpapabigat sa iyo, at kung saan ka maaaring gumawa ng mga simpleng pagpapabuti. Ito ay isang lugar na walang paghuhusga. Maging tapat ka lang at tamasahin ang proseso!",
+    "startButton": "Simulan Natin →",
+    "subtitle": "Maliliit na hakbang tungo sa malalaking pagbabago sa kalusugan!",
+    "title": "Maligayang pagdating sa iyong Talaarawan ng Pagkain"
+  },
+  "meals": {
+    "breakfast": {
+      "label": "Almusal",
+      "placeholder": "Ano ang mayroon ka?"
+    },
+    "description": "Itala ang bawat pagkain o meryenda sa ibaba. Kahit isang magaspang na tala ay mahalaga! 🍽️",
+    "dinner": {
+      "label": "Hapunan",
+      "placeholder": "Ano ang mayroon ka?"
+    },
+    "lunch": {
+      "label": "Tanghalian",
+      "placeholder": "Ano ang mayroon ka?"
+    },
+    "snacks": {
+      "label": "Mga meryenda",
+      "placeholder": "May nasa pagitan?"
+    },
+    "title": "Ano ang kinain mo ngayon?"
+  },
+  "messages": {
+    "entryDeleted": "Nabura ang entry",
+    "entrySaved": "Na-save na ang entry! 🌱"
+  },
+  "reflection": {
+    "encouragement": "Bawat entry mo ay naglalapit sa iyo nang isang hakbang palapit sa isang mas malusog at mas masayang ikaw. Patuloy na magpakita — ang pagiging palagian ang tunay na sikreto! 💪",
+    "placeholder": "Isulat ang iyong mga saloobin dito...",
+    "question": "Ano ang isang bagay na gusto mong kainin nang mas masarap bukas?",
+    "saveButton": "I-save ang Entry",
+    "title": "Magaling ang pagkumpleto ng talaan ngayon!"
+  }
+}

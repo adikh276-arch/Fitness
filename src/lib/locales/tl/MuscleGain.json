@@ -1,0 +1,174 @@
+{
+  "nav": {
+    "back": "Balik sa Dashboard"
+  },
+  "header": {
+    "title": "Gabay sa Pagtaas ng Kalamnan",
+    "subtitle": "Pamamaraang nakabatay sa agham sa pagpapalakas at pagpapalakas ng kalamnan"
+  },
+  "tabs": {
+    "plan": "Ang Plano ng Paglago",
+    "metrics": "Talaan ng mga Sukatan ng Katawan",
+    "habits": "Mga Gawi sa Hypertrophy"
+  },
+  "plan": {
+    "pillars": {
+      "caloric": {
+        "title": "Sobrang Kaloriya",
+        "value": "TDEE + 250 hanggang 500 kcal",
+        "desc": "Ang iyong katawan ay nangangailangan ng karagdagang enerhiya upang makabuo ng mga bagong tisyu ng kalamnan. Kung kulang ka at hindi ka lalago; kung sobra ka at magkakaroon ka ng hindi kinakailangang taba. Layunin na 250-500 kcal na higit sa iyong Total Daily Energy Expenditure (TDEE)."
+      },
+      "protein": {
+        "title": "Sintesis ng Protina",
+        "value": "1.8g hanggang 2.2g bawat kg",
+        "desc": "Ang protina ang pangunahing sangkap ng kalamnan. Ipinapakita ng pananaliksik na ang 1.8-2.2g ng protina bawat kilo ng timbang ng katawan ay nagpapakinabang sa sintesis at paggaling ng protina ng kalamnan."
+      },
+      "overload": {
+        "title": "Progresibong Labis na Karga",
+        "value": "Lingguhang pag-unlad",
+        "desc": "Lumalaki ang mga kalamnan bilang tugon sa tumataas na pangangailangan. Bawat linggo, sikaping dagdagan ang timbang, mga repetisyon, o mga set. Subaybayan ang iyong kabuuang volume (mga set × repetisyon × timbang) upang matiyak ang pare-parehong pag-usad."
+      }
+    },
+    "mealTiming": {
+      "title": "Oras ng Pagkain para sa Paglaki ng Kalamnan",
+      "subtitle": "Bagama't pinakamahalaga ang kabuuang pang-araw-araw na paggamit, ang estratehikong tiyempo ay maaaring mag-optimize ng pagganap at paggaling:",
+      "preWorkoutLong": {
+        "time": "2-3 oras bago",
+        "title": "Bago ang Pag-eehersisyo",
+        "desc": "Balanseng pagkain na may carbohydrates at protina"
+      },
+      "preWorkoutCarbs": {
+        "time": "30-60 minuto bago",
+        "title": "Mga Carbohydrate Bago ang Pag-eehersisyo",
+        "desc": "Mabilis na carbohydrates para sa enerhiya (saging, rice cakes)"
+      },
+      "training": {
+        "time": "Habang",
+        "title": "Pagsasanay",
+        "desc": "Hydration + opsyonal na intra-workout carbs"
+      },
+      "postWorkout": {
+        "time": "Sa loob ng 2 oras",
+        "title": "Protina Pagkatapos ng Pag-eehersisyo",
+        "desc": "30-40g protina + carbohydrates para sa paggaling"
+      },
+      "eveningProtein": {
+        "time": "Bago matulog",
+        "title": "Protina sa Gabi",
+        "desc": "Casein o protina na mabagal matunaw"
+      }
+    },
+    "principles": {
+      "title": "Mga Pangunahing Prinsipyo para sa Tagumpay",
+      "p1": {
+        "title": "Mas maganda ang consistent kaysa sa perpeksyon:",
+        "desc": "Ang hindi pagliban sa isang workout o pagkain ay hindi makakabawas ng pakinabang, ngunit ang hindi pagkakapare-pareho ay makakabawas..."
+      },
+      "p2": {
+        "title": "Ang pagtulog ay anabolic:",
+        "desc": "Maghangad ng 7-9 na oras gabi-gabi para sa pinakamainam na paggaling at paglabas ng growth hormone"
+      },
+      "p3": {
+        "title": "Subaybayan ang iyong lakas ng tunog:",
+        "desc": "Ang mga nasusukat ay mapapabuti - itala ang iyong mga lift upang matiyak ang progresibong overload"
+      },
+      "p4": {
+        "title": "Kinakailangan ang pasensya:",
+        "desc": "Ang natural na paglaki ng kalamnan ay 0.5-1kg kada buwan para sa mga baguhan, mas mabagal para sa mga bihasang lifter"
+      }
+    }
+  },
+  "metrics": {
+    "strength": {
+      "totalVolume": "Kabuuang Lingguhang Dami",
+      "volumeTarget": "Target na Dami para sa {{timbang}}kg na Mass ng Katawan",
+      "kgLifted": "kg na naangat",
+      "goal": "ng {{goal}}kg na layunin",
+      "awayFromTarget": "Nasa {{gap}}kg ka na ang layo mula sa kapasidad ng trabaho ng iyong target na timbang.",
+      "setTarget": "Itakda ang iyong target na timbang sa ibaba upang makita ang iyong layunin sa dami",
+      "statusLabels": {
+        "setTarget": "Itakda ang Target na Timbang",
+        "building": "Pundasyon ng Gusali",
+        "growth": "Sona ng Paglago",
+        "hit": "Target na Kapasidad na Naabot"
+      }
+    },
+    "form": {
+      "title": "Mga Sukat ng Katawan ng Log",
+      "currentWeight": "Kasalukuyang Timbang (kg)",
+      "targetWeight": "Target na Timbang (kg) *",
+      "targetWeightHint": "Nagtatakda ng layunin sa dami",
+      "chest": "Dibdib (pulgada)",
+      "chestHint": "Sukatin sa linya ng utong",
+      "waist": "Baywang (papasok)",
+      "waistHint": "Sa antas ng pusod",
+      "bicepR": "Kanang Bicep (papasok)",
+      "bicepRHint": "Nakabaluktot, pinakamalawak na bahagi",
+      "bicepL": "Kaliwang Bicep (papasok)",
+      "bicepLHint": "Opsyonal",
+      "thigh": "Hita (papasok)",
+      "thighHint": "Pinakamalawak na bahagi",
+      "submit": "Mga Pagsukat ng Log",
+      "success": "Matagumpay na naitala ang mga sukatan!"
+    },
+    "volume": {
+      "title": "Kalkulador ng Dami",
+      "exercise": "Pag-eehersisyo",
+      "sets": "Mga Set",
+      "reps": "Mga Rep",
+      "weight": "Timbang (kg)",
+      "totalVolume": "Kabuuang Dami",
+      "remaining": "Nanatili para sa Layunin",
+      "submit": "Dami ng Log",
+      "logged": "{{lift}} na naka-log: {{volume}}kg kabuuang volume!"
+    },
+    "chart": {
+      "title": "Tsart ng Pag-unlad",
+      "weight": "Timbang (kg)",
+      "chest": "Dibdib (sa loob)",
+      "bicep": "Bicep (sa loob)"
+    },
+    "noData": "Wala pang naitalang mga sukat. Simulan ang pagsubaybay para makita ang iyong progreso!"
+  },
+  "habits": {
+    "title": "Mga Gawi sa Hypertrophy Ngayon",
+    "subtitle": "Lagyan ng tsek ang bawat gawi habang natatapos mo ito",
+    "items": {
+      "surplus": {
+        "title": "Caloric Surplus Met",
+        "desc": "Abutin ang iyong target na calorie ngayon"
+      },
+      "protein": {
+        "title": "Natugunan ang Layunin ng Protina",
+        "desc": "1.8-2.2g bawat kg ng timbang ng katawan"
+      },
+      "creatine": {
+        "title": "Kinuha ang Creatine",
+        "desc": "3-5g araw-araw para sa pinahusay na pagganap"
+      },
+      "sleep": {
+        "title": "Mahusay na Tulog",
+        "desc": "7-9 na oras para sa pinakamainam na paggaling"
+      },
+      "trained": {
+        "title": "Sinanay Ngayon",
+        "desc": "Nakumpleto mo na ang iyong sesyon ng pag-eehersisyo"
+      }
+    },
+    "recovery": {
+      "title": "Katayuan ng Pagbawi",
+      "good": "Na-optimize ang Pagbawi",
+      "goodDesc": "Magaling ang tulog at protina mo! Maayos na ang paggaling ng mga kalamnan mo.",
+      "improve": "Silid para sa Pagpapabuti",
+      "improveDesc": "Tumutok sa pagtulog at maabot ang iyong target na protina para sa mas mahusay na paggaling."
+    },
+    "calendar": {
+      "title": "30-Araw na Pagkakasunod-sunod ng Ugali",
+      "legend": {
+        "perfect": "Perpekto (5/5)",
+        "partial": "Bahagyang",
+        "none": "Hindi kumpleto"
+      }
+    }
+  }
+}

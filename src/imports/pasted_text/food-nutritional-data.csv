@@ -1,0 +1,394 @@
+```csv
+name,category,number
+Glucose,Sweetener,100
+Maltodextrin,Sweetener,95
+Rice Crackers,Snacks,91
+Jasmine Rice,Grains,89
+Sushi Rice,Prepared Food,89
+Instant Mashed Potatoes,Vegetables,87
+Corn Syrup,Sweetener,87
+Rice Porridge,Breakfast,86
+Pretzels,Snacks,83
+Rice Cakes,Snacks,82
+Cornflakes,Cereal,81
+Puffed Rice Cereal,Cereal,80
+Baked Potato,Vegetables,79
+Boiled Potato,Vegetables,78
+Idli,Breakfast,77
+Dosa Plain,Breakfast,77
+Waffles,Breakfast,76
+Watermelon,Fruit,76
+Donut,Dessert,76
+French Fries,Fast Food,75
+White Bread,Bakery,75
+Pumpkin,Vegetables,75
+Burger Bun,Fast Food,74
+White Rice,Grains,73
+Bagel,Bakery,72
+Naan,Flatbread,71
+Chapati Refined,Flatbread,70
+Whole Wheat Bread,Bakery,69
+Arepa,Flatbread,69
+Brown Rice,Grains,68
+Croissant,Bakery,67
+Pancakes,Breakfast,67
+Upma,Breakfast,66
+Sucrose,Sweetener,65
+Couscous,Grains,65
+Poha,Breakfast,65
+Popcorn,Snacks,65
+Raisins,Fruit,64
+Sweet Potato,Vegetables,63
+Granola Bar,Snacks,62
+Roti Whole Wheat,Flatbread,62
+Empanada,Street Food,62
+Banana Overripe,Fruit,62
+Ramen Fresh,Noodles,61
+Pho Noodles,Noodles,61
+Ice Cream,Dessert,61
+Pizza Cheese,Fast Food,60
+Papaya,Fruit,60
+Pineapple,Fruit,59
+Honey,Sweetener,58
+Spaghetti Overcooked,Pasta,58
+Basmati Rice,Grains,58
+Couscous Salad,Prepared Food,58
+Muesli,Cereal,57
+Pita Bread,Flatbread,57
+Potato Chips,Snacks,56
+Oats,Grains,55
+Udon Noodles,Noodles,55
+Maple Syrup,Sweetener,54
+Sourdough Bread,Bakery,54
+Yam,Vegetables,54
+Pearled Barley,Grains,53
+Rice Noodles,Noodles,53
+Blueberries,Fruit,53
+Grapes,Fruit,53
+Quinoa,Grains,53
+Corn Sweet,Vegetables,52
+Chapati,Flatbread,52
+Tortilla Flour,Flatbread,52
+Banana Ripe,Fruit,51
+Green Peas,Vegetables,51
+Mango,Fruit,51
+Kiwi,Fruit,50
+Spaghetti Al Dente,Pasta,49
+Baked Beans,Prepared Food,48
+Macaroni,Pasta,47
+Instant Noodles,Noodles,47
+Tortilla Corn,Flatbread,46
+Bulgur,Grains,46
+Wild Rice,Grains,45
+Lentil Soup,Soup,44
+Orange,Fruit,43
+Dates,Fruit,42
+Steel Cut Oats,Grains,42
+Peach,Fruit,42
+Strawberries,Fruit,41
+Plum,Fruit,40
+Carrot Boiled,Vegetables,39
+All Bran Cereal,Cereal,38
+Tomato Soup,Soup,38
+Apple,Fruit,36
+Yogurt Unsweetened,Dairy,35
+Chocolate Milk,Dairy,34
+Miso Soup,Soup,34
+Falafel,Street Food,33
+Skim Milk,Dairy,32
+Lentils,Legumes,32
+Milk Full Fat,Dairy,31
+Black Beans,Legumes,30
+Barley,Grains,28
+Chickpeas,Legumes,28
+Hummus,Legumes,25
+Kidney Beans,Legumes,24
+Fructose,Sweetener,19
+Soybeans,Legumes,16
+Greek Yogurt Plain,Dairy,11
+Almonds,Nuts,15
+Walnuts,Nuts,15
+Peanuts,Nuts,14
+Cashews,Nuts,22
+Pistachios,Nuts,15
+Hazelnuts,Nuts,15
+Pecans,Nuts,10
+Macadamia Nuts,Nuts,10
+Brazil Nuts,Nuts,10
+Sunflower Seeds,Seeds,20
+Pumpkin Seeds,Seeds,10
+Chia Seeds,Seeds,1
+Flax Seeds,Seeds,1
+Sesame Seeds,Seeds,9
+Avocado,Fruit,15
+Olives,Fruit,15
+Coconut Fresh,Fruit,42
+Coconut Milk,Dairy Alternative,41
+Soy Milk Unsweetened,Dairy Alternative,30
+Almond Milk Unsweetened,Dairy Alternative,25
+Oat Milk Unsweetened,Dairy Alternative,45
+Rice Milk,Dairy Alternative,86
+Cashew Milk,Dairy Alternative,25
+Goat Milk,Dairy,30
+Kefir,Dairy,36
+Cottage Cheese,Dairy,10
+Cheddar Cheese,Dairy,0
+Mozzarella,Dairy,0
+Paneer,Dairy,0
+Ricotta,Dairy,27
+Cream Cheese,Dairy,0
+Butter,Dairy,0
+Ghee,Fats,0
+Eggs,Protein,0
+Egg White,Protein,0
+Chicken Breast,Protein,0
+Turkey Breast,Protein,0
+Salmon,Protein,0
+Tuna,Protein,0
+Shrimp,Protein,0
+Beef Lean,Protein,0
+Lamb,Protein,0
+Pork Lean,Protein,0
+Tofu,Protein,15
+Tempeh,Protein,14
+Edamame,Legumes,18
+Seitan,Protein,15
+Black Eyed Peas,Legumes,33
+Cannellini Beans,Legumes,31
+Navy Beans,Legumes,31
+Pinto Beans,Legumes,39
+Adzuki Beans,Legumes,25
+Mung Beans,Legumes,31
+Split Peas,Legumes,32
+Green Lentils,Legumes,29
+Red Lentils,Legumes,26
+Brown Lentils,Legumes,30
+Fava Beans,Legumes,40
+Pea Protein Milk,Dairy Alternative,30
+Broccoli,Vegetables,10
+Cauliflower,Vegetables,10
+Spinach,Vegetables,15
+Kale,Vegetables,15
+Lettuce,Vegetables,10
+Cucumber,Vegetables,15
+Tomato,Vegetables,15
+Zucchini,Vegetables,15
+Eggplant,Vegetables,20
+Bell Pepper,Vegetables,15
+Onion Raw,Vegetables,10
+Onion Cooked,Vegetables,15
+Garlic,Vegetables,10
+Mushrooms,Vegetables,10
+Asparagus,Vegetables,15
+Brussels Sprouts,Vegetables,15
+Cabbage,Vegetables,10
+Celery,Vegetables,15
+Radish,Vegetables,15
+Beetroot,Vegetables,64
+Turnip,Vegetables,30
+Parsnip,Vegetables,52
+Leek,Vegetables,15
+Okra,Vegetables,20
+Artichoke,Vegetables,15
+Arugula,Vegetables,10
+Swiss Chard,Vegetables,15
+Collard Greens,Vegetables,15
+Bok Choy,Vegetables,10
+Snap Peas,Vegetables,45
+Snow Peas,Vegetables,30
+Butternut Squash,Vegetables,51
+Acorn Squash,Vegetables,50
+Spaghetti Squash,Vegetables,41
+Cassava,Vegetables,94
+Taro,Vegetables,54
+Plantain Green,Fruit,40
+Plantain Ripe,Fruit,66
+Jackfruit,Fruit,50
+Guava,Fruit,24
+Lychee,Fruit,50
+Dragon Fruit,Fruit,48
+Passion Fruit,Fruit,30
+Pomegranate,Fruit,35
+Apricot,Fruit,34
+Cherries,Fruit,22
+Blackberries,Fruit,25
+Raspberries,Fruit,32
+Cranberries,Fruit,45
+Fig Fresh,Fruit,35
+Fig Dried,Fruit,61
+Prunes,Fruit,29
+Cantaloupe,Fruit,65
+Honeydew,Fruit,62
+Grapefruit,Fruit,25
+Lemon,Fruit,20
+Lime,Fruit,20
+Tangerine,Fruit,42
+Mandarin,Fruit,47
+Persimmon,Fruit,50
+Starfruit,Fruit,36
+Mulberries,Fruit,25
+Gooseberries,Fruit,25
+Durian,Fruit,49
+Longan,Fruit,57
+Rambutan,Fruit,59
+Soursop,Fruit,32
+Custard Apple,Fruit,54
+Sapodilla,Fruit,73
+Ugli Fruit,Fruit,40
+Pomelo,Fruit,30
+Nectarine,Fruit,43
+Apple Sauce,Fruit,44
+Banana Chips,Snacks,60
+Trail Mix,Snacks,45
+Protein Bar,Snacks,40
+Chocolate Bar,Dessert,49
+Dark Chocolate,Dessert,23
+Milk Chocolate,Dessert,42
+Marshmallow,Dessert,62
+Jelly Beans,Dessert,80
+Gummy Candy,Dessert,78
+Caramel,Dessert,68
+Cupcake,Dessert,67
+Brownie,Dessert,60
+Cheesecake,Dessert,63
+Muffin Blueberry,Bakery,59
+Muffin Bran,Bakery,57
+Banana Bread,Bakery,60
+Cinnamon Roll,Bakery,69
+Danish Pastry,Bakery,59
+Biscuit,Bakery,70
+Crackers Saltine,Snacks,74
+Crackers Whole Grain,Snacks,62
+Granola,Snacks,61
+Oatmeal Cookie,Dessert,55
+Shortbread,Dessert,64
+Macaron,Dessert,70
+Apple Pie,Dessert,42
+Cherry Pie,Dessert,47
+Pita Chips,Snacks,57
+Nachos,Snacks,63
+Tortilla Chips,Snacks,72
+Cheese Puffs,Snacks,58
+Pretzel Sticks,Snacks,83
+Breadsticks,Snacks,70
+Baguette,Bakery,75
+Rye Bread,Bakery,58
+Pumpernickel Bread,Bakery,46
+Multigrain Bread,Bakery,53
+English Muffin,Bakery,70
+Ciabatta,Bakery,72
+Focaccia,Bakery,69
+Scone,Bakery,62
+Pita White,Flatbread,57
+Lavash,Flatbread,52
+Paratha,Flatbread,68
+Kulcha,Flatbread,69
+Tandoori Roti,Flatbread,62
+Injera,Flatbread,36
+Matzo,Flatbread,70
+Cornbread,Bakery,60
+Polenta,Grains,68
+Millet Cooked,Grains,71
+Sorghum Cooked,Grains,62
+Buckwheat,Grains,49
+Amaranth,Grains,35
+Farro,Grains,45
+Freekeh,Grains,43
+Teff,Grains,36
+Arborio Rice,Grains,69
+Red Rice,Grains,55
+Black Rice,Grains,42
+Sticky Rice,Grains,86
+Rice Pilaf,Prepared Food,60
+Paella Rice,Prepared Food,68
+Risotto,Prepared Food,69
+Fried Rice,Prepared Food,80
+Biryani,Prepared Food,67
+Pilaf,Prepared Food,60
+Congee,Breakfast,78
+Cream of Wheat,Breakfast,66
+Grits,Breakfast,69
+Porridge Oats,Breakfast,58
+Overnight Oats,Breakfast,50
+Granola Cereal,Cereal,65
+Bran Flakes,Cereal,74
+Special K,Cereal,69
+Cheerios,Cereal,74
+Weetabix,Cereal,75
+Shredded Wheat,Cereal,67
+Rice Krispies,Cereal,82
+Froot Loops,Cereal,69
+Cocoa Puffs,Cereal,77
+Corn Pops,Cereal,80
+Muesli No Sugar,Cereal,49
+Lasagna,Pasta,60
+Ravioli,Pasta,47
+Gnocchi,Pasta,68
+Vermicelli,Noodles,35
+Soba Noodles,Noodles,46
+Glass Noodles,Noodles,45
+Pad Thai,Noodles,59
+Chow Mein,Noodles,67
+Lo Mein,Noodles,61
+Mac and Cheese,Prepared Food,64
+Hamburger,Fast Food,66
+Cheeseburger,Fast Food,64
+Hot Dog,Fast Food,75
+Chicken Nuggets,Fast Food,46
+Fried Chicken,Fast Food,45
+Fish and Chips,Fast Food,56
+Taco,Fast Food,52
+Burrito,Fast Food,50
+Quesadilla,Fast Food,51
+Sub Sandwich,Fast Food,70
+Club Sandwich,Fast Food,64
+Falafel Wrap,Fast Food,58
+Shawarma Wrap,Fast Food,52
+Kebab Wrap,Fast Food,55
+Caesar Salad,Prepared Food,15
+Greek Salad,Prepared Food,15
+Potato Salad,Prepared Food,38
+Coleslaw,Prepared Food,35
+Hummus Wrap,Prepared Food,45
+Tomato Pasta Sauce,Sauce,35
+BBQ Sauce,Sauce,78
+Ketchup,Sauce,55
+Mustard,Sauce,5
+Mayonnaise,Sauce,0
+Soy Sauce,Sauce,0
+Teriyaki Sauce,Sauce,60
+Sweet Chili Sauce,Sauce,66
+Salsa,Sauce,15
+Guacamole,Sauce,15
+Jam Strawberry,Spread,65
+Jam Orange,Spread,63
+Peanut Butter,Spread,14
+Almond Butter,Spread,15
+Hazelnut Spread,Spread,55
+Tahini,Spread,0
+Molasses,Sweetener,55
+Agave Syrup,Sweetener,30
+Brown Sugar,Sweetener,64
+Coconut Sugar,Sweetener,54
+Date Syrup,Sweetener,47
+Stevia,Sweetener,0
+Sucralose,Sweetener,0
+Xylitol,Sweetener,12
+Erythritol,Sweetener,0
+Orange Juice,Beverage,50
+Apple Juice,Beverage,41
+Grape Juice,Beverage,48
+Cranberry Juice,Beverage,68
+Pineapple Juice,Beverage,46
+Tomato Juice,Beverage,38
+Carrot Juice,Beverage,43
+Smoothie Fruit,Beverage,55
+Soda Regular,Beverage,63
+Sports Drink,Beverage,78
+Energy Drink,Beverage,68
+Coffee Black,Beverage,0
+Tea Unsweetened,Beverage,0
+Bubble Tea,Beverage,62
+Latte Unsweetened,Beverage,30
+Milkshake,Beverage,60
+```

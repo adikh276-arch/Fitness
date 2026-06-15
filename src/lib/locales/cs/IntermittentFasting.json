@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "back": "Zpět na řídicí panel"
+  },
+  "header": {
+    "title": "Průvodce přerušovaným půstem",
+    "subtitle": "Ovládněte vědu časově omezeného stravování"
+  },
+  "tabs": {
+    "lab": "Laboratoř půstu",
+    "log": "Záznam úspěchů"
+  },
+  "lab": {
+    "timeline": {
+      "title": "Biologická časová osa",
+      "stages": [
+        {
+          "hours": "0–4 hodiny",
+          "title": "Fáze trávení (anabolický stav)",
+          "description": "Vaše tělo tráví potravu a ukládá energii. Hladina cukru v krvi stoupá, jak se živiny vstřebávají."
+        },
+        {
+          "hours": "4–12 hodin",
+          "title": "Začíná spalování tuků (katabolický stav)",
+          "description": "Hladina inzulínu klesá a tělo začíná odbourávat uložený tuk pro získání energie."
+        },
+        {
+          "hours": "12–18 hodin",
+          "title": "Buněčné čištění (autofagie)",
+          "description": "Vaše tělo začne odstraňovat poškozené buňky a recyklovat staré bílkoviny – jako by to byl vnitřní jarní úklid."
+        },
+        {
+          "hours": "18+ hodin",
+          "title": "Vrcholné spalování tuků (hluboká ketóza)",
+          "description": "Vaše tělo plně běží na tuku. Zvyšuje se hladina růstového hormonu a spalování tuků dosahuje svého vrcholu."
+        }
+      ]
+    },
+    "breaksFast": {
+      "title": "Co přerušuje půst?",
+      "safe": "Bezpečné během půstu:",
+      "safeList": "Voda, černá káva, obyčejný čaj, perlivá voda, sůl/elektrolyty",
+      "breaks": "Přeruší váš půst:",
+      "breaksList": "Cokoli s kaloriemi - mléko, cukr, smetana, proteinové koktejly, BCAA, dietní limonády s umělými sladidly"
+    },
+    "tips": {
+      "title": "Tipy pro profesionály pro úspěch",
+      "tip1": {
+        "title": "Začněte postupně",
+        "desc": "Začněte s 12:12 a postupně prodlužujte půst."
+      },
+      "tip2": {
+        "title": "Zůstaňte hydratovaní",
+        "desc": "Pijte během celého půstu hodně vody"
+      },
+      "tip3": {
+        "title": "Naslouchejte svému tělu",
+        "desc": "Necítíte se dobře? Je v pořádku přerušit půst."
+      },
+      "tip4": {
+        "title": "Na kvalitě záleží",
+        "desc": "Během jídelního okna se zaměřte na potraviny bohaté na živiny"
+      }
+    }
+  },
+  "log": {
+    "form": {
+      "title": "Zaznamenejte si dnešní půst",
+      "lastMeal": "Poslední jídlo (včera):",
+      "firstMeal": "První jídlo (dnes):",
+      "duration": "Celková doba půstu",
+      "goalAchieved": "Cíl dosažen! Dokončili jste 16+ hodinový půst!",
+      "submit": "Zaznamenejte to rychle"
+    },
+    "tracker": {
+      "title": "30denní rychlý průběh",
+      "streak": "Aktuální série:",
+      "streakDays": "{{count}} dní",
+      "last30": "Posledních 30 dní",
+      "legend": {
+        "goalMet": "Cíl splněn (16+ hodin)",
+        "today": "Dnes",
+        "missed": "Zmeškaný den"
+      }
+    },
+    "recentFasts": {
+      "title": "Nedávné půsty",
+      "goalMet": "Cíl s"
+    }
+  }
+}

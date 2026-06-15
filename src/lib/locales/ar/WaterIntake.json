@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "back": "العودة إلى لوحة التحكم"
+  },
+  "header": {
+    "title": "متتبع كمية الماء المتناولة",
+    "subtitle": "تتبع كمية الماء التي تشربها يومياً وحقق أهدافك"
+  },
+  "tabs": {
+    "tracker": "متابعة اليوم",
+    "history": "تاريخ"
+  },
+  "tracker": {
+    "consumed": "تم استهلاك ملليلتر",
+    "goalLabel": "الهدف اليومي",
+    "remainingLabel": "متبقي",
+    "changeGoal": "تغيير الهدف اليومي",
+    "quickAdd": {
+      "title": "إضافة سريعة",
+      "smallGlass": "كوب صغير",
+      "bottle": "زجاجة",
+      "largeBottle": "زجاجة كبيرة",
+      "jug": "إبريق"
+    },
+    "custom": {
+      "label": "الكمية المخصصة (مل)",
+      "placeholder": "مثال: 350",
+      "submit": "يضيف",
+      "undo": "التراجع عن آخر إدخال"
+    }
+  },
+  "history": {
+    "title": "تاريخ سحب المياه",
+    "noHistory": "لا توجد سجلات متاحة حتى الآن",
+    "today": "اليوم",
+    "summary": "{{total}} مل / {{goal}} مل ({{percent}}%)",
+    "stats": {
+      "total": "المجموع",
+      "entries": "المدخلات"
+    }
+  },
+  "modal": {
+    "title": "حدد هدفك اليومي",
+    "subtitle": "أدخل كمية الماء اليومية المستهدفة",
+    "placeholder": "مثال: 2500",
+    "calcToggleShow": "احسب الموصى به",
+    "calcToggleHide": "إخفاء الآلة الحاسبة",
+    "formula": "الصيغة: الوزن (كجم) × 35 مل",
+    "weightLabel": "وزنك (كجم)",
+    "weightPlaceholder": "مثال: 70",
+    "calcBtn": "احسب وطبق",
+    "cancel": "يلغي",
+    "save": "يحفظ"
+  }
+}

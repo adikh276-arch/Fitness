@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "back": "ダッシュボードに戻る"
+  },
+  "header": {
+    "title": "水分摂取量トラッカー",
+    "subtitle": "毎日の水分摂取量を記録し、目標を達成しましょう"
+  },
+  "tabs": {
+    "tracker": "今日のトラッカー",
+    "history": "歴史"
+  },
+  "tracker": {
+    "consumed": "消費量（ml）",
+    "goalLabel": "日々の目標",
+    "remainingLabel": "残り",
+    "changeGoal": "毎日の目標を変更する",
+    "quickAdd": {
+      "title": "クイック追加",
+      "smallGlass": "小さなグラス",
+      "bottle": "ボトル",
+      "largeBottle": "大きなボトル",
+      "jug": "水差し"
+    },
+    "custom": {
+      "label": "カスタム量（ml）",
+      "placeholder": "例：350",
+      "submit": "追加",
+      "undo": "最後の入力を取り消す"
+    }
+  },
+  "history": {
+    "title": "水分摂取履歴",
+    "noHistory": "履歴はまだ利用できません",
+    "today": "今日",
+    "summary": "{{total}} ml / {{goal}} ml ({{percent}}%)",
+    "stats": {
+      "total": "合計",
+      "entries": "エントリー"
+    }
+  },
+  "modal": {
+    "title": "毎日の目標を設定する",
+    "subtitle": "1日の目標水分摂取量を入力してください",
+    "placeholder": "例：2500",
+    "calcToggleShow": "推奨値を計算",
+    "calcToggleHide": "電卓を非表示にする",
+    "formula": "計算式：体重（kg）×35ml",
+    "weightLabel": "あなたの体重（kg）",
+    "weightPlaceholder": "例：70",
+    "calcBtn": "計算して適用する",
+    "cancel": "キャンセル",
+    "save": "保存"
+  }
+}

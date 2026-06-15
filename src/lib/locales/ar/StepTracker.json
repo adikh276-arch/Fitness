@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "back": "العودة إلى لوحة التحكم"
+  },
+  "header": {
+    "title": "متتبع الخطوات",
+    "subtitle": "تتبع خطواتك اليومية وحقق أهدافك",
+    "profile": "حساب تعريفي"
+  },
+  "tabs": {
+    "tracker": "متتبع",
+    "history": "تاريخ"
+  },
+  "tracker": {
+    "stepsToday": "خطوات اليوم",
+    "goalAchieved": "تم تحقيق الهدف!",
+    "stats": {
+      "distance": "مسافة",
+      "calories": "سعرات حرارية",
+      "activeTime": "وقت النشاط",
+      "km": "كم",
+      "kcal": "سعرات حرارية",
+      "mins": "دقائق"
+    },
+    "goal": {
+      "label": "الهدف اليومي",
+      "value": "{{val}} خطوات",
+      "change": "تغيير الهدف"
+    },
+    "quickAdd": {
+      "title": "خطوات الإضافة السريعة",
+      "label": "خطوات مخصصة",
+      "placeholder": "مثال: 3500",
+      "submit": "يضيف"
+    },
+    "insights": {
+      "title": "رؤى اليوم",
+      "remaining": "الخطوات المتبقية",
+      "stride": "طول الخطوة",
+      "progress": "تقدم",
+      "complete": "مكتمل!",
+      "percentOfGoal": "{{val}}% من الهدف"
+    },
+    "reset": "إعادة ضبط خطوات اليوم"
+  },
+  "history": {
+    "title": "تاريخ الولايات المتحدة",
+    "noHistory": "لا يوجد سجل حتى الآن. ابدأ بتتبع خطواتك!",
+    "today": "اليوم",
+    "stats": {
+      "steps": "خطوات",
+      "goal": "هدف",
+      "progress": "تقدم"
+    }
+  },
+  "modals": {
+    "goal": {
+      "title": "حدد هدفك اليومي",
+      "subtitle": "أدخل عدد خطواتك اليومية المستهدفة",
+      "placeholder": "مثال: 10000",
+      "cancel": "يلغي",
+      "save": "يحفظ"
+    },
+    "profile": {
+      "title": "تحديث الملف الشخصي",
+      "subtitle": "يساعد هذا في حساب المسافة والسعرات الحرارية بدقة",
+      "height": "الطول (سم)",
+      "weight": "الوزن (كجم)",
+      "gender": "جنس",
+      "male": "ذكر",
+      "female": "أنثى",
+      "placeholderHeight": "مثال: 170",
+      "placeholderWeight": "مثال: 70",
+      "cancel": "يلغي",
+      "save": "يحفظ"
+    }
+  }
+}

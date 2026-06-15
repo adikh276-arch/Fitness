@@ -1,0 +1,80 @@
+{
+  "shell": {
+    "title": "Resurse de îngrijire personală",
+    "subtitle": "Explorează instrumente și îndrumări pentru călătoria ta de wellness"
+  },
+  "sections": {
+    "tools": "Instrumente",
+    "guides": "Ghiduri de nutriție și dietă",
+    "workouts": "Zone de antrenament",
+    "learning": "Învățare recomandată"
+  },
+  "tools": {
+    "macro": {
+      "label": "Calculator nutrițional",
+      "desc": "Calculați macrocomenzi"
+    },
+    "calories": {
+      "label": "Arzător de calorii",
+      "desc": "Activități în jurnal"
+    },
+    "fasting": {
+      "label": "Înregistrator de post",
+      "desc": "Urmăriți postul"
+    },
+    "bmi": {
+      "label": "Calculator IMC",
+      "desc": "Metrici corporale"
+    }
+  },
+  "guides": {
+    "weightLoss": "Pierdere în greutate",
+    "diabetes": "Dieta pentru diabet",
+    "muscle": "Creșterea masei musculare",
+    "gut": "Sănătatea intestinală",
+    "keto": "Noțiuni de bază despre keto",
+    "heart": "Sănătatea inimii",
+    "fasting": "Postul intermitent",
+    "vegan": "Nutriție vegană"
+  },
+  "workouts": {
+    "yoga": "Yoga",
+    "hiit": "HIIT",
+    "strength": "Antrenament de forță",
+    "posture": "Corecția posturii",
+    "home": "Antrenamente acasă",
+    "flexibility": "Flexibilitate"
+  },
+  "learning": {
+    "macros": {
+      "title": "Înțelegerea macronutrienților",
+      "desc": "Învață elementele de bază ale proteinelor, carbohidraților și grăsimilor"
+    },
+    "others": {
+      "title": "Alţii",
+      "desc": "Explorează mai multe instrumente interactive pentru sănătate"
+    }
+  },
+  "others": {
+    "title": "Alte resurse",
+    "subtitle": "Explorează mai multe instrumente pentru călătoria ta în domeniul sănătății",
+    "tools": {
+      "foodDiary": {
+        "label": "Jurnal alimentar",
+        "desc": "Urmărește-ți mesele"
+      },
+      "planPlate": {
+        "label": "Planifică-ți farfuria",
+        "desc": "Echilibrează-ți mesele"
+      },
+      "sugarEase": {
+        "label": "Ușurință zilnică cu zahăr",
+        "desc": "Gestionați aportul de zahăr"
+      },
+      "recipeLog": {
+        "label": "Jurnal de rețete sănătoase",
+        "desc": "Salvează-ți rețetele"
+      }
+    }
+  }
+}

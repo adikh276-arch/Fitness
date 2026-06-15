@@ -1,0 +1,80 @@
+{
+  "shell": {
+    "title": "Nguồn tài liệu tự chăm sóc bản thân",
+    "subtitle": "Khám phá các công cụ và hướng dẫn cho hành trình chăm sóc sức khỏe của bạn"
+  },
+  "sections": {
+    "tools": "Công cụ",
+    "guides": "Hướng dẫn dinh dưỡng và chế độ ăn uống",
+    "workouts": "Khu vực tập luyện",
+    "learning": "Nội dung học tập nổi bật"
+  },
+  "tools": {
+    "macro": {
+      "label": "Máy tính dinh dưỡng",
+      "desc": "Tính toán macro"
+    },
+    "calories": {
+      "label": "Đốt cháy calo",
+      "desc": "Ghi nhật ký hoạt động"
+    },
+    "fasting": {
+      "label": "Nhật ký nhịn ăn",
+      "desc": "Theo dõi quá trình nhịn ăn"
+    },
+    "bmi": {
+      "label": "Máy tính chỉ số BMI",
+      "desc": "Số đo cơ thể"
+    }
+  },
+  "guides": {
+    "weightLoss": "Giảm cân",
+    "diabetes": "Chế độ ăn kiêng cho người tiểu đường",
+    "muscle": "Tăng cơ",
+    "gut": "Sức khỏe đường ruột",
+    "keto": "Những điều cơ bản về chế độ ăn Keto",
+    "heart": "Sức khỏe tim mạch",
+    "fasting": "Nhịn ăn gián đoạn",
+    "vegan": "Dinh dưỡng thuần chay"
+  },
+  "workouts": {
+    "yoga": "Yoga",
+    "hiit": "HIIT",
+    "strength": "Tập luyện sức mạnh",
+    "posture": "Chỉnh sửa tư thế",
+    "home": "Bài tập tại nhà",
+    "flexibility": "Tính linh hoạt"
+  },
+  "learning": {
+    "macros": {
+      "title": "Hiểu về các chất dinh dưỡng đa lượng",
+      "desc": "Tìm hiểu những kiến thức cơ bản về protein, carbohydrate và chất béo."
+    },
+    "others": {
+      "title": "Người khác",
+      "desc": "Khám phá thêm các công cụ sức khỏe tương tác"
+    }
+  },
+  "others": {
+    "title": "Các nguồn tài liệu khác",
+    "subtitle": "Khám phá thêm các công cụ hỗ trợ cho hành trình chăm sóc sức khỏe của bạn",
+    "tools": {
+      "foodDiary": {
+        "label": "Nhật ký ăn uống",
+        "desc": "Theo dõi bữa ăn của bạn"
+      },
+      "planPlate": {
+        "label": "Lên kế hoạch cho bữa ăn của bạn",
+        "desc": "Hãy cân bằng các bữa ăn của bạn"
+      },
+      "sugarEase": {
+        "label": "Dễ dàng kiểm soát lượng đường hàng ngày",
+        "desc": "Kiểm soát lượng đường nạp vào cơ thể"
+      },
+      "recipeLog": {
+        "label": "Nhật ký công thức nấu ăn lành mạnh",
+        "desc": "Lưu lại công thức nấu ăn của bạn"
+      }
+    }
+  }
+}

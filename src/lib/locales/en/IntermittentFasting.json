@@ -1,0 +1,80 @@
+{
+  "nav": { "back": "Back to Dashboard" },
+  "header": {
+    "title": "Intermittent Fasting Guide",
+    "subtitle": "Master the science of time-restricted eating"
+  },
+  "tabs": {
+    "lab": "The Fasting Lab",
+    "log": "Success Log"
+  },
+  "lab": {
+    "timeline": {
+      "title": "The Biological Timeline",
+      "stages": [
+        {
+          "hours": "0-4 Hours",
+          "title": "Digestion Phase (Anabolic State)",
+          "description": "Your body is digesting food and storing energy. Blood sugar rises as nutrients are absorbed."
+        },
+        {
+          "hours": "4-12 Hours",
+          "title": "Fat Burning Begins (Catabolic State)",
+          "description": "Insulin levels drop and your body starts breaking down stored fat for energy."
+        },
+        {
+          "hours": "12-18 Hours",
+          "title": "Cellular Cleanup (Autophagy)",
+          "description": "Your body begins removing damaged cells and recycling old proteins - like internal spring cleaning."
+        },
+        {
+          "hours": "18+ Hours",
+          "title": "Peak Fat Burning (Deep Ketosis)",
+          "description": "Your body is fully running on fat. Growth hormone increases and fat burning reaches its peak."
+        }
+      ]
+    },
+    "breaksFast": {
+      "title": "What Breaks a Fast?",
+      "safe": "Safe During Fasting:",
+      "safeList": "Water, Black Coffee, Plain Tea, Sparkling Water, Salt/Electrolytes",
+      "breaks": "Breaks Your Fast:",
+      "breaksList": "Anything with calories - milk, sugar, cream, protein shakes, BCAAs, diet soda with artificial sweeteners"
+    },
+    "tips": {
+      "title": "Pro Tips for Success",
+      "tip1": { "title": "Start Gradually", "desc": "Begin with 12:12 and work up to longer fasts" },
+      "tip2": { "title": "Stay Hydrated", "desc": "Drink plenty of water throughout your fast" },
+      "tip3": { "title": "Listen to Your Body", "desc": "Feeling unwell? It's okay to break your fast" },
+      "tip4": { "title": "Quality Matters", "desc": "Focus on nutrient-dense foods during eating window" }
+    }
+  },
+  "log": {
+    "form": {
+      "title": "Log Today's Fast",
+      "dateLabel": "Date:",
+      "lastMeal": "Last Meal Time (Yesterday):",
+      "firstMeal": "First Meal Time (Today):",
+      "duration": "Total Fasting Duration",
+      "goalAchieved": "Goal Achieved! You completed a 16+ hour fast!",
+      "submit": "Log This Fast"
+    },
+    "tracker": {
+      "title": "30-Day Fast Tracker",
+      "today": "Today",
+      "dayLabel": "Day {{val}}",
+      "streak": "Current Streak:",
+      "streakDays": "{{count}} days",
+      "last30": "Last 30 Days",
+      "legend": {
+        "goalMet": "Goal Met (16+ hrs)",
+        "today": "Today",
+        "missed": "Missed Day"
+      }
+    },
+    "recentFasts": {
+      "title": "Recent Fasts",
+      "goalMet": "Goal Met"
+    }
+  }
+}

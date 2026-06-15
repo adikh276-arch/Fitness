@@ -1,0 +1,238 @@
+{
+  "nav": {
+    "back": "ダッシュボードに戻る"
+  },
+  "header": {
+    "title": "ビーガン栄養ガイド",
+    "subtitle": "植物性栄養に関する完全ツールキット"
+  },
+  "tabs": {
+    "plate": "ヴィーガンプレート",
+    "nutrients": "微量栄養素",
+    "calculator": "タンパク質計算機"
+  },
+  "plate": {
+    "title": "完全ヴィーガンミール",
+    "proportions": {
+      "legumes": {
+        "title": "豆類",
+        "subtitle": "タンパク質の宝庫",
+        "examples": "例：レンズ豆、ひよこ豆、黒豆、豆腐、テンペ"
+      },
+      "grains": {
+        "title": "全粒穀物",
+        "subtitle": "持続的なエネルギー",
+        "examples": "例：キヌア、玄米、オート麦、全粒小麦、大麦"
+      },
+      "vegetables": {
+        "title": "野菜",
+        "subtitle": "微量栄養素が豊富",
+        "examples": "例：葉物野菜、ブロッコリー、ピーマン、ニンジン、トマト"
+      },
+      "fats": {
+        "title": "健康的な脂肪/種子",
+        "subtitle": "ホルモンの健康",
+        "examples": "例：アボカド、ナッツ、種子、オリーブオイル、タヒニ"
+      }
+    },
+    "tip": {
+      "title": "プロのヒント：鉄分の吸収を促進する",
+      "desc": "植物由来の鉄分（非ヘム鉄）は、動物由来の鉄分よりも吸収効率が低い。鉄分を豊富に含む食品をビタミンCと一緒に摂取することで、吸収率を最大300%向上させることができる。",
+      "ironRich": "鉄分豊富な食品",
+      "ironExamples": "ほうれん草、レンズ豆、キヌア、豆腐、かぼちゃの種",
+      "vitaminC": "ビタミンCブースター",
+      "vitaminCExamples": "レモン汁、ピーマン、トマト、ブロッコリー、オレンジ",
+      "perfectCombo": "最高の組み合わせ：レモン汁入りレンズ豆スープ、ピーマン入りほうれん草サラダ"
+    }
+  },
+  "nutrients": {
+    "title": "ビッグ4栄養素トラッカー",
+    "progress": {
+      "title": "今日の進捗状況",
+      "done": "終わり",
+      "pending": "保留中"
+    },
+    "why": {
+      "title": "なぜこれらを追跡するのか？",
+      "desc1": "これら4つの栄養素は、植物性食品中心の食生活で最も不足しがちな栄養素です。毎日の摂取量を記録することで、必要な栄養素をすべて摂取できていることを確認できます。",
+      "note": "注：ビタミンB12はサプリメントで補給するか、強化食品から摂取する必要があります。植物には自然には含まれていません。"
+    },
+    "micronutrients": {
+      "b12": {
+        "name": "ビタミンB12",
+        "importance": "神経機能とDNA合成に不可欠",
+        "dosage": "1日2.4マイクログラム",
+        "sources": [
+          "強化植物性ミルク",
+          "栄養酵母",
+          "ビタミンB12サプリメント",
+          "栄養強化シリアル"
+        ]
+      },
+      "iron": {
+        "name": "鉄と亜鉛",
+        "importance": "酸素輸送と免疫機能に不可欠",
+        "dosage": "鉄：18mg、亜鉛：11mg（1日あたり）",
+        "sources": [
+          "カボチャの種",
+          "レンズ豆",
+          "カシューナッツ",
+          "ほうれん草",
+          "キノア"
+        ]
+      },
+      "omega3": {
+        "name": "オメガ3（ALA）",
+        "importance": "脳の健康と抗炎症作用",
+        "dosage": "1日1.6g",
+        "sources": [
+          "亜麻の種",
+          "チアシード",
+          "クルミ",
+          "麻の実"
+        ]
+      },
+      "calcium": {
+        "name": "カルシウム",
+        "importance": "骨の健康と筋肉の機能",
+        "dosage": "1日1000mg",
+        "sources": [
+          "白菜",
+          "タヒニ",
+          "栄養強化豆腐",
+          "ケール",
+          "アーモンド"
+        ]
+      }
+    }
+  },
+  "calculator": {
+    "title": "タンパク質知識ガイド",
+    "subtitle": "食品を選択して量を入力すると、そのタンパク質含有量がすぐに表示されます。",
+    "form": {
+      "selectFood": "食品を検索して選択する",
+      "placeholderFood": "食べ物を選んでください...",
+      "searchPlaceholder": "食品を検索...",
+      "amount": "量（グラム）",
+      "placeholderAmount": "100",
+      "add": "計算に追加",
+      "proteinPer100": "100gあたり{{val}}g",
+      "matches": "{{total}}件中5件を表示",
+      "noMatches": "食品は見つかりませんでした"
+    },
+    "results": {
+      "title": "タンパク質の分解",
+      "estProtein": "推定タンパク質含有量",
+      "calcInfo": "{{amount}}gの{{food}}",
+      "summary": "現在の計算概要",
+      "total": "総タンパク質",
+      "aminoAcid": "アミノ酸の完全性",
+      "aminoComplete": "完全なアミノプロファイル",
+      "aminoIncomplete": "穀物または豆類が不足している",
+      "aminoNote": "豆類（レンズ豆／豆類／大豆）＋穀物（米／キヌア／オート麦）＝完全タンパク質",
+      "save": "合計値を履歴に記録",
+      "success": "タンパク質の記録に成功しました！",
+      "ironTip": {
+        "title": "ヒント：",
+        "desc": "ビタミンC（レモン、ピーマン、トマトなど）と一緒に摂取すると、鉄分の吸収率が最大300％向上します！"
+      }
+    },
+    "reference": {
+      "title": "クイックリファレンスガイド"
+    }
+  },
+  "proteinSources": {
+    "tofu": "豆腐",
+    "tempeh": "テンペ",
+    "edamame": "枝豆",
+    "soybeansBoiled": "ゆで大豆",
+    "soyChunks": "大豆チャンク／TVPドライ",
+    "soyMince": "大豆ミンチ乾燥",
+    "soyMilk": "無糖豆乳",
+    "soyYogurt": "プレーン豆乳ヨーグルト",
+    "seitan": "セイタン",
+    "lentilsCooked": "レンズ豆の調理",
+    "redLentilsCooked": "赤レンズ豆の調理",
+    "greenLentilsCooked": "調理済みの緑レンズ豆",
+    "blackLentilsCooked": "黒レンズ豆の調理",
+    "chickpeasCooked": "調理済みのひよこ豆",
+    "blackBeansCooked": "黒豆の煮込み",
+    "kidneyBeansCooked": "調理済みのインゲン豆",
+    "pintoBeansCooked": "調理済みのピント豆",
+    "cannelliniBeansCooked": "調理済みの白インゲン豆",
+    "navyBeansCooked": "調理済みの白インゲン豆",
+    "adzukiBeansCooked": "小豆の煮物",
+    "mungBeansCooked": "調理済みの緑豆",
+    "lupinBeans": "ルピナス豆",
+    "splitPeasCooked": "調理済みのスプリットピー",
+    "greenPeas": "グリーンピース",
+    "peaProteinIsolate": "エンドウ豆タンパク質分離物",
+    "peaMilk": "エンドウ豆ミルク",
+    "hummus": "フムス",
+    "falafel": "ファラフェル",
+    "quinoaCooked": "キヌアの調理",
+    "amaranthCooked": "アマランサスの調理",
+    "buckwheatCooked": "そばの実を調理",
+    "oatsDry": "乾燥オーツ麦",
+    "rolledOats": "オートミール",
+    "steelCutOats": "スティールカットオーツ",
+    "oatBran": "オートブラン",
+    "barleyCooked": "大麦の調理",
+    "milletCooked": "調理済みのキビ",
+    "brownRiceCooked": "炊いた玄米",
+    "wildRiceCooked": "ワイルドライスの調理",
+    "teffCooked": "テフの調理",
+    "farroCooked": "ファッロの調理",
+    "freekehCooked": "フリーカの調理",
+    "wholeWheatPastaCooked": "全粒粉パスタを調理",
+    "chickpeaPastaDry": "ひよこ豆パスタ（乾燥）",
+    "lentilPastaDry": "レンズ豆パスタ（乾燥）",
+    "blackBeanPastaDry": "黒豆パスタ（乾燥）",
+    "spirulinaDry": "スピルリナ乾燥",
+    "nutritionalYeast": "栄養酵母",
+    "mushroomsWhite": "ホワイトマッシュルーム",
+    "portobelloMushrooms": "ポートベローマッシュルーム",
+    "spinach": "ほうれん草",
+    "kale": "ケール",
+    "broccoli": "ブロッコリー",
+    "brusselsSprouts": "芽キャベツ",
+    "sweetCorn": "スイートコーン",
+    "artichoke": "アーティチョーク",
+    "avocado": "アボカド",
+    "pumpkinSeeds": "カボチャの種",
+    "hempSeeds": "麻の実",
+    "chiaSeeds": "チアシード",
+    "flaxSeeds": "亜麻の種",
+    "sesameSeeds": "ゴマ",
+    "sunflowerSeeds": "ひまわりの種",
+    "watermelonSeeds": "スイカの種",
+    "almonds": "アーモンド",
+    "peanuts": "ピーナッツ",
+    "peanutButterNatural": "ピーナッツバター（天然）",
+    "cashews": "カシューナッツ",
+    "pistachios": "ピスタチオ",
+    "walnuts": "クルミ",
+    "hazelnuts": "ヘーゼルナッツ",
+    "brazilNuts": "ブラジルナッツ",
+    "almondButter": "アーモンドバター",
+    "tahini": "タヒニ",
+    "cashewButter": "カシューバター",
+    "pumpkinSeedButter": "かぼちゃの種バター",
+    "sunflowerSeedButter": "ひまわりの種バター",
+    "almondFlour": "アーモンドフラワー",
+    "chickpeaFlour": "ひよこ豆粉／ベサン",
+    "soyFlour": "大豆粉",
+    "wholeWheatFlour": "全粒小麦粉",
+    "breadWholeWheat": "全粒粉パン",
+    "ezekielBread": "エゼキエルパン",
+    "proteinBreadVegan": "プロテインブレッド（ヴィーガン）",
+    "roastedChickpeas": "ローストひよこ豆",
+    "dryRoastedEdamame": "ドライロースト枝豆",
+    "proteinBarVegan": "ビーガンプロテインバー",
+    "veganSausage": "ヴィーガンソーセージ",
+    "veganBurgerPatty": "ヴィーガンバーガーパティ",
+    "mycoproteinVegan": "マイコプロテイン ヴィーガン",
+    "beanSprouts": "もやし",
+    "alfalfaSprouts": "アルファルファの芽"
+  }
+}

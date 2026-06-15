@@ -1,0 +1,80 @@
+{
+  "shell": {
+    "title": "Zasoby do samoopieki",
+    "subtitle": "Poznaj narzędzia i wskazówki dotyczące Twojej podróży ku dobremu samopoczuciu"
+  },
+  "sections": {
+    "tools": "Narzędzia",
+    "guides": "Przewodniki po żywieniu i diecie",
+    "workouts": "Obszary ćwiczeń",
+    "learning": "Polecane materiały edukacyjne"
+  },
+  "tools": {
+    "macro": {
+      "label": "Kalkulator wartości odżywczych",
+      "desc": "Oblicz makra"
+    },
+    "calories": {
+      "label": "Spalacz kalorii",
+      "desc": "Rejestruj aktywności"
+    },
+    "fasting": {
+      "label": "Rejestrator postu",
+      "desc": "Śledź post"
+    },
+    "bmi": {
+      "label": "Kalkulator BMI",
+      "desc": "Metryki ciała"
+    }
+  },
+  "guides": {
+    "weightLoss": "Utrata wagi",
+    "diabetes": "Dieta cukrzycowa",
+    "muscle": "Przyrost masy mięśniowej",
+    "gut": "Zdrowie jelit",
+    "keto": "Podstawy diety ketogenicznej",
+    "heart": "Zdrowie serca",
+    "fasting": "Przerywany post",
+    "vegan": "Odżywianie wegańskie"
+  },
+  "workouts": {
+    "yoga": "Joga",
+    "hiit": "HIIT",
+    "strength": "Trening siłowy",
+    "posture": "Korekcja postawy",
+    "home": "Treningi domowe",
+    "flexibility": "Elastyczność"
+  },
+  "learning": {
+    "macros": {
+      "title": "Zrozumienie makroskładników",
+      "desc": "Poznaj podstawy dotyczące białka, węglowodanów i tłuszczów"
+    },
+    "others": {
+      "title": "Inni",
+      "desc": "Poznaj więcej interaktywnych narzędzi zdrowotnych"
+    }
+  },
+  "others": {
+    "title": "Inne zasoby",
+    "subtitle": "Poznaj więcej narzędzi, które pomogą Ci zadbać o zdrowie",
+    "tools": {
+      "foodDiary": {
+        "label": "Dziennik żywieniowy",
+        "desc": "Śledź swoje posiłki"
+      },
+      "planPlate": {
+        "label": "Zaplanuj swój talerz",
+        "desc": "Zrównoważ swoje posiłki"
+      },
+      "sugarEase": {
+        "label": "Codzienna łatwość cukru",
+        "desc": "Kontroluj spożycie cukru"
+      },
+      "recipeLog": {
+        "label": "Dziennik zdrowych przepisów",
+        "desc": "Zapisz swoje przepisy"
+      }
+    }
+  }
+}

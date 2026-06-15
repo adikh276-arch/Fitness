@@ -1,0 +1,80 @@
+{
+  "shell": {
+    "title": "Hulpmiddelen voor zelfzorg",
+    "subtitle": "Ontdek hulpmiddelen en begeleiding voor jouw welzijnsreis."
+  },
+  "sections": {
+    "tools": "Hulpmiddelen",
+    "guides": "Voedings- en dieetgidsen",
+    "workouts": "Trainingsruimtes",
+    "learning": "Uitgelichte leerstof"
+  },
+  "tools": {
+    "macro": {
+      "label": "Voedingscalculator",
+      "desc": "Macro's berekenen"
+    },
+    "calories": {
+      "label": "Calorieverbrander",
+      "desc": "Logboekactiviteiten"
+    },
+    "fasting": {
+      "label": "Vastenlogboek",
+      "desc": "Vasten bijhouden"
+    },
+    "bmi": {
+      "label": "BMI-calculator",
+      "desc": "Lichaamsmetingen"
+    }
+  },
+  "guides": {
+    "weightLoss": "Gewichtsverlies",
+    "diabetes": "Diabetesdieet",
+    "muscle": "Spiergroei",
+    "gut": "Darmgezondheid",
+    "keto": "De basisprincipes van het keto-dieet",
+    "heart": "Hartgezondheid",
+    "fasting": "Intermittent vasten",
+    "vegan": "Veganistische voeding"
+  },
+  "workouts": {
+    "yoga": "Yoga",
+    "hiit": "HIIT",
+    "strength": "Krachttraining",
+    "posture": "Houdingscorrectie",
+    "home": "Thuisworkouts",
+    "flexibility": "Flexibiliteit"
+  },
+  "learning": {
+    "macros": {
+      "title": "Macronutriënten begrijpen",
+      "desc": "Leer de basisprincipes van eiwitten, koolhydraten en vetten."
+    },
+    "others": {
+      "title": "Anderen",
+      "desc": "Ontdek meer interactieve gezondheidstools"
+    }
+  },
+  "others": {
+    "title": "Overige bronnen",
+    "subtitle": "Ontdek meer hulpmiddelen voor uw gezondheidstraject.",
+    "tools": {
+      "foodDiary": {
+        "label": "Voedingsdagboek",
+        "desc": "Houd bij hoeveel maaltijden je eet"
+      },
+      "planPlate": {
+        "label": "Plan je bord",
+        "desc": "Zorg voor een evenwichtige maaltijdplanning."
+      },
+      "sugarEase": {
+        "label": "Dagelijkse suikerinname",
+        "desc": "Beheers je suikerinname."
+      },
+      "recipeLog": {
+        "label": "Logboek met gezonde recepten",
+        "desc": "Bewaar je recepten"
+      }
+    }
+  }
+}

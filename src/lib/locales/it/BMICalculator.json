@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "back": "Torna alla dashboard"
+  },
+  "header": {
+    "title": "BMI intelligente e contesto corporeo",
+    "subtitle": "Monitora i tuoi parametri corporei con precisione clinica."
+  },
+  "streak": {
+    "title": "Mantenimento di un range di valori ottimali!",
+    "subtitle": "{{count}} letture consecutive nella zona sana 🎉"
+  },
+  "tabs": {
+    "calculator": "Calcolatore dell'IMC",
+    "context": "Oltre l'indice di massa corporea",
+    "history": "Storia moderna"
+  },
+  "calculator": {
+    "title": "Calcola il tuo BMI",
+    "inputs": {
+      "height": "Altezza",
+      "weight": "Peso",
+      "feet": "Piedi",
+      "inches": "Pollici",
+      "placeholders": {
+        "heightCm": "ad esempio, 170",
+        "heightFt": "Piedi",
+        "heightIn": "Pollici",
+        "weightKg": "ad esempio, 70",
+        "weightLbs": "ad esempio, 154"
+      }
+    },
+    "results": {
+      "yourBMI": "Il tuo BMI",
+      "placeholder": "Inserisci le tue misure per visualizzare il tuo BMI",
+      "submit": "Salva nel profilo",
+      "success": "✓ Salvataggio completato con successo!",
+      "categories": {
+        "underweight": "Sottopeso",
+        "healthy": "Peso sano",
+        "normal": "Normale",
+        "overweight": "Sovrappeso",
+        "obese": "Obeso",
+        "enterData": "Inserire i dati"
+      }
+    },
+    "tip": "Valuta la possibilità di includere regolarmente esercizio fisico e un'alimentazione equilibrata nella tua routine.",
+    "disclaimer": {
+      "title": "Dichiarazione di non responsabilità medica",
+      "text": "L'indice di massa corporea (BMI) è uno strumento di screening generale e non distingue tra massa muscolare e massa grassa. Consultare un professionista sanitario per un parere medico personalizzato."
+    }
+  },
+  "beyond": {
+    "title": "Rapporto vita-altezza (WHtR)",
+    "why": {
+      "title": "Perché è importante",
+      "desc": "Mantenere la circonferenza della vita inferiore alla metà dell'altezza riduce il rischio cardiovascolare. Il rapporto vita-altezza (WHtR) è più accurato dell'indice di massa corporea (BMI) per prevedere le condizioni di salute metabolica.",
+      "target": "Obiettivo: rapporto < 0,5 per una salute ottimale"
+    },
+    "inputs": {
+      "waist": "Circonferenza della vita",
+      "waistHint": "Misura nel punto più stretto della vita, di solito appena sopra l'ombelico.",
+      "placeholders": {
+        "waistCm": "ad esempio, 80",
+        "waistIn": "ad esempio, 31"
+      }
+    },
+    "results": {
+      "healthy": "Forma fisica sana",
+      "elevated": "Rischio elevato",
+      "placeholder": "Inserisci altezza e circonferenza vita per visualizzare il tuo rapporto",
+      "waistMeasurementPlaceholder": "Inserisci la circonferenza della vita",
+      "label": "Rapporto vita-altezza",
+      "submit": "Salva nel profilo (BMI + WHtR)"
+    },
+    "comparison": {
+      "title": "BMI vs WHtR: la differenza",
+      "bmi": {
+        "title": "BMI",
+        "desc": "Categoria di peso generale, non tiene conto della massa muscolare o della distribuzione del grasso."
+      },
+      "whtr": {
+        "title": "WHtR",
+        "desc": "Misura l'obesità addominale, un indicatore migliore per prevedere le malattie cardiovascolari e il diabete."
+      }
+    }
+  },
+  "history": {
+    "title": "Misurazioni recenti",
+    "noHistory": "Nessuna storia ancora",
+    "noHistoryDesc": "Inizia a monitorare il tuo BMI e le tue misurazioni corporee per osservare i tuoi progressi nel tempo.",
+    "stats": {
+      "title": "Le tue statistiche",
+      "total": "Record totali",
+      "latest": "Ultimo BMI",
+      "healthyCount": "Conteggio sano",
+      "bestStreak": "Miglior serie"
+    }
+  }
+}

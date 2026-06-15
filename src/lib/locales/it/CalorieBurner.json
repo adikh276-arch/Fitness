@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "back": "Torna alla dashboard"
+  },
+  "header": {
+    "title": "Brucia calorie",
+    "subtitle": "Tieni traccia delle calorie bruciate durante le tue attività"
+  },
+  "tabs": {
+    "calculator": "Calcolatrice",
+    "log": "Registro attività ({{count}})"
+  },
+  "calculator": {
+    "form": {
+      "title": "Dettagli dell'attività",
+      "selectActivity": "Seleziona l'attività",
+      "weight": "Il tuo peso",
+      "duration": "Durata (minuti)",
+      "submit": "Registra attività",
+      "placeholders": {
+        "weightKg": "ad esempio, 70",
+        "weightLbs": "ad esempio, 154"
+      }
+    },
+    "summary": {
+      "title": "Riepilogo delle ustioni",
+      "calories": "Calorie bruciate",
+      "activity": "Attività",
+      "duration": "Durata",
+      "weight": "Peso",
+      "burnRate": "Tasso di consumo calorico",
+      "formula": "Formula: (MET × 3,5 × Peso kg / 200) × Durata min"
+    }
+  },
+  "log": {
+    "noActivities": "Nessuna attività registrata finora",
+    "noActivitiesDesc": "Inizia a monitorare i tuoi allenamenti per visualizzarli qui",
+    "logFirst": "Registra la tua prima attività",
+    "summary": {
+      "title": "Riepilogo totale",
+      "totalActivities": "Attività totali",
+      "totalCalories": "Calorie totali",
+      "totalTime": "Tempo totale",
+      "avgSession": "Calorie medie per sessione"
+    },
+    "item": {
+      "duration": "Durata",
+      "met": "MET",
+      "calories": "Calorie",
+      "minutes": "min"
+    }
+  },
+  "activities": {
+    "walking": "Camminare (a passo svelto)",
+    "running": "Corsa (9 min/miglio)",
+    "cycling": "Ciclismo (moderato)",
+    "yoga": "Yoga",
+    "swimming": "Nuoto (vasche)",
+    "strength": "Allenamento di forza",
+    "household": "lavori domestici",
+    "dance": "Danza/Aerobica"
+  }
+}

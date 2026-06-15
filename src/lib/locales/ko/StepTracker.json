@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "back": "대시보드로 돌아가기"
+  },
+  "header": {
+    "title": "걸음 수 추적기",
+    "subtitle": "매일 걸음 수를 기록하고 목표를 달성하세요",
+    "profile": "윤곽"
+  },
+  "tabs": {
+    "tracker": "트래커",
+    "history": "역사"
+  },
+  "tracker": {
+    "stepsToday": "오늘의 단계",
+    "goalAchieved": "목표 달성!",
+    "stats": {
+      "distance": "거리",
+      "calories": "칼로리",
+      "activeTime": "활동 시간",
+      "km": "km",
+      "kcal": "칼로리",
+      "mins": "분"
+    },
+    "goal": {
+      "label": "일일 목표",
+      "value": "{{val}} 단계",
+      "change": "목표 변경"
+    },
+    "quickAdd": {
+      "title": "빠른 추가 단계",
+      "label": "사용자 지정 단계",
+      "placeholder": "예: 3500",
+      "submit": "추가하다"
+    },
+    "insights": {
+      "title": "오늘의 인사이트",
+      "remaining": "남은 단계",
+      "stride": "보폭 길이",
+      "progress": "진전",
+      "complete": "완벽한!",
+      "percentOfGoal": "목표의 {{val}}%"
+    },
+    "reset": "오늘 걸음 수 초기화"
+  },
+  "history": {
+    "title": "단계 기록",
+    "noHistory": "아직 기록이 없습니다. 지금 바로 걸음 수를 추적해 보세요!",
+    "today": "오늘",
+    "stats": {
+      "steps": "단계",
+      "goal": "목표",
+      "progress": "진전"
+    }
+  },
+  "modals": {
+    "goal": {
+      "title": "일일 목표 설정",
+      "subtitle": "하루 목표 걸음 수를 입력하세요",
+      "placeholder": "예: 10000",
+      "cancel": "취소",
+      "save": "구하다"
+    },
+    "profile": {
+      "title": "프로필 업데이트",
+      "subtitle": "이를 통해 정확한 거리와 칼로리를 계산할 수 있습니다.",
+      "height": "높이(cm)",
+      "weight": "무게(kg)",
+      "gender": "성별",
+      "male": "남성",
+      "female": "여성",
+      "placeholderHeight": "예: 170",
+      "placeholderWeight": "예: 70",
+      "cancel": "취소",
+      "save": "구하다"
+    }
+  }
+}

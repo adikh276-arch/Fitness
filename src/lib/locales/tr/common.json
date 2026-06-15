@@ -1,0 +1,80 @@
+{
+  "shell": {
+    "title": "Öz Bakım Kaynakları",
+    "subtitle": "Sağlıklı yaşam yolculuğunuz için araçları ve rehberleri keşfedin."
+  },
+  "sections": {
+    "tools": "Aletler",
+    "guides": "Beslenme ve Diyet Rehberleri",
+    "workouts": "Egzersiz Alanları",
+    "learning": "Öne Çıkan Öğrenme"
+  },
+  "tools": {
+    "macro": {
+      "label": "Beslenme Hesaplayıcısı",
+      "desc": "Makroları hesapla"
+    },
+    "calories": {
+      "label": "Kalori Yakıcı",
+      "desc": "Etkinlikleri kaydet"
+    },
+    "fasting": {
+      "label": "Oruç Kayıt Defteri",
+      "desc": "Oruç takibi"
+    },
+    "bmi": {
+      "label": "BMI Hesaplayıcı",
+      "desc": "Vücut ölçüleri"
+    }
+  },
+  "guides": {
+    "weightLoss": "Kilo Verme",
+    "diabetes": "Diyabet Diyeti",
+    "muscle": "Kas Kazanımı",
+    "gut": "Bağırsak Sağlığı",
+    "keto": "Keto Temelleri",
+    "heart": "Kalp Sağlığı",
+    "fasting": "Aralıklı Oruç",
+    "vegan": "Vegan Beslenme"
+  },
+  "workouts": {
+    "yoga": "Yoga",
+    "hiit": "HIIT",
+    "strength": "Kuvvet Antrenmanı",
+    "posture": "Duruş Düzeltme",
+    "home": "Evde Egzersizler",
+    "flexibility": "Esneklik"
+  },
+  "learning": {
+    "macros": {
+      "title": "Makro besinleri anlamak",
+      "desc": "Protein, karbonhidrat ve yağların temellerini öğrenin."
+    },
+    "others": {
+      "title": "Diğerleri",
+      "desc": "Daha fazla etkileşimli sağlık aracını keşfedin"
+    }
+  },
+  "others": {
+    "title": "Diğer Kaynaklar",
+    "subtitle": "Sağlık yolculuğunuz için daha fazla araç keşfedin.",
+    "tools": {
+      "foodDiary": {
+        "label": "Yemek Günlüğü",
+        "desc": "Öğünlerinizi takip edin"
+      },
+      "planPlate": {
+        "label": "Tabağınızı Planlayın",
+        "desc": "Öğünlerinizi dengeleyin."
+      },
+      "sugarEase": {
+        "label": "Günlük Şeker Rahatlığı",
+        "desc": "Şeker alımını kontrol altında tutun."
+      },
+      "recipeLog": {
+        "label": "Sağlıklı Tarif Günlüğü",
+        "desc": "Tariflerinizi kaydedin"
+      }
+    }
+  }
+}

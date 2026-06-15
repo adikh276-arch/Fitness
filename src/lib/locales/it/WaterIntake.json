@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "back": "Torna alla dashboard"
+  },
+  "header": {
+    "title": "Monitoraggio dell'assunzione di acqua",
+    "subtitle": "Monitora la tua idratazione quotidiana e raggiungi i tuoi obiettivi"
+  },
+  "tabs": {
+    "tracker": "Tracker di oggi",
+    "history": "Storia"
+  },
+  "tracker": {
+    "consumed": "ml consumati",
+    "goalLabel": "Obiettivo giornaliero",
+    "remainingLabel": "Rimanente",
+    "changeGoal": "Modifica l'obiettivo giornaliero",
+    "quickAdd": {
+      "title": "Aggiunta rapida",
+      "smallGlass": "Piccolo bicchiere",
+      "bottle": "Bottiglia",
+      "largeBottle": "Bottiglia grande",
+      "jug": "Brocca"
+    },
+    "custom": {
+      "label": "Quantità personalizzata (ml)",
+      "placeholder": "ad esempio, 350",
+      "submit": "Aggiungere",
+      "undo": "Annulla l'ultima voce"
+    }
+  },
+  "history": {
+    "title": "Storia dell'assunzione di acqua",
+    "noHistory": "Nessuna cronologia disponibile al momento",
+    "today": "Oggi",
+    "summary": "{{totale}} ml / {{obiettivo}} ml ({{percentuale}}%)",
+    "stats": {
+      "total": "Totale",
+      "entries": "Voci"
+    }
+  },
+  "modal": {
+    "title": "Imposta un obiettivo giornaliero",
+    "subtitle": "Inserisci il tuo obiettivo di assunzione giornaliera di acqua",
+    "placeholder": "ad esempio, 2500",
+    "calcToggleShow": "Calcola il valore consigliato",
+    "calcToggleHide": "Calcolatrice di frequenza",
+    "formula": "Formula: Peso (kg) × 35 ml",
+    "weightLabel": "Il tuo peso (kg)",
+    "weightPlaceholder": "ad esempio, 70",
+    "calcBtn": "Calcola e applica",
+    "cancel": "Cancellare",
+    "save": "Salva"
+  }
+}

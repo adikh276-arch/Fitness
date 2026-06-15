@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "back": "Voltar ao painel de controle"
+  },
+  "header": {
+    "title": "Dieta e controle do diabetes",
+    "subtitle": "Monitore o nível de açúcar no sangue, aprenda a planejar suas refeições para diabéticos e consulte os valores do índice glicêmico."
+  },
+  "alert": {
+    "title": "Alerta de hipoglicemia!",
+    "desc": "Seu nível de glicose está abaixo de 70 mg/dL. Tome medidas imediatas:",
+    "actions": {
+      "carbs": "Consuma 15g de carboidratos de rápida absorção (4 comprimidos de glicose, 1/2 xícara de suco ou 1 colher de sopa de mel).",
+      "wait": "Aguarde 15 minutos e repita o teste.",
+      "repeat": "Se o resultado ainda for baixo, repita o processo.",
+      "contact": "Contate seu profissional de saúde se os sintomas persistirem."
+    }
+  },
+  "tabs": {
+    "plate": "O Prato Diabético",
+    "log": "Registro de glicemia",
+    "gi": "Ferramenta de pesquisa de GI"
+  },
+  "log": {
+    "title": "Registro da leitura de glicose",
+    "unit": "Unidade",
+    "value": "Valor de glicose ({{unidade}})",
+    "valuePlaceholder": "Exemplo: 120",
+    "valuePlaceholderMmol": "Por exemplo, 6.7",
+    "timing": "Tempo",
+    "mealContext": "O que você comeu? (Opcional)",
+    "mealContextPlaceholder": "Por exemplo: Comi uma tigela de mingau de aveia com frutas vermelhas.",
+    "submit": "Leitura de registro",
+    "success": "Leitura registrada com sucesso!",
+    "targets": {
+      "title": "Alcances de alvos:",
+      "fasting": "Em jejum: 80-130 mg/dL",
+      "postMeal": "Pós-prandial: <180 mg/dL",
+      "low": "Baixo: <70 mg/dL (tome providências)"
+    },
+    "recent": {
+      "title": "Leituras recentes",
+      "noReadings": "Nenhuma leitura registrada ainda",
+      "trend": "Tendência de 7 dias",
+      "targetMax": "Alvo Máximo"
+    }
+  },
+  "plate": {
+    "intro": {
+      "title": "Método do Prato Diabético",
+      "desc": "Um guia visual simples para montar refeições balanceadas que ajudam a controlar os níveis de açúcar no sangue. Clique em cada seção para ver as melhores opções de alimentos."
+    },
+    "build": {
+      "title": "Monte seu prato equilibrado",
+      "hint": "Clique em cada seção"
+    },
+    "categories": {
+      "veggies": {
+        "name": "Vegetais não amiláceos",
+        "percent": "50%",
+        "desc": "Rico em fibras, baixo em carboidratos"
+      },
+      "protein": {
+        "name": "Proteína magra",
+        "percent": "25%",
+        "desc": "Estabiliza o açúcar no sangue."
+      },
+      "carbs": {
+        "name": "Carboidratos complexos",
+        "percent": "25%",
+        "desc": "digestão lenta"
+      }
+    },
+    "principles": {
+      "title": "Princípios-chave",
+      "veggies": {
+        "title": "Preencha metade do seu prato com vegetais não amiláceos.",
+        "desc": "Esses alimentos são pobres em carboidratos, ricos em fibras e repletos de nutrientes que não elevam o açúcar no sangue."
+      },
+      "protein": {
+        "title": "Um quarto de prato com proteína magra",
+        "desc": "A proteína ajuda a estabilizar o açúcar no sangue e mantém a sensação de saciedade por mais tempo."
+      },
+      "carbs": {
+        "title": "Um quarto de prato com carboidratos complexos",
+        "desc": "Escolha grãos integrais e opções ricas em fibras que sejam digeridas lentamente e evitem picos de açúcar no sangue."
+      }
+    }
+  },
+  "gi": {
+    "intro": {
+      "title": "Consulta do Índice Glicêmico (IG)",
+      "desc": "O índice glicêmico mede a rapidez com que os alimentos elevam o açúcar no sangue. Quanto menor, melhor para o controle do diabetes.",
+      "low": "Baixo IG (0-55): Seguro",
+      "medium": "Índice glicêmico médio (56-69): Moderado",
+      "high": "Alto índice glicêmico (70+): Limite"
+    },
+    "searchPlaceholder": "Procure por comida...",
+    "noResults": "Nenhum alimento encontrado que corresponda à sua pesquisa.",
+    "labels": {
+      "low": "Baixo índice glicêmico",
+      "medium": "Índice glicêmico médio",
+      "high": "Alto índice glicêmico"
+    }
+  },
+  "timing": {
+    "fasting": "Jejum",
+    "preMeal": "Antes da refeição",
+    "postMeal1h": "Pós-refeição (1h)",
+    "postMeal2h": "Pós-refeição (2h)",
+    "bedtime": "Hora de dormir"
+  },
+  "status": {
+    "low": "BAIXO",
+    "high": "ALTO",
+    "normal": "NORMAL"
+  },
+  "foods": {
+    "Spinach": "Espinafre",
+    "Broccoli": "Brócolis",
+    "Cauliflower": "Couve-flor",
+    "Bell Peppers": "Pimentões",
+    "Zucchini": "Abobrinha",
+    "Asparagus": "Espargos",
+    "Cucumber": "Pepino",
+    "Tomatoes": "Tomates",
+    "Chicken Breast": "Peito de frango",
+    "Fish (Salmon, Tuna)": "Peixe (Salmão, Atum)",
+    "Tofu": "Tofu",
+    "Lentils": "Lentilhas",
+    "Eggs": "Ovos",
+    "Turkey": "Peru",
+    "Greek Yogurt": "Iogurte grego",
+    "Brown Rice": "Arroz integral",
+    "Quinoa": "Quinoa",
+    "Sweet Potato": "Batata doce",
+    "Whole Wheat Pasta": "Massa integral",
+    "Oats": "Aveia",
+    "Barley": "Cevada"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "common": {
+    "next": "Next",
+    "subtitle": "Track your meals and feelings",
+    "title": "Food Diary"
+  },
+  "feelings": {
+    "description": "Listen to your body — it always has something to tell you!",
+    "placeholder": "e.g. I felt satisfied after lunch but a little heavy after dinner...",
+    "title": "How did you feel after eating?"
+  },
+  "history": {
+    "empty": "No entries yet. Complete your first food diary to see it here!",
+    "subtitle": "Your past entries"
+  },
+  "intro": {
+    "description": "Tracking what you eat helps you understand your body better — what gives you energy, what makes you feel heavy, and where you can make simple improvements. This is a judgment-free zone. Just be honest and enjoy the process!",
+    "startButton": "Let's Start →",
+    "subtitle": "Small steps to big health changes!",
+    "title": "Welcome to your Food Diary"
+  },
+  "meals": {
+    "breakfast": { "label": "Breakfast", "placeholder": "What did you have?" },
+    "description": "Log each meal or snack below. Even a rough note counts!",
+    "dinner": { "label": "Dinner", "placeholder": "What did you have?" },
+    "lunch": { "label": "Lunch", "placeholder": "What did you have?" },
+    "snacks": { "label": "Snacks", "placeholder": "Anything in between?" },
+    "title": "What did you eat today?"
+  },
+  "messages": {
+    "entryDeleted": "Entry deleted",
+    "entrySaved": "Entry saved!"
+  },
+  "reflection": {
+    "encouragement": "Every entry you make brings you one step closer to a healthier, happier you. Keep showing up — consistency is the real secret!",
+    "placeholder": "Write your thoughts here...",
+    "question": "What's one thing you'd like to eat better tomorrow?",
+    "saveButton": "Save Entry",
+    "title": "Great job completing today's log!"
+  }
+}

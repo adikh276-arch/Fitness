@@ -1,0 +1,174 @@
+{
+  "nav": {
+    "back": "Înapoi la Tabloul de bord"
+  },
+  "header": {
+    "title": "Ghid pentru creșterea masei musculare",
+    "subtitle": "Abordare bazată pe știință pentru construirea masei musculare și a forței"
+  },
+  "tabs": {
+    "plan": "Planul de creștere",
+    "metrics": "Jurnalul metricilor corporale",
+    "habits": "Obiceiuri de hipertrofie"
+  },
+  "plan": {
+    "pillars": {
+      "caloric": {
+        "title": "Surplus caloric",
+        "value": "TDEE + 250 până la 500 kcal",
+        "desc": "Corpul tău are nevoie de energie suplimentară pentru a construi țesut muscular nou. Prea puțină și nu vei crește; prea multă și vei acumula grăsime inutilă. Țintește cu 250-500 kcal peste Cheltuielile Energetice Zilnice Totale (CTZ)."
+      },
+      "protein": {
+        "title": "Sinteza proteinelor",
+        "value": "1,8 g până la 2,2 g pe kg",
+        "desc": "Proteina este elementul constitutiv al mușchilor. Cercetările arată că 1,8-2,2 g de proteine per kilogram de greutate corporală maximizează sinteza și recuperarea proteinelor musculare."
+      },
+      "overload": {
+        "title": "Suprasarcină progresivă",
+        "value": "Progresie săptămânală",
+        "desc": "Mușchii cresc ca răspuns la solicitări tot mai mari. În fiecare săptămână, încearcă să crești greutatea, repetările sau seturile. Urmărește-ți volumul total (seturi × repetări × greutate) pentru a asigura o progresie constantă."
+      }
+    },
+    "mealTiming": {
+      "title": "Momentul meselor pentru creșterea masei musculare",
+      "subtitle": "Deși aportul zilnic total contează cel mai mult, momentul potrivit poate optimiza performanța și recuperarea:",
+      "preWorkoutLong": {
+        "time": "2-3 ore înainte",
+        "title": "Înainte de antrenament",
+        "desc": "Masă echilibrată cu carbohidrați și proteine"
+      },
+      "preWorkoutCarbs": {
+        "time": "30-60 de minute înainte",
+        "title": "Carbohidrați înainte de antrenament",
+        "desc": "Carbohidrați rapizi pentru energie (banane, turte de orez)"
+      },
+      "training": {
+        "time": "În timpul",
+        "title": "Antrenament",
+        "desc": "Hidratare + carbohidrați opționali în timpul antrenamentului"
+      },
+      "postWorkout": {
+        "time": "În termen de 2 ore",
+        "title": "Proteine post-antrenament",
+        "desc": "30-40g proteine + carbohidrați pentru recuperare"
+      },
+      "eveningProtein": {
+        "time": "Înainte de culcare",
+        "title": "Proteine de seară",
+        "desc": "Cazeină sau proteină cu digerare lentă"
+      }
+    },
+    "principles": {
+      "title": "Principii cheie pentru succes",
+      "p1": {
+        "title": "Consecvența bate perfecțiunea:",
+        "desc": "Lipsa unui antrenament sau a unei mese nu va afecta progresul, dar inconsecvența o va face."
+      },
+      "p2": {
+        "title": "Somnul este anabolic:",
+        "desc": "Încercați să faceți 7-9 ore pe noapte pentru o recuperare optimă și eliberarea hormonului de creștere."
+      },
+      "p3": {
+        "title": "Urmărește-ți volumul:",
+        "desc": "Ceea ce se măsoară se îmbunătățește - înregistrează-ți ridicările pentru a asigura o supraîncărcare progresivă"
+      },
+      "p4": {
+        "title": "Este nevoie de răbdare:",
+        "desc": "Creșterea musculară naturală este de 0,5-1 kg pe lună pentru începători, mai lentă pentru halterofilii avansați."
+      }
+    }
+  },
+  "metrics": {
+    "strength": {
+      "totalVolume": "Volum săptămânal total",
+      "volumeTarget": "Volum țintă pentru {{weight}} kg masă corporală",
+      "kgLifted": "kg ridicate",
+      "goal": "din obiectivul de {{goal}} kg",
+      "awayFromTarget": "Ești la {{gap}} kg distanță de capacitatea de lucru a greutății tale țintă",
+      "setTarget": "Setați greutatea țintă mai jos pentru a vedea volumul dorit",
+      "statusLabels": {
+        "setTarget": "Setați greutatea țintă",
+        "building": "Fundația clădirii",
+        "growth": "Zonă de creștere",
+        "hit": "Capacitatea țintă atinsă"
+      }
+    },
+    "form": {
+      "title": "Măsurători corporale ale jurnalului",
+      "currentWeight": "Greutate actuală (kg)",
+      "targetWeight": "Greutate țintă (kg) *",
+      "targetWeightHint": "Setează obiectivul de volum",
+      "chest": "Piept (țoli)",
+      "chestHint": "Măsurați la linia mamelonului",
+      "waist": "Talie (în inci)",
+      "waistHint": "La nivelul buricului",
+      "bicepR": "Biceps drept (înăuntru)",
+      "bicepRHint": "Partea cea mai lată, flexată",
+      "bicepL": "Biceps stâng (în)",
+      "bicepLHint": "Opțional",
+      "thigh": "Coapsă (în)",
+      "thighHint": "Partea cea mai lată",
+      "submit": "Măsurători de jurnal",
+      "success": "Metricile au fost înregistrate cu succes!"
+    },
+    "volume": {
+      "title": "Calculator de volum",
+      "exercise": "Exercita",
+      "sets": "Seturi",
+      "reps": "Reprezentanți",
+      "weight": "Greutate (kg)",
+      "totalVolume": "Volum total",
+      "remaining": "Rămas pentru gol",
+      "submit": "Volumul jurnalului",
+      "logged": "{{lift}} înregistrat: {{volume}}kg volum total!"
+    },
+    "chart": {
+      "title": "Diagrama de progres",
+      "weight": "Greutate (kg)",
+      "chest": "Piept (în)",
+      "bicep": "Biceps (în)"
+    },
+    "noData": "Încă nu s-au înregistrat măsurători. Începeți să urmăriți pentru a vedea progresul!"
+  },
+  "habits": {
+    "title": "Obiceiurile de hipertrofie de astăzi",
+    "subtitle": "Bifează fiecare obicei pe măsură ce îl duci la bun sfârșit",
+    "items": {
+      "surplus": {
+        "title": "Surplus caloric atins",
+        "desc": "Atinge-ți obiectivul caloric astăzi"
+      },
+      "protein": {
+        "title": "Obiectiv de proteine atins",
+        "desc": "1,8-2,2 g pe kg de greutate corporală"
+      },
+      "creatine": {
+        "title": "Creatină administrată",
+        "desc": "3-5g zilnic pentru performanță îmbunătățită"
+      },
+      "sleep": {
+        "title": "Somn de calitate",
+        "desc": "7-9 ore pentru o recuperare optimă"
+      },
+      "trained": {
+        "title": "Antrenat astăzi",
+        "desc": "Ți-ai terminat sesiunea de antrenament"
+      }
+    },
+    "recovery": {
+      "title": "Starea de recuperare",
+      "good": "Optimizat pentru recuperare",
+      "goodDesc": "Bravo la somn și proteine! Mușchii tăi se recuperează optim.",
+      "improve": "Loc de îmbunătățire",
+      "improveDesc": "Concentrează-te pe somn și pe atingerea țintei tale proteice pentru o recuperare mai bună."
+    },
+    "calendar": {
+      "title": "Seria de obiceiuri de 30 de zile",
+      "legend": {
+        "perfect": "Perfect (5/5)",
+        "partial": "Parţial",
+        "none": "Incomplet"
+      }
+    }
+  }
+}

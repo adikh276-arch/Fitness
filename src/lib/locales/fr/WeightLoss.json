@@ -1,0 +1,150 @@
+{
+  "nav": {
+    "back": "Retour au tableau de bord"
+  },
+  "header": {
+    "title": "Guide de perte de poids",
+    "subtitle": "Votre guide complet pour une perte de poids durable"
+  },
+  "tabs": {
+    "plan": "Le plan",
+    "tracker": "Traqueur",
+    "habits": "Habitudes"
+  },
+  "plan": {
+    "goldenRule": {
+      "title": "La règle d'or",
+      "subtitle": "Déficit calorique vs. densité nutritionnelle",
+      "desc": "Pour perdre du poids, il faut créer un déficit calorique, mais la qualité de ces calories est tout aussi importante que la quantité. Privilégiez les aliments complets riches en nutriments qui vous rassasient tout en créant le déficit nécessaire à la perte de graisse."
+    },
+    "proteinFirst": {
+      "title": "Les protéines d'abord",
+      "subtitle": "Pourquoi un apport de 1,2 g à 1,6 g de protéines par kg est indispensable pour perdre de la graisse :",
+      "muscle": "Préserve la masse musculaire pendant une restriction calorique",
+      "thermic": "Effet thermique plus élevé (30 % des calories protéiques brûlées pendant la digestion)",
+      "satiety": "Une sensation de satiété accrue vous aide à vous sentir rassasié plus longtemps.",
+      "sugar": "Stabilise la glycémie et réduit les fringales"
+    },
+    "plateMethod": {
+      "title": "La méthode des assiettes",
+      "subtitle": "Un guide visuel simple pour des repas équilibrés favorisant la perte de graisse :",
+      "veg": {
+        "title": "Légumes",
+        "desc": "Légumes non féculents pour le volume et les nutriments"
+      },
+      "protein": {
+        "title": "Protéine",
+        "desc": "Viandes maigres, poissons, œufs ou sources végétales"
+      },
+      "carbs": {
+        "title": "Glucides riches en fibres",
+        "desc": "céréales complètes, patate douce, quinoa, légumineuses"
+      }
+    },
+    "hiddenFactors": {
+      "title": "Les facteurs cachés",
+      "hydration": {
+        "title": "Hydratation",
+        "desc": "Une bonne hydratation aide :",
+        "list": [
+          "Réguler l'appétit",
+          "Stimuler le métabolisme",
+          "Réduire la rétention d'eau",
+          "Favoriser l'oxydation des graisses"
+        ]
+      },
+      "sleep": {
+        "title": "Sommeil (7 heures et plus)",
+        "desc": "Un sommeil de qualité régule :",
+        "list": [
+          "Cortisol (hormone du stress)",
+          "Ghréline et leptine (faim)",
+          "Sensibilité à l'insuline",
+          "Récupération et énergie"
+        ]
+      }
+    }
+  },
+  "tracker": {
+    "progress": {
+      "title": "Vos progrès",
+      "change": "Objectifs de changement",
+      "lost": "Perte de poids",
+      "remaining": "Restant",
+      "percent": "Progrès",
+      "complete": "Complet"
+    },
+    "log": {
+      "title": "Consignez les indicateurs du jour",
+      "weight": "Poids actuel (kg)",
+      "chest": "Tour de poitrine (pouces, facultatif)",
+      "waist": "Tour de taille (pouces, facultatif)",
+      "hips": "Hanches (pouces, facultatif)",
+      "placeholder": "par exemple, {{val}}",
+      "submit": "Métriques de journalisation"
+    },
+    "history": {
+      "title": "Historique des indicateurs",
+      "total": "Total des journaux",
+      "first": "Premier poids",
+      "latest": "Poids le plus récent",
+      "unit": "kg",
+      "inches": "pouces",
+      "chest": "poitrine",
+      "waist": "taille",
+      "hips": "les hanches"
+    }
+  },
+  "habits": {
+    "consistency": {
+      "title": "Régularité hebdomadaire",
+      "subtitle": "Continuez à développer ces saines habitudes !"
+    },
+    "today": {
+      "title": "Les habitudes d'aujourd'hui",
+      "subtitle": "Cochez chaque habitude au fur et à mesure que vous la terminez aujourd'hui",
+      "protein": {
+        "label": "Objectif en protéines atteint",
+        "desc": "1,2 à 1,6 g par kg de poids corporel"
+      },
+      "noSugar": {
+        "label": "Pas de boissons sucrées",
+        "desc": "Eau, thé ou café noir seulement"
+      },
+      "walk": {
+        "label": "Promenade de 10 minutes après le repas",
+        "desc": "Activité légère après le repas"
+      },
+      "sleep": {
+        "label": "Plus de 7 heures de sommeil",
+        "desc": "Un repos de qualité pour la récupération"
+      }
+    },
+    "tracker30": {
+      "title": "Suivi des habitudes sur 30 jours",
+      "legend": {
+        "none": "Aucun",
+        "low": "1",
+        "mid": "2-3",
+        "high": "3",
+        "all": "Tous les 4"
+      }
+    },
+    "whyMatters": {
+      "title": "Pourquoi ces habitudes sont importantes",
+      "protein": "L'apport en protéines préserve la masse musculaire et augmente la sensation de satiété pendant une perte de poids.",
+      "noSugar": "Éviter les boissons sucrées élimine les calories vides et réduit les pics d'insuline.",
+      "walk": "Marcher après les repas améliore la sensibilité à l'insuline et facilite la digestion.",
+      "sleep": "Un sommeil de qualité régule les hormones de la faim et favorise la perte de graisse."
+    }
+  },
+  "modal": {
+    "title": "Définissez vos objectifs",
+    "subtitle": "Personnalisons votre parcours de perte de poids",
+    "start": "Poids initial (kg)",
+    "target": "Poids cible (kg)",
+    "date": "Date cible",
+    "save": "Arrêt du but",
+    "fillAll": "Veuillez remplir tous les champs"
+  }
+}

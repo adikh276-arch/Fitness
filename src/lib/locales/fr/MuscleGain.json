@@ -1,0 +1,253 @@
+{
+  "nav": {
+    "back": "Retour au tableau de bord"
+  },
+  "header": {
+    "title": "Guide de prise de masse musculaire",
+    "subtitle": "Approche scientifique pour développer les muscles et la force"
+  },
+  "tabs": {
+    "plan": "Le plan de croissance",
+    "metrics": "Journal des mesures corporelles",
+    "habits": "Habitudes d'hypertrophie"
+  },
+  "plan": {
+    "pillars": {
+      "caloric": {
+        "title": "Excédent calorique",
+        "value": "Dépense énergétique totale journalière (DETJ) + 250 à 500 kcal",
+        "desc": "Votre corps a besoin d'énergie supplémentaire pour construire de nouveaux tissus musculaires. Un apport insuffisant empêchera votre prise de masse musculaire ; un apport excessif entraînera une prise de graisse inutile. Visez un apport de 250 à 500 kcal supérieur à votre dépense énergétique quotidienne totale (DEQT)."
+      },
+      "protein": {
+        "title": "Synthèse des protéines",
+        "value": "1,8 g à 2,2 g par kg",
+        "desc": "Les protéines sont les éléments constitutifs des muscles. Des études montrent qu'un apport de 1,8 à 2,2 g de protéines par kilogramme de poids corporel optimise la synthèse et la récupération des protéines musculaires."
+      },
+      "overload": {
+        "title": "Surcharge progressive",
+        "value": "Progression hebdomadaire",
+        "desc": "Les muscles se développent en fonction de l'effort fourni. Chaque semaine, essayez d'augmenter la charge, le nombre de répétitions ou de séries. Suivez votre volume total d'entraînement (séries × répétitions × charge) pour une progression constante."
+      }
+    },
+    "mealTiming": {
+      "title": "Le moment des repas pour la croissance musculaire",
+      "subtitle": "Bien que l'apport quotidien total soit le facteur le plus important, un timing stratégique peut optimiser les performances et la récupération :",
+      "preWorkoutLong": {
+        "time": "2 à 3 heures avant",
+        "title": "Pré-entraînement",
+        "desc": "Repas équilibré avec glucides et protéines"
+      },
+      "preWorkoutCarbs": {
+        "time": "30 à 60 minutes avant",
+        "title": "Glucides pré-entraînement",
+        "desc": "Glucides rapides pour l'énergie (banane, galettes de riz)"
+      },
+      "training": {
+        "time": "Pendant",
+        "title": "Entraînement",
+        "desc": "Hydratation + glucides intra-entraînement optionnels"
+      },
+      "postWorkout": {
+        "time": "En moins de 2 heures",
+        "title": "Protéines post-entraînement",
+        "desc": "30 à 40 g de protéines + glucides pour la récupération"
+      },
+      "eveningProtein": {
+        "time": "Avant le coucher",
+        "title": "Protéines du soir",
+        "desc": "Caséine ou protéine à digestion lente"
+      }
+    },
+    "principles": {
+      "title": "Principes clés de la réussite",
+      "p1": {
+        "title": "La constance vaut mieux que la perfection :",
+        "desc": "Manquer une séance d'entraînement ou un repas ne ruinera pas vos progrès, mais l'irrégularité, si."
+      },
+      "p2": {
+        "title": "Le sommeil est anabolisant :",
+        "desc": "Visez un sommeil de 7 à 9 heures par nuit pour une récupération optimale et la libération de l'hormone de croissance."
+      },
+      "p3": {
+        "title": "Suivez votre volume :",
+        "desc": "Ce qui est mesuré est amélioré : enregistrez vos séances d’entraînement pour assurer une surcharge progressive."
+      },
+      "p4": {
+        "title": "La patience est de mise :",
+        "desc": "La croissance musculaire naturelle est de 0,5 à 1 kg par mois pour les débutants, et plus lente pour les pratiquants confirmés."
+      }
+    }
+  },
+  "metrics": {
+    "strength": {
+      "totalVolume": "Volume hebdomadaire total",
+      "volumeTarget": "Objectif de volume pour {{weight}}kg de masse corporelle",
+      "kgLifted": "kg soulevés",
+      "goal": "de {{goal}}kg objectif",
+      "awayFromTarget": "Il vous manque {{gap}} kg pour atteindre votre capacité de travail cible.",
+      "setTarget": "Définissez votre poids cible ci-dessous pour voir votre objectif de volume",
+      "statusLabels": {
+        "setTarget": "Définir le poids cible",
+        "building": "Fondations du bâtiment",
+        "growth": "Zone de croissance",
+        "hit": "Capacité cible atteinte"
+      }
+    },
+    "form": {
+      "title": "Mesures corporelles enregistrées",
+      "currentWeight": "Poids actuel (kg)",
+      "targetWeight": "Poids cible (kg) *",
+      "targetWeightHint": "Fixe un objectif de volume",
+      "chest": "Tour de poitrine (pouces)",
+      "chestHint": "Mesurer au niveau de la ligne du mamelon",
+      "waist": "Tour de taille (en pouces)",
+      "waistHint": "Au niveau du nombril",
+      "bicepR": "Biceps droit (en)",
+      "bicepRHint": "Partie la plus large fléchie",
+      "bicepL": "Biceps gauche (en)",
+      "bicepLHint": "Facultatif",
+      "thigh": "Cuisse (en pouces)",
+      "thighHint": "partie la plus large",
+      "submit": "Mesures de journalisation",
+      "success": "Métriques enregistrées avec succès !",
+      "placeholders": {
+        "weight": "par exemple, 75",
+        "targetWeight": "par exemple, 85",
+        "chest": "par exemple, 40",
+        "waist": "Facultatif",
+        "bicep": "par exemple, 15",
+        "bicepL": "Identique à droite",
+        "thigh": "Facultatif"
+      }
+    },
+    "volume": {
+      "title": "Calculateur de volume",
+      "exercise": "Exercice",
+      "sets": "Ensembles",
+      "reps": "Réputation",
+      "weight": "Poids (kg)",
+      "totalVolume": "Volume total",
+      "remaining": "Restant à marquer",
+      "submit": "Volume journalier",
+      "logged": "{{lift}} enregistré : {{volume}}kg volume total !",
+      "recentLifts": "Rénovations récentes",
+      "placeholders": {
+        "sets": "par exemple, 4",
+        "reps": "par exemple, 8",
+        "weight": "par exemple, 80"
+      }
+    },
+    "chart": {
+      "title": "Tableau de progression",
+      "weight": "Poids (kg)",
+      "chest": "Poitrine (en)",
+      "bicep": "Biceps (en)"
+    },
+    "noData": "Aucune mesure enregistrée pour le moment. Commencez le suivi pour voir votre progression !"
+  },
+  "habits": {
+    "title": "Les habitudes d'hypertrophie d'aujourd'hui",
+    "subtitle": "Cochez chaque habitude au fur et à mesure que vous la terminez.",
+    "items": {
+      "surplus": {
+        "title": "Excédent calorique métabolique",
+        "desc": "Atteignez votre objectif calorique aujourd'hui"
+      },
+      "protein": {
+        "title": "Objectif protéique atteint",
+        "desc": "1,8 à 2,2 g par kg de poids corporel"
+      },
+      "creatine": {
+        "title": "Créatine prise",
+        "desc": "3 à 5 g par jour pour des performances améliorées"
+      },
+      "sleep": {
+        "title": "Sommeil de qualité",
+        "desc": "7 à 9 heures pour une récupération optimale"
+      },
+      "trained": {
+        "title": "Entraîné aujourd'hui",
+        "desc": "Vous avez terminé votre séance d'entraînement"
+      }
+    },
+    "recovery": {
+      "title": "État de récupération",
+      "good": "Récupération optimisée",
+      "goodDesc": "Excellent travail concernant le sommeil et les protéines ! Vos muscles récupèrent de manière optimale.",
+      "improve": "Marge d'amélioration",
+      "improveDesc": "Privilégiez le sommeil et atteignez votre objectif en protéines pour une meilleure récupération."
+    },
+    "calendar": {
+      "title": "Série de 30 jours d'habitudes",
+      "legend": {
+        "perfect": "Parfait (5/5)",
+        "partial": "Partiel",
+        "none": "Incomplet"
+      },
+      "tooltip": "Jour {{day}} : {{count}}/5 habitudes"
+    }
+  },
+  "essentials": {
+    "title": "Les essentiels de l'hypertrophie",
+    "tips": {
+      "rest": {
+        "title": "Les muscles se développent pendant le repos :",
+        "desc": "La croissance musculaire se produit grâce au sommeil et à une bonne alimentation, pas à la salle de sport."
+      },
+      "protein": {
+        "title": "Le moment de la consommation de protéines importe moins que la quantité totale :",
+        "desc": "Concentrez-vous sur l'atteinte de votre objectif quotidien, le timing est secondaire."
+      },
+      "track": {
+        "title": "Tout suivre :",
+        "desc": "Poids, mensurations et volume : les données révèlent des progrès invisibles dans le miroir."
+      },
+      "creatine": {
+        "title": "Il est prouvé que la créatine :",
+        "desc": "Une dose de 3 à 5 g par jour augmente la force et la masse musculaire maigre sans effets secondaires chez la plupart des personnes."
+      }
+    }
+  },
+  "exercises": {
+    "squat": "Squatter",
+    "deadlift": "Soulevé de terre",
+    "benchPress": "développé couché",
+    "overheadPress": "Presse au-dessus de la tête",
+    "barbellRow": "Tirage à la barre",
+    "pullUp": "Tirer vers le haut",
+    "chinUp": "Courage !",
+    "latPulldown": "Tirage vertical",
+    "seatedCableRow": "Rameur de câbles assis",
+    "dumbbellRow": "Tirage avec haltères",
+    "romanianDeadlift": "Soulevé de terre roumain",
+    "hipThrust": "poussée de hanche",
+    "lunge": "fente",
+    "bulgarianSplitSquat": "Squat bulgare",
+    "legPress": "Presse à jambes",
+    "legExtension": "Extension de jambe",
+    "legCurl": "Flexion des jambes",
+    "calfRaise": "Élevage de mollets",
+    "gluteBridge": "Pont fessier",
+    "pushUp": "Faire monter",
+    "inclineDumbbellPress": "Presse inclinée avec haltères",
+    "dips": "Sauces",
+    "chestFly": "Vol de poitrine",
+    "lateralRaise": "Élévation latérale",
+    "rearDeltFly": "Delt postérieur",
+    "facePull": "Tirage du visage",
+    "bicepCurl": "Flexion des biceps",
+    "hammerCurl": "Boucle en marteau",
+    "tricepPushdown": "Extension des triceps",
+    "skullCrusher": "Skull Crusher",
+    "plank": "Planche",
+    "hangingLegRaise": "Relevés de jambes suspendues",
+    "russianTwist": "Tourbillon russe",
+    "farmerCarry": "Portage du fermier",
+    "shrug": "Hausser les épaules",
+    "arnoldPress": "Arnold Press",
+    "frontSquat": "Squat avant",
+    "sumoDeadlift": "Soulevé de terre sumo",
+    "gobletSquat": "Goblet Squat",
+    "stepUp": "Intensifier"
+  }
+}

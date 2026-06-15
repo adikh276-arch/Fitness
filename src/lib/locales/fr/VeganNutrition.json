@@ -1,0 +1,238 @@
+{
+  "nav": {
+    "back": "Retour au tableau de bord"
+  },
+  "header": {
+    "title": "Guide de nutrition végétalienne",
+    "subtitle": "Trousse complète de nutrition végétale"
+  },
+  "tabs": {
+    "plate": "Assiette végétalienne",
+    "nutrients": "Micronutriments",
+    "calculator": "Calculateur de protéines"
+  },
+  "plate": {
+    "title": "Le repas végétalien complet",
+    "proportions": {
+      "legumes": {
+        "title": "Légumineuses/haricots",
+        "subtitle": "une source de protéines",
+        "examples": "Exemples : lentilles, pois chiches, haricots noirs, tofu, tempeh"
+      },
+      "grains": {
+        "title": "Céréales complètes",
+        "subtitle": "énergie soutenue",
+        "examples": "Exemples : quinoa, riz brun, avoine, blé entier, orge"
+      },
+      "vegetables": {
+        "title": "Légumes",
+        "subtitle": "Riche en micronutriments",
+        "examples": "Exemples : légumes à feuilles vertes, brocolis, poivrons, carottes, tomates"
+      },
+      "fats": {
+        "title": "Graisses saines/Graines",
+        "subtitle": "Santé hormonale",
+        "examples": "Exemples : avocat, noix, graines, huile d'olive, tahini"
+      }
+    },
+    "tip": {
+      "title": "Conseil de pro : Améliorez l’absorption du fer",
+      "desc": "Le fer d'origine végétale (fer non héminique) est moins bien absorbé que le fer d'origine animale. Associez les aliments riches en fer à de la vitamine C pour augmenter son absorption jusqu'à 300 % !",
+      "ironRich": "Aliments riches en fer",
+      "ironExamples": "Épinards, lentilles, quinoa, tofu, graines de courge",
+      "vitaminC": "Boosters de vitamine C",
+      "vitaminCExamples": "Jus de citron, poivrons, tomates, brocolis, oranges",
+      "perfectCombo": "Combinaison parfaite : soupe de lentilles au jus de citron, salade d'épinards aux poivrons"
+    }
+  },
+  "nutrients": {
+    "title": "Le suivi des 4 principaux nutriments",
+    "progress": {
+      "title": "Progrès d'aujourd'hui",
+      "done": "Fait",
+      "pending": "En attente"
+    },
+    "why": {
+      "title": "Pourquoi suivre ces éléments ?",
+      "desc1": "Ces quatre nutriments sont à l'origine des carences les plus fréquentes dans les régimes alimentaires à base de plantes. Surveiller votre consommation quotidienne vous assure un apport nutritionnel complet.",
+      "note": "Remarque : La vitamine B12 doit être apportée par des suppléments ou consommée par le biais d'aliments enrichis, car elle n'est pas naturellement présente dans les plantes."
+    },
+    "micronutrients": {
+      "b12": {
+        "name": "Vitamine B12",
+        "importance": "Essentiel au fonctionnement nerveux et à la synthèse de l'ADN",
+        "dosage": "2,4 mcg par jour",
+        "sources": [
+          "Lait végétal enrichi",
+          "levure nutritionnelle",
+          "suppléments de B12",
+          "Céréales enrichies"
+        ]
+      },
+      "iron": {
+        "name": "Fer et zinc",
+        "importance": "Essentiel au transport de l'oxygène et au fonctionnement immunitaire",
+        "dosage": "Fer : 18 mg, Zinc : 11 mg par jour",
+        "sources": [
+          "graines de citrouille",
+          "Lentilles",
+          "noix de cajou",
+          "Épinard",
+          "Quinoa"
+        ]
+      },
+      "omega3": {
+        "name": "Oméga-3 (ALA)",
+        "importance": "Santé cérébrale et anti-inflammatoire",
+        "dosage": "1,6 g par jour",
+        "sources": [
+          "graines de lin",
+          "graines de chia",
+          "Noix",
+          "graines de chanvre"
+        ]
+      },
+      "calcium": {
+        "name": "Calcium",
+        "importance": "santé osseuse et fonction musculaire",
+        "dosage": "1000 mg par jour",
+        "sources": [
+          "Bok choy",
+          "Tahini",
+          "Tofu enrichi",
+          "Chou frisé",
+          "Amandes"
+        ]
+      }
+    }
+  },
+  "calculator": {
+    "title": "Guide de connaissances sur les protéines",
+    "subtitle": "Sélectionnez un aliment et saisissez la quantité pour connaître instantanément sa teneur en protéines.",
+    "form": {
+      "selectFood": "Rechercher et sélectionner un aliment",
+      "placeholderFood": "Choisissez un aliment...",
+      "searchPlaceholder": "Rechercher des aliments...",
+      "amount": "Quantité (grammes)",
+      "placeholderAmount": "100",
+      "add": "Ajouter au calcul",
+      "proteinPer100": "{{val}}g pour 100g",
+      "matches": "Affichage de 5 résultats sur {{total}}",
+      "noMatches": "Aucun aliment trouvé"
+    },
+    "results": {
+      "title": "Décomposition des protéines",
+      "estProtein": "Teneur estimée en protéines",
+      "calcInfo": "{{quantité}}g de {{nourriture}}",
+      "summary": "Résumé des calculs actuels",
+      "total": "Protéines totales",
+      "aminoAcid": "Complétude des acides aminés",
+      "aminoComplete": "Profil Amino complet",
+      "aminoIncomplete": "Céréales ou légumineuses manquantes",
+      "aminoNote": "Légumineuses (lentilles/haricots/soja) + Céréales (riz/quinoa/avoine) = Protéines complètes",
+      "save": "Total enregistré dans l'historique",
+      "success": "Protéines enregistrées avec succès !",
+      "ironTip": {
+        "title": "Conseil:",
+        "desc": "Associez-le à de la vitamine C (citron, poivrons, tomates) pour augmenter l'absorption du fer jusqu'à 300 % !"
+      }
+    },
+    "reference": {
+      "title": "Guide de référence rapide"
+    }
+  },
+  "proteinSources": {
+    "tofu": "Tofu",
+    "tempeh": "Tempeh",
+    "edamame": "Edamame",
+    "soybeansBoiled": "Soja bouilli",
+    "soyChunks": "Morceaux de soja / TVP déshydratés",
+    "soyMince": "haché de soja séché",
+    "soyMilk": "Lait de soja non sucré",
+    "soyYogurt": "Yaourt de soja nature",
+    "seitan": "Seitan",
+    "lentilsCooked": "Lentilles cuites",
+    "redLentilsCooked": "Lentilles rouges cuites",
+    "greenLentilsCooked": "Lentilles vertes cuites",
+    "blackLentilsCooked": "Lentilles noires cuites",
+    "chickpeasCooked": "Pois chiches cuits",
+    "blackBeansCooked": "Haricots noirs cuits",
+    "kidneyBeansCooked": "Haricots rouges cuits",
+    "pintoBeansCooked": "Haricots pinto cuits",
+    "cannelliniBeansCooked": "Haricots cannellini cuits",
+    "navyBeansCooked": "Haricots blancs cuits",
+    "adzukiBeansCooked": "Haricots azuki cuits",
+    "mungBeansCooked": "Haricots mungo cuits",
+    "lupinBeans": "lupins",
+    "splitPeasCooked": "Pois cassés cuits",
+    "greenPeas": "Petits pois",
+    "peaProteinIsolate": "Isolat de protéines de pois",
+    "peaMilk": "Lait de pois",
+    "hummus": "Houmous",
+    "falafel": "Falafel",
+    "quinoaCooked": "Quinoa cuit",
+    "amaranthCooked": "Amarante cuite",
+    "buckwheatCooked": "Sarrasin cuit",
+    "oatsDry": "Avoine sèche",
+    "rolledOats": "flocons d'avoine",
+    "steelCutOats": "Avoine coupée à l'acier",
+    "oatBran": "Son d'avoine",
+    "barleyCooked": "Orge cuite",
+    "milletCooked": "Millet cuit",
+    "brownRiceCooked": "Riz brun cuit",
+    "wildRiceCooked": "Riz sauvage cuit",
+    "teffCooked": "Teff cuit",
+    "farroCooked": "Farro cuit",
+    "freekehCooked": "Freekeh cuit",
+    "wholeWheatPastaCooked": "Pâtes de blé entier cuites",
+    "chickpeaPastaDry": "Pâtes de pois chiches sèches",
+    "lentilPastaDry": "Pâtes aux lentilles sèches",
+    "blackBeanPastaDry": "Pâtes aux haricots noirs sèches",
+    "spirulinaDry": "Spiruline sèche",
+    "nutritionalYeast": "Levure nutritionnelle",
+    "mushroomsWhite": "Champignons blancs",
+    "portobelloMushrooms": "Champignons Portobello",
+    "spinach": "Épinard",
+    "kale": "Chou frisé",
+    "broccoli": "Brocoli",
+    "brusselsSprouts": "Choux de Bruxelles",
+    "sweetCorn": "Maïs doux",
+    "artichoke": "Artichaut",
+    "avocado": "Avocat",
+    "pumpkinSeeds": "Graines de citrouille",
+    "hempSeeds": "Graines de chanvre",
+    "chiaSeeds": "Graines de chia",
+    "flaxSeeds": "Graines de lin",
+    "sesameSeeds": "Graines de sésame",
+    "sunflowerSeeds": "Graines de tournesol",
+    "watermelonSeeds": "Graines de pastèque",
+    "almonds": "Amandes",
+    "peanuts": "cacahuètes",
+    "peanutButterNatural": "Beurre de cacahuète naturel",
+    "cashews": "noix de cajou",
+    "pistachios": "Pistaches",
+    "walnuts": "Noix",
+    "hazelnuts": "Noisettes",
+    "brazilNuts": "Noix du Brésil",
+    "almondButter": "beurre d'amande",
+    "tahini": "Tahini",
+    "cashewButter": "beurre de noix de cajou",
+    "pumpkinSeedButter": "beurre de graines de citrouille",
+    "sunflowerSeedButter": "Beurre de graines de tournesol",
+    "almondFlour": "farine d'amande",
+    "chickpeaFlour": "Farine de pois chiche / Besan",
+    "soyFlour": "Farine de soja",
+    "wholeWheatFlour": "farine de blé entier",
+    "breadWholeWheat": "Pain complet",
+    "ezekielBread": "Pain d'Ézéchiel",
+    "proteinBreadVegan": "Pain protéiné végétalien",
+    "roastedChickpeas": "Pois chiches grillés",
+    "dryRoastedEdamame": "Edamame grillé à sec",
+    "proteinBarVegan": "Barre protéinée végétalienne",
+    "veganSausage": "Saucisse végétalienne",
+    "veganBurgerPatty": "Galette de burger végétalienne",
+    "mycoproteinVegan": "Mycoprotéine végétalienne",
+    "beanSprouts": "Germes de haricots",
+    "alfalfaSprouts": "Germes de luzerne"
+  }
+}

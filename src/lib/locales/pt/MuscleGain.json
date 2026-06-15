@@ -1,0 +1,253 @@
+{
+  "nav": {
+    "back": "Voltar ao painel de controle"
+  },
+  "header": {
+    "title": "Guia para Ganho de Massa Muscular",
+    "subtitle": "Abordagem científica para o desenvolvimento muscular e da força."
+  },
+  "tabs": {
+    "plan": "O Plano de Crescimento",
+    "metrics": "Registro de métricas corporais",
+    "habits": "Hábitos de hipertrofia"
+  },
+  "plan": {
+    "pillars": {
+      "caloric": {
+        "title": "Excedente Calórico",
+        "value": "TDEE + 250 a 500 kcal",
+        "desc": "Seu corpo precisa de energia extra para construir novo tecido muscular. Pouca energia impede o crescimento; muita energia leva ao ganho de gordura desnecessária. Procure consumir de 250 a 500 kcal acima do seu Gasto Energético Diário Total (GET)."
+      },
+      "protein": {
+        "title": "Síntese de Proteínas",
+        "value": "1,8 g a 2,2 g por kg",
+        "desc": "A proteína é o principal componente dos músculos. Estudos demonstram que 1,8 a 2,2 gramas de proteína por quilograma de peso corporal maximizam a síntese proteica muscular e a recuperação."
+      },
+      "overload": {
+        "title": "Sobrecarga Progressiva",
+        "value": "Progressão semanal",
+        "desc": "Os músculos crescem em resposta ao aumento da demanda. A cada semana, procure aumentar o peso, as repetições ou as séries. Monitore seu volume total (séries × repetições × peso) para garantir uma progressão consistente."
+      }
+    },
+    "mealTiming": {
+      "title": "Horários das refeições para o crescimento muscular",
+      "subtitle": "Embora a ingestão diária total seja o mais importante, o momento estratégico da ingestão pode otimizar o desempenho e a recuperação:",
+      "preWorkoutLong": {
+        "time": "2 a 3 horas antes",
+        "title": "Pré-treino",
+        "desc": "Refeição balanceada com carboidratos e proteínas"
+      },
+      "preWorkoutCarbs": {
+        "time": "30-60 minutos antes",
+        "title": "Carboidratos pré-treino",
+        "desc": "Carboidratos de rápida absorção para energia (banana, bolachas de arroz)"
+      },
+      "training": {
+        "time": "Durante",
+        "title": "Treinamento",
+        "desc": "Hidratação + carboidratos opcionais durante o treino"
+      },
+      "postWorkout": {
+        "time": "Em até 2 horas",
+        "title": "Proteína pós-treino",
+        "desc": "30-40g de proteína + carboidratos para recuperação"
+      },
+      "eveningProtein": {
+        "time": "Antes de dormir",
+        "title": "Proteína Noturna",
+        "desc": "Caseína ou proteína de digestão lenta"
+      }
+    },
+    "principles": {
+      "title": "Princípios-chave para o sucesso",
+      "p1": {
+        "title": "A consistência supera a perfeição:",
+        "desc": "Perder um treino ou uma refeição não vai arruinar seus ganhos, mas a inconsistência sim."
+      },
+      "p2": {
+        "title": "Dormir é anabólico:",
+        "desc": "Para uma recuperação ideal e liberação do hormônio do crescimento, procure dormir de 7 a 9 horas por noite."
+      },
+      "p3": {
+        "title": "Monitore seu volume:",
+        "desc": "O que é medido é melhorado - registre seus levantamentos para garantir sobrecarga progressiva."
+      },
+      "p4": {
+        "title": "É preciso paciência:",
+        "desc": "O crescimento muscular natural é de 0,5 a 1 kg por mês para iniciantes, sendo mais lento para praticantes avançados."
+      }
+    }
+  },
+  "metrics": {
+    "strength": {
+      "totalVolume": "Volume semanal total",
+      "volumeTarget": "Meta de volume para {{weight}}kg de massa corporal",
+      "kgLifted": "kg levantado",
+      "goal": "de {{goal}}kg meta",
+      "awayFromTarget": "Você está a {{gap}} kg de atingir a capacidade de trabalho do seu peso alvo.",
+      "setTarget": "Defina seu peso alvo abaixo para ver sua meta de volume.",
+      "statusLabels": {
+        "setTarget": "Definir peso alvo",
+        "building": "Construindo a Fundação",
+        "growth": "Zona de crescimento",
+        "hit": "Atingido o objetivo de capacidade"
+      }
+    },
+    "form": {
+      "title": "Medidas corporais em forma de registro",
+      "currentWeight": "Peso atual (kg)",
+      "targetWeight": "Peso alvo (kg) *",
+      "targetWeightHint": "Define a meta de volume",
+      "chest": "Peito (polegadas)",
+      "chestHint": "Meça na linha do mamilo.",
+      "waist": "Cintura (em)",
+      "waistHint": "Na altura do umbigo.",
+      "bicepR": "Bíceps direito (para dentro)",
+      "bicepRHint": "Flexionado, parte mais larga",
+      "bicepL": "Bíceps esquerdo (para dentro)",
+      "bicepLHint": "Opcional",
+      "thigh": "Coxa (em)",
+      "thighHint": "Parte mais larga",
+      "submit": "Medições de registro",
+      "success": "Métricas registradas com sucesso!",
+      "placeholders": {
+        "weight": "Por exemplo, 75",
+        "targetWeight": "Por exemplo, 85",
+        "chest": "Por exemplo, 40",
+        "waist": "Opcional",
+        "bicep": "Exemplo: 15",
+        "bicepL": "Igual à direita",
+        "thigh": "Opcional"
+      }
+    },
+    "volume": {
+      "title": "Calculadora de Volume",
+      "exercise": "Exercício",
+      "sets": "Conjuntos",
+      "reps": "Representantes",
+      "weight": "Peso (kg)",
+      "totalVolume": "Volume total",
+      "remaining": "Restam poucos metros para o gol",
+      "submit": "Volume de registro",
+      "logged": "{{lift}} registrou: {{volume}}kg volume total!",
+      "recentLifts": "Elevadores recentes",
+      "placeholders": {
+        "sets": "Exemplo: 4",
+        "reps": "Exemplo: 8",
+        "weight": "Por exemplo, 80"
+      }
+    },
+    "chart": {
+      "title": "Gráfico de progresso",
+      "weight": "Peso (kg)",
+      "chest": "Peito (em)",
+      "bicep": "Bíceps (em)"
+    },
+    "noData": "Ainda não há medições registradas. Comece a monitorar para acompanhar seu progresso!"
+  },
+  "habits": {
+    "title": "Hábitos de hipertrofia atuais",
+    "subtitle": "Marque cada hábito conforme você o completa.",
+    "items": {
+      "surplus": {
+        "title": "Excedente Calórico Atingido",
+        "desc": "Alcance sua meta de calorias hoje mesmo!"
+      },
+      "protein": {
+        "title": "Meta de proteína atingida",
+        "desc": "1,8-2,2 g por kg de peso corporal"
+      },
+      "creatine": {
+        "title": "Creatina Ingerida",
+        "desc": "3-5 g por dia para melhor desempenho."
+      },
+      "sleep": {
+        "title": "Sono de qualidade",
+        "desc": "7 a 9 horas para uma recuperação ideal"
+      },
+      "trained": {
+        "title": "Treinado hoje",
+        "desc": "Você concluiu sua sessão de treino."
+      }
+    },
+    "recovery": {
+      "title": "Estado de recuperação",
+      "good": "Recuperação Otimizada",
+      "goodDesc": "Ótimo trabalho com o sono e a proteína! Seus músculos estão se recuperando da melhor forma possível.",
+      "improve": "Há espaço para melhorias.",
+      "improveDesc": "Priorize o sono e o consumo da sua meta de proteína para uma melhor recuperação."
+    },
+    "calendar": {
+      "title": "Sequência de Hábitos de 30 Dias",
+      "legend": {
+        "perfect": "Perfeito (5/5)",
+        "partial": "Parcial",
+        "none": "Incompleto"
+      },
+      "tooltip": "Dia {{day}}: {{count}}/5 hábitos"
+    }
+  },
+  "essentials": {
+    "title": "Fundamentos da Hipertrofia",
+    "tips": {
+      "rest": {
+        "title": "Os músculos são construídos durante o repouso:",
+        "desc": "O crescimento acontece quando se dorme e se alimenta bem, não na academia."
+      },
+      "protein": {
+        "title": "O momento em que se inicia a ingestão de proteína é menos importante do que a quantidade total:",
+        "desc": "Concentre-se em atingir sua meta diária; o tempo é secundário."
+      },
+      "track": {
+        "title": "Registre tudo:",
+        "desc": "Peso, medidas e volume – os dados revelam um progresso que você não consegue ver no espelho."
+      },
+      "creatine": {
+        "title": "A creatina tem eficácia comprovada:",
+        "desc": "Uma dose diária de 3 a 5 g aumenta a força e a massa muscular magra, sem efeitos colaterais para a maioria das pessoas."
+      }
+    }
+  },
+  "exercises": {
+    "squat": "Agachamento",
+    "deadlift": "Levantamento terra",
+    "benchPress": "Supino",
+    "overheadPress": "Prensa de teto",
+    "barbellRow": "Remada com barra",
+    "pullUp": "Puxe para cima",
+    "chinUp": "Cabeça erguida",
+    "latPulldown": "Puxada na polia alta",
+    "seatedCableRow": "Remada sentada com cabo",
+    "dumbbellRow": "Remada com halteres",
+    "romanianDeadlift": "Levantamento terra romeno",
+    "hipThrust": "Elevação de quadril",
+    "lunge": "Estocada",
+    "bulgarianSplitSquat": "Agachamento búlgaro",
+    "legPress": "Leg Press",
+    "legExtension": "Extensão de perna",
+    "legCurl": "Flexão de Pernas",
+    "calfRaise": "Criação de bezerros",
+    "gluteBridge": "Ponte de Glúteos",
+    "pushUp": "Flexão de braço",
+    "inclineDumbbellPress": "Supino inclinado com halteres",
+    "dips": "Mergulhos",
+    "chestFly": "Voador de peito",
+    "lateralRaise": "Elevação lateral",
+    "rearDeltFly": "Mola traseira de delta",
+    "facePull": "Puxão facial",
+    "bicepCurl": "Rosca bíceps",
+    "hammerCurl": "Rosca martelo",
+    "tricepPushdown": "Extensão de tríceps",
+    "skullCrusher": "Esmagador de Crânios",
+    "plank": "Prancha",
+    "hangingLegRaise": "Elevação de pernas na barra fixa",
+    "russianTwist": "Torção Russa",
+    "farmerCarry": "Fazendeiro Carrega",
+    "shrug": "Encolher de ombros",
+    "arnoldPress": "Imprensa Arnold",
+    "frontSquat": "agachamento frontal",
+    "sumoDeadlift": "Levantamento terra sumô",
+    "gobletSquat": "Agachamento com haltere",
+    "stepUp": "Dê um passo à frente"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "back": "Zurück zum Dashboard"
+  },
+  "header": {
+    "title": "Wasseraufnahme-Tracker",
+    "subtitle": "Verfolge deine tägliche Flüssigkeitszufuhr und erreiche deine Ziele"
+  },
+  "tabs": {
+    "tracker": "Heutiger Tracker",
+    "history": "Geschichte"
+  },
+  "tracker": {
+    "consumed": "ml verbraucht",
+    "goalLabel": "Tagesziel",
+    "remainingLabel": "Übrig",
+    "changeGoal": "Tagesziel ändern",
+    "quickAdd": {
+      "title": "Schnell hinzufügen",
+      "smallGlass": "Kleines Glas",
+      "bottle": "Flasche",
+      "largeBottle": "Große Flasche",
+      "jug": "Krug"
+    },
+    "custom": {
+      "label": "Benutzerdefinierte Menge (ml)",
+      "placeholder": "z.B. 350",
+      "submit": "Hinzufügen",
+      "undo": "Letzten Eintrag rückgängig machen"
+    }
+  },
+  "history": {
+    "title": "Geschichte der Wasserentnahme",
+    "noHistory": "Bisher sind keine historischen Daten verfügbar.",
+    "today": "Heute",
+    "summary": "{{total}} ml / {{goal}} ml ({{percent}}%)",
+    "stats": {
+      "total": "Gesamt",
+      "entries": "Einträge"
+    }
+  },
+  "modal": {
+    "title": "Setze dir ein tägliches Ziel",
+    "subtitle": "Geben Sie Ihre angestrebte tägliche Wasseraufnahme ein.",
+    "placeholder": "z. B. 2500",
+    "calcToggleShow": "Empfohlene Berechnung",
+    "calcToggleHide": "Taschenrechner ausblenden",
+    "formula": "Formel: Gewicht (kg) × 35 ml",
+    "weightLabel": "Ihr Gewicht (kg)",
+    "weightPlaceholder": "z.B. 70",
+    "calcBtn": "Berechnen und anwenden",
+    "cancel": "Stornieren",
+    "save": "Speichern"
+  }
+}

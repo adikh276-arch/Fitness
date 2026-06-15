@@ -1,0 +1,53 @@
+{
+  "common": {
+    "next": "",
+    "subtitle": "",
+    "title": ""
+  },
+  "feelings": {
+    "description": "",
+    "placeholder": "",
+    "title": ""
+  },
+  "history": {
+    "empty": "",
+    "subtitle": ""
+  },
+  "intro": {
+    "description": "",
+    "startButton": "",
+    "subtitle": "",
+    "title": ""
+  },
+  "meals": {
+    "breakfast": {
+      "label": "",
+      "placeholder": ""
+    },
+    "description": "",
+    "dinner": {
+      "label": "",
+      "placeholder": ""
+    },
+    "lunch": {
+      "label": "",
+      "placeholder": ""
+    },
+    "snacks": {
+      "label": "",
+      "placeholder": ""
+    },
+    "title": ""
+  },
+  "messages": {
+    "entryDeleted": "",
+    "entrySaved": ""
+  },
+  "reflection": {
+    "encouragement": "",
+    "placeholder": "",
+    "question": "",
+    "saveButton": "",
+    "title": ""
+  }
+}

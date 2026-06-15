@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "back": "Zurück zum Dashboard"
+  },
+  "header": {
+    "title": "Makronährstoffe verstehen",
+    "subtitle": "Lerne die Grundlagen von Proteinen, Kohlenhydraten und Fetten kennen."
+  },
+  "tabs": {
+    "protein": "Protein",
+    "carbs": "Kohlenhydrate",
+    "fats": "Fette",
+    "plate": "Plattenbauer"
+  },
+  "protein": {
+    "title": "Protein",
+    "kcal": "4 kcal/Gramm",
+    "whyMatters": {
+      "title": "Warum das wichtig ist:",
+      "muscle": {
+        "title": "Muskelreparatur & -wachstum:",
+        "desc": "Unerlässlich für den Aufbau und Erhalt von fettfreier Muskelmasse"
+      },
+      "satiety": {
+        "title": "Sättigung:",
+        "desc": "Hält länger satt und reduziert so die Gesamtkalorienaufnahme."
+      },
+      "metabolic": {
+        "title": "Stoffwechselanregung:",
+        "desc": "Höchster thermischer Effekt aller Makronährstoffe (20-30 % der Kalorien werden während der Verdauung verbrannt)"
+      }
+    },
+    "target": {
+      "title": "Tagesziel:",
+      "desc": "Für optimale Gesundheit und Muskelerhalt wird eine Zufuhr von 1,6–2,2 g pro kg Körpergewicht empfohlen. Sportler und Personen, die Muskeln aufbauen möchten, benötigen möglicherweise bis zu 2,5 g/kg."
+    },
+    "sources": "Die besten Proteinquellen:"
+  },
+  "carbs": {
+    "title": "Kohlenhydrate",
+    "kcal": "4 kcal/Gramm",
+    "whyMatters": {
+      "title": "Warum das wichtig ist:",
+      "energy": {
+        "title": "Primäre Energiequelle:",
+        "desc": "Der bevorzugte Brennstoff Ihres Körpers für Gehirn- und körperliche Aktivität"
+      },
+      "performance": {
+        "title": "Leistung:",
+        "desc": "Entscheidend für hochintensives Training und sportliche Leistungen"
+      },
+      "nutrients": {
+        "title": "Ballaststoffe & Nährstoffe:",
+        "desc": "Vollkornprodukte liefern essentielle Vitamine, Mineralstoffe und fördern die Verdauungsgesundheit."
+      }
+    },
+    "target": {
+      "title": "Tagesziel:",
+      "desc": "Für aktive Menschen empfiehlt sich eine Zufuhr von 3–6 g pro kg Körpergewicht. Personen mit sitzender Tätigkeit benötigen möglicherweise weniger (2–3 g/kg). Achten Sie auf komplexe, vollwertige Lebensmittel."
+    },
+    "sources": "Die wichtigsten Kohlenhydratquellen:"
+  },
+  "fats": {
+    "title": "Fette",
+    "kcal": "9 kcal/Gramm",
+    "whyMatters": {
+      "title": "Warum das wichtig ist:",
+      "hormone": {
+        "title": "Hormonproduktion:",
+        "desc": "Essentiell für Testosteron, Östrogen und andere lebenswichtige Hormone"
+      },
+      "vitamin": {
+        "title": "Vitaminaufnahme:",
+        "desc": "Erforderlich zur Aufnahme fettlöslicher Vitamine (A, D, E, K)"
+      },
+      "brain": {
+        "title": "Gehirngesundheit:",
+        "desc": "Das Gehirn besteht zu 60 % aus Fett – Omega-3-Fettsäuren sind entscheidend für die kognitive Funktion."
+      }
+    },
+    "target": {
+      "title": "Tagesziel:",
+      "desc": "Streben Sie eine Zufuhr von 0,8–1,2 g pro kg Körpergewicht bzw. 20–35 % der Gesamtkalorienzufuhr an. Bevorzugen Sie ungesättigte Fettsäuren (Olivenöl, Nüsse, Fisch) gegenüber gesättigten Fettsäuren."
+    },
+    "sources": "Die wichtigsten Fettquellen:"
+  },
+  "plate": {
+    "title": "Stelle deine ausgewogene Mahlzeit zusammen",
+    "legend": {
+      "protein": "Protein {{val}}%",
+      "carbs": "Kohlenhydrate {{val}}%",
+      "fats": "Fette {{val}}%"
+    },
+    "sliders": {
+      "protein": {
+        "title": "Protein",
+        "desc": "Muskeln & Sättigung"
+      },
+      "carbs": {
+        "title": "Kohlenhydrate",
+        "desc": "Energie und Leistung"
+      },
+      "fats": {
+        "title": "Fette",
+        "desc": "Hormone und Vitamine"
+      }
+    },
+    "calories": {
+      "title": "Geschätzter Kaloriengehalt",
+      "subtitle": "(basierend auf einer 200-g-Portion)",
+      "unit": "kcal"
+    },
+    "warning": {
+      "title": "Balance-Empfehlung",
+      "desc": "Für eine optimale Nährstoffversorgung: Streben Sie mindestens 15–25 % Protein (Muskelaufbau & Sättigung), 20–35 % gesunde Fette (Hormone) und 40–60 % Kohlenhydrate (Energie) an. Passen Sie Ihre Nährstoffverhältnisse an, um diese Zielwerte zu erreichen."
+    }
+  },
+  "foods": {
+    "chicken": "Hühnerbrust",
+    "yogurt": "Griechischer Joghurt",
+    "eggs": "Eier",
+    "eggUnit": "1 Ei = 6 g Protein",
+    "salmon": "Lachs",
+    "lentils": "Linsen",
+    "tofu": "Tofu",
+    "rice": "Brauner Reis",
+    "oats": "Hafer",
+    "potato": "Süßkartoffel",
+    "quinoa": "Quinoa",
+    "banana": "Banane",
+    "bananaUnit": "1 mittlere Portion = 27 g Kohlenhydrate",
+    "bread": "Vollkornbrot",
+    "breadUnit": "1 Scheibe = 12 g Kohlenhydrate",
+    "avocado": "Avocado",
+    "almonds": "Mandeln",
+    "almondsUnit": "28 g = 14 g Fett",
+    "oil": "Olivenöl",
+    "oilUnit": "1 EL = 14 g Fett",
+    "peanutButter": "Erdnussbutter",
+    "pbUnit": "2 EL = 16 g Fett",
+    "chocolate": "Dunkle Schokolade",
+    "chocolateUnit": "28 g = 9 g Fett",
+    "unit100g": "100 g = {{val}}g {{macro}}"
+  }
+}

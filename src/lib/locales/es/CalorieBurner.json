@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "back": "Volver al panel de control"
+  },
+  "header": {
+    "title": "Quemador de calorías",
+    "subtitle": "Registra las calorías quemadas durante tus actividades."
+  },
+  "tabs": {
+    "calculator": "Calculadora",
+    "log": "Registro de actividad ({{count}})"
+  },
+  "calculator": {
+    "form": {
+      "title": "Detalles de la actividad",
+      "selectActivity": "Seleccionar actividad",
+      "weight": "Tu peso",
+      "duration": "Duración (minutos)",
+      "submit": "Registrar actividad",
+      "placeholders": {
+        "weightKg": "p. ej., 70",
+        "weightLbs": "p. ej., 154"
+      }
+    },
+    "summary": {
+      "title": "Resumen de quemaduras",
+      "calories": "Calorías quemadas",
+      "activity": "Actividad",
+      "duration": "Duración",
+      "weight": "Peso",
+      "burnRate": "Tasa de quema de calorías",
+      "formula": "Fórmula: (MET × 3,5 × Peso kg / 200) × Duración min"
+    }
+  },
+  "log": {
+    "noActivities": "Aún no se han registrado actividades.",
+    "noActivitiesDesc": "Empieza a registrar tus entrenamientos para verlos aquí.",
+    "logFirst": "Registra tu primera actividad",
+    "summary": {
+      "title": "Resumen total",
+      "totalActivities": "Actividades totales",
+      "totalCalories": "Calorías totales",
+      "totalTime": "Tiempo total",
+      "avgSession": "Cal promedio/sesión"
+    },
+    "item": {
+      "duration": "Duración",
+      "met": "MET",
+      "calories": "calorías",
+      "minutes": "min"
+    }
+  },
+  "activities": {
+    "walking": "Caminando (a paso ligero)",
+    "running": "Correr (9 min/milla)",
+    "cycling": "Ciclismo (moderado)",
+    "yoga": "Yoga",
+    "swimming": "Natación (Largos)",
+    "strength": "Entrenamiento de fuerza",
+    "household": "Tareas del hogar",
+    "dance": "Baile/Aeróbic"
+  }
+}

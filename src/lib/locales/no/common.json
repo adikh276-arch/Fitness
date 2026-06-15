@@ -1,0 +1,80 @@
+{
+  "shell": {
+    "title": "Ressurser for egenomsorg",
+    "subtitle": "Utforsk verktøy og veiledning for din velværereise"
+  },
+  "sections": {
+    "tools": "Verktøy",
+    "guides": "Ernærings- og kostholdsguider",
+    "workouts": "Treningsområder",
+    "learning": "Fremhevet læring"
+  },
+  "tools": {
+    "macro": {
+      "label": "Ernæringskalkulator",
+      "desc": "Beregn makroer"
+    },
+    "calories": {
+      "label": "Kaloriforbrenner",
+      "desc": "Logg aktiviteter"
+    },
+    "fasting": {
+      "label": "Fastende tømmerhugger",
+      "desc": "Spor faste"
+    },
+    "bmi": {
+      "label": "BMI-kalkulator",
+      "desc": "Kroppsmålinger"
+    }
+  },
+  "guides": {
+    "weightLoss": "Vekttap",
+    "diabetes": "Diabetesdiett",
+    "muscle": "Muskelvekst",
+    "gut": "Tarmhelse",
+    "keto": "Keto-grunnleggende",
+    "heart": "Hjertehelse",
+    "fasting": "Periodisk faste",
+    "vegan": "Vegansk ernæring"
+  },
+  "workouts": {
+    "yoga": "Yoga",
+    "hiit": "HIIT",
+    "strength": "Styrketrening",
+    "posture": "Holdningskorrigering",
+    "home": "Hjemmetrening",
+    "flexibility": "Fleksibilitet"
+  },
+  "learning": {
+    "macros": {
+      "title": "Forståelse av makronæringsstoffer",
+      "desc": "Lær det grunnleggende om protein, karbohydrater og fett"
+    },
+    "others": {
+      "title": "Andre",
+      "desc": "Utforsk flere interaktive helseverktøy"
+    }
+  },
+  "others": {
+    "title": "Andre ressurser",
+    "subtitle": "Utforsk flere verktøy for helsereisen din",
+    "tools": {
+      "foodDiary": {
+        "label": "Matdagbok",
+        "desc": "Spor måltidene dine"
+      },
+      "planPlate": {
+        "label": "Planlegg tallerkenen din",
+        "desc": "Balanser måltidene dine"
+      },
+      "sugarEase": {
+        "label": "Daglig sukkerlette",
+        "desc": "Administrer sukkerinntaket"
+      },
+      "recipeLog": {
+        "label": "Sunn oppskriftslogg",
+        "desc": "Lagre oppskriftene dine"
+      }
+    }
+  }
+}

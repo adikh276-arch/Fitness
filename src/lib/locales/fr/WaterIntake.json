@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "back": "Retour au tableau de bord"
+  },
+  "header": {
+    "title": "Suivi de la consommation d'eau",
+    "subtitle": "Suivez votre hydratation quotidienne et atteignez vos objectifs."
+  },
+  "tabs": {
+    "tracker": "Suivi du jour",
+    "history": "Histoire"
+  },
+  "tracker": {
+    "consumed": "ml consommés",
+    "goalLabel": "Objectif quotidien",
+    "remainingLabel": "Restant",
+    "changeGoal": "Objectif quotidien modifié",
+    "quickAdd": {
+      "title": "Ajout rapide",
+      "smallGlass": "Petit verre",
+      "bottle": "Bouteille",
+      "largeBottle": "Grande bouteille",
+      "jug": "Cruche"
+    },
+    "custom": {
+      "label": "Quantité personnalisée (ml)",
+      "placeholder": "par exemple, 350",
+      "submit": "Ajouter",
+      "undo": "Annuler la dernière modification"
+    }
+  },
+  "history": {
+    "title": "Historique de consommation d'eau",
+    "noHistory": "Aucun historique disponible pour le moment",
+    "today": "Aujourd'hui",
+    "summary": "{{total}} ml / {{goal}} ml ({{percent}}%)",
+    "stats": {
+      "total": "Total",
+      "entries": "Entrées"
+    }
+  },
+  "modal": {
+    "title": "Se fixer un objectif quotidien",
+    "subtitle": "Indiquez votre apport hydrique quotidien cible",
+    "placeholder": "par exemple, 2500",
+    "calcToggleShow": "Calculer la valeur recommandée",
+    "calcToggleHide": "Masquer la calculatrice",
+    "formula": "Formule : Poids (kg) × 35 ml",
+    "weightLabel": "Votre poids (kg)",
+    "weightPlaceholder": "par exemple, 70",
+    "calcBtn": "Calculer et appliquer",
+    "cancel": "Annuler",
+    "save": "Sauvegarder"
+  }
+}

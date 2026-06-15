@@ -1,0 +1,238 @@
+{
+  "nav": {
+    "back": "Torna alla dashboard"
+  },
+  "header": {
+    "title": "Guida all'alimentazione vegana",
+    "subtitle": "Kit completo per un'alimentazione a base vegetale"
+  },
+  "tabs": {
+    "plate": "Piatto vegano",
+    "nutrients": "Micronutrienti",
+    "calculator": "Calcolatore di proteine"
+  },
+  "plate": {
+    "title": "Il pasto vegano completo",
+    "proportions": {
+      "legumes": {
+        "title": "Legumi/Fagioli",
+        "subtitle": "Una vera e propria miniera di proteine.",
+        "examples": "Esempi: lenticchie, ceci, fagioli neri, tofu, tempeh"
+      },
+      "grains": {
+        "title": "Cereali integrali",
+        "subtitle": "Energia sostenuta",
+        "examples": "Esempi: Quinoa, riso integrale, avena, grano integrale, orzo"
+      },
+      "vegetables": {
+        "title": "Verdure",
+        "subtitle": "Ricco di micronutrienti",
+        "examples": "Esempi: verdure a foglia verde, broccoli, peperoni, carote, pomodori"
+      },
+      "fats": {
+        "title": "Grassi sani/Semi",
+        "subtitle": "Salute ormonale",
+        "examples": "Esempi: avocado, noci, semi, olio d'oliva, tahina"
+      }
+    },
+    "tip": {
+      "title": "Consiglio da professionista: aumenta l'assorbimento del ferro",
+      "desc": "Il ferro di origine vegetale (ferro non eme) viene assorbito in modo meno efficiente rispetto al ferro di origine animale. Abbina gli alimenti ricchi di ferro alla vitamina C per aumentarne l'assorbimento fino al 300%!",
+      "ironRich": "Alimenti ricchi di ferro",
+      "ironExamples": "Spinaci, lenticchie, quinoa, tofu, semi di zucca",
+      "vitaminC": "Integratori di vitamina C",
+      "vitaminCExamples": "Succo di limone, peperoni, pomodori, broccoli, arance",
+      "perfectCombo": "Abbinamento perfetto: zuppa di lenticchie al succo di limone, insalata di spinaci con peperoni"
+    }
+  },
+  "nutrients": {
+    "title": "Il tracker dei 4 nutrienti principali",
+    "progress": {
+      "title": "Progressi odierni",
+      "done": "Fatto",
+      "pending": "In attesa di"
+    },
+    "why": {
+      "title": "Perché monitorare questi dati?",
+      "desc1": "Questi quattro nutrienti rappresentano le carenze più comuni nelle diete a base vegetale. Monitorare l'assunzione giornaliera garantisce un apporto nutrizionale completo.",
+      "note": "Nota: la vitamina B12 deve essere assunta tramite integratori o alimenti fortificati, poiché non è naturalmente presente nelle piante."
+    },
+    "micronutrients": {
+      "b12": {
+        "name": "Vitamina B12",
+        "importance": "Fondamentale per la funzione nervosa e la sintesi del DNA",
+        "dosage": "2,4 mcg al giorno",
+        "sources": [
+          "Latte vegetale fortificato",
+          "Lievito alimentare",
+          "Integratori di vitamina B12",
+          "Cereali fortificati"
+        ]
+      },
+      "iron": {
+        "name": "Ferro e zinco",
+        "importance": "Essenziale per il trasporto dell'ossigeno e la funzione immunitaria.",
+        "dosage": "Ferro: 18 mg, Zinco: 11 mg al giorno",
+        "sources": [
+          "semi di zucca",
+          "Lenticchie",
+          "Anacardi",
+          "Spinaci",
+          "Quinoa"
+        ]
+      },
+      "omega3": {
+        "name": "Omega-3 (ALA)",
+        "importance": "Salute del cervello e proprietà antinfiammatorie",
+        "dosage": "1,6 g al giorno",
+        "sources": [
+          "Semi di lino",
+          "Semi di Chia",
+          "Noci",
+          "semi di canapa"
+        ]
+      },
+      "calcium": {
+        "name": "Calcio",
+        "importance": "Salute delle ossa e funzionalità muscolare",
+        "dosage": "1000 mg al giorno",
+        "sources": [
+          "Bok choy",
+          "Tahina",
+          "Tofu fortificato",
+          "Cavolo",
+          "Mandorle"
+        ]
+      }
+    }
+  },
+  "calculator": {
+    "title": "Guida alla conoscenza delle proteine",
+    "subtitle": "Seleziona un alimento e inserisci la quantità per visualizzare immediatamente il suo contenuto proteico.",
+    "form": {
+      "selectFood": "Cerca e seleziona un prodotto alimentare",
+      "placeholderFood": "Scegli un alimento...",
+      "searchPlaceholder": "Cerca alimenti...",
+      "amount": "Quantità (grammi)",
+      "placeholderAmount": "100",
+      "add": "Aggiungi al calcolo",
+      "proteinPer100": "{{val}}g per 100g",
+      "matches": "Visualizzazione di 5 risultati su {{total}}",
+      "noMatches": "Nessun alimento trovato"
+    },
+    "results": {
+      "title": "Degradazione delle proteine",
+      "estProtein": "Contenuto proteico stimato",
+      "calcInfo": "{{quantità}}g di {{cibo}}",
+      "summary": "Riepilogo dei calcoli correnti",
+      "total": "Proteine totali",
+      "aminoAcid": "Completezza degli amminoacidi",
+      "aminoComplete": "Profilo Amino completo",
+      "aminoIncomplete": "Cereali o legumi mancanti",
+      "aminoNote": "Legumi (lenticchie/fagioli/soia) + cereali (riso/quinoa/avena) = Proteine complete",
+      "save": "Registra il totale nella cronologia",
+      "success": "Proteine registrate correttamente!",
+      "ironTip": {
+        "title": "Mancia:",
+        "desc": "Abbinatelo alla vitamina C (limone, peperoni, pomodori) per aumentare l'assorbimento del ferro fino al 300%!"
+      }
+    },
+    "reference": {
+      "title": "Guida di consultazione rapida"
+    }
+  },
+  "proteinSources": {
+    "tofu": "Tofu",
+    "tempeh": "Tempeh",
+    "edamame": "Edamame",
+    "soybeansBoiled": "Soia bollita",
+    "soyChunks": "Bocconcini di soia / TVP secco",
+    "soyMince": "Macinato di soia secco",
+    "soyMilk": "Latte di soia non zuccherato",
+    "soyYogurt": "Yogurt di soia naturale",
+    "seitan": "Seitan",
+    "lentilsCooked": "Lenticchie cotte",
+    "redLentilsCooked": "Lenticchie rosse cotte",
+    "greenLentilsCooked": "Lenticchie verdi cotte",
+    "blackLentilsCooked": "Lenticchie nere cotte",
+    "chickpeasCooked": "Ceci cotti",
+    "blackBeansCooked": "Fagioli neri cotti",
+    "kidneyBeansCooked": "Fagioli rossi cotti",
+    "pintoBeansCooked": "Fagioli Pinto cotti",
+    "cannelliniBeansCooked": "Fagioli cannellini cotti",
+    "navyBeansCooked": "Fagioli bianchi cotti",
+    "adzukiBeansCooked": "Fagioli azuki cotti",
+    "mungBeansCooked": "Fagioli mung cotti",
+    "lupinBeans": "Fagioli lupini",
+    "splitPeasCooked": "Piselli spezzati cotti",
+    "greenPeas": "Piselli verdi",
+    "peaProteinIsolate": "Proteine isolate del pisello",
+    "peaMilk": "Latte di piselli",
+    "hummus": "Hummus",
+    "falafel": "Falafel",
+    "quinoaCooked": "Quinoa cotta",
+    "amaranthCooked": "Amaranto cotto",
+    "buckwheatCooked": "Grano saraceno cotto",
+    "oatsDry": "Avena secca",
+    "rolledOats": "Fiocchi d'avena",
+    "steelCutOats": "Avena tagliata a acciaio",
+    "oatBran": "Crusca d'avena",
+    "barleyCooked": "Orzo cotto",
+    "milletCooked": "Miglio cotto",
+    "brownRiceCooked": "Riso integrale cotto",
+    "wildRiceCooked": "Riso selvatico cotto",
+    "teffCooked": "Teff cotto",
+    "farroCooked": "Farro cotto",
+    "freekehCooked": "Freekeh cotto",
+    "wholeWheatPastaCooked": "Pasta integrale cotta",
+    "chickpeaPastaDry": "Pasta di ceci secca",
+    "lentilPastaDry": "Pasta di lenticchie secca",
+    "blackBeanPastaDry": "Pasta secca ai fagioli neri",
+    "spirulinaDry": "Spirulina secca",
+    "nutritionalYeast": "Lievito alimentare",
+    "mushroomsWhite": "Funghi bianchi",
+    "portobelloMushrooms": "Funghi Portobello",
+    "spinach": "Spinaci",
+    "kale": "Cavolo",
+    "broccoli": "Broccoli",
+    "brusselsSprouts": "Cavolini di Bruxelles",
+    "sweetCorn": "Mais dolce",
+    "artichoke": "Carciofo",
+    "avocado": "Avocado",
+    "pumpkinSeeds": "semi di zucca",
+    "hempSeeds": "Semi di canapa",
+    "chiaSeeds": "Chia Piramide",
+    "flaxSeeds": "Semi di lino",
+    "sesameSeeds": "Semi di sesamo",
+    "sunflowerSeeds": "Semi di girasole",
+    "watermelonSeeds": "Semi di anguria",
+    "almonds": "Mandorle",
+    "peanuts": "arachidi",
+    "peanutButterNatural": "Burro di arachidi naturale",
+    "cashews": "Anacardi",
+    "pistachios": "Pistacchi",
+    "walnuts": "Noci",
+    "hazelnuts": "Nocciole",
+    "brazilNuts": "Noci del Brasile",
+    "almondButter": "Burro di mandorle",
+    "tahini": "Tahina",
+    "cashewButter": "Burro di anacardi",
+    "pumpkinSeedButter": "Burro di semi di zucca",
+    "sunflowerSeedButter": "Burro di semi di girasole",
+    "almondFlour": "Farina di mandorle",
+    "chickpeaFlour": "Farina di ceci / Besan",
+    "soyFlour": "farina di soia",
+    "wholeWheatFlour": "Farina integrale di grano",
+    "breadWholeWheat": "Pane integrale",
+    "ezekielBread": "Pane di Ezechiele",
+    "proteinBreadVegan": "Pane proteico vegano",
+    "roastedChickpeas": "Ceci arrostiti",
+    "dryRoastedEdamame": "Edamame tostati a secco",
+    "proteinBarVegan": "Barretta proteica vegana",
+    "veganSausage": "Salsiccia vegana",
+    "veganBurgerPatty": "Hamburger vegano",
+    "mycoproteinVegan": "Micoproteine vegane",
+    "beanSprouts": "Germogli di fagioli",
+    "alfalfaSprouts": "Germogli di erba medica"
+  }
+}

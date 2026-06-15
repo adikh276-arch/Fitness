@@ -1,0 +1,53 @@
+{
+  "common": {
+    "next": "Berikutnya",
+    "subtitle": "Catat makanan dan perasaan Anda.",
+    "title": "Catatan Harian Makanan"
+  },
+  "feelings": {
+    "description": "Dengarkan tubuhmu — tubuh selalu punya sesuatu untuk disampaikan kepadamu!",
+    "placeholder": "Contoh: Saya merasa kenyang setelah makan siang tetapi sedikit berat setelah makan malam...",
+    "title": "Bagaimana perasaanmu setelah makan?"
+  },
+  "history": {
+    "empty": "Belum ada entri. Lengkapi buku harian makanan pertama Anda untuk melihatnya di sini!",
+    "subtitle": "Entri Anda sebelumnya"
+  },
+  "intro": {
+    "description": "Mencatat apa yang Anda makan membantu Anda lebih memahami tubuh Anda — apa yang memberi Anda energi, apa yang membuat Anda merasa berat, dan di mana Anda dapat melakukan perbaikan sederhana. Ini adalah zona bebas penilaian. Jujurlah dan nikmati prosesnya!",
+    "startButton": "Mari Kita Mulai →",
+    "subtitle": "Langkah kecil menuju perubahan kesehatan yang besar!",
+    "title": "Selamat datang di Buku Harian Makanan Anda"
+  },
+  "meals": {
+    "breakfast": {
+      "label": "Sarapan",
+      "placeholder": "Kamu makan apa?"
+    },
+    "description": "Catat setiap makanan atau camilan di bawah ini. Catatan singkat pun dihitung!",
+    "dinner": {
+      "label": "Makan malam",
+      "placeholder": "Kamu makan apa?"
+    },
+    "lunch": {
+      "label": "Makan siang",
+      "placeholder": "Kamu makan apa?"
+    },
+    "snacks": {
+      "label": "Makanan ringan",
+      "placeholder": "Adakah sesuatu di antaranya?"
+    },
+    "title": "Kamu makan apa hari ini?"
+  },
+  "messages": {
+    "entryDeleted": "Entri dihapus",
+    "entrySaved": "Entri tersimpan!"
+  },
+  "reflection": {
+    "encouragement": "Setiap entri yang Anda buat membawa Anda selangkah lebih dekat menuju diri yang lebih sehat dan bahagia. Teruslah hadir — konsistensi adalah kunci sebenarnya!",
+    "placeholder": "Tuliskan pendapat Anda di sini...",
+    "question": "Apa satu hal yang ingin kamu makan dengan lebih baik besok?",
+    "saveButton": "Simpan Entri",
+    "title": "Kerja bagus menyelesaikan catatan harian hari ini!"
+  }
+}

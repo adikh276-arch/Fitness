@@ -1,0 +1,53 @@
+{
+  "common": {
+    "next": "Další",
+    "subtitle": "Sledujte svá jídla a pocity",
+    "title": "Deník jídla"
+  },
+  "feelings": {
+    "description": "Naslouchejte svému tělu – vždy vám má co říct!",
+    "placeholder": "např. po obědě jsem se cítil/a spokojený/á, ale po večeři trochu těžký/á...",
+    "title": "Jak jste se cítili po jídle?"
+  },
+  "history": {
+    "empty": "Zatím žádné záznamy. Vyplňte si svůj první jídelníček a uvidíte ho zde!",
+    "subtitle": "Vaše minulé záznamy"
+  },
+  "intro": {
+    "description": "Sledování toho, co jíte, vám pomůže lépe porozumět vašemu tělu – co vám dává energii, co vám způsobuje pocit tíhy a kde můžete provést jednoduchá vylepšení. Toto je zóna bez odsuzování. Buďte upřímní a užívejte si proces!",
+    "startButton": "Začněme →",
+    "subtitle": "Malými krůčky k velkým zdravotním změnám!",
+    "title": "Vítejte ve vašem jídelním deníku"
+  },
+  "meals": {
+    "breakfast": {
+      "label": "Snídaně",
+      "placeholder": "Co jsi měl/a?"
+    },
+    "description": "Zaznamenejte si níže každé jídlo nebo svačinu. I hrubá poznámka se počítá!",
+    "dinner": {
+      "label": "Večeře",
+      "placeholder": "Co jsi měl/a?"
+    },
+    "lunch": {
+      "label": "Oběd",
+      "placeholder": "Co jsi měl/a?"
+    },
+    "snacks": {
+      "label": "Svačinky",
+      "placeholder": "Něco mezi tím?"
+    },
+    "title": "Co jsi dnes jedl/a?"
+  },
+  "messages": {
+    "entryDeleted": "Záznam smazán",
+    "entrySaved": "Záznam uložen!"
+  },
+  "reflection": {
+    "encouragement": "Každý váš příspěvek vás přiblíží k zdravějšímu a šťastnějšímu já. Neustále se objevujte – skutečným tajemstvím je důslednost!",
+    "placeholder": "Napište sem své myšlenky...",
+    "question": "Co byste si přáli jíst lépe zítra?",
+    "saveButton": "Uložit položku",
+    "title": "Skvělá práce s dokončením dnešního deníku!"
+  }
+}

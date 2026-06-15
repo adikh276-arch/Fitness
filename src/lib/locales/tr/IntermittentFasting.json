@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "back": "Kontrol Paneline Geri Dön"
+  },
+  "header": {
+    "title": "Aralıklı Oruç Rehberi",
+    "subtitle": "Zaman kısıtlamalı beslenmenin bilimini öğrenin."
+  },
+  "tabs": {
+    "lab": "Oruç Laboratuvarı",
+    "log": "Başarı Günlüğü"
+  },
+  "lab": {
+    "timeline": {
+      "title": "Biyolojik Zaman Çizelgesi",
+      "stages": [
+        {
+          "hours": "0-4 Saat",
+          "title": "Sindirim Aşaması (Anabolik Durum)",
+          "description": "Vücudunuz besinleri sindiriyor ve enerji depoluyor. Besinler emildikçe kan şekeri yükseliyor."
+        },
+        {
+          "hours": "4-12 Saat",
+          "title": "Yağ Yakımı Başlar (Katabolik Durum)",
+          "description": "İnsülin seviyeleri düşer ve vücudunuz enerji için depolanmış yağları parçalamaya başlar."
+        },
+        {
+          "hours": "12-18 Saat",
+          "title": "Hücresel Temizleme (Otofaji)",
+          "description": "Vücudunuz hasarlı hücreleri uzaklaştırmaya ve eski proteinleri geri dönüştürmeye başlar; bu, içsel bir bahar temizliği gibidir."
+        },
+        {
+          "hours": "18+ Saat",
+          "title": "En Yüksek Yağ Yakımı (Derin Ketozis)",
+          "description": "Vücudunuz tamamen yağ yakarak çalışıyor. Büyüme hormonu artıyor ve yağ yakımı zirveye ulaşıyor."
+        }
+      ]
+    },
+    "breaksFast": {
+      "title": "Oruç neyle bozulur?",
+      "safe": "Oruçluyken Güvenli:",
+      "safeList": "Su, Siyah Kahve, Sade Çay, Gazlı Su, Tuz/Elektrolitler",
+      "breaks": "Orucunuzu Bozun:",
+      "breaksList": "Kalori içeren her şey - süt, şeker, krema, protein içecekleri, BCAA'lar, yapay tatlandırıcı içeren diyet gazlı içecekler."
+    },
+    "tips": {
+      "title": "Başarı İçin Profesyonel İpuçları",
+      "tip1": {
+        "title": "Yavaş yavaş başlayın",
+        "desc": "12:12 ile başlayın ve zamanla daha uzun süreli oruçlara geçin."
+      },
+      "tip2": {
+        "title": "Susuz kalmayın",
+        "desc": "Oruç süresince bol su içmeyi unutmayın."
+      },
+      "tip3": {
+        "title": "Vücudunuzu dinleyin.",
+        "desc": "Kendinizi iyi hissetmiyor musunuz? Orucu bozmanızda sakınca yok."
+      },
+      "tip4": {
+        "title": "Kalite Önemlidir",
+        "desc": "Yemek yeme aralığınızda besin değeri yüksek gıdalara odaklanın."
+      }
+    }
+  },
+  "log": {
+    "form": {
+      "title": "Bugünkü Hızlı Beslenme Günlüğü",
+      "lastMeal": "Dünkü Son Yemek Saati:",
+      "firstMeal": "Bugün İlk Yemek Zamanı:",
+      "duration": "Toplam Oruç Süresi",
+      "goalAchieved": "Hedefe Ulaşıldı! 16 saatten fazla süren orucu tamamladınız!",
+      "submit": "Bunu hızlıca kaydet"
+    },
+    "tracker": {
+      "title": "30 Günlük Hızlı Takip Programı",
+      "streak": "Mevcut Seri:",
+      "streakDays": "{{count}} gün",
+      "last30": "Son 30 Gün",
+      "legend": {
+        "goalMet": "Hedefe Ulaşıldı (16+ saat)",
+        "today": "Bugün",
+        "missed": "Kaçırılan Gün"
+      }
+    },
+    "recentFasts": {
+      "title": "Son Oruçlar",
+      "goalMet": "Hedefle"
+    }
+  }
+}

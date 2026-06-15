@@ -1,0 +1,174 @@
+{
+  "nav": {
+    "back": "Kembali ke Dasbor"
+  },
+  "header": {
+    "title": "Panduan Membangun Otot",
+    "subtitle": "Pendekatan berbasis sains untuk membangun otot dan kekuatan."
+  },
+  "tabs": {
+    "plan": "Rencana Pertumbuhan",
+    "metrics": "Catatan Metrik Tubuh",
+    "habits": "Kebiasaan Hipertrofi"
+  },
+  "plan": {
+    "pillars": {
+      "caloric": {
+        "title": "Kelebihan Kalori",
+        "value": "TDEE + 250 hingga 500 kkal",
+        "desc": "Tubuh Anda membutuhkan energi ekstra untuk membangun jaringan otot baru. Terlalu sedikit dan Anda tidak akan tumbuh; terlalu banyak dan Anda akan menambah lemak yang tidak perlu. Usahakan untuk mengonsumsi 250-500 kkal di atas Total Pengeluaran Energi Harian (TDEE) Anda."
+      },
+      "protein": {
+        "title": "Sintesis Protein",
+        "value": "1,8g hingga 2,2g per kg",
+        "desc": "Protein adalah bahan pembangun otot. Penelitian menunjukkan bahwa 1,8-2,2 gram protein per kilogram berat badan memaksimalkan sintesis protein otot dan pemulihan."
+      },
+      "overload": {
+        "title": "Beban Berlebih Progresif",
+        "value": "Kemajuan mingguan",
+        "desc": "Otot tumbuh sebagai respons terhadap peningkatan tuntutan. Setiap minggu, usahakan untuk meningkatkan beban, repetisi, atau set. Catat total volume Anda (set × repetisi × beban) untuk memastikan kemajuan yang konsisten."
+      }
+    },
+    "mealTiming": {
+      "title": "Pengaturan Waktu Makan untuk Pertumbuhan Otot",
+      "subtitle": "Meskipun asupan harian total adalah yang terpenting, pengaturan waktu yang strategis dapat mengoptimalkan kinerja dan pemulihan:",
+      "preWorkoutLong": {
+        "time": "2-3 jam sebelumnya",
+        "title": "Pra-Latihan",
+        "desc": "Makanan seimbang dengan karbohidrat & protein"
+      },
+      "preWorkoutCarbs": {
+        "time": "30-60 menit sebelumnya",
+        "title": "Karbohidrat Pra-Latihan",
+        "desc": "Karbohidrat cepat untuk energi (pisang, kue beras)"
+      },
+      "training": {
+        "time": "Selama",
+        "title": "Pelatihan",
+        "desc": "Hidrasi + karbohidrat opsional selama latihan"
+      },
+      "postWorkout": {
+        "time": "Dalam waktu 2 jam",
+        "title": "Protein Setelah Latihan",
+        "desc": "30-40g protein + karbohidrat untuk pemulihan"
+      },
+      "eveningProtein": {
+        "time": "Sebelum tidur",
+        "title": "Protein Malam Hari",
+        "desc": "Kasein atau protein yang lambat dicerna"
+      }
+    },
+    "principles": {
+      "title": "Prinsip-prinsip Utama untuk Sukses",
+      "p1": {
+        "title": "Konsistensi mengalahkan kesempurnaan:",
+        "desc": "Melewatkan satu sesi latihan atau makan tidak akan menghancurkan kemajuan, tetapi ketidakkonsistenanlah yang akan menghancurkannya."
+      },
+      "p2": {
+        "title": "Tidur bersifat anabolik:",
+        "desc": "Usahakan tidur 7-9 jam setiap malam untuk pemulihan optimal dan pelepasan hormon pertumbuhan."
+      },
+      "p3": {
+        "title": "Pantau volume Anda:",
+        "desc": "Apa yang diukur akan ditingkatkan - catat angkatan beban Anda untuk memastikan peningkatan beban secara bertahap."
+      },
+      "p4": {
+        "title": "Kesabaran diperlukan:",
+        "desc": "Pertumbuhan otot alami adalah 0,5-1 kg per bulan untuk pemula, lebih lambat untuk atlet angkat beban tingkat lanjut."
+      }
+    }
+  },
+  "metrics": {
+    "strength": {
+      "totalVolume": "Total Volume Mingguan",
+      "volumeTarget": "Target Volume untuk Massa Tubuh {{weight}}kg",
+      "kgLifted": "kg diangkat",
+      "goal": "dari {{goal}}kg tujuan",
+      "awayFromTarget": "Anda berjarak {{gap}}kg dari kapasitas kerja berat badan target Anda.",
+      "setTarget": "Tetapkan berat target Anda di bawah ini untuk melihat target volume Anda.",
+      "statusLabels": {
+        "setTarget": "Tetapkan Berat Target",
+        "building": "Pondasi Bangunan",
+        "growth": "Zona Pertumbuhan",
+        "hit": "Kapasitas Target Tercapai"
+      }
+    },
+    "form": {
+      "title": "Catat Pengukuran Tubuh",
+      "currentWeight": "Berat Saat Ini (kg)",
+      "targetWeight": "Berat Target (kg) *",
+      "targetWeightHint": "Menetapkan target volume",
+      "chest": "Lingkar dada (inci)",
+      "chestHint": "Ukur pada garis puting susu",
+      "waist": "Lingkar pinggang (inci)",
+      "waistHint": "Setinggi pusar",
+      "bicepR": "Otot bisep kanan (dalam)",
+      "bicepRHint": "Bagian terlebar yang ditekuk",
+      "bicepL": "Otot bisep kiri (inci)",
+      "bicepLHint": "Opsional",
+      "thigh": "Paha (inci)",
+      "thighHint": "Bagian terluas",
+      "submit": "Pengukuran Log",
+      "success": "Metrik berhasil dicatat!"
+    },
+    "volume": {
+      "title": "Kalkulator Volume",
+      "exercise": "Latihan",
+      "sets": "Set",
+      "reps": "Perwakilan",
+      "weight": "Berat (kg)",
+      "totalVolume": "Volume Total",
+      "remaining": "Sisa Gol",
+      "submit": "Volume Log",
+      "logged": "{{lift}} tercatat: {{volume}}kg total volume!"
+    },
+    "chart": {
+      "title": "Bagan Kemajuan",
+      "weight": "Berat (kg)",
+      "chest": "Dada (dalam)",
+      "bicep": "Otot bisep (dalam)"
+    },
+    "noData": "Belum ada pengukuran yang tercatat. Mulai lacak untuk melihat kemajuan Anda!"
+  },
+  "habits": {
+    "title": "Kebiasaan Hipertrofi Saat Ini",
+    "subtitle": "Centang setiap kebiasaan setelah Anda menyelesaikannya.",
+    "items": {
+      "surplus": {
+        "title": "Kelebihan Kalori Terpenuhi",
+        "desc": "Capai target kalori Anda hari ini."
+      },
+      "protein": {
+        "title": "Target Protein Tercapai",
+        "desc": "1,8-2,2g per kg berat badan"
+      },
+      "creatine": {
+        "title": "Kreatin yang Dikonsumsi",
+        "desc": "Konsumsi 3-5g setiap hari untuk meningkatkan performa."
+      },
+      "sleep": {
+        "title": "Tidur Berkualitas",
+        "desc": "7-9 jam untuk pemulihan optimal"
+      },
+      "trained": {
+        "title": "Dilatih Hari Ini",
+        "desc": "Sesi latihan Anda telah selesai."
+      }
+    },
+    "recovery": {
+      "title": "Status Pemulihan",
+      "good": "Pemulihan yang Dioptimalkan",
+      "goodDesc": "Bagus sekali soal tidur dan asupan protein! Ototmu pulih dengan optimal.",
+      "improve": "Ruang untuk Perbaikan",
+      "improveDesc": "Fokuslah pada tidur dan penuhi target asupan protein Anda untuk pemulihan yang lebih baik."
+    },
+    "calendar": {
+      "title": "Rentetan Kebiasaan 30 Hari",
+      "legend": {
+        "perfect": "Sempurna (5/5)",
+        "partial": "Sebagian",
+        "none": "Tidak lengkap"
+      }
+    }
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "nav": {
+    "back": "Zurück zum Dashboard"
+  },
+  "header": {
+    "title": "Leitfaden zum Muskelaufbau",
+    "subtitle": "Wissenschaftlich fundierter Ansatz zum Muskelaufbau und Kraftzuwachs"
+  },
+  "tabs": {
+    "plan": "Der Wachstumsplan",
+    "metrics": "Körpermetrik-Protokoll",
+    "habits": "Hypertrophie-Gewohnheiten"
+  },
+  "plan": {
+    "pillars": {
+      "caloric": {
+        "title": "Kalorienüberschuss",
+        "value": "TDEE + 250 bis 500 kcal",
+        "desc": "Ihr Körper benötigt zusätzliche Energie, um neue Muskelmasse aufzubauen. Zu wenig Energie führt zu mangelndem Muskelwachstum, zu viel zu unnötiger Fetteinlagerung. Versuchen Sie, 250–500 kcal über Ihrem täglichen Gesamtenergieverbrauch (TDEE) zu sich zu nehmen."
+      },
+      "protein": {
+        "title": "Proteinsynthese",
+        "value": "1,8 g bis 2,2 g pro kg",
+        "desc": "Protein ist der Baustein der Muskulatur. Studien zeigen, dass 1,8–2,2 g Protein pro Kilogramm Körpergewicht die Muskelproteinsynthese und -regeneration maximieren."
+      },
+      "overload": {
+        "title": "Progressive Überlastung",
+        "value": "Wöchentlicher Fortschritt",
+        "desc": "Muskeln wachsen als Reaktion auf steigende Belastung. Versuche jede Woche, Gewicht, Wiederholungen oder Sätze zu erhöhen. Dokumentiere dein Gesamtvolumen (Sätze × Wiederholungen × Gewicht), um einen kontinuierlichen Fortschritt zu gewährleisten."
+      }
+    },
+    "mealTiming": {
+      "title": "Mahlzeitenplanung für Muskelwachstum",
+      "subtitle": "Während die gesamte tägliche Kalorienzufuhr am wichtigsten ist, kann eine strategische Zeitplanung Leistung und Regeneration optimieren:",
+      "preWorkoutLong": {
+        "time": "2-3 Stunden vorher",
+        "title": "Vor dem Training",
+        "desc": "Ausgewogene Mahlzeit mit Kohlenhydraten und Eiweiß"
+      },
+      "preWorkoutCarbs": {
+        "time": "30-60 Minuten vorher",
+        "title": "Kohlenhydrate vor dem Training",
+        "desc": "Schnell verfügbare Kohlenhydrate für Energie (Bananen, Reiswaffeln)"
+      },
+      "training": {
+        "time": "Während",
+        "title": "Ausbildung",
+        "desc": "Flüssigkeitszufuhr + optionale Kohlenhydrate während des Trainings"
+      },
+      "postWorkout": {
+        "time": "Innerhalb von 2 Stunden",
+        "title": "Post-Workout-Protein",
+        "desc": "30-40 g Protein + Kohlenhydrate zur Regeneration"
+      },
+      "eveningProtein": {
+        "time": "Vor dem Schlafengehen",
+        "title": "Abendprotein",
+        "desc": "Casein oder langsam verdauliches Protein"
+      }
+    },
+    "principles": {
+      "title": "Schlüsselprinzipien für den Erfolg",
+      "p1": {
+        "title": "Konstanz schlägt Perfektion:",
+        "desc": "Ein ausgelassenes Training oder eine ausgelassene Mahlzeit wird die erzielten Fortschritte nicht zunichtemachen, aber Unregelmäßigkeit schon."
+      },
+      "p2": {
+        "title": "Schlaf ist anabol:",
+        "desc": "Für eine optimale Erholung und die Freisetzung von Wachstumshormonen sollten Sie 7-9 Stunden Schlaf pro Nacht anstreben."
+      },
+      "p3": {
+        "title": "Verfolge deine Lautstärke:",
+        "desc": "Was gemessen wird, wird verbessert – protokollieren Sie Ihre Hebeübungen, um eine progressive Überlastung sicherzustellen."
+      },
+      "p4": {
+        "title": "Geduld ist erforderlich:",
+        "desc": "Das natürliche Muskelwachstum beträgt bei Anfängern 0,5-1 kg pro Monat, bei fortgeschrittenen Kraftsportlern verläuft es langsamer."
+      }
+    }
+  },
+  "metrics": {
+    "strength": {
+      "totalVolume": "Wöchentliches Gesamtvolumen",
+      "volumeTarget": "Volumenziel für {{weight}}kg Körpermasse",
+      "kgLifted": "kg gehoben",
+      "goal": "von {{goal}}kg Ziel",
+      "awayFromTarget": "Sie sind {{gap}}kg von der Arbeitskapazität Ihres Zielgewichts entfernt.",
+      "setTarget": "Legen Sie unten Ihr Zielgewicht fest, um Ihr Volumenziel zu sehen.",
+      "statusLabels": {
+        "setTarget": "Zielgewicht festlegen",
+        "building": "Fundament",
+        "growth": "Wachstumszone",
+        "hit": "Zielkapazität erreicht"
+      }
+    },
+    "form": {
+      "title": "Log Körpermaße",
+      "currentWeight": "Aktuelles Gewicht (kg)",
+      "targetWeight": "Zielgewicht (kg) *",
+      "targetWeightHint": "Setzt ein Volumenziel",
+      "chest": "Brustumfang (Zoll)",
+      "chestHint": "Messen Sie auf Höhe der Brustwarzenlinie",
+      "waist": "Taille (in)",
+      "waistHint": "Auf Höhe des Bauchnabels",
+      "bicepR": "Rechter Bizeps (innen)",
+      "bicepRHint": "Gebogen, breiteste Stelle",
+      "bicepL": "Linker Bizeps (innen)",
+      "bicepLHint": "Optional",
+      "thigh": "Oberschenkel (in)",
+      "thighHint": "breiteste Stelle",
+      "submit": "Logarithmische Messungen",
+      "success": "Metriken erfolgreich protokolliert!",
+      "placeholders": {
+        "weight": "z.B. 75",
+        "targetWeight": "z.B. 85",
+        "chest": "z.B. 40",
+        "waist": "Optional",
+        "bicep": "z.B. 15",
+        "bicepL": "Dasselbe wie rechts",
+        "thigh": "Optional"
+      }
+    },
+    "volume": {
+      "title": "Volumenrechner",
+      "exercise": "Übung",
+      "sets": "Sets",
+      "reps": "Reps",
+      "weight": "Gewicht (kg)",
+      "totalVolume": "Gesamtvolumen",
+      "remaining": "Verbleibend bis zum Tor",
+      "submit": "Protokollvolumen",
+      "logged": "{{lift}} protokolliert: {{volume}}kg Gesamtvolumen!",
+      "recentLifts": "Jüngste Aufzüge",
+      "placeholders": {
+        "sets": "z.B. 4",
+        "reps": "z.B. 8",
+        "weight": "z. B. 80"
+      }
+    },
+    "chart": {
+      "title": "Fortschrittsdiagramm",
+      "weight": "Gewicht (kg)",
+      "chest": "Brustumfang (in)",
+      "bicep": "Bizeps (in)"
+    },
+    "noData": "Bisher wurden keine Messwerte erfasst. Beginnen Sie mit der Aufzeichnung, um Ihren Fortschritt zu sehen!"
+  },
+  "habits": {
+    "title": "Heutige Hypertrophie-Gewohnheiten",
+    "subtitle": "Haken Sie jede Gewohnheit ab, sobald Sie sie erledigt haben.",
+    "items": {
+      "surplus": {
+        "title": "Kalorienüberschuss erfüllt",
+        "desc": "Erreiche heute dein Kalorienziel"
+      },
+      "protein": {
+        "title": "Proteinziel erreicht",
+        "desc": "1,8–2,2 g pro kg Körpergewicht"
+      },
+      "creatine": {
+        "title": "Kreatin eingenommen",
+        "desc": "3-5 g täglich für verbesserte Leistung"
+      },
+      "sleep": {
+        "title": "Guter Schlaf",
+        "desc": "7-9 Stunden für eine optimale Erholung"
+      },
+      "trained": {
+        "title": "Heute trainiert",
+        "desc": "Du hast dein Training abgeschlossen"
+      }
+    },
+    "recovery": {
+      "title": "Wiederherstellungsstatus",
+      "good": "Wiederherstellung optimiert",
+      "goodDesc": "Super, was Schlaf und Protein angeht! Deine Muskeln erholen sich optimal.",
+      "improve": "Raum für Verbesserungen",
+      "improveDesc": "Für eine bessere Regeneration solltest du auf ausreichend Schlaf und die Zufuhr deines Proteinbedarfs achten."
+    },
+    "calendar": {
+      "title": "30-Tage-Gewohnheitsserie",
+      "legend": {
+        "perfect": "Perfekt (5/5)",
+        "partial": "Teilweise",
+        "none": "Unvollständig"
+      },
+      "tooltip": "Tag {{day}}: {{count}}/5 Gewohnheiten"
+    }
+  },
+  "essentials": {
+    "title": "Grundlagen der Hypertrophie",
+    "tips": {
+      "rest": {
+        "title": "Muskeln werden im Ruhezustand aufgebaut:",
+        "desc": "Wachstum findet durch Schlaf und Ernährung statt, nicht im Fitnessstudio."
+      },
+      "protein": {
+        "title": "Der Zeitpunkt der Proteinzufuhr ist weniger wichtig als die Gesamtmenge:",
+        "desc": "Konzentriere dich darauf, dein Tagesziel zu erreichen, der Zeitpunkt ist zweitrangig."
+      },
+      "track": {
+        "title": "Alles im Blick behalten:",
+        "desc": "Gewicht, Maße und Volumen – Daten offenbaren Fortschritte, die man im Spiegel nicht sehen kann."
+      },
+      "creatine": {
+        "title": "Kreatin ist erwiesen:",
+        "desc": "3-5 g täglich steigern die Kraft und die fettfreie Muskelmasse ohne Nebenwirkungen für die meisten Menschen"
+      }
+    }
+  },
+  "exercises": {
+    "squat": "Hocken",
+    "deadlift": "Kreuzheben",
+    "benchPress": "Bankdrücken",
+    "overheadPress": "Überkopfpresse",
+    "barbellRow": "Langhantelrudern",
+    "pullUp": "Hochziehen",
+    "chinUp": "Kopf hoch!",
+    "latPulldown": "Latzug",
+    "seatedCableRow": "Sitzende Kabelzugreihe",
+    "dumbbellRow": "Kurzhantelrudern",
+    "romanianDeadlift": "Rumänisches Kreuzheben",
+    "hipThrust": "Hüftstoß",
+    "lunge": "Ausfallschritt",
+    "bulgarianSplitSquat": "Bulgarischer Split Squat",
+    "legPress": "Beinpresse",
+    "legExtension": "Beinstreckung",
+    "legCurl": "Beinbeuger",
+    "calfRaise": "Kälberaufzucht",
+    "gluteBridge": "Gesäßbrücke",
+    "pushUp": "Liegestütze",
+    "inclineDumbbellPress": "Schrägbankdrücken mit Kurzhanteln",
+    "dips": "Dips",
+    "chestFly": "Brusttasche",
+    "lateralRaise": "Seitliches Anheben",
+    "rearDeltFly": "Hintere Schulter-Fly",
+    "facePull": "Gesichtsziehen",
+    "bicepCurl": "Bizepscurl",
+    "hammerCurl": "Hammer Curl",
+    "tricepPushdown": "Trizepsdrücken",
+    "skullCrusher": "Schädelbrecher",
+    "plank": "Planke",
+    "hangingLegRaise": "Hängendes Beinheben",
+    "russianTwist": "Russischer Twist",
+    "farmerCarry": "Bauerntrage",
+    "shrug": "Zucken",
+    "arnoldPress": "Arnold Press",
+    "frontSquat": "Frontkniebeuge",
+    "sumoDeadlift": "Sumo-Kreuzheben",
+    "gobletSquat": "Goblet Squat",
+    "stepUp": "Schritt für Schritt"
+  }
+}

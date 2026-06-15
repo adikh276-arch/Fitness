@@ -1,0 +1,53 @@
+{
+  "common": {
+    "next": "Prossimo",
+    "subtitle": "Tieni traccia dei tuoi pasti e delle tue emozioni.",
+    "title": "Diario alimentare"
+  },
+  "feelings": {
+    "description": "Ascolta il tuo corpo: ha sempre qualcosa da dirti! 😌",
+    "placeholder": "Ad esempio, mi sentivo sazio dopo pranzo ma un po' appesantito dopo cena...",
+    "title": "Come ti sei sentito dopo aver mangiato?"
+  },
+  "history": {
+    "empty": "Ancora nessuna voce. Completa il tuo primo diario alimentare per vederlo qui!",
+    "subtitle": "I tuoi post precedenti"
+  },
+  "intro": {
+    "description": "Tenere traccia di ciò che mangi ti aiuta a capire meglio il tuo corpo: cosa ti dà energia, cosa ti appesantisce e dove puoi apportare semplici miglioramenti. Questo è uno spazio senza giudizi. Sii semplicemente sincero e goditi il processo!",
+    "startButton": "Iniziamo →",
+    "subtitle": "Piccoli passi verso grandi cambiamenti per la salute!",
+    "title": "Benvenuti nel vostro diario alimentare."
+  },
+  "meals": {
+    "breakfast": {
+      "label": "Colazione",
+      "placeholder": "Cosa avevi?"
+    },
+    "description": "Annota qui sotto ogni pasto o spuntino. Anche una semplice nota va bene! 🍽️",
+    "dinner": {
+      "label": "Cena",
+      "placeholder": "Cosa avevi?"
+    },
+    "lunch": {
+      "label": "Pranzo",
+      "placeholder": "Cosa avevi?"
+    },
+    "snacks": {
+      "label": "Snack",
+      "placeholder": "Qualcosa di intermedio?"
+    },
+    "title": "Cosa hai mangiato oggi?"
+  },
+  "messages": {
+    "entryDeleted": "Eliminazione voce",
+    "entrySaved": "Voce salvata! 🌱"
+  },
+  "reflection": {
+    "encouragement": "Ogni anno che pubblichi ti avvicina di un passo a una versione di te più sana e felice. Continua a partecipare: la costanza è il vero segreto! 💪",
+    "placeholder": "Scrivi qui i tuoi pensieri...",
+    "question": "Qual è una cosa che vorresti mangiare meglio domani?",
+    "saveButton": "Salva voce",
+    "title": "Ottimo lavoro nel completare il registro di oggi!"
+  }
+}

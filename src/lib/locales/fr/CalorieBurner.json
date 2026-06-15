@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "back": "Retour au tableau de bord"
+  },
+  "header": {
+    "title": "Brûleur de calories",
+    "subtitle": "Suivez les calories brûlées pendant vos activités"
+  },
+  "tabs": {
+    "calculator": "Calculatrice",
+    "log": "Journal d'activité ({{count}})"
+  },
+  "calculator": {
+    "form": {
+      "title": "Détails de l'activité",
+      "selectActivity": "Sélectionner une activité",
+      "weight": "Votre poids",
+      "duration": "Durée (minutes)",
+      "submit": "Journal des activités",
+      "placeholders": {
+        "weightKg": "par exemple, 70",
+        "weightLbs": "par exemple, 154"
+      }
+    },
+    "summary": {
+      "title": "Résumé des brûlures",
+      "calories": "Calories brûlées",
+      "activity": "Activité",
+      "duration": "Durée",
+      "weight": "Poids",
+      "burnRate": "Taux de combustion des calories",
+      "formula": "Formule : (MET × 3,5 × Poids kg / 200) × Durée min"
+    }
+  },
+  "log": {
+    "noActivities": "Aucune activité enregistrée pour le moment",
+    "noActivitiesDesc": "Commencez à suivre vos entraînements pour les voir ici.",
+    "logFirst": "Enregistrez votre première activité",
+    "summary": {
+      "title": "Résumé général",
+      "totalActivities": "Activités totales",
+      "totalCalories": "Calories totales",
+      "totalTime": "Temps total",
+      "avgSession": "Calories moyennes par session"
+    },
+    "item": {
+      "duration": "Durée",
+      "met": "MET",
+      "calories": "Calories",
+      "minutes": "min"
+    }
+  },
+  "activities": {
+    "walking": "Marche (rapide)",
+    "running": "Course à pied (9 min/mile)",
+    "cycling": "Cyclisme (modéré)",
+    "yoga": "Yoga",
+    "swimming": "Natation (longueurs)",
+    "strength": "Entraînement musculaire",
+    "household": "tâches ménagères",
+    "dance": "Danse/Aérobic"
+  }
+}

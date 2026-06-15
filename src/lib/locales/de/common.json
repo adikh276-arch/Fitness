@@ -1,0 +1,80 @@
+{
+  "shell": {
+    "title": "Selbstfürsorge-Ressourcen",
+    "subtitle": "Entdecken Sie Hilfsmittel und Anleitungen für Ihren Weg zu mehr Wohlbefinden."
+  },
+  "sections": {
+    "tools": "Werkzeuge",
+    "guides": "Ernährungs- und Diätleitfäden",
+    "workouts": "Trainingsbereiche",
+    "learning": "Ausgewählte Lerninhalte"
+  },
+  "tools": {
+    "macro": {
+      "label": "Nährwertrechner",
+      "desc": "Makros berechnen"
+    },
+    "calories": {
+      "label": "Kalorienverbrenner",
+      "desc": "Aktivitäten protokollieren"
+    },
+    "fasting": {
+      "label": "Fastenprotokoll",
+      "desc": "Fasten verfolgen"
+    },
+    "bmi": {
+      "label": "BMI-Rechner",
+      "desc": "Körpermetriken"
+    }
+  },
+  "guides": {
+    "weightLoss": "Gewichtsverlust",
+    "diabetes": "Diabetes-Diät",
+    "muscle": "Muskelaufbau",
+    "gut": "Darmgesundheit",
+    "keto": "Keto-Grundlagen",
+    "heart": "Herzgesundheit",
+    "fasting": "Intervallfasten",
+    "vegan": "Vegane Ernährung"
+  },
+  "workouts": {
+    "yoga": "Yoga",
+    "hiit": "HIIT",
+    "strength": "Krafttraining",
+    "posture": "Haltungskorrektur",
+    "home": "Heimtraining",
+    "flexibility": "Flexibilität"
+  },
+  "learning": {
+    "macros": {
+      "title": "Makronährstoffe verstehen",
+      "desc": "Lerne die Grundlagen von Proteinen, Kohlenhydraten und Fetten kennen."
+    },
+    "others": {
+      "title": "Andere",
+      "desc": "Entdecken Sie weitere interaktive Gesundheitstools"
+    }
+  },
+  "others": {
+    "title": "Weitere Ressourcen",
+    "subtitle": "Entdecken Sie weitere Tools für Ihre Gesundheitsreise",
+    "tools": {
+      "foodDiary": {
+        "label": "Ernährungstagebuch",
+        "desc": "Protokolliere deine Mahlzeiten"
+      },
+      "planPlate": {
+        "label": "Planen Sie Ihren Teller",
+        "desc": "Achten Sie auf eine ausgewogene Ernährung"
+      },
+      "sugarEase": {
+        "label": "Tägliche Zuckerbefreiung",
+        "desc": "Zuckerzufuhr kontrollieren"
+      },
+      "recipeLog": {
+        "label": "Gesundes Rezeptbuch",
+        "desc": "Speichern Sie Ihre Rezepte"
+      }
+    }
+  }
+}

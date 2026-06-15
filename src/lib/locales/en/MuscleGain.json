@@ -1,0 +1,192 @@
+{
+  "nav": { "back": "Back to Dashboard" },
+  "header": {
+    "title": "Muscle Gain Guide",
+    "subtitle": "Science-based approach to building muscle and strength"
+  },
+  "tabs": {
+    "plan": "The Growth Plan",
+    "metrics": "Body Metrics Log",
+    "habits": "Hypertrophy Habits"
+  },
+  "plan": {
+    "pillars": {
+      "caloric": {
+        "title": "Caloric Surplus",
+        "value": "TDEE + 250 to 500 kcal",
+        "desc": "Your body needs extra energy to build new muscle tissue. Too little and you won't grow; too much and you'll gain unnecessary fat. Aim for 250-500 kcal above your Total Daily Energy Expenditure (TDEE)."
+      },
+      "protein": {
+        "title": "Protein Synthesis",
+        "value": "1.8g to 2.2g per kg",
+        "desc": "Protein is the building block of muscle. Research shows that 1.8-2.2g of protein per kilogram of body weight maximizes muscle protein synthesis and recovery."
+      },
+      "overload": {
+        "title": "Progressive Overload",
+        "value": "Weekly progression",
+        "desc": "Muscles grow in response to increasing demands. Each week, aim to increase weight, reps, or sets. Track your total volume (sets × reps × weight) to ensure consistent progression."
+      }
+    },
+    "mealTiming": {
+      "title": "Meal Timing for Muscle Growth",
+      "subtitle": "While total daily intake matters most, strategic timing can optimize performance and recovery:",
+      "preWorkoutLong": { "time": "2-3 hours before", "title": "Pre-Workout", "desc": "Balanced meal with carbs & protein" },
+      "preWorkoutCarbs": { "time": "30-60 min before", "title": "Pre-Workout Carbs", "desc": "Quick carbs for energy (banana, rice cakes)" },
+      "training": { "time": "During", "title": "Training", "desc": "Hydration + optional intra-workout carbs" },
+      "postWorkout": { "time": "Within 2 hours", "title": "Post-Workout Protein", "desc": "30-40g protein + carbs for recovery" },
+      "eveningProtein": { "time": "Before bed", "title": "Evening Protein", "desc": "Casein or slow-digesting protein" }
+    },
+    "principles": {
+      "title": "Key Principles for Success",
+      "p1": { "title": "Consistency beats perfection:", "desc": "Missing one workout or meal won't kill gains, but inconsistency will" },
+      "p2": { "title": "Sleep is anabolic:", "desc": "Aim for 7-9 hours nightly for optimal recovery and growth hormone release" },
+      "p3": { "title": "Track your volume:", "desc": "What gets measured gets improved - log your lifts to ensure progressive overload" },
+      "p4": { "title": "Patience is required:", "desc": "Natural muscle growth is 0.5-1kg per month for beginners, slower for advanced lifters" }
+    }
+  },
+  "metrics": {
+    "strength": {
+      "totalVolume": "Total Weekly Volume",
+      "volumeTarget": "Volume Target for {{weight}}kg Body Mass",
+      "kgLifted": "kg lifted",
+      "goal": "of {{goal}}kg goal",
+      "awayFromTarget": "You are {{gap}}kg away from your target weight's work capacity",
+      "setTarget": "Set your target weight below to see your volume goal",
+      "statusLabels": {
+        "setTarget": "Set Target Weight",
+        "building": "Building Foundation",
+        "growth": "Growth Zone",
+        "hit": "Target Capacity Hit"
+      }
+    },
+    "form": {
+      "title": "Log Body Measurements",
+      "currentWeight": "Current Weight (kg)",
+      "targetWeight": "Target Weight (kg) *",
+      "targetWeightHint": "Sets volume goal",
+      "chest": "Chest (inches)",
+      "chestHint": "Measure at nipple line",
+      "waist": "Waist (in)",
+      "waistHint": "At navel level",
+      "bicepR": "Right Bicep (in)",
+      "bicepRHint": "Flexed, widest part",
+      "bicepL": "Left Bicep (in)",
+      "bicepLHint": "Optional",
+      "thigh": "Thigh (in)",
+      "thighHint": "Widest part",
+      "submit": "Log Measurements",
+      "success": "Metrics logged successfully!",
+      "placeholders": {
+        "weight": "e.g., 75",
+        "targetWeight": "e.g., 85",
+        "chest": "e.g., 40",
+        "waist": "Optional",
+        "bicep": "e.g., 15",
+        "bicepL": "Same as right",
+        "thigh": "Optional"
+      }
+    },
+    "volume": {
+      "title": "Volume Calculator",
+      "exercise": "Exercise",
+      "sets": "Sets",
+      "reps": "Reps",
+      "weight": "Weight (kg)",
+      "totalVolume": "Total Volume",
+      "remaining": "Remaining for Goal",
+      "recentLifts": "Recent Lifts",
+      "submit": "Log Volume",
+      "logged": "{{lift}} logged: {{volume}}kg total volume!",
+      "placeholders": {
+        "sets": "e.g., 4",
+        "reps": "e.g., 8",
+        "weight": "e.g., 80"
+      }
+    },
+    "chart": {
+      "title": "Progress Chart",
+      "weight": "Weight (kg)",
+      "chest": "Chest (in)",
+      "bicep": "Bicep (in)"
+    },
+    "noData": "No measurements logged yet. Start tracking to see your progress!"
+  },
+  "habits": {
+    "title": "Today's Hypertrophy Habits",
+    "subtitle": "Check off each habit as you complete it",
+    "items": {
+      "surplus": { "title": "Caloric Surplus Met", "desc": "Hit your calorie target today" },
+      "protein": { "title": "Protein Goal Met", "desc": "1.8-2.2g per kg of body weight" },
+      "creatine": { "title": "Creatine Taken", "desc": "3-5g daily for enhanced performance" },
+      "sleep": { "title": "Quality Sleep", "desc": "7-9 hours for optimal recovery" },
+      "trained": { "title": "Trained Today", "desc": "Completed your workout session" }
+    },
+    "recovery": {
+      "title": "Recovery Status",
+      "good": "Recovery Optimized",
+      "goodDesc": "Great job on sleep and protein! Your muscles are recovering optimally.",
+      "improve": "Room for Improvement",
+      "improveDesc": "Focus on sleep and hitting your protein target for better recovery."
+    },
+    "calendar": {
+      "title": "30-Day Habit Streak",
+      "tooltip": "Day {{day}}: {{count}}/5 habits",
+      "legend": {
+        "perfect": "Perfect (5/5)",
+        "partial": "Partial",
+        "none": "Incomplete"
+      }
+    }
+  },
+  "essentials": {
+    "title": "Hypertrophy Essentials",
+    "tips": {
+      "rest": { "title": "Muscle is built during rest:", "desc": "Sleep and nutrition are when growth happens, not in the gym" },
+      "protein": { "title": "Protein timing matters less than total:", "desc": "Focus on hitting your daily target, timing is secondary" },
+      "track": { "title": "Track everything:", "desc": "Weight, measurements, and volume - data reveals progress you can't see in the mirror" },
+      "creatine": { "title": "Creatine is proven:", "desc": "3-5g daily increases strength and lean mass with no side effects for most people" }
+    }
+  },
+  "exercises": {
+    "squat": "Squat",
+    "deadlift": "Deadlift",
+    "benchPress": "Bench Press",
+    "overheadPress": "Overhead Press",
+    "barbellRow": "Barbell Row",
+    "pullUp": "Pull Up",
+    "chinUp": "Chin Up",
+    "latPulldown": "Lat Pulldown",
+    "seatedCableRow": "Seated Cable Row",
+    "dumbbellRow": "Dumbbell Row",
+    "romanianDeadlift": "Romanian Deadlift",
+    "hipThrust": "Hip Thrust",
+    "lunge": "Lunge",
+    "bulgarianSplitSquat": "Bulgarian Split Squat",
+    "legPress": "Leg Press",
+    "legExtension": "Leg Extension",
+    "legCurl": "Leg Curl",
+    "calfRaise": "Calf Raise",
+    "gluteBridge": "Glute Bridge",
+    "pushUp": "Push Up",
+    "inclineDumbbellPress": "Incline Dumbbell Press",
+    "dips": "Dips",
+    "chestFly": "Chest Fly",
+    "lateralRaise": "Lateral Raise",
+    "rearDeltFly": "Rear Delt Fly",
+    "facePull": "Face Pull",
+    "bicepCurl": "Bicep Curl",
+    "hammerCurl": "Hammer Curl",
+    "tricepPushdown": "Tricep Pushdown",
+    "skullCrusher": "Skull Crusher",
+    "plank": "Plank",
+    "hangingLegRaise": "Hanging Leg Raise",
+    "russianTwist": "Russian Twist",
+    "farmerCarry": "Farmer Carry",
+    "shrug": "Shrug",
+    "arnoldPress": "Arnold Press",
+    "frontSquat": "Front Squat",
+    "sumoDeadlift": "Sumo Deadlift",
+    "gobletSquat": "Goblet Squat",
+    "stepUp": "Step Up"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "back": "Retour au tableau de bord"
+  },
+  "header": {
+    "title": "Calculatrice macro",
+    "subtitle": "Calculez vos besoins quotidiens en calories et en macronutriments"
+  },
+  "tabs": {
+    "input": "Vos coordonnées",
+    "results": "Vos résultats"
+  },
+  "form": {
+    "title": "Vos coordonnées",
+    "age": "Âge (années)",
+    "gender": "Genre",
+    "male": "Mâle",
+    "female": "Femelle",
+    "weight": "Poids",
+    "height": "Hauteur",
+    "activity": "Niveau d'activité",
+    "goal": "But",
+    "submit": "Macros de calcul",
+    "placeholders": {
+      "age": "par exemple, 30",
+      "weightKg": "par exemple, 70",
+      "weightLbs": "par exemple, 154",
+      "heightCm": "par exemple, 175",
+      "heightFt": "Pieds",
+      "heightIn": "Pouces"
+    },
+    "activityLevels": {
+      "sedentary": "Sédentaire (peu ou pas d'exercice)",
+      "light": "Activité physique légère (1 à 3 jours/semaine)",
+      "moderate": "Modérément actif (3 à 5 jours/semaine)",
+      "very": "Très actif (6-7 jours/semaine)"
+    },
+    "goals": {
+      "maintenance": "Entretien",
+      "loss": "Perte de poids",
+      "gain": "Prise de masse musculaire"
+    }
+  },
+  "results": {
+    "title": "Vos résultats",
+    "calorieTarget": "Objectif calorique quotidien",
+    "kcalPerDay": "kcal/jour",
+    "bmrLabel": "BMR : {{val}} kcal",
+    "protein": "Protéine",
+    "carbs": "Crabes",
+    "fat": "Graisse",
+    "submit": "Enregistrer dans le profil",
+    "placeholder": "Saisissez vos informations et cliquez sur Calculer pour voir vos résultats.",
+    "success": "Données macro enregistrées ! Les informations de votre profil ont été synchronisées.",
+    "validation": "Veuillez saisir des valeurs valides"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "common": {
+    "next": "Seterusnya",
+    "subtitle": "Jejaki makanan dan perasaan anda",
+    "title": "Diari Makanan"
+  },
+  "feelings": {
+    "description": "Dengarlah badan anda — ia sentiasa ada sesuatu untuk diberitahu kepada anda! 😌",
+    "placeholder": "contohnya saya rasa puas selepas makan tengah hari tetapi sedikit berat selepas makan malam...",
+    "title": "Bagaimana perasaan anda selepas makan?"
+  },
+  "history": {
+    "empty": "Tiada catatan lagi. Lengkapkan diari makanan pertama anda untuk melihatnya di sini!",
+    "subtitle": "Entri anda yang lalu"
+  },
+  "intro": {
+    "description": "Mengesan apa yang anda makan membantu anda memahami badan anda dengan lebih baik — apa yang memberi anda tenaga, apa yang membuatkan anda rasa berat, dan di mana anda boleh membuat penambahbaikan mudah. Ini adalah zon bebas penghakiman. Jujurlah dan nikmati prosesnya!",
+    "startButton": "Mari Mulakan →",
+    "subtitle": "Langkah kecil untuk perubahan kesihatan yang besar!",
+    "title": "Selamat datang ke Diari Makanan anda"
+  },
+  "meals": {
+    "breakfast": {
+      "label": "Sarapan pagi",
+      "placeholder": "Apa yang awak ada?"
+    },
+    "description": "Catatkan setiap hidangan atau snek di bawah. Nota kasar pun penting! 🍽️",
+    "dinner": {
+      "label": "Makan malam",
+      "placeholder": "Apa yang awak ada?"
+    },
+    "lunch": {
+      "label": "Makan tengah hari",
+      "placeholder": "Apa yang awak ada?"
+    },
+    "snacks": {
+      "label": "Snek",
+      "placeholder": "Ada apa-apa di antaranya?"
+    },
+    "title": "Apa yang awak makan hari ini?"
+  },
+  "messages": {
+    "entryDeleted": "Entri dipadamkan",
+    "entrySaved": "Entri disimpan! 🌱"
+  },
+  "reflection": {
+    "encouragement": "Setiap penyertaan yang anda buat membawa anda selangkah lebih dekat ke arah diri yang lebih sihat dan bahagia. Teruskan berusaha — konsistensi adalah rahsia sebenar! 💪",
+    "placeholder": "Tuliskan pendapat anda di sini...",
+    "question": "Apakah satu perkara yang anda ingin makan dengan lebih baik esok?",
+    "saveButton": "Simpan Entri",
+    "title": "Bagus siapkan log hari ini!"
+  }
+}

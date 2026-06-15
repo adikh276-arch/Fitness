@@ -1,0 +1,53 @@
+{
+  "common": {
+    "next": "Następny",
+    "subtitle": "Śledź swoje posiłki i samopoczucie",
+    "title": "Dziennik żywieniowy"
+  },
+  "feelings": {
+    "description": "Słuchaj swojego ciała – ono zawsze ma ci coś do powiedzenia! 😌",
+    "placeholder": "np. po obiedzie poczułem się syty, ale po kolacji poczułem się trochę ciężko...",
+    "title": "Jak się czułeś po jedzeniu?"
+  },
+  "history": {
+    "empty": "Brak wpisów. Uzupełnij swój pierwszy dziennik żywieniowy, aby go tu zobaczyć!",
+    "subtitle": "Twoje poprzednie wpisy"
+  },
+  "intro": {
+    "description": "Monitorowanie tego, co jesz, pomaga Ci lepiej zrozumieć swoje ciało – co dodaje Ci energii, co powoduje uczucie ciężkości i gdzie możesz wprowadzić proste zmiany. To strefa wolna od osądów. Po prostu bądź szczery i ciesz się procesem!",
+    "startButton": "Zacznijmy →",
+    "subtitle": "Małe kroki do dużych zmian zdrowotnych!",
+    "title": "Witamy w Twoim dzienniku żywieniowym"
+  },
+  "meals": {
+    "breakfast": {
+      "label": "Śniadanie",
+      "placeholder": "Co miałeś?"
+    },
+    "description": "Zapisuj każdy posiłek lub przekąskę poniżej. Nawet krótka notatka się liczy! 🍽️",
+    "dinner": {
+      "label": "Kolacja",
+      "placeholder": "Co miałeś?"
+    },
+    "lunch": {
+      "label": "Obiad",
+      "placeholder": "Co miałeś?"
+    },
+    "snacks": {
+      "label": "Przekąski",
+      "placeholder": "Coś pomiędzy?"
+    },
+    "title": "Co jadłeś dzisiaj?"
+  },
+  "messages": {
+    "entryDeleted": "Wpis usunięty",
+    "entrySaved": "Wpis zapisany! 🌱"
+  },
+  "reflection": {
+    "encouragement": "Każdy wpis przybliża Cię o krok do zdrowszej i szczęśliwszej wersji siebie. Regularnie rób to, co robisz – sekret tkwi w konsekwencji! 💪",
+    "placeholder": "Napisz tutaj swoje przemyślenia...",
+    "question": "Co chciałbyś zjeść jutro lepiej?",
+    "saveButton": "Zapisz wpis",
+    "title": "Świetna robota! Uzupełniłeś dzisiejszy dziennik!"
+  }
+}

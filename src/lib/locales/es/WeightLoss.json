@@ -1,0 +1,150 @@
+{
+  "nav": {
+    "back": "Volver al panel de control"
+  },
+  "header": {
+    "title": "Guía para bajar de peso",
+    "subtitle": "Tu guía completa para una pérdida de peso sostenible"
+  },
+  "tabs": {
+    "plan": "El plan",
+    "tracker": "Rastreador",
+    "habits": "Hábitos"
+  },
+  "plan": {
+    "goldenRule": {
+      "title": "La regla de oro",
+      "subtitle": "Déficit calórico frente a densidad nutricional",
+      "desc": "Para bajar de peso se necesita un déficit calórico, pero la calidad de esas calorías es tan importante como la cantidad. Céntrate en alimentos integrales ricos en nutrientes que te mantengan saciado mientras creas el déficit necesario para perder grasa."
+    },
+    "proteinFirst": {
+      "title": "Primero la proteína",
+      "subtitle": "Por qué consumir entre 1,2 g y 1,6 g de proteína por kg es fundamental para perder grasa:",
+      "muscle": "Preserva la masa muscular durante la restricción calórica.",
+      "thermic": "Mayor efecto termogénico (el 30% de las calorías de las proteínas se queman durante la digestión).",
+      "satiety": "Una mayor sensación de saciedad te ayuda a sentirte lleno durante más tiempo.",
+      "sugar": "Estabiliza el azúcar en sangre y reduce los antojos."
+    },
+    "plateMethod": {
+      "title": "El método de la placa",
+      "subtitle": "Una guía visual sencilla para preparar comidas equilibradas que favorezcan la pérdida de grasa:",
+      "veg": {
+        "title": "Verduras",
+        "desc": "Verduras sin almidón para dar volumen y nutrientes."
+      },
+      "protein": {
+        "title": "Proteína",
+        "desc": "Carnes magras, pescado, huevos o fuentes de origen vegetal."
+      },
+      "carbs": {
+        "title": "Carbohidratos ricos en fibra",
+        "desc": "Cereales integrales, batata, quinoa, legumbres"
+      }
+    },
+    "hiddenFactors": {
+      "title": "Los factores ocultos",
+      "hydration": {
+        "title": "Hidratación",
+        "desc": "Una hidratación adecuada ayuda a:",
+        "list": [
+          "Regula el apetito",
+          "Aumenta el metabolismo",
+          "Reducir la retención de agua",
+          "Favorece la oxidación de grasas"
+        ]
+      },
+      "sleep": {
+        "title": "Dormir (más de 7 horas)",
+        "desc": "Un sueño de calidad regula:",
+        "list": [
+          "Cortisol (hormona del estrés)",
+          "Grelina y leptina (hambre)",
+          "Sensibilidad a la insulina",
+          "Recuperación y energía"
+        ]
+      }
+    }
+  },
+  "tracker": {
+    "progress": {
+      "title": "Tu progreso",
+      "change": "Objetivos de cambio",
+      "lost": "Pérdida de peso",
+      "remaining": "Restante",
+      "percent": "Progreso",
+      "complete": "Completo"
+    },
+    "log": {
+      "title": "Registra las métricas de hoy",
+      "weight": "Peso actual (kg)",
+      "chest": "Pecho (pulgadas, opcional)",
+      "waist": "Cintura (pulgadas, opcional)",
+      "hips": "Caderas (pulgadas, opcional)",
+      "placeholder": "p. ej., {{val}}",
+      "submit": "Métricas de registro"
+    },
+    "history": {
+      "title": "Historial de métricas",
+      "total": "Registros totales",
+      "first": "Primer peso",
+      "latest": "Último peso",
+      "unit": "kg",
+      "inches": "pulgadas",
+      "chest": "pecho",
+      "waist": "cintura",
+      "hips": "caderas"
+    }
+  },
+  "habits": {
+    "consistency": {
+      "title": "Constancia semanal",
+      "subtitle": "¡Sigue cultivando esos hábitos saludables!"
+    },
+    "today": {
+      "title": "Hábitos de hoy",
+      "subtitle": "Marca cada hábito a medida que lo completes hoy.",
+      "protein": {
+        "label": "Alcanzar el objetivo de proteínas",
+        "desc": "1,2-1,6 g por kg de peso corporal"
+      },
+      "noSugar": {
+        "label": "Sin bebidas azucaradas",
+        "desc": "Solo agua, té o café negro."
+      },
+      "walk": {
+        "label": "Caminata de 10 minutos después de comer",
+        "desc": "Actividad ligera después de comer"
+      },
+      "sleep": {
+        "label": "Más de 7 horas de sueño",
+        "desc": "Descanso de calidad para la recuperación"
+      }
+    },
+    "tracker30": {
+      "title": "Rastreador de hábitos de 30 días",
+      "legend": {
+        "none": "Ninguno",
+        "low": "1",
+        "mid": "2-3",
+        "high": "3",
+        "all": "Los 4"
+      }
+    },
+    "whyMatters": {
+      "title": "Por qué estos hábitos importan",
+      "protein": "La ingesta de proteínas preserva la masa muscular y aumenta la saciedad durante la pérdida de peso.",
+      "noSugar": "Evitar las bebidas azucaradas elimina las calorías vacías y reduce los picos de insulina.",
+      "walk": "Los paseos después de las comidas mejoran la sensibilidad a la insulina y favorecen la digestión.",
+      "sleep": "Un sueño de calidad regula las hormonas del hambre y favorece la pérdida de grasa."
+    }
+  },
+  "modal": {
+    "title": "Establece tus metas",
+    "subtitle": "Personalicemos tu proceso de pérdida de peso.",
+    "start": "Peso inicial (kg)",
+    "target": "Peso objetivo (kg)",
+    "date": "Fecha objetivo",
+    "save": "Guardar objetivo",
+    "fillAll": "Por favor, rellene todos los campos."
+  }
+}

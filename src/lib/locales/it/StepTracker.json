@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "back": "Torna alla dashboard"
+  },
+  "header": {
+    "title": "Contapassi",
+    "subtitle": "Monitora i tuoi passi quotidiani e raggiungi i tuoi obiettivi.",
+    "profile": "Profilo"
+  },
+  "tabs": {
+    "tracker": "Tracker",
+    "history": "Storia"
+  },
+  "tracker": {
+    "stepsToday": "passi di oggi",
+    "goalAchieved": "Obiettivo raggiunto!",
+    "stats": {
+      "distance": "Distanza",
+      "calories": "Calorie",
+      "activeTime": "Tempo attivo",
+      "km": "km",
+      "kcal": "kcal",
+      "mins": "minuti"
+    },
+    "goal": {
+      "label": "Obiettivo giornaliero",
+      "value": "{{val}} passi",
+      "change": "Modifica obiettivo"
+    },
+    "quickAdd": {
+      "title": "Procedura di aggiunta rapida",
+      "label": "Passaggi personalizzati",
+      "placeholder": "ad esempio, 3500",
+      "submit": "Aggiungere"
+    },
+    "insights": {
+      "title": "Approfondimenti di oggi",
+      "remaining": "Passaggi rimanenti",
+      "stride": "lunghezza del passo",
+      "progress": "Progressi",
+      "complete": "Completare!",
+      "percentOfGoal": "{{val}}% dell'obiettivo"
+    },
+    "reset": "Reimposta i passi di oggi"
+  },
+  "history": {
+    "title": "Storia dei passaggi",
+    "noHistory": "Nessun dato ancora disponibile. Inizia a monitorare i tuoi passi!",
+    "today": "Oggi",
+    "stats": {
+      "steps": "Passaggi",
+      "goal": "Obiettivo",
+      "progress": "Progressi"
+    }
+  },
+  "modals": {
+    "goal": {
+      "title": "Imposta un obiettivo giornaliero",
+      "subtitle": "Inserisci il tuo obiettivo di passi giornalieri",
+      "placeholder": "ad esempio, 10000",
+      "cancel": "Cancellare",
+      "save": "Salva"
+    },
+    "profile": {
+      "title": "Aggiorna il profilo",
+      "subtitle": "Questo aiuta a calcolare con precisione la distanza e le calorie.",
+      "height": "Altezza (cm)",
+      "weight": "Peso (kg)",
+      "gender": "Genere",
+      "male": "Maschio",
+      "female": "Femmina",
+      "placeholderHeight": "ad esempio, 170",
+      "placeholderWeight": "ad esempio, 70",
+      "cancel": "Cancellare",
+      "save": "Salva"
+    }
+  }
+}

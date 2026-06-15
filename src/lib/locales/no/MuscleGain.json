@@ -1,0 +1,174 @@
+{
+  "nav": {
+    "back": "Tilbake til dashbordet"
+  },
+  "header": {
+    "title": "Guide til muskelvekst",
+    "subtitle": "Vitenskapsbasert tilnærming til å bygge muskler og styrke"
+  },
+  "tabs": {
+    "plan": "Vekstplanen",
+    "metrics": "Logg for kroppsmålinger",
+    "habits": "Hypertrofivaner"
+  },
+  "plan": {
+    "pillars": {
+      "caloric": {
+        "title": "Kalorioverskudd",
+        "value": "TDEE + 250 til 500 kcal",
+        "desc": "Kroppen din trenger ekstra energi for å bygge nytt muskelvev. For lite, og du vil ikke vokse; for mye, og du vil legge på deg unødvendig fett. Sikt på 250–500 kcal over ditt totale daglige energiforbruk (TDEE)."
+      },
+      "protein": {
+        "title": "Proteinsyntese",
+        "value": "1,8 g til 2,2 g per kg",
+        "desc": "Protein er byggesteinen i muskler. Forskning viser at 1,8–2,2 g protein per kilo kroppsvekt maksimerer muskelproteinsyntese og restitusjon."
+      },
+      "overload": {
+        "title": "Progressiv overbelastning",
+        "value": "Ukentlig progresjon",
+        "desc": "Muskler vokser som følge av økende krav. Hver uke, sikt mot å øke vekt, repetisjoner eller sett. Spor ditt totale volum (sett × repetisjoner × vekt) for å sikre jevn progresjon."
+      }
+    },
+    "mealTiming": {
+      "title": "Måltidspunkt for muskelvekst",
+      "subtitle": "Selv om det totale daglige inntaket er viktigst, kan strategisk timing optimalisere ytelse og restitusjon:",
+      "preWorkoutLong": {
+        "time": "2–3 timer før",
+        "title": "Før trening",
+        "desc": "Balansert måltid med karbohydrater og protein"
+      },
+      "preWorkoutCarbs": {
+        "time": "30–60 minutter før",
+        "title": "Karbohydrater før trening",
+        "desc": "Raske karbohydrater for energi (banan, riskaker)"
+      },
+      "training": {
+        "time": "I løpet av",
+        "title": "Opplæring",
+        "desc": "Hydrering + valgfrie karbohydrater under trening"
+      },
+      "postWorkout": {
+        "time": "Innen 2 timer",
+        "title": "Protein etter trening",
+        "desc": "30–40 g protein + karbohydrater for restitusjon"
+      },
+      "eveningProtein": {
+        "time": "Før sengetid",
+        "title": "Kveldsprotein",
+        "desc": "Kasein eller saktefordøyelig protein"
+      }
+    },
+    "principles": {
+      "title": "Viktige prinsipper for suksess",
+      "p1": {
+        "title": "Konsistens slår perfeksjon:",
+        "desc": "Å gå glipp av én treningsøkt eller et måltid vil ikke drepe gevinsten, men inkonsekvens vil det."
+      },
+      "p2": {
+        "title": "Søvn er anabolt:",
+        "desc": "Sikt på 7–9 timer hver natt for optimal restitusjon og frigjøring av veksthormon"
+      },
+      "p3": {
+        "title": "Spor volumet ditt:",
+        "desc": "Det som måles blir forbedret – loggfør løftene dine for å sikre progressiv overbelastning"
+      },
+      "p4": {
+        "title": "Tålmodighet er nødvendig:",
+        "desc": "Naturlig muskelvekst er 0,5–1 kg per måned for nybegynnere, saktere for avanserte løftere"
+      }
+    }
+  },
+  "metrics": {
+    "strength": {
+      "totalVolume": "Totalt ukentlig volum",
+      "volumeTarget": "Volummål for {{weight}}kg kroppsmasse",
+      "kgLifted": "kg løftet",
+      "goal": "av {{goal}}kg mål",
+      "awayFromTarget": "Du er {{gap}} kg unna målvektens arbeidskapasitet",
+      "setTarget": "Angi målvekten din nedenfor for å se volummålet ditt",
+      "statusLabels": {
+        "setTarget": "Angi målvekt",
+        "building": "Bygningsfundament",
+        "growth": "Vekstsone",
+        "hit": "Målkapasitetstreff"
+      }
+    },
+    "form": {
+      "title": "Målinger av tømmerstokkkroppen",
+      "currentWeight": "Nåværende vekt (kg)",
+      "targetWeight": "Målvekt (kg) *",
+      "targetWeightHint": "Setter volummål",
+      "chest": "Bryst (tommer)",
+      "chestHint": "Mål ved brystvortelinjen",
+      "waist": "Midje (i tommer)",
+      "waistHint": "På navlenivå",
+      "bicepR": "Høyre biceps (i tommer)",
+      "bicepRHint": "Bøyd, bredeste del",
+      "bicepL": "Venstre biceps (i tommer)",
+      "bicepLHint": "Valgfri",
+      "thigh": "Lår (i tommer)",
+      "thighHint": "Bredeste del",
+      "submit": "Loggmålinger",
+      "success": "Målinger logget!"
+    },
+    "volume": {
+      "title": "Volumkalkulator",
+      "exercise": "Øvelse",
+      "sets": "Sett",
+      "reps": "Representanter",
+      "weight": "Vekt (kg)",
+      "totalVolume": "Totalvolum",
+      "remaining": "Gjenværende for mål",
+      "submit": "Loggvolum",
+      "logged": "{{lift}} logget: {{volume}}kg totalt volum!"
+    },
+    "chart": {
+      "title": "Fremdriftsdiagram",
+      "weight": "Vekt (kg)",
+      "chest": "Bryst (i tommer)",
+      "bicep": "Biceps (i tommer)"
+    },
+    "noData": "Ingen målinger er registrert ennå. Begynn å spore for å se fremgangen din!"
+  },
+  "habits": {
+    "title": "Dagens hypertrofivaner",
+    "subtitle": "Kryss av for hver vane når du fullfører den",
+    "items": {
+      "surplus": {
+        "title": "Kalorioverskudd Met",
+        "desc": "Nå kalorimålet ditt i dag"
+      },
+      "protein": {
+        "title": "Proteinmål nådd",
+        "desc": "1,8–2,2 g per kg kroppsvekt"
+      },
+      "creatine": {
+        "title": "Kreatin tatt",
+        "desc": "3–5 g daglig for forbedret ytelse"
+      },
+      "sleep": {
+        "title": "Kvalitetssøvn",
+        "desc": "7–9 timer for optimal restitusjon"
+      },
+      "trained": {
+        "title": "Trente i dag",
+        "desc": "Fullførte treningsøkten din"
+      }
+    },
+    "recovery": {
+      "title": "Gjenopprettingsstatus",
+      "good": "Gjenopprettingsoptimalisert",
+      "goodDesc": "Bra jobbet med søvn og protein! Musklene dine restituerer seg optimalt.",
+      "improve": "Rom for forbedring",
+      "improveDesc": "Fokuser på søvn og å nå proteinmålet ditt for bedre restitusjon."
+    },
+    "calendar": {
+      "title": "30-dagers vaneserie",
+      "legend": {
+        "perfect": "Perfekt (5/5)",
+        "partial": "Delvis",
+        "none": "Ufullstendig"
+      }
+    }
+  }
+}

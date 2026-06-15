@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "back": "Kembali ke Dasbor"
+  },
+  "header": {
+    "title": "Panduan Puasa Intermiten",
+    "subtitle": "Kuasai ilmu makan terbatas waktu."
+  },
+  "tabs": {
+    "lab": "Laboratorium Puasa",
+    "log": "Catatan Keberhasilan"
+  },
+  "lab": {
+    "timeline": {
+      "title": "Garis Waktu Biologis",
+      "stages": [
+        {
+          "hours": "0-4 Jam",
+          "title": "Fase Pencernaan (Keadaan Anabolik)",
+          "description": "Tubuh Anda mencerna makanan dan menyimpan energi. Gula darah meningkat seiring dengan penyerapan nutrisi."
+        },
+        {
+          "hours": "4-12 Jam",
+          "title": "Pembakaran Lemak Dimulai (Keadaan Katabolik)",
+          "description": "Kadar insulin menurun dan tubuh Anda mulai memecah lemak yang tersimpan untuk energi."
+        },
+        {
+          "hours": "12-18 Jam",
+          "title": "Pembersihan Seluler (Autofagi)",
+          "description": "Tubuh Anda mulai membuang sel-sel yang rusak dan mendaur ulang protein lama - seperti pembersihan internal di musim semi."
+        },
+        {
+          "hours": "18+ Jam",
+          "title": "Pembakaran Lemak Maksimal (Ketosis Mendalam)",
+          "description": "Tubuh Anda sepenuhnya menggunakan lemak sebagai sumber energi. Hormon pertumbuhan meningkat dan pembakaran lemak mencapai puncaknya."
+        }
+      ]
+    },
+    "breaksFast": {
+      "title": "Apa yang Membatalkan Puasa?",
+      "safe": "Aman Saat Berpuasa:",
+      "safeList": "Air, Kopi Hitam, Teh Tawar, Air Soda, Garam/Elektrolit",
+      "breaks": "Membatalkan Puasa Anda:",
+      "breaksList": "Apa pun yang mengandung kalori - susu, gula, krim, minuman protein, BCAA, soda diet dengan pemanis buatan."
+    },
+    "tips": {
+      "title": "Kiat Profesional untuk Sukses",
+      "tip1": {
+        "title": "Mulailah secara bertahap.",
+        "desc": "Mulailah dengan puasa 12:12 dan tingkatkan durasi puasa secara bertahap."
+      },
+      "tip2": {
+        "title": "Tetap terhidrasi",
+        "desc": "Minumlah banyak air selama berpuasa."
+      },
+      "tip3": {
+        "title": "Dengarkan Tubuhmu",
+        "desc": "Merasa kurang sehat? Tidak apa-apa untuk membatalkan puasa."
+      },
+      "tip4": {
+        "title": "Kualitas Itu Penting",
+        "desc": "Fokuslah pada makanan kaya nutrisi selama periode makan."
+      }
+    }
+  },
+  "log": {
+    "form": {
+      "title": "Catat Puasa Hari Ini",
+      "lastMeal": "Waktu Makan Terakhir (Kemarin):",
+      "firstMeal": "Waktu Makan Pertama (Hari Ini):",
+      "duration": "Total Durasi Puasa",
+      "goalAchieved": "Tujuan Tercapai! Anda telah menyelesaikan puasa selama lebih dari 16 jam!",
+      "submit": "Catat Ini dengan Cepat"
+    },
+    "tracker": {
+      "title": "Program Percepatan 30 Hari",
+      "streak": "Rentetan Saat Ini:",
+      "streakDays": "{{count}} hari",
+      "last30": "30 Hari Terakhir",
+      "legend": {
+        "goalMet": "Target Tercapai (16+ jam)",
+        "today": "Hari ini",
+        "missed": "Hari yang Terlewatkan"
+      }
+    },
+    "recentFasts": {
+      "title": "Puasa Terbaru",
+      "goalMet": "Tujuan Dengan"
+    }
+  }
+}

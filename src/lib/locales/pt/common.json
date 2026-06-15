@@ -1,0 +1,80 @@
+{
+  "shell": {
+    "title": "Recursos de autocuidado",
+    "subtitle": "Explore ferramentas e orientações para sua jornada de bem-estar."
+  },
+  "sections": {
+    "tools": "Ferramentas",
+    "guides": "Guias de Nutrição e Dieta",
+    "workouts": "Áreas de treino",
+    "learning": "Aprendizagem em destaque"
+  },
+  "tools": {
+    "macro": {
+      "label": "Calculadora de Nutrição",
+      "desc": "Calcular macros"
+    },
+    "calories": {
+      "label": "Queimador de Calorias",
+      "desc": "Registre as atividades"
+    },
+    "fasting": {
+      "label": "Registrador em jejum",
+      "desc": "Acompanhe o jejum"
+    },
+    "bmi": {
+      "label": "Calculadora de IMC",
+      "desc": "Métricas corporais"
+    }
+  },
+  "guides": {
+    "weightLoss": "Perda de peso",
+    "diabetes": "Dieta para diabéticos",
+    "muscle": "Ganho de massa muscular",
+    "gut": "Saúde intestinal",
+    "keto": "Noções básicas da dieta cetogênica",
+    "heart": "Saúde do coração",
+    "fasting": "Jejum intermitente",
+    "vegan": "Nutrição Vegana"
+  },
+  "workouts": {
+    "yoga": "Ioga",
+    "hiit": "HIIT",
+    "strength": "Treinamento de força",
+    "posture": "Correção postural",
+    "home": "Treinos em casa",
+    "flexibility": "Flexibilidade"
+  },
+  "learning": {
+    "macros": {
+      "title": "Entendendo os Macronutrientes",
+      "desc": "Aprenda os fundamentos das proteínas, carboidratos e gorduras."
+    },
+    "others": {
+      "title": "Outros",
+      "desc": "Explore mais ferramentas de saúde interativas"
+    }
+  },
+  "others": {
+    "title": "Outros recursos",
+    "subtitle": "Explore mais ferramentas para sua jornada de saúde",
+    "tools": {
+      "foodDiary": {
+        "label": "Diário alimentar",
+        "desc": "Registre suas refeições"
+      },
+      "planPlate": {
+        "label": "Planeje seu prato",
+        "desc": "Equilibre suas refeições"
+      },
+      "sugarEase": {
+        "label": "Alívio diário do açúcar",
+        "desc": "Controle a ingestão de açúcar."
+      },
+      "recipeLog": {
+        "label": "Diário de Receitas Saudáveis",
+        "desc": "Salve suas receitas"
+      }
+    }
+  }
+}

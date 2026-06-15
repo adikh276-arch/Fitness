@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "back": "Voltar ao painel de controle"
+  },
+  "header": {
+    "title": "Guia de Jejum Intermitente",
+    "subtitle": "Domine a ciência da alimentação com restrição de tempo."
+  },
+  "tabs": {
+    "lab": "O Laboratório do Jejum",
+    "log": "Registro de sucesso"
+  },
+  "lab": {
+    "timeline": {
+      "title": "A Linha do Tempo Biológica",
+      "stages": [
+        {
+          "hours": "0-4 horas",
+          "title": "Fase de Digestão (Estado Anabólico)",
+          "description": "Seu corpo está digerindo alimentos e armazenando energia. O nível de açúcar no sangue aumenta à medida que os nutrientes são absorvidos."
+        },
+        {
+          "hours": "4 a 12 horas",
+          "title": "Queima de gordura começa (estado catabólico)",
+          "description": "Os níveis de insulina diminuem e seu corpo começa a quebrar a gordura armazenada para obter energia."
+        },
+        {
+          "hours": "12-18 horas",
+          "title": "Limpeza celular (autofagia)",
+          "description": "Seu corpo começa a remover células danificadas e a reciclar proteínas antigas – como uma faxina interna de primavera."
+        },
+        {
+          "hours": "18+ horas",
+          "title": "Queima máxima de gordura (cetose profunda)",
+          "description": "Seu corpo está funcionando exclusivamente com gordura. O hormônio do crescimento aumenta e a queima de gordura atinge seu pico."
+        }
+      ]
+    },
+    "breaksFast": {
+      "title": "O que quebra o jejum?",
+      "safe": "Seguro durante o jejum:",
+      "safeList": "Água, café preto, chá puro, água com gás, sal/eletrólitos",
+      "breaks": "Quebra o jejum:",
+      "breaksList": "Qualquer coisa com calorias - leite, açúcar, creme de leite, shakes de proteína, BCAAs, refrigerante diet com adoçantes artificiais."
+    },
+    "tips": {
+      "title": "Dicas profissionais para o sucesso",
+      "tip1": {
+        "title": "Comece gradualmente",
+        "desc": "Comece com jejuns de 12:12 e vá aumentando a duração gradativamente."
+      },
+      "tip2": {
+        "title": "Mantenha-se hidratado",
+        "desc": "Beba bastante água durante o jejum."
+      },
+      "tip3": {
+        "title": "Escute o seu corpo",
+        "desc": "Não se sente bem? Não tem problema quebrar o jejum."
+      },
+      "tip4": {
+        "title": "A qualidade importa",
+        "desc": "Durante o período de alimentação, priorize alimentos ricos em nutrientes."
+      }
+    }
+  },
+  "log": {
+    "form": {
+      "title": "Registre o jejum de hoje",
+      "lastMeal": "Última refeição (ontem):",
+      "firstMeal": "Primeira refeição (hoje):",
+      "duration": "Duração total do jejum",
+      "goalAchieved": "Objetivo alcançado! Você completou um jejum de mais de 16 horas!",
+      "submit": "Registre isso rapidamente",
+      "dateLabel": "Data:"
+    },
+    "tracker": {
+      "title": "Rastreador Rápido de 30 Dias",
+      "streak": "Sequência atual:",
+      "streakDays": "{{count}} dias",
+      "last30": "Últimos 30 dias",
+      "legend": {
+        "goalMet": "Meta atingida (mais de 16 horas)",
+        "today": "Hoje",
+        "missed": "Dia perdido"
+      },
+      "today": "Hoje",
+      "dayLabel": "Dia {{val}}"
+    },
+    "recentFasts": {
+      "title": "Jejum recente",
+      "goalMet": "Gol com"
+    }
+  }
+}

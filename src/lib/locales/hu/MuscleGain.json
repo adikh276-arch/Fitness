@@ -1,0 +1,174 @@
+{
+  "nav": {
+    "back": "Vissza az irányítópultra"
+  },
+  "header": {
+    "title": "Izomnövekedési útmutató",
+    "subtitle": "Tudományos alapú megközelítés az izom- és erőépítéshez"
+  },
+  "tabs": {
+    "plan": "A növekedési terv",
+    "metrics": "Testmetriai napló",
+    "habits": "Hipertrófia szokásai"
+  },
+  "plan": {
+    "pillars": {
+      "caloric": {
+        "title": "Kalóriafelesleg",
+        "value": "TDEE + 250-500 kcal",
+        "desc": "A szervezetednek extra energiára van szüksége az új izomszövet építéséhez. Túl kevés energiára nem fogsz növekedni; túl sok energiára felesleges zsírt fogsz felszedni. Törekedj arra, hogy a teljes napi energiaszükségleted (TDEE) felett 250-500 kcal-val fogyassz."
+      },
+      "protein": {
+        "title": "Fehérjeszintézis",
+        "value": "1,8 g - 2,2 g/kg",
+        "desc": "A fehérje az izom építőköve. A kutatások azt mutatják, hogy testsúlykilogrammonként 1,8-2,2 g fehérje maximalizálja az izomfehérje-szintézist és -regenerálódást."
+      },
+      "overload": {
+        "title": "Progresszív túlterhelés",
+        "value": "Heti progresszió",
+        "desc": "Az izmok a növekvő igénybevételnek megfelelően fejlődnek. Törekedj arra, hogy minden héten növeld a súlyt, az ismétlések vagy a sorozatok számát. Kövesd nyomon a teljes mennyiséget (sorozatok × ismétlések × súly) a folyamatos fejlődés biztosítása érdekében."
+      }
+    },
+    "mealTiming": {
+      "title": "Étkezési időzítés az izomnövekedéshez",
+      "subtitle": "Míg a teljes napi bevitel a legfontosabb, a stratégiai időzítés optimalizálhatja a teljesítményt és a regenerálódást:",
+      "preWorkoutLong": {
+        "time": "2-3 órával előtte",
+        "title": "Edzés előtti",
+        "desc": "Kiegyensúlyozott étrend szénhidráttal és fehérjével"
+      },
+      "preWorkoutCarbs": {
+        "time": "30-60 perccel előtte",
+        "title": "Edzés előtti szénhidrátok",
+        "desc": "Gyors szénhidrátok az energiáért (banán, rizssütemények)"
+      },
+      "training": {
+        "time": "Alatt",
+        "title": "Edzés",
+        "desc": "Hidratáció + opcionális edzés közbeni szénhidrátok"
+      },
+      "postWorkout": {
+        "time": "2 órán belül",
+        "title": "Edzés utáni fehérje",
+        "desc": "30-40 g fehérje + szénhidrát a regenerálódáshoz"
+      },
+      "eveningProtein": {
+        "time": "Lefekvés előtt",
+        "title": "Esti fehérje",
+        "desc": "Kazein vagy lassan emésztődő fehérje"
+      }
+    },
+    "principles": {
+      "title": "A siker alapelvei",
+      "p1": {
+        "title": "A következetesség legyőzi a tökéletességet:",
+        "desc": "Egyetlen edzés vagy étkezés kihagyása nem fogja megölni az eredményeket, de az inkonzisztencia igen."
+      },
+      "p2": {
+        "title": "Az alvás anabolikus hatású:",
+        "desc": "Törekedj arra, hogy 7-9 órát mozogj éjszakánként az optimális regenerálódás és a növekedési hormon felszabadulása érdekében."
+      },
+      "p3": {
+        "title": "Kövesse nyomon a mennyiséget:",
+        "desc": "Amit mérnek, az javul – naplózd az emeléseidet a fokozatos túlterhelés biztosítása érdekében"
+      },
+      "p4": {
+        "title": "Türelemre van szükség:",
+        "desc": "A természetes izomnövekedés kezdőknél havi 0,5-1 kg, haladóknál lassabb."
+      }
+    }
+  },
+  "metrics": {
+    "strength": {
+      "totalVolume": "Teljes heti mennyiség",
+      "volumeTarget": "Célzott térfogat {{weight}}kg testtömeghez",
+      "kgLifted": "felemelt kg",
+      "goal": "{{goal}}kg-os célból",
+      "awayFromTarget": "{{gap}} kg-mal vagy távolabb a célzott testsúlyod munkakapacitásától",
+      "setTarget": "Állítsa be a célzott súlyát alább, hogy lássa a kívánt mennyiséget",
+      "statusLabels": {
+        "setTarget": "Célzott súly beállítása",
+        "building": "Épületalapozás",
+        "growth": "Növekedési zóna",
+        "hit": "Célkapacitás-elérés"
+      }
+    },
+    "form": {
+      "title": "Rönk testméretei",
+      "currentWeight": "Jelenlegi súly (kg)",
+      "targetWeight": "Célzott súly (kg) *",
+      "targetWeightHint": "Mennyiségi cél beállítása",
+      "chest": "Mellkas (hüvelyk)",
+      "chestHint": "Mérje meg a mellbimbó vonalánál",
+      "waist": "Derék (hüvelykben)",
+      "waistHint": "Köldökmagasságban",
+      "bicepR": "Jobb bicepsz (befelé)",
+      "bicepRHint": "Hajlított, legszélesebb rész",
+      "bicepL": "Bal bicepsz (hüvelykben)",
+      "bicepLHint": "Választható",
+      "thigh": "Comb (hüvelyk)",
+      "thighHint": "Legszélesebb rész",
+      "submit": "Rönk mérések",
+      "success": "A metrikák naplózása sikeresen megtörtént!"
+    },
+    "volume": {
+      "title": "Térfogatkalkulátor",
+      "exercise": "Gyakorlat",
+      "sets": "szettek",
+      "reps": "Ismétlések",
+      "weight": "Súly (kg)",
+      "totalVolume": "Teljes térfogat",
+      "remaining": "Hátralévő gól",
+      "submit": "Naplókötet",
+      "logged": "{{lift}} naplózott: {{volume}}kg össztérfogat!"
+    },
+    "chart": {
+      "title": "Haladásdiagram",
+      "weight": "Súly (kg)",
+      "chest": "Mellkas (hüvelykben)",
+      "bicep": "Bicepsz (befelé)"
+    },
+    "noData": "Még nincsenek rögzített mérések. Kezdje el nyomon követni a haladását!"
+  },
+  "habits": {
+    "title": "Napjaink hipertrófiás szokásai",
+    "subtitle": "Pipáld ki az egyes szokásokat, ahogy teljesíted őket",
+    "items": {
+      "surplus": {
+        "title": "Kalóriafelesleg teljes",
+        "desc": "Érd el a kalóriacélodat ma"
+      },
+      "protein": {
+        "title": "Fehérjecél teljesült",
+        "desc": "1,8-2,2 g testtömeg-kilogrammonként"
+      },
+      "creatine": {
+        "title": "Kreatin bevétele",
+        "desc": "Naponta 3-5 g a fokozott teljesítmény érdekében"
+      },
+      "sleep": {
+        "title": "Minőségi alvás",
+        "desc": "7-9 óra az optimális regenerálódásért"
+      },
+      "trained": {
+        "title": "Ma képzett",
+        "desc": "Befejezted az edzést"
+      }
+    },
+    "recovery": {
+      "title": "Felépülési állapot",
+      "good": "Optimalizált regenerálódás",
+      "goodDesc": "Nagyszerű munka az alvással és a fehérjével kapcsolatban! Az izmaid optimálisan regenerálódnak.",
+      "improve": "Fejlesztési lehetőség",
+      "improveDesc": "Koncentrálj az alvásra és a fehérjebeviteled célértékének elérésére a jobb regenerálódás érdekében."
+    },
+    "calendar": {
+      "title": "30 napos szokássorozat",
+      "legend": {
+        "perfect": "Tökéletes (5/5)",
+        "partial": "Részleges",
+        "none": "Befejezetlen"
+      }
+    }
+  }
+}

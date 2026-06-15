@@ -1,0 +1,53 @@
+{
+  "common": {
+    "next": "Kế tiếp",
+    "subtitle": "Theo dõi bữa ăn và cảm xúc của bạn.",
+    "title": "Nhật ký ăn uống"
+  },
+  "feelings": {
+    "description": "Hãy lắng nghe cơ thể mình — nó luôn có điều muốn nói với bạn!",
+    "placeholder": "Ví dụ: Tôi cảm thấy no sau bữa trưa nhưng hơi nặng bụng sau bữa tối...",
+    "title": "Bạn cảm thấy thế nào sau khi ăn?"
+  },
+  "history": {
+    "empty": "Chưa có bài viết nào. Hãy hoàn thành nhật ký ăn uống đầu tiên của bạn để xem bài viết tại đây!",
+    "subtitle": "Các bài viết trước đây của bạn"
+  },
+  "intro": {
+    "description": "Việc theo dõi những gì bạn ăn giúp bạn hiểu rõ hơn về cơ thể mình — điều gì cung cấp năng lượng cho bạn, điều gì khiến bạn cảm thấy nặng nề, và bạn có thể cải thiện ở những điểm nào một cách đơn giản. Đây là một không gian không phán xét. Chỉ cần trung thực và tận hưởng quá trình này!",
+    "startButton": "Hãy bắt đầu →",
+    "subtitle": "Những bước nhỏ sẽ dẫn đến những thay đổi lớn về sức khỏe!",
+    "title": "Chào mừng bạn đến với Nhật ký Ăn uống của bạn!"
+  },
+  "meals": {
+    "breakfast": {
+      "label": "Bữa sáng",
+      "placeholder": "Bạn đã ăn gì vậy?"
+    },
+    "description": "Hãy ghi lại từng bữa ăn hoặc bữa ăn nhẹ bên dưới. Ngay cả một ghi chú sơ lược cũng được tính!",
+    "dinner": {
+      "label": "Bữa tối",
+      "placeholder": "Bạn đã ăn gì vậy?"
+    },
+    "lunch": {
+      "label": "Bữa trưa",
+      "placeholder": "Bạn đã ăn gì vậy?"
+    },
+    "snacks": {
+      "label": "Đồ ăn nhẹ",
+      "placeholder": "Còn lựa chọn nào khác ở giữa không?"
+    },
+    "title": "Hôm nay bạn đã ăn gì?"
+  },
+  "messages": {
+    "entryDeleted": "Mục đã bị xóa",
+    "entrySaved": "Mục nhập đã được lưu!"
+  },
+  "reflection": {
+    "encouragement": "Mỗi lần bạn viết bài sẽ đưa bạn tiến gần hơn một bước đến một cuộc sống khỏe mạnh và hạnh phúc hơn. Hãy tiếp tục duy trì thói quen này — sự kiên trì mới là bí quyết thực sự!",
+    "placeholder": "Hãy viết suy nghĩ của bạn ở đây...",
+    "question": "Ngày mai bạn muốn ăn gì ngon hơn?",
+    "saveButton": "Lưu mục nhập",
+    "title": "Tuyệt vời! Bạn đã hoàn thành nhật ký hôm nay rất tốt!"
+  }
+}

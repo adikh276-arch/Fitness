@@ -1,0 +1,80 @@
+{
+  "shell": {
+    "title": "自我照顧資源",
+    "subtitle": "探索健康之旅所需的工具和指導"
+  },
+  "sections": {
+    "tools": "工具",
+    "guides": "營養與飲食指南",
+    "workouts": "健身區",
+    "learning": "特色學習"
+  },
+  "tools": {
+    "macro": {
+      "label": "營養計算器",
+      "desc": "計算宏"
+    },
+    "calories": {
+      "label": "卡路里燃燒器",
+      "desc": "日誌活動"
+    },
+    "fasting": {
+      "label": "禁食記錄器",
+      "desc": "追蹤禁食"
+    },
+    "bmi": {
+      "label": "BMI計算器",
+      "desc": "身體指標"
+    }
+  },
+  "guides": {
+    "weightLoss": "減肥",
+    "diabetes": "糖尿病飲食",
+    "muscle": "增肌",
+    "gut": "腸道健康",
+    "keto": "生酮飲食基礎知識",
+    "heart": "心臟健康",
+    "fasting": "間歇性斷食",
+    "vegan": "純素營養"
+  },
+  "workouts": {
+    "yoga": "瑜珈",
+    "hiit": "高強度間歇訓練",
+    "strength": "肌力訓練",
+    "posture": "姿勢矯正",
+    "home": "居家運動",
+    "flexibility": "靈活性"
+  },
+  "learning": {
+    "macros": {
+      "title": "了解宏量營養素",
+      "desc": "學習蛋白質、碳水化合物和脂肪的基本知識"
+    },
+    "others": {
+      "title": "其他的",
+      "desc": "探索更多互動式健康工具"
+    }
+  },
+  "others": {
+    "title": "其他資源",
+    "subtitle": "探索更多助力您健康之旅的工具",
+    "tools": {
+      "foodDiary": {
+        "label": "食物日記",
+        "desc": "記錄你的膳食"
+      },
+      "planPlate": {
+        "label": "規劃你的餐盤",
+        "desc": "均衡飲食"
+      },
+      "sugarEase": {
+        "label": "每日糖分緩解",
+        "desc": "控製糖分攝入"
+      },
+      "recipeLog": {
+        "label": "健康食譜記錄",
+        "desc": "儲存你的食譜"
+      }
+    }
+  }
+}

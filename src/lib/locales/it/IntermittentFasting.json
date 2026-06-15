@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "back": "Torna alla dashboard"
+  },
+  "header": {
+    "title": "Guida al digiuno intermittente",
+    "subtitle": "Padroneggia la scienza dell'alimentazione a tempo limitato"
+  },
+  "tabs": {
+    "lab": "Il laboratorio del digiuno",
+    "log": "Registro degli eventi positivi"
+  },
+  "lab": {
+    "timeline": {
+      "title": "La linea temporale biologica",
+      "stages": [
+        {
+          "hours": "0-4 ore",
+          "title": "Fase digestiva (stato anabolico)",
+          "description": "Il tuo corpo sta digerendo il cibo e immagazzinando energia. La glicemia aumenta man mano che i nutrienti vengono assorbiti."
+        },
+        {
+          "hours": "4-12 ore",
+          "title": "Inizia la combustione dei grassi (stato catabolico)",
+          "description": "I livelli di insulina si abbassano e il corpo inizia a scomporre il grasso accumulato per produrre energia."
+        },
+        {
+          "hours": "12-18 ore",
+          "title": "Pulizia cellulare (autofagia)",
+          "description": "Il tuo corpo inizia a rimuovere le cellule danneggiate e a riciclare le vecchie proteine, come in una sorta di pulizia di primavera interna."
+        },
+        {
+          "hours": "18+ ore",
+          "title": "Picco di combustione dei grassi (chetosi profonda)",
+          "description": "Il tuo corpo si sta alimentando esclusivamente con i grassi. L'ormone della crescita aumenta e la combustione dei grassi raggiunge il suo picco."
+        }
+      ]
+    },
+    "breaksFast": {
+      "title": "Cosa interrompe il digiuno?",
+      "safe": "Sicuro durante il digiuno:",
+      "safeList": "Acqua, caffè nero, tè semplice, acqua frizzante, sale/elettroliti",
+      "breaks": "Interrompe il digiuno:",
+      "breaksList": "Qualsiasi cosa contenga calorie: latte, zucchero, panna, frullati proteici, BCAA, bibite dietetiche con dolcificanti artificiali"
+    },
+    "tips": {
+      "title": "Consigli professionali per il successo",
+      "tip1": {
+        "title": "Inizia gradualmente",
+        "desc": "Inizia con 12:12 e aumenta gradualmente la durata del digiuno."
+      },
+      "tip2": {
+        "title": "Mantieniti idratato",
+        "desc": "Bevi molta acqua durante il digiuno"
+      },
+      "tip3": {
+        "title": "Ascolta il tuo corpo.",
+        "desc": "Non ti senti bene? Va bene interrompere il digiuno"
+      },
+      "tip4": {
+        "title": "La qualità è importante",
+        "desc": "Concentrati su alimenti ricchi di nutrienti durante la finestra temporale in cui mangi."
+      }
+    }
+  },
+  "log": {
+    "form": {
+      "title": "Registra il digiuno di oggi",
+      "lastMeal": "Ultimo pasto (ieri):",
+      "firstMeal": "Primo pasto (oggi):",
+      "duration": "Durata totale del digiuno",
+      "goalAchieved": "Obiettivo raggiunto! Hai completato un digiuno di oltre 16 ore!",
+      "submit": "Registra questo velocemente",
+      "dateLabel": "Data:"
+    },
+    "tracker": {
+      "title": "Percorso accelerato di 30 giorni",
+      "streak": "Serie attuale:",
+      "streakDays": "{{count}} giorni",
+      "last30": "Ultimi 30 giorni",
+      "legend": {
+        "goalMet": "Obiettivo raggiunto (oltre 16 ore)",
+        "today": "Oggi",
+        "missed": "Giorno di assenza"
+      },
+      "today": "Oggi",
+      "dayLabel": "Giorno {{val}}"
+    },
+    "recentFasts": {
+      "title": "Digiuni recenti",
+      "goalMet": "Obiettivo con"
+    }
+  }
+}

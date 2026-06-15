@@ -1,0 +1,229 @@
+{
+  "header": {
+    "title": "Gut Health Guide",
+    "subtitle": "Track digestive health and build a thriving microbiome",
+    "back": "Back to Dashboard"
+  },
+  "tabs": {
+    "log": "Daily Gut Log",
+    "map": "Microbiome Map",
+    "habits": "Fiber & Ferment"
+  },
+  "bristol": {
+    "title": "Bristol Stool Scale",
+    "info": "The gold standard for tracking digestive transit time and gut health",
+    "types": {
+      "type1": { "label": "Type 1", "desc": "Severe constipation - Separate hard lumps" },
+      "type2": { "label": "Type 2", "desc": "Mild constipation - Lumpy and sausage-like" },
+      "type3": { "label": "Type 3", "desc": "Normal - Sausage with cracks" },
+      "type4": { "label": "Type 4", "desc": "Ideal - Smooth, soft sausage" },
+      "type5": { "label": "Type 5", "desc": "Lacking fiber - Soft blobs" },
+      "type6": { "label": "Type 6", "desc": "Mild diarrhea - Mushy" },
+      "type7": { "label": "Type 7", "desc": "Severe diarrhea - Liquid" }
+    },
+    "alert": "Please select a Bristol Stool Scale type"
+  },
+  "symptoms": {
+    "title": "Symptoms Today",
+    "items": {
+      "Bloating": "Bloating",
+      "Gas": "Gas",
+      "Cramping": "Cramping",
+      "Reflux": "Reflux",
+      "Energy Dip": "Energy Dip"
+    }
+  },
+  "triggers": {
+    "title": "Suspected Trigger",
+    "items": {
+      "Dairy": "Dairy",
+      "Gluten": "Gluten",
+      "Coffee": "Coffee",
+      "Spicy Food": "Spicy Food",
+      "Alcohol": "Alcohol",
+      "Stress": "Stress",
+      "Other": "Other"
+    }
+  },
+  "log": {
+    "submit": "Log Entry",
+    "success": "Gut log saved successfully!",
+    "recent": {
+      "title": "Recent Logs",
+      "trigger": "Trigger:"
+    }
+  },
+  "microbiome": {
+    "prebiotics": {
+      "title": "Prebiotics",
+      "subtitle": "The Food for Your Gut Bacteria",
+      "desc": "Prebiotics are fiber-rich foods that feed the beneficial bacteria in your gut, helping them thrive and multiply."
+    },
+    "probiotics": {
+      "title": "Probiotics",
+      "subtitle": "The Live Beneficial Bacteria",
+      "desc": "Probiotics are live microorganisms found in fermented foods that directly add beneficial bacteria to your gut."
+    }
+  },
+  "diversity": {
+    "title": "The 30 Plants a Week Challenge",
+    "subtitle": "Research shows eating 30+ different plants per week supports optimal gut diversity",
+    "score_label": "/ 30 plants",
+    "weekly_score": "Weekly Diversity Score",
+    "feedback": {
+      "excellent": "🎉 Excellent! You're hitting the 30 plant goal",
+      "great": "👍 Great diversity! Keep adding variety",
+      "good": "📈 Good start! Aim for more plant variety",
+      "start": "🌱 Start adding diverse plants to boost gut health"
+    }
+  },
+  "habits": {
+    "title": "The Happy Gut Checklist",
+    "subtitle": "Complete these daily habits for optimal digestive health",
+    "items": {
+      "fiber": {
+        "label": "25g+ Fiber Consumed",
+        "desc": "From whole grains, fruits, and vegetables"
+      },
+      "fermented": {
+        "label": "Included 1 Fermented Food",
+        "desc": "Kimchi, yogurt, kefir, or sauerkraut"
+      },
+      "mindful": {
+        "label": "Mindful Eating (20+ Chews)",
+        "desc": "Proper chewing aids digestion"
+      },
+      "fast": {
+        "label": "12-Hour Overnight Gut Rest",
+        "desc": "Fasting window allows gut repair"
+      }
+    }
+  },
+  "tracker": {
+    "title": "30-Day Habit Tracker",
+    "tooltip": "Day {{dayNum}}: {{count}}/4 habits",
+    "legend": {
+      "none": "None",
+      "one": "1",
+      "two": "2",
+      "three": "3",
+      "four": "3-4",
+      "all": "All 4"
+    }
+  },
+  "essentials": {
+    "title": "Gut Health Essentials",
+    "items": [
+      "<strong>Fiber is fuel:</strong> Your gut bacteria ferment fiber into short-chain fatty acids that reduce inflammation",
+      "<strong>Diversity matters most:</strong> 30+ different plant types weekly creates a resilient microbiome",
+      "<strong>Overnight fasting:</strong> 12+ hours between dinner and breakfast allows gut barrier repair",
+      "<strong>Chew thoroughly:</strong> Digestion begins in the mouth - proper chewing reduces bloating and improves nutrient absorption"
+    ]
+  },
+  "plants": {
+    "Spinach": "Spinach",
+    "Kale": "Kale",
+    "Arugula": "Arugula",
+    "Romaine": "Romaine",
+    "Broccoli": "Broccoli",
+    "Cauliflower": "Cauliflower",
+    "Brussels Sprouts": "Brussels Sprouts",
+    "Cabbage": "Cabbage",
+    "Carrots": "Carrots",
+    "Sweet Potatoes": "Sweet Potatoes",
+    "Beets": "Beets",
+    "Radishes": "Radishes",
+    "Chickpeas": "Chickpeas",
+    "Lentils": "Lentils",
+    "Black Beans": "Black Beans",
+    "Kidney Beans": "Kidney Beans",
+    "Oats": "Oats",
+    "Brown Rice": "Brown Rice",
+    "Quinoa": "Quinoa",
+    "Barley": "Barley",
+    "Almonds": "Almonds",
+    "Walnuts": "Walnuts",
+    "Pistachios": "Pistachios",
+    "Cashews": "Cashews",
+    "Chia": "Chia",
+    "Flax": "Flax",
+    "Pumpkin Seeds": "Pumpkin Seeds",
+    "Sunflower Seeds": "Sunflower Seeds",
+    "Blueberries": "Blueberries",
+    "Strawberries": "Strawberries",
+    "Raspberries": "Raspberries",
+    "Blackberries": "Blackberries",
+    "Oranges": "Oranges",
+    "Lemons": "Lemons",
+    "Limes": "Limes",
+    "Grapefruit": "Grapefruit",
+    "Bananas": "Bananas",
+    "Pineapple": "Pineapple",
+    "Mango": "Mango",
+    "Papaya": "Papaya",
+    "Peaches": "Peaches",
+    "Plums": "Plums",
+    "Cherries": "Cherries",
+    "Apricots": "Apricots",
+    "Basil": "Basil",
+    "Cilantro": "Cilantro",
+    "Mint": "Mint",
+    "Parsley": "Parsley",
+    "Rosemary": "Rosemary",
+    "Turmeric": "Turmeric",
+    "Ginger": "Ginger",
+    "Cinnamon": "Cinnamon",
+    "Cumin": "Cumin",
+    "Paprika": "Paprika",
+    "Kimchi": "Kimchi",
+    "Sauerkraut": "Sauerkraut",
+    "Miso": "Miso",
+    "Tempeh": "Tempeh",
+    "Button Mushrooms": "Button Mushrooms",
+    "Shiitake": "Shiitake",
+    "Portobello": "Portobello",
+    "Oyster Mushrooms": "Oyster Mushrooms",
+    "Pumpkin": "Pumpkin",
+    "Butternut Squash": "Butternut Squash",
+    "Zucchini": "Zucchini",
+    "Acorn Squash": "Acorn Squash",
+    "Bell Peppers": "Bell Peppers",
+    "Jalapeños": "Jalapeños",
+    "Chili": "Chili",
+    "Cherry Tomatoes": "Cherry Tomatoes",
+    "Roma Tomatoes": "Roma Tomatoes",
+    "Beefsteak Tomatoes": "Beefsteak Tomatoes",
+    "Garlic": "Garlic",
+    "Onions": "Onions",
+    "Leeks": "Leeks",
+    "Shallots": "Shallots",
+    "Alfalfa Sprouts": "Alfalfa Sprouts",
+    "Broccoli Sprouts": "Broccoli Sprouts",
+    "Mung Bean Sprouts": "Mung Bean Sprouts",
+    "Nori": "Nori",
+    "Kelp": "Kelp",
+    "Wakame": "Wakame",
+    "Buckwheat": "Buckwheat",
+    "Farro": "Farro",
+    "Amaranth": "Amaranth",
+    "Millet": "Millet",
+    "Watermelon": "Watermelon",
+    "Cantaloupe": "Cantaloupe",
+    "Honeydew": "Honeydew",
+    "Apples": "Apples",
+    "Pears": "Pears",
+    "Avocado": "Avocado",
+    "Coconut": "Coconut",
+    "Coconut Milk": "Coconut Milk",
+    "Coconut Water": "Coconut Water",
+    "Olives": "Olives",
+    "Dark Chocolate": "Dark Chocolate",
+    "Cacao Nibs": "Cacao Nibs",
+    "Cocoa Powder": "Cocoa Powder",
+    "Green Tea": "Green Tea",
+    "Black Tea": "Black Tea",
+    "Chamomile": "Chamomile",
+    "Peppermint Tea": "Peppermint Tea",
+    "Coffee": "Coffee"
+  }
+}

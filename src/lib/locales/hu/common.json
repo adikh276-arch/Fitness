@@ -1,0 +1,80 @@
+{
+  "shell": {
+    "title": "Öngondoskodási források",
+    "subtitle": "Fedezze fel az eszközöket és útmutatásokat a wellness utazásához"
+  },
+  "sections": {
+    "tools": "Eszközök",
+    "guides": "Táplálkozási és étrendi útmutatók",
+    "workouts": "Edzésterületek",
+    "learning": "Kiemelt tanulási lehetőségek"
+  },
+  "tools": {
+    "macro": {
+      "label": "Tápanyagkalkulátor",
+      "desc": "Makrók kiszámítása"
+    },
+    "calories": {
+      "label": "Kalóriaégető",
+      "desc": "Tevékenységek naplózása"
+    },
+    "fasting": {
+      "label": "Böjtölő naplózó",
+      "desc": "Pályaböjt"
+    },
+    "bmi": {
+      "label": "BMI kalkulátor",
+      "desc": "Testméretek"
+    }
+  },
+  "guides": {
+    "weightLoss": "Fogyás",
+    "diabetes": "Cukorbetegség diéta",
+    "muscle": "Izomnövekedés",
+    "gut": "Bélrendszer egészsége",
+    "keto": "Keto alapjai",
+    "heart": "Szív egészség",
+    "fasting": "Szakaszos böjtölés",
+    "vegan": "Vegán táplálkozás"
+  },
+  "workouts": {
+    "yoga": "Jóga",
+    "hiit": "HIIT",
+    "strength": "Erőedzés",
+    "posture": "Testtartáskorrekció",
+    "home": "Otthoni edzések",
+    "flexibility": "Rugalmasság"
+  },
+  "learning": {
+    "macros": {
+      "title": "A makrotápanyagok megértése",
+      "desc": "Ismerd meg a fehérjék, szénhidrátok és zsírok alapjait"
+    },
+    "others": {
+      "title": "Mások",
+      "desc": "Fedezzen fel további interaktív egészségügyi eszközöket"
+    }
+  },
+  "others": {
+    "title": "Egyéb források",
+    "subtitle": "Fedezzen fel további eszközöket az egészségéhez",
+    "tools": {
+      "foodDiary": {
+        "label": "Élelmiszernapló",
+        "desc": "Kövesse nyomon az étkezéseit"
+      },
+      "planPlate": {
+        "label": "Tervezze meg a tányérját",
+        "desc": "Egyensúlyozd az étkezéseidet"
+      },
+      "sugarEase": {
+        "label": "Napi cukorkönnyítés",
+        "desc": "A cukorbevitel kezelése"
+      },
+      "recipeLog": {
+        "label": "Egészséges receptnapló",
+        "desc": "Mentsd el a receptjeidet"
+      }
+    }
+  }
+}

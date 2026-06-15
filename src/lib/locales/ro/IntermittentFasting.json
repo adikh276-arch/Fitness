@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "back": "Înapoi la Tabloul de bord"
+  },
+  "header": {
+    "title": "Ghid pentru postul intermitent",
+    "subtitle": "Stăpânește știința alimentației cu restricții de timp"
+  },
+  "tabs": {
+    "lab": "Laboratorul de post",
+    "log": "Jurnal de succes"
+  },
+  "lab": {
+    "timeline": {
+      "title": "Cronologia biologică",
+      "stages": [
+        {
+          "hours": "0-4 ore",
+          "title": "Faza de digestie (starea anabolică)",
+          "description": "Corpul tău digeră alimentele și stochează energie. Glicemia crește pe măsură ce nutrienții sunt absorbiți."
+        },
+        {
+          "hours": "4-12 ore",
+          "title": "Începe arderea grăsimilor (stare catabolică)",
+          "description": "Nivelurile de insulină scad și corpul începe să descompună grăsimile stocate pentru energie."
+        },
+        {
+          "hours": "12-18 ore",
+          "title": "Curățare celulară (autofagie)",
+          "description": "Corpul tău începe să elimine celulele deteriorate și să recicleze proteinele vechi - ca o curățenie internă de primăvară."
+        },
+        {
+          "hours": "18+ ore",
+          "title": "Ardere maximă a grăsimilor (cetoză profundă)",
+          "description": "Corpul tău funcționează pe deplin pe grăsime. Hormonul de creștere crește, iar arderea grăsimilor atinge apogeul."
+        }
+      ]
+    },
+    "breaksFast": {
+      "title": "Ce întrerupe postul?",
+      "safe": "Sigur în timpul postului:",
+      "safeList": "Apă, Cafea neagră, Ceai simplu, Apă minerală carbogazoasă, Sare/Electroliți",
+      "breaks": "Îți întrerupe postul:",
+      "breaksList": "Orice conține calorii - lapte, zahăr, smântână, shake-uri proteice, BCAA-uri, sucuri dietetice cu îndulcitori artificiali"
+    },
+    "tips": {
+      "title": "Sfaturi profesionale pentru succes",
+      "tip1": {
+        "title": "Începeți treptat",
+        "desc": "Începeți cu 12:12 și creșteți până la posturi mai lungi"
+      },
+      "tip2": {
+        "title": "Rămâi hidratat",
+        "desc": "Beți multă apă pe parcursul postului"
+      },
+      "tip3": {
+        "title": "Ascultă-ți corpul",
+        "desc": "Te simți rău? E în regulă să întrerupi postul."
+      },
+      "tip4": {
+        "title": "Calitatea contează",
+        "desc": "Concentrați-vă pe alimente bogate în nutrienți în timpul perioadei de alimentație"
+      }
+    }
+  },
+  "log": {
+    "form": {
+      "title": "Înregistrați postul de astăzi",
+      "lastMeal": "Ultima oră de masă (ieri):",
+      "firstMeal": "Prima masă (astăzi):",
+      "duration": "Durata totală a postului",
+      "goalAchieved": "Obiectiv atins! Ai terminat un post de peste 16 ore!",
+      "submit": "Înregistrează asta rapid"
+    },
+    "tracker": {
+      "title": "Urmărire rapidă de 30 de zile",
+      "streak": "Seria curentă:",
+      "streakDays": "{{count}} zile",
+      "last30": "Ultimele 30 de zile",
+      "legend": {
+        "goalMet": "Obiectiv atins (16+ ore)",
+        "today": "Astăzi",
+        "missed": "Ziua ratată"
+      }
+    },
+    "recentFasts": {
+      "title": "Posturi recente",
+      "goalMet": "Gol cu"
+    }
+  }
+}

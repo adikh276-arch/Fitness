@@ -1,0 +1,53 @@
+{
+  "common": {
+    "next": "Próximo",
+    "subtitle": "Registra tus comidas y sensaciones.",
+    "title": "Diario de alimentos"
+  },
+  "feelings": {
+    "description": "Escucha a tu cuerpo: ¡siempre tiene algo que decirte! 😌",
+    "placeholder": "Por ejemplo, me sentí satisfecho después del almuerzo, pero un poco pesado después de la cena...",
+    "title": "¿Cómo te sentiste después de comer?"
+  },
+  "history": {
+    "empty": "Aún no hay entradas. ¡Completa tu primer diario de alimentación para verlo aquí!",
+    "subtitle": "Tus entradas anteriores"
+  },
+  "intro": {
+    "description": "Llevar un registro de lo que comes te ayuda a comprender mejor tu cuerpo: qué te da energía, qué te hace sentir pesado y dónde puedes hacer pequeños cambios. Aquí no hay lugar para los juicios. ¡Sé sincero y disfruta del proceso!",
+    "startButton": "Comencemos →",
+    "subtitle": "¡Pequeños pasos para grandes cambios en la salud!",
+    "title": "Bienvenido a tu diario de comida"
+  },
+  "meals": {
+    "breakfast": {
+      "label": "Desayuno",
+      "placeholder": "¿Qué comiste?"
+    },
+    "description": "Anota cada comida o merienda a continuación. ¡Incluso una nota breve cuenta! 🍽️",
+    "dinner": {
+      "label": "Cena",
+      "placeholder": "¿Qué comiste?"
+    },
+    "lunch": {
+      "label": "Almuerzo",
+      "placeholder": "¿Qué comiste?"
+    },
+    "snacks": {
+      "label": "Aperitivos",
+      "placeholder": "¿Hay algo intermedio?"
+    },
+    "title": "¿Qué comiste hoy?"
+  },
+  "messages": {
+    "entryDeleted": "Entrada eliminada",
+    "entrySaved": "¡Entrada guardada! 🌱"
+  },
+  "reflection": {
+    "encouragement": "Cada entrada que hagas te acerca un paso más a una versión más sana y feliz de ti mismo/a. ¡Sigue así! ¡La constancia es el verdadero secreto! 💪",
+    "placeholder": "Escribe aquí tus pensamientos...",
+    "question": "¿Qué es algo que te gustaría comer mejor mañana?",
+    "saveButton": "Guardar entrada",
+    "title": "¡Buen trabajo al completar el registro de hoy!"
+  }
+}

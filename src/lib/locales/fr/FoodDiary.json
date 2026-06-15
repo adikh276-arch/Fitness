@@ -1,0 +1,53 @@
+{
+  "common": {
+    "next": "Suivant",
+    "subtitle": "Notez vos repas et vos sensations.",
+    "title": "Journal alimentaire"
+  },
+  "feelings": {
+    "description": "Écoutez votre corps — il a toujours quelque chose à vous dire !",
+    "placeholder": "Par exemple, je me sentais rassasié après le déjeuner, mais un peu lourd après le dîner...",
+    "title": "Comment vous êtes-vous senti après avoir mangé ?"
+  },
+  "history": {
+    "empty": "Aucune entrée pour le moment. Complétez votre premier journal alimentaire pour le voir ici !",
+    "subtitle": "Vos entrées précédentes"
+  },
+  "intro": {
+    "description": "Noter ce que vous mangez vous aide à mieux comprendre votre corps : ce qui vous donne de l’énergie, ce qui vous alourdit et comment améliorer votre alimentation. Ici, pas de jugement. Soyez simplement honnête et appréciez le processus !",
+    "startButton": "Commençons →",
+    "subtitle": "De petits pas vers de grands changements pour votre santé !",
+    "title": "Bienvenue dans votre journal alimentaire"
+  },
+  "meals": {
+    "breakfast": {
+      "label": "Petit-déjeuner",
+      "placeholder": "Qu'est-ce que vous aviez ?"
+    },
+    "description": "Notez chaque repas ou collation ci-dessous. Même une simple note suffit !",
+    "dinner": {
+      "label": "Dîner",
+      "placeholder": "Qu'est-ce que vous aviez ?"
+    },
+    "lunch": {
+      "label": "Déjeuner",
+      "placeholder": "Qu'est-ce que vous aviez ?"
+    },
+    "snacks": {
+      "label": "En-cas",
+      "placeholder": "Quelque chose entre les deux ?"
+    },
+    "title": "Qu'as-tu mangé aujourd'hui ?"
+  },
+  "messages": {
+    "entryDeleted": "Entrée supprimée",
+    "entrySaved": "Entrée enregistrée !"
+  },
+  "reflection": {
+    "encouragement": "Chaque inscription vous rapproche d'une meilleure version de vous-même, plus saine et plus heureuse. Persévérez : la régularité est la clé !",
+    "placeholder": "Écrivez vos pensées ici...",
+    "question": "Qu'est-ce que vous aimeriez mieux manger demain ?",
+    "saveButton": "Enregistrer l'entrée",
+    "title": "Excellent travail pour avoir complété le journal d'aujourd'hui !"
+  }
+}

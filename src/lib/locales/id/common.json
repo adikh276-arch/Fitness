@@ -1,0 +1,80 @@
+{
+  "shell": {
+    "title": "Sumber Daya Perawatan Diri",
+    "subtitle": "Jelajahi berbagai alat dan panduan untuk perjalanan kesehatan Anda."
+  },
+  "sections": {
+    "tools": "Peralatan",
+    "guides": "Panduan Nutrisi & Diet",
+    "workouts": "Area Latihan",
+    "learning": "Pembelajaran Unggulan"
+  },
+  "tools": {
+    "macro": {
+      "label": "Kalkulator Nutrisi",
+      "desc": "Hitung makro"
+    },
+    "calories": {
+      "label": "Pembakar Kalori",
+      "desc": "Catat aktivitas"
+    },
+    "fasting": {
+      "label": "Pencatat Puasa",
+      "desc": "Lacak puasa"
+    },
+    "bmi": {
+      "label": "Kalkulator BMI",
+      "desc": "Metrik tubuh"
+    }
+  },
+  "guides": {
+    "weightLoss": "Penurunan Berat Badan",
+    "diabetes": "Diet untuk Penderita Diabetes",
+    "muscle": "Peningkatan Massa Otot",
+    "gut": "Kesehatan Usus",
+    "keto": "Dasar-dasar Keto",
+    "heart": "Kesehatan Jantung",
+    "fasting": "Puasa Intermiten",
+    "vegan": "Nutrisi Vegan"
+  },
+  "workouts": {
+    "yoga": "Yoga",
+    "hiit": "HIIT",
+    "strength": "Latihan Kekuatan",
+    "posture": "Koreksi Postur",
+    "home": "Latihan di Rumah",
+    "flexibility": "Fleksibilitas"
+  },
+  "learning": {
+    "macros": {
+      "title": "Memahami Makronutrien",
+      "desc": "Pelajari dasar-dasar protein, karbohidrat, dan lemak."
+    },
+    "others": {
+      "title": "Yang lain",
+      "desc": "Jelajahi lebih banyak alat kesehatan interaktif."
+    }
+  },
+  "others": {
+    "title": "Sumber Daya Lainnya",
+    "subtitle": "Jelajahi lebih banyak alat untuk perjalanan kesehatan Anda.",
+    "tools": {
+      "foodDiary": {
+        "label": "Catatan Harian Makanan",
+        "desc": "Catat makanan Anda"
+      },
+      "planPlate": {
+        "label": "Rencanakan Piring Anda",
+        "desc": "Seimbangkan makanan Anda"
+      },
+      "sugarEase": {
+        "label": "Daily Sugar Ease",
+        "desc": "Kelola asupan gula Anda."
+      },
+      "recipeLog": {
+        "label": "Catatan Resep Sehat",
+        "desc": "Simpan resep Anda"
+      }
+    }
+  }
+}

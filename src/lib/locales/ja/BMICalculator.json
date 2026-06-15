@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "back": "ダッシュボードに戻る"
+  },
+  "header": {
+    "title": "スマートBMIと身体状況",
+    "subtitle": "臨床的な精度で身体の指標を追跡"
+  },
+  "streak": {
+    "title": "健康的な範囲を維持しました！",
+    "subtitle": "健康ゾーンでの連続測定値が{{count}}件🎉"
+  },
+  "tabs": {
+    "calculator": "BMI計算機",
+    "context": "BMIを超えて",
+    "history": "トレンド履歴"
+  },
+  "calculator": {
+    "title": "BMIを計算しましょう",
+    "inputs": {
+      "height": "身長",
+      "weight": "重さ",
+      "feet": "足",
+      "inches": "インチ",
+      "placeholders": {
+        "heightCm": "例：170",
+        "heightFt": "足",
+        "heightIn": "インチ",
+        "weightKg": "例：70",
+        "weightLbs": "例：154"
+      }
+    },
+    "results": {
+      "yourBMI": "あなたのBMI",
+      "placeholder": "あなたの測定値を入力してBMIを確認してください",
+      "submit": "プロフィールに保存",
+      "success": "✓ 保存に成功しました！",
+      "categories": {
+        "underweight": "低体重",
+        "healthy": "健康的な体重",
+        "normal": "普通",
+        "overweight": "太りすぎ",
+        "obese": "肥満",
+        "enterData": "データを入力してください"
+      }
+    },
+    "tip": "定期的な運動とバランスの取れた食事を日々の生活に取り入れることを検討してみてください。",
+    "disclaimer": {
+      "title": "医療に関する免責事項",
+      "text": "BMIは一般的なスクリーニングツールであり、筋肉量と脂肪量を区別するものではありません。個別の医学的アドバイスについては、医療専門家にご相談ください。"
+    }
+  },
+  "beyond": {
+    "title": "ウエスト身長比（WHtR）",
+    "why": {
+      "title": "なぜこれが重要なのか",
+      "desc": "ウエスト周囲径を身長の半分以下に保つことで、心血管疾患のリスクを軽減できます。WHtRは、代謝性疾患の予測において、BMIよりも正確です。",
+      "target": "目標：最適な健康状態のためには比率が0.5未満であること"
+    },
+    "inputs": {
+      "waist": "ウエスト周囲",
+      "waistHint": "ウエストの一番細い部分（通常はおへそのすぐ上）を測ってください。",
+      "placeholders": {
+        "waistCm": "例：80",
+        "waistIn": "例：31"
+      }
+    },
+    "results": {
+      "healthy": "健康的な体型",
+      "elevated": "リスク上昇",
+      "placeholder": "身長とウエストを入力して、あなたの体型比率を確認してください。",
+      "waistMeasurementPlaceholder": "ウエストサイズを入力してください",
+      "label": "ウエスト身長比",
+      "submit": "プロフィールに保存（BMI + WHtR）"
+    },
+    "comparison": {
+      "title": "BMIとWHtRの違い：その違い",
+      "bmi": {
+        "title": "BMI",
+        "desc": "一般的な体重区分であり、筋肉量や脂肪分布は考慮されていません。"
+      },
+      "whtr": {
+        "title": "WHtR",
+        "desc": "中心性肥満を測定し、心血管疾患や糖尿病のより良い予測因子とする。"
+      }
+    }
+  },
+  "history": {
+    "title": "最近の測定結果",
+    "noHistory": "履歴はまだありません",
+    "noHistoryDesc": "BMIや体型に関する指標を記録し始め、時間の経過に伴う変化の傾向を確認しましょう。",
+    "stats": {
+      "title": "あなたの統計情報",
+      "total": "総レコード数",
+      "latest": "最新のBMI",
+      "healthyCount": "健康なカウント",
+      "bestStreak": "ベストストリーク"
+    }
+  }
+}

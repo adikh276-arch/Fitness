@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "back": "Zurück zum Dashboard"
+  },
+  "header": {
+    "title": "Diabetes-Diät und -Management",
+    "subtitle": "Blutzuckerwerte überwachen, Ernährungspläne für Diabetiker erstellen und glykämische Werte nachschlagen"
+  },
+  "alert": {
+    "title": "Achtung, niedriger Blutzucker!",
+    "desc": "Ihr Messwert liegt unter 70 mg/dL. Handeln Sie sofort:",
+    "actions": {
+      "carbs": "Verzehren Sie 15 g schnell wirkende Kohlenhydrate (4 Glukosetabletten, 1/2 Tasse Saft oder 1 EL Honig).",
+      "wait": "Warten Sie 15 Minuten und testen Sie erneut.",
+      "repeat": "Falls der Wert immer noch niedrig ist, wiederholen",
+      "contact": "Wenden Sie sich an Ihren Arzt, wenn die Symptome anhalten."
+    }
+  },
+  "tabs": {
+    "plate": "Die Diabetikerplatte",
+    "log": "Blutzuckerprotokoll",
+    "gi": "GI-Lookup-Tool"
+  },
+  "log": {
+    "title": "Glukosewerte protokollieren",
+    "unit": "Einheit",
+    "value": "Glukosewert ({{Einheit}})",
+    "valuePlaceholder": "z.B. 120",
+    "valuePlaceholderMmol": "z. B. 6,7",
+    "timing": "Timing",
+    "mealContext": "Was hast du gegessen? (Optional)",
+    "mealContextPlaceholder": "z.B.: Ich aß eine Schüssel Haferflocken mit Beeren.",
+    "submit": "Protokoll lesen",
+    "success": "Lesevorgang erfolgreich protokolliert!",
+    "targets": {
+      "title": "Zielbereiche:",
+      "fasting": "Nüchtern: 80-130 mg/dL",
+      "postMeal": "Nach dem Essen: <180 mg/dL",
+      "low": "Niedrig: <70 mg/dL (Maßnahmen ergreifen)"
+    },
+    "recent": {
+      "title": "Aktuelle Lektüre",
+      "noReadings": "Bisher wurden keine Messwerte erfasst.",
+      "trend": "7-Tage-Trend",
+      "targetMax": "Zielwert Max"
+    }
+  },
+  "plate": {
+    "intro": {
+      "title": "Die diabetische Tellermethode",
+      "desc": "Eine einfache visuelle Anleitung für ausgewogene Mahlzeiten zur Blutzuckerkontrolle. Klicken Sie auf die einzelnen Abschnitte, um die besten Lebensmittel auszuwählen."
+    },
+    "build": {
+      "title": "Stelle deine ausgewogene Platte zusammen",
+      "hint": "Klicken Sie auf die einzelnen Abschnitte."
+    },
+    "categories": {
+      "veggies": {
+        "name": "Nicht stärkehaltiges Gemüse",
+        "percent": "50%",
+        "desc": "Ballaststoffreich, kohlenhydratarm"
+      },
+      "protein": {
+        "name": "Mageres Protein",
+        "percent": "25 %",
+        "desc": "Stabilisiert den Blutzuckerspiegel"
+      },
+      "carbs": {
+        "name": "Komplexe Kohlenhydrate",
+        "percent": "25 %",
+        "desc": "Langsam verdaulich"
+      }
+    },
+    "principles": {
+      "title": "Grundprinzipien",
+      "veggies": {
+        "title": "Füllen Sie die Hälfte Ihres Tellers mit nicht stärkehaltigem Gemüse.",
+        "desc": "Diese Lebensmittel sind kohlenhydratarm, ballaststoffreich und voller Nährstoffe, die den Blutzuckerspiegel nicht ansteigen lassen."
+      },
+      "protein": {
+        "title": "Viertelteller mit magerem Eiweiß",
+        "desc": "Eiweiß hilft, den Blutzucker zu stabilisieren und sorgt für ein längeres Sättigungsgefühl."
+      },
+      "carbs": {
+        "title": "Viertelplatte mit komplexen Kohlenhydraten",
+        "desc": "Wählen Sie Vollkornprodukte und ballaststoffreiche Lebensmittel, die langsam verdaut werden und Blutzuckerspitzen verhindern."
+      }
+    }
+  },
+  "gi": {
+    "intro": {
+      "title": "Glykämischer Index (GI)-Nachschlagewerk",
+      "desc": "Der glykämische Index misst, wie schnell Lebensmittel den Blutzuckerspiegel ansteigen lassen. Je niedriger der Wert, desto besser für die Diabetesbehandlung.",
+      "low": "Niedriger glykämischer Index (0-55): Sicher",
+      "medium": "Mittlerer GI (56-69): Mäßig",
+      "high": "Hoher glykämischer Index (70+): Begrenzen"
+    },
+    "searchPlaceholder": "Suche nach einem Lebensmittel...",
+    "noResults": "Es wurden keine Lebensmittel gefunden, die Ihrer Suche entsprechen.",
+    "labels": {
+      "low": "Niedriger glykämischer Index",
+      "medium": "Mittlerer glykämischer Index",
+      "high": "Hoher glykämischer Index"
+    }
+  },
+  "timing": {
+    "fasting": "Fasten",
+    "preMeal": "Vor dem Essen",
+    "postMeal1h": "Nach dem Essen (1 Stunde)",
+    "postMeal2h": "Nach dem Essen (2 Std.)",
+    "bedtime": "Schlafenszeit"
+  },
+  "status": {
+    "low": "NIEDRIG",
+    "high": "HOCH",
+    "normal": "NORMAL"
+  },
+  "foods": {
+    "Spinach": "Spinat",
+    "Broccoli": "Brokkoli",
+    "Cauliflower": "Blumenkohl",
+    "Bell Peppers": "Paprika",
+    "Zucchini": "Zucchini",
+    "Asparagus": "Spargel",
+    "Cucumber": "Gurke",
+    "Tomatoes": "Tomaten",
+    "Chicken Breast": "Hühnerbrust",
+    "Fish (Salmon, Tuna)": "Fisch (Lachs, Thunfisch)",
+    "Tofu": "Tofu",
+    "Lentils": "Linsen",
+    "Eggs": "Eier",
+    "Turkey": "Truthahn",
+    "Greek Yogurt": "Griechischer Joghurt",
+    "Brown Rice": "Brauner Reis",
+    "Quinoa": "Quinoa",
+    "Sweet Potato": "Süßkartoffel",
+    "Whole Wheat Pasta": "Vollkornnudeln",
+    "Oats": "Hafer",
+    "Barley": "Gerste"
+  }
+}

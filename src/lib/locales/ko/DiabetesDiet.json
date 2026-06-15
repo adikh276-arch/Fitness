@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "back": "대시보드로 돌아가기"
+  },
+  "header": {
+    "title": "당뇨병 식단 및 관리",
+    "subtitle": "혈당을 추적하고, 당뇨병 식단 계획을 배우고, GI 값을 확인하세요."
+  },
+  "alert": {
+    "title": "저혈당 주의!",
+    "desc": "혈중 알코올 농도가 70mg/dL 미만입니다. 즉시 조치를 취하십시오.",
+    "actions": {
+      "carbs": "빠르게 흡수되는 탄수화물 15g을 섭취하세요 (포도당 정제 4정, 주스 1/2컵 또는 꿀 1큰술).",
+      "wait": "15분 기다렸다가 다시 검사하세요",
+      "repeat": "여전히 수치가 낮으면 반복하십시오.",
+      "contact": "증상이 지속되면 의료기관에 문의하십시오."
+    }
+  },
+  "tabs": {
+    "plate": "당뇨병 환자용 식단",
+    "log": "혈당 기록",
+    "gi": "GI 조회 도구"
+  },
+  "log": {
+    "title": "혈당 측정값 기록",
+    "unit": "단위",
+    "value": "포도당 값 ({{unit}})",
+    "valuePlaceholder": "예: 120",
+    "valuePlaceholderMmol": "예: 6.7",
+    "timing": "타이밍",
+    "mealContext": "무엇을 드셨나요? (선택 사항)",
+    "mealContextPlaceholder": "예: 베리를 곁들인 오트밀 한 그릇을 먹었습니다.",
+    "submit": "로그 읽기",
+    "success": "읽기 기록이 성공적으로 완료되었습니다!",
+    "targets": {
+      "title": "목표 범위:",
+      "fasting": "공복 시: 80-130 mg/dL",
+      "postMeal": "식후: <180 mg/dL",
+      "low": "낮음: <70 mg/dL (조치 필요)"
+    },
+    "recent": {
+      "title": "최근 읽은 글",
+      "noReadings": "아직 기록된 측정값이 없습니다.",
+      "trend": "7일 추세",
+      "targetMax": "목표 최대"
+    }
+  },
+  "plate": {
+    "intro": {
+      "title": "당뇨병 환자용 접시법",
+      "desc": "혈당 관리에 도움이 되는 균형 잡힌 식단을 구성하는 간단한 시각적 가이드입니다. 각 섹션을 클릭하여 최적의 식품 선택지를 확인하세요."
+    },
+    "build": {
+      "title": "균형 잡힌 식단을 구성하세요",
+      "hint": "각 섹션을 클릭하세요"
+    },
+    "categories": {
+      "veggies": {
+        "name": "전분이 없는 채소",
+        "percent": "50%",
+        "desc": "고섬유질, 저탄수화물"
+      },
+      "protein": {
+        "name": "저지방 단백질",
+        "percent": "25%",
+        "desc": "혈당을 안정시킵니다"
+      },
+      "carbs": {
+        "name": "복합 탄수화물",
+        "percent": "25%",
+        "desc": "소화가 느린"
+      }
+    },
+    "principles": {
+      "title": "핵심 원칙",
+      "veggies": {
+        "title": "접시의 절반을 전분이 없는 채소로 채우세요",
+        "desc": "이 식품들은 탄수화물 함량이 낮고 섬유질 함량이 높으며 혈당을 급격하게 올리지 않는 영양소가 풍부합니다."
+      },
+      "protein": {
+        "title": "살코기 단백질이 포함된 쿼터 플레이트",
+        "desc": "단백질은 혈당을 안정시키고 포만감을 오래 유지하는 데 도움을 줍니다."
+      },
+      "carbs": {
+        "title": "복합 탄수화물이 포함된 쿼터 플레이트",
+        "desc": "천천히 소화되어 혈당 수치 급상승을 막아주는 통곡물과 섬유질이 풍부한 식품을 선택하세요."
+      }
+    }
+  },
+  "gi": {
+    "intro": {
+      "title": "혈당지수(GI) 조회",
+      "desc": "혈당지수는 음식이 혈당을 얼마나 빨리 올리는지 측정하는 지표입니다. 혈당지수가 낮을수록 당뇨병 관리에 좋습니다.",
+      "low": "낮은 GI 지수(0-55): 안전함",
+      "medium": "중간 GI (56-69): 보통",
+      "high": "높은 GI 지수(70 이상): 제한"
+    },
+    "searchPlaceholder": "음식을 검색하세요...",
+    "noResults": "검색 조건과 일치하는 음식이 없습니다.",
+    "labels": {
+      "low": "낮은 GI",
+      "medium": "중형 GI",
+      "high": "높은 GI"
+    }
+  },
+  "timing": {
+    "fasting": "단식",
+    "preMeal": "식전",
+    "postMeal1h": "식후 (1시간)",
+    "postMeal2h": "식후 (2시간)",
+    "bedtime": "취침 시간"
+  },
+  "status": {
+    "low": "낮은",
+    "high": "높은",
+    "normal": "정상"
+  },
+  "foods": {
+    "Spinach": "시금치",
+    "Broccoli": "브로콜리",
+    "Cauliflower": "콜리플라워",
+    "Bell Peppers": "피망",
+    "Zucchini": "서양 호박",
+    "Asparagus": "아스파라거스",
+    "Cucumber": "오이",
+    "Tomatoes": "토마토",
+    "Chicken Breast": "닭가슴살",
+    "Fish (Salmon, Tuna)": "생선 (연어, 참치)",
+    "Tofu": "두부",
+    "Lentils": "렌틸콩",
+    "Eggs": "계란",
+    "Turkey": "칠면조",
+    "Greek Yogurt": "그릭 요거트",
+    "Brown Rice": "현미",
+    "Quinoa": "퀴노아",
+    "Sweet Potato": "고구마",
+    "Whole Wheat Pasta": "통밀 파스타",
+    "Oats": "귀리",
+    "Barley": "보리"
+  }
+}

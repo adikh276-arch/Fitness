@@ -1,0 +1,238 @@
+{
+  "nav": {
+    "back": "Zurück zum Dashboard"
+  },
+  "header": {
+    "title": "Veganer Ernährungsleitfaden",
+    "subtitle": "Komplettes pflanzliches Ernährungs-Toolkit"
+  },
+  "tabs": {
+    "plate": "Vegane Platte",
+    "nutrients": "Mikronährstoffe",
+    "calculator": "Proteinrechner"
+  },
+  "plate": {
+    "title": "Die komplette vegane Mahlzeit",
+    "proportions": {
+      "legumes": {
+        "title": "Hülsenfrüchte/Bohnen",
+        "subtitle": "Protein-Kraftpaket",
+        "examples": "Beispiele: Linsen, Kichererbsen, schwarze Bohnen, Tofu, Tempeh"
+      },
+      "grains": {
+        "title": "Vollkornprodukte",
+        "subtitle": "Anhaltende Energie",
+        "examples": "Beispiele: Quinoa, brauner Reis, Hafer, Vollkornweizen, Gerste"
+      },
+      "vegetables": {
+        "title": "Gemüse",
+        "subtitle": "reich an Mikronährstoffen",
+        "examples": "Beispiele: Blattgemüse, Brokkoli, Paprika, Karotten, Tomaten"
+      },
+      "fats": {
+        "title": "Gesunde Fette/Samen",
+        "subtitle": "Hormongesundheit",
+        "examples": "Beispiele: Avocado, Nüsse, Samen, Olivenöl, Tahini"
+      }
+    },
+    "tip": {
+      "title": "Profi-Tipp: Eisenaufnahme steigern",
+      "desc": "Pflanzliches Eisen (Nicht-Häm-Eisen) wird schlechter aufgenommen als tierisches Eisen. Kombinieren Sie eisenreiche Lebensmittel mit Vitamin C, um die Aufnahme um bis zu 300 % zu steigern!",
+      "ironRich": "Eisenreiche Lebensmittel",
+      "ironExamples": "Spinat, Linsen, Quinoa, Tofu, Kürbiskerne",
+      "vitaminC": "Vitamin-C-Booster",
+      "vitaminCExamples": "Zitronensaft, Paprika, Tomaten, Brokkoli, Orangen",
+      "perfectCombo": "Perfekte Kombination: Linsensuppe mit Zitronensaft, Spinatsalat mit Paprika"
+    }
+  },
+  "nutrients": {
+    "title": "Der Big 4 Nährstoff-Tracker",
+    "progress": {
+      "title": "Heutiger Fortschritt",
+      "done": "Erledigt",
+      "pending": "Ausstehend"
+    },
+    "why": {
+      "title": "Warum sollten diese Daten erfasst werden?",
+      "desc1": "Diese vier Nährstoffe sind die häufigsten Mangelerscheinungen bei pflanzlicher Ernährung. Die tägliche Dokumentation der Zufuhr stellt sicher, dass Sie alle notwendigen Nährstoffe erhalten.",
+      "note": "Hinweis: Vitamin B12 muss durch Nahrungsergänzungsmittel oder angereicherte Lebensmittel aufgenommen werden – es kommt in Pflanzen nicht natürlich vor."
+    },
+    "micronutrients": {
+      "b12": {
+        "name": "Vitamin B12",
+        "importance": "Entscheidend für die Nervenfunktion und die DNA-Synthese",
+        "dosage": "2,4 µg täglich",
+        "sources": [
+          "Angereicherte Pflanzenmilch",
+          "Nährhefe",
+          "B12-Präparate",
+          "Angereicherte Frühstückscerealien"
+        ]
+      },
+      "iron": {
+        "name": "Eisen & Zink",
+        "importance": "Essentiell für den Sauerstofftransport und die Immunfunktion",
+        "dosage": "Eisen: 18 mg, Zink: 11 mg täglich",
+        "sources": [
+          "Kürbiskerne",
+          "Linsen",
+          "Cashewnüsse",
+          "Spinat",
+          "Quinoa"
+        ]
+      },
+      "omega3": {
+        "name": "Omega-3 (ALA)",
+        "importance": "Gehirngesundheit & Entzündungshemmung",
+        "dosage": "1,6 g täglich",
+        "sources": [
+          "Leinsamen",
+          "Chiasamen",
+          "Walnüsse",
+          "Hanfsamen"
+        ]
+      },
+      "calcium": {
+        "name": "Kalzium",
+        "importance": "Knochengesundheit und Muskelfunktion",
+        "dosage": "1000 mg täglich",
+        "sources": [
+          "Pak Choi",
+          "Tahini",
+          "Angereicherter Tofu",
+          "Grünkohl",
+          "Mandeln"
+        ]
+      }
+    }
+  },
+  "calculator": {
+    "title": "Leitfaden zum Proteinwissen",
+    "subtitle": "Wählen Sie ein Lebensmittel aus und geben Sie die Menge ein, um sofort den Proteingehalt zu sehen.",
+    "form": {
+      "selectFood": "Lebensmittel suchen und auswählen",
+      "placeholderFood": "Wähle ein Lebensmittel...",
+      "searchPlaceholder": "Lebensmittel suchen...",
+      "amount": "Menge (Gramm)",
+      "placeholderAmount": "100",
+      "add": "Zur Berechnung hinzufügen",
+      "proteinPer100": "{{val}}g pro 100g",
+      "matches": "Es werden 5 von {{total}} Treffern angezeigt",
+      "noMatches": "Keine Lebensmittel gefunden"
+    },
+    "results": {
+      "title": "Proteinabbau",
+      "estProtein": "Geschätzter Proteingehalt",
+      "calcInfo": "{{amount}}g von {{food}}",
+      "summary": "Zusammenfassung der aktuellen Berechnung",
+      "total": "Gesamtprotein",
+      "aminoAcid": "Aminosäurevollständigkeit",
+      "aminoComplete": "Vollständiges Amino-Profil",
+      "aminoIncomplete": "Fehlende Körner oder Hülsenfrüchte",
+      "aminoNote": "Hülsenfrüchte (Linsen/Bohnen/Soja) + Getreide (Reis/Quinoa/Hafer) = Vollständiges Protein",
+      "save": "Gesamtsumme im Verlauf protokollieren",
+      "success": "Protein erfolgreich protokolliert!",
+      "ironTip": {
+        "title": "Tipp:",
+        "desc": "Kombinieren Sie es mit Vitamin C (Zitrone, Paprika, Tomaten), um die Eisenaufnahme um bis zu 300 % zu steigern!"
+      }
+    },
+    "reference": {
+      "title": "Kurzanleitung"
+    }
+  },
+  "proteinSources": {
+    "tofu": "Tofu",
+    "tempeh": "Tempeh",
+    "edamame": "Edamame",
+    "soybeansBoiled": "Sojabohnen gekocht",
+    "soyChunks": "Sojastücke / TVP Trocken",
+    "soyMince": "Soja-Hackfleisch (trocken)",
+    "soyMilk": "Ungesüßte Sojamilch",
+    "soyYogurt": "Naturjoghurt aus Soja",
+    "seitan": "Seitan",
+    "lentilsCooked": "Gekochte Linsen",
+    "redLentilsCooked": "Gekochte rote Linsen",
+    "greenLentilsCooked": "Gekochte grüne Linsen",
+    "blackLentilsCooked": "Gekochte schwarze Linsen",
+    "chickpeasCooked": "Gekochte Kichererbsen",
+    "blackBeansCooked": "Gekochte schwarze Bohnen",
+    "kidneyBeansCooked": "Gekochte Kidneybohnen",
+    "pintoBeansCooked": "Gekochte Pintobohnen",
+    "cannelliniBeansCooked": "Gekochte Cannellini-Bohnen",
+    "navyBeansCooked": "Gekochte weiße Bohnen",
+    "adzukiBeansCooked": "Gekochte Adzukibohnen",
+    "mungBeansCooked": "Gekochte Mungbohnen",
+    "lupinBeans": "Lupinenbohnen",
+    "splitPeasCooked": "Gekochte Spalterbsen",
+    "greenPeas": "Grüne Erbsen",
+    "peaProteinIsolate": "Erbsenproteinisolat",
+    "peaMilk": "Erbsenmilch",
+    "hummus": "Hummus",
+    "falafel": "Falafel",
+    "quinoaCooked": "Gekochter Quinoa",
+    "amaranthCooked": "Gekochter Amarant",
+    "buckwheatCooked": "Gekochter Buchweizen",
+    "oatsDry": "Hafer Trocken",
+    "rolledOats": "Haferflocken",
+    "steelCutOats": "Stahlgeschnittene Haferflocken",
+    "oatBran": "Haferkleie",
+    "barleyCooked": "Gerste gekocht",
+    "milletCooked": "Gekochte Hirse",
+    "brownRiceCooked": "Gekochter brauner Reis",
+    "wildRiceCooked": "Wildreis gekocht",
+    "teffCooked": "Gekochter Teff",
+    "farroCooked": "Farro gekocht",
+    "freekehCooked": "Freekeh gekocht",
+    "wholeWheatPastaCooked": "Vollkornnudeln gekocht",
+    "chickpeaPastaDry": "Trockene Kichererbsennudeln",
+    "lentilPastaDry": "Trockene Linsennudeln",
+    "blackBeanPastaDry": "Schwarze Bohnennudeln (trocken)",
+    "spirulinaDry": "Spirulina Trocken",
+    "nutritionalYeast": "Nährhefe",
+    "mushroomsWhite": "Weiße Champignons",
+    "portobelloMushrooms": "Portobello-Pilze",
+    "spinach": "Spinat",
+    "kale": "Grünkohl",
+    "broccoli": "Brokkoli",
+    "brusselsSprouts": "Rosenkohl",
+    "sweetCorn": "Süßmais",
+    "artichoke": "Artischocke",
+    "avocado": "Avocado",
+    "pumpkinSeeds": "Kürbiskerne",
+    "hempSeeds": "Hanfsamen",
+    "chiaSeeds": "Chiasamen",
+    "flaxSeeds": "Leinsamen",
+    "sesameSeeds": "Sesamsamen",
+    "sunflowerSeeds": "Sonnenblumenkerne",
+    "watermelonSeeds": "Wassermelonensamen",
+    "almonds": "Mandeln",
+    "peanuts": "Erdnüsse",
+    "peanutButterNatural": "Natürliche Erdnussbutter",
+    "cashews": "Cashewnüsse",
+    "pistachios": "Pistazien",
+    "walnuts": "Walnüsse",
+    "hazelnuts": "Haselnüsse",
+    "brazilNuts": "Paranüsse",
+    "almondButter": "Mandelbutter",
+    "tahini": "Tahini",
+    "cashewButter": "Cashewbutter",
+    "pumpkinSeedButter": "Kürbiskernbutter",
+    "sunflowerSeedButter": "Sonnenblumenkernbutter",
+    "almondFlour": "Mandelmehl",
+    "chickpeaFlour": "Kichererbsenmehl / Besan",
+    "soyFlour": "Sojamehl",
+    "wholeWheatFlour": "Vollkornmehl",
+    "breadWholeWheat": "Vollkornbrot",
+    "ezekielBread": "Ezechiel-Brot",
+    "proteinBreadVegan": "Veganes Proteinbrot",
+    "roastedChickpeas": "Geröstete Kichererbsen",
+    "dryRoastedEdamame": "Trocken geröstete Edamame",
+    "proteinBarVegan": "Veganer Proteinriegel",
+    "veganSausage": "Vegane Wurst",
+    "veganBurgerPatty": "Veganer Burger-Patty",
+    "mycoproteinVegan": "Mycoprotein Vegan",
+    "beanSprouts": "Sojasprossen",
+    "alfalfaSprouts": "Alfalfa-Sprossen"
+  }
+}

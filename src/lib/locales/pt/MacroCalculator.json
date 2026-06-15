@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "back": "Voltar ao painel de controle"
+  },
+  "header": {
+    "title": "Calculadora de Macro",
+    "subtitle": "Calcule suas necessidades diárias de calorias e macronutrientes."
+  },
+  "tabs": {
+    "input": "Seus dados",
+    "results": "Seus resultados"
+  },
+  "form": {
+    "title": "Seus dados",
+    "age": "Idade (anos)",
+    "gender": "Gênero",
+    "male": "Macho",
+    "female": "Fêmea",
+    "weight": "Peso",
+    "height": "Altura",
+    "activity": "Nível de atividade",
+    "goal": "Meta",
+    "submit": "Calcular Macros",
+    "placeholders": {
+      "age": "Por exemplo, 30",
+      "weightKg": "Por exemplo, 70",
+      "weightLbs": "Exemplo: 154",
+      "heightCm": "Exemplo: 175",
+      "heightFt": "Pés",
+      "heightIn": "Polegadas"
+    },
+    "activityLevels": {
+      "sedentary": "Sedentário (pouco ou nenhum exercício)",
+      "light": "Atividade leve (1 a 3 dias por semana)",
+      "moderate": "Moderadamente ativo (3 a 5 dias por semana)",
+      "very": "Muito ativo (6 a 7 dias por semana)"
+    },
+    "goals": {
+      "maintenance": "Manutenção",
+      "loss": "Perda de peso",
+      "gain": "Ganho de massa muscular"
+    }
+  },
+  "results": {
+    "title": "Seus resultados",
+    "calorieTarget": "Meta diária de calorias",
+    "kcalPerDay": "kcal/dia",
+    "bmrLabel": "Taxa metabólica basal (TMB): {{val}} kcal",
+    "protein": "Proteína",
+    "carbs": "Carboidratos",
+    "fat": "Gordo",
+    "submit": "Salvar no perfil",
+    "placeholder": "Insira seus dados e clique em Calcular para ver seus resultados.",
+    "success": "Dados de macro salvos! Os detalhes do seu perfil foram sincronizados.",
+    "validation": "Por favor, insira valores válidos."
+  }
+}

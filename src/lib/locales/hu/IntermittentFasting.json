@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "back": "Vissza az irányítópultra"
+  },
+  "header": {
+    "title": "Szakaszos böjtölés útmutató",
+    "subtitle": "Sajátítsd el az időkorlátos étkezés tudományát"
+  },
+  "tabs": {
+    "lab": "A böjt laboratórium",
+    "log": "Sikernapló"
+  },
+  "lab": {
+    "timeline": {
+      "title": "A biológiai idővonal",
+      "stages": [
+        {
+          "hours": "0-4 óra",
+          "title": "Emésztési fázis (anabolikus állapot)",
+          "description": "A tested megemészti az ételt és energiát tárol. A vércukorszint emelkedik, ahogy a tápanyagok felszívódnak."
+        },
+        {
+          "hours": "4-12 óra",
+          "title": "A zsírégetés megkezdődik (katabolikus állapot)",
+          "description": "Az inzulinszint csökken, és a szervezet elkezdi lebontani a tárolt zsírt energiatermelés céljából."
+        },
+        {
+          "hours": "12-18 óra",
+          "title": "Sejttisztítás (autofágia)",
+          "description": "A tested elkezdi eltávolítani a sérült sejteket és újrahasznosítani a régi fehérjéket – mint egy belső nagytakarítás."
+        },
+        {
+          "hours": "18+ óra",
+          "title": "Csúcs zsírégetés (mély ketózis)",
+          "description": "A tested teljes mértékben zsíron működik. A növekedési hormon szintje megnő, és a zsírégetés eléri a csúcspontját."
+        }
+      ]
+    },
+    "breaksFast": {
+      "title": "Mi töri meg a böjtöt?",
+      "safe": "Biztonságos böjt alatt:",
+      "safeList": "Víz, fekete kávé, natúr tea, szénsavas víz, só/elektrolitok",
+      "breaks": "Megtöri a böjtöt:",
+      "breaksList": "Bármi, amiben van kalória - tej, cukor, tejszín, fehérjeturmixok, BCAA-k, mesterséges édesítőszerekkel ízesített diétás üdítők"
+    },
+    "tips": {
+      "title": "Profi tippek a sikerhez",
+      "tip1": {
+        "title": "Kezdje fokozatosan",
+        "desc": "Kezdd 12:12-vel, és fokozatosan növeld a böjtöt."
+      },
+      "tip2": {
+        "title": "Maradj hidratált",
+        "desc": "Igyál sok vizet a böjt alatt"
+      },
+      "tip3": {
+        "title": "Hallgass a testedre",
+        "desc": "Rosszul érzed magad? Rendben van, ha megszakítod a böjtöt."
+      },
+      "tip4": {
+        "title": "A minőség számít",
+        "desc": "Koncentrálj a tápanyagban gazdag ételekre az étkezési ablakban"
+      }
+    }
+  },
+  "log": {
+    "form": {
+      "title": "Naplózza a mai böjtöt",
+      "lastMeal": "Utolsó étkezés időpontja (tegnap):",
+      "firstMeal": "Első étkezés (ma):",
+      "duration": "Teljes böjtölés időtartama",
+      "goalAchieved": "Cél elérve! Teljesítettél egy több mint 16 órás böjtöt!",
+      "submit": "Naplózza ezt gyorsan"
+    },
+    "tracker": {
+      "title": "30 napos gyorskövető",
+      "streak": "Jelenlegi sorozat:",
+      "streakDays": "{{count}} nap",
+      "last30": "Utolsó 30 nap",
+      "legend": {
+        "goalMet": "Cél teljesült (16+ óra)",
+        "today": "Ma",
+        "missed": "Elmulasztott nap"
+      }
+    },
+    "recentFasts": {
+      "title": "Legutóbbi böjtök",
+      "goalMet": "Gól a következővel:"
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "back": "Powrót do pulpitu nawigacyjnego"
+  },
+  "header": {
+    "title": "Przewodnik po przerywanym poście",
+    "subtitle": "Opanuj naukę jedzenia w ograniczonym czasie"
+  },
+  "tabs": {
+    "lab": "Laboratorium postu",
+    "log": "Dziennik sukcesu"
+  },
+  "lab": {
+    "timeline": {
+      "title": "Biologiczna oś czasu",
+      "stages": [
+        {
+          "hours": "0-4 godziny",
+          "title": "Faza trawienia (stan anaboliczny)",
+          "description": "Twój organizm trawi pokarm i magazynuje energię. Poziom cukru we krwi wzrasta w miarę wchłaniania składników odżywczych."
+        },
+        {
+          "hours": "4-12 godzin",
+          "title": "Rozpoczyna się spalanie tłuszczu (stan kataboliczny)",
+          "description": "Poziom insuliny spada, a organizm zaczyna spalać zgromadzony tłuszcz, aby uzyskać energię."
+        },
+        {
+          "hours": "12-18 godzin",
+          "title": "Oczyszczanie komórkowe (autofagia)",
+          "description": "Twój organizm zaczyna usuwać uszkodzone komórki i przetwarzać stare białka – niczym wewnętrzne wiosenne porządki."
+        },
+        {
+          "hours": "18+ godzin",
+          "title": "Maksymalne spalanie tłuszczu (głęboka ketoza)",
+          "description": "Twój organizm w pełni wykorzystuje tłuszcz. Hormon wzrostu wzrasta, a spalanie tłuszczu osiąga szczyt."
+        }
+      ]
+    },
+    "breaksFast": {
+      "title": "Co przerywa post?",
+      "safe": "Bezpieczeństwo podczas postu:",
+      "safeList": "Woda, czarna kawa, zwykła herbata, woda gazowana, sól/elektrolity",
+      "breaks": "Przerwy w poście:",
+      "breaksList": "Wszystko, co zawiera kalorie – mleko, cukier, śmietanka, koktajle proteinowe, BCAA, napoje dietetyczne ze sztucznymi słodzikami"
+    },
+    "tips": {
+      "title": "Profesjonalne porady dotyczące sukcesu",
+      "tip1": {
+        "title": "Zacznij stopniowo",
+        "desc": "Zacznij od 12:12 i stopniowo wydłużaj posty"
+      },
+      "tip2": {
+        "title": "Utrzymuj nawodnienie",
+        "desc": "Pij dużo wody podczas postu"
+      },
+      "tip3": {
+        "title": "Słuchaj swojego ciała",
+        "desc": "Źle się czujesz? Możesz przerwać post."
+      },
+      "tip4": {
+        "title": "Jakość ma znaczenie",
+        "desc": "Podczas okna żywieniowego skup się na produktach bogatych w składniki odżywcze"
+      }
+    }
+  },
+  "log": {
+    "form": {
+      "title": "Zapisz dzisiejszy post",
+      "lastMeal": "Ostatni posiłek (wczoraj):",
+      "firstMeal": "Czas pierwszego posiłku (dzisiaj):",
+      "duration": "Całkowity czas postu",
+      "goalAchieved": "Cel osiągnięty! Ukończyłeś ponad 16-godzinny post!",
+      "submit": "Zaloguj się szybko"
+    },
+    "tracker": {
+      "title": "30-dniowy szybki tracker",
+      "streak": "Aktualna passa:",
+      "streakDays": "{{count}} dni",
+      "last30": "Ostatnie 30 dni",
+      "legend": {
+        "goalMet": "Cel osiągnięty (16+ godz.)",
+        "today": "Dzisiaj",
+        "missed": "Pominięty dzień"
+      }
+    },
+    "recentFasts": {
+      "title": "Ostatnie posty",
+      "goalMet": "Cel z"
+    }
+  }
+}
