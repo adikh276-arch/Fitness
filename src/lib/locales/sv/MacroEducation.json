@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "back": "Tillbaka till Dashboard"
+  },
+  "header": {
+    "title": "Förstå makronäringsämnen",
+    "subtitle": "Lär dig grunderna för protein, kolhydrater och fetter"
+  },
+  "tabs": {
+    "protein": "Protein",
+    "carbs": "Kolhydrater",
+    "fats": "Fetter",
+    "plate": "Plåtbyggare"
+  },
+  "protein": {
+    "title": "Protein",
+    "kcal": "4 kcal/gram",
+    "whyMatters": {
+      "title": "Varför det är viktigt:",
+      "muscle": {
+        "title": "Muskelreparation och tillväxt:",
+        "desc": "Viktigt för att bygga och bibehålla muskelmassa"
+      },
+      "satiety": {
+        "title": "Mättnad:",
+        "desc": "Håller dig mätt längre, vilket minskar det totala kaloriintaget"
+      },
+      "metabolic": {
+        "title": "Metabolisk boost:",
+        "desc": "Högsta termiska effekt av alla makron (20-30% av kalorier som förbränns under matsmältningen)"
+      }
+    },
+    "target": {
+      "title": "Dagligt mål:",
+      "desc": "För optimal hälsa och muskelunderhåll, sikta på <1>1,6-2,2 g per kg</1> kroppsvikt. Idrottare och de som bygger muskler kan behöva upp till 2,5 g/kg."
+    },
+    "sources": "De bästa proteinkällorna:"
+  },
+  "carbs": {
+    "title": "Kolhydrater",
+    "kcal": "4 kcal/gram",
+    "whyMatters": {
+      "title": "Varför det är viktigt:",
+      "energy": {
+        "title": "Primär energikälla:",
+        "desc": "Din kropps föredragna bränsle för hjärnan och fysisk aktivitet"
+      },
+      "performance": {
+        "title": "Prestanda:",
+        "desc": "Kritisk för högintensiv träning och atletisk prestation"
+      },
+      "nutrients": {
+        "title": "Fiber och näringsämnen:",
+        "desc": "Hela kolhydrater ger viktiga vitaminer, mineraler och matsmältningshälsa"
+      }
+    },
+    "target": {
+      "title": "Dagligt mål:",
+      "desc": "För aktiva personer, sikta på <1>3-6g per kg</1> kroppsvikt. Stillasittande individer kan behöva mindre (2-3g/kg). Fokusera på komplexa, hela livsmedelskällor."
+    },
+    "sources": "Bästa kolhydratkällor:"
+  },
+  "fats": {
+    "title": "Fetter",
+    "kcal": "9 kcal/gram",
+    "whyMatters": {
+      "title": "Varför det är viktigt:",
+      "hormone": {
+        "title": "Hormonproduktion:",
+        "desc": "Viktigt för testosteron, östrogen och andra vitala hormoner"
+      },
+      "vitamin": {
+        "title": "Vitaminabsorption:",
+        "desc": "Krävs för att absorbera fettlösliga vitaminer (A, D, E, K)"
+      },
+      "brain": {
+        "title": "Hjärnhälsa:",
+        "desc": "Din hjärna består av 60 % fett - omega-3 är avgörande för kognitiv funktion"
+      }
+    },
+    "target": {
+      "title": "Dagligt mål:",
+      "desc": "Sikta på <1>0,8–1,2 g per kg</1> kroppsvikt, eller 20–35 % av de totala kalorierna. Prioritera omättade fetter (olivolja, nötter, fisk) framför mättade fetter."
+    },
+    "sources": "De bästa fettkällorna:"
+  },
+  "plate": {
+    "title": "Bygg din balanserade måltid",
+    "legend": {
+      "protein": "Protein {{val}} %",
+      "carbs": "Kolhydrater {{val}} %",
+      "fats": "Fett {{val}} %"
+    },
+    "sliders": {
+      "protein": {
+        "title": "Protein",
+        "desc": "Muskel & mättnad"
+      },
+      "carbs": {
+        "title": "Kolhydrater",
+        "desc": "Energi & prestanda"
+      },
+      "fats": {
+        "title": "Fetter",
+        "desc": "Hormoner och vitaminer"
+      }
+    },
+    "calories": {
+      "title": "Uppskattade kalorier",
+      "subtitle": "(baserat på 200 g portion)",
+      "unit": "kcal"
+    },
+    "warning": {
+      "title": "Balansrekommendation",
+      "desc": "För optimal näring: Sikta på minst 15-25% protein (muskler & mättnad), 20-35% hälsosamma fetter (hormoner) och 40-60% kolhydrater (energi). Justera dina kvoter för att nå dessa mål."
+    }
+  },
+  "foods": {
+    "chicken": "Kycklingbröst",
+    "yogurt": "Grekisk yoghurt",
+    "eggs": "Ägg",
+    "eggUnit": "1 ägg = 6 g protein",
+    "salmon": "Lax",
+    "lentils": "Linser",
+    "tofu": "Tofu",
+    "rice": "Brunt ris",
+    "oats": "Havre",
+    "potato": "Sötpotatis",
+    "quinoa": "Quinoa",
+    "banana": "Banan",
+    "bananaUnit": "1 medium = 27g kolhydrater",
+    "bread": "Fullkornsbröd",
+    "breadUnit": "1 skiva = 12g kolhydrater",
+    "avocado": "Avokado",
+    "almonds": "Mandel",
+    "almondsUnit": "28g = 14g fett",
+    "oil": "Olivolja",
+    "oilUnit": "1 msk = 14g fett",
+    "peanutButter": "Jordnötssmör",
+    "pbUnit": "2 msk = 16g fett",
+    "chocolate": "Mörk choklad",
+    "chocolateUnit": "28g = 9g fett",
+    "unit100g": "100g = {{val}}g {{makro}}"
+  }
+}

@@ -38,7 +38,7 @@
       "categories": {
         "underweight": "Abaixo do peso",
         "healthy": "Peso saudável",
-        "normal": "Normal",
+        "normal": "Normais",
         "overweight": "Sobrepeso",
         "obese": "Obeso",
         "enterData": "Insira os dados"
@@ -80,7 +80,7 @@
         "desc": "Categoria de peso geral, não leva em consideração a massa muscular ou a distribuição de gordura."
       },
       "whtr": {
-        "title": "WHtR",
+        "title": "RCQ",
         "desc": "Mede a obesidade central, melhor preditor de doenças cardiovasculares e diabetes."
       }
     }

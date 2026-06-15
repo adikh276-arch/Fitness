@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "back": "Bumalik sa Dashboard"
+  },
+  "header": {
+    "title": "Calorie Burner",
+    "subtitle": "Subaybayan ang mga calorie na nasunog sa panahon ng iyong mga aktibidad"
+  },
+  "tabs": {
+    "calculator": "Calculator",
+    "log": "Log ng Aktibidad ({{count}})"
+  },
+  "calculator": {
+    "form": {
+      "title": "Mga Detalye ng Aktibidad",
+      "selectActivity": "Piliin ang Aktibidad",
+      "weight": "Ang iyong Timbang",
+      "duration": "Tagal (minuto)",
+      "placeholders": {
+        "weightKg": "hal., 70",
+        "weightLbs": "hal., 154"
+      },
+      "submit": "Aktibidad sa Log"
+    },
+    "summary": {
+      "title": "Burn Buod",
+      "calories": "Nasunog ang mga calorie",
+      "activity": "Aktibidad",
+      "duration": "Tagal",
+      "weight": "Timbang",
+      "burnRate": "Calorie Burn Rate",
+      "formula": "Formula: (MET × 3.5 × Timbang kg / 200) × Tagal min"
+    }
+  },
+  "log": {
+    "noActivities": "Wala pang Naka-log na Aktibidad",
+    "noActivitiesDesc": "Simulan ang pagsubaybay sa iyong mga ehersisyo upang makita ang mga ito dito",
+    "logFirst": "I-log ang Iyong Unang Aktibidad",
+    "summary": {
+      "title": "Kabuuang Buod",
+      "totalActivities": "Kabuuang mga Aktibidad",
+      "totalCalories": "Kabuuang Mga Calorie",
+      "totalTime": "Kabuuang Oras",
+      "avgSession": "Avg Cal/Session"
+    },
+    "item": {
+      "duration": "Tagal",
+      "met": "NAKITA",
+      "calories": "Mga calorie",
+      "minutes": "min"
+    }
+  },
+  "activities": {
+    "walking": "Naglalakad (Brisk)",
+    "running": "Tumatakbo (9 min/milya)",
+    "cycling": "Pagbibisikleta (Katamtaman)",
+    "yoga": "Yoga",
+    "swimming": "Paglangoy (Laps)",
+    "strength": "Pagsasanay sa Lakas",
+    "household": "Mga Gawaing Bahay",
+    "dance": "Sayaw/Aerobic"
+  }
+}

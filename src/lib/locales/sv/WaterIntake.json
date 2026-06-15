@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "back": "Tillbaka till Dashboard"
+  },
+  "header": {
+    "title": "Vattenintagsspårare",
+    "subtitle": "Spåra din dagliga hydrering och nå dina mål"
+  },
+  "tabs": {
+    "tracker": "Dagens spårare",
+    "history": "Historia"
+  },
+  "tracker": {
+    "consumed": "ml förbrukat",
+    "goalLabel": "Dagligt mål",
+    "remainingLabel": "Kvar",
+    "changeGoal": "Ändra dagliga mål",
+    "quickAdd": {
+      "title": "Snabb tillägg",
+      "smallGlass": "Litet glas",
+      "bottle": "Flaska",
+      "largeBottle": "Stor flaska",
+      "jug": "Kanna"
+    },
+    "custom": {
+      "label": "Anpassad mängd (ml)",
+      "placeholder": "t.ex. 350",
+      "submit": "Lägg till",
+      "undo": "Ångra senaste inmatning"
+    }
+  },
+  "history": {
+    "title": "Vattenintagshistorik",
+    "noHistory": "Ingen historik tillgänglig ännu",
+    "today": "Idag",
+    "summary": "{{total}} ml / {{goal}} ml ({{percent}}%)",
+    "stats": {
+      "total": "Totalt",
+      "entries": "Inlägg"
+    }
+  },
+  "modal": {
+    "title": "Sätt dagligt mål",
+    "subtitle": "Ange ditt mål för dagligt vattenintag",
+    "placeholder": "t.ex. 2500",
+    "calcToggleShow": "Beräkna Rekommenderas",
+    "calcToggleHide": "Dölj kalkylator",
+    "formula": "Formel: Vikt (kg) × 35 ml",
+    "weightLabel": "Din vikt (kg)",
+    "weightPlaceholder": "t.ex. 70",
+    "calcBtn": "Beräkna & tillämpa",
+    "cancel": "Avbryt",
+    "save": "Spara"
+  }
+}

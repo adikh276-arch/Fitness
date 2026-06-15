@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "back": "Terug naar Dashboard"
+  },
+  "header": {
+    "title": "Gids voor gewichtsverlies",
+    "subtitle": "Uw complete gids voor duurzaam gewichtsverlies"
+  },
+  "tabs": {
+    "plan": "Het Plan",
+    "tracker": "Volger",
+    "habits": "Gewoonten"
+  },
+  "plan": {
+    "goldenRule": {
+      "title": "De gouden regel",
+      "subtitle": "Calorietekort versus nutriëntendichtheid",
+      "desc": "Gewichtsverlies vereist een calorietekort, maar de kwaliteit van die calorieën is net zo belangrijk als de kwantiteit. Concentreer u op voedzame, volledige voedingsmiddelen die u tevreden houden en tegelijkertijd het tekort creëren dat nodig is voor vetverlies."
+    },
+    "proteinFirst": {
+      "title": "Eiwit eerst",
+      "subtitle": "Waarom 1,2 g–1,6 g eiwit per kg niet onderhandelbaar is voor vetverlies:",
+      "muscle": "Behoudt de spiermassa tijdens caloriebeperking",
+      "thermic": "Hoger thermisch effect (30% van de eiwitcalorieën verbrand tijdens de spijsvertering)",
+      "satiety": "Verhoogde verzadiging zorgt ervoor dat u zich langer vol voelt",
+      "sugar": "Stabiliseert de bloedsuikerspiegel en vermindert de onbedwingbare trek"
+    },
+    "plateMethod": {
+      "title": "De plaatmethode",
+      "subtitle": "Een eenvoudige visuele gids voor uitgebalanceerde maaltijden die vetverlies bevorderen:",
+      "veg": {
+        "title": "Groenten",
+        "desc": "Niet-zetmeelrijke groenten voor volume en voedingsstoffen"
+      },
+      "protein": {
+        "title": "Eiwit",
+        "desc": "Mager vlees, vis, eieren of plantaardige bronnen"
+      },
+      "carbs": {
+        "title": "Vezelrijke koolhydraten",
+        "desc": "Volle granen, zoete aardappel, quinoa, peulvruchten"
+      }
+    },
+    "hiddenFactors": {
+      "title": "De verborgen factoren",
+      "hydration": {
+        "title": "Hydratatie",
+        "desc": "Een goede hydratatie helpt:"
+      },
+      "sleep": {
+        "title": "Slaap (7+ uur)",
+        "desc": "Kwaliteitsslaap reguleert:"
+      }
+    }
+  },
+  "tracker": {
+    "progress": {
+      "title": "Jouw vooruitgang",
+      "change": "Verander doelen",
+      "lost": "Gewicht verloren",
+      "remaining": "Resterend",
+      "percent": "Vooruitgang",
+      "complete": "Compleet"
+    },
+    "log": {
+      "title": "Registreer de statistieken van vandaag",
+      "weight": "Huidig gewicht (kg)",
+      "chest": "Borst (inch, optioneel)",
+      "waist": "Taille (inch, optioneel)",
+      "hips": "Heupen (inch, optioneel)",
+      "placeholder": "bijv. {{val}}",
+      "submit": "Statistieken loggen"
+    },
+    "history": {
+      "title": "Geschiedenis van statistieken",
+      "total": "Totaal logboeken",
+      "first": "Eerste gewicht",
+      "latest": "Laatste gewicht",
+      "unit": "kg",
+      "inches": "inch",
+      "chest": "borst",
+      "waist": "taille",
+      "hips": "heupen"
+    }
+  },
+  "habits": {
+    "consistency": {
+      "title": "Wekelijkse consistentie",
+      "subtitle": "Blijf die gezonde gewoonten opbouwen!"
+    },
+    "today": {
+      "title": "De gewoontes van vandaag",
+      "subtitle": "Vink elke gewoonte af terwijl u deze vandaag voltooit",
+      "protein": {
+        "label": "Bereik het eiwitdoel",
+        "desc": "1,2-1,6 g per kg lichaamsgewicht"
+      },
+      "noSugar": {
+        "label": "Geen suikerhoudende dranken",
+        "desc": "Alleen water, thee of zwarte koffie"
+      },
+      "walk": {
+        "label": "10 minuten durende wandeling na de maaltijd",
+        "desc": "Lichte activiteit na het eten"
+      },
+      "sleep": {
+        "label": "7+ uur slaap",
+        "desc": "Kwaliteitsrust voor herstel"
+      }
+    },
+    "tracker30": {
+      "title": "Gewoontetracker van 30 dagen",
+      "legend": {
+        "none": "Geen",
+        "low": "1",
+        "mid": "2-3",
+        "high": "3",
+        "all": "Alle 4"
+      }
+    },
+    "whyMatters": {
+      "title": "Waarom deze gewoonten ertoe doen",
+      "protein": "Eiwitinname behoudt de spieren en verhoogt de verzadiging tijdens gewichtsverlies",
+      "noSugar": "Het vermijden van suikerdranken elimineert lege calorieën en vermindert insulinepieken",
+      "walk": "Wandelingen na de maaltijd verbeteren de insulinegevoeligheid en bevorderen de spijsvertering",
+      "sleep": "Goede slaap reguleert de hongerhormonen en ondersteunt vetverlies"
+    }
+  },
+  "modal": {
+    "title": "Stel uw doelen in",
+    "subtitle": "Laten we uw reis naar gewichtsverlies personaliseren",
+    "start": "Startgewicht (kg)",
+    "target": "Doelgewicht (kg)",
+    "date": "Doeldatum",
+    "save": "Doel opslaan",
+    "fillAll": "Vul alle velden in"
+  }
+}

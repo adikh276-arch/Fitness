@@ -42,7 +42,8 @@
       "title": "最近読んだ本",
       "noReadings": "まだ記録されたデータはありません",
       "trend": "7日間トレンド",
-      "targetMax": "ターゲット最大"
+      "targetMax": "ターゲット最大",
+      "targetPost": "ターゲットマックス（食後）"
     }
   },
   "plate": {
@@ -101,7 +102,8 @@
       "low": "低GI",
       "medium": "中程度のGI値",
       "high": "高GI"
-    }
+    },
+    "search": "食べ物を検索します (例: オーツ麦、バナナなど)"
   },
   "timing": {
     "fasting": "断食",

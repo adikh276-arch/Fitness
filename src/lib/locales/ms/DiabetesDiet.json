@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "back": "Kembali ke Papan Pemuka"
+  },
+  "header": {
+    "title": "Panduan Diet Diabetes",
+    "subtitle": "Pantau glukosa dan kuasai kaedah plat"
+  },
+  "alert": {
+    "title": "Amaran Gula Darah Rendah",
+    "desc": "Bacaan anda menunjukkan hipoglikemia (gula darah rendah). Sila ambil tindakan segera:",
+    "actions": {
+      "carbs": "Ambil 15g karbohidrat bertindak pantas (cth., jus 4oz, 3-4 tab glukosa)",
+      "wait": "Tunggu 15 minit",
+      "repeat": "Uji semula; jika masih rendah, ulangi rawatan",
+      "contact": "Hubungi doktor anda jika tahap tidak stabil"
+    }
+  },
+  "tabs": {
+    "plate": "Pinggan Diabetes",
+    "log": "Log glukosa",
+    "gi": "Carian GI"
+  },
+  "log": {
+    "title": "Log Bacaan Glukosa",
+    "unit": "Unit Pengukuran",
+    "value": "Tahap Glukosa ({{unit}})",
+    "valuePlaceholder": "Masukkan nilai (cth. 110)",
+    "valuePlaceholderMmol": "Masukkan nilai (cth. 6.1)",
+    "timing": "Masa Membaca",
+    "mealContext": "Konteks Makanan / Nota",
+    "mealContextPlaceholder": "awak makan apa? Bagaimana perasaan anda?",
+    "submit": "Simpan Bacaan",
+    "success": "Bacaan glukosa berjaya disimpan!",
+    "targets": {
+      "title": "Julat Sasaran Standard (mg/dL)",
+      "fasting": "Puasa: 80-130 mg/dL",
+      "postMeal": "1-2j Selepas makan: < 180 mg/dL",
+      "low": "Rendah: < 70 mg/dL"
+    },
+    "recent": {
+      "title": "Bacaan Terkini",
+      "noReadings": "Tiada bacaan dilog lagi",
+      "trend": "Trend Glukosa (7 Bacaan Terakhir)",
+      "targetMax": "Sasaran Maks (Puasa)",
+      "targetPost": "Sasaran Maks (Selepas makan)"
+    }
+  },
+  "status": {
+    "normal": "Biasalah",
+    "high": "tinggi",
+    "low": "rendah"
+  },
+  "timing": {
+    "fasting": "Puasa / Sebelum Makan",
+    "preMeal": "Pra-makan",
+    "postMeal1h": "1j Selepas makan",
+    "postMeal2h": "2j Selepas makan",
+    "bedtime": "Waktu tidur"
+  },
+  "plate": {
+    "intro": {
+      "title": "Kaedah Plat Diabetes",
+      "desc": "Kaedah Plat adalah cara mudah untuk merancang makanan tanpa mengira. Ia memberi tumpuan kepada kawalan bahagian dan keseimbangan untuk membantu menguruskan paras gula dalam darah."
+    },
+    "build": {
+      "title": "Bina Pinggan Anda",
+      "hint": "Klik bahagian untuk melihat makanan yang disyorkan"
+    },
+    "categories": {
+      "veggies": {
+        "name": "Sayuran Tidak Berkanji",
+        "percent": "50%",
+        "desc": "Isi separuh pinggan anda dengan sayur-sayuran kaya serat yang berwarna-warni"
+      },
+      "protein": {
+        "name": "Protein tanpa lemak",
+        "percent": "25%",
+        "desc": "Isi satu perempat dengan sumber protein tanpa lemak"
+      },
+      "carbs": {
+        "name": "Karbohidrat Sihat",
+        "percent": "25%",
+        "desc": "Isi satu perempat dengan bijirin penuh atau sayuran berkanji"
+      }
+    },
+    "principles": {
+      "title": "Prinsip Kaedah Plat",
+      "veggies": {
+        "title": "Sayur Dahulu",
+        "desc": "Makan sayur-sayuran anda terlebih dahulu untuk melambatkan penyerapan glukosa dari baki makanan anda."
+      },
+      "protein": {
+        "title": "Protein Berkualiti",
+        "desc": "Pilih pilihan kurus untuk menyokong penyelenggaraan otot tanpa lemak tepu yang berlebihan."
+      },
+      "carbs": {
+        "title": "Karbohidrat Berfikiran",
+        "desc": "Berpegang kepada karbohidrat kompleks yang mempunyai kesan yang lebih rendah pada lonjakan gula darah."
+      }
+    }
+  },
+  "gi": {
+    "intro": {
+      "title": "Carian Indeks Glisemik (GI).",
+      "desc": "Indeks Glisemik meletakkan kedudukan karbohidrat mengikut berapa banyak ia meningkatkan paras glukosa darah berbanding dengan makanan rujukan.",
+      "low": "Rendah (0-55)",
+      "medium": "Sederhana (56-69)",
+      "high": "Tinggi (70+)"
+    },
+    "labels": {
+      "low": "GI rendah",
+      "medium": "GI sederhana",
+      "high": "GI tinggi"
+    },
+    "search": "Cari makanan (cth. oat, pisang...)",
+    "noResults": "Tiada makanan ditemui sepadan dengan carian anda"
+  },
+  "foods": {
+    "Spinach": "Bayam",
+    "Broccoli": "Brokoli",
+    "Cauliflower": "kembang kol",
+    "Bell Peppers": "Lada Loceng",
+    "Zucchini": "Zucchini",
+    "Asparagus": "Asparagus",
+    "Cucumber": "timun",
+    "Tomatoes": "tomato",
+    "Chicken Breast": "Dada Ayam",
+    "Fish (Salmon, Tuna)": "Ikan (Salmon, Tuna)",
+    "Tofu": "tauhu",
+    "Lentils": "Lentil",
+    "Eggs": "Telur",
+    "Turkey": "Turki",
+    "Greek Yogurt": "Yogurt Yunani",
+    "Brown Rice": "Beras perang",
+    "Quinoa": "Quinoa",
+    "Sweet Potato": "Keledek",
+    "Whole Wheat Pasta": "Pasta Gandum Seluruh",
+    "Oats": "Oat",
+    "Barley": "Barli"
+  }
+}

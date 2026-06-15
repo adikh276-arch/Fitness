@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "back": "Tilbage til Dashboard"
+  },
+  "header": {
+    "title": "Vegansk ernæringsguide",
+    "subtitle": "Komplet plantebaseret ernæringsværktøjssæt"
+  },
+  "tabs": {
+    "plate": "Vegansk tallerken",
+    "nutrients": "Mikronæringsstoffer",
+    "calculator": "Protein Lommeregner"
+  },
+  "plate": {
+    "title": "Det komplette veganske måltid",
+    "proportions": {
+      "legumes": {
+        "title": "Bælgplanter/bønner",
+        "subtitle": "Protein kraftcenter",
+        "examples": "Eksempler: Linser, kikærter, sorte bønner, tofu, tempeh"
+      },
+      "grains": {
+        "title": "Fuldkorn",
+        "subtitle": "Vedvarende energi",
+        "examples": "Eksempler: Quinoa, brune ris, havre, fuld hvede, byg"
+      },
+      "vegetables": {
+        "title": "Grøntsager",
+        "subtitle": "Rig på mikronæringsstoffer",
+        "examples": "Eksempler: Bladgrønt, broccoli, peberfrugt, gulerødder, tomater"
+      },
+      "fats": {
+        "title": "Sunde fedtstoffer/frø",
+        "subtitle": "Hormon sundhed",
+        "examples": "Eksempler: Avocado, nødder, frø, olivenolie, tahin"
+      }
+    },
+    "tip": {
+      "title": "Pro-Tip: Forøg jernoptagelsen",
+      "desc": "Plantebaseret jern (ikke-hæmjern) optages mindre effektivt end animalsk jern. Par jernrige fødevarer med C-vitamin for at øge optagelsen med op til 300 %!",
+      "ironRich": "Jernrige fødevarer",
+      "ironExamples": "Spinat, linser, quinoa, tofu, græskarkerner",
+      "vitaminC": "Vitamin C boostere",
+      "vitaminCExamples": "Citronsaft, peberfrugt, tomater, broccoli, appelsiner",
+      "perfectCombo": "Perfekt kombination: Linsesuppe med citronsaft, spinatsalat med peberfrugt"
+    }
+  },
+  "nutrients": {
+    "title": "The Big 4 Nutrient Tracker",
+    "progress": {
+      "title": "Dagens fremskridt",
+      "done": "Færdig",
+      "pending": "Afventer"
+    },
+    "why": {
+      "title": "Hvorfor spore disse?",
+      "desc1": "Disse fire næringsstoffer er de mest almindelige mangler i plantebaseret kost. Sporing af det daglige indtag sikrer, at du får komplet ernæring.",
+      "note": "Bemærk: B12 skal suppleres eller indtages gennem berigede fødevarer - det er ikke naturligt til stede i planter."
+    },
+    "micronutrients": {
+      "b12": {
+        "name": "Vitamin B12",
+        "importance": "Kritisk for nervefunktion og DNA-syntese",
+        "dosage": "2,4 mcg dagligt"
+      },
+      "iron": {
+        "name": "Jern & Zink",
+        "importance": "Vigtigt for ilttransport og immunfunktion",
+        "dosage": "Jern: 18mg, Zink: 11mg dagligt"
+      },
+      "omega3": {
+        "name": "Omega-3 (ALA)",
+        "importance": "Hjernesundhed og antiinflammatorisk",
+        "dosage": "1,6g dagligt"
+      },
+      "calcium": {
+        "name": "Calcium",
+        "importance": "Knoglesundhed og muskelfunktion",
+        "dosage": "1000 mg dagligt"
+      }
+    }
+  },
+  "calculator": {
+    "title": "Protein Viden Guide",
+    "subtitle": "Vælg en fødevare, og indtast mængden for øjeblikkeligt at se dens proteinindhold",
+    "form": {
+      "selectFood": "Søg og vælg madvare",
+      "placeholderFood": "Vælg mad...",
+      "searchPlaceholder": "Søg mad...",
+      "amount": "Mængde (gram)",
+      "placeholderAmount": "100",
+      "add": "Tilføj til beregning",
+      "proteinPer100": "{{val}}g pr. 100g",
+      "matches": "Viser 5 af {{total}} kampe",
+      "noMatches": "Ingen fødevarer fundet"
+    },
+    "results": {
+      "title": "Proteinnedbrydning",
+      "estProtein": "Estimeret proteinindhold",
+      "calcInfo": "{{amount}}g af {{food}}",
+      "summary": "Nuværende beregningsoversigt",
+      "total": "Totalt protein",
+      "aminoAcid": "Aminosyre fuldstændighed",
+      "aminoComplete": "Komplet aminoprofil",
+      "aminoIncomplete": "Manglende korn eller bælgplanter",
+      "aminoNote": "Bælgplanter (linser/bønner/soja) + korn (ris/quinoa/havre) = komplet protein",
+      "save": "Log total til historik",
+      "success": "Protein logget med succes!",
+      "ironTip": {
+        "title": "Tip:",
+        "desc": "Kombiner med C-vitamin (citron, peberfrugt, tomater) for at øge jernoptagelsen med op til 300 %!"
+      }
+    },
+    "reference": {
+      "title": "Hurtig referencevejledning"
+    }
+  },
+  "proteinSources": {
+    "tofu": "Tofu",
+    "tempeh": "Tempeh",
+    "edamame": "Edamame",
+    "soybeansBoiled": "Sojabønner kogt",
+    "soyChunks": "Sojaklumper / TVP Tør",
+    "soyMince": "Soja Hakketørret",
+    "soyMilk": "Sojamælk usødet",
+    "soyYogurt": "Sojayoghurt almindelig",
+    "seitan": "Seitan",
+    "lentilsCooked": "Kogte linser",
+    "redLentilsCooked": "Kogte røde linser",
+    "greenLentilsCooked": "Kogte grønne linser",
+    "blackLentilsCooked": "Kogte sorte linser",
+    "chickpeasCooked": "Kogte kikærter",
+    "blackBeansCooked": "Kogte sorte bønner",
+    "kidneyBeansCooked": "Kogte kidneybønner",
+    "pintoBeansCooked": "Kogte Pinto bønner",
+    "cannelliniBeansCooked": "Cannellini bønner kogt",
+    "navyBeansCooked": "Navy bønner kogt",
+    "adzukiBeansCooked": "Kogte Adzuki bønner",
+    "mungBeansCooked": "Mung bønner kogt",
+    "lupinBeans": "Lupin bønner",
+    "splitPeasCooked": "Flækærter kogt",
+    "greenPeas": "Grønne Ærter",
+    "peaProteinIsolate": "Ærteproteinisolat",
+    "peaMilk": "Ærtemælk",
+    "hummus": "Hummus",
+    "falafel": "Falafel",
+    "quinoaCooked": "Quinoa kogt",
+    "amaranthCooked": "Amaranth kogt",
+    "buckwheatCooked": "Kogt boghvede",
+    "oatsDry": "Havre tør",
+    "rolledOats": "Valset havre",
+    "steelCutOats": "Stålskåret havre",
+    "oatBran": "Havreklid",
+    "barleyCooked": "Byg kogt",
+    "milletCooked": "Hirse kogt",
+    "brownRiceCooked": "Brune ris kogt",
+    "wildRiceCooked": "Kogte vilde ris",
+    "teffCooked": "Teff kogt",
+    "farroCooked": "Farro kogte",
+    "freekehCooked": "Freekeh Kogt",
+    "wholeWheatPastaCooked": "Kogt fuldkornspasta",
+    "chickpeaPastaDry": "Kikærtepasta tør",
+    "lentilPastaDry": "Linsepasta tør",
+    "blackBeanPastaDry": "Sort bønnepasta tør",
+    "spirulinaDry": "Spirulina tør",
+    "nutritionalYeast": "Ernæringsmæssig gær",
+    "mushroomsWhite": "Svampe hvide",
+    "portobelloMushrooms": "Portobello svampe",
+    "spinach": "Spinat",
+    "kale": "Grønkål",
+    "broccoli": "Broccoli",
+    "brusselsSprouts": "rosenkål",
+    "sweetCorn": "Sød majs",
+    "artichoke": "Artiskok",
+    "avocado": "Avocado",
+    "pumpkinSeeds": "Græskarkerner",
+    "hempSeeds": "Hamp frø",
+    "chiaSeeds": "Chiafrø",
+    "flaxSeeds": "Hørfrø",
+    "sesameSeeds": "Sesamfrø",
+    "sunflowerSeeds": "Solsikkefrø",
+    "watermelonSeeds": "Vandmelon frø",
+    "almonds": "Mandler",
+    "peanuts": "Jordnødder",
+    "peanutButterNatural": "Naturlig jordnøddesmør",
+    "cashews": "Cashewnødder",
+    "pistachios": "Pistacienødder",
+    "walnuts": "Valnødder",
+    "hazelnuts": "Hasselnødder",
+    "brazilNuts": "Paranødder",
+    "almondButter": "Mandelsmør",
+    "tahini": "Tahini",
+    "cashewButter": "Cashew smør",
+    "pumpkinSeedButter": "Græskarkernesmør",
+    "sunflowerSeedButter": "Solsikkefrø smør",
+    "almondFlour": "Mandelmel",
+    "chickpeaFlour": "Kikærtemel / Besan",
+    "soyFlour": "Sojamel",
+    "wholeWheatFlour": "Fuldstændig hvedemel",
+    "breadWholeWheat": "Brød Fuld hvede",
+    "ezekielBread": "Ezekiel Brød",
+    "proteinBreadVegan": "Proteinbrød Vegansk",
+    "roastedChickpeas": "Ristede kikærter",
+    "dryRoastedEdamame": "Tørristet Edamame",
+    "proteinBarVegan": "Vegansk proteinbar",
+    "veganSausage": "Vegansk pølse",
+    "veganBurgerPatty": "Vegansk Burger Patty",
+    "mycoproteinVegan": "Mykoprotein vegansk",
+    "beanSprouts": "Bønnespirer",
+    "alfalfaSprouts": "Alfalfa spirer"
+  }
+}

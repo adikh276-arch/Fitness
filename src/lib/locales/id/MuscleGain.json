@@ -109,7 +109,16 @@
       "thigh": "Paha (inci)",
       "thighHint": "Bagian terluas",
       "submit": "Pengukuran Log",
-      "success": "Metrik berhasil dicatat!"
+      "success": "Metrik berhasil dicatat!",
+      "placeholders": {
+        "weight": "misalnya, 75",
+        "targetWeight": "misalnya, 85",
+        "chest": "misalnya, 40",
+        "waist": "Opsional",
+        "bicep": "misalnya, 15",
+        "bicepL": "Sama seperti benar",
+        "thigh": "Opsional"
+      }
     },
     "volume": {
       "title": "Kalkulator Volume",
@@ -120,7 +129,13 @@
       "totalVolume": "Volume Total",
       "remaining": "Sisa Gol",
       "submit": "Volume Log",
-      "logged": "{{lift}} tercatat: {{volume}}kg total volume!"
+      "logged": "{{lift}} tercatat: {{volume}}kg total volume!",
+      "recentLifts": "Lift Terbaru",
+      "placeholders": {
+        "sets": "misalnya, 4",
+        "reps": "misalnya, 8",
+        "weight": "misalnya, 80"
+      }
     },
     "chart": {
       "title": "Bagan Kemajuan",
@@ -168,7 +183,71 @@
         "perfect": "Sempurna (5/5)",
         "partial": "Sebagian",
         "none": "Tidak lengkap"
+      },
+      "tooltip": "Hari {{hari}}: {{count}}/5 kebiasaan"
+    }
+  },
+  "essentials": {
+    "title": "Esensi Hipertrofi",
+    "tips": {
+      "rest": {
+        "title": "Otot dibangun saat istirahat:",
+        "desc": "Tidur dan nutrisi adalah saat pertumbuhan terjadi, bukan di gym"
+      },
+      "protein": {
+        "title": "Pengaturan waktu protein kurang penting dibandingkan total:",
+        "desc": "Fokus untuk mencapai target harian Anda, waktu adalah hal kedua"
+      },
+      "track": {
+        "title": "Lacak semuanya:",
+        "desc": "Berat, pengukuran, dan volume - data menunjukkan kemajuan yang tidak dapat Anda lihat di cermin"
+      },
+      "creatine": {
+        "title": "Kreatin terbukti:",
+        "desc": "3-5g setiap hari meningkatkan kekuatan dan massa tanpa efek samping bagi kebanyakan orang"
       }
     }
+  },
+  "exercises": {
+    "squat": "Jongkok",
+    "deadlift": "Deadlift",
+    "benchPress": "bangku pers",
+    "overheadPress": "Tekan Atas",
+    "barbellRow": "Barisan Barbel",
+    "pullUp": "Tarik ke atas",
+    "chinUp": "Bersiaplah",
+    "latPulldown": "Tarik-turun Lat",
+    "seatedCableRow": "Barisan Kabel Duduk",
+    "dumbbellRow": "Baris Halter",
+    "romanianDeadlift": "Deadlift Rumania",
+    "hipThrust": "Dorongan Pinggul",
+    "lunge": "Terjang",
+    "bulgarianSplitSquat": "Jongkok Split Bulgaria",
+    "legPress": "Tekan Kaki",
+    "legExtension": "Ekstensi Kaki",
+    "legCurl": "Keriting Kaki",
+    "calfRaise": "Angkat Betis",
+    "gluteBridge": "Jembatan Glute",
+    "pushUp": "Dorong ke atas",
+    "inclineDumbbellPress": "Pers Dumbbell Miring",
+    "dips": "Penurunan",
+    "chestFly": "Lalat Dada",
+    "lateralRaise": "Kenaikan Lateral",
+    "rearDeltFly": "Terbang Delt Belakang",
+    "facePull": "Tarik Wajah",
+    "bicepCurl": "bisep ikal",
+    "hammerCurl": "Palu Keriting",
+    "tricepPushdown": "Tekan Trisep",
+    "skullCrusher": "Penghancur Tengkorak",
+    "plank": "papan",
+    "hangingLegRaise": "Angkat Kaki Gantung",
+    "russianTwist": "Putaran Rusia",
+    "farmerCarry": "Petani Membawa",
+    "shrug": "Mengangkat bahu",
+    "arnoldPress": "Arnold Pers",
+    "frontSquat": "Jongkok Depan",
+    "sumoDeadlift": "Deadlift Sumo",
+    "gobletSquat": "Piala Jongkok",
+    "stepUp": "Naik"
   }
 }

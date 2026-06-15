@@ -1,0 +1,244 @@
+{
+  "header": {
+    "title": "Ghid de sănătate intestinală",
+    "subtitle": "Urmăriți sănătatea digestivă și construiți un microbiom înfloritor",
+    "back": "Înapoi la Tabloul de bord"
+  },
+  "tabs": {
+    "log": "Jurnalul zilnic",
+    "map": "Harta microbiomului",
+    "habits": "Fibre și Ferment"
+  },
+  "bristol": {
+    "title": "Scaun Bristol",
+    "info": "Standardul de aur pentru urmărirea timpului de tranzit digestiv și a sănătății intestinale",
+    "types": {
+      "type1": {
+        "label": "Tip 1",
+        "desc": "Constipație severă - Separați bulgări tari"
+      },
+      "type2": {
+        "label": "Tipul 2",
+        "desc": "Constipație ușoară - noduloasă și asemănătoare cârnaților"
+      },
+      "type3": {
+        "label": "Tip 3",
+        "desc": "Normal - Cârnați cu crăpături"
+      },
+      "type4": {
+        "label": "Tip 4",
+        "desc": "Ideal - Cârnați moale, moale"
+      },
+      "type5": {
+        "label": "Tip 5",
+        "desc": "Lipsă de fibre - pete moi"
+      },
+      "type6": {
+        "label": "Tip 6",
+        "desc": "Diaree ușoară - Mucioasă"
+      },
+      "type7": {
+        "label": "Tip 7",
+        "desc": "Diaree severă - Lichid"
+      }
+    },
+    "alert": "Vă rugăm să selectați un tip de cântar Bristol Stool"
+  },
+  "symptoms": {
+    "title": "Simptome astăzi",
+    "items": {
+      "Bloating": "Balonare",
+      "Gas": "Gaz",
+      "Cramping": "Crampe",
+      "Reflux": "Reflux",
+      "Energy Dip": "Dip de energie"
+    }
+  },
+  "triggers": {
+    "title": "Suspect de declanșare",
+    "items": {
+      "Dairy": "Lactate",
+      "Gluten": "gluten",
+      "Coffee": "cafea",
+      "Spicy Food": "Mâncare condimentată",
+      "Alcohol": "Alcoolul",
+      "Stress": "Stresul",
+      "Other": "Altele"
+    }
+  },
+  "log": {
+    "submit": "Intrare în jurnal",
+    "success": "Jurnalul intestinal a fost salvat cu succes!",
+    "recent": {
+      "title": "Jurnalele recente",
+      "trigger": "Declanșator:"
+    }
+  },
+  "microbiome": {
+    "prebiotics": {
+      "title": "Prebiotice",
+      "subtitle": "Hrana pentru bacteriile tale intestinale",
+      "desc": "Prebioticele sunt alimente bogate în fibre care hrănesc bacteriile benefice din intestin, ajutându-le să prospere și să se înmulțească."
+    },
+    "probiotics": {
+      "title": "Probioticele",
+      "subtitle": "Bacteriile benefice vii",
+      "desc": "Probioticele sunt microorganisme vii găsite în alimentele fermentate care adaugă direct bacterii benefice în intestin."
+    }
+  },
+  "diversity": {
+    "title": "Provocarea 30 de plante pe săptămână",
+    "subtitle": "Cercetările arată că consumul a peste 30 de plante diferite pe săptămână susține diversitatea intestinală optimă",
+    "score_label": "/ 30 de plante",
+    "weekly_score": "Scorul săptămânal de diversitate",
+    "feedback": {
+      "excellent": "🎉 Excelent! Ați atins obiectivul de 30 de plante",
+      "great": "👍 Diversitate mare! Continuați să adăugați varietate",
+      "good": "📈 Bun început! Urmărește mai multă varietate de plante",
+      "start": "🌱 Începeți să adăugați diverse plante pentru a stimula sănătatea intestinală"
+    }
+  },
+  "habits": {
+    "title": "Lista de verificare Happy Gut",
+    "subtitle": "Completați aceste obiceiuri zilnice pentru o sănătate digestivă optimă",
+    "items": {
+      "fiber": {
+        "label": "25 g+ Fibre consumate",
+        "desc": "Din cereale integrale, fructe și legume"
+      },
+      "fermented": {
+        "label": "Include 1 hrană fermentată",
+        "desc": "Kimchi, iaurt, chefir sau varză murată"
+      },
+      "mindful": {
+        "label": "Mâncare atentă (20+ mesteci)",
+        "desc": "Mestecarea corectă ajută digestia"
+      },
+      "fast": {
+        "label": "12 ore de odihnă intestinală peste noapte",
+        "desc": "Fereastra de post permite repararea intestinului"
+      }
+    }
+  },
+  "tracker": {
+    "title": "Urmăritorul obiceiurilor de 30 de zile",
+    "tooltip": "Ziua {{dayNum}}: {{count}}/4 obiceiuri",
+    "legend": {
+      "none": "Niciuna",
+      "one": "1",
+      "two": "2",
+      "three": "3",
+      "four": "3-4",
+      "all": "Toate 4"
+    }
+  },
+  "essentials": {
+    "title": "Elemente esențiale pentru sănătatea intestinală"
+  },
+  "plants": {
+    "Spinach": "Spanacul",
+    "Kale": "Kale",
+    "Arugula": "Rucola",
+    "Romaine": "Romaine",
+    "Broccoli": "Broccoli",
+    "Cauliflower": "conopida",
+    "Brussels Sprouts": "Varza de Bruxelles",
+    "Cabbage": "Varză",
+    "Carrots": "Morcovi",
+    "Sweet Potatoes": "Cartofi dulci",
+    "Beets": "Sfecla",
+    "Radishes": "Ridichi",
+    "Chickpeas": "Naut",
+    "Lentils": "Linte",
+    "Black Beans": "Fasole Neagră",
+    "Kidney Beans": "Fasole",
+    "Oats": "Ovăz",
+    "Brown Rice": "Orez brun",
+    "Quinoa": "Quinoa",
+    "Barley": "orz",
+    "Almonds": "Migdale",
+    "Walnuts": "Nuci",
+    "Pistachios": "Fistic",
+    "Cashews": "Caju",
+    "Chia": "Chia",
+    "Flax": "Inul",
+    "Pumpkin Seeds": "Seminte de dovleac",
+    "Sunflower Seeds": "Seminte de floarea soarelui",
+    "Blueberries": "Afine",
+    "Strawberries": "Căpșuni",
+    "Raspberries": "Zmeura",
+    "Blackberries": "Mure",
+    "Oranges": "Portocale",
+    "Lemons": "Lămâi",
+    "Limes": "Limes",
+    "Grapefruit": "Grapefruit",
+    "Bananas": "Banane",
+    "Pineapple": "Ananas",
+    "Mango": "Mango",
+    "Papaya": "Papaya",
+    "Peaches": "Piersici",
+    "Plums": "Prune",
+    "Cherries": "Cireșe",
+    "Apricots": "Caise",
+    "Basil": "Busuioc",
+    "Cilantro": "Coriandru",
+    "Mint": "Mentă",
+    "Parsley": "patrunjel",
+    "Rosemary": "Rozmarin",
+    "Turmeric": "Turmeric",
+    "Ginger": "Ghimbir",
+    "Cinnamon": "scorțișoară",
+    "Cumin": "chimen",
+    "Paprika": "Boia de ardei",
+    "Kimchi": "Kimchi",
+    "Sauerkraut": "Varză murată",
+    "Miso": "Miso",
+    "Tempeh": "Tempeh",
+    "Button Mushrooms": "Ciuperci cu buton",
+    "Shiitake": "Shiitake",
+    "Portobello": "Portobello",
+    "Oyster Mushrooms": "Ciuperci stridii",
+    "Pumpkin": "dovleac",
+    "Butternut Squash": "Dovleac",
+    "Zucchini": "Dovlecel",
+    "Acorn Squash": "Dovleac Acorn",
+    "Bell Peppers": "Ardei gras",
+    "Jalapeños": "Jalapeños",
+    "Chili": "Chili",
+    "Cherry Tomatoes": "Roșii cherry",
+    "Roma Tomatoes": "Roșii Roma",
+    "Beefsteak Tomatoes": "Roșii de friptură",
+    "Garlic": "Usturoi",
+    "Onions": "Ceapa",
+    "Leeks": "Praz",
+    "Shallots": "şalote",
+    "Alfalfa Sprouts": "Varza de lucerna",
+    "Broccoli Sprouts": "Germeni de broccoli",
+    "Mung Bean Sprouts": "Varza de fasole mung",
+    "Nori": "Nori",
+    "Kelp": "Kelp",
+    "Wakame": "Wakame",
+    "Buckwheat": "Hrișcă",
+    "Farro": "Farro",
+    "Amaranth": "Amarant",
+    "Millet": "mei",
+    "Watermelon": "Pepene verde",
+    "Cantaloupe": "Cantalup",
+    "Honeydew": "Miere",
+    "Apples": "Merele",
+    "Pears": "Pere",
+    "Avocado": "Avocado",
+    "Coconut": "Nucă de cocos",
+    "Coconut Milk": "Lapte de cocos",
+    "Coconut Water": "Apa de cocos",
+    "Olives": "Măsline",
+    "Dark Chocolate": "Ciocolata neagra",
+    "Cacao Nibs": "Bucuri de cacao",
+    "Cocoa Powder": "Pudră de cacao",
+    "Green Tea": "Ceai verde",
+    "Black Tea": "Ceai negru",
+    "Chamomile": "musetel",
+    "Peppermint Tea": "Ceai de mentă",
+    "Coffee": "cafea"
+  }
+}

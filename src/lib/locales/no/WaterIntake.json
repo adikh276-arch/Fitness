@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "back": "Tilbake til Dashboard"
+  },
+  "header": {
+    "title": "Vanninntakssporer",
+    "subtitle": "Spor din daglige hydrering og nå målene dine"
+  },
+  "tabs": {
+    "tracker": "Dagens Tracker",
+    "history": "Historie"
+  },
+  "tracker": {
+    "consumed": "ml konsumert",
+    "goalLabel": "Daglig mål",
+    "remainingLabel": "Gjenværende",
+    "changeGoal": "Endre daglig mål",
+    "quickAdd": {
+      "title": "Rask Legg til",
+      "smallGlass": "Lite glass",
+      "bottle": "Flaske",
+      "largeBottle": "Stor flaske",
+      "jug": "Jug"
+    },
+    "custom": {
+      "label": "Egendefinert mengde (ml)",
+      "placeholder": "f.eks. 350",
+      "submit": "Legg til",
+      "undo": "Angre siste oppføring"
+    }
+  },
+  "history": {
+    "title": "Vanninntakshistorie",
+    "noHistory": "Ingen historikk tilgjengelig ennå",
+    "today": "I dag",
+    "summary": "{{total}} ml / {{goal}} ml ({{percent}}%)",
+    "stats": {
+      "total": "Totalt",
+      "entries": "Oppføringer"
+    }
+  },
+  "modal": {
+    "title": "Sett daglige mål",
+    "subtitle": "Angi målet ditt daglige vanninntak",
+    "placeholder": "f.eks. 2500",
+    "calcToggleShow": "Beregn anbefalt",
+    "calcToggleHide": "Skjul kalkulator",
+    "formula": "Formel: Vekt (kg) × 35 ml",
+    "weightLabel": "Din vekt (kg)",
+    "weightPlaceholder": "f.eks. 70",
+    "calcBtn": "Beregn og bruk",
+    "cancel": "Avbryt",
+    "save": "Lagre"
+  }
+}

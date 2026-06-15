@@ -1,0 +1,141 @@
+{
+  "header": {
+    "title": "Hjertesundhedsguide",
+    "subtitle": "Spor vitale funktioner, lær DASH-diæt, og opbyg hjertesunde vaner",
+    "back": "Tilbage til Dashboard"
+  },
+  "alerts": {
+    "crisis": {
+      "title": "ADVARSEL FOR HYPERTENSIV KRISE",
+      "desc": "Din blodtryksaflæsning er farligt høj (≥180/120). Dette kræver øjeblikkelig lægehjælp."
+    },
+    "vitals": {
+      "invalid": "Indtast venligst gyldige aflæsninger",
+      "success": "Læsning logget: {{sys}}/{{dia}} - {{category}}"
+    }
+  },
+  "tabs": {
+    "dash": "DASH diæt",
+    "vitals": "Vitale log",
+    "habits": "Hjertevaner"
+  },
+  "vitals": {
+    "form": {
+      "title": "Log dine vitals",
+      "bp": {
+        "label": "Blodtryk",
+        "systolic": "Systolisk",
+        "systolic_desc": "Topnummer",
+        "diastolic": "Diastolisk",
+        "diastolic_desc": "Nederste nummer"
+      },
+      "heart_rate": {
+        "label": "Hvilepuls (BPM)",
+        "placeholder": "f.eks. 72"
+      },
+      "submit": "Log læsning"
+    },
+    "recent": {
+      "title": "Seneste læsninger",
+      "empty": "Ingen aflæsninger logget endnu",
+      "bpm": "{{count}} BPM"
+    },
+    "chart": {
+      "title": "7-dages blodtrykstendens",
+      "systolic": "Systolisk",
+      "diastolic": "Diastolisk"
+    },
+    "guidelines": {
+      "title": "AHA-blodtrykskategorier:",
+      "normal": "Normal: <120/80",
+      "elevated": "Forhøjet: 120-129/<80",
+      "stage1": "Trin 1: 130-139/80-89",
+      "stage2": "Trin 2: ≥140/90"
+    },
+    "categories": {
+      "crisis": "Hypertensiv krise",
+      "stage2": "Hypertension trin 2",
+      "stage1": "Hypertension trin 1",
+      "elevated": "Forhøjet",
+      "normal": "Normal",
+      "unknown": "Ukendt"
+    }
+  },
+  "dash": {
+    "intro": {
+      "title": "DASH-diæten",
+      "desc": "Kosttiltag til at stoppe hypertension - En videnskabeligt bevist spiseplan, der sænker blodtrykket naturligt."
+    },
+    "principles": {
+      "sodium": {
+        "title": "Natriumgrænse",
+        "limit": "<2.300 mg om dagen",
+        "high_risk": "(Eller 1.500 mg for personer med høj risiko)",
+        "desc": "Overskydende natrium forårsager væskeophobning, øger blodvolumen og trykket på arterievæggene."
+      },
+      "potassium": {
+        "title": "Kalium Power",
+        "limit": "4.700 mg om dagen",
+        "source": "Fra hele fødevarer"
+      },
+      "magnesium": {
+        "title": "Magnesium & Fiber",
+        "limit": "500mg Mg / 25-35g Fiber",
+        "target": "Daglige mål"
+      }
+    },
+    "scanner": {
+      "title": "⚠️ Skjult natriumscanner: \"Sneaky Salt\" fødevarer",
+      "subtitle": "Disse tilsyneladende uskyldige fødevarer indeholder mere natrium, end du tror:",
+      "swaps": {
+        "title": "💡 DASH-venlige swaps:"
+      }
+    }
+  },
+  "habits": {
+    "vitality": {
+      "title": "Vitalitetsscore",
+      "start": "Begynd at bygge din hjertesunde streak!",
+      "streak_good": "🔥 {{count}} dages række! Dit hjerte trives",
+      "streak_continue": "{{count}} dage - Fortsæt!",
+      "streak_continue_singular": "{{count}} dag - Fortsæt!",
+      "days": "dagsrække",
+      "goal": "{{count}} / 30 dages mål"
+    },
+    "checklist": {
+      "title": "Daglig cardio-tjekliste",
+      "subtitle": "Gennemfør disse vaner dagligt for at opbygge kardiovaskulær styrke",
+      "items": {
+        "cardio": {
+          "label": "30 min. zone 2 cardio",
+          "desc": "Rask gåtur, cykling eller svømning i konversationstempo"
+        },
+        "low_sodium": {
+          "label": "Opholdt sig under natriumgrænsen",
+          "desc": "<2.300mg (eller 1.500mg, hvis højrisiko)"
+        },
+        "no_salt": {
+          "label": "Intet tilsat salt ved bordet",
+          "desc": "Lad madens naturlige smag skinne"
+        },
+        "meds": {
+          "label": "Medicin taget (valgfrit)",
+          "desc": "For dem på BP-medicin"
+        }
+      }
+    },
+    "tips": {
+      "title": "Hjertesundhed Essentials"
+    }
+  },
+  "foods": {
+    "canned_soup": "Dåsesuppe (1 kop)",
+    "deli_turkey": "Deli Tyrkiet (2 oz)",
+    "white_bread": "Hvidt brød (2 skiver)",
+    "frozen_pizza": "Frossen pizza (1 skive)",
+    "soy_sauce": "Sojasauce (1 spsk)",
+    "cottage_cheese": "Hytteost (1/2 kop)",
+    "pickles": "Pickles (1 medium)",
+    "salad_dressing": "Salatdressing (2 spsk)"
+  }
+}

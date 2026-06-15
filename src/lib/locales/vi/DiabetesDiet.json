@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "back": "Quay lại Trang tổng quan"
+  },
+  "header": {
+    "title": "Hướng dẫn chế độ ăn kiêng cho bệnh tiểu đường",
+    "subtitle": "Theo dõi glucose và nắm vững phương pháp đĩa"
+  },
+  "alert": {
+    "title": "Cảnh báo lượng đường trong máu thấp",
+    "desc": "Kết quả của bạn cho thấy hạ đường huyết (lượng đường trong máu thấp). Hãy hành động ngay:",
+    "actions": {
+      "carbs": "Tiêu thụ 15g carbs tác dụng nhanh (ví dụ: nước trái cây 4oz, tab 3-4 glucose)",
+      "wait": "Đợi 15 phút",
+      "repeat": "Kiểm tra lại; nếu vẫn còn thấp, lặp lại điều trị",
+      "contact": "Liên hệ với bác sĩ của bạn nếu mức độ không ổn định"
+    }
+  },
+  "tabs": {
+    "plate": "Tấm tiểu đường",
+    "log": "Nhật ký Glucose",
+    "gi": "Tra cứu GI"
+  },
+  "log": {
+    "title": "Ghi lại chỉ số Glucose",
+    "unit": "Đơn vị đo lường",
+    "value": "Mức đường huyết ({{đơn vị}})",
+    "valuePlaceholder": "Nhập giá trị (ví dụ: 110)",
+    "valuePlaceholderMmol": "Nhập giá trị (ví dụ: 6.1)",
+    "timing": "Thời gian đọc",
+    "mealContext": "Bối cảnh bữa ăn / Ghi chú",
+    "mealContextPlaceholder": "Bạn đã ăn gì? Bạn cảm thấy thế nào?",
+    "submit": "Lưu đọc",
+    "success": "Đọc glucose được lưu thành công!",
+    "targets": {
+      "title": "Phạm vi mục tiêu tiêu chuẩn (mg/dL)",
+      "fasting": "Lúc đói: 80-130 mg/dL",
+      "postMeal": "1-2h sau bữa ăn: < 180 mg/dL",
+      "low": "Thấp: < 70 mg/dL"
+    },
+    "recent": {
+      "title": "Bài đọc gần đây",
+      "noReadings": "Chưa có bài đọc nào được ghi lại",
+      "trend": "Xu hướng Glucose (7 lần đọc gần đây nhất)",
+      "targetMax": "Mục tiêu tối đa (Nhịn ăn)",
+      "targetPost": "Mục tiêu tối đa (Sau bữa ăn)"
+    }
+  },
+  "status": {
+    "normal": "Bình thường",
+    "high": "Cao",
+    "low": "Thấp"
+  },
+  "timing": {
+    "fasting": "Nhịn ăn/Trước bữa ăn",
+    "preMeal": "Trước bữa ăn",
+    "postMeal1h": "1h sau bữa ăn",
+    "postMeal2h": "2h sau bữa ăn",
+    "bedtime": "Giờ đi ngủ"
+  },
+  "plate": {
+    "intro": {
+      "title": "Phương pháp đĩa trị tiểu đường",
+      "desc": "Phương pháp đĩa là một cách đơn giản để lập kế hoạch bữa ăn mà không cần đếm. Nó tập trung vào việc kiểm soát và cân bằng khẩu phần ăn để giúp quản lý lượng đường trong máu."
+    },
+    "build": {
+      "title": "Xây dựng đĩa của bạn",
+      "hint": "Nhấp vào một phần để xem các loại thực phẩm được đề xuất"
+    },
+    "categories": {
+      "veggies": {
+        "name": "Rau không chứa tinh bột",
+        "percent": "50%",
+        "desc": "Đổ đầy nửa đĩa của bạn với các loại rau nhiều màu sắc, giàu chất xơ"
+      },
+      "protein": {
+        "name": "Protein nạc",
+        "percent": "25%",
+        "desc": "Đổ đầy một phần tư bằng nguồn protein nạc"
+      },
+      "carbs": {
+        "name": "Carbs lành mạnh",
+        "percent": "25%",
+        "desc": "Đổ đầy một phần tư ngũ cốc nguyên hạt hoặc rau có tinh bột"
+      }
+    },
+    "principles": {
+      "title": "Nguyên tắc phương pháp tấm",
+      "veggies": {
+        "title": "Rau đầu tiên",
+        "desc": "Ăn rau trước để làm chậm quá trình hấp thụ glucose từ phần còn lại của bữa ăn."
+      },
+      "protein": {
+        "title": "Protein chất lượng",
+        "desc": "Chọn các lựa chọn nạc để hỗ trợ duy trì cơ bắp mà không có quá nhiều chất béo bão hòa."
+      },
+      "carbs": {
+        "title": "Carbs chánh niệm",
+        "desc": "Hãy chọn những loại carbohydrate phức hợp có tác động thấp hơn đến lượng đường trong máu tăng đột biến."
+      }
+    }
+  },
+  "gi": {
+    "intro": {
+      "title": "Tra cứu chỉ số đường huyết (GI)",
+      "desc": "Chỉ số Đường huyết xếp hạng carbohydrate theo mức độ chúng làm tăng mức đường huyết so với thực phẩm tham chiếu.",
+      "low": "Thấp (0-55)",
+      "medium": "Trung bình (56-69)",
+      "high": "Cao (70+)"
+    },
+    "labels": {
+      "low": "GI thấp",
+      "medium": "GI trung bình",
+      "high": "GI cao"
+    },
+    "search": "Tìm kiếm thực phẩm (ví dụ: yến mạch, chuối ...)",
+    "noResults": "Không tìm thấy thực phẩm phù hợp với tìm kiếm của bạn"
+  },
+  "foods": {
+    "Spinach": "rau chân vịt",
+    "Broccoli": "bông cải xanh",
+    "Cauliflower": "Súp lơ",
+    "Bell Peppers": "Ớt chuông",
+    "Zucchini": "bí xanh",
+    "Asparagus": "măng tây",
+    "Cucumber": "dưa chuột",
+    "Tomatoes": "cà chua",
+    "Chicken Breast": "Ức gà",
+    "Fish (Salmon, Tuna)": "Cá (Cá hồi, cá ngừ)",
+    "Tofu": "Đậu hũ",
+    "Lentils": "đậu lăng",
+    "Eggs": "Trứng",
+    "Turkey": "Thổ Nhĩ Kỳ",
+    "Greek Yogurt": "Sữa Chua Hy Lạp",
+    "Brown Rice": "Gạo lứt",
+    "Quinoa": "diêm mạch",
+    "Sweet Potato": "khoai lang",
+    "Whole Wheat Pasta": "mì ống nguyên hạt",
+    "Oats": "Yến mạch",
+    "Barley": "lúa mạch"
+  }
+}

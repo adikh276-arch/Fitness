@@ -1,0 +1,141 @@
+{
+  "header": {
+    "title": "Ghid pentru sănătatea inimii",
+    "subtitle": "Urmărește elementele vitale, învață dieta DASH și construiește obiceiuri sănătoase pentru inimă",
+    "back": "Înapoi la Tabloul de bord"
+  },
+  "alerts": {
+    "crisis": {
+      "title": "AVERTISMENT DE CRISĂ HIPERTENSIVĂ",
+      "desc": "Citirea tensiunii arteriale este periculos de ridicată (≥180/120). Acest lucru necesită asistență medicală imediată."
+    },
+    "vitals": {
+      "invalid": "Vă rugăm să introduceți valori valide",
+      "success": "Citire înregistrată: {{sys}}/{{dia}} - {{category}}"
+    }
+  },
+  "tabs": {
+    "dash": "Dieta DASH",
+    "vitals": "Jurnalul vital",
+    "habits": "Obiceiuri ale inimii"
+  },
+  "vitals": {
+    "form": {
+      "title": "Înregistrează-ți datele vitale",
+      "bp": {
+        "label": "Tensiunea arterială",
+        "systolic": "sistolică",
+        "systolic_desc": "Numărul de top",
+        "diastolic": "Diastolic",
+        "diastolic_desc": "Numărul de jos"
+      },
+      "heart_rate": {
+        "label": "Ritmul cardiac de repaus (BPM)",
+        "placeholder": "de exemplu, 72"
+      },
+      "submit": "Citirea jurnalului"
+    },
+    "recent": {
+      "title": "Lecturi recente",
+      "empty": "Încă nu au fost înregistrate lecturi",
+      "bpm": "{{count}} BPM"
+    },
+    "chart": {
+      "title": "Tendința tensiunii arteriale pe 7 zile",
+      "systolic": "sistolică",
+      "diastolic": "Diastolic"
+    },
+    "guidelines": {
+      "title": "Categorii de tensiune arterială AHA:",
+      "normal": "Normal: <120/80",
+      "elevated": "Ridicat: 120-129/<80",
+      "stage1": "Etapa 1: 130-139/80-89",
+      "stage2": "Etapa 2: ≥140/90"
+    },
+    "categories": {
+      "crisis": "Criza hipertensivă",
+      "stage2": "Hipertensiune arterială Etapa 2",
+      "stage1": "Hipertensiune arterială stadiul 1",
+      "elevated": "Ridicat",
+      "normal": "Normal",
+      "unknown": "Necunoscut"
+    }
+  },
+  "dash": {
+    "intro": {
+      "title": "Dieta DASH",
+      "desc": "Abordări dietetice pentru a opri hipertensiunea arterială - Un plan alimentar dovedit științific care scade tensiunea arterială în mod natural."
+    },
+    "principles": {
+      "sodium": {
+        "title": "Limita de sodiu",
+        "limit": "<2.300 mg pe zi",
+        "high_risk": "(Sau 1.500 mg pentru persoanele cu risc ridicat)",
+        "desc": "Excesul de sodiu provoacă retenție de apă, crescând volumul sanguin și presiunea pe pereții arterelor."
+      },
+      "potassium": {
+        "title": "Puterea de potasiu",
+        "limit": "4.700 mg pe zi",
+        "source": "Din alimente integrale"
+      },
+      "magnesium": {
+        "title": "Magneziu și fibre",
+        "limit": "500mg Mg / 25-35g Fibre",
+        "target": "Obiective zilnice"
+      }
+    },
+    "scanner": {
+      "title": "⚠️ Scaner de sodiu ascuns: Alimente „Sarea mascate”.",
+      "subtitle": "Aceste alimente aparent inocente conțin mai mult sodiu decât credeți:",
+      "swaps": {
+        "title": "💡 Schimburi prietenoase cu DASH:"
+      }
+    }
+  },
+  "habits": {
+    "vitality": {
+      "title": "Scorul de vitalitate",
+      "start": "Începeți să vă construiți o serie sănătoasă pentru inimă!",
+      "streak_good": "🔥 {{count}} zile consecutive! Inima ta prosperă",
+      "streak_continue": "{{count}} zile - Continuați!",
+      "streak_continue_singular": "{{count}} zi - Continuați!",
+      "days": "sira zilei",
+      "goal": "{{count}} / obiectiv de 30 de zile"
+    },
+    "checklist": {
+      "title": "Lista de verificare cardio zilnică",
+      "subtitle": "Completați aceste obiceiuri zilnic pentru a vă dezvolta puterea cardiovasculară",
+      "items": {
+        "cardio": {
+          "label": "30 de minute Zona 2 Cardio",
+          "desc": "Plimbare rapidă, ciclism sau înot în ritm conversațional"
+        },
+        "low_sodium": {
+          "label": "A rămas sub limita de sodiu",
+          "desc": "<2.300 mg (sau 1.500 mg dacă prezintă risc crescut)"
+        },
+        "no_salt": {
+          "label": "Fara sare adaugata la masa",
+          "desc": "Lasă aromele naturale ale alimentelor să strălucească"
+        },
+        "meds": {
+          "label": "Medicamente luate (opțional)",
+          "desc": "Pentru cei care iau medicamente pentru BP"
+        }
+      }
+    },
+    "tips": {
+      "title": "Elemente esențiale pentru sănătatea inimii"
+    }
+  },
+  "foods": {
+    "canned_soup": "Supă conservată (1 cană)",
+    "deli_turkey": "Deli cu curcan (2 oz)",
+    "white_bread": "Pâine albă (2 felii)",
+    "frozen_pizza": "Pizza congelata (1 felie)",
+    "soy_sauce": "Sos de soia (1 lingura)",
+    "cottage_cheese": "Brânză de vaci (1/2 cană)",
+    "pickles": "Murături (1 mediu)",
+    "salad_dressing": "Sos pentru salată (2 linguri)"
+  }
+}

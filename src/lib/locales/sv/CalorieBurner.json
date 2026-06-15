@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "back": "Tillbaka till Dashboard"
+  },
+  "header": {
+    "title": "Kaloribrännare",
+    "subtitle": "Spåra förbrända kalorier under dina aktiviteter"
+  },
+  "tabs": {
+    "calculator": "Miniräknare",
+    "log": "Aktivitetslogg ({{count}})"
+  },
+  "calculator": {
+    "form": {
+      "title": "Aktivitetsinformation",
+      "selectActivity": "Välj Aktivitet",
+      "weight": "Din vikt",
+      "duration": "Varaktighet (minuter)",
+      "placeholders": {
+        "weightKg": "t.ex. 70",
+        "weightLbs": "t.ex. 154"
+      },
+      "submit": "Logga aktivitet"
+    },
+    "summary": {
+      "title": "Bränn sammanfattning",
+      "calories": "Förbrända kalorier",
+      "activity": "Aktivitet",
+      "duration": "Varaktighet",
+      "weight": "Vikt",
+      "burnRate": "Kaloriförbränningshastighet",
+      "formula": "Formel: (MET × 3,5 × Vikt kg / 200) × Längd min"
+    }
+  },
+  "log": {
+    "noActivities": "Inga aktiviteter loggade än",
+    "noActivitiesDesc": "Börja spåra dina träningspass för att se dem här",
+    "logFirst": "Logga din första aktivitet",
+    "summary": {
+      "title": "Total sammanfattning",
+      "totalActivities": "Totala aktiviteter",
+      "totalCalories": "Totala kalorier",
+      "totalTime": "Total tid",
+      "avgSession": "Genomsnittlig kal/session"
+    },
+    "item": {
+      "duration": "Varaktighet",
+      "met": "MET",
+      "calories": "Kalorier",
+      "minutes": "min"
+    }
+  },
+  "activities": {
+    "walking": "Promenader (Risk)",
+    "running": "Löpning (9 min/mil)",
+    "cycling": "Cykling (måttlig)",
+    "yoga": "Yoga",
+    "swimming": "Simning (varv)",
+    "strength": "Styrketräning",
+    "household": "Hushållssysslor",
+    "dance": "Dans/Aerobics"
+  }
+}

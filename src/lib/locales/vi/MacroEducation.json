@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "back": "Quay lại Trang tổng quan"
+  },
+  "header": {
+    "title": "Hiểu biết về các chất dinh dưỡng vĩ mô",
+    "subtitle": "Tìm hiểu các nguyên tắc cơ bản về protein, carbs và chất béo"
+  },
+  "tabs": {
+    "protein": "chất đạm",
+    "carbs": "Carb",
+    "fats": "Chất béo",
+    "plate": "Người tạo tấm"
+  },
+  "protein": {
+    "title": "chất đạm",
+    "kcal": "4 kcal/gram",
+    "whyMatters": {
+      "title": "Tại sao nó quan trọng:",
+      "muscle": {
+        "title": "Sửa chữa và tăng trưởng cơ bắp:",
+        "desc": "Cần thiết cho việc xây dựng và duy trì khối lượng cơ nạc"
+      },
+      "satiety": {
+        "title": "Cảm giác no:",
+        "desc": "Giúp bạn cảm thấy no lâu hơn, giảm lượng calo tổng thể"
+      },
+      "metabolic": {
+        "title": "Tăng cường trao đổi chất:",
+        "desc": "Hiệu ứng nhiệt cao nhất trong tất cả các loại macro (20-30% lượng calo đốt cháy trong quá trình tiêu hóa)"
+      }
+    },
+    "target": {
+      "title": "Mục tiêu hàng ngày:",
+      "desc": "Để duy trì sức khỏe và cơ bắp tối ưu, hãy nhắm tới mục tiêu <1>1,6-2,2 g mỗi kg</1> trọng lượng cơ thể. Các vận động viên và những người xây dựng cơ bắp có thể cần tới 2,5g/kg."
+    },
+    "sources": "Nguồn Protein hàng đầu:"
+  },
+  "carbs": {
+    "title": "Carbohydrate",
+    "kcal": "4 kcal/gram",
+    "whyMatters": {
+      "title": "Tại sao nó quan trọng:",
+      "energy": {
+        "title": "Nguồn năng lượng sơ cấp:",
+        "desc": "Nhiên liệu ưa thích của cơ thể bạn cho hoạt động trí não và thể chất"
+      },
+      "performance": {
+        "title": "Hiệu suất:",
+        "desc": "Quan trọng đối với hoạt động tập luyện cường độ cao và thể thao"
+      },
+      "nutrients": {
+        "title": "Chất xơ & Chất dinh dưỡng:",
+        "desc": "Carbs nguyên chất cung cấp các vitamin, khoáng chất thiết yếu và sức khỏe tiêu hóa"
+      }
+    },
+    "target": {
+      "title": "Mục tiêu hàng ngày:",
+      "desc": "Đối với những người năng động, hãy nhắm tới mục tiêu <1>3-6g mỗi kg</1> trọng lượng cơ thể. Những người ít vận động có thể cần ít hơn (2-3g/kg). Tập trung vào các nguồn thực phẩm toàn phần, phức tạp."
+    },
+    "sources": "Nguồn Carb hàng đầu:"
+  },
+  "fats": {
+    "title": "Chất béo",
+    "kcal": "9 kcal/gram",
+    "whyMatters": {
+      "title": "Tại sao nó quan trọng:",
+      "hormone": {
+        "title": "Sản xuất nội tiết tố:",
+        "desc": "Cần thiết cho testosterone, estrogen và các hormone quan trọng khác"
+      },
+      "vitamin": {
+        "title": "Hấp thụ vitamin:",
+        "desc": "Cần thiết để hấp thụ các vitamin tan trong chất béo (A, D, E, K)"
+      },
+      "brain": {
+        "title": "Sức khỏe não bộ:",
+        "desc": "Não của bạn có 60% là chất béo - omega-3 rất quan trọng đối với chức năng nhận thức"
+      }
+    },
+    "target": {
+      "title": "Mục tiêu hàng ngày:",
+      "desc": "Đặt mục tiêu <1>0,8-1,2g mỗi kg</1> trọng lượng cơ thể hoặc 20-35% tổng lượng calo. Ưu tiên chất béo không bão hòa (dầu ô liu, các loại hạt, cá) hơn chất béo bão hòa."
+    },
+    "sources": "Nguồn chất béo hàng đầu:"
+  },
+  "plate": {
+    "title": "Xây dựng bữa ăn cân bằng của bạn",
+    "legend": {
+      "protein": "Chất đạm {{val}}%",
+      "carbs": "Carb {{val}}%",
+      "fats": "Chất béo {{val}}%"
+    },
+    "sliders": {
+      "protein": {
+        "title": "chất đạm",
+        "desc": "Cơ bắp & cảm giác no"
+      },
+      "carbs": {
+        "title": "Carbohydrate",
+        "desc": "Năng lượng & hiệu suất"
+      },
+      "fats": {
+        "title": "Chất béo",
+        "desc": "Hormon và vitamin"
+      }
+    },
+    "calories": {
+      "title": "Lượng calo ước tính",
+      "subtitle": "(dựa trên phần 200g)",
+      "unit": "kcal"
+    },
+    "warning": {
+      "title": "Khuyến nghị số dư",
+      "desc": "Để có chế độ dinh dưỡng tối ưu: Hãy nhắm tới ít nhất 15-25% protein (cơ bắp và cảm giác no), 20-35% chất béo lành mạnh (hormone) và 40-60% carbs (năng lượng). Điều chỉnh tỷ lệ của bạn để đáp ứng các mục tiêu này."
+    }
+  },
+  "foods": {
+    "chicken": "Ức gà",
+    "yogurt": "Sữa Chua Hy Lạp",
+    "eggs": "Trứng",
+    "eggUnit": "1 quả trứng = 6g protein",
+    "salmon": "cá hồi",
+    "lentils": "đậu lăng",
+    "tofu": "Đậu hũ",
+    "rice": "Gạo lứt",
+    "oats": "Yến mạch",
+    "potato": "khoai lang",
+    "quinoa": "diêm mạch",
+    "banana": "chuối",
+    "bananaUnit": "1 vừa = 27g carbs",
+    "bread": "Bánh mì nguyên cám",
+    "breadUnit": "1 lát = 12g carbs",
+    "avocado": "quả bơ",
+    "almonds": "hạnh nhân",
+    "almondsUnit": "28g = 14g chất béo",
+    "oil": "Dầu ô liu",
+    "oilUnit": "1 muỗng canh = 14g chất béo",
+    "peanutButter": "Bơ đậu phộng",
+    "pbUnit": "2 muỗng canh = 16g chất béo",
+    "chocolate": "Sôcôla đen",
+    "chocolateUnit": "28g = 9g chất béo",
+    "unit100g": "100g = {{val}}g {{vĩ mô}}"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "back": "Tillbaka till Dashboard"
+  },
+  "header": {
+    "title": "Guide för viktminskning",
+    "subtitle": "Din kompletta guide till hållbar viktminskning"
+  },
+  "tabs": {
+    "plan": "Planen",
+    "tracker": "Spårare",
+    "habits": "Vanor"
+  },
+  "plan": {
+    "goldenRule": {
+      "title": "Den gyllene regeln",
+      "subtitle": "Kaloriunderskott vs. näringstäthet",
+      "desc": "Viktminskning kräver ett kaloriunderskott, men kvaliteten på dessa kalorier spelar lika stor roll som kvantiteten. Fokusera på näringstäta hela livsmedel som håller dig nöjd samtidigt som du skapar det underskott som behövs för fettminskning."
+    },
+    "proteinFirst": {
+      "title": "Protein först",
+      "subtitle": "Varför 1,2 g–1,6 g protein per kg inte är förhandlingsbart för fettförlust:",
+      "muscle": "Bevarar muskelmassa under kaloribegränsning",
+      "thermic": "Högre termisk effekt (30 % av proteinkalorierna förbränns under matsmältningen)",
+      "satiety": "Ökad mättnad hjälper dig att känna dig mätt längre",
+      "sugar": "Stabiliserar blodsockret och minskar suget"
+    },
+    "plateMethod": {
+      "title": "Plattmetoden",
+      "subtitle": "En enkel visuell guide för balanserade måltider som främjar fettförlust:",
+      "veg": {
+        "title": "Grönsaker",
+        "desc": "Icke-stärkelsehaltiga grönsaker för volym och näringsämnen"
+      },
+      "protein": {
+        "title": "Protein",
+        "desc": "Magert kött, fisk, ägg eller växtbaserade källor"
+      },
+      "carbs": {
+        "title": "Fiberrika kolhydrater",
+        "desc": "Fullkorn, sötpotatis, quinoa, baljväxter"
+      }
+    },
+    "hiddenFactors": {
+      "title": "De dolda faktorerna",
+      "hydration": {
+        "title": "Hydrering",
+        "desc": "Korrekt hydrering hjälper:"
+      },
+      "sleep": {
+        "title": "Sömn (7+ timmar)",
+        "desc": "Kvalitetssömn reglerar:"
+      }
+    }
+  },
+  "tracker": {
+    "progress": {
+      "title": "Dina framsteg",
+      "change": "Ändra mål",
+      "lost": "Gå ner i vikt",
+      "remaining": "Kvar",
+      "percent": "Framsteg",
+      "complete": "Komplett"
+    },
+    "log": {
+      "title": "Logga dagens mätvärden",
+      "weight": "Aktuell vikt (kg)",
+      "chest": "Bröst (tum, valfritt)",
+      "waist": "Midja (tum, valfritt)",
+      "hips": "Höfter (tum, valfritt)",
+      "placeholder": "t.ex. {{val}}",
+      "submit": "Logga mätvärden"
+    },
+    "history": {
+      "title": "Statistik Historia",
+      "total": "Totala loggar",
+      "first": "Första vikten",
+      "latest": "Senaste vikt",
+      "unit": "kg",
+      "inches": "tum",
+      "chest": "bröstet",
+      "waist": "midja",
+      "hips": "höfter"
+    }
+  },
+  "habits": {
+    "consistency": {
+      "title": "Veckovis konsistens",
+      "subtitle": "Fortsätt bygga upp dessa hälsosamma vanor!"
+    },
+    "today": {
+      "title": "Dagens vanor",
+      "subtitle": "Bocka av varje vana när du slutför den idag",
+      "protein": {
+        "label": "Nå proteinmålet",
+        "desc": "1,2-1,6g per kg kroppsvikt"
+      },
+      "noSugar": {
+        "label": "Inga sockerdrycker",
+        "desc": "Endast vatten, te eller svart kaffe"
+      },
+      "walk": {
+        "label": "10 minuters promenad efter måltiden",
+        "desc": "Lätt aktivitet efter att ha ätit"
+      },
+      "sleep": {
+        "label": "7+ timmars sömn",
+        "desc": "Kvalitetsvila för återhämtning"
+      }
+    },
+    "tracker30": {
+      "title": "30-dagars vanespårare",
+      "legend": {
+        "none": "Inga",
+        "low": "1",
+        "mid": "2-3",
+        "high": "3",
+        "all": "Alla 4"
+      }
+    },
+    "whyMatters": {
+      "title": "Varför dessa vanor är viktiga",
+      "protein": "Proteinintag bevarar muskler och ökar mättnaden under viktminskning",
+      "noSugar": "Att undvika sockerdrycker eliminerar tomma kalorier och minskar insulinspikar",
+      "walk": "Promenader efter måltid förbättrar insulinkänsligheten och hjälper matsmältningen",
+      "sleep": "Kvalitetssömn reglerar hungerhormoner och stöder fettminskning"
+    }
+  },
+  "modal": {
+    "title": "Sätt upp dina mål",
+    "subtitle": "Låt oss anpassa din viktminskningsresa",
+    "start": "Startvikt (kg)",
+    "target": "Målvikt (kg)",
+    "date": "Måldatum",
+    "save": "Spara mål",
+    "fillAll": "Vänligen fyll i alla fält"
+  }
+}

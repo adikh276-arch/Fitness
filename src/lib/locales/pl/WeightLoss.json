@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "back": "Powrót do Panelu"
+  },
+  "header": {
+    "title": "Przewodnik dotyczący utraty wagi",
+    "subtitle": "Twój kompletny przewodnik po zrównoważonej utracie wagi"
+  },
+  "tabs": {
+    "plan": "Plan",
+    "tracker": "Śledzenie",
+    "habits": "Nawyki"
+  },
+  "plan": {
+    "goldenRule": {
+      "title": "Złota zasada",
+      "subtitle": "Deficyt kalorii a gęstość składników odżywczych",
+      "desc": "Utrata masy ciała wymaga deficytu kalorii, ale jakość tych kalorii jest równie ważna jak ilość. Skoncentruj się na pełnowartościowych produktach spożywczych o dużej zawartości składników odżywczych, które zapewnią Ci uczucie sytości, jednocześnie tworząc deficyt niezbędny do utraty tłuszczu."
+    },
+    "proteinFirst": {
+      "title": "Najpierw białko",
+      "subtitle": "Dlaczego 1,2–1,6 g białka na kg nie podlega negocjacjom w przypadku utraty tłuszczu:",
+      "muscle": "Utrzymuje masę mięśniową podczas ograniczenia kalorii",
+      "thermic": "Wyższy efekt termiczny (30% kalorii białkowych spalonych podczas trawienia)",
+      "satiety": "Zwiększona sytość pomaga dłużej czuć się sytym",
+      "sugar": "Stabilizuje poziom cukru we krwi i zmniejsza apetyt"
+    },
+    "plateMethod": {
+      "title": "Metoda płytkowa",
+      "subtitle": "Prosty wizualny przewodnik po zbilansowanych posiłkach wspomagających utratę tłuszczu:",
+      "veg": {
+        "title": "Warzywa",
+        "desc": "Warzywa nieskrobiowe zwiększające objętość i składniki odżywcze"
+      },
+      "protein": {
+        "title": "Białko",
+        "desc": "Chude mięso, ryby, jaja lub źródła roślinne"
+      },
+      "carbs": {
+        "title": "Węglowodany bogate w błonnik",
+        "desc": "Całe ziarna, słodkie ziemniaki, komosa ryżowa, rośliny strączkowe"
+      }
+    },
+    "hiddenFactors": {
+      "title": "Ukryte czynniki",
+      "hydration": {
+        "title": "Nawilżenie",
+        "desc": "Prawidłowe nawodnienie pomaga:"
+      },
+      "sleep": {
+        "title": "Sen (ponad 7 godzin)",
+        "desc": "Jakość snu reguluje:"
+      }
+    }
+  },
+  "tracker": {
+    "progress": {
+      "title": "Twój postęp",
+      "change": "Zmień cele",
+      "lost": "Utrata wagi",
+      "remaining": "Pozostało",
+      "percent": "Postęp",
+      "complete": "Kompletny"
+    },
+    "log": {
+      "title": "Rejestruj dzisiejsze wskaźniki",
+      "weight": "Aktualna waga (kg)",
+      "chest": "Klatka piersiowa (cale, opcjonalnie)",
+      "waist": "Talia (cale, opcjonalnie)",
+      "hips": "Biodra (cale, opcjonalnie)",
+      "placeholder": "np. {{val}}",
+      "submit": "Metryki dziennika"
+    },
+    "history": {
+      "title": "Historia metryk",
+      "total": "Łączna liczba dzienników",
+      "first": "Pierwsza waga",
+      "latest": "Najnowsza waga",
+      "unit": "kg",
+      "inches": "cale",
+      "chest": "klatka piersiowa",
+      "waist": "talia",
+      "hips": "biodra"
+    }
+  },
+  "habits": {
+    "consistency": {
+      "title": "Tygodniowa spójność",
+      "subtitle": "Kontynuuj budowanie tych zdrowych nawyków!"
+    },
+    "today": {
+      "title": "Dzisiejsze nawyki",
+      "subtitle": "Sprawdź każdy nawyk, realizując go już dziś",
+      "protein": {
+        "label": "Osiągnij cel dotyczący białka",
+        "desc": "1,2-1,6 g na kg masy ciała"
+      },
+      "noSugar": {
+        "label": "Żadnych słodkich napojów",
+        "desc": "Tylko woda, herbata lub czarna kawa"
+      },
+      "walk": {
+        "label": "10-minutowy spacer po posiłku",
+        "desc": "Lekka aktywność po jedzeniu"
+      },
+      "sleep": {
+        "label": "Ponad 7 godzin snu",
+        "desc": "Wysokiej jakości odpoczynek w celu regeneracji"
+      }
+    },
+    "tracker30": {
+      "title": "30-dniowy monitor nawyków",
+      "legend": {
+        "none": "Żadne",
+        "low": "1",
+        "mid": "2-3",
+        "high": "3",
+        "all": "Wszystkie 4"
+      }
+    },
+    "whyMatters": {
+      "title": "Dlaczego te nawyki mają znaczenie",
+      "protein": "Spożycie białka chroni mięśnie i zwiększa uczucie sytości podczas utraty wagi",
+      "noSugar": "Unikanie napojów słodzonych eliminuje puste kalorie i zmniejsza skoki insuliny",
+      "walk": "Spacery po posiłku poprawiają wrażliwość na insulinę i wspomagają trawienie",
+      "sleep": "Wysokiej jakości sen reguluje hormony głodu i wspomaga utratę tłuszczu"
+    }
+  },
+  "modal": {
+    "title": "Ustaw swoje cele",
+    "subtitle": "Spersonalizujmy Twoją podróż odchudzania",
+    "start": "Masa początkowa (kg)",
+    "target": "Waga docelowa (kg)",
+    "date": "Data docelowa",
+    "save": "Zapisz cel",
+    "fillAll": "Proszę wypełnić wszystkie pola"
+  }
+}

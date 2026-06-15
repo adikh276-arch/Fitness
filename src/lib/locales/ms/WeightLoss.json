@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "back": "Kembali ke Papan Pemuka"
+  },
+  "header": {
+    "title": "Panduan Menurunkan Berat Badan",
+    "subtitle": "Panduan lengkap anda untuk penurunan berat badan yang mampan"
+  },
+  "tabs": {
+    "plan": "Rancangan",
+    "tracker": "Penjejak",
+    "habits": "Tabiat"
+  },
+  "plan": {
+    "goldenRule": {
+      "title": "Peraturan Emas",
+      "subtitle": "Defisit Kalori lwn Ketumpatan Nutrien",
+      "desc": "Penurunan berat badan memerlukan defisit kalori, tetapi kualiti kalori tersebut penting sama seperti kuantiti. Fokus pada makanan keseluruhan padat nutrien yang membuatkan anda berpuas hati sambil mencipta defisit yang diperlukan untuk kehilangan lemak."
+    },
+    "proteinFirst": {
+      "title": "Protein Pertama",
+      "subtitle": "Mengapa 1.2g–1.6g protein setiap kg tidak boleh dirundingkan untuk kehilangan lemak:",
+      "muscle": "Memelihara jisim otot semasa sekatan kalori",
+      "thermic": "Kesan terma yang lebih tinggi (30% kalori protein dibakar semasa penghadaman)",
+      "satiety": "Rasa kenyang yang bertambah membantu anda berasa kenyang lebih lama",
+      "sugar": "Menstabilkan gula dalam darah dan mengurangkan keinginan"
+    },
+    "plateMethod": {
+      "title": "Kaedah Plat",
+      "subtitle": "Panduan visual ringkas untuk makanan seimbang yang menggalakkan kehilangan lemak:",
+      "veg": {
+        "title": "Sayur-sayuran",
+        "desc": "Sayuran tidak berkanji untuk isipadu dan nutrien"
+      },
+      "protein": {
+        "title": "Protein",
+        "desc": "Daging tanpa lemak, ikan, telur atau sumber berasaskan tumbuhan"
+      },
+      "carbs": {
+        "title": "Karbohidrat Kaya Serat",
+        "desc": "Bijirin penuh, keledek, quinoa, kekacang"
+      }
+    },
+    "hiddenFactors": {
+      "title": "Faktor Tersembunyi",
+      "hydration": {
+        "title": "Penghidratan",
+        "desc": "Penghidratan yang betul membantu:"
+      },
+      "sleep": {
+        "title": "Tidur (7+ Jam)",
+        "desc": "Tidur berkualiti mengawal:"
+      }
+    }
+  },
+  "tracker": {
+    "progress": {
+      "title": "Kemajuan Anda",
+      "change": "Tukar Matlamat",
+      "lost": "Berat Badan Hilang",
+      "remaining": "yang tinggal",
+      "percent": "Kemajuan",
+      "complete": "lengkap"
+    },
+    "log": {
+      "title": "Log Metrik Hari Ini",
+      "weight": "Berat Semasa (kg)",
+      "chest": "Dada (inci, Pilihan)",
+      "waist": "Pinggang (inci, Pilihan)",
+      "hips": "Pinggul (inci, Pilihan)",
+      "placeholder": "cth., {{val}}",
+      "submit": "Metrik Log"
+    },
+    "history": {
+      "title": "Sejarah Metrik",
+      "total": "Jumlah Log",
+      "first": "Berat Pertama",
+      "latest": "Berat Terkini",
+      "unit": "kg",
+      "inches": "inci",
+      "chest": "dada",
+      "waist": "pinggang",
+      "hips": "pinggul"
+    }
+  },
+  "habits": {
+    "consistency": {
+      "title": "Konsisten Mingguan",
+      "subtitle": "Teruskan membina tabiat sihat itu!"
+    },
+    "today": {
+      "title": "Tabiat Hari Ini",
+      "subtitle": "Semak setiap tabiat semasa anda menyelesaikannya hari ini",
+      "protein": {
+        "label": "Tekan Matlamat Protein",
+        "desc": "1.2-1.6g setiap kg berat badan"
+      },
+      "noSugar": {
+        "label": "Tiada Minuman Bergula",
+        "desc": "Air, teh atau kopi hitam sahaja"
+      },
+      "walk": {
+        "label": "10-Min Selepas Makan Berjalan",
+        "desc": "Aktiviti ringan selepas makan"
+      },
+      "sleep": {
+        "label": "7+ Jam Tidur",
+        "desc": "Rehat berkualiti untuk pemulihan"
+      }
+    },
+    "tracker30": {
+      "title": "Penjejak Tabiat 30 Hari",
+      "legend": {
+        "none": "tiada",
+        "low": "1",
+        "mid": "2-3",
+        "high": "3",
+        "all": "Semua 4"
+      }
+    },
+    "whyMatters": {
+      "title": "Mengapa Tabiat Ini Penting",
+      "protein": "Pengambilan protein memelihara otot dan meningkatkan rasa kenyang semasa penurunan berat badan",
+      "noSugar": "Mengelakkan minuman gula menghilangkan kalori kosong dan mengurangkan pancang insulin",
+      "walk": "Jalan-jalan selepas makan meningkatkan kepekaan insulin dan membantu penghadaman",
+      "sleep": "Tidur yang berkualiti mengawal hormon kelaparan dan menyokong kehilangan lemak"
+    }
+  },
+  "modal": {
+    "title": "Tetapkan Matlamat Anda",
+    "subtitle": "Mari peribadikan perjalanan penurunan berat badan anda",
+    "start": "Berat Permulaan (kg)",
+    "target": "Berat Sasaran (kg)",
+    "date": "Tarikh Sasaran",
+    "save": "Simpan Matlamat",
+    "fillAll": "Sila isi semua ruangan"
+  }
+}

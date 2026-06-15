@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "back": "返回仪表板"
+  },
+  "header": {
+    "title": "卡路里燃烧器",
+    "subtitle": "追踪活动期间消耗的卡路里"
+  },
+  "tabs": {
+    "calculator": "计算器",
+    "log": "活动日志 ({{count}})"
+  },
+  "calculator": {
+    "form": {
+      "title": "活动详情",
+      "selectActivity": "选择活动",
+      "weight": "你的体重",
+      "duration": "持续时间（分钟）",
+      "placeholders": {
+        "weightKg": "例如，70",
+        "weightLbs": "例如，154"
+      },
+      "submit": "记录活动"
+    },
+    "summary": {
+      "title": "烧伤总结",
+      "calories": "燃烧的卡路里",
+      "activity": "活动",
+      "duration": "持续时间",
+      "weight": "重量",
+      "burnRate": "卡路里燃烧率",
+      "formula": "公式：（MET × 3.5 × 体重 kg / 200） × 持续时间分钟"
+    }
+  },
+  "log": {
+    "noActivities": "尚未记录任何活动",
+    "noActivitiesDesc": "开始跟踪您的锻炼并在此处查看它们",
+    "logFirst": "记录您的第一个活动",
+    "summary": {
+      "title": "总摘要",
+      "totalActivities": "总活动",
+      "totalCalories": "总卡路里",
+      "totalTime": "总时间",
+      "avgSession": "平均校准/会话"
+    },
+    "item": {
+      "duration": "持续时间",
+      "met": "梅特",
+      "calories": "卡路里",
+      "minutes": "分钟"
+    }
+  },
+  "activities": {
+    "walking": "步行（轻快）",
+    "running": "跑步（9 分钟/英里）",
+    "cycling": "骑自行车（中等）",
+    "yoga": "瑜伽",
+    "swimming": "游泳（圈）",
+    "strength": "力量训练",
+    "household": "家务事",
+    "dance": "舞蹈/健美操"
+  }
+}

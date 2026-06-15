@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "back": "Bumalik sa Dashboard"
+  },
+  "header": {
+    "title": "Smart BMI at Konteksto ng Katawan",
+    "subtitle": "Subaybayan ang mga sukatan ng iyong katawan nang may klinikal na katumpakan"
+  },
+  "streak": {
+    "title": "Pinapanatili ang Malusog na Saklaw!",
+    "subtitle": "{{count}} magkakasunod na pagbabasa sa healthy zone 🎉"
+  },
+  "tabs": {
+    "calculator": "BMI Calculator",
+    "context": "Lampas sa BMI",
+    "history": "Kasaysayan ng Trend"
+  },
+  "calculator": {
+    "title": "Kalkulahin ang Iyong BMI",
+    "inputs": {
+      "height": "taas",
+      "weight": "Timbang",
+      "feet": "Mga paa",
+      "inches": "pulgada",
+      "placeholders": {
+        "heightCm": "hal., 170",
+        "heightFt": "Mga paa",
+        "heightIn": "pulgada",
+        "weightKg": "hal., 70",
+        "weightLbs": "hal., 154"
+      }
+    },
+    "results": {
+      "yourBMI": "Ang iyong BMI",
+      "placeholder": "Ilagay ang iyong mga sukat upang makita ang iyong BMI",
+      "submit": "I-save sa Profile",
+      "success": "✓ Matagumpay na na-save!",
+      "categories": {
+        "underweight": "kulang sa timbang",
+        "healthy": "Malusog na Timbang",
+        "normal": "Normal",
+        "overweight": "Sobra sa timbang",
+        "obese": "Napakataba",
+        "enterData": "Ipasok ang data"
+      }
+    },
+    "tip": "Isaalang-alang ang pagsasama ng regular na ehersisyo at balanseng diyeta sa iyong gawain.",
+    "disclaimer": {
+      "title": "Medikal na Disclaimer",
+      "text": "Ang BMI ay isang pangkalahatang tool sa pag-screen at hindi pinag-iiba sa pagitan ng masa ng kalamnan at taba. Kumonsulta sa mga propesyonal sa pangangalagang pangkalusugan para sa personalized na medikal na payo."
+    }
+  },
+  "beyond": {
+    "title": "waist-to-Height Ratio (WHtR)",
+    "why": {
+      "title": "Bakit Ito Mahalaga",
+      "desc": "Ang pagpapanatiling circumference ng iyong baywang sa mas mababa sa kalahati ng iyong taas ay binabawasan ang panganib sa cardiovascular. Ang WHtR ay mas tumpak kaysa sa BMI para sa paghula ng metabolic na kondisyon sa kalusugan.",
+      "target": "Target: Ratio <0.5 para sa pinakamainam na kalusugan"
+    },
+    "inputs": {
+      "waist": "Baywang Circumference",
+      "waistHint": "Sukatin sa pinakamaliit na punto ng iyong baywang, kadalasan sa itaas lamang ng pusod",
+      "placeholders": {
+        "waistCm": "hal., 80",
+        "waistIn": "hal., 31"
+      }
+    },
+    "results": {
+      "healthy": "Malusog na Hugis",
+      "elevated": "Nakataas na Panganib",
+      "placeholder": "Mangyaring ilagay ang taas at baywang upang makita ang iyong ratio",
+      "waistMeasurementPlaceholder": "Ipasok ang sukat ng baywang",
+      "label": "Baywang-sa-Taas na Ratio",
+      "submit": "I-save sa Profile (BMI + WHtR)"
+    },
+    "comparison": {
+      "title": "BMI vs WHtR: Ang Pagkakaiba",
+      "bmi": {
+        "title": "BMI",
+        "desc": "Pangkalahatang kategorya ng timbang, hindi isinasaalang-alang ang mass ng kalamnan o pamamahagi ng taba"
+      },
+      "whtr": {
+        "title": "WHtR",
+        "desc": "Sinusukat ang gitnang labis na katabaan, mas mahusay na predictor ng cardiovascular disease at diabetes"
+      }
+    }
+  },
+  "history": {
+    "title": "Mga Kamakailang Pagsukat",
+    "noHistory": "Wala pang History",
+    "noHistoryDesc": "Simulan ang pagsubaybay sa iyong BMI at mga sukatan ng katawan upang makita ang iyong mga trend ng pag-unlad sa paglipas ng panahon.",
+    "stats": {
+      "title": "Iyong Stats",
+      "total": "Kabuuang Mga Tala",
+      "latest": "Pinakabagong BMI",
+      "healthyCount": "Malusog na Bilang",
+      "bestStreak": "Pinakamahusay na Streak"
+    }
+  }
+}

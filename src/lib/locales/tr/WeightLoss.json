@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "back": "Kontrol Paneline Geri Dön"
+  },
+  "header": {
+    "title": "Kilo Verme Rehberi",
+    "subtitle": "Sürdürülebilir kilo kaybı için eksiksiz rehberiniz"
+  },
+  "tabs": {
+    "plan": "Plan",
+    "tracker": "Takipçi",
+    "habits": "alışkanlıklar"
+  },
+  "plan": {
+    "goldenRule": {
+      "title": "Altın Kural",
+      "subtitle": "Kalori Açığı ve Besin Yoğunluğu",
+      "desc": "Kilo kaybı, kalori açığı gerektirir ancak bu kalorilerin kalitesi, miktarı kadar önemlidir. Yağ kaybı için gereken açığı yaratırken sizi tok tutan, besin açısından yoğun bütün gıdalara odaklanın."
+    },
+    "proteinFirst": {
+      "title": "Önce Protein",
+      "subtitle": "Yağ kaybı için neden kg başına 1,2g-1,6g protein tartışılamaz:",
+      "muscle": "Kalori kısıtlaması sırasında kas kütlesini korur",
+      "thermic": "Daha yüksek termik etki (sindirim sırasında yakılan protein kalorisinin %30’u)",
+      "satiety": "Artan tokluk, daha uzun süre tok hissetmenize yardımcı olur",
+      "sugar": "Kan şekerini dengeler ve iştahı azaltır"
+    },
+    "plateMethod": {
+      "title": "Plaka Yöntemi",
+      "subtitle": "Yağ kaybını destekleyen dengeli öğünler için basit bir görsel rehber:",
+      "veg": {
+        "title": "Sebzeler",
+        "desc": "Hacim ve besin değerleri için nişastalı olmayan sebzeler"
+      },
+      "protein": {
+        "title": "proteini",
+        "desc": "Yağsız et, balık, yumurta veya bitki bazlı kaynaklar"
+      },
+      "carbs": {
+        "title": "Lif Açısından Zengin Karbonhidratlar",
+        "desc": "Tam tahıllar, tatlı patates, kinoa, baklagiller"
+      }
+    },
+    "hiddenFactors": {
+      "title": "Gizli Faktörler",
+      "hydration": {
+        "title": "Hidrasyon",
+        "desc": "Doğru hidrasyon aşağıdakilere yardımcı olur:"
+      },
+      "sleep": {
+        "title": "Uyku (7+ Saat)",
+        "desc": "Kaliteli uyku şunları düzenler:"
+      }
+    }
+  },
+  "tracker": {
+    "progress": {
+      "title": "İlerlemeniz",
+      "change": "Hedefleri Değiştir",
+      "lost": "Kilo Kaybı",
+      "remaining": "Kalan",
+      "percent": "İlerleme",
+      "complete": "Tamamlandı"
+    },
+    "log": {
+      "title": "Bugünün Metriklerini Kaydedin",
+      "weight": "Mevcut Ağırlık (kg)",
+      "chest": "Göğüs (inç, İsteğe Bağlı)",
+      "waist": "Bel (inç, İsteğe Bağlı)",
+      "hips": "Kalçalar (inç, İsteğe bağlı)",
+      "placeholder": "örneğin, {{val}}",
+      "submit": "Günlük Metrikleri"
+    },
+    "history": {
+      "title": "Metrik Geçmişi",
+      "total": "Toplam Günlükler",
+      "first": "İlk Ağırlık",
+      "latest": "En Son Ağırlık",
+      "unit": "kilo",
+      "inches": "inç",
+      "chest": "göğüs",
+      "waist": "bel",
+      "hips": "kalçalar"
+    }
+  },
+  "habits": {
+    "consistency": {
+      "title": "Haftalık Tutarlılık",
+      "subtitle": "Bu sağlıklı alışkanlıkları geliştirmeye devam edin!"
+    },
+    "today": {
+      "title": "Bugünkü Alışkanlıklar",
+      "subtitle": "Bugün tamamlarken her alışkanlığı işaretleyin",
+      "protein": {
+        "label": "Protein Hedefine Ulaşın",
+        "desc": "Vücut ağırlığının kg'ı başına 1,2-1,6 g"
+      },
+      "noSugar": {
+        "label": "Şekerli İçecek Yok",
+        "desc": "Yalnızca su, çay veya sade kahve"
+      },
+      "walk": {
+        "label": "Yemek Sonrası 10 Dakikalık Yürüyüş",
+        "desc": "Yemekten sonra hafif aktivite"
+      },
+      "sleep": {
+        "label": "7+ Saat Uyku",
+        "desc": "İyileşme için kaliteli dinlenme"
+      }
+    },
+    "tracker30": {
+      "title": "30 Günlük Alışkanlık Takibi",
+      "legend": {
+        "none": "Yok",
+        "low": "1",
+        "mid": "2-3",
+        "high": "3",
+        "all": "Tüm 4"
+      }
+    },
+    "whyMatters": {
+      "title": "Bu Alışkanlıklar Neden Önemli?",
+      "protein": "Protein alımı kasları korur ve kilo kaybı sırasında tokluğu artırır",
+      "noSugar": "Şekerli içeceklerden kaçınmak boş kalorileri ortadan kaldırır ve insülin artışlarını azaltır",
+      "walk": "Yemek sonrası yürüyüşler insülin duyarlılığını artırır ve sindirime yardımcı olur",
+      "sleep": "Kaliteli uyku açlık hormonlarını düzenler ve yağ kaybını destekler"
+    }
+  },
+  "modal": {
+    "title": "Hedeflerinizi Belirleyin",
+    "subtitle": "Kilo verme yolculuğunuzu kişiselleştirelim",
+    "start": "Başlangıç Ağırlığı (kg)",
+    "target": "Hedef Ağırlık (kg)",
+    "date": "Hedef Tarih",
+    "save": "Hedefi Kaydet",
+    "fillAll": "Lütfen tüm alanları doldurun"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "back": "Takaisin hallintapaneeliin"
+  },
+  "header": {
+    "title": "Step Tracker",
+    "subtitle": "Seuraa päivittäisiä askeliasi ja saavuta tavoitteesi",
+    "profile": "Profiili"
+  },
+  "tabs": {
+    "tracker": "Tracker",
+    "history": "Historia"
+  },
+  "tracker": {
+    "stepsToday": "askeleita tänään",
+    "goalAchieved": "Tavoite saavutettu!",
+    "stats": {
+      "distance": "Etäisyys",
+      "calories": "Kalorit",
+      "activeTime": "Aktiivinen aika",
+      "km": "km",
+      "kcal": "kcal",
+      "mins": "min"
+    },
+    "goal": {
+      "label": "Päivittäinen tavoite",
+      "value": "{{val}} askelta",
+      "change": "Muuta tavoitetta"
+    },
+    "quickAdd": {
+      "title": "Pikalisäysvaiheet",
+      "label": "Mukautetut vaiheet",
+      "placeholder": "esim 3500",
+      "submit": "Lisää"
+    },
+    "insights": {
+      "title": "Tämän päivän oivalluksia",
+      "remaining": "Jäljellä olevat vaiheet",
+      "stride": "Askeleen pituus",
+      "progress": "Edistyminen",
+      "complete": "Valmis!",
+      "percentOfGoal": "{{val}} % tavoitteesta"
+    },
+    "reset": "Nollaa päivän vaiheet"
+  },
+  "history": {
+    "title": "Vaihehistoria",
+    "noHistory": "Ei vielä historiaa. Aloita askeleiden seuraaminen!",
+    "today": "Tänään",
+    "stats": {
+      "steps": "Vaiheet",
+      "goal": "Maali",
+      "progress": "Edistyminen"
+    }
+  },
+  "modals": {
+    "goal": {
+      "title": "Aseta päivittäinen tavoite",
+      "subtitle": "Anna päivittäiset tavoiteaskeleesi",
+      "placeholder": "esim 10 000",
+      "cancel": "Peruuta",
+      "save": "Tallenna"
+    },
+    "profile": {
+      "title": "Päivitä profiili",
+      "subtitle": "Tämä auttaa laskemaan tarkan matkan ja kalorit",
+      "height": "Korkeus (cm)",
+      "weight": "Paino (kg)",
+      "gender": "Sukupuoli",
+      "male": "Mies",
+      "female": "Nainen",
+      "placeholderHeight": "esim 170",
+      "placeholderWeight": "esim. 70",
+      "cancel": "Peruuta",
+      "save": "Tallenna"
+    }
+  }
+}

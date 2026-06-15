@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "back": "חזרה ללוח המחוונים"
+  },
+  "header": {
+    "title": "מדריך תזונה טבעונית",
+    "subtitle": "ערכת כלים מלאה לתזונה על בסיס צמחי"
+  },
+  "tabs": {
+    "plate": "צלחת טבעונית",
+    "nutrients": "מיקרו-נוטריינטים",
+    "calculator": "מחשבון חלבון"
+  },
+  "plate": {
+    "title": "הארוחה הטבעונית השלמה",
+    "proportions": {
+      "legumes": {
+        "title": "קטניות/שעועית",
+        "subtitle": "מעצמת חלבון",
+        "examples": "דוגמאות: עדשים, חומוס, שעועית שחורה, טופו, טמפה"
+      },
+      "grains": {
+        "title": "דגנים מלאים",
+        "subtitle": "אנרגיה מתמשכת",
+        "examples": "דוגמאות: קינואה, אורז חום, שיבולת שועל, חיטה מלאה, שעורה"
+      },
+      "vegetables": {
+        "title": "ירקות",
+        "subtitle": "עשיר במיקרו-נוטריינטים",
+        "examples": "דוגמאות: עלים ירוקים, ברוקולי, פלפלים, גזר, עגבניות"
+      },
+      "fats": {
+        "title": "שומנים/זרעים בריאים",
+        "subtitle": "בריאות הורמונים",
+        "examples": "דוגמאות: אבוקדו, אגוזים, זרעים, שמן זית, טחינה"
+      }
+    },
+    "tip": {
+      "title": "פרו-טיפ: להגביר את ספיגת הברזל",
+      "desc": "ברזל על בסיס צמחי (ברזל לא-heme) נספג פחות ביעילות מברזל מן החי. חבר מזונות עשירים בברזל עם ויטמין C כדי להגביר את הספיגה בעד 300%!",
+      "ironRich": "מזונות עשירים בברזל",
+      "ironExamples": "תרד, עדשים, קינואה, טופו, גרעיני דלעת",
+      "vitaminC": "חיזוקי ויטמין C",
+      "vitaminCExamples": "מיץ לימון, פלפלים, עגבניות, ברוקולי, תפוזים",
+      "perfectCombo": "קומבו מושלם: מרק עדשים עם מיץ לימון, סלט תרד עם פלפלים"
+    }
+  },
+  "nutrients": {
+    "title": "ה-Big 4 Tracker לתזונה",
+    "progress": {
+      "title": "ההתקדמות של היום",
+      "done": "בוצע",
+      "pending": "בהמתנה"
+    },
+    "why": {
+      "title": "למה לעקוב אחר אלה?",
+      "desc1": "ארבעת אבות המזון הללו הם החסרים הנפוצים ביותר בתזונה צמחית. מעקב אחר הצריכה היומית מבטיח שאתה מקבל תזונה מלאה.",
+      "note": "הערה: יש להשלים או לצרוך B12 באמצעות מזון מועשר - הוא אינו קיים באופן טבעי בצמחים."
+    },
+    "micronutrients": {
+      "b12": {
+        "name": "ויטמין B12",
+        "importance": "קריטי לתפקוד העצבים וסינתזת DNA",
+        "dosage": "2.4 מק\"ג ליום"
+      },
+      "iron": {
+        "name": "ברזל ואבץ",
+        "importance": "חיוני להובלת חמצן ולתפקוד מערכת החיסון",
+        "dosage": "ברזל: 18 מ\"ג, אבץ: 11 מ\"ג מדי יום"
+      },
+      "omega3": {
+        "name": "אומגה 3 (ALA)",
+        "importance": "בריאות המוח ואנטי דלקתיות",
+        "dosage": "1.6 גרם ליום"
+      },
+      "calcium": {
+        "name": "סידן",
+        "importance": "בריאות העצמות ותפקוד השרירים",
+        "dosage": "1000 מ\"ג ליום"
+      }
+    }
+  },
+  "calculator": {
+    "title": "מדריך ידע בחלבונים",
+    "subtitle": "בחר מזון והזן את הכמות כדי לראות באופן מיידי את תכולת החלבון שלו",
+    "form": {
+      "selectFood": "חפש ובחר פריט מזון",
+      "placeholderFood": "בחר אוכל...",
+      "searchPlaceholder": "חפש אוכל...",
+      "amount": "כמות (גרם)",
+      "placeholderAmount": "100",
+      "add": "הוסף לחישוב",
+      "proteinPer100": "{{val}} גרם לכל 100 גרם",
+      "matches": "מציג 5 מתוך {{total}} התאמות",
+      "noMatches": "לא נמצאו מזונות"
+    },
+    "results": {
+      "title": "פירוק חלבון",
+      "estProtein": "תכולת חלבון משוערת",
+      "calcInfo": "{{amount}}g של {{food}}",
+      "summary": "סיכום חישוב נוכחי",
+      "total": "סך הכל חלבון",
+      "aminoAcid": "שלמות חומצת אמינו",
+      "aminoComplete": "פרופיל אמינו מלא",
+      "aminoIncomplete": "חסרים דגנים או קטניות",
+      "aminoNote": "קטניות (עדשים/שעועית/סויה) + דגנים (אורז/קינואה/שיבולת שועל) = חלבון מלא",
+      "save": "התחבר סך הכל להיסטוריה",
+      "success": "חלבון נרשם בהצלחה!",
+      "ironTip": {
+        "title": "טיפ:",
+        "desc": "שילוב עם ויטמין C (לימון, פלפלים, עגבניות) כדי להגביר את ספיגת הברזל בעד 300%!"
+      }
+    },
+    "reference": {
+      "title": "מדריך עזר מהיר"
+    }
+  },
+  "proteinSources": {
+    "tofu": "טופו",
+    "tempeh": "טמפה",
+    "edamame": "אדאמאם",
+    "soybeansBoiled": "פולי סויה מבושלים",
+    "soyChunks": "נתחי סויה / TVP Dry",
+    "soyMince": "סויה טחון יבש",
+    "soyMilk": "חלב סויה לא ממותק",
+    "soyYogurt": "יוגורט סויה מישור",
+    "seitan": "סייטן",
+    "lentilsCooked": "עדשים מבושלות",
+    "redLentilsCooked": "עדשים אדומות מבושלות",
+    "greenLentilsCooked": "עדשים ירוקות מבושלות",
+    "blackLentilsCooked": "עדשים שחורות מבושלות",
+    "chickpeasCooked": "חומוס מבושל",
+    "blackBeansCooked": "שעועית שחורה מבושלת",
+    "kidneyBeansCooked": "שעועית כליות מבושלת",
+    "pintoBeansCooked": "שעועית פינטו מבושלת",
+    "cannelliniBeansCooked": "שעועית קנליני מבושלת",
+    "navyBeansCooked": "שעועית נייבי מבושלת",
+    "adzukiBeansCooked": "שעועית אדזוקי מבושלת",
+    "mungBeansCooked": "שעועית מונג מבושלת",
+    "lupinBeans": "שעועית תורמוס",
+    "splitPeasCooked": "אפונה מפוצלת מבושלת",
+    "greenPeas": "אפונה ירוקה",
+    "peaProteinIsolate": "אפונה חלבון מבודד",
+    "peaMilk": "חלב אפונה",
+    "hummus": "חומוס",
+    "falafel": "פלאפל",
+    "quinoaCooked": "קינואה מבושלת",
+    "amaranthCooked": "אמרנט בישל",
+    "buckwheatCooked": "כוסמת מבושלת",
+    "oatsDry": "שיבולת שועל יבשה",
+    "rolledOats": "שיבולת שועל מגולגלת",
+    "steelCutOats": "שיבולת שועל לחתוך פלדה",
+    "oatBran": "סובין שיבולת שועל",
+    "barleyCooked": "שעורה מבושלת",
+    "milletCooked": "דוחן מבושל",
+    "brownRiceCooked": "אורז חום מבושל",
+    "wildRiceCooked": "אורז בר מבושל",
+    "teffCooked": "טף בישל",
+    "farroCooked": "פארו בישל",
+    "freekehCooked": "Freekeh מבושל",
+    "wholeWheatPastaCooked": "פסטה מחיטה מלאה מבושלת",
+    "chickpeaPastaDry": "פסטה חומוס יבשה",
+    "lentilPastaDry": "פסטה עדשים יבשה",
+    "blackBeanPastaDry": "פסטה שעועית שחורה יבשה",
+    "spirulinaDry": "ספירולינה יבשה",
+    "nutritionalYeast": "שמרים תזונתיים",
+    "mushroomsWhite": "פטריות לבן",
+    "portobelloMushrooms": "פטריות פורטובלו",
+    "spinach": "תרד",
+    "kale": "קייל",
+    "broccoli": "ברוקולי",
+    "brusselsSprouts": "כרוב ניצנים",
+    "sweetCorn": "תירס מתוק",
+    "artichoke": "ארטישוק",
+    "avocado": "אבוקדו",
+    "pumpkinSeeds": "גרעיני דלעת",
+    "hempSeeds": "זרעי קנבוס",
+    "chiaSeeds": "זרעי צ'יה",
+    "flaxSeeds": "זרעי פשתן",
+    "sesameSeeds": "שומשום",
+    "sunflowerSeeds": "גרעיני חמניות",
+    "watermelonSeeds": "זרעי אבטיח",
+    "almonds": "שקדים",
+    "peanuts": "בוטנים",
+    "peanutButterNatural": "חמאת בוטנים טבעית",
+    "cashews": "קשיו",
+    "pistachios": "פיסטוקים",
+    "walnuts": "אגוזי מלך",
+    "hazelnuts": "אגוזי לוז",
+    "brazilNuts": "אגוזי ברזיל",
+    "almondButter": "חמאת שקדים",
+    "tahini": "טחינה",
+    "cashewButter": "חמאת קשיו",
+    "pumpkinSeedButter": "חמאת זרעי דלעת",
+    "sunflowerSeedButter": "חמאת זרעי חמניות",
+    "almondFlour": "קמח שקדים",
+    "chickpeaFlour": "קמח חומוס / בסאן",
+    "soyFlour": "קמח סויה",
+    "wholeWheatFlour": "קמח חיטה מלאה",
+    "breadWholeWheat": "לחם חיטה מלאה",
+    "ezekielBread": "לחם יחזקאל",
+    "proteinBreadVegan": "לחם חלבון טבעוני",
+    "roastedChickpeas": "חומוס צלוי",
+    "dryRoastedEdamame": "אדאמאם צלוי יבש",
+    "proteinBarVegan": "בר חלבון טבעוני",
+    "veganSausage": "נקניק טבעוני",
+    "veganBurgerPatty": "קציצת בורגר טבעונית",
+    "mycoproteinVegan": "Mycoprotein טבעוני",
+    "beanSprouts": "נבטי שעועית",
+    "alfalfaSprouts": "נבטי אספסת"
+  }
+}

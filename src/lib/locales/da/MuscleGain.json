@@ -109,7 +109,16 @@
       "thigh": "Lår (i tommer)",
       "thighHint": "Bredeste del",
       "submit": "Logmålinger",
-      "success": "Målinger logget!"
+      "success": "Målinger logget!",
+      "placeholders": {
+        "weight": "f.eks. 75",
+        "targetWeight": "f.eks. 85",
+        "chest": "f.eks. 40",
+        "waist": "Valgfrit",
+        "bicep": "f.eks. 15",
+        "bicepL": "Samme som højre",
+        "thigh": "Valgfrit"
+      }
     },
     "volume": {
       "title": "Volumenberegner",
@@ -120,7 +129,13 @@
       "totalVolume": "Samlet volumen",
       "remaining": "Tilbage til mål",
       "submit": "Logvolumen",
-      "logged": "{{lift}} logget: {{volume}}kg samlet volumen!"
+      "logged": "{{lift}} logget: {{volume}}kg samlet volumen!",
+      "recentLifts": "Seneste løft",
+      "placeholders": {
+        "sets": "f.eks. 4",
+        "reps": "f.eks. 8",
+        "weight": "f.eks. 80"
+      }
     },
     "chart": {
       "title": "Fremskridtsdiagram",
@@ -168,7 +183,71 @@
         "perfect": "Perfekt (5/5)",
         "partial": "Delvis",
         "none": "Ufuldstændig"
+      },
+      "tooltip": "Dag {{dag}}: {{count}}/5 vaner"
+    }
+  },
+  "essentials": {
+    "title": "Hypertrofi Essentials",
+    "tips": {
+      "rest": {
+        "title": "Muskler opbygges under hvile:",
+        "desc": "Søvn og ernæring er, når væksten sker, ikke i træningscenteret"
+      },
+      "protein": {
+        "title": "Proteintiming betyder mindre end totalen:",
+        "desc": "Fokuser på at nå dit daglige mål, timingen er sekundær"
+      },
+      "track": {
+        "title": "Spor alt:",
+        "desc": "Vægt, mål og volumen - data afslører fremskridt, du ikke kan se i spejlet"
+      },
+      "creatine": {
+        "title": "Kreatin er bevist:",
+        "desc": "3-5g dagligt øger styrke og mager masse uden bivirkninger for de fleste"
       }
     }
+  },
+  "exercises": {
+    "squat": "Squat",
+    "deadlift": "Dødløft",
+    "benchPress": "Bænkpres",
+    "overheadPress": "Overheadpresse",
+    "barbellRow": "Barbell Row",
+    "pullUp": "Træk op",
+    "chinUp": "Hage op",
+    "latPulldown": "Lat Pulldown",
+    "seatedCableRow": "Siddende kabelrække",
+    "dumbbellRow": "Håndvægtsrækken",
+    "romanianDeadlift": "Rumænsk dødløft",
+    "hipThrust": "Hip Thrust",
+    "lunge": "Lunge",
+    "bulgarianSplitSquat": "Bulgarsk Split Squat",
+    "legPress": "Benpres",
+    "legExtension": "Benforlængelse",
+    "legCurl": "Leg Curl",
+    "calfRaise": "Kalveløft",
+    "gluteBridge": "Glute Bridge",
+    "pushUp": "Tryk op",
+    "inclineDumbbellPress": "Incline Dumbbell Press",
+    "dips": "Dips",
+    "chestFly": "Brystflue",
+    "lateralRaise": "Lateral hævning",
+    "rearDeltFly": "Bagerste Delt Fly",
+    "facePull": "Face Pull",
+    "bicepCurl": "Bicep Curl",
+    "hammerCurl": "Hammer Curl",
+    "tricepPushdown": "Triceps Pushdown",
+    "skullCrusher": "Kranieknuser",
+    "plank": "Planke",
+    "hangingLegRaise": "Hængende benløft",
+    "russianTwist": "Russisk twist",
+    "farmerCarry": "Farmer Carry",
+    "shrug": "Træk på skuldrene",
+    "arnoldPress": "Arnold Press",
+    "frontSquat": "Front Squat",
+    "sumoDeadlift": "Sumo Dødløft",
+    "gobletSquat": "Goblet Squat",
+    "stepUp": "Træd op"
   }
 }

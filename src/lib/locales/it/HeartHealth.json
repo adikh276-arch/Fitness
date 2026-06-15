@@ -1,0 +1,141 @@
+{
+  "header": {
+    "title": "Guida alla salute del cuore",
+    "subtitle": "Tieni traccia dei parametri vitali, impara la dieta DASH e sviluppa abitudini salutari per il cuore",
+    "back": "Torna alla dashboard"
+  },
+  "alerts": {
+    "crisis": {
+      "title": "AVVISO DI CRISI IPERtensiva",
+      "desc": "La lettura della pressione sanguigna è pericolosamente alta (≥180/120). Ciò richiede cure mediche immediate."
+    },
+    "vitals": {
+      "invalid": "Inserisci letture valide",
+      "success": "Lettura registrata: {{sys}}/{{dia}} - {{category}}"
+    }
+  },
+  "tabs": {
+    "dash": "Dieta DASH",
+    "vitals": "Registro dei parametri vitali",
+    "habits": "Abitudini cardiache"
+  },
+  "vitals": {
+    "form": {
+      "title": "Registra i tuoi parametri vitali",
+      "bp": {
+        "label": "Pressione sanguigna",
+        "systolic": "Sistolico",
+        "systolic_desc": "Numero superiore",
+        "diastolic": "Diastolico",
+        "diastolic_desc": "Numero in basso"
+      },
+      "heart_rate": {
+        "label": "Frequenza cardiaca a riposo (BPM)",
+        "placeholder": "ad esempio, 72"
+      },
+      "submit": "Lettura del registro"
+    },
+    "recent": {
+      "title": "Letture recenti",
+      "empty": "Nessuna lettura ancora registrata",
+      "bpm": "{{count}} BPM"
+    },
+    "chart": {
+      "title": "Andamento della pressione sanguigna su 7 giorni",
+      "systolic": "Sistolico",
+      "diastolic": "Diastolico"
+    },
+    "guidelines": {
+      "title": "Categorie di pressione sanguigna AHA:",
+      "normal": "Normale: <120/80",
+      "elevated": "Elevato: 120-129/<80",
+      "stage1": "Fase 1: 130-139/80-89",
+      "stage2": "Stadio 2: ≥140/90"
+    },
+    "categories": {
+      "crisis": "Crisi ipertensiva",
+      "stage2": "Ipertensione Fase 2",
+      "stage1": "Stadio 1 dell'ipertensione",
+      "elevated": "Elevato",
+      "normal": "Normale",
+      "unknown": "Sconosciuto"
+    }
+  },
+  "dash": {
+    "intro": {
+      "title": "La dieta DASH",
+      "desc": "Approcci dietetici per fermare l'ipertensione - Un piano alimentare scientificamente provato che abbassa la pressione sanguigna in modo naturale."
+    },
+    "principles": {
+      "sodium": {
+        "title": "Limite di sodio",
+        "limit": "<2.300 mg al giorno",
+        "high_risk": "(O 1.500 mg per soggetti ad alto rischio)",
+        "desc": "L’eccesso di sodio provoca ritenzione idrica, aumentando il volume del sangue e la pressione sulle pareti delle arterie."
+      },
+      "potassium": {
+        "title": "Potere del potassio",
+        "limit": "4.700 mg al giorno",
+        "source": "Da cibi integrali"
+      },
+      "magnesium": {
+        "title": "Magnesio e fibre",
+        "limit": "500 mg di mg / 25-35 g di fibre",
+        "target": "Obiettivi giornalieri"
+      }
+    },
+    "scanner": {
+      "title": "⚠️ Scanner nascosto del sodio: alimenti \"sale subdolo\".",
+      "subtitle": "Questi alimenti apparentemente innocenti contengono più sodio di quanto pensi:",
+      "swaps": {
+        "title": "💡 Swap compatibili con DASH:"
+      }
+    }
+  },
+  "habits": {
+    "vitality": {
+      "title": "Punteggio vitalità",
+      "start": "Inizia a costruire la tua serie di salute per il cuore!",
+      "streak_good": "🔥 {{count}} giorni consecutivi! Il tuo cuore è fiorente",
+      "streak_continue": "{{count}} giorni: continua così!",
+      "streak_continue_singular": "{{count}} giorno: continua così!",
+      "days": "serie di giorni",
+      "goal": "{{count}}/obiettivo di 30 giorni"
+    },
+    "checklist": {
+      "title": "Lista di controllo cardio giornaliera",
+      "subtitle": "Completa queste abitudini ogni giorno per sviluppare la forza cardiovascolare",
+      "items": {
+        "cardio": {
+          "label": "30 minuti zona 2 cardio",
+          "desc": "Camminare velocemente, andare in bicicletta o nuotare a ritmo di conversazione"
+        },
+        "low_sodium": {
+          "label": "Rimasto sotto il limite di sodio",
+          "desc": "<2.300 mg (o 1.500 mg se ad alto rischio)"
+        },
+        "no_salt": {
+          "label": "Senza sale aggiunto a tavola",
+          "desc": "Lascia che i sapori naturali del cibo risplendano"
+        },
+        "meds": {
+          "label": "Farmaci assunti (facoltativo)",
+          "desc": "Per quelli che assumono farmaci per la pressione arteriosa"
+        }
+      }
+    },
+    "tips": {
+      "title": "Elementi essenziali per la salute del cuore"
+    }
+  },
+  "foods": {
+    "canned_soup": "Zuppa in scatola (1 tazza)",
+    "deli_turkey": "Tacchino Deli (2 once)",
+    "white_bread": "Pane Bianco (2 fette)",
+    "frozen_pizza": "Pizza Surgelata (1 fetta)",
+    "soy_sauce": "Salsa di soia (1 cucchiaio)",
+    "cottage_cheese": "Ricotta (1/2 tazza)",
+    "pickles": "Sottaceti (1 medio)",
+    "salad_dressing": "Condimento per insalata (2 cucchiai)"
+  }
+}

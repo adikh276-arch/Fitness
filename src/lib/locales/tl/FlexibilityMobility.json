@@ -1,0 +1,227 @@
+{
+  "header": {
+    "title": "Flexibility at Mobility",
+    "subtitle": "Pagbutihin ang saklaw ng paggalaw at maiwasan ang mga pinsala",
+    "back": "Bumalik sa Dashboard"
+  },
+  "tabs": {
+    "stretches": "Pang-araw-araw na Kahabaan",
+    "tests": "Mga Pagsusuri sa Mobility",
+    "log": "Log ng Pagbawi"
+  },
+  "player": {
+    "stretch": "Stretch {{current}} ng {{total}}",
+    "resume": "Ipagpatuloy",
+    "pause": "I-pause",
+    "skip": "Laktawan",
+    "cancel": "Kanselahin",
+    "bilateral_hint": "💡 Tandaan na lumipat sa gilid kapag natapos na ang timer",
+    "preview": {
+      "stretches_count": "{{count}} Stretch ({{duration}} min total):",
+      "start": "Simulan ang {{duration}}-Min Routine",
+      "cancel": "Kanselahin"
+    },
+    "complete": {
+      "title": "Kumpleto ang Routine!",
+      "desc": "Magandang trabaho sa pagkumpleto ng {{name}}!",
+      "rate_label": "Mas Maganda? I-rate ang iyong pagpapabuti: {{rating}}/10",
+      "worse": "Mas malala pa",
+      "same": "Pareho",
+      "much_better": "Much better",
+      "save": "I-save ang Session",
+      "done": "Tapos na"
+    }
+  },
+  "routines": {
+    "upper-body": {
+      "name": "Itaas na Katawan Bukas",
+      "focus": "Dibdib, Balikat, Gitnang Likod",
+      "desc": "I-release ang tensyon mula sa desk work at paggamit ng telepono",
+      "stretches": {
+        "Doorway Chest Stretch": {
+          "name": "Doorway Chest Stretch",
+          "desc": "Tumayo sa pintuan, ilagay ang mga bisig sa kuwadro, sumandal upang maramdaman ang kahabaan ng dibdib."
+        },
+        "Shoulder Rolls": {
+          "name": "Mga Gulong Balikat",
+          "desc": "I-roll ang mga balikat pabalik sa malalaking bilog, 10 reps."
+        },
+        "Thoracic Rotation": {
+          "name": "Pag-ikot ng Thoracic",
+          "desc": "Sa mga kamay at tuhod, paikutin ang itaas na bahagi ng katawan sa gilid, binubuksan ang dibdib."
+        },
+        "Neck Stretch": {
+          "name": "Kahabaan ng Leeg",
+          "desc": "Dahan-dahang ikiling ang ulo sa bawat gilid, humawak ng 30 segundo bawat gilid."
+        },
+        "Tricep Stretch": {
+          "name": "Tricep Stretch",
+          "desc": "Abutin ang braso sa itaas, yumuko ang siko, dahan-dahang hilahin gamit ang kabilang kamay."
+        }
+      }
+    },
+    "lower-body": {
+      "name": "Paglabas sa Lower Body",
+      "focus": "Hamstrings, Glutes, Hip Flexors",
+      "desc": "Malalim na pag-uunat para sa masikip na mga binti at balakang mula sa pagkakaupo",
+      "stretches": {
+        "Pigeon Pose": {
+          "name": "Pose ng kalapati",
+          "desc": "Dalhin ang isang paa pasulong na nakatungo, i-extend ang likod na binti nang tuwid, ibaba ang mga balakang."
+        },
+        "Hamstring Stretch": {
+          "name": "Hamstring Stretch",
+          "desc": "Umupo nang nakabuka ang isang paa, abutin ang mga daliri sa paa, panatilihing tuwid ang likod."
+        },
+        "Hip Flexor Lunge": {
+          "name": "Hip Flexor Lunge",
+          "desc": "Lunge position, itulak ang mga balakang pasulong upang maramdaman ang pag-inat sa harap ng balakang."
+        },
+        "Glute Stretch": {
+          "name": "Glute Stretch",
+          "desc": "Nakahiga sa likod, i-cross ang bukung-bukong sa tapat ng tuhod, hilahin patungo sa dibdib."
+        },
+        "Calf Stretch": {
+          "name": "Pag-inat ng guya",
+          "desc": "Hakbang pasulong sa lunge, panatilihin ang likod na takong pababa upang iunat ang guya."
+        }
+      }
+    },
+    "full-body": {
+      "name": "Buong Daloy ng Katawan",
+      "focus": "Kabuuang Pagpapanatili ng Katawan",
+      "desc": "Kumpletuhin ang flexibility routine mula ulo hanggang paa",
+      "stretches": {
+        "Cat-Cow": {
+          "name": "Pusa-Baka",
+          "desc": "Sa mga kamay at tuhod, kahaliling arching at rounding spine."
+        },
+        "Downward Dog": {
+          "name": "Pababang Aso",
+          "desc": "Nakatanim ang mga kamay at paa, mataas ang balakang, na bumubuo ng baligtad na V."
+        },
+        "Child's Pose": {
+          "name": "Pose ng Bata",
+          "desc": "Malapad ang mga tuhod, umupo sa likod sa takong, nakaunat ang mga braso pasulong."
+        },
+        "Seated Twist": {
+          "name": "Nakaupo Twist",
+          "desc": "Umupo nang cross-legged, paikutin ang katawan sa bawat panig, kamay sa likod."
+        },
+        "Forward Fold": {
+          "name": "Pasulong Tiklupin",
+          "desc": "Nakatayo, nakabitin sa mga balakang, umabot sa mga daliri ng paa, hayaang nakabitin ang ulo."
+        },
+        "Hip Circles": {
+          "name": "Mga Hip Circle",
+          "desc": "Mga kamay sa balakang, gumawa ng malalaking bilog na may mga balakang sa magkabilang direksyon."
+        },
+        "Arm Circles": {
+          "name": "Mga Bilog ng Bisig",
+          "desc": "Palawakin ang mga braso, gumawa ng malalaking bilog pasulong at paatras."
+        }
+      }
+    },
+    "dynamic-warmup": {
+      "name": "Dynamic na Warm-up",
+      "focus": "Pag-activate bago ang Workout",
+      "desc": "Ihanda ang iyong katawan bago mag-ehersisyo",
+      "stretches": {
+        "Leg Swings": {
+          "name": "Leg Swings",
+          "desc": "Hawakan ang dingding, i-ugoy ang binti pasulong at pabalik, pagkatapos ay magkatabi."
+        },
+        "Arm Circles": {
+          "name": "Mga Bilog ng Bisig",
+          "desc": "Maliit hanggang malalaking bilog, pasulong at paatras."
+        },
+        "Torso Twists": {
+          "name": "Torso Twists",
+          "desc": "I-rotate ang itaas na bahagi ng katawan nang magkatabi nang maluwag ang mga braso."
+        },
+        "Walking Lunges": {
+          "name": "Walking Lunges",
+          "desc": "Hakbang pasulong sa lunge, kahaliling mga binti habang sumusulong."
+        },
+        "High Knees": {
+          "name": "Mataas na Tuhod",
+          "desc": "Magmartsa sa lugar na dinadala ang mga tuhod sa taas ng balakang."
+        }
+      }
+    }
+  },
+  "benefits": {
+    "title": "Bakit Mahalaga ang Pang-araw-araw na Pag-uunat"
+  },
+  "tests": {
+    "status": {
+      "title": "Iyong Katayuan sa Mobility",
+      "based_on": "Batay sa {{count}} resulta ng pagsubok",
+      "complete_below": "Kumpletuhin ang mga pagsubok sa ibaba",
+      "score_label": "Iskor: {{points}}/6 puntos (Pass=2, Partial=1, Needs Work=0)",
+      "elite": "Elite Mobility",
+      "good": "Magandang Mobility",
+      "limited": "Limitadong Mobility",
+      "not_tested": "Hindi Sinubok"
+    },
+    "items": {
+      "sit-reach": {
+        "name": "Sit & Reach Test",
+        "desc": "Umupo nang tuwid ang mga binti, abutin ang mga daliri sa paa",
+        "pass": "Maaaring hawakan o ipasa ang mga daliri sa paa",
+        "fail": "Higit sa 6 na pulgada mula sa mga daliri ng paa"
+      },
+      "shoulder-pass": {
+        "name": "Shoulder Pass-Through",
+        "desc": "Humawak ng banda/stick, itaas ang mga braso sa itaas at likod",
+        "pass": "Maaaring dumaan ng maayos",
+        "fail": "Hindi makumpleto ang paggalaw"
+      },
+      "deep-squat": {
+        "name": "Deep Squat Hold",
+        "desc": "Maglupasay na naka-flat ang takong, humawak ng 30 segundo",
+        "pass": "Maaaring humawak ng 30s, nakababa ang takong",
+        "fail": "Ang mga takong ay tumataas o hindi mahawakan"
+      }
+    },
+    "tips": {
+      "title": "Mga Tip sa Pagsubok"
+    },
+    "actions": {
+      "pass": "✓ Pass",
+      "partial": "~ Bahagyang",
+      "fail": "✗ Kailangan ng Trabaho"
+    }
+  },
+  "log": {
+    "title": "Log Recovery Session",
+    "duration": "Tagal (minuto)",
+    "focus_areas": "Mga Focus Area (piliin ang lahat ng naaangkop)",
+    "soreness_label": "Sakit Bago ang Session: {{level}}/10",
+    "no_pain": "1 - Walang Sakit",
+    "moderate": "5 - Katamtaman",
+    "very_sore": "10 - Napakasakit",
+    "submit": "🧘 Log Session",
+    "heatmap": {
+      "title": "Pagbawi ng Heatmap",
+      "legend": "Ang mga lilang tuldok ay nagmamarka ng mga araw na may mga session sa pagbawi"
+    },
+    "badge": {
+      "title": "Patunay ng Pinsala!",
+      "desc": "Nakumpleto mo na ang {{count}} session sa pagbawi ngayong linggo!"
+    },
+    "stats": {
+      "total": "Kabuuang Minuto",
+      "this_week": "Ngayong Linggo"
+    },
+    "recent": "Mga Kamakailang Sesyon",
+    "areas": {
+      "Neck": "leeg",
+      "Shoulders": "Mga balikat",
+      "Back": "Bumalik",
+      "Hips": "balakang",
+      "Legs": "Mga binti",
+      "Full Body": "Buong Katawan"
+    }
+  }
+}

@@ -109,7 +109,16 @@
       "thigh": "Comb (hüvelyk)",
       "thighHint": "Legszélesebb rész",
       "submit": "Rönk mérések",
-      "success": "A metrikák naplózása sikeresen megtörtént!"
+      "success": "A metrikák naplózása sikeresen megtörtént!",
+      "placeholders": {
+        "weight": "például 75",
+        "targetWeight": "például 85",
+        "chest": "például 40",
+        "waist": "Választható",
+        "bicep": "például 15",
+        "bicepL": "Ugyanaz, mint helyesen",
+        "thigh": "Választható"
+      }
     },
     "volume": {
       "title": "Térfogatkalkulátor",
@@ -120,7 +129,13 @@
       "totalVolume": "Teljes térfogat",
       "remaining": "Hátralévő gól",
       "submit": "Naplókötet",
-      "logged": "{{lift}} naplózott: {{volume}}kg össztérfogat!"
+      "logged": "{{lift}} naplózott: {{volume}}kg össztérfogat!",
+      "recentLifts": "Legutóbbi felvonók",
+      "placeholders": {
+        "sets": "például 4",
+        "reps": "például 8",
+        "weight": "pl 80"
+      }
     },
     "chart": {
       "title": "Haladásdiagram",
@@ -168,7 +183,71 @@
         "perfect": "Tökéletes (5/5)",
         "partial": "Részleges",
         "none": "Befejezetlen"
+      },
+      "tooltip": "{{day}}. nap: {{count}}/5 szokás"
+    }
+  },
+  "essentials": {
+    "title": "Hypertrophy Essentials",
+    "tips": {
+      "rest": {
+        "title": "Az izom pihenés közben épül fel:",
+        "desc": "Az alvás és a táplálkozás az, amikor a növekedés megtörténik, nem az edzőteremben"
+      },
+      "protein": {
+        "title": "A fehérje időzítése kevésbé számít, mint a teljes:",
+        "desc": "Koncentrálj a napi cél elérésére, az időzítés másodlagos"
+      },
+      "track": {
+        "title": "Kövesse nyomon mindent:",
+        "desc": "Súly, méretek és térfogat – az adatok a tükörben nem látható előrehaladást mutatják"
+      },
+      "creatine": {
+        "title": "A kreatin bizonyított:",
+        "desc": "Napi 3-5 g növeli az erőt és a sovány tömeget, a legtöbb ember számára mellékhatások nélkül"
       }
     }
+  },
+  "exercises": {
+    "squat": "Guggolás",
+    "deadlift": "Deadlift",
+    "benchPress": "Fekvenyomás",
+    "overheadPress": "Felső sajtó",
+    "barbellRow": "Súlyzósor",
+    "pullUp": "Húzza fel",
+    "chinUp": "Chin Up",
+    "latPulldown": "Lat Pulldown",
+    "seatedCableRow": "Ülő kábelsor",
+    "dumbbellRow": "Súlyzósor",
+    "romanianDeadlift": "Román Deadlift",
+    "hipThrust": "Hip Thrust",
+    "lunge": "Kitörés",
+    "bulgarianSplitSquat": "Bolgár hasított guggolás",
+    "legPress": "Lábnyomás",
+    "legExtension": "Lábhosszabbítás",
+    "legCurl": "Leg Curl",
+    "calfRaise": "Borjúemelés",
+    "gluteBridge": "Glute Bridge",
+    "pushUp": "Push Up",
+    "inclineDumbbellPress": "Lejtős súlyzónyomás",
+    "dips": "Mártások",
+    "chestFly": "Chest Fly",
+    "lateralRaise": "Oldalirányú emelés",
+    "rearDeltFly": "Hátsó Delt Fly",
+    "facePull": "Archúzás",
+    "bicepCurl": "Bicep Curl",
+    "hammerCurl": "Hammer Curl",
+    "tricepPushdown": "Tricep Pushdown",
+    "skullCrusher": "Koponyadaráló",
+    "plank": "Deszka",
+    "hangingLegRaise": "Lógó lábemelés",
+    "russianTwist": "Orosz csavar",
+    "farmerCarry": "Farmer Carry",
+    "shrug": "Vállat von",
+    "arnoldPress": "Arnold Press",
+    "frontSquat": "Első guggolás",
+    "sumoDeadlift": "Sumo Deadlift",
+    "gobletSquat": "Serleg guggolás",
+    "stepUp": "Lépj fel"
   }
 }

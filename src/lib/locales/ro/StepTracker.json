@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "back": "Înapoi la Tabloul de bord"
+  },
+  "header": {
+    "title": "Urmăritorul pașilor",
+    "subtitle": "Urmăriți-vă pașii zilnici și atingeți-vă obiectivele",
+    "profile": "Profil"
+  },
+  "tabs": {
+    "tracker": "Tracker",
+    "history": "istorie"
+  },
+  "tracker": {
+    "stepsToday": "pași astăzi",
+    "goalAchieved": "Obiectiv atins!",
+    "stats": {
+      "distance": "Distanța",
+      "calories": "Calorii",
+      "activeTime": "Timp activ",
+      "km": "km",
+      "kcal": "kcal",
+      "mins": "min"
+    },
+    "goal": {
+      "label": "Obiectivul zilnic",
+      "value": "{{val}} pași",
+      "change": "Schimbați obiectivul"
+    },
+    "quickAdd": {
+      "title": "Pași de adăugare rapidă",
+      "label": "Pași personalizați",
+      "placeholder": "de exemplu, 3500",
+      "submit": "Adăugați"
+    },
+    "insights": {
+      "title": "Perspectivele de azi",
+      "remaining": "Pașii rămași",
+      "stride": "Lungimea pasului",
+      "progress": "Progres",
+      "complete": "Complet!",
+      "percentOfGoal": "{{val}}% din obiectiv"
+    },
+    "reset": "Resetați pașii de azi"
+  },
+  "history": {
+    "title": "Istoria pasilor",
+    "noHistory": "Nicio istorie încă. Începeți să vă urmăriți pașii!",
+    "today": "Astăzi",
+    "stats": {
+      "steps": "Pași",
+      "goal": "Scop",
+      "progress": "Progres"
+    }
+  },
+  "modals": {
+    "goal": {
+      "title": "Setați obiectivul zilnic",
+      "subtitle": "Introduceți pașii zilnici ținți",
+      "placeholder": "de exemplu, 10000",
+      "cancel": "Anulează",
+      "save": "Salvați"
+    },
+    "profile": {
+      "title": "Actualizați profilul",
+      "subtitle": "Acest lucru ajută la calcularea exactă a distanței și a caloriilor",
+      "height": "Înălțime (cm)",
+      "weight": "Greutate (kg)",
+      "gender": "Gen",
+      "male": "Bărbat",
+      "female": "Femeie",
+      "placeholderHeight": "de exemplu, 170",
+      "placeholderWeight": "de exemplu, 70",
+      "cancel": "Anulează",
+      "save": "Salvați"
+    }
+  }
+}

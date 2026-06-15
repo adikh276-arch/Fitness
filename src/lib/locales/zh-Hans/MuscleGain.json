@@ -109,7 +109,16 @@
       "thigh": "大腿（英寸）",
       "thighHint": "最宽处",
       "submit": "对数测量",
-      "success": "指标已成功记录！"
+      "success": "指标已成功记录！",
+      "placeholders": {
+        "weight": "例如，75",
+        "targetWeight": "例如，85",
+        "chest": "例如，40",
+        "waist": "可选",
+        "bicep": "例如，15",
+        "bicepL": "与右相同",
+        "thigh": "可选"
+      }
     },
     "volume": {
       "title": "体积计算器",
@@ -120,7 +129,13 @@
       "totalVolume": "总体积",
       "remaining": "剩余目标",
       "submit": "对数卷",
-      "logged": "{{lift}} 记录：{{volume}}kg 总体积！"
+      "logged": "{{lift}} 记录：{{volume}}kg 总体积！",
+      "recentLifts": "最近的电梯",
+      "placeholders": {
+        "sets": "例如，4",
+        "reps": "例如，8",
+        "weight": "例如，80"
+      }
     },
     "chart": {
       "title": "进度表",
@@ -168,7 +183,71 @@
         "perfect": "完美 (5/5)",
         "partial": "部分的",
         "none": "未完成"
+      },
+      "tooltip": "第 {{day}} 天：{{count}}/5 个习惯"
+    }
+  },
+  "essentials": {
+    "title": "肥大要点",
+    "tips": {
+      "rest": {
+        "title": "肌肉是在休息时形成的：",
+        "desc": "睡眠和营养才是成长的关键，而不是在健身房里"
+      },
+      "protein": {
+        "title": "蛋白质摄入时间比总量更重要：",
+        "desc": "专注于实现每日目标，时间是次要的"
+      },
+      "track": {
+        "title": "追踪一切：",
+        "desc": "重量、尺寸和体积 - 数据揭示了您在镜子中看不到的进展"
+      },
+      "creatine": {
+        "title": "肌酸已被证明：",
+        "desc": "每天 3-5 克可增加力量��瘦体重，对大多数人来说没有副作用"
       }
     }
+  },
+  "exercises": {
+    "squat": "深蹲",
+    "deadlift": "硬拉",
+    "benchPress": "卧推",
+    "overheadPress": "过头推举",
+    "barbellRow": "杠铃划船",
+    "pullUp": "拉起",
+    "chinUp": "引体向上",
+    "latPulldown": "纬度下拉",
+    "seatedCableRow": "坐式绳索划船",
+    "dumbbellRow": "哑铃划船",
+    "romanianDeadlift": "罗马尼亚硬拉",
+    "hipThrust": "髋部推力",
+    "lunge": "弓步",
+    "bulgarianSplitSquat": "保加利亚分腿深蹲",
+    "legPress": "腿部推举",
+    "legExtension": "腿部伸展",
+    "legCurl": "腿弯举",
+    "calfRaise": "小腿举起",
+    "gluteBridge": "臀桥",
+    "pushUp": "俯卧撑",
+    "inclineDumbbellPress": "上斜哑铃推举",
+    "dips": "下降",
+    "chestFly": "胸前飞",
+    "lateralRaise": "侧平举",
+    "rearDeltFly": "三角肌后侧飞鸟",
+    "facePull": "面拉",
+    "bicepCurl": "二头肌弯举",
+    "hammerCurl": "锤式弯举",
+    "tricepPushdown": "三头肌下压",
+    "skullCrusher": "碎颅者",
+    "plank": "平板支撑",
+    "hangingLegRaise": "悬垂举腿",
+    "russianTwist": "俄罗斯转体",
+    "farmerCarry": "农民携带",
+    "shrug": "耸耸肩",
+    "arnoldPress": "阿诺德出版社",
+    "frontSquat": "前蹲",
+    "sumoDeadlift": "相扑硬拉",
+    "gobletSquat": "高脚杯深蹲",
+    "stepUp": "加紧"
   }
 }

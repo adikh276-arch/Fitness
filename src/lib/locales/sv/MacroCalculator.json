@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "back": "Tillbaka till Dashboard"
+  },
+  "header": {
+    "title": "Makro kalkylator",
+    "subtitle": "Beräkna ditt dagliga kalori- och makronäringsbehov"
+  },
+  "tabs": {
+    "input": "Dina detaljer",
+    "results": "Dina resultat"
+  },
+  "form": {
+    "title": "Dina detaljer",
+    "age": "Ålder (år)",
+    "gender": "Kön",
+    "male": "Hane",
+    "female": "Kvinna",
+    "weight": "Vikt",
+    "height": "Höjd",
+    "activity": "Aktivitetsnivå",
+    "goal": "Mål",
+    "submit": "Beräkna makron",
+    "placeholders": {
+      "age": "t.ex. 30",
+      "weightKg": "t.ex. 70",
+      "weightLbs": "t.ex. 154",
+      "heightCm": "t.ex. 175",
+      "heightFt": "Fötter",
+      "heightIn": "Inches"
+    },
+    "activityLevels": {
+      "sedentary": "Stillasittande (lite/ingen träning)",
+      "light": "Lätt aktiv (1-3 dagar/vecka)",
+      "moderate": "Måttligt aktiv (3-5 dagar/vecka)",
+      "very": "Mycket aktiv (6-7 dagar/vecka)"
+    },
+    "goals": {
+      "maintenance": "Underhåll",
+      "loss": "Viktminskning",
+      "gain": "Muskelökning"
+    }
+  },
+  "results": {
+    "title": "Dina resultat",
+    "calorieTarget": "Dagligt kalorimål",
+    "kcalPerDay": "kcal/dag",
+    "bmrLabel": "BMR: {{val}} kcal",
+    "protein": "Protein",
+    "carbs": "Kolhydrater",
+    "fat": "Fett",
+    "submit": "Spara i profil",
+    "placeholder": "Ange dina uppgifter och klicka på Beräkna för att se dina resultat",
+    "success": "Makrodata sparad! Din profilinformation har synkroniserats.",
+    "validation": "Ange giltiga värden"
+  }
+}

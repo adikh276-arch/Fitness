@@ -140,6 +140,6 @@
     "pbUnit": "2큰술 = 지방 16g",
     "chocolate": "다크 초콜릿",
     "chocolateUnit": "28g = 지방 9g",
-    "unit100g": "100g = {{val}}g {{macro}}"
+    "unit100g": "100g = {{val}}g {{매크로}}"
   }
 }

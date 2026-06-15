@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "back": "Powrót do Panelu"
+  },
+  "header": {
+    "title": "Spalacz kalorii",
+    "subtitle": "Śledź kalorie spalone podczas aktywności"
+  },
+  "tabs": {
+    "calculator": "Kalkulator",
+    "log": "Dziennik aktywności ({{count}})"
+  },
+  "calculator": {
+    "form": {
+      "title": "Szczegóły działania",
+      "selectActivity": "Wybierz Aktywność",
+      "weight": "Twoja waga",
+      "duration": "Czas trwania (minuty)",
+      "placeholders": {
+        "weightKg": "np. 70",
+        "weightLbs": "np. 154"
+      },
+      "submit": "Rejestruj aktywność"
+    },
+    "summary": {
+      "title": "Podsumowanie spalania",
+      "calories": "Spalone kalorie",
+      "activity": "Aktywność",
+      "duration": "Czas trwania",
+      "weight": "Waga",
+      "burnRate": "Wskaźnik spalania kalorii",
+      "formula": "Wzór: (MET × 3,5 × Waga kg / 200) × Czas trwania min"
+    }
+  },
+  "log": {
+    "noActivities": "Nie zarejestrowano jeszcze żadnych działań",
+    "noActivitiesDesc": "Zacznij śledzić swoje treningi, aby zobaczyć je tutaj",
+    "logFirst": "Zarejestruj swoją pierwszą aktywność",
+    "summary": {
+      "title": "Całkowite podsumowanie",
+      "totalActivities": "Łączna aktywność",
+      "totalCalories": "Całkowita liczba kalorii",
+      "totalTime": "Całkowity czas",
+      "avgSession": "Średnia kal./sesja"
+    },
+    "item": {
+      "duration": "Czas trwania",
+      "met": "MET",
+      "calories": "Kalorie",
+      "minutes": "min"
+    }
+  },
+  "activities": {
+    "walking": "Chodzenie (szybkie)",
+    "running": "Bieganie (9 min/milę)",
+    "cycling": "Jazda na rowerze (umiarkowany)",
+    "yoga": "Joga",
+    "swimming": "Pływanie (okrążenia)",
+    "strength": "Trening siłowy",
+    "household": "Obowiązki domowe",
+    "dance": "Taniec/aerobik"
+  }
+}

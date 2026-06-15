@@ -1,0 +1,244 @@
+{
+  "header": {
+    "title": "מדריך לבריאות המעיים",
+    "subtitle": "עקוב אחר בריאות מערכת העיכול ובנה מיקרוביום משגשג",
+    "back": "חזרה ללוח המחוונים"
+  },
+  "tabs": {
+    "log": "יומן בטן יומי",
+    "map": "מפת מיקרוביום",
+    "habits": "סיבים ותסיסה"
+  },
+  "bristol": {
+    "title": "סולם שרפרף בריסטול",
+    "info": "תקן הזהב למעקב אחר זמן מעבר העיכול ובריאות המעיים",
+    "types": {
+      "type1": {
+        "label": "סוג 1",
+        "desc": "Severe constipation - Separate hard lumps"
+      },
+      "type2": {
+        "label": "סוג 2",
+        "desc": "Mild constipation - Lumpy and sausage-like"
+      },
+      "type3": {
+        "label": "סוג 3",
+        "desc": "Normal - Sausage with cracks"
+      },
+      "type4": {
+        "label": "סוג 4",
+        "desc": "Ideal - Smooth, soft sausage"
+      },
+      "type5": {
+        "label": "סוג 5",
+        "desc": "Lacking fiber - Soft blobs"
+      },
+      "type6": {
+        "label": "סוג 6",
+        "desc": "שלשול קל - מושי"
+      },
+      "type7": {
+        "label": "סוג 7",
+        "desc": "שלשול חמור - נוזלי"
+      }
+    },
+    "alert": "Please select a Bristol Stool Scale type"
+  },
+  "symptoms": {
+    "title": "תסמינים היום",
+    "items": {
+      "Bloating": "נפיחות",
+      "Gas": "גז",
+      "Cramping": "התכווצויות",
+      "Reflux": "ריפלוקס",
+      "Energy Dip": "טבילת אנרגיה"
+    }
+  },
+  "triggers": {
+    "title": "חשד לטריגר",
+    "items": {
+      "Dairy": "חלבי",
+      "Gluten": "גלוטן",
+      "Coffee": "קפה",
+      "Spicy Food": "אוכל חריף",
+      "Alcohol": "אלכוהול",
+      "Stress": "מתח",
+      "Other": "אחר"
+    }
+  },
+  "log": {
+    "submit": "רישום יומן",
+    "success": "Gut log saved successfully!",
+    "recent": {
+      "title": "יומנים אחרונים",
+      "trigger": "טריגר:"
+    }
+  },
+  "microbiome": {
+    "prebiotics": {
+      "title": "פרביוטיקה",
+      "subtitle": "The Food for Your Gut Bacteria",
+      "desc": "פרה-ביוטיקה היא מזונות עשירים בסיבים המזינים את החיידקים המועילים במעיים, ועוזרים להם לשגשג ולהתרבות."
+    },
+    "probiotics": {
+      "title": "פרוביוטיקה",
+      "subtitle": "The Live Beneficial Bacteria",
+      "desc": "פרוביוטיקה היא מיקרואורגניזמים חיים המצויים במזונות מותססים ומוסיפים ישירות חיידקים מועילים למעי שלך."
+    }
+  },
+  "diversity": {
+    "title": "The 30 Plants a Week Challenge",
+    "subtitle": "מחקרים מראים שאכילת 30+ צמחים שונים בשבוע תומכת במגוון מעיים אופטימלי",
+    "score_label": "/ 30 צמחים",
+    "weekly_score": "ציון גיוון שבועי",
+    "feedback": {
+      "excellent": "🎉 מעולה! You're hitting the 30 plant goal",
+      "great": "👍 גיוון גדול! המשיכו להוסיף מגוון",
+      "good": "📈 התחלה טובה! Aim for more plant variety",
+      "start": "🌱 התחל להוסיף צמחים מגוונים כדי להגביר את בריאות המעיים"
+    }
+  },
+  "habits": {
+    "title": "רשימת הבטן המאושרת",
+    "subtitle": "השלם את ההרגלים היומיומיים הללו לבריאות עיכול אופטימלית",
+    "items": {
+      "fiber": {
+        "label": "25 גרם+ סיבים נצרכו",
+        "desc": "From whole grains, fruits, and vegetables"
+      },
+      "fermented": {
+        "label": "Included 1 Fermented Food",
+        "desc": "Kimchi, yogurt, kefir, or sauerkraut"
+      },
+      "mindful": {
+        "label": "Mindful Eating (20+ Chews)",
+        "desc": "Proper chewing aids digestion"
+      },
+      "fast": {
+        "label": "12-Hour Overnight Gut Rest",
+        "desc": "Fasting window allows gut repair"
+      }
+    }
+  },
+  "tracker": {
+    "title": "מעקב הרגלים ל-30 יום",
+    "tooltip": "Day {{dayNum}}: {{count}}/4 habits",
+    "legend": {
+      "none": "אין",
+      "one": "1",
+      "two": "2",
+      "three": "3",
+      "four": "3-4",
+      "all": "כל ה-4"
+    }
+  },
+  "essentials": {
+    "title": "יסודות בריאות המעיים"
+  },
+  "plants": {
+    "Spinach": "תרד",
+    "Kale": "קייל",
+    "Arugula": "ארוגולה",
+    "Romaine": "רומן",
+    "Broccoli": "ברוקולי",
+    "Cauliflower": "כרובית",
+    "Brussels Sprouts": "כרוב ניצנים",
+    "Cabbage": "כרוב",
+    "Carrots": "גזר",
+    "Sweet Potatoes": "בטטה",
+    "Beets": "סלק",
+    "Radishes": "צנוניות",
+    "Chickpeas": "חומוס",
+    "Lentils": "עדשים",
+    "Black Beans": "שעועית שחורה",
+    "Kidney Beans": "שעועית כליה",
+    "Oats": "שיבולת שועל",
+    "Brown Rice": "אורז חום",
+    "Quinoa": "קינואה",
+    "Barley": "שעורה",
+    "Almonds": "שקדים",
+    "Walnuts": "אגוזי מלך",
+    "Pistachios": "פיסטוקים",
+    "Cashews": "קשיו",
+    "Chia": "צ'יה",
+    "Flax": "פשתן",
+    "Pumpkin Seeds": "גרעיני דלעת",
+    "Sunflower Seeds": "גרעיני חמניות",
+    "Blueberries": "אוכמניות",
+    "Strawberries": "תותים",
+    "Raspberries": "פטל",
+    "Blackberries": "אוכמניות",
+    "Oranges": "תפוזים",
+    "Lemons": "לימונים",
+    "Limes": "ליים",
+    "Grapefruit": "אשכולית",
+    "Bananas": "בננות",
+    "Pineapple": "אננס",
+    "Mango": "מנגו",
+    "Papaya": "פפאיה",
+    "Peaches": "אפרסקים",
+    "Plums": "שזיפים",
+    "Cherries": "דובדבנים",
+    "Apricots": "משמשים",
+    "Basil": "בזיליקום",
+    "Cilantro": "כוסברה",
+    "Mint": "מנטה",
+    "Parsley": "פטרוזיליה",
+    "Rosemary": "רוזמרין",
+    "Turmeric": "כורכום",
+    "Ginger": "ג'ינג'ר",
+    "Cinnamon": "קינמון",
+    "Cumin": "כמון",
+    "Paprika": "פפריקה",
+    "Kimchi": "קמחי",
+    "Sauerkraut": "כרוב כבוש",
+    "Miso": "מיסו",
+    "Tempeh": "טמפה",
+    "Button Mushrooms": "כפתור פטריות",
+    "Shiitake": "שיטאקי",
+    "Portobello": "פורטובלו",
+    "Oyster Mushrooms": "פטריות צדפות",
+    "Pumpkin": "דלעת",
+    "Butternut Squash": "דלעת חמאה",
+    "Zucchini": "קישואים",
+    "Acorn Squash": "דלעת בלוטים",
+    "Bell Peppers": "פלפלים",
+    "Jalapeños": "ג'לפניוס",
+    "Chili": "צ'ילי",
+    "Cherry Tomatoes": "עגבניות שרי",
+    "Roma Tomatoes": "עגבניות רומא",
+    "Beefsteak Tomatoes": "ביפסטייק עגבניות",
+    "Garlic": "שום",
+    "Onions": "בצל",
+    "Leeks": "כרישה",
+    "Shallots": "שאלוט",
+    "Alfalfa Sprouts": "נבטי אספסת",
+    "Broccoli Sprouts": "נבטי ברוקולי",
+    "Mung Bean Sprouts": "נבטי שעועית מונג",
+    "Nori": "נורי",
+    "Kelp": "אצה",
+    "Wakame": "וואקמה",
+    "Buckwheat": "כוסמת",
+    "Farro": "פארו",
+    "Amaranth": "אמרנט",
+    "Millet": "דוחן",
+    "Watermelon": "אבטיח",
+    "Cantaloupe": "מלון",
+    "Honeydew": "טל דבש",
+    "Apples": "תפוחים",
+    "Pears": "אגסים",
+    "Avocado": "אבוקדו",
+    "Coconut": "קוקוס",
+    "Coconut Milk": "חלב קוקוס",
+    "Coconut Water": "מי קוקוס",
+    "Olives": "זיתים",
+    "Dark Chocolate": "שוקולד מריר",
+    "Cacao Nibs": "קקאו ניבס",
+    "Cocoa Powder": "אבקת קקאו",
+    "Green Tea": "תה ירוק",
+    "Black Tea": "תה שחור",
+    "Chamomile": "קמומיל",
+    "Peppermint Tea": "תה מנטה",
+    "Coffee": "קפה"
+  }
+}

@@ -18,7 +18,7 @@
       "desc": "Zum Abnehmen ist ein Kaloriendefizit erforderlich, doch die Qualität der Kalorien ist genauso wichtig wie deren Menge. Setzen Sie auf nährstoffreiche Vollwertkost, die Sie satt macht und gleichzeitig das für den Fettabbau notwendige Defizit erzeugt."
     },
     "proteinFirst": {
-      "title": "Protein First",
+      "title": "Protein zuerst",
       "subtitle": "Warum 1,2–1,6 g Protein pro kg für die Fettverbrennung unerlässlich sind:",
       "muscle": "Erhält die Muskelmasse bei Kalorienrestriktion",
       "thermic": "Höherer thermischer Effekt (30 % der Proteinkalorien werden während der Verdauung verbrannt)",
@@ -33,7 +33,7 @@
         "desc": "Nicht stärkehaltiges Gemüse für mehr Volumen und Nährstoffe"
       },
       "protein": {
-        "title": "Protein",
+        "title": "Eiweiß",
         "desc": "Mageres Fleisch, Fisch, Eier oder pflanzliche Quellen"
       },
       "carbs": {

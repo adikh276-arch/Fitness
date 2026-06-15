@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "back": "Bumalik sa Dashboard"
+  },
+  "header": {
+    "title": "Gabay sa Vegan Nutrisyon",
+    "subtitle": "Kumpletuhin ang toolkit ng nutrisyon na nakabatay sa halaman"
+  },
+  "tabs": {
+    "plate": "Vegan Plate",
+    "nutrients": "Mga micronutrients",
+    "calculator": "Calculator ng protina"
+  },
+  "plate": {
+    "title": "Ang Kumpletong Vegan Meal",
+    "proportions": {
+      "legumes": {
+        "title": "Legumes/Beans",
+        "subtitle": "Powerhouse ng protina",
+        "examples": "Mga halimbawa: Lentils, chickpeas, black beans, tofu, tempeh"
+      },
+      "grains": {
+        "title": "Buong Butil",
+        "subtitle": "Napanatiling enerhiya",
+        "examples": "Mga halimbawa: Quinoa, brown rice, oats, whole wheat, barley"
+      },
+      "vegetables": {
+        "title": "Mga gulay",
+        "subtitle": "Mayaman sa micronutrient",
+        "examples": "Mga halimbawa: Madahong gulay, broccoli, paminta, karot, kamatis"
+      },
+      "fats": {
+        "title": "Malusog na Fats/Seeds",
+        "subtitle": "Kalusugan ng hormone",
+        "examples": "Mga halimbawa: Avocado, nuts, seeds, olive oil, tahini"
+      }
+    },
+    "tip": {
+      "title": "Pro-Tip: Palakasin ang Iron Absorption",
+      "desc": "Ang plant-based iron (non-heme iron) ay mas mahusay na nasisipsip kaysa sa animal iron. Ipares ang mga pagkaing mayaman sa iron na may Vitamin C upang mapataas ang pagsipsip ng hanggang 300%!",
+      "ironRich": "Mga Pagkaing Mayaman sa Bakal",
+      "ironExamples": "Spinach, lentils, quinoa, tofu, mga buto ng kalabasa",
+      "vitaminC": "Mga Pampalakas ng Vitamin C",
+      "vitaminCExamples": "Lemon juice, bell peppers, kamatis, broccoli, dalandan",
+      "perfectCombo": "Perfect Combo: Lentil na sopas na may lemon juice, spinach salad na may bell peppers"
+    }
+  },
+  "nutrients": {
+    "title": "Ang Big 4 Nutrient Tracker",
+    "progress": {
+      "title": "Ang Pag-unlad Ngayon",
+      "done": "Tapos na",
+      "pending": "Nakabinbin"
+    },
+    "why": {
+      "title": "Bakit Subaybayan ang mga Ito?",
+      "desc1": "Ang apat na nutrients na ito ay ang pinakakaraniwang kakulangan sa mga diyeta na nakabatay sa halaman. Tinitiyak ng pagsubaybay sa pang-araw-araw na paggamit na nakakakuha ka ng kumpletong nutrisyon.",
+      "note": "Tandaan: Ang B12 ay dapat dagdagan o ubusin sa pamamagitan ng mga pinatibay na pagkain - hindi ito natural na naroroon sa mga halaman."
+    },
+    "micronutrients": {
+      "b12": {
+        "name": "Bitamina B12",
+        "importance": "Kritikal para sa nerve function at DNA synthesis",
+        "dosage": "2.4 mcg araw-araw"
+      },
+      "iron": {
+        "name": "Bakal at Zinc",
+        "importance": "Mahalaga para sa transportasyon ng oxygen at immune function",
+        "dosage": "Iron: 18mg, Zinc: 11mg araw-araw"
+      },
+      "omega3": {
+        "name": "Omega-3 (ALA)",
+        "importance": "Kalusugan ng utak at anti-namumula",
+        "dosage": "1.6g araw-araw"
+      },
+      "calcium": {
+        "name": "Kaltsyum",
+        "importance": "Kalusugan ng buto at paggana ng kalamnan",
+        "dosage": "1000mg araw-araw"
+      }
+    }
+  },
+  "calculator": {
+    "title": "Gabay sa Kaalaman sa Protina",
+    "subtitle": "Pumili ng pagkain at ilagay ang halaga upang agad na makita ang nilalamang protina nito",
+    "form": {
+      "selectFood": "Maghanap at Pumili ng Item ng Pagkain",
+      "placeholderFood": "Pumili ng pagkain...",
+      "searchPlaceholder": "Maghanap ng mga pagkain...",
+      "amount": "Dami (gramo)",
+      "placeholderAmount": "100",
+      "add": "Idagdag sa Pagkalkula",
+      "proteinPer100": "{{val}}g bawat 100g",
+      "matches": "Ipinapakita ang 5 sa {{total}} na mga tugma",
+      "noMatches": "Walang nakitang pagkain"
+    },
+    "results": {
+      "title": "Pagkasira ng Protina",
+      "estProtein": "Tinantyang Nilalaman ng Protina",
+      "calcInfo": "{{amount}}g ng {{food}}",
+      "summary": "Kasalukuyang Buod ng Pagkalkula",
+      "total": "Kabuuang Protina",
+      "aminoAcid": "Pagkumpleto ng Amino Acid",
+      "aminoComplete": "Kumpletuhin ang Amino Profile",
+      "aminoIncomplete": "Nawawalang Butil o Legumes",
+      "aminoNote": "Legumes (Lentils/Beans/Soy) + Butil (Rice/Quinoa/Oats) = Kumpletong Protein",
+      "save": "Mag-log Total sa History",
+      "success": "Matagumpay na na-log ang protina!",
+      "ironTip": {
+        "title": "Tip:",
+        "desc": "Ipares sa Vitamin C (lemon, peppers, tomatoes) para mapalakas ang iron absorption ng hanggang 300%!"
+      }
+    },
+    "reference": {
+      "title": "Mabilis na Gabay sa Sanggunian"
+    }
+  },
+  "proteinSources": {
+    "tofu": "Tofu",
+    "tempeh": "Tempe",
+    "edamame": "Edamame",
+    "soybeansBoiled": "Soybeans Boiled",
+    "soyChunks": "Soy Chunks / TVP Dry",
+    "soyMince": "Soy Mince Dry",
+    "soyMilk": "Soy Milk Unsweetened",
+    "soyYogurt": "Soy Yogurt Plain",
+    "seitan": "Seitan",
+    "lentilsCooked": "Mga Lentil na Niluto",
+    "redLentilsCooked": "Mga Pulang Lentil na Niluto",
+    "greenLentilsCooked": "Nilutong Green Lentils",
+    "blackLentilsCooked": "Niluto ang Black Lentils",
+    "chickpeasCooked": "Niluto ang mga chickpeas",
+    "blackBeansCooked": "Lutong Black Beans",
+    "kidneyBeansCooked": "Niluto ang Kidney Beans",
+    "pintoBeansCooked": "Pinto Beans Luto",
+    "cannelliniBeansCooked": "Niluto ang Cannellini Beans",
+    "navyBeansCooked": "Niluto ng Navy Beans",
+    "adzukiBeansCooked": "Niluto ang Adzuki Beans",
+    "mungBeansCooked": "Niluto ang Mung Beans",
+    "lupinBeans": "Lupin Beans",
+    "splitPeasCooked": "Split Peas Cooked",
+    "greenPeas": "Mga berdeng gisantes",
+    "peaProteinIsolate": "Ihiwalay ang Pea Protein",
+    "peaMilk": "Gatas ng gisantes",
+    "hummus": "Hummus",
+    "falafel": "Falafel",
+    "quinoaCooked": "Niluto ang Quinoa",
+    "amaranthCooked": "Niluto ang Amaranth",
+    "buckwheatCooked": "Niluto ng Buckwheat",
+    "oatsDry": "Oats tuyo",
+    "rolledOats": "Rolled Oats",
+    "steelCutOats": "Steel Cut Oats",
+    "oatBran": "Oat Bran",
+    "barleyCooked": "Niluto ng Barley",
+    "milletCooked": "Niluto ng Millet",
+    "brownRiceCooked": "Brown Rice na niluto",
+    "wildRiceCooked": "Nagluto ng Wild Rice",
+    "teffCooked": "Nagluto ng Teff",
+    "farroCooked": "Nagluto si Farro",
+    "freekehCooked": "Luto ng Freekeh",
+    "wholeWheatPastaCooked": "Niluto ng Whole Wheat Pasta",
+    "chickpeaPastaDry": "Chickpea Pasta Dry",
+    "lentilPastaDry": "Lentil Pasta Dry",
+    "blackBeanPastaDry": "Black Bean Pasta Dry",
+    "spirulinaDry": "Spirulina Dry",
+    "nutritionalYeast": "Nutritional Yeast",
+    "mushroomsWhite": "Mga kabute na puti",
+    "portobelloMushrooms": "Mga kabute ng Portobello",
+    "spinach": "kangkong",
+    "kale": "Kale",
+    "broccoli": "Brokuli",
+    "brusselsSprouts": "Brussels Sprouts",
+    "sweetCorn": "Matamis na Mais",
+    "artichoke": "Artichoke",
+    "avocado": "Abukado",
+    "pumpkinSeeds": "Pumpkin Seeds",
+    "hempSeeds": "Mga Buto ng Abaka",
+    "chiaSeeds": "Mga Buto ng Chia",
+    "flaxSeeds": "Mga Buto ng Flax",
+    "sesameSeeds": "Sesame Seeds",
+    "sunflowerSeeds": "Mga Buto ng Sunflower",
+    "watermelonSeeds": "Mga Buto ng Pakwan",
+    "almonds": "Almendras",
+    "peanuts": "Mga mani",
+    "peanutButterNatural": "Natural na Peanut Butter",
+    "cashews": "kasoy",
+    "pistachios": "Pistachios",
+    "walnuts": "Mga nogales",
+    "hazelnuts": "Mga Hazelnut",
+    "brazilNuts": "Brazil Nuts",
+    "almondButter": "Almond Butter",
+    "tahini": "Tahini",
+    "cashewButter": "Cashew Butter",
+    "pumpkinSeedButter": "Pumpkin Seed Butter",
+    "sunflowerSeedButter": "Mantikilya ng Binhi ng Sunflower",
+    "almondFlour": "Almond Flour",
+    "chickpeaFlour": "Chickpea Flour / Besan",
+    "soyFlour": "Soy Flour",
+    "wholeWheatFlour": "Buong Wheat Flour",
+    "breadWholeWheat": "Tinapay na Buong Trigo",
+    "ezekielBread": "Tinapay ni Ezekiel",
+    "proteinBreadVegan": "Tinapay ng protina Vegan",
+    "roastedChickpeas": "Inihaw na Chickpeas",
+    "dryRoastedEdamame": "Dry Roasted Edamame",
+    "proteinBarVegan": "Protein Bar Vegan",
+    "veganSausage": "Vegan Sausage",
+    "veganBurgerPatty": "Vegan Burger Patty",
+    "mycoproteinVegan": "Mycoprotein Vegan",
+    "beanSprouts": "Bean Sprout",
+    "alfalfaSprouts": "Alfalfa Sprouts"
+  }
+}

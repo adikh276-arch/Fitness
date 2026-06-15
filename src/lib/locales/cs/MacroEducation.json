@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "back": "Zpět na Dashboard"
+  },
+  "header": {
+    "title": "Pochopení makroživin",
+    "subtitle": "Naučte se základy bílkovin, sacharidů a tuků"
+  },
+  "tabs": {
+    "protein": "Protein",
+    "carbs": "Sacharidy",
+    "fats": "Tuky",
+    "plate": "Stavitel talířů"
+  },
+  "protein": {
+    "title": "Protein",
+    "kcal": "4 kcal/gram",
+    "whyMatters": {
+      "title": "Proč na tom záleží:",
+      "muscle": {
+        "title": "Oprava a růst svalů:",
+        "desc": "Nezbytný pro budování a udržení čisté svalové hmoty"
+      },
+      "satiety": {
+        "title": "Sytost:",
+        "desc": "Udrží vás déle sytý a sníží celkový příjem kalorií"
+      },
+      "metabolic": {
+        "title": "Metabolické posílení:",
+        "desc": "Nejvyšší termický efekt ze všech maker (20-30 % kalorií spálených během trávení)"
+      }
+    },
+    "target": {
+      "title": "Denní cíl:",
+      "desc": "Pro optimální zdraví a udržení svalové hmoty se snažte o <1>1,6–2,2 g na kg</1> tělesné hmotnosti. Sportovci a ti, kteří budují svaly, mohou potřebovat až 2,5 g/kg."
+    },
+    "sources": "Nejlepší zdroje bílkovin:"
+  },
+  "carbs": {
+    "title": "Sacharidy",
+    "kcal": "4 kcal/gram",
+    "whyMatters": {
+      "title": "Proč na tom záleží:",
+      "energy": {
+        "title": "Primární zdroj energie:",
+        "desc": "Vaše tělo preferuje palivo pro mozkovou a fyzickou aktivitu"
+      },
+      "performance": {
+        "title": "Výkon:",
+        "desc": "Důležité pro vysoce intenzivní cvičení a sportovní výkon"
+      },
+      "nutrients": {
+        "title": "Vláknina a živiny:",
+        "desc": "Celé sacharidy poskytují základní vitamíny, minerály a zdraví trávení"
+      }
+    },
+    "target": {
+      "title": "Denní cíl:",
+      "desc": "U aktivních jedinců se zaměřte na <1>3–6 g na kg</1> tělesné hmotnosti. Osoby se sedavým zaměstnáním mohou potřebovat méně (2–3 g/kg). Zaměřte se na komplexní, plnohodnotné zdroje potravy."
+    },
+    "sources": "Nejlepší zdroje sacharidů:"
+  },
+  "fats": {
+    "title": "Tuky",
+    "kcal": "9 kcal/gram",
+    "whyMatters": {
+      "title": "Proč na tom záleží:",
+      "hormone": {
+        "title": "Produkce hormonů:",
+        "desc": "Nezbytný pro testosteron, estrogen a další životně důležité hormony"
+      },
+      "vitamin": {
+        "title": "Absorpce vitamínů:",
+        "desc": "Vyžaduje se pro vstřebávání vitamínů rozpustných v tucích (A, D, E, K)"
+      },
+      "brain": {
+        "title": "Zdraví mozku:",
+        "desc": "Váš mozek obsahuje 60 % tuku – omega-3 jsou klíčové pro kognitivní funkce"
+      }
+    },
+    "target": {
+      "title": "Denní cíl:",
+      "desc": "Zaměřte se na <1>0,8–1,2 g na kg</1> tělesné hmotnosti, neboli 20–35 % celkových kalorií. Upřednostňujte nenasycené tuky (olivový olej, ořechy, ryby) před nasycenými tuky."
+    },
+    "sources": "Nejlepší zdroje tuku:"
+  },
+  "plate": {
+    "title": "Sestavte si vyvážené jídlo",
+    "legend": {
+      "protein": "Protein {{val}} %",
+      "carbs": "Sacharidy {{val}} %",
+      "fats": "Tuky {{val}} %"
+    },
+    "sliders": {
+      "protein": {
+        "title": "Protein",
+        "desc": "Svaly a sytost"
+      },
+      "carbs": {
+        "title": "Sacharidy",
+        "desc": "Energie a výkon"
+      },
+      "fats": {
+        "title": "Tuky",
+        "desc": "Hormony a vitamíny"
+      }
+    },
+    "calories": {
+      "title": "Odhadované kalorie",
+      "subtitle": "(na základě 200g porce)",
+      "unit": "kcal"
+    },
+    "warning": {
+      "title": "Balanční doporučení",
+      "desc": "Pro optimální výživu: Zaměřte se na alespoň 15–25 % bílkovin (svaly a sytost), 20–35 % zdravých tuků (hormony) a 40–60 % sacharidů (energie). Upravte své poměry, abyste tyto cíle splnili."
+    }
+  },
+  "foods": {
+    "chicken": "Kuřecí prsa",
+    "yogurt": "Řecký jogurt",
+    "eggs": "Vejce",
+    "eggUnit": "1 vejce = 6 g bílkovin",
+    "salmon": "Losos",
+    "lentils": "Čočka",
+    "tofu": "Tofu",
+    "rice": "Hnědá rýže",
+    "oats": "Oves",
+    "potato": "Sladký brambor",
+    "quinoa": "Quinoa",
+    "banana": "banán",
+    "bananaUnit": "1 médium = 27 g sacharidů",
+    "bread": "Celozrnný chléb",
+    "breadUnit": "1 plátek = 12 g sacharidů",
+    "avocado": "Avokádo",
+    "almonds": "Mandle",
+    "almondsUnit": "28g = 14g tuku",
+    "oil": "Olivový olej",
+    "oilUnit": "1 polévková lžíce = 14 g tuku",
+    "peanutButter": "Arašídové máslo",
+    "pbUnit": "2 polévkové lžíce = 16 g tuku",
+    "chocolate": "Hořká čokoláda",
+    "chocolateUnit": "28g = 9g tuku",
+    "unit100g": "100 g = {{val}}g {{makro}}"
+  }
+}

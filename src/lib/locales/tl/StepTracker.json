@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "back": "Bumalik sa Dashboard"
+  },
+  "header": {
+    "title": "Step Tracker",
+    "subtitle": "Subaybayan ang iyong mga pang-araw-araw na hakbang at abutin ang iyong mga layunin",
+    "profile": "Profile"
+  },
+  "tabs": {
+    "tracker": "Tagasubaybay",
+    "history": "Kasaysayan"
+  },
+  "tracker": {
+    "stepsToday": "hakbang ngayon",
+    "goalAchieved": "Naabot ang Layunin!",
+    "stats": {
+      "distance": "Distansya",
+      "calories": "Mga calorie",
+      "activeTime": "Aktibong Oras",
+      "km": "km",
+      "kcal": "kcal",
+      "mins": "min"
+    },
+    "goal": {
+      "label": "Pang-araw-araw na Layunin",
+      "value": "{{val}} na mga hakbang",
+      "change": "Baguhin ang Layunin"
+    },
+    "quickAdd": {
+      "title": "Mabilis na Magdagdag ng mga Hakbang",
+      "label": "Mga Custom na Hakbang",
+      "placeholder": "hal., 3500",
+      "submit": "Idagdag"
+    },
+    "insights": {
+      "title": "Mga Insight Ngayon",
+      "remaining": "Mga Natitirang Hakbang",
+      "stride": "Haba ng Hakbang",
+      "progress": "Pag-unlad",
+      "complete": "Kumpleto na!",
+      "percentOfGoal": "{{val}}% ng layunin"
+    },
+    "reset": "I-reset ang Mga Hakbang Ngayon"
+  },
+  "history": {
+    "title": "Kasaysayan ng Hakbang",
+    "noHistory": "Wala pang history. Simulan ang pagsubaybay sa iyong mga hakbang!",
+    "today": "Ngayong araw",
+    "stats": {
+      "steps": "Mga hakbang",
+      "goal": "Layunin",
+      "progress": "Pag-unlad"
+    }
+  },
+  "modals": {
+    "goal": {
+      "title": "Magtakda ng Pang-araw-araw na Layunin",
+      "subtitle": "Ilagay ang iyong target na pang-araw-araw na hakbang",
+      "placeholder": "hal., 10000",
+      "cancel": "Kanselahin",
+      "save": "I-save"
+    },
+    "profile": {
+      "title": "I-update ang Profile",
+      "subtitle": "Nakakatulong ito sa pagkalkula ng tumpak na distansya at calories",
+      "height": "Taas (cm)",
+      "weight": "Timbang (kg)",
+      "gender": "Kasarian",
+      "male": "Lalaki",
+      "female": "Babae",
+      "placeholderHeight": "hal., 170",
+      "placeholderWeight": "hal., 70",
+      "cancel": "Kanselahin",
+      "save": "I-save"
+    }
+  }
+}

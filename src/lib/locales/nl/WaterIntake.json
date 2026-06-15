@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "back": "Terug naar Dashboard"
+  },
+  "header": {
+    "title": "Waterinname-tracker",
+    "subtitle": "Houd uw dagelijkse hydratatie bij en bereik uw doelen"
+  },
+  "tabs": {
+    "tracker": "De tracker van vandaag",
+    "history": "Geschiedenis"
+  },
+  "tracker": {
+    "consumed": "ml verbruikt",
+    "goalLabel": "Dagelijks doel",
+    "remainingLabel": "Resterend",
+    "changeGoal": "Verander het dagelijkse doel",
+    "quickAdd": {
+      "title": "Snel toevoegen",
+      "smallGlass": "Klein glas",
+      "bottle": "Fles",
+      "largeBottle": "Grote fles",
+      "jug": "Kruik"
+    },
+    "custom": {
+      "label": "Aangepaste hoeveelheid (ml)",
+      "placeholder": "bijvoorbeeld 350",
+      "submit": "Toevoegen",
+      "undo": "Laatste invoer ongedaan maken"
+    }
+  },
+  "history": {
+    "title": "Geschiedenis van waterinname",
+    "noHistory": "Nog geen geschiedenis beschikbaar",
+    "today": "Vandaag",
+    "summary": "{{totaal}} ml / {{doel}} ml ({{procent}}%)",
+    "stats": {
+      "total": "Totaal",
+      "entries": "Inzendingen"
+    }
+  },
+  "modal": {
+    "title": "Dagelijks doel instellen",
+    "subtitle": "Voer uw beoogde dagelijkse waterinname in",
+    "placeholder": "bijvoorbeeld 2500",
+    "calcToggleShow": "Bereken aanbevolen",
+    "calcToggleHide": "Rekenmachine verbergen",
+    "formula": "Formule: Gewicht (kg) × 35 ml",
+    "weightLabel": "Uw gewicht (kg)",
+    "weightPlaceholder": "bijvoorbeeld 70",
+    "calcBtn": "Bereken & Pas toe",
+    "cancel": "Annuleer",
+    "save": "Opslaan"
+  }
+}

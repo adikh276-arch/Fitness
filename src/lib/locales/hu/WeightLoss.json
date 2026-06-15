@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "back": "Vissza az irányítópultra"
+  },
+  "header": {
+    "title": "Fogyás útmutató",
+    "subtitle": "Az Ön teljes útmutatója a fenntartható fogyáshoz"
+  },
+  "tabs": {
+    "plan": "A Terv",
+    "tracker": "Nyomkövető",
+    "habits": "Szokások"
+  },
+  "plan": {
+    "goldenRule": {
+      "title": "Az aranyszabály",
+      "subtitle": "Kalóriahiány vs. tápanyagsűrűség",
+      "desc": "A fogyáshoz kalóriadeficitre van szükség, de ezeknek a kalóriáknak a minősége éppúgy számít, mint a mennyisége. Koncentrálj a tápanyagban gazdag, teljes értékű élelmiszerekre, amelyek elégedettek maradnak, miközben a zsírvesztéshez szükséges hiányt okozzák."
+    },
+    "proteinFirst": {
+      "title": "Először a fehérje",
+      "subtitle": "Miért nem alkuképes 1,2–1,6 g fehérje/kg a zsírégetés érdekében?",
+      "muscle": "Megőrzi az izomtömeget a kalóriakorlátozás során",
+      "thermic": "Magasabb termikus hatás (az emésztés során elégetett fehérjekalóriák 30%-a)",
+      "satiety": "A megnövekedett jóllakottság elősegíti, hogy hosszabb ideig érezze jóllakottságát",
+      "sugar": "Stabilizálja a vércukorszintet és csökkenti a vágyat"
+    },
+    "plateMethod": {
+      "title": "A lemezes módszer",
+      "subtitle": "Egyszerű vizuális útmutató a zsírvesztést elősegítő kiegyensúlyozott étkezésekhez:",
+      "veg": {
+        "title": "Zöldségek",
+        "desc": "Nem keményítőtartalmú zöldségek a térfogat és a tápanyagok érdekében"
+      },
+      "protein": {
+        "title": "Fehérje",
+        "desc": "Sovány húsok, halak, tojás vagy növényi eredetű források"
+      },
+      "carbs": {
+        "title": "Rostban gazdag szénhidrát",
+        "desc": "Teljes kiőrlésű gabonák, édesburgonya, quinoa, hüvelyesek"
+      }
+    },
+    "hiddenFactors": {
+      "title": "A rejtett tényezők",
+      "hydration": {
+        "title": "Hidratálás",
+        "desc": "A megfelelő hidratálás segít:"
+      },
+      "sleep": {
+        "title": "Alvás (7+ óra)",
+        "desc": "A minőségi alvás szabályozza:"
+      }
+    }
+  },
+  "tracker": {
+    "progress": {
+      "title": "Az Ön Haladása",
+      "change": "Célok módosítása",
+      "lost": "Fogyás",
+      "remaining": "Maradt",
+      "percent": "Haladás",
+      "complete": "Teljes"
+    },
+    "log": {
+      "title": "Naplózza a mai mérőszámokat",
+      "weight": "Jelenlegi súly (kg)",
+      "chest": "Mellkas (hüvelyk, opcionális)",
+      "waist": "Derék (hüvelyk, opcionális)",
+      "hips": "Csípő (hüvelyk, opcionális)",
+      "placeholder": "pl. {{val}}",
+      "submit": "Napló metrikák"
+    },
+    "history": {
+      "title": "Metrics History",
+      "total": "Összes napló",
+      "first": "Első súly",
+      "latest": "Legújabb súly",
+      "unit": "kg",
+      "inches": "hüvelyk",
+      "chest": "mellkas",
+      "waist": "derék",
+      "hips": "csípő"
+    }
+  },
+  "habits": {
+    "consistency": {
+      "title": "Heti konzisztencia",
+      "subtitle": "Folytassa az egészséges szokások kialakítását!"
+    },
+    "today": {
+      "title": "Mai szokások",
+      "subtitle": "Tekintse meg minden szokását, ahogy ma befejezi",
+      "protein": {
+        "label": "Hit Protein Goal",
+        "desc": "1,2-1,6 g testtömegkilogrammonként"
+      },
+      "noSugar": {
+        "label": "Nincsenek cukros italok",
+        "desc": "Csak víz, tea vagy feketekávé"
+      },
+      "walk": {
+        "label": "10 perces étkezés utáni séta",
+        "desc": "Könnyű tevékenység étkezés után"
+      },
+      "sleep": {
+        "label": "7+ óra alvás",
+        "desc": "Minőségi pihenés a gyógyuláshoz"
+      }
+    },
+    "tracker30": {
+      "title": "30 napos szokáskövető",
+      "legend": {
+        "none": "Egyik sem",
+        "low": "1",
+        "mid": "2-3",
+        "high": "3",
+        "all": "Mind a 4"
+      }
+    },
+    "whyMatters": {
+      "title": "Miért számítanak ezek a szokások?",
+      "protein": "A fehérjebevitel megőrzi az izmokat és növeli a jóllakottságot a fogyás során",
+      "noSugar": "A cukros italok kerülése megszünteti az üres kalóriákat és csökkenti az inzulincsúcsokat",
+      "walk": "Az étkezés utáni séták javítják az inzulinérzékenységet és segítik az emésztést",
+      "sleep": "A minőségi alvás szabályozza az éhséghormonokat és támogatja a zsírvesztést"
+    }
+  },
+  "modal": {
+    "title": "Állítsa be a céljait",
+    "subtitle": "Tegyük személyre a fogyás útját",
+    "start": "Kezdő tömeg (kg)",
+    "target": "Célsúly (kg)",
+    "date": "Céldátum",
+    "save": "Cél mentése",
+    "fillAll": "Kérjük, töltse ki az összes mezőt"
+  }
+}

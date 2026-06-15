@@ -1,0 +1,227 @@
+{
+  "header": {
+    "title": "Fleksibilitet og mobilitet",
+    "subtitle": "Improve range of motion and prevent injuries",
+    "back": "Tilbake til Dashboard"
+  },
+  "tabs": {
+    "stretches": "Daglige strekk",
+    "tests": "Mobilitetstester",
+    "log": "Gjenopprettingslogg"
+  },
+  "player": {
+    "stretch": "Stretch {{current}} of {{total}}",
+    "resume": "Fortsett",
+    "pause": "Pause",
+    "skip": "Hopp over",
+    "cancel": "Avbryt",
+    "bilateral_hint": "💡 Remember to switch sides when the timer ends",
+    "preview": {
+      "stretches_count": "{{count}} Stretches ({{duration}} min total):",
+      "start": "Start {{duration}}-Min Routine",
+      "cancel": "Avbryt"
+    },
+    "complete": {
+      "title": "Rutine fullført!",
+      "desc": "Great job completing {{name}}!",
+      "rate_label": "Føler du deg bedre? Rate your improvement: {{rating}}/10",
+      "worse": "Verre",
+      "same": "Samme",
+      "much_better": "Mye bedre",
+      "save": "Lagre økt",
+      "done": "Ferdig"
+    }
+  },
+  "routines": {
+    "upper-body": {
+      "name": "Overkroppen åpen",
+      "focus": "Bryst, skuldre, midt på ryggen",
+      "desc": "Slipp spenningen fra skrivebordsarbeid og telefonbruk",
+      "stretches": {
+        "Doorway Chest Stretch": {
+          "name": "Døråpningsbryststrekk",
+          "desc": "Stand in doorway, place forearms on frame, lean forward to feel chest stretch."
+        },
+        "Shoulder Rolls": {
+          "name": "Skulderruller",
+          "desc": "Roll shoulders backward in large circles, 10 reps."
+        },
+        "Thoracic Rotation": {
+          "name": "Thorax rotasjon",
+          "desc": "On hands and knees, rotate upper body side to side, opening chest."
+        },
+        "Neck Stretch": {
+          "name": "Nakkestrekk",
+          "desc": "Gently tilt head to each side, holding for 30 seconds per side."
+        },
+        "Tricep Stretch": {
+          "name": "Triceps stretch",
+          "desc": "Reach arm overhead, bend elbow, gently pull with other hand."
+        }
+      }
+    },
+    "lower-body": {
+      "name": "Utløser underkropp",
+      "focus": "Hamstrings, Glutes, Hip Flexors",
+      "desc": "Deep stretches for tight legs and hips from sitting",
+      "stretches": {
+        "Pigeon Pose": {
+          "name": "Duestilling",
+          "desc": "Bring one leg forward bent, extend back leg straight, sink hips down."
+        },
+        "Hamstring Stretch": {
+          "name": "Hamstring stretch",
+          "desc": "Sit with one leg extended, reach toward toes, keep back straight."
+        },
+        "Hip Flexor Lunge": {
+          "name": "Hip Flexor Lunge",
+          "desc": "Lunge position, push hips forward to feel stretch in front hip."
+        },
+        "Glute Stretch": {
+          "name": "Glute Stretch",
+          "desc": "Lying on back, cross ankle over opposite knee, pull toward chest."
+        },
+        "Calf Stretch": {
+          "name": "Kalvstrekk",
+          "desc": "Step forward in lunge, keep back heel down to stretch calf."
+        }
+      }
+    },
+    "full-body": {
+      "name": "Full Body Flow",
+      "focus": "Total kroppsvedlikehold",
+      "desc": "Complete head-to-toe flexibility routine",
+      "stretches": {
+        "Cat-Cow": {
+          "name": "Katt-ku",
+          "desc": "On hands and knees, alternate arching and rounding spine."
+        },
+        "Downward Dog": {
+          "name": "Nedadgående hund",
+          "desc": "Hands and feet planted, hips high, forming an inverted V."
+        },
+        "Child's Pose": {
+          "name": "Barns positur",
+          "desc": "Knees wide, sit back on heels, arms extended forward."
+        },
+        "Seated Twist": {
+          "name": "Sittende Twist",
+          "desc": "Sit cross-legged, rotate torso to each side, hand behind back."
+        },
+        "Forward Fold": {
+          "name": "Foroverfold",
+          "desc": "Stående, hengsel i hoftene, nå mot tærne, la hodet henge."
+        },
+        "Hip Circles": {
+          "name": "Hofte sirkler",
+          "desc": "Hendene på hoftene, lag store sirkler med hoftene i begge retninger."
+        },
+        "Arm Circles": {
+          "name": "Armsirkler",
+          "desc": "Strekk ut armene bredt, lag store sirkler fremover og deretter bakover."
+        }
+      }
+    },
+    "dynamic-warmup": {
+      "name": "Dynamisk oppvarming",
+      "focus": "Aktivering før trening",
+      "desc": "Prepare your body before exercise",
+      "stretches": {
+        "Leg Swings": {
+          "name": "Bensvingninger",
+          "desc": "Hold veggen, sving benet frem og tilbake, så side til side."
+        },
+        "Arm Circles": {
+          "name": "Armsirkler",
+          "desc": "Small to large circles, forward and backward."
+        },
+        "Torso Twists": {
+          "name": "Torso Twists",
+          "desc": "Rotate upper body side to side with arms loose."
+        },
+        "Walking Lunges": {
+          "name": "Walking Lunges",
+          "desc": "Gå frem i utfall, bytt ben mens du beveger deg fremover."
+        },
+        "High Knees": {
+          "name": "Høye knær",
+          "desc": "March in place bringing knees to hip height."
+        }
+      }
+    }
+  },
+  "benefits": {
+    "title": "Why Daily Stretching Matters"
+  },
+  "tests": {
+    "status": {
+      "title": "Din mobilitetsstatus",
+      "based_on": "Based on {{count}} test results",
+      "complete_below": "Fullfør testene nedenfor",
+      "score_label": "Poeng: {{poeng}}/6 poeng (bestått=2, delvis=1, trenger arbeid=0)",
+      "elite": "Elite mobilitet",
+      "good": "God mobilitet",
+      "limited": "Begrenset mobilitet",
+      "not_tested": "Ikke testet"
+    },
+    "items": {
+      "sit-reach": {
+        "name": "Sit & Reach-test",
+        "desc": "Sit with legs straight, reach toward toes",
+        "pass": "Kan berøre eller passere tærne",
+        "fail": "More than 6 inches from toes"
+      },
+      "shoulder-pass": {
+        "name": "Skulderpassering",
+        "desc": "Hold et bånd/pinne, løft armene over hodet og bak ryggen",
+        "pass": "Can pass through smoothly",
+        "fail": "Kan ikke fullføre bevegelsen"
+      },
+      "deep-squat": {
+        "name": "Deep Squat Hold",
+        "desc": "Squat down with heels flat, hold for 30 seconds",
+        "pass": "Kan holde 30-årene, hælene nede",
+        "fail": "Heels lift or cannot hold"
+      }
+    },
+    "tips": {
+      "title": "Testtips"
+    },
+    "actions": {
+      "pass": "✓ Bestått",
+      "partial": "~ Delvis",
+      "fail": "✗ Trenger arbeid"
+    }
+  },
+  "log": {
+    "title": "Logggjenopprettingsøkt",
+    "duration": "Varighet (minutter)",
+    "focus_areas": "Focus Areas (select all that apply)",
+    "soreness_label": "Soreness Before Session: {{level}}/10",
+    "no_pain": "1 - Ingen smerte",
+    "moderate": "5 - Moderat",
+    "very_sore": "10 - Veldig sårt",
+    "submit": "🧘 Loggøkt",
+    "heatmap": {
+      "title": "Gjenopprettingsvarmekart",
+      "legend": "Purple dots mark days with recovery sessions"
+    },
+    "badge": {
+      "title": "Skadebevis!",
+      "desc": "Du har fullført {{count}} gjenopprettingsøkter denne uken!"
+    },
+    "stats": {
+      "total": "Totalt antall minutter",
+      "this_week": "Denne uken"
+    },
+    "recent": "Nylige økter",
+    "areas": {
+      "Neck": "Hals",
+      "Shoulders": "Skuldre",
+      "Back": "Tilbake",
+      "Hips": "Hofter",
+      "Legs": "Ben",
+      "Full Body": "Helkropp"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "back": "Zpět na Dashboard"
+  },
+  "header": {
+    "title": "Sledovač příjmu vody",
+    "subtitle": "Sledujte svou každodenní hydrataci a dosáhněte svých cílů"
+  },
+  "tabs": {
+    "tracker": "Dnešní Tracker",
+    "history": "Historie"
+  },
+  "tracker": {
+    "consumed": "spotřebováno ml",
+    "goalLabel": "Denní cíl",
+    "remainingLabel": "Zbývající",
+    "changeGoal": "Změňte denní cíl",
+    "quickAdd": {
+      "title": "Rychlé přidání",
+      "smallGlass": "Malé sklo",
+      "bottle": "Láhev",
+      "largeBottle": "Velká láhev",
+      "jug": "Džbán"
+    },
+    "custom": {
+      "label": "Vlastní množství (ml)",
+      "placeholder": "např. 350",
+      "submit": "Přidat",
+      "undo": "Vrátit zpět poslední položku"
+    }
+  },
+  "history": {
+    "title": "Historie příjmu vody",
+    "noHistory": "Zatím není k dispozici žádná historie",
+    "today": "dnes",
+    "summary": "{{total}} ml / {{goal}} ml ({{percent}} %)",
+    "stats": {
+      "total": "Celkem",
+      "entries": "Příspěvky"
+    }
+  },
+  "modal": {
+    "title": "Nastavte si denní cíl",
+    "subtitle": "Zadejte svůj cílový denní příjem vody",
+    "placeholder": "např. 2500",
+    "calcToggleShow": "Vypočítat doporučené",
+    "calcToggleHide": "Skrýt kalkulačku",
+    "formula": "Složení: Hmotnost (kg) × 35 ml",
+    "weightLabel": "Vaše hmotnost (kg)",
+    "weightPlaceholder": "např. 70",
+    "calcBtn": "Vypočítat a použít",
+    "cancel": "Zrušit",
+    "save": "Uložit"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "back": "Powrót do Panelu"
+  },
+  "header": {
+    "title": "Śledzenie poboru wody",
+    "subtitle": "Śledź swoje codzienne nawodnienie i osiągaj swoje cele"
+  },
+  "tabs": {
+    "tracker": "Dzisiejszy tropiciel",
+    "history": "Historia"
+  },
+  "tracker": {
+    "consumed": "ml zużyte",
+    "goalLabel": "Dzienny cel",
+    "remainingLabel": "Pozostało",
+    "changeGoal": "Zmień dzienny cel",
+    "quickAdd": {
+      "title": "Szybkie dodawanie",
+      "smallGlass": "Małe Szkło",
+      "bottle": "Butelka",
+      "largeBottle": "Duża butelka",
+      "jug": "Dzbanek"
+    },
+    "custom": {
+      "label": "Ilość niestandardowa (ml)",
+      "placeholder": "np. 350",
+      "submit": "Dodaj",
+      "undo": "Cofnij ostatni wpis"
+    }
+  },
+  "history": {
+    "title": "Historia poboru wody",
+    "noHistory": "Nie ma jeszcze dostępnej historii",
+    "today": "Dzisiaj",
+    "summary": "{{total}} ml / {{goal}} ml ({{percent}}%)",
+    "stats": {
+      "total": "Razem",
+      "entries": "Wpisy"
+    }
+  },
+  "modal": {
+    "title": "Ustaw dzienny cel",
+    "subtitle": "Wprowadź docelowe dzienne spożycie wody",
+    "placeholder": "np. 2500",
+    "calcToggleShow": "Oblicz zalecane",
+    "calcToggleHide": "Ukryj kalkulator",
+    "formula": "Formuła: Waga (kg) × 35 ml",
+    "weightLabel": "Twoja waga (kg)",
+    "weightPlaceholder": "np. 70",
+    "calcBtn": "Oblicz i zastosuj",
+    "cancel": "Anuluj",
+    "save": "Zapisz"
+  }
+}

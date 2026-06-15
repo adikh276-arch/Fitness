@@ -42,7 +42,8 @@
       "title": "Lecturas recientes",
       "noReadings": "Aún no se han registrado lecturas.",
       "trend": "Tendencia de 7 días",
-      "targetMax": "Objetivo máximo"
+      "targetMax": "Objetivo máximo",
+      "targetPost": "Objetivo máximo (después de las comidas)"
     }
   },
   "plate": {
@@ -101,7 +102,8 @@
       "low": "IG bajo",
       "medium": "GI medio",
       "high": "Alto índice glucémico"
-    }
+    },
+    "search": "Buscar un alimento (por ejemplo, avena, plátano...)"
   },
   "timing": {
     "fasting": "Ayuno",
@@ -126,13 +128,13 @@
     "Tomatoes": "Tomates",
     "Chicken Breast": "Pechuga de pollo",
     "Fish (Salmon, Tuna)": "Pescado (salmón, atún)",
-    "Tofu": "Tofu",
+    "Tofu": "tofu",
     "Lentils": "Lentejas",
     "Eggs": "Huevos",
     "Turkey": "Pavo",
     "Greek Yogurt": "Yogur griego",
     "Brown Rice": "arroz integral",
-    "Quinoa": "Quinoa",
+    "Quinoa": "Quinua",
     "Sweet Potato": "Batata",
     "Whole Wheat Pasta": "Pasta integral",
     "Oats": "Avena",

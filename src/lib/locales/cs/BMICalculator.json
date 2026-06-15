@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "back": "Zpět na Dashboard"
+  },
+  "header": {
+    "title": "Inteligentní BMI a tělesný kontext",
+    "subtitle": "Sledujte své tělesné metriky s klinickou přesností"
+  },
+  "streak": {
+    "title": "Udržujte zdravý rozsah!",
+    "subtitle": "{{count}} po sobě jdoucích čtení ve zdravé zóně 🎉"
+  },
+  "tabs": {
+    "calculator": "BMI kalkulačka",
+    "context": "Mimo BMI",
+    "history": "Historie trendů"
+  },
+  "calculator": {
+    "title": "Spočítejte si své BMI",
+    "inputs": {
+      "height": "Výška",
+      "weight": "Hmotnost",
+      "feet": "Nohy",
+      "inches": "palce",
+      "placeholders": {
+        "heightCm": "např. 170",
+        "heightFt": "Nohy",
+        "heightIn": "palce",
+        "weightKg": "např. 70",
+        "weightLbs": "např. 154"
+      }
+    },
+    "results": {
+      "yourBMI": "Vaše BMI",
+      "placeholder": "Zadejte své míry, abyste viděli své BMI",
+      "submit": "Uložit do profilu",
+      "success": "✓ Úspěšně uloženo!",
+      "categories": {
+        "underweight": "Podváha",
+        "healthy": "Zdravá váha",
+        "normal": "Normální",
+        "overweight": "Nadváha",
+        "obese": "Obézní",
+        "enterData": "Zadejte údaje"
+      }
+    },
+    "tip": "Zvažte začlenění pravidelného cvičení a vyvážené stravy do vaší rutiny.",
+    "disclaimer": {
+      "title": "Lékařské vyloučení odpovědnosti",
+      "text": "BMI je obecný screeningový nástroj a nerozlišuje mezi svalovou a tukovou hmotou. Poraďte se se zdravotnickými odborníky pro individuální lékařskou pomoc."
+    }
+  },
+  "beyond": {
+    "title": "Poměr pasu k výšce (WHtR)",
+    "why": {
+      "title": "Proč na tom záleží",
+      "desc": "Udržování obvodu pasu na méně než polovině vaší výšky snižuje kardiovaskulární riziko. WHtR je přesnější než BMI pro predikci metabolických zdravotních stavů.",
+      "target": "Cíl: Poměr < 0,5 pro optimální zdraví"
+    },
+    "inputs": {
+      "waist": "Obvod pasu",
+      "waistHint": "Měřte v nejužším místě pasu, obvykle těsně nad pupíkem",
+      "placeholders": {
+        "waistCm": "např. 80",
+        "waistIn": "např. 31"
+      }
+    },
+    "results": {
+      "healthy": "Zdravý tvar",
+      "elevated": "Zvýšené riziko",
+      "placeholder": "Zadejte prosím výšku a pas, abyste viděli svůj poměr",
+      "waistMeasurementPlaceholder": "Zadejte měření pasu",
+      "label": "Poměr pasu k výšce",
+      "submit": "Uložit do profilu (BMI + WHtR)"
+    },
+    "comparison": {
+      "title": "BMI vs WHtR: Rozdíl",
+      "bmi": {
+        "title": "BMI",
+        "desc": "Obecná hmotnostní kategorie, nezohledňuje rozložení svalové hmoty nebo tuku"
+      },
+      "whtr": {
+        "title": "WHtR",
+        "desc": "Měří centrální obezitu, lepší prediktor kardiovaskulárních onemocnění a diabetu"
+      }
+    }
+  },
+  "history": {
+    "title": "Nedávná měření",
+    "noHistory": "Zatím žádná historie",
+    "noHistoryDesc": "Začněte sledovat své BMI a tělesné metriky, abyste viděli trendy svého pokroku v průběhu času.",
+    "stats": {
+      "title": "Vaše statistiky",
+      "total": "Celkové rekordy",
+      "latest": "Nejnovější BMI",
+      "healthyCount": "Zdravý počet",
+      "bestStreak": "Nejlepší Streak"
+    }
+  }
+}

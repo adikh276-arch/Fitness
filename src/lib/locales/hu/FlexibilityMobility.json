@@ -1,0 +1,227 @@
+{
+  "header": {
+    "title": "Rugalmasság és mobilitás",
+    "subtitle": "Javítsa a mozgástartományt és megelőzze a sérüléseket",
+    "back": "Vissza az irányítópultra"
+  },
+  "tabs": {
+    "stretches": "Napi nyújtások",
+    "tests": "Mobilitási tesztek",
+    "log": "Helyreállítási napló"
+  },
+  "player": {
+    "stretch": "Nyújtás {{current}}/{{total}}",
+    "resume": "Folytatás",
+    "pause": "Szünet",
+    "skip": "Kihagyás",
+    "cancel": "Mégse",
+    "bilateral_hint": "💡 Ne felejtsen el oldalt váltani, amikor az időzítő lejár",
+    "preview": {
+      "stretches_count": "{{count}} nyújtás (összesen {{duration}} perc):",
+      "start": "Indítsa el a {{duration}} perc rutint",
+      "cancel": "Mégse"
+    },
+    "complete": {
+      "title": "A rutin kész!",
+      "desc": "Nagyszerű munka a(z) {{name}} befejezésekor!",
+      "rate_label": "Jobban érzi magát? Értékelje fejlődését: {{rating}}/10",
+      "worse": "Rosszabb",
+      "same": "Ugyanaz",
+      "much_better": "Sokkal jobb",
+      "save": "Munkamenet mentése",
+      "done": "Kész"
+    }
+  },
+  "routines": {
+    "upper-body": {
+      "name": "Felsőtest nyitott",
+      "focus": "Mellkas, vállak, hátközép",
+      "desc": "Oldja fel a feszültséget az asztali munkából és a telefonhasználatból",
+      "stretches": {
+        "Doorway Chest Stretch": {
+          "name": "Ajtónyílás mellkasi nyújtás",
+          "desc": "Álljon az ajtóban, tegye alkarját a keretre, hajoljon előre, hogy érezze a mellkas nyúlását."
+        },
+        "Shoulder Rolls": {
+          "name": "Válltekercsek",
+          "desc": "Nagy körökben görgessük hátra a vállakat, 10 ismétlés."
+        },
+        "Thoracic Rotation": {
+          "name": "Mellkasi rotáció",
+          "desc": "Kézen és térden forgassa a felsőtestet oldalról oldalra, és nyissa ki a mellkast."
+        },
+        "Neck Stretch": {
+          "name": "Nyaknyújtás",
+          "desc": "Finoman döntse meg a fejet mindkét oldalra, oldalanként 30 másodpercig tartva."
+        },
+        "Tricep Stretch": {
+          "name": "Tricep Stretch",
+          "desc": "Nyújtsa ki a kart a feje fölé, hajlítsa meg a könyökét, a másik kezével finoman húzza meg."
+        }
+      }
+    },
+    "lower-body": {
+      "name": "Alsó test kioldása",
+      "focus": "Hamstrings, farizmok, csípőhajlítók",
+      "desc": "Mély nyújtások a feszes lábak és csípő érdekében ülésből",
+      "stretches": {
+        "Pigeon Pose": {
+          "name": "Galamb póz",
+          "desc": "Az egyik lábát húzza előre hajlítva, nyújtsa ki egyenesen a hátsó lábát, süllyessze le a csípőt."
+        },
+        "Hamstring Stretch": {
+          "name": "Hamstring nyújtás",
+          "desc": "Üljön kinyújtott lábbal, nyúljon a lábujjak felé, tartsa egyenesen a hátát."
+        },
+        "Hip Flexor Lunge": {
+          "name": "Hip Flexor Lunge",
+          "desc": "Kitörési pozíció, tolja előre a csípőt, hogy érezze a nyújtást az első csípőben."
+        },
+        "Glute Stretch": {
+          "name": "Glute Stretch",
+          "desc": "Hanyatt fekve, a bokáját keresztben az ellenkező térd felett, húzza a mellkas felé."
+        },
+        "Calf Stretch": {
+          "name": "Borjú nyújtás",
+          "desc": "Lépjen előre a kitörésben, tartsa lefelé a sarkát a vádli nyújtásához."
+        }
+      }
+    },
+    "full-body": {
+      "name": "Teljes testáramlás",
+      "focus": "Teljes test karbantartás",
+      "desc": "Teljes tetőtől-talpig rugalmas rutin",
+      "stretches": {
+        "Cat-Cow": {
+          "name": "Macska-tehén",
+          "desc": "Kézen és térden váltakozva ívelő és kerekded gerinc."
+        },
+        "Downward Dog": {
+          "name": "Lefelé haladó kutya",
+          "desc": "Kezek és lábak ültetett, csípő magas, fordított V-t alkotva."
+        },
+        "Child's Pose": {
+          "name": "Gyermek póz",
+          "desc": "Térd széles, dőljön hátra a sarkára, karja előre nyújtva."
+        },
+        "Seated Twist": {
+          "name": "Ülő Twist",
+          "desc": "Üljön keresztbe, a törzset mindkét oldalra fordítsa, a kezét a háta mögött."
+        },
+        "Forward Fold": {
+          "name": "Hajtás előre",
+          "desc": "Állva, csuklópánttal a csípőnél, nyúlj a lábujjak felé, hagyd lógni a fejet."
+        },
+        "Hip Circles": {
+          "name": "Hip körök",
+          "desc": "Csípőre tett kézzel, csípővel készítsen nagy köröket mindkét irányban."
+        },
+        "Arm Circles": {
+          "name": "Karos körök",
+          "desc": "Nyújtsa ki karjait szélesre, tegyen nagy köröket előre, majd hátra."
+        }
+      }
+    },
+    "dynamic-warmup": {
+      "name": "Dinamikus bemelegítés",
+      "focus": "Edzés előtti aktiválás",
+      "desc": "Edzés előtt készítse fel testét",
+      "stretches": {
+        "Leg Swings": {
+          "name": "Lábhinták",
+          "desc": "Tartsa a falat, lendítse a lábát előre és hátra, majd oldalról a másikra."
+        },
+        "Arm Circles": {
+          "name": "Karos körök",
+          "desc": "Kis-nagy körök, előre és hátra."
+        },
+        "Torso Twists": {
+          "name": "Törzscsavarások",
+          "desc": "Forgassa a felsőtestet oldalról a másikra laza karral."
+        },
+        "Walking Lunges": {
+          "name": "Walking Lunges",
+          "desc": "Lépj előre kitörésbe, válts lábakat, miközben előre haladsz."
+        },
+        "High Knees": {
+          "name": "Magas térd",
+          "desc": "Március a helyére emelve a térdét csípőmagasságba."
+        }
+      }
+    }
+  },
+  "benefits": {
+    "title": "Miért számít a napi nyújtás?"
+  },
+  "tests": {
+    "status": {
+      "title": "Az Ön mobilitási állapota",
+      "based_on": "{{count}} teszteredmény alapján",
+      "complete_below": "Töltse ki az alábbi teszteket",
+      "score_label": "Pontszám: {{pont}}/6 pont (megfelel = 2, részleges = 1, dolgozni kell = 0)",
+      "elite": "Elit Mobilitás",
+      "good": "Jó mobilitás",
+      "limited": "Korlátozott mobilitás",
+      "not_tested": "Nem tesztelt"
+    },
+    "items": {
+      "sit-reach": {
+        "name": "Sit & Reach teszt",
+        "desc": "Üljön egyenes lábbal, nyúljon a lábujjak felé",
+        "pass": "Megérintheti vagy átadhatja a lábujjakat",
+        "fail": "Több mint 6 hüvelyk a lábujjaktól"
+      },
+      "shoulder-pass": {
+        "name": "Vállátvezetés",
+        "desc": "Fogjon meg egy szalagot/botot, emelje fel a karját a feje fölé és a háta mögé",
+        "pass": "Simán át lehet menni",
+        "fail": "A mozgást nem lehet befejezni"
+      },
+      "deep-squat": {
+        "name": "Mély guggolástartás",
+        "desc": "Guggoljon le lapos sarkúval, tartsa 30 másodpercig",
+        "pass": "A 30-as éveket elbírja, sarokkal lefelé",
+        "fail": "A sarok megemelkedik, vagy nem tudja tartani"
+      }
+    },
+    "tips": {
+      "title": "Tesztelési tippek"
+    },
+    "actions": {
+      "pass": "✓ Pass",
+      "partial": "~ Részleges",
+      "fail": "✗ Munka kell"
+    }
+  },
+  "log": {
+    "title": "Napló-helyreállítási munkamenet",
+    "duration": "Időtartam (perc)",
+    "focus_areas": "Fókuszterületek (jelölje ki az összes megfelelőt)",
+    "soreness_label": "Fájdalom az ülés előtt: {{szint}}/10",
+    "no_pain": "1 - Nincs fájdalom",
+    "moderate": "5 - Mérsékelt",
+    "very_sore": "10 - Nagyon fáj",
+    "submit": "🧘 Log Session",
+    "heatmap": {
+      "title": "Helyreállítási hőtérkép",
+      "legend": "Lila pöttyök jelzik a helyreállítási időszakokat"
+    },
+    "badge": {
+      "title": "Sérülésbiztos!",
+      "desc": "Ezen a héten {{count}} helyreállítási ciklust végzett!"
+    },
+    "stats": {
+      "total": "Összes perc",
+      "this_week": "Ezen a héten"
+    },
+    "recent": "Legutóbbi munkamenetek",
+    "areas": {
+      "Neck": "Nyak",
+      "Shoulders": "Vállak",
+      "Back": "Vissza",
+      "Hips": "Csípő",
+      "Legs": "Lábak",
+      "Full Body": "Teljes test"
+    }
+  }
+}

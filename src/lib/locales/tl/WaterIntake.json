@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "back": "Bumalik sa Dashboard"
+  },
+  "header": {
+    "title": "Tagasubaybay ng Pag-inom ng Tubig",
+    "subtitle": "Subaybayan ang iyong pang-araw-araw na hydration at maabot ang iyong mga layunin"
+  },
+  "tabs": {
+    "tracker": "Tagasubaybay ngayon",
+    "history": "Kasaysayan"
+  },
+  "tracker": {
+    "consumed": "nakonsumo ng ml",
+    "goalLabel": "Pang-araw-araw na Layunin",
+    "remainingLabel": "Natitira",
+    "changeGoal": "Baguhin ang pang-araw-araw na layunin",
+    "quickAdd": {
+      "title": "Mabilis na Magdagdag",
+      "smallGlass": "Maliit na Salamin",
+      "bottle": "Bote",
+      "largeBottle": "Malaking Bote",
+      "jug": "Ang pitsel"
+    },
+    "custom": {
+      "label": "Custom na Halaga (ml)",
+      "placeholder": "hal., 350",
+      "submit": "Idagdag",
+      "undo": "I-undo ang Huling Entry"
+    }
+  },
+  "history": {
+    "title": "Kasaysayan ng Pag-inom ng Tubig",
+    "noHistory": "Wala pang available na history",
+    "today": "Ngayong araw",
+    "summary": "{{kabuuang}} ml / {{layunin}} ml ({{porsiyento}}%)",
+    "stats": {
+      "total": "Kabuuan",
+      "entries": "Mga entry"
+    }
+  },
+  "modal": {
+    "title": "Magtakda ng Pang-araw-araw na Layunin",
+    "subtitle": "Ipasok ang iyong target na pang-araw-araw na paggamit ng tubig",
+    "placeholder": "hal., 2500",
+    "calcToggleShow": "Kalkulahin ang Inirerekomenda",
+    "calcToggleHide": "Itago ang Calculator",
+    "formula": "Formula: Timbang (kg) × 35ml",
+    "weightLabel": "Ang Iyong Timbang (kg)",
+    "weightPlaceholder": "hal., 70",
+    "calcBtn": "Kalkulahin at Ilapat",
+    "cancel": "Kanselahin",
+    "save": "I-save"
+  }
+}

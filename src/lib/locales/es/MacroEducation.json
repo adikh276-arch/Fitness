@@ -14,7 +14,7 @@
   },
   "protein": {
     "title": "Proteína",
-    "kcal": "4 kcal/gram",
+    "kcal": "4 kcal/gramo",
     "whyMatters": {
       "title": "Por qué es importante:",
       "muscle": {
@@ -38,7 +38,7 @@
   },
   "carbs": {
     "title": "Carbohidratos",
-    "kcal": "4 kcal/gram",
+    "kcal": "4 kcal/gramo",
     "whyMatters": {
       "title": "Por qué es importante:",
       "energy": {
@@ -62,7 +62,7 @@
   },
   "fats": {
     "title": "grasas",
-    "kcal": "9 kcal/gram",
+    "kcal": "9 kcal/gramo",
     "whyMatters": {
       "title": "Por qué es importante:",
       "hormone": {
@@ -108,7 +108,7 @@
     "calories": {
       "title": "Calorías estimadas",
       "subtitle": "(basado en una porción de 200 g)",
-      "unit": "kcal"
+      "unit": "calorías"
     },
     "warning": {
       "title": "Recomendación de equilibrio",
@@ -122,12 +122,12 @@
     "eggUnit": "1 huevo = 6 g de proteína",
     "salmon": "Salmón",
     "lentils": "Lentejas",
-    "tofu": "Tofu",
+    "tofu": "tofu",
     "rice": "arroz integral",
     "oats": "Avena",
     "potato": "Batata",
-    "quinoa": "Quinoa",
-    "banana": "Banana",
+    "quinoa": "Quinua",
+    "banana": "Plátano",
     "bananaUnit": "1 porción mediana = 27 g de carbohidratos",
     "bread": "Pan de trigo entero",
     "breadUnit": "1 rebanada = 12 g de carbohidratos",

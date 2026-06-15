@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "back": "Kembali ke Dasbor"
+  },
+  "header": {
+    "title": "Memahami Nutrisi Makro",
+    "subtitle": "Pelajari dasar-dasar protein, karbohidrat, dan lemak"
+  },
+  "tabs": {
+    "protein": "Protein",
+    "carbs": "Karbohidrat",
+    "fats": "lemak",
+    "plate": "Pembuat Piring"
+  },
+  "protein": {
+    "title": "Protein",
+    "kcal": "4 kkal/gram",
+    "whyMatters": {
+      "title": "Mengapa Itu Penting:",
+      "muscle": {
+        "title": "Perbaikan & Pertumbuhan Otot:",
+        "desc": "Penting untuk membangun dan mempertahankan massa otot tanpa lemak"
+      },
+      "satiety": {
+        "title": "kenyang:",
+        "desc": "Membuat Anda merasa kenyang lebih lama, mengurangi asupan kalori secara keseluruhan"
+      },
+      "metabolic": {
+        "title": "Peningkatan Metabolik:",
+        "desc": "Efek termal tertinggi dari semua makro (20-30% kalori terbakar selama proses pencernaan)"
+      }
+    },
+    "target": {
+      "title": "Target Harian:",
+      "desc": "Untuk kesehatan dan pemeliharaan otot yang optimal, targetkan <1>1,6-2,2g per kg</1> berat badan. Atlet dan mereka yang sedang membangun otot mungkin membutuhkan hingga 2,5g/kg."
+    },
+    "sources": "Sumber Protein Teratas:"
+  },
+  "carbs": {
+    "title": "Karbohidrat",
+    "kcal": "4 kkal/gram",
+    "whyMatters": {
+      "title": "Mengapa Itu Penting:",
+      "energy": {
+        "title": "Sumber Energi Primer:",
+        "desc": "Bahan bakar pilihan tubuh Anda untuk otak dan aktivitas fisik"
+      },
+      "performance": {
+        "title": "Kinerja:",
+        "desc": "Penting untuk latihan intensitas tinggi dan kinerja atletik"
+      },
+      "nutrients": {
+        "title": "Serat & Nutrisi:",
+        "desc": "Karbohidrat utuh menyediakan vitamin, mineral, dan kesehatan pencernaan yang penting"
+      }
+    },
+    "target": {
+      "title": "Target Harian:",
+      "desc": "Untuk individu yang aktif, targetkan berat badan <1>3-6g per kg</1>. Individu yang tidak banyak bergerak mungkin membutuhkan lebih sedikit (2-3g/kg). Fokus pada sumber makanan utuh yang kompleks."
+    },
+    "sources": "Sumber Karbohidrat Teratas:"
+  },
+  "fats": {
+    "title": "lemak",
+    "kcal": "9 kkal/gram",
+    "whyMatters": {
+      "title": "Mengapa Itu Penting:",
+      "hormone": {
+        "title": "Produksi Hormon:",
+        "desc": "Penting untuk testosteron, estrogen, dan hormon penting lainnya"
+      },
+      "vitamin": {
+        "title": "Penyerapan Vitamin:",
+        "desc": "Diperlukan untuk menyerap vitamin yang larut dalam lemak (A, D, E, K)"
+      },
+      "brain": {
+        "title": "Kesehatan Otak:",
+        "desc": "Otak Anda 60% terdiri dari lemak - omega-3 sangat penting untuk fungsi kognitif"
+      }
+    },
+    "target": {
+      "title": "Target Harian:",
+      "desc": "Targetkan <1>0,8-1,2g per kg</1> berat badan, atau 20-35% dari total kalori. Prioritaskan lemak tak jenuh (minyak zaitun, kacang-kacangan, ikan) dibandingkan lemak jenuh."
+    },
+    "sources": "Sumber Lemak Teratas:"
+  },
+  "plate": {
+    "title": "Bangun Makanan Seimbang Anda",
+    "legend": {
+      "protein": "Protein {{val}}%",
+      "carbs": "Karbohidrat {{val}}%",
+      "fats": "Lemak {{val}}%"
+    },
+    "sliders": {
+      "protein": {
+        "title": "Protein",
+        "desc": "Otot & kenyang"
+      },
+      "carbs": {
+        "title": "Karbohidrat",
+        "desc": "Energi & kinerja"
+      },
+      "fats": {
+        "title": "lemak",
+        "desc": "Hormon & vitamin"
+      }
+    },
+    "calories": {
+      "title": "Perkiraan Kalori",
+      "subtitle": "(berdasarkan porsi 200g)",
+      "unit": "kkal"
+    },
+    "warning": {
+      "title": "Rekomendasi Saldo",
+      "desc": "Untuk nutrisi optimal: Usahakan setidaknya 15-25% protein (otot & kenyang), 20-35% lemak sehat (hormon), dan 40-60% karbohidrat (energi). Sesuaikan rasio Anda untuk memenuhi target tersebut."
+    }
+  },
+  "foods": {
+    "chicken": "Dada Ayam",
+    "yogurt": "Yoghurt Yunani",
+    "eggs": "telur",
+    "eggUnit": "1 butir telur = 6g protein",
+    "salmon": "ikan salmon",
+    "lentils": "Lentil",
+    "tofu": "Tahu",
+    "rice": "Beras Merah",
+    "oats": "gandum",
+    "potato": "Ubi Jalar",
+    "quinoa": "biji gandum",
+    "banana": "Pisang",
+    "bananaUnit": "1 sedang = 27g karbohidrat",
+    "bread": "Roti Gandum Utuh",
+    "breadUnit": "1 potong = 12g karbohidrat",
+    "avocado": "Alpukat",
+    "almonds": "kacang almond",
+    "almondsUnit": "28g = 14g lemak",
+    "oil": "Minyak Zaitun",
+    "oilUnit": "1 sdm = 14g lemak",
+    "peanutButter": "selai kacang",
+    "pbUnit": "2 sdm = 16g lemak",
+    "chocolate": "Cokelat Hitam",
+    "chocolateUnit": "28g = 9g lemak",
+    "unit100g": "100g = {{val}}g {{makro}}"
+  }
+}

@@ -209,7 +209,7 @@
     }
   },
   "exercises": {
-    "squat": "Squat",
+    "squat": "Tozzo",
     "deadlift": "Stacco da terra",
     "benchPress": "Panca piana",
     "overheadPress": "Pressa sopraelevata",
@@ -234,7 +234,7 @@
     "chestFly": "Mosca del petto",
     "lateralRaise": "Alzata laterale",
     "rearDeltFly": "Volata per deltoide posteriore",
-    "facePull": "Face Pull",
+    "facePull": "Tirare la faccia",
     "bicepCurl": "Curl per bicipiti",
     "hammerCurl": "Curl a martello",
     "tricepPushdown": "Estensioni per tricipiti",
@@ -242,12 +242,12 @@
     "plank": "Tavola",
     "hangingLegRaise": "Sollevamento della gamba appesa",
     "russianTwist": "Torsione russa",
-    "farmerCarry": "Farmer Carry",
+    "farmerCarry": "Il contadino trasporta",
     "shrug": "Scrollare le spalle",
     "arnoldPress": "Arnold Press",
     "frontSquat": "Squat frontale",
     "sumoDeadlift": "Stacco sumo",
-    "gobletSquat": "Goblet Squat",
+    "gobletSquat": "Squat al calice",
     "stepUp": "Fai un passo avanti"
   }
 }

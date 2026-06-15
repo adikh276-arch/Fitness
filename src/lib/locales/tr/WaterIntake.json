@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "back": "Kontrol Paneline Geri Dön"
+  },
+  "header": {
+    "title": "Su Giriş Takibi",
+    "subtitle": "Günlük sıvı alımınızı takip edin ve hedeflerinize ulaşın"
+  },
+  "tabs": {
+    "tracker": "Bugünün Takipçisi",
+    "history": "Tarih"
+  },
+  "tracker": {
+    "consumed": "ml tüketilen",
+    "goalLabel": "Günlük Hedef",
+    "remainingLabel": "Kalan",
+    "changeGoal": "Günlük hedefi değiştir",
+    "quickAdd": {
+      "title": "Hızlı Ekle",
+      "smallGlass": "Küçük Cam",
+      "bottle": "Şişe",
+      "largeBottle": "Büyük Şişe",
+      "jug": "Sürahi"
+    },
+    "custom": {
+      "label": "Özel Tutar (ml)",
+      "placeholder": "örneğin 350",
+      "submit": "Ekle",
+      "undo": "Son Girişi Geri Al"
+    }
+  },
+  "history": {
+    "title": "Su Alma Geçmişi",
+    "noHistory": "Henüz geçmiş mevcut değil",
+    "today": "Bugün",
+    "summary": "{{total}} ml / {{goal}} ml ({{percent}}%)",
+    "stats": {
+      "total": "Toplam",
+      "entries": "Girişler"
+    }
+  },
+  "modal": {
+    "title": "Günlük Hedef Belirle",
+    "subtitle": "Hedef günlük su alımınızı girin",
+    "placeholder": "örneğin 2500",
+    "calcToggleShow": "Önerileni Hesapla",
+    "calcToggleHide": "Hesap Makinesini Gizle",
+    "formula": "Formül: Ağırlık (kg) × 35ml",
+    "weightLabel": "Kilonuz (kg)",
+    "weightPlaceholder": "örneğin 70",
+    "calcBtn": "Hesapla & Uygula",
+    "cancel": "İptal",
+    "save": "Kaydet"
+  }
+}

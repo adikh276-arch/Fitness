@@ -140,6 +140,6 @@
     "pbUnit": "大さじ2杯＝脂肪16g",
     "chocolate": "ダークチョコレート",
     "chocolateUnit": "28g = 9gの脂肪",
-    "unit100g": "100g = {{val}}g {{macro}}"
+    "unit100g": "100g = {{val}}g {{マクロ}}"
   }
 }

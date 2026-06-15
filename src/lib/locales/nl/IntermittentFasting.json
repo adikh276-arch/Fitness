@@ -70,7 +70,8 @@
       "firstMeal": "Eerste maaltijd (vandaag):",
       "duration": "Totale vastenduur",
       "goalAchieved": "Doel bereikt! Je hebt meer dan 16 uur gevast!",
-      "submit": "Registreer dit snel"
+      "submit": "Registreer dit snel",
+      "dateLabel": "Datum:"
     },
     "tracker": {
       "title": "30-dagen sneltracker",
@@ -81,11 +82,13 @@
         "goalMet": "Doel bereikt (16+ uur)",
         "today": "Vandaag",
         "missed": "Gemiste dag"
-      }
+      },
+      "today": "Vandaag",
+      "dayLabel": "Dag {{val}}"
     },
     "recentFasts": {
       "title": "Recente vasten",
-      "goalMet": "Goal Met"
+      "goalMet": "Doel behaald"
     }
   }
 }

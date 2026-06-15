@@ -1,0 +1,141 @@
+{
+  "header": {
+    "title": "Leitfaden zur Herzgesundheit",
+    "subtitle": "Verfolgen Sie die Vitalwerte, lernen Sie die DASH-Diät und entwickeln Sie herzgesunde Gewohnheiten",
+    "back": "Zurück zum Dashboard"
+  },
+  "alerts": {
+    "crisis": {
+      "title": "Warnung vor einer hypertensiven Krise",
+      "desc": "Ihr Blutdruckwert ist gefährlich hoch (≥180/120). Dies erfordert sofortige ärztliche Hilfe."
+    },
+    "vitals": {
+      "invalid": "Bitte geben Sie gültige Messwerte ein",
+      "success": "Protokollierter Lesevorgang: {{sys}}/{{dia}} – {{category}}"
+    }
+  },
+  "tabs": {
+    "dash": "DASH-Diät",
+    "vitals": "Vitalwerte-Protokoll",
+    "habits": "Herzgewohnheiten"
+  },
+  "vitals": {
+    "form": {
+      "title": "Protokollieren Sie Ihre Vitalwerte",
+      "bp": {
+        "label": "Blutdruck",
+        "systolic": "Systolisch",
+        "systolic_desc": "Top-Nummer",
+        "diastolic": "Diastolisch",
+        "diastolic_desc": "Unterste Zahl"
+      },
+      "heart_rate": {
+        "label": "Ruheherzfrequenz (BPM)",
+        "placeholder": "z.B. 72"
+      },
+      "submit": "Log-Lesung"
+    },
+    "recent": {
+      "title": "Aktuelle Lesungen",
+      "empty": "Noch keine Messwerte protokolliert",
+      "bpm": "{{count}} BPM"
+    },
+    "chart": {
+      "title": "7-Tage-Blutdrucktrend",
+      "systolic": "Systolisch",
+      "diastolic": "Diastolisch"
+    },
+    "guidelines": {
+      "title": "AHA-Blutdruckkategorien:",
+      "normal": "Normal: <120/80",
+      "elevated": "Erhöht: 120-129/<80",
+      "stage1": "Stufe 1: 130-139/80-89",
+      "stage2": "Stufe 2: ≥140/90"
+    },
+    "categories": {
+      "crisis": "Hypertensive Krise",
+      "stage2": "Hypertonie-Stadium 2",
+      "stage1": "Hypertonie-Stadium 1",
+      "elevated": "Erhöht",
+      "normal": "Normal",
+      "unknown": "Unbekannt"
+    }
+  },
+  "dash": {
+    "intro": {
+      "title": "Die DASH-Diät",
+      "desc": "Ernährungsansätze gegen Bluthochdruck – Ein wissenschaftlich erprobter Ernährungsplan, der den Blutdruck auf natürliche Weise senkt."
+    },
+    "principles": {
+      "sodium": {
+        "title": "Natriumgrenze",
+        "limit": "<2.300 mg pro Tag",
+        "high_risk": "(Oder 1.500 mg für Personen mit hohem Risiko)",
+        "desc": "Überschüssiges Natrium führt zu Wassereinlagerungen, wodurch sich das Blutvolumen und der Druck auf die Arterienwände erhöhen."
+      },
+      "potassium": {
+        "title": "Kaliumkraft",
+        "limit": "4.700 mg pro Tag",
+        "source": "Aus Vollwertkost"
+      },
+      "magnesium": {
+        "title": "Magnesium und Ballaststoffe",
+        "limit": "500 mg Mg / 25–35 g Ballaststoffe",
+        "target": "Tagesziele"
+      }
+    },
+    "scanner": {
+      "title": "⚠️ Versteckter Natriumscanner: „Hinterhältige Salz“-Lebensmittel",
+      "subtitle": "Diese scheinbar harmlosen Lebensmittel enthalten mehr Natrium als Sie denken:",
+      "swaps": {
+        "title": "💡 DASH-freundliche Swaps:"
+      }
+    }
+  },
+  "habits": {
+    "vitality": {
+      "title": "Vitalitätswert",
+      "start": "Beginnen Sie mit dem Aufbau Ihrer herzgesunden Serie!",
+      "streak_good": "🔥 {{count}} Tagessträhne! Dein Herz blüht",
+      "streak_continue": "{{count}} Tage – Weitermachen!",
+      "streak_continue_singular": "{{count}} Tag – Weitermachen!",
+      "days": "Tagessträhne",
+      "goal": "{{count}} / 30-Tage-Ziel"
+    },
+    "checklist": {
+      "title": "Tägliche Cardio-Checkliste",
+      "subtitle": "Führen Sie diese Gewohnheiten täglich aus, um die Herz-Kreislauf-Stärke zu stärken",
+      "items": {
+        "cardio": {
+          "label": "30 Minuten Zone 2 Cardio",
+          "desc": "Zügiges Gehen, Radfahren oder Schwimmen im Gesprächstempo"
+        },
+        "low_sodium": {
+          "label": "Unter dem Natrium-Grenzwert geblieben",
+          "desc": "<2.300 mg (oder 1.500 mg bei hohem Risiko)"
+        },
+        "no_salt": {
+          "label": "Kein Salzzusatz am Tisch",
+          "desc": "Lassen Sie die natürlichen Aromen der Lebensmittel erstrahlen"
+        },
+        "meds": {
+          "label": "Eingenommene Medikamente (optional)",
+          "desc": "Für diejenigen, die Blutdruckmedikamente einnehmen"
+        }
+      }
+    },
+    "tips": {
+      "title": "Grundlagen der Herzgesundheit"
+    }
+  },
+  "foods": {
+    "canned_soup": "Dosensuppe (1 Tasse)",
+    "deli_turkey": "Deli Truthahn (2 Unzen)",
+    "white_bread": "Weißbrot (2 Scheiben)",
+    "frozen_pizza": "Tiefkühlpizza (1 Stück)",
+    "soy_sauce": "Sojasauce (1 EL)",
+    "cottage_cheese": "Hüttenkäse (1/2 Tasse)",
+    "pickles": "Gurken (1 mittelgroß)",
+    "salad_dressing": "Salatdressing (2 EL)"
+  }
+}

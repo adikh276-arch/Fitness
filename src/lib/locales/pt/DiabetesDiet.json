@@ -42,7 +42,8 @@
       "title": "Leituras recentes",
       "noReadings": "Nenhuma leitura registrada ainda",
       "trend": "Tendência de 7 dias",
-      "targetMax": "Alvo Máximo"
+      "targetMax": "Alvo Máximo",
+      "targetPost": "Alvo máximo (pós-refeição)"
     }
   },
   "plate": {
@@ -101,7 +102,8 @@
       "low": "Baixo índice glicêmico",
       "medium": "Índice glicêmico médio",
       "high": "Alto índice glicêmico"
-    }
+    },
+    "search": "Procure um alimento (por exemplo, aveia, banana...)"
   },
   "timing": {
     "fasting": "Jejum",
@@ -132,7 +134,7 @@
     "Turkey": "Peru",
     "Greek Yogurt": "Iogurte grego",
     "Brown Rice": "Arroz integral",
-    "Quinoa": "Quinoa",
+    "Quinoa": "Quinua",
     "Sweet Potato": "Batata doce",
     "Whole Wheat Pasta": "Massa integral",
     "Oats": "Aveia",

@@ -70,7 +70,8 @@
       "firstMeal": "Unang Oras ng Pagkain (Ngayon):",
       "duration": "Kabuuang Tagal ng Pag-aayuno",
       "goalAchieved": "Nakamit ang Layunin! Nakumpleto mo ang 16+ oras na pag-aayuno!",
-      "submit": "Mag-log Ito Nang Mabilis"
+      "submit": "Mag-log Ito Nang Mabilis",
+      "dateLabel": "Petsa:"
     },
     "tracker": {
       "title": "30-Araw na Mabilis na Tagasubaybay",
@@ -81,7 +82,9 @@
         "goalMet": "Naabot ang Layunin (16+ oras)",
         "today": "Ngayon",
         "missed": "Hindi Natapos na Araw"
-      }
+      },
+      "today": "Ngayong araw",
+      "dayLabel": "Araw {{val}}"
     },
     "recentFasts": {
       "title": "Mga Kamakailang Pag-aayuno",

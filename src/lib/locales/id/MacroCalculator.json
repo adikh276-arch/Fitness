@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "back": "Kembali ke Dasbor"
+  },
+  "header": {
+    "title": "Kalkulator Makro",
+    "subtitle": "Hitung kebutuhan kalori dan makronutrien harian Anda"
+  },
+  "tabs": {
+    "input": "Detail Anda",
+    "results": "Hasil Anda"
+  },
+  "form": {
+    "title": "Detail Anda",
+    "age": "Usia (tahun)",
+    "gender": "Jenis Kelamin",
+    "male": "Laki-laki",
+    "female": "Perempuan",
+    "weight": "Berat",
+    "height": "Tinggi",
+    "activity": "Tingkat Aktivitas",
+    "goal": "Tujuan",
+    "submit": "Hitung Makro",
+    "placeholders": {
+      "age": "misalnya, 30",
+      "weightKg": "misalnya, 70",
+      "weightLbs": "misalnya, 154",
+      "heightCm": "misalnya, 175",
+      "heightFt": "Kaki",
+      "heightIn": "inci"
+    },
+    "activityLevels": {
+      "sedentary": "Menetap (sedikit/tidak berolahraga)",
+      "light": "Ringan Aktif (1-3 hari/minggu)",
+      "moderate": "Cukup Aktif (3-5 hari/minggu)",
+      "very": "Sangat Aktif (6-7 hari/minggu)"
+    },
+    "goals": {
+      "maintenance": "Pemeliharaan",
+      "loss": "Penurunan Berat Badan",
+      "gain": "Penguatan Otot"
+    }
+  },
+  "results": {
+    "title": "Hasil Anda",
+    "calorieTarget": "Target Kalori Harian",
+    "kcalPerDay": "kkal/hari",
+    "bmrLabel": "BMR: {{val}} kkal",
+    "protein": "Protein",
+    "carbs": "Karbohidrat",
+    "fat": "Gemuk",
+    "submit": "Simpan ke Profil",
+    "placeholder": "Masukkan detail Anda dan klik Hitung untuk melihat hasilnya",
+    "success": "Data makro disimpan! Detail profil Anda telah disinkronkan.",
+    "validation": "Silakan masukkan nilai yang valid"
+  }
+}

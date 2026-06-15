@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "back": "חזרה ללוח המחוונים"
+  },
+  "header": {
+    "title": "שורף קלוריות",
+    "subtitle": "עקוב אחר קלוריות שנשרפו במהלך הפעילות שלך"
+  },
+  "tabs": {
+    "calculator": "מחשבון",
+    "log": "יומן פעילות ({{count}})"
+  },
+  "calculator": {
+    "form": {
+      "title": "פרטי פעילות",
+      "selectActivity": "בחר פעילות",
+      "weight": "המשקל שלך",
+      "duration": "משך (דקות)",
+      "placeholders": {
+        "weightKg": "למשל, 70",
+        "weightLbs": "למשל, 154"
+      },
+      "submit": "יומן פעילות"
+    },
+    "summary": {
+      "title": "סיכום צריבה",
+      "calories": "שריפת קלוריות",
+      "activity": "פעילות",
+      "duration": "משך זמן",
+      "weight": "משקל",
+      "burnRate": "קצב שריפת קלוריות",
+      "formula": "נוסחה: (MET × 3.5 × משקל ק\"ג / 200) × משך דקות"
+    }
+  },
+  "log": {
+    "noActivities": "עדיין לא נרשמו פעילויות",
+    "noActivitiesDesc": "התחל לעקוב אחר האימונים שלך כדי לראות אותם כאן",
+    "logFirst": "רשום את הפעילות הראשונה שלך",
+    "summary": {
+      "title": "סיכום כולל",
+      "totalActivities": "סך הפעילויות",
+      "totalCalories": "סך הכל קלוריות",
+      "totalTime": "זמן כולל",
+      "avgSession": "Cal/Session ממוצע"
+    },
+    "item": {
+      "duration": "משך זמן",
+      "met": "MET",
+      "calories": "קלוריות",
+      "minutes": "דקה"
+    }
+  },
+  "activities": {
+    "walking": "הליכה (מהירה)",
+    "running": "ריצה (9 דקות/מייל)",
+    "cycling": "רכיבה על אופניים (בינוני)",
+    "yoga": "יוגה",
+    "swimming": "שחייה (הקפות)",
+    "strength": "אימון כוח",
+    "household": "מטלות בית",
+    "dance": "ריקוד/אירובי"
+  }
+}

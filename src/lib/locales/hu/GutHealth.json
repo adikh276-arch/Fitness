@@ -1,0 +1,244 @@
+{
+  "header": {
+    "title": "Bélegészségügyi útmutató",
+    "subtitle": "Kövesse nyomon az emésztőrendszer egészségét, és építsen fel virágzó mikrobiomot",
+    "back": "Vissza az irányítópultra"
+  },
+  "tabs": {
+    "log": "Napi bélnapló",
+    "map": "Mikrobióma térkép",
+    "habits": "Rost és Ferment"
+  },
+  "bristol": {
+    "title": "Bristol székletmérleg",
+    "info": "Az arany standard az emésztési áthaladási idő és a bélrendszer állapotának nyomon követésére",
+    "types": {
+      "type1": {
+        "label": "1. típus",
+        "desc": "Súlyos székrekedés – Külön kemény csomók"
+      },
+      "type2": {
+        "label": "2. típus",
+        "desc": "Enyhe székrekedés - Csomós és kolbászszerű"
+      },
+      "type3": {
+        "label": "3. típus",
+        "desc": "Normál - Kolbász repedésekkel"
+      },
+      "type4": {
+        "label": "4. típus",
+        "desc": "Ideális - Sima, puha kolbász"
+      },
+      "type5": {
+        "label": "5. típus",
+        "desc": "Rosthiány – puha foltok"
+      },
+      "type6": {
+        "label": "6. típus",
+        "desc": "Enyhe hasmenés – pépes"
+      },
+      "type7": {
+        "label": "7. típus",
+        "desc": "Súlyos hasmenés - Folyadék"
+      }
+    },
+    "alert": "Kérjük, válasszon egy Bristol székletmérleg típust"
+  },
+  "symptoms": {
+    "title": "Tünetek ma",
+    "items": {
+      "Bloating": "Puffadás",
+      "Gas": "Gáz",
+      "Cramping": "Görcsölés",
+      "Reflux": "Reflux",
+      "Energy Dip": "Energy Dip"
+    }
+  },
+  "triggers": {
+    "title": "Gyanús trigger",
+    "items": {
+      "Dairy": "Tejtermékek",
+      "Gluten": "Glutén",
+      "Coffee": "Kávé",
+      "Spicy Food": "Fűszeres étel",
+      "Alcohol": "Alkohol",
+      "Stress": "Stressz",
+      "Other": "Egyéb"
+    }
+  },
+  "log": {
+    "submit": "Naplóbejegyzés",
+    "success": "A bélnapló sikeresen elmentve!",
+    "recent": {
+      "title": "Legutóbbi naplók",
+      "trigger": "Trigger:"
+    }
+  },
+  "microbiome": {
+    "prebiotics": {
+      "title": "Prebiotikumok",
+      "subtitle": "Ételek a bélbaktériumoknak",
+      "desc": "A prebiotikumok rostban gazdag élelmiszerek, amelyek táplálják a bélben lévő jótékony baktériumokat, elősegítve azok fejlődését és szaporodását."
+    },
+    "probiotics": {
+      "title": "Probiotikumok",
+      "subtitle": "Az élő jótékony baktériumok",
+      "desc": "A probiotikumok az erjesztett élelmiszerekben található élő mikroorganizmusok, amelyek közvetlenül adják a jótékony baktériumokat a bélrendszerbe."
+    }
+  },
+  "diversity": {
+    "title": "A heti 30 növény kihívás",
+    "subtitle": "A kutatások azt mutatják, hogy hetente több mint 30 különböző növény elfogyasztása támogatja a bélrendszer optimális diverzitását",
+    "score_label": "/ 30 növény",
+    "weekly_score": "Heti sokszínűségi pontszám",
+    "feedback": {
+      "excellent": "🎉 Kiváló! Elérted a 30 növényes célt",
+      "great": "👍 Nagy választék! Folytassa a változatosságot",
+      "good": "📈 Jó kezdést! Törekedjen több növényfajtára",
+      "start": "🌱 Kezdje el a különféle növények hozzáadását a bélrendszer egészségének javítása érdekében"
+    }
+  },
+  "habits": {
+    "title": "A Happy Gut ellenőrzőlista",
+    "subtitle": "Végezze el ezeket a napi szokásokat az optimális emésztési egészség érdekében",
+    "items": {
+      "fiber": {
+        "label": "25g+ rost fogyasztás",
+        "desc": "Teljes kiőrlésű gabonából, gyümölcsből és zöldségből"
+      },
+      "fermented": {
+        "label": "Tartalmaz 1 fermentált ételt",
+        "desc": "Kimchi, joghurt, kefir vagy savanyú káposzta"
+      },
+      "mindful": {
+        "label": "Figyelmes étkezés (20+ rágás)",
+        "desc": "A megfelelő rágás segíti az emésztést"
+      },
+      "fast": {
+        "label": "12 órás éjszakai bélnyugalom",
+        "desc": "A böjt ablak lehetővé teszi a bélrendszer javítását"
+      }
+    }
+  },
+  "tracker": {
+    "title": "30 napos szokáskövető",
+    "tooltip": "{{dayNum}}. nap: {{count}}/4 szokás",
+    "legend": {
+      "none": "Egyik sem",
+      "one": "1",
+      "two": "2",
+      "three": "3",
+      "four": "3-4",
+      "all": "Mind a 4"
+    }
+  },
+  "essentials": {
+    "title": "A bél egészségének alapjai"
+  },
+  "plants": {
+    "Spinach": "Spenót",
+    "Kale": "Kelkáposzta",
+    "Arugula": "Rukkola",
+    "Romaine": "Romaine",
+    "Broccoli": "Brokkoli",
+    "Cauliflower": "Karfiol",
+    "Brussels Sprouts": "Kelbimbó",
+    "Cabbage": "Káposzta",
+    "Carrots": "sárgarépa",
+    "Sweet Potatoes": "Édesburgonya",
+    "Beets": "Cékla",
+    "Radishes": "Retek",
+    "Chickpeas": "Csicseriborsó",
+    "Lentils": "Lencse",
+    "Black Beans": "Fekete bab",
+    "Kidney Beans": "Vesebab",
+    "Oats": "Zab",
+    "Brown Rice": "Barna rizs",
+    "Quinoa": "Quinoa",
+    "Barley": "Árpa",
+    "Almonds": "Mandula",
+    "Walnuts": "Dió",
+    "Pistachios": "Pisztácia",
+    "Cashews": "Kesudió",
+    "Chia": "Chia",
+    "Flax": "len",
+    "Pumpkin Seeds": "Tökmag",
+    "Sunflower Seeds": "Napraforgómag",
+    "Blueberries": "Áfonya",
+    "Strawberries": "Eper",
+    "Raspberries": "Málna",
+    "Blackberries": "Szeder",
+    "Oranges": "Narancs",
+    "Lemons": "Citrom",
+    "Limes": "Limes",
+    "Grapefruit": "Grapefruit",
+    "Bananas": "Banán",
+    "Pineapple": "Ananász",
+    "Mango": "Mangó",
+    "Papaya": "Papaya",
+    "Peaches": "Őszibarack",
+    "Plums": "Szilva",
+    "Cherries": "Cseresznye",
+    "Apricots": "Sárgabarack",
+    "Basil": "Bazsalikom",
+    "Cilantro": "koriander",
+    "Mint": "Menta",
+    "Parsley": "Petrezselyem",
+    "Rosemary": "Rozmaring",
+    "Turmeric": "kurkuma",
+    "Ginger": "Gyömbér",
+    "Cinnamon": "Fahéj",
+    "Cumin": "Kömény",
+    "Paprika": "Paprika",
+    "Kimchi": "Kimchi",
+    "Sauerkraut": "Savanyú káposzta",
+    "Miso": "Miso",
+    "Tempeh": "Tempeh",
+    "Button Mushrooms": "Gombgomba",
+    "Shiitake": "Shiitake",
+    "Portobello": "Portobello",
+    "Oyster Mushrooms": "Oyster Gombák",
+    "Pumpkin": "Sütőtök",
+    "Butternut Squash": "Butternut Squash",
+    "Zucchini": "Cukkini",
+    "Acorn Squash": "Makktök",
+    "Bell Peppers": "Bell Peppers",
+    "Jalapeños": "Jalapeños",
+    "Chili": "Chili",
+    "Cherry Tomatoes": "Cseresznye paradicsom",
+    "Roma Tomatoes": "Roma paradicsom",
+    "Beefsteak Tomatoes": "Beefsteak paradicsom",
+    "Garlic": "Fokhagyma",
+    "Onions": "Hagyma",
+    "Leeks": "Póréhagyma",
+    "Shallots": "Mogyoróhagyma",
+    "Alfalfa Sprouts": "Lucerna hajtások",
+    "Broccoli Sprouts": "Brokkoli csíra",
+    "Mung Bean Sprouts": "Mung babcsíra",
+    "Nori": "Nori",
+    "Kelp": "Kelp",
+    "Wakame": "Wakame",
+    "Buckwheat": "hajdina",
+    "Farro": "Farro",
+    "Amaranth": "Amarant",
+    "Millet": "Köles",
+    "Watermelon": "görögdinnye",
+    "Cantaloupe": "sárgadinnye",
+    "Honeydew": "Mézharmat",
+    "Apples": "Alma",
+    "Pears": "Körte",
+    "Avocado": "Avokádó",
+    "Coconut": "Kókusz",
+    "Coconut Milk": "Kókusztej",
+    "Coconut Water": "Kókuszvíz",
+    "Olives": "Olajbogyó",
+    "Dark Chocolate": "étcsokoládé",
+    "Cacao Nibs": "Cacao Nibs",
+    "Cocoa Powder": "Kakaópor",
+    "Green Tea": "Zöld Tea",
+    "Black Tea": "Fekete tea",
+    "Chamomile": "kamilla",
+    "Peppermint Tea": "Borsmenta tea",
+    "Coffee": "Kávé"
+  }
+}

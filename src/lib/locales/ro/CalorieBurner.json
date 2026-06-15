@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "back": "Înapoi la Tabloul de bord"
+  },
+  "header": {
+    "title": "Arzător de calorii",
+    "subtitle": "Urmăriți caloriile arse în timpul activităților dvs"
+  },
+  "tabs": {
+    "calculator": "Calculator",
+    "log": "Jurnal de activitate ({{count}})"
+  },
+  "calculator": {
+    "form": {
+      "title": "Detalii activitate",
+      "selectActivity": "Selectați Activitate",
+      "weight": "Greutatea ta",
+      "duration": "Durata (minute)",
+      "placeholders": {
+        "weightKg": "de exemplu, 70",
+        "weightLbs": "de exemplu, 154"
+      },
+      "submit": "Înregistrează activitatea"
+    },
+    "summary": {
+      "title": "Rezumatul arderii",
+      "calories": "Calorii arse",
+      "activity": "Activitate",
+      "duration": "Durata",
+      "weight": "Greutate",
+      "burnRate": "Rata de ardere a caloriilor",
+      "formula": "Formula: (MET × 3,5 × Greutate kg / 200) × Durata min"
+    }
+  },
+  "log": {
+    "noActivities": "Nicio activitate înregistrată încă",
+    "noActivitiesDesc": "Începeți să vă urmăriți antrenamentele pentru a le vedea aici",
+    "logFirst": "Înregistrați-vă prima activitate",
+    "summary": {
+      "title": "Rezumat total",
+      "totalActivities": "Total Activități",
+      "totalCalories": "Calorii totale",
+      "totalTime": "Timp total",
+      "avgSession": "Cal/Sesiune medie"
+    },
+    "item": {
+      "duration": "Durata",
+      "met": "MET",
+      "calories": "Calorii",
+      "minutes": "min"
+    }
+  },
+  "activities": {
+    "walking": "Mers pe jos (Viogă)",
+    "running": "Alergare (9 min/milă)",
+    "cycling": "Ciclism (moderat)",
+    "yoga": "Yoga",
+    "swimming": "Înot (tururi)",
+    "strength": "Antrenamentul de forță",
+    "household": "Treburi casnice",
+    "dance": "Dans/Aerobic"
+  }
+}

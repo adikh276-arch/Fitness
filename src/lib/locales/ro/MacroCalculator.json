@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "back": "Înapoi la Tabloul de bord"
+  },
+  "header": {
+    "title": "Calculator macro",
+    "subtitle": "Calculați-vă necesarul zilnic de calorii și macronutrienți"
+  },
+  "tabs": {
+    "input": "Detaliile dvs",
+    "results": "Rezultatele tale"
+  },
+  "form": {
+    "title": "Detaliile dvs",
+    "age": "Varsta (ani)",
+    "gender": "Gen",
+    "male": "Bărbat",
+    "female": "Femeie",
+    "weight": "Greutate",
+    "height": "Înălțime",
+    "activity": "Nivel de activitate",
+    "goal": "Scop",
+    "submit": "Calculați macrocomenzi",
+    "placeholders": {
+      "age": "de exemplu, 30",
+      "weightKg": "de exemplu, 70",
+      "weightLbs": "de exemplu, 154",
+      "heightCm": "de exemplu, 175",
+      "heightFt": "Picioarele",
+      "heightIn": "inci"
+    },
+    "activityLevels": {
+      "sedentary": "Sedentar (puțin/fără exerciții)",
+      "light": "Usor activ (1-3 zile/saptamana)",
+      "moderate": "Moderat activ (3-5 zile/saptamana)",
+      "very": "Foarte activ (6-7 zile/saptamana)"
+    },
+    "goals": {
+      "maintenance": "Întreținere",
+      "loss": "Pierderea în greutate",
+      "gain": "Câștigarea musculară"
+    }
+  },
+  "results": {
+    "title": "Rezultatele tale",
+    "calorieTarget": "țintă zilnică de calorii",
+    "kcalPerDay": "kcal/zi",
+    "bmrLabel": "BMR: {{val}} kcal",
+    "protein": "Proteine",
+    "carbs": "Carbohidrați",
+    "fat": "grăsime",
+    "submit": "Salvați în profil",
+    "placeholder": "Introduceți detaliile și faceți clic pe Calculați pentru a vedea rezultatele",
+    "success": "Datele macro au fost salvate! Detaliile profilului dvs. au fost sincronizate.",
+    "validation": "Vă rugăm să introduceți valori valide"
+  }
+}

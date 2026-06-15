@@ -129,7 +129,7 @@
       "totalVolume": "Общий объем",
       "remaining": "Осталось до цели",
       "submit": "Том журнала",
-      "logged": "{{lift}} logged: {{volume}}kg total volume!",
+      "logged": "Зарегистрировано {{lift}}: общий объём {{volume}} кг!",
       "recentLifts": "Последние лифты",
       "placeholders": {
         "sets": "например, 4",

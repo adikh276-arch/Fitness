@@ -1,0 +1,227 @@
+{
+  "header": {
+    "title": "Joustavuus ja liikkuvuus",
+    "subtitle": "Paranna liikelaajuutta ja ehkäise vammoja",
+    "back": "Takaisin hallintapaneeliin"
+  },
+  "tabs": {
+    "stretches": "Päivittäiset venytykset",
+    "tests": "Liikkuvuustestit",
+    "log": "Palautusloki"
+  },
+  "player": {
+    "stretch": "Venytä {{current}}/{{total}}",
+    "resume": "Jatka",
+    "pause": "Tauko",
+    "skip": "Ohita",
+    "cancel": "Peruuta",
+    "bilateral_hint": "💡 Muista vaihtaa puolta, kun ajastin loppuu",
+    "preview": {
+      "stretches_count": "{{count}} venytystä (yhteensä {{duration}} min):",
+      "start": "Aloita rutiini {{duration}}-min",
+      "cancel": "Peruuta"
+    },
+    "complete": {
+      "title": "Rutiini valmis!",
+      "desc": "Hienoa työtä {{name}} suorittamisessa!",
+      "rate_label": "Tuntuuko paremmalta? Arvioi parannus: {{rating}}/10",
+      "worse": "Pahempaa",
+      "same": "Sama",
+      "much_better": "Paljon Parempi",
+      "save": "Tallenna istunto",
+      "done": "Valmis"
+    }
+  },
+  "routines": {
+    "upper-body": {
+      "name": "Ylävartalo auki",
+      "focus": "Rinta, hartiat, keskiselkä",
+      "desc": "Vapauta jännitteitä pöytätyöstä ja puhelimen käytöstä",
+      "stretches": {
+        "Doorway Chest Stretch": {
+          "name": "Oviaukon rintakehän venytys",
+          "desc": "Seiso oviaukossa, aseta kyynärvarret runkoon, nojaa eteenpäin tunteaksesi rintakehän venymisen."
+        },
+        "Shoulder Rolls": {
+          "name": "Olkapäärullat",
+          "desc": "Pyöritä olkapäitä taaksepäin suurilla ympyröillä, 10 toistoa."
+        },
+        "Thoracic Rotation": {
+          "name": "Rintakehän kierto",
+          "desc": "Pyöritä ylävartaloa puolelta toiselle käsissä ja polvissa ja avaa rintakehä."
+        },
+        "Neck Stretch": {
+          "name": "Kaulan venytys",
+          "desc": "Kallista päätä varovasti molemmille puolille pitäen 30 sekuntia kummallakin puolella."
+        },
+        "Tricep Stretch": {
+          "name": "Tricep Stretch",
+          "desc": "Ojenna käsi pään yläpuolelle, taivuta kyynärpäätä, vedä varovasti toisella kädellä."
+        }
+      }
+    },
+    "lower-body": {
+      "name": "Alavartalon vapautus",
+      "focus": "Reisilihakset, pakaralihakset, lonkan koukistajat",
+      "desc": "Syvät venytykset tiukille jaloille ja lantiolle istumisesta",
+      "stretches": {
+        "Pigeon Pose": {
+          "name": "Kyyhkynen asento",
+          "desc": "Tuo toinen jalka eteenpäin koukussa, ojenna takajalka suoraksi, paina lantio alas."
+        },
+        "Hamstring Stretch": {
+          "name": "Reisilihaksen venytys",
+          "desc": "Istu toinen jalka ojennettuna, kurkota varpaita kohti, pidä selkä suorana."
+        },
+        "Hip Flexor Lunge": {
+          "name": "Lonkka Flexor Lunge",
+          "desc": "Syöksyasento, työnnä lantiota eteenpäin, jotta tunnet venytyksen edessä."
+        },
+        "Glute Stretch": {
+          "name": "Glute Stretch",
+          "desc": "Makaa selällään, risti nilkka vastakkaisen polven yli, vedä rintaa kohti."
+        },
+        "Calf Stretch": {
+          "name": "Pohkeen venytys",
+          "desc": "Astu eteenpäin syöksyssä, pidä takakanta alhaalla venyttääksesi pohjetta."
+        }
+      }
+    },
+    "full-body": {
+      "name": "Koko kehon virtaus",
+      "focus": "Koko kehon huolto",
+      "desc": "Täydellinen päästä varpaisiin joustavuusrutiini",
+      "stretches": {
+        "Cat-Cow": {
+          "name": "Kissa-Lehmä",
+          "desc": "Käsissä ja polvissa vuorotellen kaareutuva ja pyöristävä selkä."
+        },
+        "Downward Dog": {
+          "name": "Alaspäin suuntautuva koira",
+          "desc": "Kädet ja jalat istutettuina, lonkat korkealla muodostaen käänteisen V:n."
+        },
+        "Child's Pose": {
+          "name": "Lapsen asento",
+          "desc": "Polvet leveät, istu alas kantapäälle, kädet ojennettuna eteenpäin."
+        },
+        "Seated Twist": {
+          "name": "Istuva Twist",
+          "desc": "Istu jalat ristissä, käännä vartaloa molemmille puolille, käsi selän takana."
+        },
+        "Forward Fold": {
+          "name": "Taita eteenpäin",
+          "desc": "Seiso, saranat lantiolla, kurkota varpaita kohti, anna pään roikkua."
+        },
+        "Hip Circles": {
+          "name": "Hip ympyrät",
+          "desc": "Kädet lantiolla, tee suuria ympyröitä lantiolla molempiin suuntiin."
+        },
+        "Arm Circles": {
+          "name": "Käsivarsi ympyrät",
+          "desc": "Ojenna käsivarret leveäksi, tee suuria ympyröitä eteenpäin ja sitten taaksepäin."
+        }
+      }
+    },
+    "dynamic-warmup": {
+      "name": "Dynaaminen lämmittely",
+      "focus": "Aktivointi ennen harjoittelua",
+      "desc": "Valmistele kehosi ennen harjoittelua",
+      "stretches": {
+        "Leg Swings": {
+          "name": "Jalkojen keinut",
+          "desc": "Pidä kiinni seinästä, käännä jalkaa eteenpäin ja taaksepäin, sitten sivulta toiselle."
+        },
+        "Arm Circles": {
+          "name": "Käsivarsi ympyrät",
+          "desc": "Pienistä suuriin ympyröihin, eteenpäin ja taaksepäin."
+        },
+        "Torso Twists": {
+          "name": "Vartalon kierteet",
+          "desc": "Pyöritä ylävartaloa puolelta toiselle kädet löysällä."
+        },
+        "Walking Lunges": {
+          "name": "Kävelyt Lunges",
+          "desc": "Astu eteenpäin syöksylle, vaihda jalkoja samalla kun liikut eteenpäin."
+        },
+        "High Knees": {
+          "name": "Korkeat polvet",
+          "desc": "Marssi paikallaan nostaen polvet lantion korkeuteen."
+        }
+      }
+    }
+  },
+  "benefits": {
+    "title": "Miksi päivittäinen venyttely on tärkeää"
+  },
+  "tests": {
+    "status": {
+      "title": "Liikkuvuustilanteesi",
+      "based_on": "Perustuu {{count}} testitulokseen",
+      "complete_below": "Suorita testit alla",
+      "score_label": "Pisteet: {{points}}/6 pistettä (hyväksytty = 2, osittainen = 1, vaatii työtä = 0)",
+      "elite": "Elite Mobility",
+      "good": "Hyvä liikkuvuus",
+      "limited": "Rajoitettu liikkuvuus",
+      "not_tested": "Ei testattu"
+    },
+    "items": {
+      "sit-reach": {
+        "name": "Sit & Reach -testi",
+        "desc": "Istu jalat suorina, kurkota varpaita kohti",
+        "pass": "Voi koskettaa tai siirtää varpaita",
+        "fail": "Yli 6 tuumaa varpaista"
+      },
+      "shoulder-pass": {
+        "name": "Olkapään läpivienti",
+        "desc": "Pidä kiinni nauhasta/keikasta, nosta kädet pään yläpuolelle ja selän taakse",
+        "pass": "Voi kulkea sujuvasti läpi",
+        "fail": "Liikettä ei voi suorittaa loppuun"
+      },
+      "deep-squat": {
+        "name": "Syvä kyykkypito",
+        "desc": "Kyykky alas kantapäät tasaisesti, pidä 30 sekuntia",
+        "pass": "Kestää 30s, kantapäät alaspäin",
+        "fail": "Kantapäät nousevat tai eivät pysty pitämään"
+      }
+    },
+    "tips": {
+      "title": "Testausvinkkejä"
+    },
+    "actions": {
+      "pass": "✓ Hyväksy",
+      "partial": "~ Osittainen",
+      "fail": "✗ Tarvitsee työtä"
+    }
+  },
+  "log": {
+    "title": "Lokin palautusistunto",
+    "duration": "Kesto (minuuttia)",
+    "focus_areas": "Painopistealueet (valitse kaikki sopivat)",
+    "soreness_label": "Arkuus ennen istuntoa: {{level}}/10",
+    "no_pain": "1 - Ei kipua",
+    "moderate": "5 - Kohtalainen",
+    "very_sore": "10 - Erittäin kipeä",
+    "submit": "🧘 Loki-istunto",
+    "heatmap": {
+      "title": "Palautus lämpökartta",
+      "legend": "Violet pisteet merkitsevät palautumispäiviä"
+    },
+    "badge": {
+      "title": "Vahinkovakuutus!",
+      "desc": "Olet suorittanut tällä viikolla {{count}} palautuskertaa!"
+    },
+    "stats": {
+      "total": "Minuutit yhteensä",
+      "this_week": "Tällä viikolla"
+    },
+    "recent": "Viimeaikaiset istunnot",
+    "areas": {
+      "Neck": "Kaula",
+      "Shoulders": "Hartiat",
+      "Back": "Takaisin",
+      "Hips": "Lonkat",
+      "Legs": "Jalat",
+      "Full Body": "Koko keho"
+    }
+  }
+}

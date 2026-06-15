@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "back": "Takaisin hallintapaneeliin"
+  },
+  "header": {
+    "title": "Makro Laskin",
+    "subtitle": "Laske päivittäiset kalori- ja makroravintotarpeesi"
+  },
+  "tabs": {
+    "input": "Tietosi",
+    "results": "Sinun tulokset"
+  },
+  "form": {
+    "title": "Tietosi",
+    "age": "Ikä (vuotta)",
+    "gender": "Sukupuoli",
+    "male": "Mies",
+    "female": "Nainen",
+    "weight": "Paino",
+    "height": "Korkeus",
+    "activity": "Aktiviteettitaso",
+    "goal": "Maali",
+    "submit": "Laske makrot",
+    "placeholders": {
+      "age": "esim. 30",
+      "weightKg": "esim. 70",
+      "weightLbs": "esim. 154",
+      "heightCm": "esim. 175",
+      "heightFt": "Jalat",
+      "heightIn": "Tuumaa"
+    },
+    "activityLevels": {
+      "sedentary": "Istuva (vähän/ei liikuntaa)",
+      "light": "Kevyesti aktiivinen (1-3 päivää/viikko)",
+      "moderate": "Keskinkertainen aktiivisuus (3-5 päivää/viikko)",
+      "very": "Erittäin aktiivinen (6-7 päivää/viikko)"
+    },
+    "goals": {
+      "maintenance": "Huolto",
+      "loss": "Painonpudotus",
+      "gain": "Lihaksen lisäys"
+    }
+  },
+  "results": {
+    "title": "Sinun tulokset",
+    "calorieTarget": "Päivittäinen kaloritavoite",
+    "kcalPerDay": "kcal/päivä",
+    "bmrLabel": "BMR: {{val}} kcal",
+    "protein": "Proteiini",
+    "carbs": "Hiilihydraatteja",
+    "fat": "Lihava",
+    "submit": "Tallenna profiiliin",
+    "placeholder": "Anna tietosi ja napsauta Laske nähdäksesi tulokset",
+    "success": "Makrotiedot tallennettu! Profiilitietosi on synkronoitu.",
+    "validation": "Anna kelvolliset arvot"
+  }
+}

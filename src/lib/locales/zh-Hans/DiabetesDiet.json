@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "back": "返回仪表板"
+  },
+  "header": {
+    "title": "糖尿病饮食指南",
+    "subtitle": "监测血糖并掌握平板法"
+  },
+  "alert": {
+    "title": "低血糖警告",
+    "desc": "您的读数表明存在低血糖（低血糖）。请立即采取行动：",
+    "actions": {
+      "carbs": "消耗 15 克速效碳水化合物（例如 4 盎司果汁、3-4 片葡萄糖片）",
+      "wait": "等待 15 分钟",
+      "repeat": "再次测试；如果仍然很低，请重复治疗",
+      "contact": "如果水平不稳定，请联系您的医生"
+    }
+  },
+  "tabs": {
+    "plate": "糖尿病板",
+    "log": "血糖记录",
+    "gi": "地理标志查询"
+  },
+  "log": {
+    "title": "记录血糖读数",
+    "unit": "测量单位",
+    "value": "血糖水平 ({{unit}})",
+    "valuePlaceholder": "输入值（例如 110）",
+    "valuePlaceholderMmol": "输入值（例如 6.1）",
+    "timing": "阅读时间",
+    "mealContext": "膳食背景/注释",
+    "mealContextPlaceholder": "你吃了什么？你感觉如何？",
+    "submit": "保存阅读",
+    "success": "血糖读数保存成功！",
+    "targets": {
+      "title": "标准目标范围 (mg/dL)",
+      "fasting": "空腹：80-130 mg/dL",
+      "postMeal": "餐后 1-2 小时：< 180 mg/dL",
+      "low": "低：< 70 mg/dL"
+    },
+    "recent": {
+      "title": "最近读物",
+      "noReadings": "尚未记录读数",
+      "trend": "血糖趋势（最后 7 个读数）",
+      "targetMax": "最大目标（空腹）",
+      "targetPost": "最大目标（餐后）"
+    }
+  },
+  "status": {
+    "normal": "正常",
+    "high": "高",
+    "low": "低"
+  },
+  "timing": {
+    "fasting": "空腹/饭前",
+    "preMeal": "餐前",
+    "postMeal1h": "餐后1小时",
+    "postMeal2h": "餐后2小时",
+    "bedtime": "就寝时间"
+  },
+  "plate": {
+    "intro": {
+      "title": "糖尿病平板法",
+      "desc": "餐盘法是一种无需数数即可计划膳食的简单方法。它侧重于份量控制和平衡，以帮助控制血糖水平。"
+    },
+    "build": {
+      "title": "打造你的盘子",
+      "hint": "点击某个部分即可查看推荐食物"
+    },
+    "categories": {
+      "veggies": {
+        "name": "非淀粉类蔬菜",
+        "percent": "50%",
+        "desc": "用色彩丰富、富含纤维的蔬菜填满你的一半盘子"
+      },
+      "protein": {
+        "name": "瘦肉蛋白",
+        "percent": "25%",
+        "desc": "补充四分之一的精益蛋白质来源"
+      },
+      "carbs": {
+        "name": "健康碳水化合物",
+        "percent": "25%",
+        "desc": "用全谷物或淀粉类蔬菜填充四分之一"
+      }
+    },
+    "principles": {
+      "title": "平板法原理",
+      "veggies": {
+        "title": "蔬菜第一",
+        "desc": "先吃蔬菜，以减缓剩余膳食中葡萄糖的吸收。"
+      },
+      "protein": {
+        "title": "优质蛋白质",
+        "desc": "选择精益选择来支持肌肉维持，而不需要过多的饱和脂肪。"
+      },
+      "carbs": {
+        "title": "正念碳水化合物",
+        "desc": "坚持吃对血糖峰值影响较小的复合碳水化合物��"
+      }
+    }
+  },
+  "gi": {
+    "intro": {
+      "title": "血糖指数 (GI) 查询",
+      "desc": "血糖指数根据碳水化合物与参考食物相比升高血糖水平的程度对碳水化合物进行排名。",
+      "low": "低（0-55）",
+      "medium": "中型（56-69）",
+      "high": "高（70+）"
+    },
+    "labels": {
+      "low": "低升糖指数",
+      "medium": "中等GI",
+      "high": "高GI"
+    },
+    "search": "搜索食物（例如燕麦、香蕉......）",
+    "noResults": "没有找到符合您搜索的食物"
+  },
+  "foods": {
+    "Spinach": "菠菜",
+    "Broccoli": "西兰花",
+    "Cauliflower": "花椰菜",
+    "Bell Peppers": "青椒",
+    "Zucchini": "西葫芦",
+    "Asparagus": "芦笋",
+    "Cucumber": "黄瓜",
+    "Tomatoes": "西红柿",
+    "Chicken Breast": "鸡胸肉",
+    "Fish (Salmon, Tuna)": "鱼（鲑鱼、金枪鱼）",
+    "Tofu": "豆腐",
+    "Lentils": "扁豆",
+    "Eggs": "鸡蛋",
+    "Turkey": "土耳其",
+    "Greek Yogurt": "希腊酸奶",
+    "Brown Rice": "糙米",
+    "Quinoa": "藜麦",
+    "Sweet Potato": "红薯",
+    "Whole Wheat Pasta": "全麦面食",
+    "Oats": "燕麦",
+    "Barley": "大麦"
+  }
+}

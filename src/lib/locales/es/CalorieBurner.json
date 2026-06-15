@@ -45,16 +45,16 @@
     },
     "item": {
       "duration": "Duración",
-      "met": "MET",
+      "met": "SE REUNIÓ",
       "calories": "calorías",
-      "minutes": "min"
+      "minutes": "mín."
     }
   },
   "activities": {
     "walking": "Caminando (a paso ligero)",
     "running": "Correr (9 min/milla)",
     "cycling": "Ciclismo (moderado)",
-    "yoga": "Yoga",
+    "yoga": "yoga",
     "swimming": "Natación (Largos)",
     "strength": "Entrenamiento de fuerza",
     "household": "Tareas del hogar",

@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "back": "Tillbaka till Dashboard"
+  },
+  "header": {
+    "title": "Stegspårare",
+    "subtitle": "Spåra dina dagliga steg och nå dina mål",
+    "profile": "Profil"
+  },
+  "tabs": {
+    "tracker": "Spårare",
+    "history": "Historia"
+  },
+  "tracker": {
+    "stepsToday": "steg idag",
+    "goalAchieved": "Målet uppnått!",
+    "stats": {
+      "distance": "Avstånd",
+      "calories": "Kalorier",
+      "activeTime": "Aktiv tid",
+      "km": "km",
+      "kcal": "kcal",
+      "mins": "min"
+    },
+    "goal": {
+      "label": "Dagligt mål",
+      "value": "{{val}} steg",
+      "change": "Ändra mål"
+    },
+    "quickAdd": {
+      "title": "Snabb lägga till steg",
+      "label": "Anpassade steg",
+      "placeholder": "t.ex. 3500",
+      "submit": "Lägg till"
+    },
+    "insights": {
+      "title": "Dagens insikter",
+      "remaining": "Återstående steg",
+      "stride": "Steglängd",
+      "progress": "Framsteg",
+      "complete": "Komplett!",
+      "percentOfGoal": "{{val}} % av målet"
+    },
+    "reset": "Återställ dagens steg"
+  },
+  "history": {
+    "title": "Steg Historia",
+    "noHistory": "Ingen historia än. Börja spåra dina steg!",
+    "today": "Idag",
+    "stats": {
+      "steps": "Steg",
+      "goal": "Mål",
+      "progress": "Framsteg"
+    }
+  },
+  "modals": {
+    "goal": {
+      "title": "Sätt dagligt mål",
+      "subtitle": "Ange dina mål dagliga steg",
+      "placeholder": "t.ex. 10 000",
+      "cancel": "Avbryt",
+      "save": "Spara"
+    },
+    "profile": {
+      "title": "Uppdatera profil",
+      "subtitle": "Detta hjälper till att beräkna exakt avstånd och kalorier",
+      "height": "Höjd (cm)",
+      "weight": "Vikt (kg)",
+      "gender": "Kön",
+      "male": "Hane",
+      "female": "Kvinna",
+      "placeholderHeight": "t.ex. 170",
+      "placeholderWeight": "t.ex. 70",
+      "cancel": "Avbryt",
+      "save": "Spara"
+    }
+  }
+}

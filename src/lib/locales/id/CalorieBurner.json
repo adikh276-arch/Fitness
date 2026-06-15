@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "back": "Kembali ke Dasbor"
+  },
+  "header": {
+    "title": "Pembakar Kalori",
+    "subtitle": "Lacak kalori yang terbakar selama aktivitas Anda"
+  },
+  "tabs": {
+    "calculator": "Kalkulator",
+    "log": "Log Aktivitas ({{count}})"
+  },
+  "calculator": {
+    "form": {
+      "title": "Detail Aktivitas",
+      "selectActivity": "Pilih Aktivitas",
+      "weight": "Berat Badan Anda",
+      "duration": "Durasi (menit)",
+      "placeholders": {
+        "weightKg": "misalnya, 70",
+        "weightLbs": "misalnya, 154"
+      },
+      "submit": "Catat Aktivitas"
+    },
+    "summary": {
+      "title": "Ringkasan Pembakaran",
+      "calories": "Kalori Terbakar",
+      "activity": "Aktivitas",
+      "duration": "Durasi",
+      "weight": "Berat",
+      "burnRate": "Tingkat Pembakaran Kalori",
+      "formula": "Rumus: (MET × 3,5 × Berat kg / 200) × Durasi min"
+    }
+  },
+  "log": {
+    "noActivities": "Belum Ada Aktivitas yang Tercatat",
+    "noActivitiesDesc": "Mulai lacak latihan Anda untuk melihatnya di sini",
+    "logFirst": "Catat Aktivitas Pertama Anda",
+    "summary": {
+      "title": "Ringkasan Total",
+      "totalActivities": "Jumlah Kegiatan",
+      "totalCalories": "Jumlah Kalori",
+      "totalTime": "Jumlah Waktu",
+      "avgSession": "Rata-rata Kal/Sesi"
+    },
+    "item": {
+      "duration": "Durasi",
+      "met": "BERTEMU",
+      "calories": "Kalori",
+      "minutes": "menit"
+    }
+  },
+  "activities": {
+    "walking": "Berjalan (cepat)",
+    "running": "Berlari (9 menit/mil)",
+    "cycling": "Bersepeda (Sedang)",
+    "yoga": "Yoga",
+    "swimming": "Berenang (Putaran)",
+    "strength": "Latihan Kekuatan",
+    "household": "Pekerjaan Rumah Tangga",
+    "dance": "Tari/Aerobik"
+  }
+}

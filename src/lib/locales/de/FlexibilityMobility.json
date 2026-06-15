@@ -1,0 +1,227 @@
+{
+  "header": {
+    "title": "Flexibilität und Mobilität",
+    "subtitle": "Verbessern Sie die Bewegungsfreiheit und verhindern Sie Verletzungen",
+    "back": "Zurück zum Dashboard"
+  },
+  "tabs": {
+    "stretches": "Tägliche Dehnübungen",
+    "tests": "Mobilitätstests",
+    "log": "Wiederherstellungsprotokoll"
+  },
+  "player": {
+    "stretch": "Strecken Sie {{current}} von {{total}}",
+    "resume": "Lebenslauf",
+    "pause": "Pause",
+    "skip": "Überspringen",
+    "cancel": "Abbrechen",
+    "bilateral_hint": "💡 Denken Sie daran, die Seite zu wechseln, wenn der Timer abgelaufen ist",
+    "preview": {
+      "stretches_count": "{{count}} Strecken (insgesamt {{duration}} Min.):",
+      "start": "Starten Sie die Routine {{duration}}-Min",
+      "cancel": "Abbrechen"
+    },
+    "complete": {
+      "title": "Routine abgeschlossen!",
+      "desc": "Großartige Arbeit beim Abschluss von {{name}}!",
+      "rate_label": "Fühlen Sie sich besser? Bewerten Sie Ihre Verbesserung: {{rating}}/10",
+      "worse": "Schlimmer noch",
+      "same": "Das Gleiche",
+      "much_better": "Viel besser",
+      "save": "Sitzung speichern",
+      "done": "Fertig"
+    }
+  },
+  "routines": {
+    "upper-body": {
+      "name": "Oberkörper offen",
+      "focus": "Brust, Schultern, mittlerer Rücken",
+      "desc": "Lösen Sie Verspannungen durch Schreibtischarbeit und Telefonnutzung",
+      "stretches": {
+        "Doorway Chest Stretch": {
+          "name": "Tür-Brustdehnung",
+          "desc": "Stellen Sie sich in die Tür, legen Sie die Unterarme auf den Rahmen und beugen Sie sich nach vorne, um die Dehnung der Brust zu spüren."
+        },
+        "Shoulder Rolls": {
+          "name": "Schulterrollen",
+          "desc": "Rollen Sie die Schultern in großen Kreisen nach hinten, 10 Wiederholungen."
+        },
+        "Thoracic Rotation": {
+          "name": "Thoraxrotation",
+          "desc": "Drehen Sie den Oberkörper auf Händen und Knien hin und her und öffnen Sie so die Brust."
+        },
+        "Neck Stretch": {
+          "name": "Nackendehnung",
+          "desc": "Neigen Sie den Kopf vorsichtig zur Seite und halten Sie ihn jeweils 30 Sekunden lang gedrückt."
+        },
+        "Tricep Stretch": {
+          "name": "Trizepsdehnung",
+          "desc": "Den Arm über den Kopf strecken, den Ellbogen beugen und mit der anderen Hand sanft ziehen."
+        }
+      }
+    },
+    "lower-body": {
+      "name": "Entspannung des Unterkörpers",
+      "focus": "Kniesehnen, Gesäßmuskeln, Hüftbeuger",
+      "desc": "Tiefe Dehnübungen für straffe Beine und Hüften im Sitzen",
+      "stretches": {
+        "Pigeon Pose": {
+          "name": "Taubenhaltung",
+          "desc": "Bringen Sie ein Bein nach vorne gebeugt, strecken Sie das hintere Bein gerade aus, senken Sie die Hüfte nach unten."
+        },
+        "Hamstring Stretch": {
+          "name": "Dehnung der Oberschenkelmuskulatur",
+          "desc": "Setzen Sie sich mit ausgestrecktem Bein hin, greifen Sie zu den Zehen und halten Sie den Rücken gerade."
+        },
+        "Hip Flexor Lunge": {
+          "name": "Hüftbeuger-Ausfallschritt",
+          "desc": "Ausfallschrittposition, schieben Sie die Hüften nach vorne, um eine Dehnung in der vorderen Hüfte zu spüren."
+        },
+        "Glute Stretch": {
+          "name": "Gesäßdehnung",
+          "desc": "Legen Sie sich auf den Rücken, kreuzen Sie den Knöchel über dem gegenüberliegenden Knie und ziehen Sie ihn zur Brust."
+        },
+        "Calf Stretch": {
+          "name": "Wadendehnung",
+          "desc": "Treten Sie im Ausfallschritt nach vorne und halten Sie die hintere Ferse unten, um die Wade zu strecken."
+        }
+      }
+    },
+    "full-body": {
+      "name": "Ganzkörperfluss",
+      "focus": "Ganzkörperpflege",
+      "desc": "Komplette Flexibilitätsroutine von Kopf bis Fuß",
+      "stretches": {
+        "Cat-Cow": {
+          "name": "Katze-Kuh",
+          "desc": "Auf Händen und Knien abwechselnd die Wirbelsäule wölben und runden."
+        },
+        "Downward Dog": {
+          "name": "Herabschauender Hund",
+          "desc": "Hände und Füße aufgesetzt, hüfthoch, ein umgekehrtes V bildend."
+        },
+        "Child's Pose": {
+          "name": "Kinderpose",
+          "desc": "Knie breit, auf den Fersen lehnen, Arme nach vorne strecken."
+        },
+        "Seated Twist": {
+          "name": "Sitzende Drehung",
+          "desc": "Sitzen Sie im Schneidersitz, drehen Sie den Oberkörper zu beiden Seiten, die Hand hinter dem Rücken."
+        },
+        "Forward Fold": {
+          "name": "Vorwärtsfalten",
+          "desc": "Stehen Sie, beugen Sie die Hüfte, greifen Sie zu den Zehen und lassen Sie den Kopf hängen."
+        },
+        "Hip Circles": {
+          "name": "Hüftkreise",
+          "desc": "Hände auf den Hüften, große Kreise mit den Hüften in beide Richtungen machen."
+        },
+        "Arm Circles": {
+          "name": "Armkreise",
+          "desc": "Strecken Sie die Arme weit aus und machen Sie große Kreise nach vorne und dann nach hinten."
+        }
+      }
+    },
+    "dynamic-warmup": {
+      "name": "Dynamisches Aufwärmen",
+      "focus": "Aktivierung vor dem Training",
+      "desc": "Bereiten Sie Ihren Körper vor dem Training vor",
+      "stretches": {
+        "Leg Swings": {
+          "name": "Beinschwingen",
+          "desc": "Halten Sie sich an der Wand fest, schwingen Sie das Bein nach vorne und hinten und dann hin und her."
+        },
+        "Arm Circles": {
+          "name": "Armkreise",
+          "desc": "Kleine bis große Kreise, vorwärts und rückwärts."
+        },
+        "Torso Twists": {
+          "name": "Rumpfdrehungen",
+          "desc": "Drehen Sie den Oberkörper mit lockeren Armen hin und her."
+        },
+        "Walking Lunges": {
+          "name": "Ausfallschritte beim Gehen",
+          "desc": "Machen Sie einen Schritt nach vorne in den Ausfallschritt und wechseln Sie die Beine, während Sie sich vorwärts bewegen."
+        },
+        "High Knees": {
+          "name": "Hohe Knie",
+          "desc": "Marschieren Sie auf der Stelle und bringen Sie die Knie auf Hüfthöhe."
+        }
+      }
+    }
+  },
+  "benefits": {
+    "title": "Warum tägliches Dehnen wichtig ist"
+  },
+  "tests": {
+    "status": {
+      "title": "Ihr Mobilitätsstatus",
+      "based_on": "Basierend auf {{count}} Testergebnissen",
+      "complete_below": "Komplette Tests unten",
+      "score_label": "Punktzahl: {{points}}/6 Punkte (Bestanden=2, Teilweise=1, Arbeit erforderlich=0)",
+      "elite": "Elite-Mobilität",
+      "good": "Gute Mobilität",
+      "limited": "Eingeschränkte Mobilität",
+      "not_tested": "Nicht getestet"
+    },
+    "items": {
+      "sit-reach": {
+        "name": "Sit & Reach-Test",
+        "desc": "Setzen Sie sich mit geraden Beinen hin und greifen Sie nach den Zehen",
+        "pass": "Kann Zehen berühren oder passieren",
+        "fail": "Mehr als 6 Zoll von den Zehen entfernt"
+      },
+      "shoulder-pass": {
+        "name": "Schulterdurchgang",
+        "desc": "Halten Sie ein Band/einen Stock und heben Sie die Arme über den Kopf und hinter den Rücken",
+        "pass": "Kann problemlos passieren",
+        "fail": "Bewegung kann nicht abgeschlossen werden"
+      },
+      "deep-squat": {
+        "name": "Tiefer Squat-Halt",
+        "desc": "Mit flachen Fersen in die Hocke gehen und 30 Sekunden lang gedrückt halten",
+        "pass": "Kann 30s halten, mit den Absätzen nach unten",
+        "fail": "Die Fersen heben sich oder können nicht halten"
+      }
+    },
+    "tips": {
+      "title": "Testtipps"
+    },
+    "actions": {
+      "pass": "✓ Bestehen",
+      "partial": "~ Teilweise",
+      "fail": "✗ Benötigt Arbeit"
+    }
+  },
+  "log": {
+    "title": "Protokollwiederherstellungssitzung",
+    "duration": "Dauer (Minuten)",
+    "focus_areas": "Schwerpunktbereiche (alles Zutreffende auswählen)",
+    "soreness_label": "Schmerzen vor der Sitzung: {{level}}/10",
+    "no_pain": "1 – Keine Schmerzen",
+    "moderate": "5 – Mäßig",
+    "very_sore": "10 – Sehr wund",
+    "submit": "🧘 Protokollsitzung",
+    "heatmap": {
+      "title": "Wiederherstellungs-Heatmap",
+      "legend": "Lila Punkte markieren Tage mit Erholungssitzungen"
+    },
+    "badge": {
+      "title": "Verletzungssicher!",
+      "desc": "Du hast diese Woche {{count}} Erholungssitzungen abgeschlossen!"
+    },
+    "stats": {
+      "total": "Gesamtminuten",
+      "this_week": "Diese Woche"
+    },
+    "recent": "Aktuelle Sitzungen",
+    "areas": {
+      "Neck": "Hals",
+      "Shoulders": "Schultern",
+      "Back": "Zurück",
+      "Hips": "Hüften",
+      "Legs": "Beine",
+      "Full Body": "Ganzkörper"
+    }
+  }
+}

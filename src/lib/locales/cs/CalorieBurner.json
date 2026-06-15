@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "back": "Zpět na Dashboard"
+  },
+  "header": {
+    "title": "Spalovač kalorií",
+    "subtitle": "Sledujte spálené kalorie během vašich aktivit"
+  },
+  "tabs": {
+    "calculator": "Kalkulačka",
+    "log": "Protokol aktivit ({{count}})"
+  },
+  "calculator": {
+    "form": {
+      "title": "Podrobnosti aktivity",
+      "selectActivity": "Vyberte Aktivita",
+      "weight": "Vaše váha",
+      "duration": "Doba trvání (minuty)",
+      "placeholders": {
+        "weightKg": "např. 70",
+        "weightLbs": "např. 154"
+      },
+      "submit": "Zaznamenat aktivitu"
+    },
+    "summary": {
+      "title": "Burn Summary",
+      "calories": "Spálené kalorie",
+      "activity": "Aktivita",
+      "duration": "Doba trvání",
+      "weight": "Hmotnost",
+      "burnRate": "Rychlost spalování kalorií",
+      "formula": "Vzorec: (MET × 3,5 × Hmotnost kg / 200) × Doba trvání min"
+    }
+  },
+  "log": {
+    "noActivities": "Dosud nebyly zaznamenány žádné aktivity",
+    "noActivitiesDesc": "Začněte sledovat své tréninky, abyste je viděli zde",
+    "logFirst": "Zaznamenejte svou první aktivitu",
+    "summary": {
+      "title": "Celkové shrnutí",
+      "totalActivities": "Celkem aktivit",
+      "totalCalories": "Celkový počet kalorií",
+      "totalTime": "Celkový čas",
+      "avgSession": "Prům. kal/relace"
+    },
+    "item": {
+      "duration": "Doba trvání",
+      "met": "MET",
+      "calories": "Kalorie",
+      "minutes": "min"
+    }
+  },
+  "activities": {
+    "walking": "Chůze (svižná)",
+    "running": "Běh (9 min/míli)",
+    "cycling": "Cyklistika (střední)",
+    "yoga": "Jóga",
+    "swimming": "plavání (kola)",
+    "strength": "Silový trénink",
+    "household": "Domácí práce",
+    "dance": "Tanec/aerobik"
+  }
+}

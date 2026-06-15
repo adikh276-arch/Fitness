@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "back": "Quay lại Trang tổng quan"
+  },
+  "header": {
+    "title": "Hướng dẫn giảm cân",
+    "subtitle": "Hướng dẫn đầy đủ của bạn để giảm cân bền vững"
+  },
+  "tabs": {
+    "plan": "Kế hoạch",
+    "tracker": "Trình theo dõi",
+    "habits": "Thói quen"
+  },
+  "plan": {
+    "goldenRule": {
+      "title": "Quy tắc vàng",
+      "subtitle": "Thiếu hụt calo so với mật độ chất dinh dưỡng",
+      "desc": "Giảm cân đòi hỏi phải giảm lượng calo, nhưng chất lượng của lượng calo đó cũng quan trọng như số lượng. Tập trung vào các loại thực phẩm nguyên chất giàu chất dinh dưỡng giúp bạn hài lòng đồng thời tạo ra sự thiếu hụt cần thiết để giảm béo."
+    },
+    "proteinFirst": {
+      "title": "Chất đạm đầu tiên",
+      "subtitle": "Tại sao 1,2g–1,6g protein mỗi kg là không thể thương lượng để giảm béo:",
+      "muscle": "Bảo tồn khối lượng cơ bắp trong quá trình hạn chế calo",
+      "thermic": "Hiệu ứng nhiệt cao hơn (30% lượng calo protein bị đốt cháy trong quá trình tiêu hóa)",
+      "satiety": "Tăng cảm giác no giúp bạn cảm thấy no lâu hơn",
+      "sugar": "Ổn định lượng đường trong máu và giảm cảm giác thèm ăn"
+    },
+    "plateMethod": {
+      "title": "Phương pháp tấm",
+      "subtitle": "Hướng dẫn trực quan đơn giản về bữa ăn cân bằng giúp thúc đẩy quá trình giảm béo:",
+      "veg": {
+        "title": "Rau củ",
+        "desc": "Rau không chứa tinh bột để tăng khối lượng và chất dinh dưỡng"
+      },
+      "protein": {
+        "title": "chất đạm",
+        "desc": "Thịt nạc, cá, trứng hoặc nguồn gốc thực vật"
+      },
+      "carbs": {
+        "title": "Carbs giàu chất xơ",
+        "desc": "Ngũ cốc nguyên hạt, khoai lang, quinoa, các loại đậu"
+      }
+    },
+    "hiddenFactors": {
+      "title": "Các yếu tố tiềm ẩn",
+      "hydration": {
+        "title": "Hydrat hóa",
+        "desc": "Hydrat hóa thích hợp giúp:"
+      },
+      "sleep": {
+        "title": "Ngủ (hơn 7 giờ)",
+        "desc": "Chất lượng giấc ngủ điều hòa:"
+      }
+    }
+  },
+  "tracker": {
+    "progress": {
+      "title": "Sự tiến bộ của bạn",
+      "change": "Thay đổi mục tiêu",
+      "lost": "Giảm cân",
+      "remaining": "Còn lại",
+      "percent": "Tiến độ",
+      "complete": "Hoàn thành"
+    },
+    "log": {
+      "title": "Ghi lại số liệu hôm nay",
+      "weight": "Trọng lượng hiện tại (kg)",
+      "chest": "Ngực (inch, Tùy chọn)",
+      "waist": "Vòng eo (inch, Tùy chọn)",
+      "hips": "Hông (inch, Tùy chọn)",
+      "placeholder": "ví dụ: {{val}}",
+      "submit": "Nhật ký số liệu"
+    },
+    "history": {
+      "title": "Lịch sử số liệu",
+      "total": "Tổng số nhật ký",
+      "first": "Trọng lượng đầu tiên",
+      "latest": "Cân nặng mới nhất",
+      "unit": "kg",
+      "inches": "inch",
+      "chest": "ngực",
+      "waist": "eo",
+      "hips": "hông"
+    }
+  },
+  "habits": {
+    "consistency": {
+      "title": "Tính nhất quán hàng tuần",
+      "subtitle": "Hãy tiếp tục xây dựng những thói quen lành mạnh đó!"
+    },
+    "today": {
+      "title": "Thói quen ngày nay",
+      "subtitle": "Đánh dấu từng thói quen khi bạn hoàn thành nó ngay hôm nay",
+      "protein": {
+        "label": "Đạt mục tiêu Protein",
+        "desc": "1,2-1,6g mỗi kg trọng lượng cơ thể"
+      },
+      "noSugar": {
+        "label": "Không đồ uống có đường",
+        "desc": "Chỉ có nước, trà hoặc cà phê đen"
+      },
+      "walk": {
+        "label": "Đi bộ 10 phút sau bữa ăn",
+        "desc": "Hoạt động nhẹ sau khi ăn"
+      },
+      "sleep": {
+        "label": "Hơn 7 giờ ngủ",
+        "desc": "Nghỉ ngơi chất lượng để phục hồi"
+      }
+    },
+    "tracker30": {
+      "title": "Theo dõi thói quen 30 ngày",
+      "legend": {
+        "none": "không có",
+        "low": "1",
+        "mid": "2-3",
+        "high": "3",
+        "all": "Tất cả 4"
+      }
+    },
+    "whyMatters": {
+      "title": "Tại sao những thói quen này lại quan trọng",
+      "protein": "Lượng protein bảo tồn cơ bắp và tăng cảm giác no trong quá trình giảm cân",
+      "noSugar": "Tránh đồ uống có đường giúp loại bỏ lượng calo rỗng và giảm lượng insulin tăng đột biến",
+      "walk": "Đi bộ sau bữa ăn cải thiện độ nhạy insulin và hỗ trợ tiêu hóa",
+      "sleep": "Giấc ngủ chất lượng điều chỉnh hormone đói và hỗ trợ giảm béo"
+    }
+  },
+  "modal": {
+    "title": "Đặt mục tiêu của bạn",
+    "subtitle": "Hãy cá nhân hóa hành trình giảm cân của bạn",
+    "start": "Trọng lượng ban đầu (kg)",
+    "target": "Trọng lượng mục tiêu (kg)",
+    "date": "Ngày mục tiêu",
+    "save": "Lưu mục tiêu",
+    "fillAll": "Vui lòng điền vào tất cả các trường"
+  }
+}

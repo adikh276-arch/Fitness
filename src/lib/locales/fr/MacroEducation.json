@@ -46,7 +46,7 @@
         "desc": "Le carburant préféré de votre corps pour l'activité cérébrale et physique"
       },
       "performance": {
-        "title": "Performance:",
+        "title": "Performances :",
         "desc": "Essentiel pour l'exercice de haute intensité et la performance athlétique"
       },
       "nutrients": {
@@ -108,7 +108,7 @@
     "calories": {
       "title": "Calories estimées",
       "subtitle": "(pour une portion de 200 g)",
-      "unit": "kcal"
+      "unit": "kilocalories"
     },
     "warning": {
       "title": "Recommandation d'équilibre",

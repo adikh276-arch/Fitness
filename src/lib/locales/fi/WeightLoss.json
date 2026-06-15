@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "back": "Takaisin hallintapaneeliin"
+  },
+  "header": {
+    "title": "Painonpudotusopas",
+    "subtitle": "Täydellinen opas kestävään painonpudotukseen"
+  },
+  "tabs": {
+    "plan": "Suunnitelma",
+    "tracker": "Tracker",
+    "habits": "Tottumukset"
+  },
+  "plan": {
+    "goldenRule": {
+      "title": "Kultainen sääntö",
+      "subtitle": "Kalorivaje vs. ravinteiden tiheys",
+      "desc": "Painonpudotus vaatii kalorivajetta, mutta näiden kalorien laadulla on yhtä paljon merkitystä kuin määrällä. Keskity ravintoainepitoisiin kokonaisiin elintarvikkeisiin, jotka pitävät sinut tyytyväisenä ja luovat samalla rasvanpudotukseen tarvittavan vajeen."
+    },
+    "proteinFirst": {
+      "title": "Proteiini ensin",
+      "subtitle": "Miksi 1,2–1,6 g proteiinia kiloa kohti ei ole neuvoteltavissa rasvanpudotuksessa:",
+      "muscle": "Säilyttää lihasmassaa kalorirajoituksen aikana",
+      "thermic": "Korkeampi lämpövaikutus (30 % proteiinikaloreista poltetaan ruoansulatuksen aikana)",
+      "satiety": "Lisääntynyt kylläisyyden tunne auttaa sinua tuntemaan kylläisyyttä pidempään",
+      "sugar": "Tasoittaa verensokeria ja vähentää himoa"
+    },
+    "plateMethod": {
+      "title": "Levymenetelmä",
+      "subtitle": "Yksinkertainen visuaalinen opas tasapainoisista aterioista, jotka edistävät rasvanpudotusta:",
+      "veg": {
+        "title": "Vihannekset",
+        "desc": "Tärkkelyspitoiset kasvikset lisäävät tilavuutta ja ravinteita"
+      },
+      "protein": {
+        "title": "Proteiini",
+        "desc": "Vähärasvainen liha, kala, munat tai kasviperäiset lähteet"
+      },
+      "carbs": {
+        "title": "Kuitupitoisia hiilihydraatteja",
+        "desc": "Täysjyvävilja, bataatti, kvinoa, palkokasvit"
+      }
+    },
+    "hiddenFactors": {
+      "title": "Piilotetut tekijät",
+      "hydration": {
+        "title": "Nesteytys",
+        "desc": "Oikea nesteytys auttaa:"
+      },
+      "sleep": {
+        "title": "Nukkuminen (yli 7 tuntia)",
+        "desc": "Laadukas uni säätelee:"
+      }
+    }
+  },
+  "tracker": {
+    "progress": {
+      "title": "Edistymisesi",
+      "change": "Muuta tavoitteita",
+      "lost": "Painonpudotettu",
+      "remaining": "Jäljellä",
+      "percent": "Edistyminen",
+      "complete": "Täydellinen"
+    },
+    "log": {
+      "title": "Kirjaa tämän päivän mittarit",
+      "weight": "Nykyinen paino (kg)",
+      "chest": "Rinta (tuumaa, valinnainen)",
+      "waist": "Vyötärö (tuumaa, valinnainen)",
+      "hips": "Lonkat (tuumaa, valinnainen)",
+      "placeholder": "esim. {{val}}",
+      "submit": "Lokitiedot"
+    },
+    "history": {
+      "title": "Mittareiden historia",
+      "total": "Lokit yhteensä",
+      "first": "Ensimmäinen paino",
+      "latest": "Viimeisin paino",
+      "unit": "kg",
+      "inches": "tuumaa",
+      "chest": "rinnassa",
+      "waist": "vyötärö",
+      "hips": "lonkat"
+    }
+  },
+  "habits": {
+    "consistency": {
+      "title": "Viikoittainen johdonmukaisuus",
+      "subtitle": "Jatka terveellisten tapojen rakentamista!"
+    },
+    "today": {
+      "title": "Tämän päivän tottumukset",
+      "subtitle": "Tarkista jokainen tapa, kun suoritat sen tänään",
+      "protein": {
+        "label": "Saavuta Protein Goal",
+        "desc": "1,2-1,6 g painokiloa kohden"
+      },
+      "noSugar": {
+        "label": "Ei sokeripitoisia juomia",
+        "desc": "Vain vettä, teetä tai mustaa kahvia"
+      },
+      "walk": {
+        "label": "10 minuutin kävely aterian jälkeen",
+        "desc": "Kevyttä toimintaa syömisen jälkeen"
+      },
+      "sleep": {
+        "label": "7+ tuntia unta",
+        "desc": "Laadukasta lepoa palautumiseen"
+      }
+    },
+    "tracker30": {
+      "title": "30 päivän tottumusseuranta",
+      "legend": {
+        "none": "Ei mitään",
+        "low": "1",
+        "mid": "2-3",
+        "high": "3",
+        "all": "Kaikki 4"
+      }
+    },
+    "whyMatters": {
+      "title": "Miksi näillä tavoilla on väliä",
+      "protein": "Proteiinin saanti säilyttää lihakset ja lisää kylläisyyttä laihdutuksen aikana",
+      "noSugar": "Sokerijuomien välttäminen poistaa tyhjiä kaloreita ja vähentää insuliinipiikkejä",
+      "walk": "Aterian jälkeiset kävelyt parantavat insuliiniherkkyyttä ja edistävät ruoansulatusta",
+      "sleep": "Laadukas uni säätelee nälkähormoneja ja tukee rasvanpudotusta"
+    }
+  },
+  "modal": {
+    "title": "Aseta tavoitteesi",
+    "subtitle": "Räätälöidään painonpudotusmatkasi",
+    "start": "Aloituspaino (kg)",
+    "target": "Tavoitepaino (kg)",
+    "date": "Tavoitepäivämäärä",
+    "save": "Tallenna tavoite",
+    "fillAll": "Täytä kaikki kentät"
+  }
+}

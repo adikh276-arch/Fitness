@@ -109,18 +109,33 @@
       "thigh": "Dij (in)",
       "thighHint": "Breedste deel",
       "submit": "Logaritmische metingen",
-      "success": "Metingen succesvol geregistreerd!"
+      "success": "Metingen succesvol geregistreerd!",
+      "placeholders": {
+        "weight": "bijvoorbeeld 75",
+        "targetWeight": "bijvoorbeeld 85",
+        "chest": "bijvoorbeeld 40",
+        "waist": "Optioneel",
+        "bicep": "bijvoorbeeld 15",
+        "bicepL": "Hetzelfde als rechts",
+        "thigh": "Optioneel"
+      }
     },
     "volume": {
       "title": "Volumecalculator",
       "exercise": "Oefening",
-      "sets": "Sets",
+      "sets": "Stelt in",
       "reps": "Vertegenwoordigers",
       "weight": "Gewicht (kg)",
       "totalVolume": "Totaal volume",
       "remaining": "Resterend voor Doel",
       "submit": "Logboekvolume",
-      "logged": "{{lift}} geregistreerd: {{volume}} kg totaal volume!"
+      "logged": "{{lift}} geregistreerd: {{volume}} kg totaal volume!",
+      "recentLifts": "Recente liften",
+      "placeholders": {
+        "sets": "bijvoorbeeld 4",
+        "reps": "bijvoorbeeld 8",
+        "weight": "bijvoorbeeld 80"
+      }
     },
     "chart": {
       "title": "Voortgangsgrafiek",
@@ -168,7 +183,71 @@
         "perfect": "Perfect (5/5)",
         "partial": "Gedeeltelijk",
         "none": "Onvolledig"
+      },
+      "tooltip": "Dag {{day}}: {{count}}/5 gewoonten"
+    }
+  },
+  "essentials": {
+    "title": "Hypertrofie Essentials",
+    "tips": {
+      "rest": {
+        "title": "Tijdens rust worden spieren opgebouwd:",
+        "desc": "Slaap en voeding zijn wanneer groei plaatsvindt, niet in de sportschool"
+      },
+      "protein": {
+        "title": "De timing van eiwitten is minder belangrijk dan het totaal:",
+        "desc": "Concentreer u op het behalen van uw dagelijkse doel, de timing is secundair"
+      },
+      "track": {
+        "title": "Volg alles:",
+        "desc": "Gewicht, afmetingen en volume: gegevens onthullen vooruitgang die u niet in de spiegel kunt zien"
+      },
+      "creatine": {
+        "title": "Creatine is bewezen:",
+        "desc": "3-5 g per dag verhoogt de kracht en de vetvrije massa zonder bijwerkingen voor de meeste mensen"
       }
     }
+  },
+  "exercises": {
+    "squat": "Hurken",
+    "deadlift": "Deadlift",
+    "benchPress": "Bankdrukken",
+    "overheadPress": "Overheadpers",
+    "barbellRow": "Barbell-rij",
+    "pullUp": "Trek omhoog",
+    "chinUp": "Kin omhoog",
+    "latPulldown": "Lat Pulldown",
+    "seatedCableRow": "Zittende kabelrij",
+    "dumbbellRow": "Halter rij",
+    "romanianDeadlift": "Roemeense deadlift",
+    "hipThrust": "Heupstoot",
+    "lunge": "Uitvallen",
+    "bulgarianSplitSquat": "Bulgaarse Split Squat",
+    "legPress": "Beendrukken",
+    "legExtension": "Beenverlenging",
+    "legCurl": "Been Krul",
+    "calfRaise": "Kalf verhogen",
+    "gluteBridge": "Glute brug",
+    "pushUp": "Duw omhoog",
+    "inclineDumbbellPress": "Helling halterpers",
+    "dips": "Duiken",
+    "chestFly": "Borstvlieg",
+    "lateralRaise": "Laterale verhoging",
+    "rearDeltFly": "Achterste deltavlieg",
+    "facePull": "Gezicht trekken",
+    "bicepCurl": "Biceps Curl",
+    "hammerCurl": "Hamer Krul",
+    "tricepPushdown": "Triceps-pushdown",
+    "skullCrusher": "Schedelbreker",
+    "plank": "Plank",
+    "hangingLegRaise": "Hangende beenverhoging",
+    "russianTwist": "Russische twist",
+    "farmerCarry": "Boer draagt",
+    "shrug": "Schouderophalen",
+    "arnoldPress": "Arnold Pers",
+    "frontSquat": "Voorste squat",
+    "sumoDeadlift": "Sumo-deadlift",
+    "gobletSquat": "Beker Squat",
+    "stepUp": "Stap op"
   }
 }

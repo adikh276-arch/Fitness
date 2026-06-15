@@ -1,0 +1,141 @@
+{
+  "header": {
+    "title": "Przewodnik po zdrowiu serca",
+    "subtitle": "Śledź parametry życiowe, naucz się diety DASH i buduj nawyki zdrowe dla serca",
+    "back": "Powrót do Panelu"
+  },
+  "alerts": {
+    "crisis": {
+      "title": "OSTRZEŻENIE O KRYZYSIE NADCIŚNIENIOWYM",
+      "desc": "Twój odczyt ciśnienia krwi jest niebezpiecznie wysoki (≥180/120). Wymaga to natychmiastowej pomocy lekarskiej."
+    },
+    "vitals": {
+      "invalid": "Proszę wprowadzić prawidłowe odczyty",
+      "success": "Odczyt zarejestrowany: {{sys}}/{{dia}} - {{category}}"
+    }
+  },
+  "tabs": {
+    "dash": "Dieta DASH",
+    "vitals": "Dziennik parametrów życiowych",
+    "habits": "Nawyki serca"
+  },
+  "vitals": {
+    "form": {
+      "title": "Zarejestruj swoje parametry życiowe",
+      "bp": {
+        "label": "Ciśnienie krwi",
+        "systolic": "Skurczowe",
+        "systolic_desc": "Najwyższy numer",
+        "diastolic": "Rozkurczowe",
+        "diastolic_desc": "Dolny numer"
+      },
+      "heart_rate": {
+        "label": "Tętno spoczynkowe (BPM)",
+        "placeholder": "np. 72"
+      },
+      "submit": "Czytanie dziennika"
+    },
+    "recent": {
+      "title": "Ostatnie odczyty",
+      "empty": "Nie zarejestrowano jeszcze żadnych odczytów",
+      "bpm": "{{count}} BPM"
+    },
+    "chart": {
+      "title": "7-dniowy trend ciśnienia krwi",
+      "systolic": "Skurczowe",
+      "diastolic": "Rozkurczowe"
+    },
+    "guidelines": {
+      "title": "Kategorie ciśnienia krwi AHA:",
+      "normal": "Normalny: <120/80",
+      "elevated": "Podwyższone: 120-129/<80",
+      "stage1": "Etap 1: 130-139/80-89",
+      "stage2": "Etap 2: ≥140/90"
+    },
+    "categories": {
+      "crisis": "Kryzys nadciśnieniowy",
+      "stage2": "Nadciśnienie, etap 2",
+      "stage1": "Nadciśnienie, etap 1",
+      "elevated": "Podwyższony",
+      "normal": "Normalne",
+      "unknown": "Nieznany"
+    }
+  },
+  "dash": {
+    "intro": {
+      "title": "Dieta DASH",
+      "desc": "Dietetyczne podejście do zatrzymania nadciśnienia — naukowo udowodniony plan odżywiania, który w naturalny sposób obniża ciśnienie krwi."
+    },
+    "principles": {
+      "sodium": {
+        "title": "Limit sodu",
+        "limit": "<2300 mg dziennie",
+        "high_risk": "(Lub 1500 mg dla osób z grupy wysokiego ryzyka)",
+        "desc": "Nadmiar sodu powoduje zatrzymywanie wody, zwiększając objętość krwi i ciśnienie na ścianach tętnic."
+      },
+      "potassium": {
+        "title": "Moc potasu",
+        "limit": "4700 mg dziennie",
+        "source": "Z całej żywności"
+      },
+      "magnesium": {
+        "title": "Magnez i błonnik",
+        "limit": "500 mg Mg / 25-35 g błonnika",
+        "target": "Cele dzienne"
+      }
+    },
+    "scanner": {
+      "title": "⚠️ Ukryty skaner sodu: żywność „podstępna sól”.",
+      "subtitle": "Te pozornie niewinne produkty spożywcze zawierają więcej sodu, niż myślisz:",
+      "swaps": {
+        "title": "💡 Zamiana przyjazna dla DASH:"
+      }
+    }
+  },
+  "habits": {
+    "vitality": {
+      "title": "Wynik witalności",
+      "start": "Zacznij budować swoją passę zdrowego serca!",
+      "streak_good": "🔥 Dobra passa {{count}} dni! Twoje serce kwitnie",
+      "streak_continue": "{{count}} dni – kontynuuj!",
+      "streak_continue_singular": "{{count}} dzień – kontynuuj!",
+      "days": "passa dnia",
+      "goal": "{{count}} / cel na 30 dni"
+    },
+    "checklist": {
+      "title": "Codzienna lista kontrolna cardio",
+      "subtitle": "Wypełniaj te nawyki codziennie, aby budować siłę układu sercowo-naczyniowego",
+      "items": {
+        "cardio": {
+          "label": "30 minut Strefa 2 Cardio",
+          "desc": "Szybki spacer, jazda na rowerze lub pływanie w tempie konwersacyjnym"
+        },
+        "low_sodium": {
+          "label": "Pozostał poniżej limitu sodu",
+          "desc": "<2300 mg (lub 1500 mg w przypadku wysokiego ryzyka)"
+        },
+        "no_salt": {
+          "label": "Bez dodatku soli na stole",
+          "desc": "Pozwól, aby zabłysły naturalne smaki żywności"
+        },
+        "meds": {
+          "label": "Przyjęte leki (opcjonalnie)",
+          "desc": "Dla osób przyjmujących leki na BP"
+        }
+      }
+    },
+    "tips": {
+      "title": "Podstawy zdrowia serca"
+    }
+  },
+  "foods": {
+    "canned_soup": "Zupa Konserwowa (1 szklanka)",
+    "deli_turkey": "Deli Indyk (2 uncje)",
+    "white_bread": "Chleb Biały (2 kromki)",
+    "frozen_pizza": "Mrożona Pizza (1 kawałek)",
+    "soy_sauce": "Sos Sojowy (1 łyżka)",
+    "cottage_cheese": "Twarożek (1/2 szklanki)",
+    "pickles": "Pikle (1 średni)",
+    "salad_dressing": "Sos Sałatkowy (2 łyżki)"
+  }
+}

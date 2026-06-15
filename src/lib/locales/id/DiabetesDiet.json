@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "back": "Kembali ke Dasbor"
+  },
+  "header": {
+    "title": "Panduan Diet Diabetes",
+    "subtitle": "Pantau glukosa dan kuasai metode piring"
+  },
+  "alert": {
+    "title": "Peringatan Gula Darah Rendah",
+    "desc": "Pembacaan Anda menunjukkan hipoglikemia (gula darah rendah). Harap segera mengambil tindakan:",
+    "actions": {
+      "carbs": "Konsumsi 15g karbohidrat kerja cepat (misalnya, 4oz jus, 3-4 tab glukosa)",
+      "wait": "Tunggu 15 menit",
+      "repeat": "Uji lagi; jika masih rendah, ulangi pengobatan",
+      "contact": "Hubungi dokter Anda jika kadarnya tidak stabil"
+    }
+  },
+  "tabs": {
+    "plate": "Piring Diabetes",
+    "log": "Log Glukosa",
+    "gi": "Pencarian GI"
+  },
+  "log": {
+    "title": "Catat Pembacaan Glukosa",
+    "unit": "Satuan Pengukuran",
+    "value": "Kadar Glukosa ({{unit}})",
+    "valuePlaceholder": "Masukkan nilai (misalnya 110)",
+    "valuePlaceholderMmol": "Masukkan nilai (misalnya 6.1)",
+    "timing": "Waktu Membaca",
+    "mealContext": "Konteks / Catatan Makanan",
+    "mealContextPlaceholder": "Apa yang kamu makan? Bagaimana perasaanmu?",
+    "submit": "Simpan Bacaan",
+    "success": "Pembacaan glukosa berhasil disimpan!",
+    "targets": {
+      "title": "Rentang Target Standar (mg/dL)",
+      "fasting": "Puasa: 80-130 mg/dL",
+      "postMeal": "1-2 jam setelah makan: <180 mg/dL",
+      "low": "Rendah: <70 mg/dL"
+    },
+    "recent": {
+      "title": "Bacaan Terkini",
+      "noReadings": "Belum ada pembacaan yang tercatat",
+      "trend": "Tren Glukosa (7 Bacaan Terakhir)",
+      "targetMax": "Target Maks (Puasa)",
+      "targetPost": "Target Maks (Pasca makan)"
+    }
+  },
+  "status": {
+    "normal": "Biasa",
+    "high": "Tinggi",
+    "low": "Rendah"
+  },
+  "timing": {
+    "fasting": "Puasa / Sebelum Makan",
+    "preMeal": "Sebelum makan",
+    "postMeal1h": "1 jam setelah makan",
+    "postMeal2h": "2 jam setelah makan",
+    "bedtime": "Waktu tidur"
+  },
+  "plate": {
+    "intro": {
+      "title": "Metode Pelat Diabetes",
+      "desc": "Metode Piring adalah cara sederhana untuk merencanakan makanan tanpa perlu menghitung. Ini berfokus pada kontrol porsi dan keseimbangan untuk membantu mengelola kadar gula darah."
+    },
+    "build": {
+      "title": "Bangun Piring Anda",
+      "hint": "Klik bagian untuk melihat makanan yang direkomendasikan"
+    },
+    "categories": {
+      "veggies": {
+        "name": "Sayuran Non-Tepung",
+        "percent": "50%",
+        "desc": "Isi setengah piring Anda dengan sayuran berwarna-warni yang kaya serat"
+      },
+      "protein": {
+        "name": "Protein Tanpa Lemak",
+        "percent": "25%",
+        "desc": "Isi seperempatnya dengan sumber protein tanpa lemak"
+      },
+      "carbs": {
+        "name": "Karbohidrat Sehat",
+        "percent": "25%",
+        "desc": "Isi seperempatnya dengan biji-bijian atau sayuran bertepung"
+      }
+    },
+    "principles": {
+      "title": "Prinsip Metode Pelat",
+      "veggies": {
+        "title": "Sayuran Pertama",
+        "desc": "Makanlah sayuran Anda terlebih dahulu untuk memperlambat penyerapan glukosa dari sisa makanan Anda."
+      },
+      "protein": {
+        "title": "Protein Berkualitas",
+        "desc": "Pilih opsi tanpa lemak untuk mendukung pemeliharaan otot tanpa lemak jenuh yang berlebihan."
+      },
+      "carbs": {
+        "title": "Karbohidrat yang Penuh Perhatian",
+        "desc": "Pilihlah karbohidrat kompleks yang berdampak lebih rendah pada lonjakan gula darah."
+      }
+    }
+  },
+  "gi": {
+    "intro": {
+      "title": "Pencarian Indeks Glikemik (GI).",
+      "desc": "Indeks Glikemik mengurutkan karbohidrat berdasarkan seberapa besar karbohidrat tersebut meningkatkan kadar glukosa darah dibandingkan dengan makanan referensi.",
+      "low": "Rendah (0-55)",
+      "medium": "Sedang (56-69)",
+      "high": "Tinggi (70+)"
+    },
+    "labels": {
+      "low": "GI rendah",
+      "medium": "GI sedang",
+      "high": "GI tinggi"
+    },
+    "search": "Telusuri makanan (misalnya oat, pisang...)",
+    "noResults": "Tidak ada makanan yang cocok dengan pencarian Anda"
+  },
+  "foods": {
+    "Spinach": "Bayam",
+    "Broccoli": "Brokoli",
+    "Cauliflower": "kembang kol",
+    "Bell Peppers": "paprika",
+    "Zucchini": "timun Jepang",
+    "Asparagus": "Asparagus",
+    "Cucumber": "Mentimun",
+    "Tomatoes": "Tomat",
+    "Chicken Breast": "Dada Ayam",
+    "Fish (Salmon, Tuna)": "Ikan (Salmon, Tuna)",
+    "Tofu": "Tahu",
+    "Lentils": "Lentil",
+    "Eggs": "telur",
+    "Turkey": "Turki",
+    "Greek Yogurt": "Yoghurt Yunani",
+    "Brown Rice": "Beras Merah",
+    "Quinoa": "biji gandum",
+    "Sweet Potato": "Ubi Jalar",
+    "Whole Wheat Pasta": "Pasta Gandum Utuh",
+    "Oats": "gandum",
+    "Barley": "jelai"
+  }
+}

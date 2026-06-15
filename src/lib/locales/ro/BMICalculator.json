@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "back": "Înapoi la Tabloul de bord"
+  },
+  "header": {
+    "title": "IMC inteligent și context corporal",
+    "subtitle": "Urmăriți valorile corpului dvs. cu precizie clinică"
+  },
+  "streak": {
+    "title": "Gamă sănătoasă menținută!",
+    "subtitle": "{{count}} citiri consecutive în zona sănătoasă 🎉"
+  },
+  "tabs": {
+    "calculator": "Calculator IMC",
+    "context": "Dincolo de IMC",
+    "history": "Istoricul tendințelor"
+  },
+  "calculator": {
+    "title": "Calculați-vă IMC",
+    "inputs": {
+      "height": "Înălțime",
+      "weight": "Greutate",
+      "feet": "Picioarele",
+      "inches": "inci",
+      "placeholders": {
+        "heightCm": "de exemplu, 170",
+        "heightFt": "Picioarele",
+        "heightIn": "inci",
+        "weightKg": "de exemplu, 70",
+        "weightLbs": "de exemplu, 154"
+      }
+    },
+    "results": {
+      "yourBMI": "IMC-ul tău",
+      "placeholder": "Introduceți măsurătorile pentru a vedea IMC",
+      "submit": "Salvați în profil",
+      "success": "✓ Salvat cu succes!",
+      "categories": {
+        "underweight": "Subponderal",
+        "healthy": "Greutate Sanatoasa",
+        "normal": "Normal",
+        "overweight": "Excesul de greutate",
+        "obese": "Obez",
+        "enterData": "Introduceți datele"
+      }
+    },
+    "tip": "Luați în considerare includerea exercițiilor regulate și a unei alimentații echilibrate în rutina dvs.",
+    "disclaimer": {
+      "title": "Disclaimer medical",
+      "text": "IMC este un instrument general de screening și nu face diferența între masa musculară și cea adipoasă. Consultați-vă cu profesioniștii din domeniul sănătății pentru sfaturi medicale personalizate."
+    }
+  },
+  "beyond": {
+    "title": "Raportul talie-înălțime (WHtR)",
+    "why": {
+      "title": "De ce contează asta",
+      "desc": "Menținerea circumferinței taliei la mai puțin de jumătate din înălțime reduce riscul cardiovascular. WHtR este mai precis decât IMC pentru a prezice condițiile de sănătate metabolică.",
+      "target": "Țintă: Raport < 0,5 pentru sănătate optimă"
+    },
+    "inputs": {
+      "waist": "Circumferința taliei",
+      "waistHint": "Măsurați în cel mai îngust punct al taliei, de obicei chiar deasupra buricului",
+      "placeholders": {
+        "waistCm": "de exemplu, 80",
+        "waistIn": "de exemplu, 31"
+      }
+    },
+    "results": {
+      "healthy": "Formă sănătoasă",
+      "elevated": "Risc crescut",
+      "placeholder": "Vă rugăm să introduceți înălțimea și talia pentru a vedea raportul",
+      "waistMeasurementPlaceholder": "Introduceți măsurarea taliei",
+      "label": "Raportul talie-înălțime",
+      "submit": "Salvare în profil (IMC + WHtR)"
+    },
+    "comparison": {
+      "title": "IMC vs WHtR: diferența",
+      "bmi": {
+        "title": "IMC",
+        "desc": "Categoria generală de greutate, nu ține cont de masa musculară sau distribuția grăsimii"
+      },
+      "whtr": {
+        "title": "WHtR",
+        "desc": "Măsoară obezitatea centrală, un predictor mai bun al bolilor cardiovasculare și al diabetului"
+      }
+    }
+  },
+  "history": {
+    "title": "Măsurători recente",
+    "noHistory": "Nicio istorie încă",
+    "noHistoryDesc": "Începeți să vă urmăriți IMC și valorile corporale pentru a vedea tendințele de progres în timp.",
+    "stats": {
+      "title": "Statisticile tale",
+      "total": "Înregistrări totale",
+      "latest": "Ultimul IMC",
+      "healthyCount": "Număr sănătos",
+      "bestStreak": "Cea mai bună serie"
+    }
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "header": {
+    "title": "Gids voor darmgezondheid",
+    "subtitle": "Volg de gezondheid van de spijsvertering en bouw een bloeiend microbioom op",
+    "back": "Terug naar Dashboard"
+  },
+  "tabs": {
+    "log": "Dagelijks darmlogboek",
+    "map": "Microbioom kaart",
+    "habits": "Vezels en gisting"
+  },
+  "bristol": {
+    "title": "Bristol ontlastingsweegschaal",
+    "info": "De gouden standaard voor het volgen van de spijsverteringstijd en de darmgezondheid",
+    "types": {
+      "type1": {
+        "label": "Type 1",
+        "desc": "Ernstige constipatie - Aparte harde knobbeltjes"
+      },
+      "type2": {
+        "label": "Type 2",
+        "desc": "Milde constipatie - Bubbelig en worstachtig"
+      },
+      "type3": {
+        "label": "Type 3",
+        "desc": "Normaal - Worst met scheuren"
+      },
+      "type4": {
+        "label": "Typ 4",
+        "desc": "Ideaal - Gladde, zachte worst"
+      },
+      "type5": {
+        "label": "Typ 5",
+        "desc": "Gebrek aan vezels - Zachte klodders"
+      },
+      "type6": {
+        "label": "Typ 6",
+        "desc": "Milde diarree - Papperig"
+      },
+      "type7": {
+        "label": "Typ 7",
+        "desc": "Ernstige diarree - Vloeistof"
+      }
+    },
+    "alert": "Selecteer een type Bristol-krukweegschaal"
+  },
+  "symptoms": {
+    "title": "Symptomen vandaag",
+    "items": {
+      "Bloating": "Opgeblazen gevoel",
+      "Gas": "Gas",
+      "Cramping": "Krampen",
+      "Reflux": "Terugvloeiing",
+      "Energy Dip": "Energiedip"
+    }
+  },
+  "triggers": {
+    "title": "Vermoedelijke trigger",
+    "items": {
+      "Dairy": "Zuivel",
+      "Gluten": "Gluten",
+      "Coffee": "Koffie",
+      "Spicy Food": "Pittig eten",
+      "Alcohol": "Alcohol",
+      "Stress": "Stress",
+      "Other": "Anders"
+    }
+  },
+  "log": {
+    "submit": "Logboekinvoer",
+    "success": "Darmlog succesvol opgeslagen!",
+    "recent": {
+      "title": "Recente logboeken",
+      "trigger": "Trigger:"
+    }
+  },
+  "microbiome": {
+    "prebiotics": {
+      "title": "Prebiotica",
+      "subtitle": "Het voedsel voor uw darmbacteriën",
+      "desc": "Prebiotica zijn vezelrijke voedingsmiddelen die de nuttige bacteriën in uw darmen voeden, waardoor ze kunnen gedijen en zich kunnen vermenigvuldigen."
+    },
+    "probiotics": {
+      "title": "Probiotica",
+      "subtitle": "De levende nuttige bacteriën",
+      "desc": "Probiotica zijn levende micro-organismen die voorkomen in gefermenteerd voedsel en die rechtstreeks nuttige bacteriën aan uw darmen toevoegen."
+    }
+  },
+  "diversity": {
+    "title": "De 30 planten per week-uitdaging",
+    "subtitle": "Onderzoek toont aan dat het eten van meer dan 30 verschillende planten per week een optimale darmdiversiteit ondersteunt",
+    "score_label": "/ 30 planten",
+    "weekly_score": "Wekelijkse diversiteitsscore",
+    "feedback": {
+      "excellent": "🎉 Uitstekend! Je bereikt het doel van 30 planten",
+      "great": "👍 Grote diversiteit! Blijf variatie toevoegen",
+      "good": "📈 Goed begin! Streef naar meer plantenvariëteit",
+      "start": "🌱 Begin met het toevoegen van diverse planten om de darmgezondheid te verbeteren"
+    }
+  },
+  "habits": {
+    "title": "De gelukkige darmchecklist",
+    "subtitle": "Voltooi deze dagelijkse gewoonten voor een optimale spijsvertering",
+    "items": {
+      "fiber": {
+        "label": "25g+ vezels verbruikt",
+        "desc": "Van volle granen, fruit en groenten"
+      },
+      "fermented": {
+        "label": "Inclusief 1 gefermenteerd voedsel",
+        "desc": "Kimchi, yoghurt, kefir of zuurkool"
+      },
+      "mindful": {
+        "label": "Bewust eten (20+ kauwsnacks)",
+        "desc": "Goed kauwen bevordert de spijsvertering"
+      },
+      "fast": {
+        "label": "12 uur durende darmrust",
+        "desc": "Het vastenvenster maakt darmherstel mogelijk"
+      }
+    }
+  },
+  "tracker": {
+    "title": "Gewoontetracker van 30 dagen",
+    "tooltip": "Dag {{dayNum}}: {{count}}/4 gewoonten",
+    "legend": {
+      "none": "Geen",
+      "one": "1",
+      "two": "2",
+      "three": "3",
+      "four": "3-4",
+      "all": "Alle 4"
+    }
+  },
+  "essentials": {
+    "title": "Essentiële zaken voor darmgezondheid"
+  },
+  "plants": {
+    "Spinach": "Spinazie",
+    "Kale": "Boerenkool",
+    "Arugula": "Rucola",
+    "Romaine": "Romaine",
+    "Broccoli": "Broccoli",
+    "Cauliflower": "Bloemkool",
+    "Brussels Sprouts": "Spruitjes",
+    "Cabbage": "Kool",
+    "Carrots": "Wortelen",
+    "Sweet Potatoes": "Zoete Aardappelen",
+    "Beets": "Bieten",
+    "Radishes": "Radijzen",
+    "Chickpeas": "Kikkererwten",
+    "Lentils": "Linzen",
+    "Black Beans": "Zwarte bonen",
+    "Kidney Beans": "Bruine bonen",
+    "Oats": "Haver",
+    "Brown Rice": "Bruine rijst",
+    "Quinoa": "Quinoa",
+    "Barley": "Gerst",
+    "Almonds": "Amandelen",
+    "Walnuts": "Walnoten",
+    "Pistachios": "Pistachenoten",
+    "Cashews": "Cashewnoten",
+    "Chia": "Chia",
+    "Flax": "Vlas",
+    "Pumpkin Seeds": "Pompoenpitten",
+    "Sunflower Seeds": "Zonnebloempitten",
+    "Blueberries": "Bosbessen",
+    "Strawberries": "Aardbeien",
+    "Raspberries": "Frambozen",
+    "Blackberries": "Bramen",
+    "Oranges": "Sinaasappelen",
+    "Lemons": "Citroenen",
+    "Limes": "Limoenen",
+    "Grapefruit": "Grapefruit",
+    "Bananas": "Bananen",
+    "Pineapple": "Ananas",
+    "Mango": "Mango",
+    "Papaya": "Papaja",
+    "Peaches": "Perziken",
+    "Plums": "Pruimen",
+    "Cherries": "Kersen",
+    "Apricots": "Abrikozen",
+    "Basil": "Basilicum",
+    "Cilantro": "Koriander",
+    "Mint": "Munt",
+    "Parsley": "Peterselie",
+    "Rosemary": "Rozemarijn",
+    "Turmeric": "Kurkuma",
+    "Ginger": "Gember",
+    "Cinnamon": "Kaneel",
+    "Cumin": "Komijn",
+    "Paprika": "Paprikapoeder",
+    "Kimchi": "Kimchi",
+    "Sauerkraut": "Zuurkool",
+    "Miso": "Miso",
+    "Tempeh": "Tempeh",
+    "Button Mushrooms": "Knoop Paddestoelen",
+    "Shiitake": "Shiitake",
+    "Portobello": "Portobello",
+    "Oyster Mushrooms": "Oesterzwammen",
+    "Pumpkin": "Pompoen",
+    "Butternut Squash": "Pompoenpompoen",
+    "Zucchini": "Courgette",
+    "Acorn Squash": "Eikelpompoen",
+    "Bell Peppers": "Paprika's",
+    "Jalapeños": "Jalapenos",
+    "Chili": "Chili",
+    "Cherry Tomatoes": "Cherry Tomaten",
+    "Roma Tomatoes": "Roma-tomaten",
+    "Beefsteak Tomatoes": "Biefstuk Tomaten",
+    "Garlic": "Knoflook",
+    "Onions": "Uien",
+    "Leeks": "Prei",
+    "Shallots": "Sjalotten",
+    "Alfalfa Sprouts": "Alfalfa Spruitjes",
+    "Broccoli Sprouts": "Broccolispruiten",
+    "Mung Bean Sprouts": "Mung-taugé",
+    "Nori": "Nori",
+    "Kelp": "Kelp",
+    "Wakame": "Wakame",
+    "Buckwheat": "Boekweit",
+    "Farro": "Farro",
+    "Amaranth": "Amarant",
+    "Millet": "Gierst",
+    "Watermelon": "Watermeloen",
+    "Cantaloupe": "Meloen",
+    "Honeydew": "Honingdauw",
+    "Apples": "Appels",
+    "Pears": "Peren",
+    "Avocado": "Avocado",
+    "Coconut": "Kokosnoot",
+    "Coconut Milk": "Kokosmelk",
+    "Coconut Water": "Kokoswater",
+    "Olives": "Olijven",
+    "Dark Chocolate": "Donkere chocolade",
+    "Cacao Nibs": "Cacaobonen",
+    "Cocoa Powder": "Cacaopoeder",
+    "Green Tea": "Groene thee",
+    "Black Tea": "Zwarte thee",
+    "Chamomile": "Kamille",
+    "Peppermint Tea": "Pepermunt Thee",
+    "Coffee": "Koffie"
+  }
+}

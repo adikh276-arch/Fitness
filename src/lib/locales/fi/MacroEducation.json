@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "back": "Takaisin hallintapaneeliin"
+  },
+  "header": {
+    "title": "Makroravinteiden ymmärtäminen",
+    "subtitle": "Opi proteiinin, hiilihydraattien ja rasvojen perusteet"
+  },
+  "tabs": {
+    "protein": "Proteiini",
+    "carbs": "Hiilihydraatteja",
+    "fats": "Rasvat",
+    "plate": "Levyjen rakentaja"
+  },
+  "protein": {
+    "title": "Proteiini",
+    "kcal": "4 kcal/gramma",
+    "whyMatters": {
+      "title": "Miksi sillä on merkitystä:",
+      "muscle": {
+        "title": "Lihasten korjaus ja kasvu:",
+        "desc": "Välttämätön lihasmassan rakentamiselle ja ylläpitämiselle"
+      },
+      "satiety": {
+        "title": "Kylläisyys:",
+        "desc": "Pitää kylläisyyden tunteen pidempään, mikä vähentää yleistä kalorien saantia"
+      },
+      "metabolic": {
+        "title": "Metabolinen tehostus:",
+        "desc": "Suurin lämpövaikutus kaikista makroista (20-30 % ruoansulatuksen aikana poltetuista kaloreista)"
+      }
+    },
+    "target": {
+      "title": "Päivittäinen tavoite:",
+      "desc": "Optimaalisen terveyden ja lihasten ylläpidon saavuttamiseksi pyri <1>1,6–2,2 g painokiloa kohden</1>. Urheilijat ja lihaksia rakentavat voivat tarvita jopa 2,5 g/kg."
+    },
+    "sources": "Parhaat proteiinilähteet:"
+  },
+  "carbs": {
+    "title": "Hiilihydraatit",
+    "kcal": "4 kcal/gramma",
+    "whyMatters": {
+      "title": "Miksi sillä on merkitystä:",
+      "energy": {
+        "title": "Ensisijainen energialähde:",
+        "desc": "Kehosi ensisijainen polttoaine aivoille ja fyysiselle aktiivisuudelle"
+      },
+      "performance": {
+        "title": "Suorituskyky:",
+        "desc": "Kriittinen korkean intensiteetin harjoitukselle ja urheilulliselle suorituskyvylle"
+      },
+      "nutrients": {
+        "title": "Kuitu ja ravintoaineet:",
+        "desc": "Kokonaiset hiilihydraatit tarjoavat tärkeitä vitamiineja, kivennäisaineita ja ruoansulatuskanavan terveyttä"
+      }
+    },
+    "target": {
+      "title": "Päivittäinen tavoite:",
+      "desc": "Aktiivisille yksilöille pyrittävä <1>3–6 g painokiloa kohden</1>. Istuva yksilö saattaa tarvita vähemmän (2-3g/kg). Keskity monimutkaisiin kokonaisiin ravintolähteisiin."
+    },
+    "sources": "Parhaat hiilihydraattilähteet:"
+  },
+  "fats": {
+    "title": "Rasvat",
+    "kcal": "9 kcal/gramma",
+    "whyMatters": {
+      "title": "Miksi sillä on merkitystä:",
+      "hormone": {
+        "title": "Hormonituotanto:",
+        "desc": "Välttämätön testosteronille, estrogeenille ja muille tärkeille hormoneille"
+      },
+      "vitamin": {
+        "title": "Vitamiinien imeytyminen:",
+        "desc": "Tarvitaan rasvaliukoisten vitamiinien imeytymiseen (A, D, E, K)"
+      },
+      "brain": {
+        "title": "Aivojen terveys:",
+        "desc": "Aivosi ovat 60 % rasvaa – omega-3:t ovat tärkeitä kognitiivisten toimintojen kannalta"
+      }
+    },
+    "target": {
+      "title": "Päivittäinen tavoite:",
+      "desc": "Tavoitteena on <1>0,8–1,2 g painokiloa kohden</1> eli 20–35 % kokonaiskaloreista. Priorisoi tyydyttymättömät rasvat (oliiviöljy, pähkinät, kala) tyydyttyneiden rasvojen sijaan."
+    },
+    "sources": "Parhaat rasvalähteet:"
+  },
+  "plate": {
+    "title": "Rakenna tasapainoinen ateria",
+    "legend": {
+      "protein": "Proteiinia {{val}} %",
+      "carbs": "hiilihydraatteja {{val}} %",
+      "fats": "Rasvat {{val}} %"
+    },
+    "sliders": {
+      "protein": {
+        "title": "Proteiini",
+        "desc": "Lihas & kylläisyys"
+      },
+      "carbs": {
+        "title": "Hiilihydraatit",
+        "desc": "Energiaa ja suorituskykyä"
+      },
+      "fats": {
+        "title": "Rasvat",
+        "desc": "Hormonit & vitamiinit"
+      }
+    },
+    "calories": {
+      "title": "Arvioidut kalorit",
+      "subtitle": "(200g annoksen perusteella)",
+      "unit": "kcal"
+    },
+    "warning": {
+      "title": "Tasapainosuositus",
+      "desc": "Optimaalinen ravitsemus: Pyri saamaan vähintään 15-25 % proteiinia (lihakset ja kylläisyyden tunne), 20-35 % terveellisiä rasvoja (hormoneja) ja 40-60 % hiilihydraatteja (energiaa). Säädä suhteitasi näiden tavoitteiden saavuttamiseksi."
+    }
+  },
+  "foods": {
+    "chicken": "Kanan rinta",
+    "yogurt": "Kreikkalainen jogurtti",
+    "eggs": "Munat",
+    "eggUnit": "1 muna = 6 g proteiinia",
+    "salmon": "lohi",
+    "lentils": "Linssit",
+    "tofu": "Tofu",
+    "rice": "Ruskea riisi",
+    "oats": "Kaura",
+    "potato": "Bataatti",
+    "quinoa": "Quinoa",
+    "banana": "Banaani",
+    "bananaUnit": "1 keskikokoinen = 27 g hiilihydraatteja",
+    "bread": "Täysjyväleipä",
+    "breadUnit": "1 viipale = 12 g hiilihydraatteja",
+    "avocado": "Avokado",
+    "almonds": "Mantelit",
+    "almondsUnit": "28g = 14g rasvaa",
+    "oil": "Oliiviöljy",
+    "oilUnit": "1 rkl = 14 g rasvaa",
+    "peanutButter": "Maapähkinävoi",
+    "pbUnit": "2 rkl = 16 g rasvaa",
+    "chocolate": "Tummaa suklaata",
+    "chocolateUnit": "28g = 9g rasvaa",
+    "unit100g": "100 g = {{val}}g {{makro}}"
+  }
+}

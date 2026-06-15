@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "back": "ڈیش بورڈ پر واپس جائیں۔"
+  },
+  "header": {
+    "title": "ویگن نیوٹریشن گائیڈ",
+    "subtitle": "پلانٹ پر مبنی نیوٹریشن ٹول کٹ مکمل کریں۔"
+  },
+  "tabs": {
+    "plate": "ویگن پلیٹ",
+    "nutrients": "مائیکرو نیوٹرینٹس",
+    "calculator": "پروٹین کیلکولیٹر"
+  },
+  "plate": {
+    "title": "مکمل ویگن کھانا",
+    "proportions": {
+      "legumes": {
+        "title": "پھلیاں/ پھلیاں",
+        "subtitle": "پروٹین پاور ہاؤس",
+        "examples": "مثالیں: دال، چنے، کالی پھلیاں، توفو، ٹیمپ"
+      },
+      "grains": {
+        "title": "سارا اناج",
+        "subtitle": "پائیدار توانائی",
+        "examples": "مثالیں: کوئنو، بھورے چاول، جئی، پوری گندم، جو"
+      },
+      "vegetables": {
+        "title": "سبزیاں",
+        "subtitle": "غذائی اجزاء سے بھرپور",
+        "examples": "مثالیں: پتوں والی سبزیاں، بروکولی، کالی مرچ، گاجر، ٹماٹر"
+      },
+      "fats": {
+        "title": "صحت مند چربی/بیج",
+        "subtitle": "ہارمون کی صحت",
+        "examples": "مثالیں: ایوکاڈو، گری دار میوے، بیج، زیتون کا تیل، تاہینی"
+      }
+    },
+    "tip": {
+      "title": "پرو ٹپ: لوہے کے جذب کو فروغ دیں۔",
+      "desc": "پودوں پر مبنی آئرن (نان ہیم آئرن) جانوروں کے لوہے کے مقابلے میں کم موثر طریقے سے جذب ہوتا ہے۔ جذب کو 300 فیصد تک بڑھانے کے لیے وٹامن سی کے ساتھ آئرن سے بھرپور غذائیں جوڑیں!",
+      "ironRich": "آئرن سے بھرپور غذائیں",
+      "ironExamples": "پالک، دال، کوئنو، ٹوفو، کدو کے بیج",
+      "vitaminC": "وٹامن سی بوسٹر",
+      "vitaminCExamples": "لیموں کا رس، کالی مرچ، ٹماٹر، بروکولی، اورنج",
+      "perfectCombo": "پرفیکٹ کومبو: لیموں کے رس کے ساتھ دال کا سوپ، گھنٹی مرچ کے ساتھ پالک کا سلاد"
+    }
+  },
+  "nutrients": {
+    "title": "بڑا 4 غذائی اجزاء کا ٹریکر",
+    "progress": {
+      "title": "آج کی پیش رفت",
+      "done": "ہو گیا",
+      "pending": "زیر التواء"
+    },
+    "why": {
+      "title": "ان کو کیوں ٹریک کریں؟",
+      "desc1": "یہ چار غذائی اجزاء پودوں پر مبنی غذا میں سب سے عام کمی ہیں۔ روزانہ کی خوراک کا سراغ لگانا یقینی بناتا ہے کہ آپ کو مکمل غذائیت مل رہی ہے۔",
+      "note": "نوٹ: B12 کو لازمی طور پر ضمیمہ یا مضبوط کھانوں کے ذریعے استعمال کیا جانا چاہئے - یہ قدرتی طور پر پودوں میں موجود نہیں ہے۔"
+    },
+    "micronutrients": {
+      "b12": {
+        "name": "وٹامن بی 12",
+        "importance": "اعصابی فعل اور ڈی این اے کی ترکیب کے لیے اہم",
+        "dosage": "روزانہ 2.4 ایم سی جی"
+      },
+      "iron": {
+        "name": "آئرن اور زنک",
+        "importance": "آکسیجن کی نقل و حمل اور مدافعتی تقریب کے لیے ضروری ہے۔",
+        "dosage": "آئرن: 18 ملی گرام، زنک: 11 ملی گرام روزانہ"
+      },
+      "omega3": {
+        "name": "Omega-3 (ALA)",
+        "importance": "دماغی صحت اور اینٹی سوزش",
+        "dosage": "روزانہ 1.6 گرام"
+      },
+      "calcium": {
+        "name": "کیلشیم",
+        "importance": "ہڈیوں کی صحت اور پٹھوں کا کام",
+        "dosage": "روزانہ 1000 ملی گرام"
+      }
+    }
+  },
+  "calculator": {
+    "title": "پروٹین نالج گائیڈ",
+    "subtitle": "کھانے کا انتخاب کریں اور اس میں پروٹین کا مواد فوری طور پر دیکھنے کے لیے رقم درج کریں۔",
+    "form": {
+      "selectFood": "کھانے کی اشیاء تلاش کریں اور منتخب کریں۔",
+      "placeholderFood": "کھانے کا انتخاب کریں...",
+      "searchPlaceholder": "کھانے کی اشیاء تلاش کریں...",
+      "amount": "رقم (گرام)",
+      "placeholderAmount": "100",
+      "add": "حساب میں شامل کریں۔",
+      "proteinPer100": "{{val}}گرام فی 100 گرام",
+      "matches": "{{total}} میچوں میں سے 5 دکھا رہا ہے۔",
+      "noMatches": "کوئی خوراک نہیں ملی"
+    },
+    "results": {
+      "title": "پروٹین کی خرابی۔",
+      "estProtein": "تخمینہ شدہ پروٹین کا مواد",
+      "calcInfo": "{{food}} کا {{amount}}g",
+      "summary": "موجودہ حساب کا خلاصہ",
+      "total": "کل پروٹین",
+      "aminoAcid": "امینو ایسڈ کی تکمیل",
+      "aminoComplete": "امینو پروفائل مکمل کریں۔",
+      "aminoIncomplete": "دانے یا پھلیاں غائب ہیں۔",
+      "aminoNote": "پھلیاں (دال/ پھلیاں/ سویا) + اناج (چاول/ کوئنو/ جئی) = مکمل پروٹین",
+      "save": "تاریخ میں ٹوٹل لاگ کریں۔",
+      "success": "پروٹین کامیابی سے لاگ ان ہو گیا!",
+      "ironTip": {
+        "title": "ٹپ:",
+        "desc": "آئرن کے جذب کو 300 فیصد تک بڑھانے کے لیے وٹامن سی (لیموں، کالی مرچ، ٹماٹر) کے ساتھ جوڑیں!"
+      }
+    },
+    "reference": {
+      "title": "فوری حوالہ گائیڈ"
+    }
+  },
+  "proteinSources": {
+    "tofu": "توفو",
+    "tempeh": "ٹیمپہ",
+    "edamame": "ایڈامامے",
+    "soybeansBoiled": "سویابین ابلی ہوئی",
+    "soyChunks": "سویا چنکس/ٹی وی پی ڈرائی",
+    "soyMince": "سویا کیما خشک",
+    "soyMilk": "سویا دودھ بغیر میٹھا",
+    "soyYogurt": "سویا یوگرٹ پلین",
+    "seitan": "سیٹن",
+    "lentilsCooked": "دال پکائی",
+    "redLentilsCooked": "سرخ دال پکائی",
+    "greenLentilsCooked": "ہری دال پکائی",
+    "blackLentilsCooked": "کالی دال پکائی",
+    "chickpeasCooked": "چنے پکے ہوئے ۔",
+    "blackBeansCooked": "سیاہ پھلیاں پکی ہوئی ہیں۔",
+    "kidneyBeansCooked": "گردے کی پھلیاں پکائی گئیں۔",
+    "pintoBeansCooked": "پنٹو پھلیاں پکائی گئیں۔",
+    "cannelliniBeansCooked": "کینیلینی پھلیاں پکی ہوئی ہیں۔",
+    "navyBeansCooked": "بحریہ کی پھلیاں پکائی گئیں۔",
+    "adzukiBeansCooked": "اڈزوکی پھلیاں پکائی گئیں۔",
+    "mungBeansCooked": "مونگ کی پھلیاں پکائی گئیں۔",
+    "lupinBeans": "لوپین پھلیاں",
+    "splitPeasCooked": "پکے ہوئے مٹر تقسیم کریں۔",
+    "greenPeas": "سبز مٹر",
+    "peaProteinIsolate": "مٹر پروٹین الگ تھلگ",
+    "peaMilk": "مٹر کا دودھ",
+    "hummus": "ہمس",
+    "falafel": "فالفیل",
+    "quinoaCooked": "کوئنو پکایا",
+    "amaranthCooked": "امرانتھ پکایا",
+    "buckwheatCooked": "بکواہٹ پکایا",
+    "oatsDry": "جئی خشک",
+    "rolledOats": "رولڈ اوٹس",
+    "steelCutOats": "اسٹیل کٹ اوٹس",
+    "oatBran": "جئی چوکر",
+    "barleyCooked": "جَو پکایا",
+    "milletCooked": "جوار پکایا",
+    "brownRiceCooked": "براؤن رائس پکایا",
+    "wildRiceCooked": "جنگلی چاول پکا ہوا",
+    "teffCooked": "ٹیف کوکڈ",
+    "farroCooked": "فاررو پکایا",
+    "freekehCooked": "Freekeh پکایا",
+    "wholeWheatPastaCooked": "پوری گندم کا پاستا پکایا",
+    "chickpeaPastaDry": "چنے کا پاستا خشک",
+    "lentilPastaDry": "دال پاستا خشک",
+    "blackBeanPastaDry": "بلیک بین پاستا خشک",
+    "spirulinaDry": "اسپرولینا خشک",
+    "nutritionalYeast": "غذائی خمیر",
+    "mushroomsWhite": "مشروم وائٹ",
+    "portobelloMushrooms": "پورٹوبیلو مشروم",
+    "spinach": "پالک",
+    "kale": "کالے",
+    "broccoli": "بروکولی",
+    "brusselsSprouts": "برسلز اسپراؤٹس",
+    "sweetCorn": "سویٹ کارن",
+    "artichoke": "آرٹچیک",
+    "avocado": "ایوکاڈو",
+    "pumpkinSeeds": "کدو کے بیج",
+    "hempSeeds": "بھنگ کے بیج",
+    "chiaSeeds": "چیا سیڈز",
+    "flaxSeeds": "سن کے بیج",
+    "sesameSeeds": "تل کے بیج",
+    "sunflowerSeeds": "سورج مکھی کے بیج",
+    "watermelonSeeds": "تربوز کے بیج",
+    "almonds": "بادام",
+    "peanuts": "مونگ پھلی",
+    "peanutButterNatural": "مونگ پھلی کا مکھن قدرتی",
+    "cashews": "کاجو",
+    "pistachios": "پستہ",
+    "walnuts": "اخروٹ",
+    "hazelnuts": "ہیزلنٹس",
+    "brazilNuts": "برازیل گری دار میوے",
+    "almondButter": "بادام کا مکھن",
+    "tahini": "تہینی",
+    "cashewButter": "کاجو مکھن",
+    "pumpkinSeedButter": "کدو کے بیجوں کا مکھن",
+    "sunflowerSeedButter": "سورج مکھی کے بیجوں کا مکھن",
+    "almondFlour": "بادام کا آٹا",
+    "chickpeaFlour": "چنے کا آٹا/بیسن",
+    "soyFlour": "سویا آٹا",
+    "wholeWheatFlour": "پوری گندم کا آٹا",
+    "breadWholeWheat": "پوری گندم کی روٹی",
+    "ezekielBread": "حزقیل روٹی",
+    "proteinBreadVegan": "پروٹین بریڈ ویگن",
+    "roastedChickpeas": "بھنے ہوئے چنے",
+    "dryRoastedEdamame": "خشک بھنا ہوا ایڈامیم",
+    "proteinBarVegan": "پروٹین بار ویگن",
+    "veganSausage": "ویگن ساسیج",
+    "veganBurgerPatty": "ویگن برگر پیٹی۔",
+    "mycoproteinVegan": "مائکوپروٹین ویگن",
+    "beanSprouts": "بین انکرت",
+    "alfalfaSprouts": "الفالفا انکرت"
+  }
+}

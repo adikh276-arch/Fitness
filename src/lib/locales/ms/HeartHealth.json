@@ -1,0 +1,141 @@
+{
+  "header": {
+    "title": "Panduan Kesihatan Jantung",
+    "subtitle": "Jejaki vital, pelajari diet DASH dan bina tabiat yang menyihatkan jantung",
+    "back": "Kembali ke Papan Pemuka"
+  },
+  "alerts": {
+    "crisis": {
+      "title": "AMARAN KRISIS HIPERTENSIF",
+      "desc": "Bacaan tekanan darah anda sangat tinggi (≥180/120). Ini memerlukan perhatian perubatan segera."
+    },
+    "vitals": {
+      "invalid": "Sila masukkan bacaan yang sah",
+      "success": "Pembacaan dilog: {{sys}}/{{dia}} - {{kategori}}"
+    }
+  },
+  "tabs": {
+    "dash": "Diet DASH",
+    "vitals": "Log Vitals",
+    "habits": "Tabiat Jantung"
+  },
+  "vitals": {
+    "form": {
+      "title": "Log Vitals Anda",
+      "bp": {
+        "label": "Tekanan Darah",
+        "systolic": "sistolik",
+        "systolic_desc": "Nombor teratas",
+        "diastolic": "Diastolik",
+        "diastolic_desc": "Nombor bawah"
+      },
+      "heart_rate": {
+        "label": "Kadar Jantung Rehat (BPM)",
+        "placeholder": "cth., 72"
+      },
+      "submit": "Pembacaan Log"
+    },
+    "recent": {
+      "title": "Bacaan Terkini",
+      "empty": "Tiada bacaan dilog lagi",
+      "bpm": "{{count}} BPM"
+    },
+    "chart": {
+      "title": "Trend Tekanan Darah 7 Hari",
+      "systolic": "sistolik",
+      "diastolic": "Diastolik"
+    },
+    "guidelines": {
+      "title": "Kategori Tekanan Darah AHA:",
+      "normal": "Biasa: <120/80",
+      "elevated": "Dinaikkan: 120-129/<80",
+      "stage1": "Peringkat 1: 130-139/80-89",
+      "stage2": "Peringkat 2: ≥140/90"
+    },
+    "categories": {
+      "crisis": "Krisis Hipertensi",
+      "stage2": "Tahap Hipertensi 2",
+      "stage1": "Hipertensi Tahap 1",
+      "elevated": "Ditinggikan",
+      "normal": "Biasalah",
+      "unknown": "Tidak diketahui"
+    }
+  },
+  "dash": {
+    "intro": {
+      "title": "Diet DASH",
+      "desc": "Pendekatan Pemakanan untuk Menghentikan Hipertensi - Pelan pemakanan yang terbukti secara saintifik yang menurunkan tekanan darah secara semulajadi."
+    },
+    "principles": {
+      "sodium": {
+        "title": "Had Natrium",
+        "limit": "<2,300mg sehari",
+        "high_risk": "(Atau 1,500mg untuk individu berisiko tinggi)",
+        "desc": "Natrium berlebihan menyebabkan pengekalan air, meningkatkan jumlah darah dan tekanan pada dinding arteri."
+      },
+      "potassium": {
+        "title": "Kuasa Kalium",
+        "limit": "4,700mg sehari",
+        "source": "Daripada makanan keseluruhan"
+      },
+      "magnesium": {
+        "title": "Magnesium & Serat",
+        "limit": "500mg Mg / 25-35g Serat",
+        "target": "Sasaran harian"
+      }
+    },
+    "scanner": {
+      "title": "⚠️ Pengimbas Sodium Tersembunyi: Makanan \"Garam Licik\".",
+      "subtitle": "Makanan yang kelihatan tidak bersalah ini membungkus lebih banyak natrium daripada yang anda fikirkan:",
+      "swaps": {
+        "title": "💡 Pertukaran Mesra DASH:"
+      }
+    }
+  },
+  "habits": {
+    "vitality": {
+      "title": "Skor Vitality",
+      "start": "Mula membina coretan sihat jantung anda!",
+      "streak_good": "🔥 {{count}} hari berturut-turut! Hati awak sedang subur",
+      "streak_continue": "{{count}} hari - Teruskan!",
+      "streak_continue_singular": "{{count}} hari - Teruskan!",
+      "days": "coretan hari",
+      "goal": "{{count}} / matlamat 30 hari"
+    },
+    "checklist": {
+      "title": "Senarai Semak Kardio Harian",
+      "subtitle": "Lengkapkan tabiat ini setiap hari untuk membina kekuatan kardiovaskular",
+      "items": {
+        "cardio": {
+          "label": "30 Min Kardio Zon 2",
+          "desc": "Berjalan pantas, berbasikal atau berenang mengikut kadar perbualan"
+        },
+        "low_sodium": {
+          "label": "Kekal Di Bawah Had Natrium",
+          "desc": "<2,300mg (atau 1,500mg jika berisiko tinggi)"
+        },
+        "no_salt": {
+          "label": "Tiada Garam Tambahan di Meja",
+          "desc": "Biarkan rasa semula jadi makanan bersinar"
+        },
+        "meds": {
+          "label": "Ubat Diambil (Pilihan)",
+          "desc": "Bagi mereka yang mengambil ubat BP"
+        }
+      }
+    },
+    "tips": {
+      "title": "Keperluan Kesihatan Jantung"
+    }
+  },
+  "foods": {
+    "canned_soup": "Sup dalam tin (1 cawan)",
+    "deli_turkey": "Deli Turki (2 auns)",
+    "white_bread": "Roti Putih (2 keping)",
+    "frozen_pizza": "Piza Beku (1 keping)",
+    "soy_sauce": "Kicap (1 sudu besar)",
+    "cottage_cheese": "Keju Kotej (1/2 cawan)",
+    "pickles": "Acar (1 medium)",
+    "salad_dressing": "Salad Dressing (2 sudu besar)"
+  }
+}

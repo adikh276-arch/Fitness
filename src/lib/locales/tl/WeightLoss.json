@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "back": "Bumalik sa Dashboard"
+  },
+  "header": {
+    "title": "Gabay sa Pagbaba ng Timbang",
+    "subtitle": "Ang iyong kumpletong gabay sa napapanatiling pagbaba ng timbang"
+  },
+  "tabs": {
+    "plan": "Ang Plano",
+    "tracker": "Tagasubaybay",
+    "habits": "Mga gawi"
+  },
+  "plan": {
+    "goldenRule": {
+      "title": "Ang Golden Rule",
+      "subtitle": "Calorie Deficit vs. Nutrient Density",
+      "desc": "Ang pagbaba ng timbang ay nangangailangan ng calorie deficit, ngunit ang kalidad ng mga calorie na iyon ay mahalaga tulad ng dami. Tumutok sa mga pagkaing siksik sa sustansya na nagpapanatili sa iyo ng kasiyahan habang lumilikha ng kakulangan na kailangan para sa pagkawala ng taba."
+    },
+    "proteinFirst": {
+      "title": "Unahin ang protina",
+      "subtitle": "Bakit ang 1.2g–1.6g ng protina bawat kg ay hindi mapag-usapan para sa pagkawala ng taba:",
+      "muscle": "Pinapanatili ang mass ng kalamnan sa panahon ng paghihigpit sa calorie",
+      "thermic": "Mas mataas na thermic effect (30% ng mga calorie ng protina na nasunog sa panahon ng panunaw)",
+      "satiety": "Ang pagtaas ng pagkabusog ay nakakatulong sa iyo na mabusog nang mas matagal",
+      "sugar": "Pinapatatag ang asukal sa dugo at binabawasan ang pagnanasa"
+    },
+    "plateMethod": {
+      "title": "Ang Paraan ng Plate",
+      "subtitle": "Isang simpleng visual na gabay para sa mga balanseng pagkain na nagtataguyod ng pagkawala ng taba:",
+      "veg": {
+        "title": "Mga gulay",
+        "desc": "Non-starchy veggies para sa dami at nutrients"
+      },
+      "protein": {
+        "title": "protina",
+        "desc": "Mga walang taba na karne, isda, itlog, o pinagmumulan ng halaman"
+      },
+      "carbs": {
+        "title": "Mga Carbs na Mayaman sa Hibla",
+        "desc": "Buong butil, kamote, quinoa, munggo"
+      }
+    },
+    "hiddenFactors": {
+      "title": "Ang mga Nakatagong Salik",
+      "hydration": {
+        "title": "Hydration",
+        "desc": "Nakakatulong ang wastong hydration:"
+      },
+      "sleep": {
+        "title": "Matulog (7+ Oras)",
+        "desc": "Kinokontrol ng kalidad ng pagtulog:"
+      }
+    }
+  },
+  "tracker": {
+    "progress": {
+      "title": "Ang Iyong Pag-unlad",
+      "change": "Baguhin ang Mga Layunin",
+      "lost": "Nabawasan ang Timbang",
+      "remaining": "Natitira",
+      "percent": "Pag-unlad",
+      "complete": "Kumpleto"
+    },
+    "log": {
+      "title": "Mag-log ng Mga Sukatan Ngayon",
+      "weight": "Kasalukuyang Timbang (kg)",
+      "chest": "Dibdib (pulgada, Opsyonal)",
+      "waist": "Baywang (pulgada, Opsyonal)",
+      "hips": "Mga balakang (pulgada, Opsyonal)",
+      "placeholder": "hal., {{val}}",
+      "submit": "Log Sukatan"
+    },
+    "history": {
+      "title": "Kasaysayan ng Sukatan",
+      "total": "Kabuuang mga Log",
+      "first": "Unang Timbang",
+      "latest": "Pinakabagong Timbang",
+      "unit": "kg",
+      "inches": "pulgada",
+      "chest": "dibdib",
+      "waist": "baywang",
+      "hips": "balakang"
+    }
+  },
+  "habits": {
+    "consistency": {
+      "title": "Lingguhang Consistency",
+      "subtitle": "Ipagpatuloy ang pagbuo ng mga malusog na gawi!"
+    },
+    "today": {
+      "title": "Mga Ugali Ngayon",
+      "subtitle": "Suriin ang bawat ugali habang tinatapos mo ito ngayon",
+      "protein": {
+        "label": "Pindutin ang Layunin ng Protein",
+        "desc": "1.2-1.6g bawat kg ng timbang ng katawan"
+      },
+      "noSugar": {
+        "label": "Walang Matamis na Inumin",
+        "desc": "Tubig, tsaa, o itim na kape lamang"
+      },
+      "walk": {
+        "label": "10-Min Post-Meal Walk",
+        "desc": "Banayad na aktibidad pagkatapos kumain"
+      },
+      "sleep": {
+        "label": "7+ Oras ng Pagtulog",
+        "desc": "De-kalidad na pahinga para sa pagbawi"
+      }
+    },
+    "tracker30": {
+      "title": "30-Araw na Tagasubaybay ng Ugali",
+      "legend": {
+        "none": "wala",
+        "low": "1",
+        "mid": "2-3",
+        "high": "3",
+        "all": "Lahat 4"
+      }
+    },
+    "whyMatters": {
+      "title": "Bakit Mahalaga ang Mga Ugali na Ito",
+      "protein": "Ang paggamit ng protina ay nagpapanatili ng kalamnan at nagpapataas ng pagkabusog sa panahon ng pagbaba ng timbang",
+      "noSugar": "Ang pag-iwas sa mga inuming asukal ay nag-aalis ng mga walang laman na calorie at binabawasan ang mga spike ng insulin",
+      "walk": "Ang mga paglalakad pagkatapos kumain ay nagpapabuti sa pagiging sensitibo sa insulin at nakakatulong sa panunaw",
+      "sleep": "Kinokontrol ng kalidad ng pagtulog ang mga hormone ng gutom at sinusuportahan ang pagkawala ng taba"
+    }
+  },
+  "modal": {
+    "title": "Itakda ang Iyong Mga Layunin",
+    "subtitle": "I-personalize natin ang iyong paglalakbay sa pagbaba ng timbang",
+    "start": "Panimulang Timbang (kg)",
+    "target": "Target na Timbang (kg)",
+    "date": "Target na Petsa",
+    "save": "I-save ang Layunin",
+    "fillAll": "Mangyaring punan ang lahat ng mga patlang"
+  }
+}

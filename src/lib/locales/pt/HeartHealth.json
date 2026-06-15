@@ -1,0 +1,141 @@
+{
+  "header": {
+    "title": "Guia de saúde cardíaca",
+    "subtitle": "Monitore sinais vitais, aprenda a dieta DASH e crie hábitos saudáveis para o coração",
+    "back": "Voltar ao painel"
+  },
+  "alerts": {
+    "crisis": {
+      "title": "AVISO DE CRISE HIPERTENSIVA",
+      "desc": "A leitura da sua pressão arterial está perigosamente alta (≥180/120). Isso requer atenção médica imediata."
+    },
+    "vitals": {
+      "invalid": "Insira leituras válidas",
+      "success": "Leitura registrada: {{sys}}/{{dia}} - {{category}}"
+    }
+  },
+  "tabs": {
+    "dash": "Dieta DASH",
+    "vitals": "Registro de sinais vitais",
+    "habits": "Hábitos cardíacos"
+  },
+  "vitals": {
+    "form": {
+      "title": "Registre seus sinais vitais",
+      "bp": {
+        "label": "Pressão Arterial",
+        "systolic": "Sistólica",
+        "systolic_desc": "Número superior",
+        "diastolic": "Diastólica",
+        "diastolic_desc": "Número inferior"
+      },
+      "heart_rate": {
+        "label": "Frequência cardíaca em repouso (BPM)",
+        "placeholder": "por exemplo, 72"
+      },
+      "submit": "Leitura de registros"
+    },
+    "recent": {
+      "title": "Leituras recentes",
+      "empty": "Nenhuma leitura registrada ainda",
+      "bpm": "{{contagem}} BPM"
+    },
+    "chart": {
+      "title": "Tendência da pressão arterial em 7 dias",
+      "systolic": "Sistólica",
+      "diastolic": "Diastólica"
+    },
+    "guidelines": {
+      "title": "Categorias de pressão arterial AHA:",
+      "normal": "Normal: <120/80",
+      "elevated": "Elevado: 120-129/<80",
+      "stage1": "Estágio 1: 130-139/80-89",
+      "stage2": "Estágio 2: ≥140/90"
+    },
+    "categories": {
+      "crisis": "Crise Hipertensiva",
+      "stage2": "Hipertensão Estágio 2",
+      "stage1": "Hipertensão Estágio 1",
+      "elevated": "Elevado",
+      "normal": "Normais",
+      "unknown": "Desconhecido"
+    }
+  },
+  "dash": {
+    "intro": {
+      "title": "A Dieta DASH",
+      "desc": "Abordagens dietéticas para parar a hipertensão - Um plano alimentar cientificamente comprovado que reduz a pressão arterial naturalmente."
+    },
+    "principles": {
+      "sodium": {
+        "title": "Limite de sódio",
+        "limit": "<2.300 mg por dia",
+        "high_risk": "(Ou 1.500 mg para indivíduos de alto risco)",
+        "desc": "O excesso de sódio causa retenção de água, aumentando o volume sanguíneo e a pressão nas paredes das artérias."
+      },
+      "potassium": {
+        "title": "Poder de potássio",
+        "limit": "4.700 mg por dia",
+        "source": "De alimentos integrais"
+      },
+      "magnesium": {
+        "title": "Magnésio e Fibra",
+        "limit": "500mg Mg / 25-35g Fibra",
+        "target": "Metas diárias"
+      }
+    },
+    "scanner": {
+      "title": "⚠️ Scanner de sódio oculto: alimentos com \"sal sorrateiro\"",
+      "subtitle": "Esses alimentos aparentemente inocentes contêm mais sódio do que você pensa:",
+      "swaps": {
+        "title": "💡 Trocas compatíveis com DASH:"
+      }
+    }
+  },
+  "habits": {
+    "vitality": {
+      "title": "Pontuação de Vitalidade",
+      "start": "Comece a construir sua tendência saudável para o coração!",
+      "streak_good": "🔥 {{count}} dias seguidos! Seu coração está prosperando",
+      "streak_continue": "{{count}} dias - Continue!",
+      "streak_continue_singular": "{{count}} dia - Continue!",
+      "days": "sequência do dia",
+      "goal": "{{count}} / meta de 30 dias"
+    },
+    "checklist": {
+      "title": "Lista de verificação diária de cardio",
+      "subtitle": "Complete esses hábitos diariamente para aumentar a força cardiovascular",
+      "items": {
+        "cardio": {
+          "label": "30 minutos zona 2 cardio",
+          "desc": "Caminhada rápida, ciclismo ou natação em ritmo de conversação"
+        },
+        "low_sodium": {
+          "label": "Permaneceu abaixo do limite de sódio",
+          "desc": "<2.300 mg (ou 1.500 mg se for de alto risco)"
+        },
+        "no_salt": {
+          "label": "Sem adição de sal à mesa",
+          "desc": "Deixe os sabores naturais dos alimentos brilharem"
+        },
+        "meds": {
+          "label": "Medicação tomada (opcional)",
+          "desc": "Para aqueles que tomam medicação para pressão arterial"
+        }
+      }
+    },
+    "tips": {
+      "title": "Fundamentos para a saúde do coração"
+    }
+  },
+  "foods": {
+    "canned_soup": "Sopa Enlatada (1 xícara)",
+    "deli_turkey": "Deli Turquia (2 onças)",
+    "white_bread": "Pão Branco (2 fatias)",
+    "frozen_pizza": "Pizza Congelada (1 fatia)",
+    "soy_sauce": "Molho de soja (1 colher de sopa)",
+    "cottage_cheese": "Requeijão (1/2 xícara)",
+    "pickles": "Picles (1 médio)",
+    "salad_dressing": "Molho para Salada (2 colheres de sopa)"
+  }
+}

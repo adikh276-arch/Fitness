@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "back": "Kontrol Paneline Geri Dön"
+  },
+  "header": {
+    "title": "Kalori Yakıcı",
+    "subtitle": "Aktiviteleriniz sırasında yakılan kalorileri takip edin"
+  },
+  "tabs": {
+    "calculator": "Hesap Makinesi",
+    "log": "Etkinlik Günlüğü ({{count}})"
+  },
+  "calculator": {
+    "form": {
+      "title": "Etkinlik Detayları",
+      "selectActivity": "Etkinlik Seçin",
+      "weight": "Kilonuz",
+      "duration": "Süre (dakika)",
+      "placeholders": {
+        "weightKg": "örneğin 70",
+        "weightLbs": "örneğin 154"
+      },
+      "submit": "Etkinlik Günlüğü"
+    },
+    "summary": {
+      "title": "Yanık Özeti",
+      "calories": "Yakılan Kaloriler",
+      "activity": "Etkinlik",
+      "duration": "Süre",
+      "weight": "Ağırlık",
+      "burnRate": "Kalori Yakma Oranı",
+      "formula": "Formül: (MET × 3,5 × Ağırlık kg / 200) × Süre min"
+    }
+  },
+  "log": {
+    "noActivities": "Henüz Kayıtlı Etkinlik Yok",
+    "noActivitiesDesc": "Antrenmanlarınızı burada görmek için takip etmeye başlayın",
+    "logFirst": "İlk Etkinliğinizi Kaydedin",
+    "summary": {
+      "title": "Toplam Özet",
+      "totalActivities": "Toplam Faaliyetler",
+      "totalCalories": "Toplam Kalori",
+      "totalTime": "Toplam Süre",
+      "avgSession": "Ort Kal/Oturum"
+    },
+    "item": {
+      "duration": "Süre",
+      "met": "buluştu",
+      "calories": "Kalori",
+      "minutes": "dk."
+    }
+  },
+  "activities": {
+    "walking": "Yürüyüş (Tempolu)",
+    "running": "Koşu (9 dakika/mil)",
+    "cycling": "Bisiklete binme (Orta)",
+    "yoga": "yoga",
+    "swimming": "Yüzme (Tur)",
+    "strength": "Güç Antrenmanı",
+    "household": "Ev İşleri",
+    "dance": "Dans/Aerobik"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "back": "返回儀表板"
+  },
+  "header": {
+    "title": "智慧體重指數和身體狀況",
+    "subtitle": "以臨床精度追蹤您的身體指標"
+  },
+  "streak": {
+    "title": "保持健康範圍！",
+    "subtitle": "{{count}} 次連續讀數處於健康區域 🎉"
+  },
+  "tabs": {
+    "calculator": "體重指數計算器",
+    "context": "超越體重指數",
+    "history": "趨勢歷史"
+  },
+  "calculator": {
+    "title": "計算你的體重指數",
+    "inputs": {
+      "height": "身高",
+      "weight": "重量",
+      "feet": "腳",
+      "inches": "英吋",
+      "placeholders": {
+        "heightCm": "例如，170",
+        "heightFt": "腳",
+        "heightIn": "英吋",
+        "weightKg": "例如，70",
+        "weightLbs": "例如，154"
+      }
+    },
+    "results": {
+      "yourBMI": "您的體重指數",
+      "placeholder": "輸入您的測量值以查看您的 BMI",
+      "submit": "儲存到個人資料",
+      "success": "✓ 保存成功！",
+      "categories": {
+        "underweight": "減持",
+        "healthy": "健康體重",
+        "normal": "正常",
+        "overweight": "超重",
+        "obese": "肥胖",
+        "enterData": "輸入資料"
+      }
+    },
+    "tip": "考慮將定期運動和均衡飲食納入您的日常生活中。",
+    "disclaimer": {
+      "title": "醫療免責聲明",
+      "text": "BMI 是一種通用篩檢工具，不區分肌肉量和脂肪量。諮詢醫療保健專業人員以獲得個人化的醫療建議。"
+    }
+  },
+  "beyond": {
+    "title": "腰高比 (WHtR)",
+    "why": {
+      "title": "為什麼這很重要",
+      "desc": "將腰圍控制在身高的一半以下可以降低心血管風險。 WHtR 在預測代謝健康狀況方面比 BMI 更準確。",
+      "target": "目標：比率 < 0.5 以獲得最佳健康"
+    },
+    "inputs": {
+      "waist": "腰圍",
+      "waistHint": "測量腰部最窄處，通常在肚臍上方",
+      "placeholders": {
+        "waistCm": "例如，80",
+        "waistIn": "例如，31"
+      }
+    },
+    "results": {
+      "healthy": "健康體形",
+      "elevated": "風險增加",
+      "placeholder": "請輸入身高和腰圍以查看您的比例",
+      "waistMeasurementPlaceholder": "輸入腰圍尺寸",
+      "label": "腰圍與身高的比例",
+      "submit": "儲存到個人資料（BMI + WHtR）"
+    },
+    "comparison": {
+      "title": "BMI 與 WHtR：差異",
+      "bmi": {
+        "title": "體重指數",
+        "desc": "一般體重類別，不考慮肌肉質量或脂肪分佈"
+      },
+      "whtr": {
+        "title": "腰圍",
+        "desc": "測量中心性肥胖，更好地預測心血管疾病和糖尿病"
+      }
+    }
+  },
+  "history": {
+    "title": "最近的測量",
+    "noHistory": "還沒有歷史記錄",
+    "noHistoryDesc": "開始追蹤您的體重指數和身體指標，以了解您隨時間的進展趨勢。",
+    "stats": {
+      "title": "您的統計數據",
+      "total": "總記錄數",
+      "latest": "最新體重指數",
+      "healthyCount": "健康計數",
+      "bestStreak": "最佳連勝紀錄"
+    }
+  }
+}

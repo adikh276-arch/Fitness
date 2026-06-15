@@ -70,7 +70,8 @@
       "firstMeal": "Bugün İlk Yemek Zamanı:",
       "duration": "Toplam Oruç Süresi",
       "goalAchieved": "Hedefe Ulaşıldı! 16 saatten fazla süren orucu tamamladınız!",
-      "submit": "Bunu hızlıca kaydet"
+      "submit": "Bunu hızlıca kaydet",
+      "dateLabel": "Tarih:"
     },
     "tracker": {
       "title": "30 Günlük Hızlı Takip Programı",
@@ -81,7 +82,9 @@
         "goalMet": "Hedefe Ulaşıldı (16+ saat)",
         "today": "Bugün",
         "missed": "Kaçırılan Gün"
-      }
+      },
+      "today": "Bugün",
+      "dayLabel": "Gün {{val}}"
     },
     "recentFasts": {
       "title": "Son Oruçlar",

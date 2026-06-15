@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "back": "Kontrol Paneline Geri Dön"
+  },
+  "header": {
+    "title": "Diyabet Diyet Rehberi",
+    "subtitle": "Glikozu izleyin ve plaka yönteminde uzmanlaşın"
+  },
+  "alert": {
+    "title": "Düşük Kan Şekeri Uyarısı",
+    "desc": "Okumanız hipoglisemiyi (düşük kan şekeri) gösteriyor. Lütfen hemen harekete geçin:",
+    "actions": {
+      "carbs": "15 gram hızlı etkili karbonhidrat tüketin (örneğin 4 ons meyve suyu, 3-4 glikoz tableti)",
+      "wait": "15 dakika bekleyin",
+      "repeat": "Tekrar test edin; hala düşükse tedaviyi tekrarlayın",
+      "contact": "Seviyeler stabil olmazsa doktorunuza başvurun"
+    }
+  },
+  "tabs": {
+    "plate": "Diyabet Plakası",
+    "log": "Glikoz Günlüğü",
+    "gi": "GI Arama"
+  },
+  "log": {
+    "title": "Glikoz Okuma Günlüğü",
+    "unit": "Ölçü Birimi",
+    "value": "Glikoz Düzeyi ({{unit}})",
+    "valuePlaceholder": "Değer girin (örn. 110)",
+    "valuePlaceholderMmol": "Değeri girin (örn. 6.1)",
+    "timing": "Okuma Zamanlaması",
+    "mealContext": "Yemek İçeriği / Notlar",
+    "mealContextPlaceholder": "Ne yedin? Nasıl hissediyorsun?",
+    "submit": "Okumayı Kaydet",
+    "success": "Glikoz okuması başarıyla kaydedildi!",
+    "targets": {
+      "title": "Standart Hedef Aralıkları (mg/dL)",
+      "fasting": "Oruç: 80-130 mg/dL",
+      "postMeal": "Yemekten 1-2 saat sonra: < 180 mg/dL",
+      "low": "Düşük: < 70 mg/dL"
+    },
+    "recent": {
+      "title": "Son Okumalar",
+      "noReadings": "Henüz kaydedilen okuma yok",
+      "trend": "Glikoz Trendi (Son 7 Okuma)",
+      "targetMax": "Maksimum Hedef (Oruç)",
+      "targetPost": "Maksimum Hedef (Yemek Sonrası)"
+    }
+  },
+  "status": {
+    "normal": "normal",
+    "high": "Yüksek",
+    "low": "Düşük"
+  },
+  "timing": {
+    "fasting": "Oruç / Yemekten Önce",
+    "preMeal": "Yemek öncesi",
+    "postMeal1h": "Yemekten 1 saat sonra",
+    "postMeal2h": "Yemekten 2 saat sonra",
+    "bedtime": "Yatma zamanı"
+  },
+  "plate": {
+    "intro": {
+      "title": "Diyabet Plaka Yöntemi",
+      "desc": "Tabak Yöntemi, öğünleri saymadan planlamanın basit bir yoludur. Kan şekeri seviyelerinin yönetilmesine yardımcı olmak için porsiyon kontrolü ve dengeye odaklanır."
+    },
+    "build": {
+      "title": "Tabağınızı Oluşturun",
+      "hint": "Önerilen yiyecekleri görmek için bir bölüme tıklayın"
+    },
+    "categories": {
+      "veggies": {
+        "name": "Nişastasız Sebzeler",
+        "percent": "%50",
+        "desc": "Tabağınızın yarısını renkli, lif açısından zengin sebzelerle doldurun"
+      },
+      "protein": {
+        "name": "Yalın Protein",
+        "percent": "%25",
+        "desc": "Çeyreğini yağsız protein kaynaklarıyla doldurun"
+      },
+      "carbs": {
+        "name": "Sağlıklı Karbonhidratlar",
+        "percent": "%25",
+        "desc": "Çeyreğini tam tahıllar veya nişastalı sebzelerle doldurun"
+      }
+    },
+    "principles": {
+      "title": "Plaka Yöntemi Prensipleri",
+      "veggies": {
+        "title": "Önce Sebzeler",
+        "desc": "Yemeğinizin geri kalanından glikoz emilimini yavaşlatmak için önce sebzelerinizi yiyin."
+      },
+      "protein": {
+        "title": "Kaliteli Protein",
+        "desc": "Aşırı doymuş yağ olmadan kas bakımını desteklemek için yağsız seçenekleri seçin."
+      },
+      "carbs": {
+        "title": "Dikkatli Karbonhidratlar",
+        "desc": "Kan şekerindeki artışlar üzerinde daha az etkisi olan karmaşık karbonhidratları tercih edin."
+      }
+    }
+  },
+  "gi": {
+    "intro": {
+      "title": "Glisemik İndeks (GI) Araması",
+      "desc": "Glisemik İndeks, karbonhidratları, referans gıdayla karşılaştırıldığında kan şekeri düzeylerini ne kadar yükselttiklerine göre sıralar.",
+      "low": "Düşük (0-55)",
+      "medium": "Orta (56-69)",
+      "high": "Yüksek (70+)"
+    },
+    "labels": {
+      "low": "Düşük GI",
+      "medium": "Orta GI",
+      "high": "Yüksek GI"
+    },
+    "search": "Bir yiyecek arayın (örneğin yulaf, muz...)",
+    "noResults": "Aramanızla eşleşen yiyecek bulunamadı"
+  },
+  "foods": {
+    "Spinach": "Ispanak",
+    "Broccoli": "Brokoli",
+    "Cauliflower": "karnabahar",
+    "Bell Peppers": "Biber",
+    "Zucchini": "Kabak",
+    "Asparagus": "Kuşkonmaz",
+    "Cucumber": "Salatalık",
+    "Tomatoes": "Domates",
+    "Chicken Breast": "Tavuk Göğsü",
+    "Fish (Salmon, Tuna)": "Balık (Somon, Ton Balığı)",
+    "Tofu": "Soya peyniri",
+    "Lentils": "Mercimek",
+    "Eggs": "Yumurtalar",
+    "Turkey": "Türkiye",
+    "Greek Yogurt": "Yunan Yoğurt",
+    "Brown Rice": "Kahverengi Pirinç",
+    "Quinoa": "Kinoa",
+    "Sweet Potato": "tatlı patates",
+    "Whole Wheat Pasta": "Tam Buğday Makarna",
+    "Oats": "Yulaf",
+    "Barley": "Arpa"
+  }
+}

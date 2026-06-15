@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "back": "Kembali ke Papan Pemuka"
+  },
+  "header": {
+    "title": "Panduan Pemakanan Vegan",
+    "subtitle": "Kit alat pemakanan berasaskan tumbuhan yang lengkap"
+  },
+  "tabs": {
+    "plate": "Pinggan Vegan",
+    "nutrients": "Mikronutrien",
+    "calculator": "Kalkulator Protein"
+  },
+  "plate": {
+    "title": "Hidangan Vegan Lengkap",
+    "proportions": {
+      "legumes": {
+        "title": "Kekacang/kacang",
+        "subtitle": "Kuasa protein",
+        "examples": "Contoh: Lentil, kacang ayam, habbatus sauda, tauhu, tempe"
+      },
+      "grains": {
+        "title": "Bijirin Penuh",
+        "subtitle": "Tenaga yang berterusan",
+        "examples": "Contoh: Quinoa, beras perang, oat, gandum penuh, barli"
+      },
+      "vegetables": {
+        "title": "Sayur-sayuran",
+        "subtitle": "Kaya dengan mikronutrien",
+        "examples": "Contoh: Sayur-sayuran berdaun, brokoli, lada, lobak merah, tomato"
+      },
+      "fats": {
+        "title": "Lemak/Biji Sihat",
+        "subtitle": "Kesihatan hormon",
+        "examples": "Contoh: Avokado, kacang, biji, minyak zaitun, tahini"
+      }
+    },
+    "tip": {
+      "title": "Petua Pro: Tingkatkan Penyerapan Zat Besi",
+      "desc": "Besi berasaskan tumbuhan (besi bukan heme) diserap kurang cekap berbanding besi haiwan. Gandingkan makanan kaya zat besi dengan Vitamin C untuk meningkatkan penyerapan sehingga 300%!",
+      "ironRich": "Makanan Kaya Besi",
+      "ironExamples": "Bayam, lentil, quinoa, tauhu, biji labu",
+      "vitaminC": "Penggalak Vitamin C",
+      "vitaminCExamples": "Jus lemon, lada benggala, tomato, brokoli, oren",
+      "perfectCombo": "Kombo Sempurna: Sup Lentil dengan jus lemon, salad bayam dengan lada benggala"
+    }
+  },
+  "nutrients": {
+    "title": "Penjejak Nutrien 4 Besar",
+    "progress": {
+      "title": "Kemajuan Hari Ini",
+      "done": "Selesai",
+      "pending": "Belum selesai"
+    },
+    "why": {
+      "title": "Mengapa Menjejaki Ini?",
+      "desc1": "Empat nutrien ini adalah kekurangan yang paling biasa dalam diet berasaskan tumbuhan. Mengesan pengambilan harian memastikan anda mendapat nutrisi yang lengkap.",
+      "note": "Nota: B12 mesti ditambah atau dimakan melalui makanan yang diperkaya - ia tidak terdapat secara semula jadi dalam tumbuhan."
+    },
+    "micronutrients": {
+      "b12": {
+        "name": "Vitamin B12",
+        "importance": "Kritikal untuk fungsi saraf & sintesis DNA",
+        "dosage": "2.4 mcg setiap hari"
+      },
+      "iron": {
+        "name": "Besi & Zink",
+        "importance": "Penting untuk pengangkutan oksigen & fungsi imun",
+        "dosage": "Zat besi: 18mg, Zink: 11mg setiap hari"
+      },
+      "omega3": {
+        "name": "Omega-3 (ALA)",
+        "importance": "Kesihatan otak & anti-radang",
+        "dosage": "1.6g setiap hari"
+      },
+      "calcium": {
+        "name": "Kalsium",
+        "importance": "Kesihatan tulang & fungsi otot",
+        "dosage": "1000mg setiap hari"
+      }
+    }
+  },
+  "calculator": {
+    "title": "Panduan Pengetahuan Protein",
+    "subtitle": "Pilih makanan dan masukkan jumlah untuk melihat kandungan proteinnya dengan serta-merta",
+    "form": {
+      "selectFood": "Cari & Pilih Item Makanan",
+      "placeholderFood": "Pilih makanan...",
+      "searchPlaceholder": "Cari makanan...",
+      "amount": "Jumlah (gram)",
+      "placeholderAmount": "100",
+      "add": "Tambahkan pada Pengiraan",
+      "proteinPer100": "{{val}}g setiap 100g",
+      "matches": "Menunjukkan 5 daripada {{total}} padanan",
+      "noMatches": "Tiada makanan ditemui"
+    },
+    "results": {
+      "title": "Pecahan Protein",
+      "estProtein": "Anggaran Kandungan Protein",
+      "calcInfo": "{{jumlah}}g {{makanan}}",
+      "summary": "Ringkasan Pengiraan Semasa",
+      "total": "Jumlah Protein",
+      "aminoAcid": "Kelengkapan Asid Amino",
+      "aminoComplete": "Lengkapkan Profil Amino",
+      "aminoIncomplete": "Hilang Bijirin atau Kekacang",
+      "aminoNote": "Kekacang (Lentil/Kacang/Soya) + Bijirin (Nasi/Kuinoa/Oat) = Protein Lengkap",
+      "save": "Log Jumlah ke Sejarah",
+      "success": "Protein berjaya dilog!",
+      "ironTip": {
+        "title": "Petua:",
+        "desc": "Gandingkan dengan Vitamin C (lemon, lada, tomato) untuk meningkatkan penyerapan zat besi sehingga 300%!"
+      }
+    },
+    "reference": {
+      "title": "Panduan Rujukan Pantas"
+    }
+  },
+  "proteinSources": {
+    "tofu": "tauhu",
+    "tempeh": "Tempe",
+    "edamame": "Edamame",
+    "soybeansBoiled": "Kacang Soya Rebus",
+    "soyChunks": "Ketulan Soya / TVP Kering",
+    "soyMince": "Kisar Soya Kering",
+    "soyMilk": "Susu Soya Tanpa Gula",
+    "soyYogurt": "Dataran Yogurt Soya",
+    "seitan": "Seitan",
+    "lentilsCooked": "Lentil Dimasak",
+    "redLentilsCooked": "Lentil Merah Masak",
+    "greenLentilsCooked": "Lentil Hijau Dimasak",
+    "blackLentilsCooked": "Lentil Hitam Masak",
+    "chickpeasCooked": "Kacang Ayam Masak",
+    "blackBeansCooked": "Habbatus Sauda Masak",
+    "kidneyBeansCooked": "Kacang Pinggang Masak",
+    "pintoBeansCooked": "Kacang Pinto Masak",
+    "cannelliniBeansCooked": "Kacang Cannellini Dimasak",
+    "navyBeansCooked": "Kacang Tentera Laut Dimasak",
+    "adzukiBeansCooked": "Kacang Adzuki Masak",
+    "mungBeansCooked": "Kacang Hijau Masak",
+    "lupinBeans": "Kacang Lupin",
+    "splitPeasCooked": "Kacang Pisang Dimasak",
+    "greenPeas": "Kacang Hijau",
+    "peaProteinIsolate": "Pengasingan Protein Kacang",
+    "peaMilk": "Susu kacang",
+    "hummus": "Hummus",
+    "falafel": "Falafel",
+    "quinoaCooked": "Quinoa Masak",
+    "amaranthCooked": "Amaranth Masak",
+    "buckwheatCooked": "Soba Masak",
+    "oatsDry": "Oat Kering",
+    "rolledOats": "Rolled Oat",
+    "steelCutOats": "Oat Potong Keluli",
+    "oatBran": "Dedak Oat",
+    "barleyCooked": "Barli Masak",
+    "milletCooked": "Millet Masak",
+    "brownRiceCooked": "Beras Perang Dimasak",
+    "wildRiceCooked": "Nasi Liar Masak",
+    "teffCooked": "Teff Masak",
+    "farroCooked": "Farro Masak",
+    "freekehCooked": "Freekeh Masak",
+    "wholeWheatPastaCooked": "Pasta Gandum Penuh Dimasak",
+    "chickpeaPastaDry": "Pasta Chickpea Kering",
+    "lentilPastaDry": "Pasta Lentil Kering",
+    "blackBeanPastaDry": "Pasta Habbatus Sauda Kering",
+    "spirulinaDry": "Spirulina Kering",
+    "nutritionalYeast": "Yis Pemakanan",
+    "mushroomsWhite": "Cendawan Putih",
+    "portobelloMushrooms": "Cendawan Portobello",
+    "spinach": "Bayam",
+    "kale": "Kale",
+    "broccoli": "Brokoli",
+    "brusselsSprouts": "Pucuk Brussels",
+    "sweetCorn": "Jagung Manis",
+    "artichoke": "Articok",
+    "avocado": "Avokado",
+    "pumpkinSeeds": "Biji Labu",
+    "hempSeeds": "Biji Rami",
+    "chiaSeeds": "Biji Chia",
+    "flaxSeeds": "Biji Flaks",
+    "sesameSeeds": "Biji Bijan",
+    "sunflowerSeeds": "Biji Bunga Matahari",
+    "watermelonSeeds": "Biji Tembikai",
+    "almonds": "badam",
+    "peanuts": "kacang tanah",
+    "peanutButterNatural": "Mentega Kacang Asli",
+    "cashews": "Gajus",
+    "pistachios": "Pistachio",
+    "walnuts": "kenari",
+    "hazelnuts": "Hazelnut",
+    "brazilNuts": "Kacang Brazil",
+    "almondButter": "Mentega Badam",
+    "tahini": "Tahini",
+    "cashewButter": "Mentega Gajus",
+    "pumpkinSeedButter": "Mentega Biji Labu",
+    "sunflowerSeedButter": "Mentega Biji Bunga Matahari",
+    "almondFlour": "Tepung Badam",
+    "chickpeaFlour": "Tepung Chickpea / Besan",
+    "soyFlour": "Tepung Soya",
+    "wholeWheatFlour": "Tepung Gandum Penuh",
+    "breadWholeWheat": "Roti Gandum Penuh",
+    "ezekielBread": "Roti Yehezkiel",
+    "proteinBreadVegan": "Roti Protein Vegan",
+    "roastedChickpeas": "Kacang Ayam Panggang",
+    "dryRoastedEdamame": "Edamame Panggang Kering",
+    "proteinBarVegan": "Bar Protein Vegan",
+    "veganSausage": "Sosej Vegan",
+    "veganBurgerPatty": "Patty Burger Vegan",
+    "mycoproteinVegan": "Mycoprotein Vegan",
+    "beanSprouts": "Taugeh",
+    "alfalfaSprouts": "Pucuk Alfalfa"
+  }
+}

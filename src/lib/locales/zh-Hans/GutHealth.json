@@ -1,0 +1,244 @@
+{
+  "header": {
+    "title": "肠道健康指南",
+    "subtitle": "跟踪消化健康并建立繁荣的微生物组",
+    "back": "返回仪表板"
+  },
+  "tabs": {
+    "log": "每日肠道日志",
+    "map": "微生物组图谱",
+    "habits": "纤维与发酵"
+  },
+  "bristol": {
+    "title": "布里斯托大便量表",
+    "info": "跟踪消化转运时间和肠道健康的黄金标准",
+    "types": {
+      "type1": {
+        "label": "类型1",
+        "desc": "严重便秘 - 分离硬块"
+      },
+      "type2": {
+        "label": "2型",
+        "desc": "轻度便秘 - 块状、香肠状"
+      },
+      "type3": {
+        "label": "3型",
+        "desc": "正常 - 有裂纹的香肠"
+      },
+      "type4": {
+        "label": "4型",
+        "desc": "理想 - 光滑、柔软的香肠"
+      },
+      "type5": {
+        "label": "5型",
+        "desc": "缺乏纤维 - 软斑点"
+      },
+      "type6": {
+        "label": "6型",
+        "desc": "轻度腹泻 - 糊状"
+      },
+      "type7": {
+        "label": "7型",
+        "desc": "严重腹泻 - 液体"
+      }
+    },
+    "alert": "请选择布里斯托大便秤类型"
+  },
+  "symptoms": {
+    "title": "今天的症状",
+    "items": {
+      "Bloating": "腹胀",
+      "Gas": "煤气",
+      "Cramping": "抽筋",
+      "Reflux": "反流",
+      "Energy Dip": "能量下降"
+    }
+  },
+  "triggers": {
+    "title": "疑似触发因素",
+    "items": {
+      "Dairy": "乳制品",
+      "Gluten": "麸质",
+      "Coffee": "咖啡",
+      "Spicy Food": "辛辣食物",
+      "Alcohol": "酒精",
+      "Stress": "压力",
+      "Other": "其他"
+    }
+  },
+  "log": {
+    "submit": "日志条目",
+    "success": "肠道日志保存成功！",
+    "recent": {
+      "title": "最近的日志",
+      "trigger": "触发："
+    }
+  },
+  "microbiome": {
+    "prebiotics": {
+      "title": "益生元",
+      "subtitle": "肠道细菌的食物",
+      "desc": "益生元是富含纤维的食物，可以喂养肠道中的有益细菌，帮助它们茁壮成长和繁殖。"
+    },
+    "probiotics": {
+      "title": "益生菌",
+      "subtitle": "活的有益细菌",
+      "desc": "益生菌是发酵食品中发现的活微生物，可直接向肠道添加有益细菌。"
+    }
+  },
+  "diversity": {
+    "title": "每周种植 30 株植物的挑战",
+    "subtitle": "研究表明每周吃 30 多种不同的植物有助于实现最佳的肠道多样性",
+    "score_label": "/ 30 株植物",
+    "weekly_score": "每周多样性得分",
+    "feedback": {
+      "excellent": "🎉 太棒了！您即将达到 30 株植物的目标",
+      "great": "👍 多样性很大！不断增加品种",
+      "good": "📈 好的开始！争取更多植物品种",
+      "start": "🌱开始添加多种植物以促进肠道健康"
+    }
+  },
+  "habits": {
+    "title": "快乐肠道清单",
+    "subtitle": "完成这些日常习惯，以获得最佳的消化健康",
+    "items": {
+      "fiber": {
+        "label": "消耗 25g+ 纤维",
+        "desc": "来自全谷物、水果和蔬菜"
+      },
+      "fermented": {
+        "label": "包含 1 种发酵食品",
+        "desc": "泡菜、酸奶、开菲尔或酸菜"
+      },
+      "mindful": {
+        "label": "正念饮食（20+咀嚼物）",
+        "desc": "适当咀嚼有助消化"
+      },
+      "fast": {
+        "label": "12 小时夜间肠道休息",
+        "desc": "禁食窗口可以修复肠道"
+      }
+    }
+  },
+  "tracker": {
+    "title": "30 天习惯追踪器",
+    "tooltip": "第 {{dayNum}} 天：{{count}}/4 个习惯",
+    "legend": {
+      "none": "无",
+      "one": "1",
+      "two": "2",
+      "three": "3",
+      "four": "3-4",
+      "all": "全部 4 个"
+    }
+  },
+  "essentials": {
+    "title": "肠道健康要点"
+  },
+  "plants": {
+    "Spinach": "菠菜",
+    "Kale": "羽衣甘蓝",
+    "Arugula": "芝麻菜",
+    "Romaine": "罗马生菜",
+    "Broccoli": "西兰花",
+    "Cauliflower": "花椰菜",
+    "Brussels Sprouts": "抱子甘蓝",
+    "Cabbage": "卷心菜",
+    "Carrots": "胡萝卜",
+    "Sweet Potatoes": "红薯",
+    "Beets": "甜菜",
+    "Radishes": "萝卜",
+    "Chickpeas": "鹰嘴豆",
+    "Lentils": "扁豆",
+    "Black Beans": "黑豆",
+    "Kidney Beans": "芸豆",
+    "Oats": "燕麦",
+    "Brown Rice": "糙米",
+    "Quinoa": "藜麦",
+    "Barley": "大麦",
+    "Almonds": "杏仁",
+    "Walnuts": "核桃",
+    "Pistachios": "开心果",
+    "Cashews": "腰果",
+    "Chia": "奇亚籽",
+    "Flax": "亚麻",
+    "Pumpkin Seeds": "南瓜子",
+    "Sunflower Seeds": "葵花籽",
+    "Blueberries": "蓝莓",
+    "Strawberries": "草莓",
+    "Raspberries": "覆盆子",
+    "Blackberries": "黑莓",
+    "Oranges": "橙子",
+    "Lemons": "柠檬",
+    "Limes": "酸橙",
+    "Grapefruit": "葡萄柚",
+    "Bananas": "香蕉",
+    "Pineapple": "菠萝",
+    "Mango": "芒果",
+    "Papaya": "木瓜",
+    "Peaches": "桃子",
+    "Plums": "李子",
+    "Cherries": "樱桃",
+    "Apricots": "杏子",
+    "Basil": "罗勒",
+    "Cilantro": "香菜",
+    "Mint": "薄荷",
+    "Parsley": "欧芹",
+    "Rosemary": "迷迭香",
+    "Turmeric": "姜黄",
+    "Ginger": "姜",
+    "Cinnamon": "肉桂",
+    "Cumin": "小茴香",
+    "Paprika": "辣椒粉",
+    "Kimchi": "泡菜",
+    "Sauerkraut": "酸菜",
+    "Miso": "味噌",
+    "Tempeh": "丹贝",
+    "Button Mushrooms": "蘑菇",
+    "Shiitake": "香菇",
+    "Portobello": "波托贝洛",
+    "Oyster Mushrooms": "平菇",
+    "Pumpkin": "南瓜",
+    "Butternut Squash": "胡桃南瓜",
+    "Zucchini": "西葫芦",
+    "Acorn Squash": "橡子南瓜",
+    "Bell Peppers": "青椒",
+    "Jalapeños": "墨西哥辣椒",
+    "Chili": "辣椒",
+    "Cherry Tomatoes": "樱桃番茄",
+    "Roma Tomatoes": "罗马番茄",
+    "Beefsteak Tomatoes": "牛排���红柿",
+    "Garlic": "大蒜",
+    "Onions": "洋葱",
+    "Leeks": "韭菜",
+    "Shallots": "青葱",
+    "Alfalfa Sprouts": "苜蓿芽",
+    "Broccoli Sprouts": "西兰花芽",
+    "Mung Bean Sprouts": "绿豆芽",
+    "Nori": "海苔",
+    "Kelp": "海带",
+    "Wakame": "裙带菜",
+    "Buckwheat": "荞麦",
+    "Farro": "法罗",
+    "Amaranth": "苋菜",
+    "Millet": "小米",
+    "Watermelon": "西瓜",
+    "Cantaloupe": "哈密瓜",
+    "Honeydew": "蜜瓜",
+    "Apples": "苹果",
+    "Pears": "梨子",
+    "Avocado": "鳄梨",
+    "Coconut": "椰子",
+    "Coconut Milk": "椰奶",
+    "Coconut Water": "椰子水",
+    "Olives": "橄榄",
+    "Dark Chocolate": "黑巧克力",
+    "Cacao Nibs": "可可粒",
+    "Cocoa Powder": "可可粉",
+    "Green Tea": "绿茶",
+    "Black Tea": "红茶",
+    "Chamomile": "洋甘菊",
+    "Peppermint Tea": "薄荷茶",
+    "Coffee": "咖啡"
+  }
+}

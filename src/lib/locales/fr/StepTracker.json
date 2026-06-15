@@ -18,8 +18,8 @@
       "distance": "Distance",
       "calories": "Calories",
       "activeTime": "Temps actif",
-      "km": "km",
-      "kcal": "kcal",
+      "km": "kilomètres",
+      "kcal": "kilocalories",
       "mins": "minutes"
     },
     "goal": {

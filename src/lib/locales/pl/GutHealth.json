@@ -1,0 +1,244 @@
+{
+  "header": {
+    "title": "Przewodnik po zdrowiu jelit",
+    "subtitle": "Śledź zdrowie układu trawiennego i buduj dobrze prosperujący mikrobiom",
+    "back": "Powrót do Panelu"
+  },
+  "tabs": {
+    "log": "Codzienny dziennik jelit",
+    "map": "Mapa Mikrobiomu",
+    "habits": "Błonnik i fermentacja"
+  },
+  "bristol": {
+    "title": "Skala stolca Bristol",
+    "info": "Złoty standard śledzenia czasu tranzytu trawiennego i zdrowia jelit",
+    "types": {
+      "type1": {
+        "label": "Typ 1",
+        "desc": "Ciężkie zaparcia - Oddziel twarde grudki"
+      },
+      "type2": {
+        "label": "Typ 2",
+        "desc": "Łagodne zaparcia – grudkowate i przypominające kiełbasę"
+      },
+      "type3": {
+        "label": "Typ 3",
+        "desc": "Normalny - Kiełbasa z pęknięciami"
+      },
+      "type4": {
+        "label": "Typ 4",
+        "desc": "Idealny - Gładka, miękka kiełbasa"
+      },
+      "type5": {
+        "label": "Wpisz 5",
+        "desc": "Brak błonnika - Miękkie plamy"
+      },
+      "type6": {
+        "label": "Typ 6",
+        "desc": "Łagodna biegunka – papkowata"
+      },
+      "type7": {
+        "label": "Wpisz 7",
+        "desc": "Ciężka biegunka - Płyn"
+      }
+    },
+    "alert": "Wybierz typ skali stolca Bristol"
+  },
+  "symptoms": {
+    "title": "Objawy dzisiaj",
+    "items": {
+      "Bloating": "Wzdęcia",
+      "Gas": "Gaz",
+      "Cramping": "Skurcze",
+      "Reflux": "Refluks",
+      "Energy Dip": "Spadek energii"
+    }
+  },
+  "triggers": {
+    "title": "Podejrzewany wyzwalacz",
+    "items": {
+      "Dairy": "Nabiał",
+      "Gluten": "Gluten",
+      "Coffee": "Kawa",
+      "Spicy Food": "Pikantne jedzenie",
+      "Alcohol": "Alkohol",
+      "Stress": "Stres",
+      "Other": "Inne"
+    }
+  },
+  "log": {
+    "submit": "Wpis do dziennika",
+    "success": "Dziennik jelit został pomyślnie zapisany!",
+    "recent": {
+      "title": "Najnowsze logi",
+      "trigger": "Wyzwalacz:"
+    }
+  },
+  "microbiome": {
+    "prebiotics": {
+      "title": "Prebiotyki",
+      "subtitle": "Pokarm dla bakterii jelitowych",
+      "desc": "Prebiotyki to pokarmy bogate w błonnik, które odżywiają pożyteczne bakterie w jelitach, pomagając im rozwijać się i rozmnażać."
+    },
+    "probiotics": {
+      "title": "Probiotyki",
+      "subtitle": "Żywe pożyteczne bakterie",
+      "desc": "Probiotyki to żywe mikroorganizmy występujące w sfermentowanej żywności, które bezpośrednio dodają pożyteczne bakterie do jelit."
+    }
+  },
+  "diversity": {
+    "title": "Wyzwanie 30 roślin tygodniowo",
+    "subtitle": "Badania pokazują, że jedzenie ponad 30 różnych roślin tygodniowo wspiera optymalną różnorodność jelit",
+    "score_label": "/ 30 roślin",
+    "weekly_score": "Tygodniowy wynik różnorodności",
+    "feedback": {
+      "excellent": "🎉 Świetnie! Osiągasz cel 30 roślin",
+      "great": "👍 Wielka różnorodność! Kontynuuj dodawanie różnorodności",
+      "good": "📈 Dobry początek! Dąż do większej różnorodności roślin",
+      "start": "🌱 Zacznij dodawać różnorodne rośliny, aby poprawić zdrowie jelit"
+    }
+  },
+  "habits": {
+    "title": "Lista kontrolna szczęśliwego jelita",
+    "subtitle": "Uzupełnij te codzienne nawyki, aby uzyskać optymalne zdrowie układu trawiennego",
+    "items": {
+      "fiber": {
+        "label": "Spożyto 25 g+ błonnika",
+        "desc": "Z pełnych ziaren, owoców i warzyw"
+      },
+      "fermented": {
+        "label": "Zawiera 1 sfermentowaną żywność",
+        "desc": "Kimchi, jogurt, kefir lub kiszona kapusta"
+      },
+      "mindful": {
+        "label": "Uważne jedzenie (ponad 20 kawałków do żucia)",
+        "desc": "Prawidłowe żucie wspomaga trawienie"
+      },
+      "fast": {
+        "label": "12-godzinny nocny odpoczynek jelit",
+        "desc": "Okno postu umożliwia naprawę jelit"
+      }
+    }
+  },
+  "tracker": {
+    "title": "30-dniowy monitor nawyków",
+    "tooltip": "Dzień {{dayNum}}: {{count}}/4 nawyki",
+    "legend": {
+      "none": "Żadne",
+      "one": "1",
+      "two": "2",
+      "three": "3",
+      "four": "3-4",
+      "all": "Wszystkie 4"
+    }
+  },
+  "essentials": {
+    "title": "Podstawy zdrowia jelit"
+  },
+  "plants": {
+    "Spinach": "Szpinak",
+    "Kale": "Kale",
+    "Arugula": "Rukola",
+    "Romaine": "Romaina",
+    "Broccoli": "Brokuły",
+    "Cauliflower": "Kalafior",
+    "Brussels Sprouts": "Brukselka",
+    "Cabbage": "Kapusta",
+    "Carrots": "Marchew",
+    "Sweet Potatoes": "Słodkie Ziemniaki",
+    "Beets": "Buraki",
+    "Radishes": "Rzodkiewki",
+    "Chickpeas": "Ciecierzyca",
+    "Lentils": "Soczewica",
+    "Black Beans": "Czarna Fasola",
+    "Kidney Beans": "Fasola nerkowa",
+    "Oats": "Owies",
+    "Brown Rice": "Brązowy Ryż",
+    "Quinoa": "Komosa ryżowa",
+    "Barley": "Jęczmień",
+    "Almonds": "Migdały",
+    "Walnuts": "Orzechy włoskie",
+    "Pistachios": "Pistacje",
+    "Cashews": "Orzechy nerkowca",
+    "Chia": "Chia",
+    "Flax": "Len",
+    "Pumpkin Seeds": "Nasiona Dyni",
+    "Sunflower Seeds": "Nasiona Słonecznika",
+    "Blueberries": "Jagody",
+    "Strawberries": "Truskawki",
+    "Raspberries": "Maliny",
+    "Blackberries": "Jeżyny",
+    "Oranges": "Pomarańcze",
+    "Lemons": "Cytryny",
+    "Limes": "Limonki",
+    "Grapefruit": "Grejpfrut",
+    "Bananas": "Banany",
+    "Pineapple": "Ananas",
+    "Mango": "Mango",
+    "Papaya": "Papaja",
+    "Peaches": "Brzoskwinie",
+    "Plums": "Śliwki",
+    "Cherries": "Wiśnie",
+    "Apricots": "Morele",
+    "Basil": "Bazylia",
+    "Cilantro": "Kolendra",
+    "Mint": "Mięta",
+    "Parsley": "Pietruszka",
+    "Rosemary": "Rozmaryn",
+    "Turmeric": "Kurkuma",
+    "Ginger": "Imbir",
+    "Cinnamon": "Cynamon",
+    "Cumin": "Kminek",
+    "Paprika": "Papryka",
+    "Kimchi": "Kimchi",
+    "Sauerkraut": "Kapusta kiszona",
+    "Miso": "Miso",
+    "Tempeh": "Tempeh",
+    "Button Mushrooms": "Guzikowe Grzyby",
+    "Shiitake": "Shiitake",
+    "Portobello": "Portobello",
+    "Oyster Mushrooms": "Boczniaki",
+    "Pumpkin": "Dynia",
+    "Butternut Squash": "Dynia Piżmowa",
+    "Zucchini": "Cukinia",
+    "Acorn Squash": "Kabaczek Żołędziowy",
+    "Bell Peppers": "Papryka",
+    "Jalapeños": "Jalapeno",
+    "Chili": "Chili",
+    "Cherry Tomatoes": "Pomidory Wiśniowe",
+    "Roma Tomatoes": "Pomidory Roma",
+    "Beefsteak Tomatoes": "Befsztyk Pomidory",
+    "Garlic": "Czosnek",
+    "Onions": "Cebula",
+    "Leeks": "Pory",
+    "Shallots": "Szalotka",
+    "Alfalfa Sprouts": "Kiełki lucerny",
+    "Broccoli Sprouts": "Kiełki Brokułów",
+    "Mung Bean Sprouts": "Kiełki fasoli mung",
+    "Nori": "Nori",
+    "Kelp": "Kelp",
+    "Wakame": "Wakame",
+    "Buckwheat": "Gryka",
+    "Farro": "Farro",
+    "Amaranth": "Amarant",
+    "Millet": "Proso",
+    "Watermelon": "Arbuz",
+    "Cantaloupe": "Kantalupa",
+    "Honeydew": "Spadź",
+    "Apples": "Jabłka",
+    "Pears": "Gruszki",
+    "Avocado": "Awokado",
+    "Coconut": "Kokos",
+    "Coconut Milk": "Mleko kokosowe",
+    "Coconut Water": "Woda kokosowa",
+    "Olives": "Oliwki",
+    "Dark Chocolate": "Ciemna czekolada",
+    "Cacao Nibs": "Nibsy kakaowe",
+    "Cocoa Powder": "Proszek kakaowy",
+    "Green Tea": "Zielona herbata",
+    "Black Tea": "Czarna herbata",
+    "Chamomile": "Rumianek",
+    "Peppermint Tea": "Herbata miętowa",
+    "Coffee": "Kawa"
+  }
+}

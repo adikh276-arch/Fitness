@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "back": "Kembali ke Dasbor"
+  },
+  "header": {
+    "title": "Panduan Nutrisi Vegan",
+    "subtitle": "Perangkat nutrisi nabati yang lengkap"
+  },
+  "tabs": {
+    "plate": "Piring Vegan",
+    "nutrients": "Mikronutrien",
+    "calculator": "Kalkulator Protein"
+  },
+  "plate": {
+    "title": "Makanan Vegan Lengkap",
+    "proportions": {
+      "legumes": {
+        "title": "Kacang-kacangan/Kacang-kacangan",
+        "subtitle": "Pembangkit tenaga protein",
+        "examples": "Contoh: Lentil, buncis, kacang hitam, tahu, tempe"
+      },
+      "grains": {
+        "title": "Gandum Utuh",
+        "subtitle": "Energi berkelanjutan",
+        "examples": "Contoh: Quinoa, beras merah, oat, gandum utuh, barley"
+      },
+      "vegetables": {
+        "title": "Sayuran",
+        "subtitle": "Kaya mikronutrien",
+        "examples": "Contoh: Sayuran hijau, brokoli, paprika, wortel, tomat"
+      },
+      "fats": {
+        "title": "Lemak/Biji Sehat",
+        "subtitle": "Kesehatan hormon",
+        "examples": "Contoh: Alpukat, kacang-kacangan, biji-bijian, minyak zaitun, tahini"
+      }
+    },
+    "tip": {
+      "title": "Tip Pro: Tingkatkan Penyerapan Zat Besi",
+      "desc": "Zat besi nabati (zat besi non-heme) diserap kurang efisien dibandingkan zat besi hewani. Pasangkan makanan kaya zat besi dengan Vitamin C untuk meningkatkan penyerapan hingga 300%!",
+      "ironRich": "Makanan Kaya Zat Besi",
+      "ironExamples": "Bayam, lentil, quinoa, tahu, biji labu",
+      "vitaminC": "Penguat Vitamin C",
+      "vitaminCExamples": "Jus lemon, paprika, tomat, brokoli, jeruk",
+      "perfectCombo": "Kombo Sempurna: Sup miju-miju dengan jus lemon, salad bayam dengan paprika"
+    }
+  },
+  "nutrients": {
+    "title": "Pelacak Nutrisi 4 Besar",
+    "progress": {
+      "title": "Kemajuan Hari Ini",
+      "done": "Selesai",
+      "pending": "Tertunda"
+    },
+    "why": {
+      "title": "Mengapa Melacak Ini?",
+      "desc1": "Keempat nutrisi ini adalah kekurangan paling umum dalam pola makan nabati. Melacak asupan harian memastikan Anda mendapatkan nutrisi lengkap.",
+      "note": "Catatan: B12 harus ditambah atau dikonsumsi melalui makanan yang diperkaya - B12 tidak terdapat secara alami pada tanaman."
+    },
+    "micronutrients": {
+      "b12": {
+        "name": "Vitamin B12",
+        "importance": "Penting untuk fungsi saraf & sintesis DNA",
+        "dosage": "2,4 mcg setiap hari"
+      },
+      "iron": {
+        "name": "Besi & Seng",
+        "importance": "Penting untuk transportasi oksigen & fungsi kekebalan tubuh",
+        "dosage": "Zat Besi: 18mg, Seng: 11mg setiap hari"
+      },
+      "omega3": {
+        "name": "Omega-3 (ALA)",
+        "importance": "Kesehatan otak & anti inflamasi",
+        "dosage": "1,6g setiap hari"
+      },
+      "calcium": {
+        "name": "Kalsium",
+        "importance": "Kesehatan tulang & fungsi otot",
+        "dosage": "1000mg setiap hari"
+      }
+    }
+  },
+  "calculator": {
+    "title": "Panduan Pengetahuan Protein",
+    "subtitle": "Pilih makanan dan masukkan jumlahnya untuk langsung melihat kandungan proteinnya",
+    "form": {
+      "selectFood": "Cari & Pilih Item Makanan",
+      "placeholderFood": "Pilih makanan...",
+      "searchPlaceholder": "Cari makanan...",
+      "amount": "Jumlah (gram)",
+      "placeholderAmount": "100",
+      "add": "Tambahkan ke Perhitungan",
+      "proteinPer100": "{{val}}g per 100g",
+      "matches": "Menampilkan 5 dari {{total}} kecocokan",
+      "noMatches": "Tidak ada makanan yang ditemukan"
+    },
+    "results": {
+      "title": "Pemecahan Protein",
+      "estProtein": "Perkiraan Kandungan Protein",
+      "calcInfo": "{{jumlah}}g dari {{makanan}}",
+      "summary": "Ringkasan Perhitungan Saat Ini",
+      "total": "Protein Jumlahnya",
+      "aminoAcid": "Kelengkapan Asam Amino",
+      "aminoComplete": "Profil Amino Lengkap",
+      "aminoIncomplete": "Biji-bijian atau Kacang-kacangan Hilang",
+      "aminoNote": "Kacang-kacangan (Lentil/Kacang/Kedelai) + Biji-bijian (Beras/Quinoa/Oat) = Protein Lengkap",
+      "save": "Catat Total ke Riwayat",
+      "success": "Protein berhasil dicatat!",
+      "ironTip": {
+        "title": "Kiat:",
+        "desc": "Padukan dengan Vitamin C (lemon, paprika, tomat) untuk meningkatkan penyerapan zat besi hingga 300%!"
+      }
+    },
+    "reference": {
+      "title": "Panduan Referensi Cepat"
+    }
+  },
+  "proteinSources": {
+    "tofu": "Tahu",
+    "tempeh": "Tempe",
+    "edamame": "Edamame",
+    "soybeansBoiled": "Kedelai Rebus",
+    "soyChunks": "Potongan Kedelai / TVP Kering",
+    "soyMince": "Kedelai cincang kering",
+    "soyMilk": "Susu Kedelai Tanpa Pemanis",
+    "soyYogurt": "Yogurt Kedelai Biasa",
+    "seitan": "Seitan",
+    "lentilsCooked": "Lentil Dimasak",
+    "redLentilsCooked": "Lentil Merah Dimasak",
+    "greenLentilsCooked": "Lentil Hijau Dimasak",
+    "blackLentilsCooked": "Lentil Hitam Dimasak",
+    "chickpeasCooked": "Buncis Dimasak",
+    "blackBeansCooked": "Kacang Hitam Dimasak",
+    "kidneyBeansCooked": "Kacang Merah Dimasak",
+    "pintoBeansCooked": "Kacang Pinto Dimasak",
+    "cannelliniBeansCooked": "Kacang Cannellini Dimasak",
+    "navyBeansCooked": "Kacang Angkatan Laut Dimasak",
+    "adzukiBeansCooked": "Kacang Adzuki Dimasak",
+    "mungBeansCooked": "Kacang Hijau Dimasak",
+    "lupinBeans": "Kacang Lupin",
+    "splitPeasCooked": "Kacang Polong Dimasak",
+    "greenPeas": "Kacang Hijau",
+    "peaProteinIsolate": "Isolat Protein Kacang Polong",
+    "peaMilk": "Susu Kacang",
+    "hummus": "hummus",
+    "falafel": "Falafel",
+    "quinoaCooked": "Quinoa Dimasak",
+    "amaranthCooked": "Bayam Dimasak",
+    "buckwheatCooked": "Soba Dimasak",
+    "oatsDry": "Oat Kering",
+    "rolledOats": "Oat gulung",
+    "steelCutOats": "Oat Potong Baja",
+    "oatBran": "dedak gandum",
+    "barleyCooked": "Jelai Dimasak",
+    "milletCooked": "Millet Dimasak",
+    "brownRiceCooked": "Nasi Merah Dimasak",
+    "wildRiceCooked": "Nasi Liar Dimasak",
+    "teffCooked": "Teff Dimasak",
+    "farroCooked": "Farro Dimasak",
+    "freekehCooked": "Freekeh Dimasak",
+    "wholeWheatPastaCooked": "Pasta Gandum Utuh Dimasak",
+    "chickpeaPastaDry": "Pasta Buncis Kering",
+    "lentilPastaDry": "Pasta Lentil Kering",
+    "blackBeanPastaDry": "Pasta Kacang Hitam Kering",
+    "spirulinaDry": "Spirulina Kering",
+    "nutritionalYeast": "Ragi Nutrisi",
+    "mushroomsWhite": "Jamur Putih",
+    "portobelloMushrooms": "Jamur Portobello",
+    "spinach": "Bayam",
+    "kale": "Kangkung",
+    "broccoli": "Brokoli",
+    "brusselsSprouts": "Kubis Brussel",
+    "sweetCorn": "Jagung Manis",
+    "artichoke": "Artichoke",
+    "avocado": "Alpukat",
+    "pumpkinSeeds": "Biji Labu",
+    "hempSeeds": "Benih Rami",
+    "chiaSeeds": "Biji Chia",
+    "flaxSeeds": "Biji Rami",
+    "sesameSeeds": "Biji Wijen",
+    "sunflowerSeeds": "Biji Bunga Matahari",
+    "watermelonSeeds": "Biji Semangka",
+    "almonds": "kacang almond",
+    "peanuts": "kacang tanah",
+    "peanutButterNatural": "Selai Kacang Alami",
+    "cashews": "kacang mete",
+    "pistachios": "pistachio",
+    "walnuts": "kenari",
+    "hazelnuts": "kacang hazel",
+    "brazilNuts": "Kacang Brazil",
+    "almondButter": "mentega almond",
+    "tahini": "Tahini",
+    "cashewButter": "mentega mete",
+    "pumpkinSeedButter": "Mentega Biji Labu",
+    "sunflowerSeedButter": "Mentega Biji Bunga Matahari",
+    "almondFlour": "Tepung Almond",
+    "chickpeaFlour": "Tepung Buncis / Besan",
+    "soyFlour": "Tepung Kedelai",
+    "wholeWheatFlour": "Tepung Terigu Utuh",
+    "breadWholeWheat": "Roti Gandum Utuh",
+    "ezekielBread": "Roti Yehezkiel",
+    "proteinBreadVegan": "Roti Protein Vegan",
+    "roastedChickpeas": "Buncis Panggang",
+    "dryRoastedEdamame": "Edamame Panggang Kering",
+    "proteinBarVegan": "Batangan Protein Vegan",
+    "veganSausage": "Sosis Vegan",
+    "veganBurgerPatty": "Patty Burger Vegan",
+    "mycoproteinVegan": "Mikoprotein Vegan",
+    "beanSprouts": "tauge",
+    "alfalfaSprouts": "Kecambah Alfalfa"
+  }
+}

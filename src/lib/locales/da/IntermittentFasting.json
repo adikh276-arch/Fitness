@@ -70,7 +70,8 @@
       "firstMeal": "Første måltid (i dag):",
       "duration": "Samlet fastevarighed",
       "goalAchieved": "Mål nået! Du har fuldført en faste på over 16 timer!",
-      "submit": "Log dette hurtigt"
+      "submit": "Log dette hurtigt",
+      "dateLabel": "Dato:"
     },
     "tracker": {
       "title": "30-dages hurtigsporing",
@@ -81,7 +82,9 @@
         "goalMet": "Mål nået (16+ timer)",
         "today": "I dag",
         "missed": "Mistet dag"
-      }
+      },
+      "today": "I dag",
+      "dayLabel": "Dag {{val}}"
     },
     "recentFasts": {
       "title": "Nylige faster",

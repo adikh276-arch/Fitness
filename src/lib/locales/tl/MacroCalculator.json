@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "back": "Bumalik sa Dashboard"
+  },
+  "header": {
+    "title": "Macro Calculator",
+    "subtitle": "Kalkulahin ang iyong pang-araw-araw na calorie at macronutrient na pangangailangan"
+  },
+  "tabs": {
+    "input": "Ang iyong mga Detalye",
+    "results": "Iyong Mga Resulta"
+  },
+  "form": {
+    "title": "Ang iyong mga Detalye",
+    "age": "Edad (taon)",
+    "gender": "Kasarian",
+    "male": "Lalaki",
+    "female": "Babae",
+    "weight": "Timbang",
+    "height": "taas",
+    "activity": "Antas ng Aktibidad",
+    "goal": "Layunin",
+    "submit": "Kalkulahin ang Macros",
+    "placeholders": {
+      "age": "hal., 30",
+      "weightKg": "hal., 70",
+      "weightLbs": "hal., 154",
+      "heightCm": "hal., 175",
+      "heightFt": "Mga paa",
+      "heightIn": "pulgada"
+    },
+    "activityLevels": {
+      "sedentary": "Sedentary (kaunti/walang ehersisyo)",
+      "light": "Bahagyang Aktibo (1-3 araw/linggo)",
+      "moderate": "Katamtamang Aktibo (3-5 araw/linggo)",
+      "very": "Napaka-aktibo (6-7 araw/linggo)"
+    },
+    "goals": {
+      "maintenance": "Pagpapanatili",
+      "loss": "Pagbaba ng Timbang",
+      "gain": "Pagkuha ng kalamnan"
+    }
+  },
+  "results": {
+    "title": "Iyong Mga Resulta",
+    "calorieTarget": "Pang-araw-araw na Calorie Target",
+    "kcalPerDay": "kcal/araw",
+    "bmrLabel": "BMR: {{val}} kcal",
+    "protein": "protina",
+    "carbs": "Carbs",
+    "fat": "mataba",
+    "submit": "I-save sa Profile",
+    "placeholder": "Ilagay ang iyong mga detalye at i-click ang Kalkulahin upang makita ang iyong mga resulta",
+    "success": "Na-save ang macro data! Na-sync na ang mga detalye ng iyong profile.",
+    "validation": "Mangyaring magpasok ng mga wastong halaga"
+  }
+}

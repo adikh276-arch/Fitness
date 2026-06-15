@@ -1,13 +1,13 @@
 {
   "header": {
-    "title": "Heart Health Guide",
-    "subtitle": "Track vitals, learn DASH diet, and build heart-healthy habits",
-    "back": "Back to Dashboard"
+    "title": "심장 건강 가이드",
+    "subtitle": "활력 징후를 추적하고, DASH 다이어트를 배우고, 심장 건강 습관을 기르세요.",
+    "back": "대시보드로 돌아가기"
   },
   "alerts": {
     "crisis": {
-      "title": "HYPERTENSIVE CRISIS WARNING",
-      "desc": "Your blood pressure reading is dangerously high (≥180/120). This requires immediate medical attention.",
+      "title": "고혈압 위기 경고",
+      "desc": "혈압 수치가 위험할 정도로 높습니다(≥180/120). 이는 즉각적인 치료가 필요합니다.",
       "actions": [
         "Call 911 or go to the emergency room immediately",
         "Do not wait to see if your pressure goes down on its own",
@@ -15,73 +15,73 @@
       ]
     },
     "vitals": {
-      "invalid": "Please enter valid readings",
-      "success": "Reading logged: {{sys}}/{{dia}} - {{category}}"
+      "invalid": "유효한 수치를 입력하세요.",
+      "success": "기록된 읽기: {{sys}}/{{dia}} - {{category}}"
     }
   },
   "tabs": {
-    "dash": "DASH Diet",
-    "vitals": "Vitals Log",
-    "habits": "Heart Habits"
+    "dash": "대시 다이어트",
+    "vitals": "바이탈 로그",
+    "habits": "심장 습관"
   },
   "vitals": {
     "form": {
-      "title": "Log Your Vitals",
+      "title": "귀하의 활력소를 기록하십시오",
       "bp": {
-        "label": "Blood Pressure",
-        "systolic": "Systolic",
-        "systolic_desc": "Top number",
-        "diastolic": "Diastolic",
-        "diastolic_desc": "Bottom number"
+        "label": "혈압",
+        "systolic": "수축기",
+        "systolic_desc": "상위 번호",
+        "diastolic": "확장기",
+        "diastolic_desc": "하단 번호"
       },
       "heart_rate": {
-        "label": "Resting Heart Rate (BPM)",
-        "placeholder": "e.g., 72"
+        "label": "안정시 심박수(BPM)",
+        "placeholder": "예: 72"
       },
-      "submit": "Log Reading"
+      "submit": "로그 읽기"
     },
     "recent": {
-      "title": "Recent Readings",
-      "empty": "No readings logged yet",
+      "title": "최근 독서",
+      "empty": "아직 기록된 판독값이 없습니다.",
       "bpm": "{{count}} BPM"
     },
     "chart": {
-      "title": "7-Day Blood Pressure Trend",
-      "systolic": "Systolic",
-      "diastolic": "Diastolic"
+      "title": "7일 혈압 추세",
+      "systolic": "수축기",
+      "diastolic": "확장기"
     },
     "guidelines": {
-      "title": "AHA Blood Pressure Categories:",
-      "normal": "Normal: <120/80",
-      "elevated": "Elevated: 120-129/<80",
-      "stage1": "Stage 1: 130-139/80-89",
-      "stage2": "Stage 2: ≥140/90"
+      "title": "AHA 혈압 카테고리:",
+      "normal": "일반: <120/80",
+      "elevated": "상승: 120-129/<80",
+      "stage1": "1단계: 130-139/80-89",
+      "stage2": "2단계: ≥140/90"
     },
     "categories": {
-      "crisis": "Hypertensive Crisis",
-      "stage2": "Hypertension Stage 2",
-      "stage1": "Hypertension Stage 1",
-      "elevated": "Elevated",
-      "normal": "Normal",
-      "unknown": "Unknown"
+      "crisis": "고혈압 위기",
+      "stage2": "고혈압 2단계",
+      "stage1": "고혈압 1단계",
+      "elevated": "높은",
+      "normal": "보통",
+      "unknown": "알 수 없음"
     }
   },
   "dash": {
     "intro": {
-      "title": "The DASH Diet",
-      "desc": "Dietary Approaches to Stop Hypertension - A scientifically proven eating plan that lowers blood pressure naturally."
+      "title": "대시 다이어트",
+      "desc": "고혈압을 멈추기 위한 식이요법 - 자연적으로 혈압을 낮추는 과학적으로 입증된 식사 계획입니다."
     },
     "principles": {
       "sodium": {
-        "title": "Sodium Limit",
-        "limit": "<2,300mg per day",
-        "high_risk": "(Or 1,500mg for high-risk individuals)",
-        "desc": "Excess sodium causes water retention, increasing blood volume and pressure on artery walls."
+        "title": "나트륨 한도",
+        "limit": "하루 <2,300mg",
+        "high_risk": "(또는 고위험군의 경우 1,500mg)",
+        "desc": "과도한 나트륨은 수분 정체를 유발하여 혈액량을 증가시키고 동맥 벽에 압력을 가합니다."
       },
       "potassium": {
-        "title": "Potassium Power",
-        "limit": "4,700mg per day",
-        "source": "From whole foods",
+        "title": "칼륨파워",
+        "limit": "하루 4,700mg",
+        "source": "전체 식품에서",
         "foods": [
           "Bananas (422mg per medium)",
           "Sweet Potatoes (540mg per medium)",
@@ -89,9 +89,9 @@
         ]
       },
       "magnesium": {
-        "title": "Magnesium & Fiber",
-        "limit": "500mg Mg / 25-35g Fiber",
-        "target": "Daily targets",
+        "title": "마그네슘 및 섬유",
+        "limit": "500mg Mg / 25-35g 섬유질",
+        "target": "일일 목표",
         "foods": [
           "Almonds, cashews, pumpkin seeds",
           "Whole grains (oats, quinoa)",
@@ -100,10 +100,10 @@
       }
     },
     "scanner": {
-      "title": "⚠️ Hidden Sodium Scanner: \"Sneaky Salt\" Foods",
-      "subtitle": "These seemingly innocent foods pack more sodium than you think:",
+      "title": "⚠️ 숨겨진 나트륨 스캐너: \"은밀한 소금\" 식품",
+      "subtitle": "겉으로는 무해해 보이는 이 음식들은 생각보다 나트륨을 더 많이 함유하고 있습니다.",
       "swaps": {
-        "title": "💡 DASH-Friendly Swaps:",
+        "title": "💡 DASH 친화적인 스왑:",
         "items": [
           "Homemade soup with low-sodium broth (200mg vs 800mg)",
           "Roasted chicken breast instead of deli meat (70mg vs 520mg)",
@@ -114,38 +114,38 @@
   },
   "habits": {
     "vitality": {
-      "title": "Vitality Score",
-      "start": "Start building your heart-healthy streak!",
-      "streak_good": "🔥 {{count}} day streak! Your heart is thriving",
-      "streak_continue": "{{count}} days - Keep going!",
-      "streak_continue_singular": "{{count}} day - Keep going!",
-      "days": "day streak",
-      "goal": "{{count}} / 30 days goal"
+      "title": "활력 점수",
+      "start": "심장 건강을 위한 연속 행진을 시작해 보세요!",
+      "streak_good": "🔥 {{count}}일 연속! 당신의 마음은 번성하고 있습니다",
+      "streak_continue": "{{count}}일 - 계속하세요!",
+      "streak_continue_singular": "{{count}}일 - 계속하세요!",
+      "days": "하루 연속",
+      "goal": "{{count}} / 30일 목표"
     },
     "checklist": {
-      "title": "Daily Cardio Checklist",
-      "subtitle": "Complete these habits daily to build cardiovascular strength",
+      "title": "일일 심장강화 체크리스트",
+      "subtitle": "심혈관 강화를 위해 매일 이러한 습관을 완료하세요",
       "items": {
         "cardio": {
-          "label": "30 Mins Zone 2 Cardio",
-          "desc": "Brisk walk, cycling, or swimming at conversational pace"
+          "label": "30분 Zone 2 유산소 운동",
+          "desc": "대화하는 속도로 빠르게 걷기, 자전거 타기, 수영하기"
         },
         "low_sodium": {
-          "label": "Stayed Under Sodium Limit",
-          "desc": "<2,300mg (or 1,500mg if high-risk)"
+          "label": "나트륨 한도를 유지했습니다",
+          "desc": "<2,300mg(또는 고위험인 경우 1,500mg)"
         },
         "no_salt": {
-          "label": "No Added Salt at the Table",
-          "desc": "Let food's natural flavors shine"
+          "label": "테이블에 소금을 추가하지 않음",
+          "desc": "음식 본연의 맛을 빛나게 하세요"
         },
         "meds": {
-          "label": "Medication Taken (Optional)",
-          "desc": "For those on BP medication"
+          "label": "복용한 약물(선택사항)",
+          "desc": "혈압약을 복용 중인 사람들의 경우"
         }
       }
     },
     "tips": {
-      "title": "Heart Health Essentials",
+      "title": "심장 건강 필수품",
       "items": [
         "<strong>Zone 2 cardio:</strong> Exercise at 60-70% max heart rate (you can still hold a conversation)",
         "<strong>Potassium helps flush sodium:</strong> Aim for 4,700mg daily from whole foods",
@@ -155,13 +155,13 @@
     }
   },
   "foods": {
-    "canned_soup": "Canned Soup (1 cup)",
-    "deli_turkey": "Deli Turkey (2 oz)",
-    "white_bread": "White Bread (2 slices)",
-    "frozen_pizza": "Frozen Pizza (1 slice)",
-    "soy_sauce": "Soy Sauce (1 tbsp)",
-    "cottage_cheese": "Cottage Cheese (1/2 cup)",
-    "pickles": "Pickles (1 medium)",
-    "salad_dressing": "Salad Dressing (2 tbsp)"
+    "canned_soup": "통조림 수프(1컵)",
+    "deli_turkey": "델리 터키 (2온스)",
+    "white_bread": "식빵 (2조각)",
+    "frozen_pizza": "냉동 피자 (1조각)",
+    "soy_sauce": "간장(1큰술)",
+    "cottage_cheese": "코티지 치즈(1/2컵)",
+    "pickles": "피클 (중간 크기 1개)",
+    "salad_dressing": "샐러드드레싱(2큰술)"
   }
 }

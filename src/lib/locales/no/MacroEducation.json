@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "back": "Tilbake til Dashboard"
+  },
+  "header": {
+    "title": "Forstå makronæringsstoffer",
+    "subtitle": "Lær det grunnleggende om protein, karbohydrater og fett"
+  },
+  "tabs": {
+    "protein": "Protein",
+    "carbs": "Karbohydrater",
+    "fats": "Fett",
+    "plate": "Platebygger"
+  },
+  "protein": {
+    "title": "Protein",
+    "kcal": "4 kcal/gram",
+    "whyMatters": {
+      "title": "Hvorfor det betyr noe:",
+      "muscle": {
+        "title": "Muskelreparasjon og vekst:",
+        "desc": "Viktig for å bygge og vedlikeholde muskelmasse"
+      },
+      "satiety": {
+        "title": "Metthet:",
+        "desc": "Holder deg mett lenger, reduserer det totale kaloriinntaket"
+      },
+      "metabolic": {
+        "title": "Metabolsk boost:",
+        "desc": "Høyeste termiske effekt av alle makroer (20-30 % av kaloriene som forbrennes under fordøyelsen)"
+      }
+    },
+    "target": {
+      "title": "Daglig mål:",
+      "desc": "For optimal helse og muskelvedlikehold bør du sikte på <1>1,6-2,2 g per kg</1> kroppsvekt. Idrettsutøvere og de som bygger muskler kan trenge opptil 2,5 g/kg."
+    },
+    "sources": "Topp proteinkilder:"
+  },
+  "carbs": {
+    "title": "Karbohydrater",
+    "kcal": "4 kcal/gram",
+    "whyMatters": {
+      "title": "Hvorfor det betyr noe:",
+      "energy": {
+        "title": "Primær energikilde:",
+        "desc": "Kroppens foretrukne drivstoff for hjernen og fysisk aktivitet"
+      },
+      "performance": {
+        "title": "Ytelse:",
+        "desc": "Kritisk for trening med høy intensitet og atletisk ytelse"
+      },
+      "nutrients": {
+        "title": "Fiber og næringsstoffer:",
+        "desc": "Hele karbohydrater gir viktige vitaminer, mineraler og fordøyelseshelse"
+      }
+    },
+    "target": {
+      "title": "Daglig mål:",
+      "desc": "For aktive personer, sikte på <1>3-6g per kg</1> kroppsvekt. Stillsittende personer kan trenge mindre (2-3g/kg). Fokuser på komplekse kilder til hele maten."
+    },
+    "sources": "Topp karbohydratkilder:"
+  },
+  "fats": {
+    "title": "Fett",
+    "kcal": "9 kcal/gram",
+    "whyMatters": {
+      "title": "Hvorfor det betyr noe:",
+      "hormone": {
+        "title": "Hormonproduksjon:",
+        "desc": "Viktig for testosteron, østrogen og andre vitale hormoner"
+      },
+      "vitamin": {
+        "title": "Vitaminabsorpsjon:",
+        "desc": "Nødvendig for å absorbere fettløselige vitaminer (A, D, E, K)"
+      },
+      "brain": {
+        "title": "Hjernehelse:",
+        "desc": "Hjernen din består av 60 % fett – omega-3 er avgjørende for kognitiv funksjon"
+      }
+    },
+    "target": {
+      "title": "Daglig mål:",
+      "desc": "Sikt på <1>0,8–1,2 g per kg</1> kroppsvekt, eller 20–35 % av de totale kaloriene. Prioriter umettet fett (olivenolje, nøtter, fisk) fremfor mettet fett."
+    },
+    "sources": "Topp fettkilder:"
+  },
+  "plate": {
+    "title": "Bygg ditt balanserte måltid",
+    "legend": {
+      "protein": "Protein {{val}} %",
+      "carbs": "Karbohydrater {{val}} %",
+      "fats": "Fett {{val}} %"
+    },
+    "sliders": {
+      "protein": {
+        "title": "Protein",
+        "desc": "Muskel og metthet"
+      },
+      "carbs": {
+        "title": "Karbohydrater",
+        "desc": "Energi og ytelse"
+      },
+      "fats": {
+        "title": "Fett",
+        "desc": "Hormoner og vitaminer"
+      }
+    },
+    "calories": {
+      "title": "Anslåtte kalorier",
+      "subtitle": "(basert på 200 g porsjon)",
+      "unit": "kcal"
+    },
+    "warning": {
+      "title": "Balanseanbefaling",
+      "desc": "For optimal ernæring: Sikt etter minst 15-25 % protein (muskler og metthet), 20-35 % sunt fett (hormoner) og 40-60 % karbohydrater (energi). Juster forholdstallene dine for å nå disse målene."
+    }
+  },
+  "foods": {
+    "chicken": "Kyllingbryst",
+    "yogurt": "gresk yoghurt",
+    "eggs": "Egg",
+    "eggUnit": "1 egg = 6 g protein",
+    "salmon": "Laks",
+    "lentils": "Linser",
+    "tofu": "Tofu",
+    "rice": "Brun ris",
+    "oats": "Havre",
+    "potato": "Søtpotet",
+    "quinoa": "Quinoa",
+    "banana": "Banan",
+    "bananaUnit": "1 medium = 27g karbohydrater",
+    "bread": "Fullkornsbrød",
+    "breadUnit": "1 skive = 12g karbohydrater",
+    "avocado": "Avokado",
+    "almonds": "Mandler",
+    "almondsUnit": "28g = 14g fett",
+    "oil": "Olivenolje",
+    "oilUnit": "1 ss = 14 g fett",
+    "peanutButter": "Peanøttsmør",
+    "pbUnit": "2 ss = 16g fett",
+    "chocolate": "Mørk sjokolade",
+    "chocolateUnit": "28g = 9g fett",
+    "unit100g": "100g = {{val}}g {{makro}}"
+  }
+}

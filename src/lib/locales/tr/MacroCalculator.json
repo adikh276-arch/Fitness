@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "back": "Kontrol Paneline Geri Dön"
+  },
+  "header": {
+    "title": "Makro Hesaplayıcı",
+    "subtitle": "Günlük kalori ve makro besin ihtiyaçlarınızı hesaplayın"
+  },
+  "tabs": {
+    "input": "Detaylarınız",
+    "results": "Sonuçlarınız"
+  },
+  "form": {
+    "title": "Detaylarınız",
+    "age": "Yaş (yıl)",
+    "gender": "Cinsiyet",
+    "male": "Erkek",
+    "female": "Kadın",
+    "weight": "Ağırlık",
+    "height": "Yükseklik",
+    "activity": "Etkinlik Düzeyi",
+    "goal": "Gol",
+    "submit": "Makroları Hesapla",
+    "placeholders": {
+      "age": "örneğin 30",
+      "weightKg": "örneğin 70",
+      "weightLbs": "örneğin 154",
+      "heightCm": "örneğin, 175",
+      "heightFt": "Ayaklar",
+      "heightIn": "İnç"
+    },
+    "activityLevels": {
+      "sedentary": "Hareketsiz (çok az/hiç egzersiz yapmama)",
+      "light": "Hafif Aktif (1-3 gün/hafta)",
+      "moderate": "Orta Derecede Aktif (haftada 3-5 gün)",
+      "very": "Çok Aktif (6-7 gün/haftada)"
+    },
+    "goals": {
+      "maintenance": "Bakım",
+      "loss": "Kilo Kaybı",
+      "gain": "Kas Kazanımı"
+    }
+  },
+  "results": {
+    "title": "Sonuçlarınız",
+    "calorieTarget": "Günlük Kalori Hedefi",
+    "kcalPerDay": "kcal/gün",
+    "bmrLabel": "BMR: {{val}} kcal",
+    "protein": "proteini",
+    "carbs": "Karbonhidratlar",
+    "fat": "Şişman",
+    "submit": "Profile Kaydet",
+    "placeholder": "Bilgilerinizi girin ve sonuçlarınızı görmek için Hesapla'ya tıklayın",
+    "success": "Makro verileri kaydedildi! Profil ayrıntılarınız senkronize edildi.",
+    "validation": "Lütfen geçerli değerler girin"
+  }
+}

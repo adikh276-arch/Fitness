@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "back": "Kembali ke Dasbor"
+  },
+  "header": {
+    "title": "BMI Cerdas & Konteks Tubuh",
+    "subtitle": "Lacak metrik tubuh Anda dengan presisi klinis"
+  },
+  "streak": {
+    "title": "Kisaran Sehat Terjaga!",
+    "subtitle": "{{count}} pembacaan berturut-turut di zona sehat 🎉"
+  },
+  "tabs": {
+    "calculator": "Kalkulator BMI",
+    "context": "Di luar BMI",
+    "history": "Sejarah Tren"
+  },
+  "calculator": {
+    "title": "Hitung BMI Anda",
+    "inputs": {
+      "height": "Tinggi",
+      "weight": "Berat",
+      "feet": "Kaki",
+      "inches": "inci",
+      "placeholders": {
+        "heightCm": "misalnya 170",
+        "heightFt": "Kaki",
+        "heightIn": "inci",
+        "weightKg": "misalnya, 70",
+        "weightLbs": "misalnya, 154"
+      }
+    },
+    "results": {
+      "yourBMI": "BMI Anda",
+      "placeholder": "Masukkan pengukuran Anda untuk melihat BMI Anda",
+      "submit": "Simpan ke Profil",
+      "success": "✓ Berhasil disimpan!",
+      "categories": {
+        "underweight": "Berat badan kurang",
+        "healthy": "Berat Badan Sehat",
+        "normal": "Biasa",
+        "overweight": "Kegemukan",
+        "obese": "obesitas",
+        "enterData": "Masukkan datanya"
+      }
+    },
+    "tip": "Pertimbangkan untuk memasukkan olahraga teratur dan diet seimbang ke dalam rutinitas Anda.",
+    "disclaimer": {
+      "title": "Penafian Medis",
+      "text": "BMI merupakan alat skrining umum dan tidak membedakan massa otot dan lemak. Konsultasikan dengan profesional kesehatan untuk mendapatkan saran medis yang dipersonalisasi."
+    }
+  },
+  "beyond": {
+    "title": "Rasio Pinggang terhadap Tinggi Badan (WHtR)",
+    "why": {
+      "title": "Mengapa Ini Penting",
+      "desc": "Menjaga lingkar pinggang kurang dari setengah tinggi badan mengurangi risiko kardiovaskular. WHtR lebih akurat dibandingkan BMI dalam memprediksi kondisi kesehatan metabolik.",
+      "target": "Target: Rasio < 0,5 untuk kesehatan optimal"
+    },
+    "inputs": {
+      "waist": "Lingkar Pinggang",
+      "waistHint": "Ukur pada titik tersempit di pinggang Anda, biasanya tepat di atas pusar",
+      "placeholders": {
+        "waistCm": "misalnya, 80",
+        "waistIn": "misalnya, 31"
+      }
+    },
+    "results": {
+      "healthy": "Bentuk Sehat",
+      "elevated": "Peningkatan Risiko",
+      "placeholder": "Silakan masukkan tinggi dan pinggang untuk melihat rasio Anda",
+      "waistMeasurementPlaceholder": "Masukkan ukuran pinggang",
+      "label": "Rasio Pinggang-Tinggi",
+      "submit": "Simpan ke Profil (BMI + WHtR)"
+    },
+    "comparison": {
+      "title": "BMI vs WHtR: Perbedaannya",
+      "bmi": {
+        "title": "BMI",
+        "desc": "Kategori berat badan umum, tidak memperhitungkan massa otot atau distribusi lemak"
+      },
+      "whtr": {
+        "title": "APA",
+        "desc": "Mengukur obesitas sentral, prediktor penyakit kardiovaskular dan diabetes yang lebih baik"
+      }
+    }
+  },
+  "history": {
+    "title": "Pengukuran Terkini",
+    "noHistory": "Belum Ada Sejarah",
+    "noHistoryDesc": "Mulai lacak BMI dan metrik tubuh Anda untuk melihat tren kemajuan Anda dari waktu ke waktu.",
+    "stats": {
+      "title": "Statistik Anda",
+      "total": "Jumlah Catatan",
+      "latest": "BMI terbaru",
+      "healthyCount": "Hitungan Sehat",
+      "bestStreak": "Garis Terbaik"
+    }
+  }
+}

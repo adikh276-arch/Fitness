@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "back": "חזרה ללוח המחוונים"
+  },
+  "header": {
+    "title": "גשש צעדים",
+    "subtitle": "עקוב אחר הצעדים היומיומיים שלך והשגת היעדים שלך",
+    "profile": "פרופיל"
+  },
+  "tabs": {
+    "tracker": "גשש",
+    "history": "היסטוריה"
+  },
+  "tracker": {
+    "stepsToday": "צעדים היום",
+    "goalAchieved": "המטרה הושגה!",
+    "stats": {
+      "distance": "מרחק",
+      "calories": "קלוריות",
+      "activeTime": "זמן פעיל",
+      "km": "ק\"מ",
+      "kcal": "קק\"ל",
+      "mins": "דקות"
+    },
+    "goal": {
+      "label": "יעד יומי",
+      "value": "{{val}} צעדים",
+      "change": "שנה יעד"
+    },
+    "quickAdd": {
+      "title": "שלבים להוספה מהירה",
+      "label": "שלבים מותאמים אישית",
+      "placeholder": "למשל, 3500",
+      "submit": "הוסף"
+    },
+    "insights": {
+      "title": "התובנות של היום",
+      "remaining": "השלבים שנותרו",
+      "stride": "אורך צעד",
+      "progress": "התקדמות",
+      "complete": "השלם!",
+      "percentOfGoal": "{{val}}% מהיעד"
+    },
+    "reset": "אפס את השלבים של היום"
+  },
+  "history": {
+    "title": "היסטוריית צעדים",
+    "noHistory": "עדיין אין היסטוריה. התחל לעקוב אחר צעדיך!",
+    "today": "היום",
+    "stats": {
+      "steps": "שלבים",
+      "goal": "מטרה",
+      "progress": "התקדמות"
+    }
+  },
+  "modals": {
+    "goal": {
+      "title": "הגדר יעד יומי",
+      "subtitle": "הזן את צעדי היעד היומי שלך",
+      "placeholder": "למשל, 10000",
+      "cancel": "בטל",
+      "save": "שמור"
+    },
+    "profile": {
+      "title": "עדכן פרופיל",
+      "subtitle": "זה עוזר לחשב מרחק וקלוריות מדויקים",
+      "height": "גובה (ס\"מ)",
+      "weight": "משקל (ק\"ג)",
+      "gender": "מגדר",
+      "male": "זכר",
+      "female": "נקבה",
+      "placeholderHeight": "למשל, 170",
+      "placeholderWeight": "למשל, 70",
+      "cancel": "בטל",
+      "save": "שמור"
+    }
+  }
+}

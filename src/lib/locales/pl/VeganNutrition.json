@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "back": "Powrót do Panelu"
+  },
+  "header": {
+    "title": "Przewodnik po żywieniu wegańskim",
+    "subtitle": "Kompletny zestaw narzędzi do żywienia roślinnego"
+  },
+  "tabs": {
+    "plate": "Wegański talerz",
+    "nutrients": "Mikroelementy",
+    "calculator": "Kalkulator białka"
+  },
+  "plate": {
+    "title": "Kompletny posiłek wegański",
+    "proportions": {
+      "legumes": {
+        "title": "Rośliny strączkowe/fasola",
+        "subtitle": "Siła białka",
+        "examples": "Przykłady: soczewica, ciecierzyca, czarna fasola, tofu, tempeh"
+      },
+      "grains": {
+        "title": "Całe ziarna",
+        "subtitle": "Zrównoważona energia",
+        "examples": "Przykłady: Quinoa, brązowy ryż, owies, cała pszenica, jęczmień"
+      },
+      "vegetables": {
+        "title": "Warzywa",
+        "subtitle": "Bogaty w mikroelementy",
+        "examples": "Przykłady: warzywa liściaste, brokuły, papryka, marchew, pomidory"
+      },
+      "fats": {
+        "title": "Zdrowe tłuszcze/nasiona",
+        "subtitle": "Zdrowie hormonalne",
+        "examples": "Przykłady: awokado, orzechy, nasiona, oliwa z oliwek, tahini"
+      }
+    },
+    "tip": {
+      "title": "Wskazówka dla profesjonalistów: Zwiększ wchłanianie żelaza",
+      "desc": "Żelazo pochodzenia roślinnego (niehemowe) jest wchłaniane mniej skutecznie niż żelazo pochodzenia zwierzęcego. Łącz produkty bogate w żelazo z witaminą C, aby zwiększyć wchłanianie nawet o 300%!",
+      "ironRich": "Pokarmy bogate w żelazo",
+      "ironExamples": "Szpinak, soczewica, komosa ryżowa, tofu, pestki dyni",
+      "vitaminC": "Boostery witaminy C",
+      "vitaminCExamples": "Sok z cytryny, papryka, pomidory, brokuły, pomarańcze",
+      "perfectCombo": "Idealne połączenie: Zupa z soczewicy z sokiem z cytryny, sałatka ze szpinaku i papryki"
+    }
+  },
+  "nutrients": {
+    "title": "Moduł śledzenia składników odżywczych Wielkiej Czwórki",
+    "progress": {
+      "title": "Dzisiejszy postęp",
+      "done": "Gotowe",
+      "pending": "Oczekujące"
+    },
+    "why": {
+      "title": "Dlaczego warto je śledzić?",
+      "desc1": "Te cztery składniki odżywcze to najczęstsze niedobory w dietach roślinnych. Śledzenie dziennego spożycia gwarantuje, że otrzymujesz kompletne odżywianie.",
+      "note": "Uwaga: witaminę B12 należy uzupełniać lub spożywać w formie wzbogaconej żywności – nie występuje ona naturalnie w roślinach."
+    },
+    "micronutrients": {
+      "b12": {
+        "name": "Witamina B12",
+        "importance": "Krytyczne dla funkcjonowania nerwów i syntezy DNA",
+        "dosage": "2,4 mcg dziennie"
+      },
+      "iron": {
+        "name": "Żelazo i cynk",
+        "importance": "Niezbędny do transportu tlenu i funkcji odpornościowych",
+        "dosage": "Żelazo: 18 mg, Cynk: 11 mg dziennie"
+      },
+      "omega3": {
+        "name": "Omega-3 (ALA)",
+        "importance": "Zdrowie mózgu i działanie przeciwzapalne",
+        "dosage": "1,6 g dziennie"
+      },
+      "calcium": {
+        "name": "Wapń",
+        "importance": "Zdrowie kości i funkcja mięśni",
+        "dosage": "1000 mg dziennie"
+      }
+    }
+  },
+  "calculator": {
+    "title": "Przewodnik po wiedzy o białkach",
+    "subtitle": "Wybierz produkt i wprowadź jego ilość, aby natychmiast sprawdzić zawartość białka",
+    "form": {
+      "selectFood": "Wyszukaj i wybierz artykuł spożywczy",
+      "placeholderFood": "Wybierz jedzenie...",
+      "searchPlaceholder": "Wyszukaj żywność...",
+      "amount": "Ilość (gramy)",
+      "placeholderAmount": "100",
+      "add": "Dodaj do obliczeń",
+      "proteinPer100": "{{val}}g na 100g",
+      "matches": "Wyświetlanie 5 z {{total}} dopasowań",
+      "noMatches": "Nie znaleziono żywności"
+    },
+    "results": {
+      "title": "Rozkład białka",
+      "estProtein": "Szacowana zawartość białka",
+      "calcInfo": "{{amount}}g {{food}}",
+      "summary": "Podsumowanie bieżących obliczeń",
+      "total": "Białko całkowite",
+      "aminoAcid": "Kompletność aminokwasów",
+      "aminoComplete": "Kompletny profil aminokwasowy",
+      "aminoIncomplete": "Brakujące zboża lub rośliny strączkowe",
+      "aminoNote": "Rośliny strączkowe (soczewica/fasola/soja) + zboża (ryż/komosa ryżowa/owies) = pełnowartościowe białko",
+      "save": "Zapisz sumę w historii",
+      "success": "Pomyślnie zarejestrowano białko!",
+      "ironTip": {
+        "title": "Wskazówka:",
+        "desc": "Połącz z witaminą C (cytryna, papryka, pomidory), aby zwiększyć wchłanianie żelaza nawet o 300%!"
+      }
+    },
+    "reference": {
+      "title": "Skrócona instrukcja obsługi"
+    }
+  },
+  "proteinSources": {
+    "tofu": "Tofu",
+    "tempeh": "Tempeh",
+    "edamame": "Edamame",
+    "soybeansBoiled": "Gotowana Soja",
+    "soyChunks": "Kawałki Soi / TVP Dry",
+    "soyMince": "Suszony sojowy mielony",
+    "soyMilk": "Mleko sojowe niesłodzone",
+    "soyYogurt": "Jogurt sojowy zwykły",
+    "seitan": "Seitana",
+    "lentilsCooked": "Soczewica Gotowana",
+    "redLentilsCooked": "Gotowana czerwona soczewica",
+    "greenLentilsCooked": "Gotowana zielona soczewica",
+    "blackLentilsCooked": "Gotowana czarna soczewica",
+    "chickpeasCooked": "Ciecierzyca Gotowana",
+    "blackBeansCooked": "Gotowana czarna fasola",
+    "kidneyBeansCooked": "Gotowana fasola nerkowa",
+    "pintoBeansCooked": "Gotowana Fasola Pinto",
+    "cannelliniBeansCooked": "Fasola Cannellini Gotowana",
+    "navyBeansCooked": "Gotowana fasola granatowa",
+    "adzukiBeansCooked": "Fasola Adzuki Gotowana",
+    "mungBeansCooked": "Gotowana Fasola Mung",
+    "lupinBeans": "Fasola Łubinu",
+    "splitPeasCooked": "Gotowany groszek łuskany",
+    "greenPeas": "Zielony groszek",
+    "peaProteinIsolate": "Izolat białka grochu",
+    "peaMilk": "Mleko Grochowe",
+    "hummus": "Hummus",
+    "falafel": "Falafel",
+    "quinoaCooked": "Komosa ryżowa gotowana",
+    "amaranthCooked": "Gotowany amarantus",
+    "buckwheatCooked": "Kasza Gryczana Gotowana",
+    "oatsDry": "Owies Suszony",
+    "rolledOats": "Płatki owsiane",
+    "steelCutOats": "Stalowy owies cięty",
+    "oatBran": "Otręby owsiane",
+    "barleyCooked": "Jęczmień Gotowany",
+    "milletCooked": "Gotowane proso",
+    "brownRiceCooked": "Gotowany brązowy ryż",
+    "wildRiceCooked": "Gotowany Dziki Ryż",
+    "teffCooked": "Gotowany Teff",
+    "farroCooked": "Gotowane Farro",
+    "freekehCooked": "Gotowane Freekeh",
+    "wholeWheatPastaCooked": "Gotowany Makaron Pełnoziarnisty",
+    "chickpeaPastaDry": "Makaron z ciecierzycy, suchy",
+    "lentilPastaDry": "Makaron z soczewicą, suszony",
+    "blackBeanPastaDry": "Makaron z czarnej fasoli, suchy",
+    "spirulinaDry": "Spirulina suszona",
+    "nutritionalYeast": "Drożdże odżywcze",
+    "mushroomsWhite": "Grzyby Białe",
+    "portobelloMushrooms": "Grzyby Portobello",
+    "spinach": "Szpinak",
+    "kale": "Kale",
+    "broccoli": "Brokuły",
+    "brusselsSprouts": "Brukselka",
+    "sweetCorn": "Słodka kukurydza",
+    "artichoke": "Karczoch",
+    "avocado": "Awokado",
+    "pumpkinSeeds": "Nasiona Dyni",
+    "hempSeeds": "Nasiona Konopi",
+    "chiaSeeds": "Nasiona Chia",
+    "flaxSeeds": "Nasiona lnu",
+    "sesameSeeds": "Nasiona sezamu",
+    "sunflowerSeeds": "Nasiona Słonecznika",
+    "watermelonSeeds": "Nasiona Arbuza",
+    "almonds": "Migdały",
+    "peanuts": "Orzeszki ziemne",
+    "peanutButterNatural": "Naturalne masło orzechowe",
+    "cashews": "Orzechy nerkowca",
+    "pistachios": "Pistacje",
+    "walnuts": "Orzechy włoskie",
+    "hazelnuts": "Orzechy laskowe",
+    "brazilNuts": "Orzechy brazylijskie",
+    "almondButter": "Masło Migdałowe",
+    "tahini": "Tahini",
+    "cashewButter": "Masło z nerkowców",
+    "pumpkinSeedButter": "Masło z pestek dyni",
+    "sunflowerSeedButter": "Masło z nasion słonecznika",
+    "almondFlour": "Mąka Migdałowa",
+    "chickpeaFlour": "Mąka z ciecierzycy / Besan",
+    "soyFlour": "Mąka sojowa",
+    "wholeWheatFlour": "Mąka pełnoziarnista",
+    "breadWholeWheat": "Chleb Pełnoziarnisty",
+    "ezekielBread": "Chleb Ezechiela",
+    "proteinBreadVegan": "Chleb proteinowy wegański",
+    "roastedChickpeas": "Pieczona Ciecierzyca",
+    "dryRoastedEdamame": "Suszona Pieczona Edamame",
+    "proteinBarVegan": "Batonik proteinowy wegański",
+    "veganSausage": "Wegańska kiełbasa",
+    "veganBurgerPatty": "Wegański Burger Patty",
+    "mycoproteinVegan": "Wegańskie mykoproteiny",
+    "beanSprouts": "Kiełki Fasoli",
+    "alfalfaSprouts": "Kiełki lucerny"
+  }
+}

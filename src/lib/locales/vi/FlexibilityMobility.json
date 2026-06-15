@@ -1,0 +1,227 @@
+{
+  "header": {
+    "title": "Tính linh hoạt và cơ động",
+    "subtitle": "Cải thiện phạm vi chuyển động và ngăn ngừa chấn thương",
+    "back": "Quay lại Trang tổng quan"
+  },
+  "tabs": {
+    "stretches": "Kéo dài hàng ngày",
+    "tests": "Kiểm tra khả năng di chuyển",
+    "log": "Nhật ký khôi phục"
+  },
+  "player": {
+    "stretch": "Kéo dài {{current}} trong tổng số {{total}}",
+    "resume": "Tiếp tục",
+    "pause": "Tạm dừng",
+    "skip": "Bỏ qua",
+    "cancel": "Hủy bỏ",
+    "bilateral_hint": "💡 Nhớ đổi bên khi hết giờ nhé",
+    "preview": {
+      "stretches_count": "{{count}} Kéo dài (tổng cộng {{duration}} phút):",
+      "start": "Bắt đầu quy trình {{duration}}-Min",
+      "cancel": "Hủy bỏ"
+    },
+    "complete": {
+      "title": "Hoàn thành thường lệ!",
+      "desc": "Bạn đã hoàn thành xuất sắc {{name}}!",
+      "rate_label": "Cảm thấy tốt hơn? Đánh giá sự cải thiện của bạn: {{rated}}/10",
+      "worse": "Tệ hơn",
+      "same": "giống nhau",
+      "much_better": "Tốt hơn nhiều",
+      "save": "Lưu phiên",
+      "done": "Xong"
+    }
+  },
+  "routines": {
+    "upper-body": {
+      "name": "Thân trên mở",
+      "focus": "Ngực, Vai, Giữa lưng",
+      "desc": "Giải tỏa căng thẳng do làm việc bàn giấy và sử dụng điện thoại",
+      "stretches": {
+        "Doorway Chest Stretch": {
+          "name": "Căng ngực cửa",
+          "desc": "Đứng ở ngưỡng cửa, đặt cẳng tay lên khung, nghiêng người về phía trước để cảm thấy ngực căng ra."
+        },
+        "Shoulder Rolls": {
+          "name": "Cuộn vai",
+          "desc": "Xoay vai về phía sau theo vòng tròn lớn, 10 lần."
+        },
+        "Thoracic Rotation": {
+          "name": "Xoay lồng ngực",
+          "desc": "Chống tay và đầu gối, xoay thân trên sang bên, mở ngực."
+        },
+        "Neck Stretch": {
+          "name": "Căng cổ",
+          "desc": "Nhẹ nhàng nghiêng đầu sang mỗi bên, giữ trong 30 giây mỗi bên."
+        },
+        "Tricep Stretch": {
+          "name": "Căng cơ tam đầu",
+          "desc": "Đưa cánh tay qua đầu, uốn cong khuỷu tay, kéo nhẹ bằng tay kia."
+        }
+      }
+    },
+    "lower-body": {
+      "name": "Thả lỏng thân dưới",
+      "focus": "Cơ gân kheo, cơ mông, cơ gấp hông",
+      "desc": "Kéo dài sâu cho đôi chân và hông săn chắc khi ngồi",
+      "stretches": {
+        "Pigeon Pose": {
+          "name": "tư thế chim bồ câu",
+          "desc": "Đưa một chân cong về phía trước, duỗi thẳng chân sau, hạ hông xuống."
+        },
+        "Hamstring Stretch": {
+          "name": "Căng gân kheo",
+          "desc": "Ngồi duỗi một chân, vươn về phía ngón chân, giữ thẳng lưng."
+        },
+        "Hip Flexor Lunge": {
+          "name": "Lunge cơ hông",
+          "desc": "Tư thế lunge, đẩy hông về phía trước để có cảm giác căng ở hông trước."
+        },
+        "Glute Stretch": {
+          "name": "Căng cơ mông",
+          "desc": "Nằm ngửa, bắt chéo mắt cá chân qua đầu gối đối diện, kéo về phía ngực."
+        },
+        "Calf Stretch": {
+          "name": "Căng bắp chân",
+          "desc": "Bước về phía trước trong tư thế lunge, giữ gót chân sau xuống để căng bắp chân."
+        }
+      }
+    },
+    "full-body": {
+      "name": "Dòng chảy toàn thân",
+      "focus": "Bảo dưỡng toàn thân",
+      "desc": "Hoàn thành thói quen linh hoạt từ đầu đến chân",
+      "stretches": {
+        "Cat-Cow": {
+          "name": "Mèo-Bò",
+          "desc": "Trên tay và đầu gối, luân phiên uốn cong và làm tròn cột sống."
+        },
+        "Downward Dog": {
+          "name": "Chó hướng xuống",
+          "desc": "Tay chân đặt thẳng, hông cao, tạo thành hình chữ V ngược."
+        },
+        "Child's Pose": {
+          "name": "Tư thế đứa trẻ",
+          "desc": "Đầu gối rộng, ngồi trên gót chân, hai tay duỗi thẳng về phía trước."
+        },
+        "Seated Twist": {
+          "name": "ngồi xoắn",
+          "desc": "Ngồi bắt chéo chân, xoay thân sang mỗi bên, đưa tay ra sau lưng."
+        },
+        "Forward Fold": {
+          "name": "Gấp về phía trước",
+          "desc": "Đứng, xoay hông, vươn về phía ngón chân, thả lỏng đầu."
+        },
+        "Hip Circles": {
+          "name": "Vòng hông",
+          "desc": "Chống tay lên hông, tạo thành vòng tròn lớn với hông theo cả hai hướng."
+        },
+        "Arm Circles": {
+          "name": "Vòng tay",
+          "desc": "Mở rộng cánh tay, thực hiện các vòng tròn lớn về phía trước rồi lùi lại."
+        }
+      }
+    },
+    "dynamic-warmup": {
+      "name": "Khởi động năng động",
+      "focus": "Kích hoạt trước khi tập luyện",
+      "desc": "Chuẩn bị cơ thể trước khi tập luyện",
+      "stretches": {
+        "Leg Swings": {
+          "name": "Đu chân",
+          "desc": "Giữ tường, vung chân về phía trước và phía sau, sau đó sang bên."
+        },
+        "Arm Circles": {
+          "name": "Vòng tay",
+          "desc": "Vòng tròn nhỏ đến lớn, tiến và lùi."
+        },
+        "Torso Twists": {
+          "name": "xoắn thân",
+          "desc": "Xoay phần thân trên sang bên với cánh tay thả lỏng."
+        },
+        "Walking Lunges": {
+          "name": "Phổi đi bộ",
+          "desc": "Bước về phía trước vào tư thế lunge, đổi chân trong khi di chuyển về phía trước."
+        },
+        "High Knees": {
+          "name": "Đầu gối cao",
+          "desc": "Tiến hành tại chỗ đưa đầu gối lên cao bằng hông."
+        }
+      }
+    }
+  },
+  "benefits": {
+    "title": "Tại sao việc kéo dãn hàng ngày lại quan trọng"
+  },
+  "tests": {
+    "status": {
+      "title": "Tình trạng di chuyển của bạn",
+      "based_on": "Dựa trên {{count}} kết quả kiểm tra",
+      "complete_below": "Hoàn thành các bài kiểm tra dưới đây",
+      "score_label": "Điểm: {{điểm}}/6 điểm (Đạt=2, Một phần=1, Cần rèn luyện=0)",
+      "elite": "Tính di động ưu tú",
+      "good": "Tính cơ động tốt",
+      "limited": "Khả năng di chuyển hạn chế",
+      "not_tested": "Chưa được kiểm tra"
+    },
+    "items": {
+      "sit-reach": {
+        "name": "Bài kiểm tra ngồi và vươn",
+        "desc": "Ngồi duỗi thẳng chân, vươn về phía ngón chân",
+        "pass": "Có thể chạm hoặc chuyền ngón chân",
+        "fail": "Hơn 6 inch tính từ ngón chân"
+      },
+      "shoulder-pass": {
+        "name": "Đi qua vai",
+        "desc": "Giữ một dải/cây gậy, giơ hai tay qua đầu và ra sau lưng",
+        "pass": "Có thể đi qua một cách suôn sẻ",
+        "fail": "Không thể hoàn thành chuyển động"
+      },
+      "deep-squat": {
+        "name": "Giữ tư thế squat sâu",
+        "desc": "Ngồi xổm xuống, gót chân phẳng, giữ trong 30 giây",
+        "pass": "Có thể giữ được 30s, hạ gót xuống",
+        "fail": "Gót chân nhấc lên hoặc không thể giữ được"
+      }
+    },
+    "tips": {
+      "title": "Mẹo kiểm tra"
+    },
+    "actions": {
+      "pass": "✓ Đạt",
+      "partial": "~ Một phần",
+      "fail": "✗ Cần làm việc"
+    }
+  },
+  "log": {
+    "title": "Phiên khôi phục nhật ký",
+    "duration": "Thời lượng (phút)",
+    "focus_areas": "Lĩnh vực trọng tâm (chọn tất cả những gì áp dụng)",
+    "soreness_label": "Đau nhức trước buổi tập: {{level}}/10",
+    "no_pain": "1 - Không Đau",
+    "moderate": "5 - Vừa phải",
+    "very_sore": "10 - Rất đau",
+    "submit": "🧘 Phiên đăng nhập",
+    "heatmap": {
+      "title": "Bản đồ nhiệt phục hồi",
+      "legend": "Chấm tím đánh dấu ngày tháng hồi phục"
+    },
+    "badge": {
+      "title": "Bằng chứng thương tích!",
+      "desc": "Bạn đã hoàn thành {{count}} phiên khôi phục trong tuần này!"
+    },
+    "stats": {
+      "total": "Tổng số phút",
+      "this_week": "Tuần này"
+    },
+    "recent": "Phiên gần đây",
+    "areas": {
+      "Neck": "cổ",
+      "Shoulders": "Vai",
+      "Back": "Quay lại",
+      "Hips": "hông",
+      "Legs": "chân",
+      "Full Body": "Toàn thân"
+    }
+  }
+}

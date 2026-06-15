@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "back": "Vissza az irányítópultra"
+  },
+  "header": {
+    "title": "Cukorbetegség diéta útmutató",
+    "subtitle": "Figyelje a glükózt és sajátítsa el a lemezes módszert"
+  },
+  "alert": {
+    "title": "Alacsony vércukorszint figyelmeztetés",
+    "desc": "Az Ön leolvasása hipoglikémiát (alacsony vércukorszintet) jelez. Kérjük, haladéktalanul intézkedjen:",
+    "actions": {
+      "carbs": "Fogyassz 15 g gyors hatású szénhidrátot (pl. 4 uncia gyümölcslé, 3-4 glükóz tabletta)",
+      "wait": "Várjon 15 percet",
+      "repeat": "Tesztelje újra; ha még mindig alacsony, ismételje meg a kezelést",
+      "contact": "Forduljon orvosához, ha a szintek nem stabilizálódnak"
+    }
+  },
+  "tabs": {
+    "plate": "Diabetes lemez",
+    "log": "Glükóznapló",
+    "gi": "GI keresés"
+  },
+  "log": {
+    "title": "Log glükóz leolvasás",
+    "unit": "Mértékegység",
+    "value": "Glükózszint ({{unit}})",
+    "valuePlaceholder": "Írja be az értéket (pl. 110)",
+    "valuePlaceholderMmol": "Írja be az értéket (pl. 6.1)",
+    "timing": "Olvasási időzítés",
+    "mealContext": "Étkezési kontextus / Megjegyzések",
+    "mealContextPlaceholder": "mit ettél? Hogy érzed magad?",
+    "submit": "Olvasás mentése",
+    "success": "A glükózleolvasás sikeresen elmentve!",
+    "targets": {
+      "title": "Szabványos céltartományok (mg/dl)",
+      "fasting": "Éhgyomri: 80-130 mg/dl",
+      "postMeal": "1-2 óra étkezés után: < 180 mg/dl",
+      "low": "Alacsony: < 70 mg/dl"
+    },
+    "recent": {
+      "title": "Legutóbbi olvasmányok",
+      "noReadings": "Még nincs naplózott leolvasás",
+      "trend": "Glükóztrend (legutóbbi 7 mérés)",
+      "targetMax": "Cél max (böjt)",
+      "targetPost": "Cél max (étkezés után)"
+    }
+  },
+  "status": {
+    "normal": "Normális",
+    "high": "Magas",
+    "low": "Alacsony"
+  },
+  "timing": {
+    "fasting": "Böjt / étkezés előtt",
+    "preMeal": "Étkezés előtt",
+    "postMeal1h": "1 óra étkezés után",
+    "postMeal2h": "2 óra étkezés után",
+    "bedtime": "Lefekvés"
+  },
+  "plate": {
+    "intro": {
+      "title": "A cukorbetegség lemez módszere",
+      "desc": "A Plate Method egy egyszerű módja annak, hogy számolás nélkül tervezd meg az étkezéseket. Az adagok szabályozására és az egyensúlyra összpontosít, hogy segítsen kezelni a vércukorszintet."
+    },
+    "build": {
+      "title": "Építsd meg tányérodat",
+      "hint": "Kattintson egy szakaszra az ajánlott élelmiszerek megtekintéséhez"
+    },
+    "categories": {
+      "veggies": {
+        "name": "Nem keményítőtartalmú zöldségek",
+        "percent": "50%",
+        "desc": "Töltsd meg a tányér felét színes, rostban gazdag zöldségekkel"
+      },
+      "protein": {
+        "name": "Lean Protein",
+        "percent": "25%",
+        "desc": "Töltsük meg a negyedét sovány fehérjeforrásokkal"
+      },
+      "carbs": {
+        "name": "Egészséges szénhidrátok",
+        "percent": "25%",
+        "desc": "Töltsön meg egy negyedet teljes kiőrlésű gabonával vagy keményítőtartalmú zöldségekkel"
+      }
+    },
+    "principles": {
+      "title": "A lemezes módszer alapelvei",
+      "veggies": {
+        "title": "Elősz��r a zöldségek",
+        "desc": "Először egyen zöldséget, hogy lelassítsa a glükóz felszívódását az étkezés többi részéből."
+      },
+      "protein": {
+        "title": "Minőségi fehérje",
+        "desc": "Válasszon sovány opciókat, hogy támogassa az izmok karbantartását túlzott telített zsírok nélkül."
+      },
+      "carbs": {
+        "title": "Figyelmes szénhidrátok",
+        "desc": "Ragaszkodjon az összetett szénhidrátokhoz, amelyek kevésbé befolyásolják a vércukorszint-emelkedést."
+      }
+    }
+  },
+  "gi": {
+    "intro": {
+      "title": "Glikémiás index (GI) keresése",
+      "desc": "A glikémiás index az alapján rangsorolja a szénhidrátokat, hogy mennyire emelik meg a vércukorszintet egy referencia élelmiszerhez képest.",
+      "low": "Alacsony (0-55)",
+      "medium": "Közepes (56-69)",
+      "high": "Magas (70+)"
+    },
+    "labels": {
+      "low": "Alacsony GI",
+      "medium": "Közepes GI",
+      "high": "Magas GI"
+    },
+    "search": "Keressen élelmiszert (pl. zab, banán...)",
+    "noResults": "Nem található a keresésnek megfelelő élelmiszer"
+  },
+  "foods": {
+    "Spinach": "Spenót",
+    "Broccoli": "Brokkoli",
+    "Cauliflower": "Karfiol",
+    "Bell Peppers": "Bell Peppers",
+    "Zucchini": "Cukkini",
+    "Asparagus": "Spárga",
+    "Cucumber": "Uborka",
+    "Tomatoes": "Paradicsom",
+    "Chicken Breast": "Csirkemell",
+    "Fish (Salmon, Tuna)": "hal (lazac, tonhal)",
+    "Tofu": "Tofu",
+    "Lentils": "Lencse",
+    "Eggs": "Tojás",
+    "Turkey": "Törökország",
+    "Greek Yogurt": "Görög Joghurt",
+    "Brown Rice": "Barna rizs",
+    "Quinoa": "Quinoa",
+    "Sweet Potato": "Édesburgonya",
+    "Whole Wheat Pasta": "Teljes kiőrlésű tészta",
+    "Oats": "Zab",
+    "Barley": "Árpa"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "back": "返回儀表板"
+  },
+  "header": {
+    "title": "計步器",
+    "subtitle": "追蹤您的每日步數並實現您的目標",
+    "profile": "公司簡介"
+  },
+  "tabs": {
+    "tracker": "追蹤器",
+    "history": "歷史"
+  },
+  "tracker": {
+    "stepsToday": "今天的步驟",
+    "goalAchieved": "目標達到了！",
+    "stats": {
+      "distance": "距離",
+      "calories": "卡路里",
+      "activeTime": "活躍時間",
+      "km": "公里",
+      "kcal": "千卡",
+      "mins": "分分鐘"
+    },
+    "goal": {
+      "label": "每日目標",
+      "value": "{{val}} 步",
+      "change": "改變目標"
+    },
+    "quickAdd": {
+      "title": "快速新增步驟",
+      "label": "自訂步驟",
+      "placeholder": "例如，3500",
+      "submit": "添加"
+    },
+    "insights": {
+      "title": "今日見解",
+      "remaining": "剩餘步驟",
+      "stride": "步幅",
+      "progress": "進展",
+      "complete": "完成！",
+      "percentOfGoal": "目標的 {{val}}%"
+    },
+    "reset": "重置今日步數"
+  },
+  "history": {
+    "title": "步驟歷史記錄",
+    "noHistory": "還沒有歷史記錄。開始追蹤您的步數！",
+    "today": "今天",
+    "stats": {
+      "steps": "步驟",
+      "goal": "目標",
+      "progress": "進展"
+    }
+  },
+  "modals": {
+    "goal": {
+      "title": "設定每日目標",
+      "subtitle": "輸入您的每日目標步數",
+      "placeholder": "例如，10000",
+      "cancel": "取消",
+      "save": "儲存"
+    },
+    "profile": {
+      "title": "更新個人資料",
+      "subtitle": "這有助於計算準確的距離和卡路里",
+      "height": "身高（公分）",
+      "weight": "重量（公斤）",
+      "gender": "性別",
+      "male": "男",
+      "female": "女",
+      "placeholderHeight": "例如，170",
+      "placeholderWeight": "例如，70",
+      "cancel": "取消",
+      "save": "儲存"
+    }
+  }
+}

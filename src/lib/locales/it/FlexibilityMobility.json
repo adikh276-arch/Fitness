@@ -1,0 +1,227 @@
+{
+  "header": {
+    "title": "Flessibilità e mobilità",
+    "subtitle": "Migliora la gamma di movimento e previene gli infortuni",
+    "back": "Torna alla dashboard"
+  },
+  "tabs": {
+    "stretches": "Stretching giornalieri",
+    "tests": "Prove di mobilità",
+    "log": "Registro di ripristino"
+  },
+  "player": {
+    "stretch": "Estensione {{current}} di {{total}}",
+    "resume": "Riprendi",
+    "pause": "Pausa",
+    "skip": "Salta",
+    "cancel": "Annulla",
+    "bilateral_hint": "💡 Ricordati di cambiare lato allo scadere del tempo",
+    "preview": {
+      "stretches_count": "{{count}} allungamenti ({{duration}} minuti in totale):",
+      "start": "Avvia la routine da {{duration}}-Min",
+      "cancel": "Annulla"
+    },
+    "complete": {
+      "title": "Routine completata!",
+      "desc": "Ottimo lavoro nel completare {{name}}!",
+      "rate_label": "Ti senti meglio? Valuta il tuo miglioramento: {{rating}}/10",
+      "worse": "Peggio ancora",
+      "same": "Lo stesso",
+      "much_better": "Molto meglio",
+      "save": "Salva sessione",
+      "done": "Fatto"
+    }
+  },
+  "routines": {
+    "upper-body": {
+      "name": "Parte superiore del corpo aperta",
+      "focus": "Petto, spalle, parte centrale della schiena",
+      "desc": "Rilascia la tensione dal lavoro alla scrivania e dall'uso del telefono",
+      "stretches": {
+        "Doorway Chest Stretch": {
+          "name": "Stretching del torace della porta",
+          "desc": "Stare sulla soglia, posizionare gli avambracci sul telaio, piegarsi in avanti per sentire l'allungamento del torace."
+        },
+        "Shoulder Rolls": {
+          "name": "Rotoli sulle spalle",
+          "desc": "Rotolare le spalle all'indietro in ampi cerchi, 10 ripetizioni."
+        },
+        "Thoracic Rotation": {
+          "name": "Rotazione toracica",
+          "desc": "Su mani e ginocchia, ruotare la parte superiore del corpo da un lato all'altro, aprendo il torace."
+        },
+        "Neck Stretch": {
+          "name": "Allungamento del collo",
+          "desc": "Inclinare delicatamente la testa su ciascun lato, mantenendola per 30 secondi per lato."
+        },
+        "Tricep Stretch": {
+          "name": "Allungamento dei tricipiti",
+          "desc": "Allungare il braccio sopra la testa, piegare il gomito e tirare delicatamente con l'altra mano."
+        }
+      }
+    },
+    "lower-body": {
+      "name": "Rilascio della parte inferiore del corpo",
+      "focus": "Muscoli della coscia, glutei, flessori dell'anca",
+      "desc": "Allungamenti profondi per gambe e fianchi tesi da seduti",
+      "stretches": {
+        "Pigeon Pose": {
+          "name": "Posa del piccione",
+          "desc": "Portare una gamba piegata in avanti, estendere la gamba posteriore diritta, abbassare i fianchi."
+        },
+        "Hamstring Stretch": {
+          "name": "Allungamento dei tendini del ginocchio",
+          "desc": "Sedersi con una gamba estesa, allungarsi verso le punte dei piedi, mantenere la schiena dritta."
+        },
+        "Hip Flexor Lunge": {
+          "name": "Affondi sui flessori dell'anca",
+          "desc": "Posizione di affondo, spingere i fianchi in avanti per sentire l'allungamento dell'anca anteriore."
+        },
+        "Glute Stretch": {
+          "name": "Allungamento dei glutei",
+          "desc": "Sdraiato sulla schiena, incrocia la caviglia sul ginocchio opposto e tira verso il petto."
+        },
+        "Calf Stretch": {
+          "name": "Allungamento del polpaccio",
+          "desc": "Fai un passo avanti in affondo, tieni il tallone indietro per allungare il polpaccio."
+        }
+      }
+    },
+    "full-body": {
+      "name": "Flusso completo del corpo",
+      "focus": "Manutenzione totale del corpo",
+      "desc": "Routine completa di flessibilità dalla testa ai piedi",
+      "stretches": {
+        "Cat-Cow": {
+          "name": "Gatto-Mucca",
+          "desc": "Su mani e ginocchia, la colonna vertebrale si inarca e arrotonda alternativamente."
+        },
+        "Downward Dog": {
+          "name": "Cane a testa in giù",
+          "desc": "Mani e piedi piantati, fianchi alti, che formano una V rovesciata."
+        },
+        "Child's Pose": {
+          "name": "Posa del bambino",
+          "desc": "Ginocchia larghe, sedersi sui talloni, braccia tese in avanti."
+        },
+        "Seated Twist": {
+          "name": "Torsione seduta",
+          "desc": "Sedersi a gambe incrociate, ruotare il busto su ciascun lato, con le mani dietro la schiena."
+        },
+        "Forward Fold": {
+          "name": "Piega in avanti",
+          "desc": "In piedi, fare perno sui fianchi, allungarsi verso le dita dei piedi, lasciare penzolare la testa."
+        },
+        "Hip Circles": {
+          "name": "Cerchi dell'anca",
+          "desc": "Con le mani sui fianchi, fai ampi cerchi con i fianchi in entrambe le direzioni."
+        },
+        "Arm Circles": {
+          "name": "Cerchi delle braccia",
+          "desc": "Allungare le braccia, fare ampi cerchi in avanti e poi indietro."
+        }
+      }
+    },
+    "dynamic-warmup": {
+      "name": "Riscaldamento dinamico",
+      "focus": "Attivazione pre-allenamento",
+      "desc": "Prepara il tuo corpo prima dell'esercizio",
+      "stretches": {
+        "Leg Swings": {
+          "name": "Oscillazioni delle gambe",
+          "desc": "Tieni la parete, fai oscillare la gamba avanti e indietro, quindi da un lato all'altro."
+        },
+        "Arm Circles": {
+          "name": "Cerchi delle braccia",
+          "desc": "Cerchi da piccoli a grandi, avanti e indietro."
+        },
+        "Torso Twists": {
+          "name": "Torsioni del busto",
+          "desc": "Ruotare la parte superiore del corpo da un lato all'altro con le braccia sciolte."
+        },
+        "Walking Lunges": {
+          "name": "Affondi camminando",
+          "desc": "Fai un passo avanti in affondo, alterna le gambe mentre vai avanti."
+        },
+        "High Knees": {
+          "name": "Ginocchia alte",
+          "desc": "Marciare sul posto portando le ginocchia all'altezza dei fianchi."
+        }
+      }
+    }
+  },
+  "benefits": {
+    "title": "Perché lo stretching quotidiano è importante"
+  },
+  "tests": {
+    "status": {
+      "title": "Il tuo stato di mobilità",
+      "based_on": "In base ai risultati dei test {{count}}",
+      "complete_below": "Test completi di seguito",
+      "score_label": "Punteggio: {{points}}/6 punti (Superato=2, Parziale=1, Richiede lavoro=0)",
+      "elite": "Mobilità d'élite",
+      "good": "Buona mobilità",
+      "limited": "Mobilità limitata",
+      "not_tested": "Non testato"
+    },
+    "items": {
+      "sit-reach": {
+        "name": "Test seduto e allungato",
+        "desc": "Sedersi con le gambe dritte, allungarle verso le dita dei piedi",
+        "pass": "Può toccare o passare le dita dei piedi",
+        "fail": "Più di 6 pollici dalle dita dei piedi"
+      },
+      "shoulder-pass": {
+        "name": "Passaggio sulle spalle",
+        "desc": "Tieni una fascia/bastone, solleva le braccia sopra la testa e dietro la schiena",
+        "pass": "Può passare senza problemi",
+        "fail": "Impossibile completare il movimento"
+      },
+      "deep-squat": {
+        "name": "Tenuta dello squat profondo",
+        "desc": "Accovacciarsi con i talloni piatti, tenere premuto per 30 secondi",
+        "pass": "Può contenere 30 anni, con i talloni abbassati",
+        "fail": "I talloni si sollevano o non riescono a reggersi"
+      }
+    },
+    "tips": {
+      "title": "Suggerimenti per i test"
+    },
+    "actions": {
+      "pass": "✓ Passa",
+      "partial": "~ Parziale",
+      "fail": "✗ Necessita di lavori"
+    }
+  },
+  "log": {
+    "title": "Registra la sessione di recupero",
+    "duration": "Durata (minuti)",
+    "focus_areas": "Aree di interesse (seleziona tutte le risposte pertinenti)",
+    "soreness_label": "Dolore prima della sessione: {{level}}/10",
+    "no_pain": "1 - Nessun dolore",
+    "moderate": "5 - Moderato",
+    "very_sore": "10 - Molto dolorante",
+    "submit": "🧘 Registra sessione",
+    "heatmap": {
+      "title": "Mappa termica di ripristino",
+      "legend": "I punti viola contrassegnano i giorni con sessioni di recupero"
+    },
+    "badge": {
+      "title": "A prova di infortunio!",
+      "desc": "Hai completato {{count}} sessioni di recupero questa settimana!"
+    },
+    "stats": {
+      "total": "Minuti totali",
+      "this_week": "Questa settimana"
+    },
+    "recent": "Sessioni recenti",
+    "areas": {
+      "Neck": "Collo",
+      "Shoulders": "Spalle",
+      "Back": "Indietro",
+      "Hips": "Fianchi",
+      "Legs": "Gambe",
+      "Full Body": "Corpo intero"
+    }
+  }
+}

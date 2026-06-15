@@ -42,7 +42,8 @@
       "title": "Lectures récentes",
       "noReadings": "Aucune donnée enregistrée pour le moment",
       "trend": "Tendance sur 7 jours",
-      "targetMax": "Objectif max"
+      "targetMax": "Objectif max",
+      "targetPost": "Cible Max (après le repas)"
     }
   },
   "plate": {
@@ -101,7 +102,8 @@
       "low": "Faible indice glycémique",
       "medium": "IG moyen",
       "high": "IG élevé"
-    }
+    },
+    "search": "Rechercher un aliment (ex. avoine, banane...)"
   },
   "timing": {
     "fasting": "Jeûne",

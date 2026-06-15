@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "back": "Tilbake til Dashboard"
+  },
+  "header": {
+    "title": "Kaloriforbrenner",
+    "subtitle": "Spor forbrente kalorier under aktivitetene dine"
+  },
+  "tabs": {
+    "calculator": "Kalkulator",
+    "log": "Aktivitetslogg ({{count}})"
+  },
+  "calculator": {
+    "form": {
+      "title": "Aktivitetsdetaljer",
+      "selectActivity": "Velg Aktivitet",
+      "weight": "Din vekt",
+      "duration": "Varighet (minutter)",
+      "placeholders": {
+        "weightKg": "f.eks. 70",
+        "weightLbs": "f.eks. 154"
+      },
+      "submit": "Logg aktivitet"
+    },
+    "summary": {
+      "title": "Brenn sammendrag",
+      "calories": "Kalorier forbrent",
+      "activity": "Aktivitet",
+      "duration": "Varighet",
+      "weight": "Vekt",
+      "burnRate": "Kaloriforbrenningshastighet",
+      "formula": "Formel: (MET × 3,5 × Vekt kg / 200) × Varighet min"
+    }
+  },
+  "log": {
+    "noActivities": "Ingen aktiviteter logget ennå",
+    "noActivitiesDesc": "Begynn å spore treningsøktene dine for å se dem her",
+    "logFirst": "Logg din første aktivitet",
+    "summary": {
+      "title": "Totalt sammendrag",
+      "totalActivities": "Totale aktiviteter",
+      "totalCalories": "Totale kalorier",
+      "totalTime": "Total tid",
+      "avgSession": "Gj.sn. kal/økt"
+    },
+    "item": {
+      "duration": "Varighet",
+      "met": "MET",
+      "calories": "Kalorier",
+      "minutes": "min"
+    }
+  },
+  "activities": {
+    "walking": "Gå (rask)",
+    "running": "Løping (9 min/mil)",
+    "cycling": "Sykling (moderat)",
+    "yoga": "Yoga",
+    "swimming": "Svømming (runder)",
+    "strength": "Styrketrening",
+    "household": "Husarbeid",
+    "dance": "Dans/Aerobic"
+  }
+}

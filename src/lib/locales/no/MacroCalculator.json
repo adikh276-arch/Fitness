@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "back": "Tilbake til Dashboard"
+  },
+  "header": {
+    "title": "Makrokalkulator",
+    "subtitle": "Beregn ditt daglige kalori- og makronæringsbehov"
+  },
+  "tabs": {
+    "input": "Dine detaljer",
+    "results": "Dine resultater"
+  },
+  "form": {
+    "title": "Dine detaljer",
+    "age": "Alder (år)",
+    "gender": "Kjønn",
+    "male": "Mann",
+    "female": "Kvinne",
+    "weight": "Vekt",
+    "height": "Høyde",
+    "activity": "Aktivitetsnivå",
+    "goal": "Mål",
+    "submit": "Beregn makroer",
+    "placeholders": {
+      "age": "f.eks. 30",
+      "weightKg": "f.eks. 70",
+      "weightLbs": "f.eks. 154",
+      "heightCm": "f.eks. 175",
+      "heightFt": "Føtter",
+      "heightIn": "Tommer"
+    },
+    "activityLevels": {
+      "sedentary": "Stillesittende (lite/ingen trening)",
+      "light": "Lett aktiv (1-3 dager/uke)",
+      "moderate": "Middels aktiv (3-5 dager/uke)",
+      "very": "Veldig aktiv (6-7 dager/uke)"
+    },
+    "goals": {
+      "maintenance": "Vedlikehold",
+      "loss": "Vekttap",
+      "gain": "Muskeløkning"
+    }
+  },
+  "results": {
+    "title": "Dine resultater",
+    "calorieTarget": "Daglig kalorimål",
+    "kcalPerDay": "kcal/dag",
+    "bmrLabel": "BMR: {{val}} kcal",
+    "protein": "Protein",
+    "carbs": "Karbohydrater",
+    "fat": "Fett",
+    "submit": "Lagre til profil",
+    "placeholder": "Skriv inn detaljene dine og klikk på Beregn for å se resultatene dine",
+    "success": "Makrodata lagret! Profildetaljene dine er synkronisert.",
+    "validation": "Vennligst skriv inn gyldige verdier"
+  }
+}

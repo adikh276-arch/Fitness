@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "back": "返回仪表板"
+  },
+  "header": {
+    "title": "饮水量追踪器",
+    "subtitle": "跟踪您的每日水分摄入并实现您的目标"
+  },
+  "tabs": {
+    "tracker": "今日追踪器",
+    "history": "历史"
+  },
+  "tracker": {
+    "consumed": "消耗毫升数",
+    "goalLabel": "每日目标",
+    "remainingLabel": "剩余",
+    "changeGoal": "更改每日目标",
+    "quickAdd": {
+      "title": "快速添加",
+      "smallGlass": "小玻璃杯",
+      "bottle": "瓶子",
+      "largeBottle": "大瓶",
+      "jug": "水罐"
+    },
+    "custom": {
+      "label": "定制量（毫升）",
+      "placeholder": "例如，350",
+      "submit": "添加",
+      "undo": "撤消最后一项"
+    }
+  },
+  "history": {
+    "title": "饮水历史",
+    "noHistory": "尚无可用历史记录",
+    "today": "今天",
+    "summary": "{{总计}}毫升/{{目标}}毫升 ({{百分比}}%)",
+    "stats": {
+      "total": "总计",
+      "entries": "参赛作品"
+    }
+  },
+  "modal": {
+    "title": "设定每日目标",
+    "subtitle": "输入您的每日目标饮水量",
+    "placeholder": "例如，2500",
+    "calcToggleShow": "计算推荐",
+    "calcToggleHide": "隐藏计算器",
+    "formula": "公式：重量（kg）×35ml",
+    "weightLabel": "您的体重（公斤）",
+    "weightPlaceholder": "例如，70",
+    "calcBtn": "计算与应用",
+    "cancel": "取消",
+    "save": "保存"
+  }
+}

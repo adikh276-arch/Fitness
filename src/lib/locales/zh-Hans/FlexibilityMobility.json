@@ -1,0 +1,227 @@
+{
+  "header": {
+    "title": "灵活性和移动性",
+    "subtitle": "改善运动范围并防止受伤",
+    "back": "返回仪表板"
+  },
+  "tabs": {
+    "stretches": "每日伸展运动",
+    "tests": "流动性测试",
+    "log": "恢复日志"
+  },
+  "player": {
+    "stretch": "拉伸 {{current}} 共 {{total}}",
+    "resume": "简历",
+    "pause": "暂停",
+    "skip": "跳过",
+    "cancel": "取消",
+    "bilateral_hint": "💡 记得���计时器结束时换边",
+    "preview": {
+      "stretches_count": "{{count}} 次拉伸（总共 {{duration}} 分钟）：",
+      "start": "开始 {{duration}}-分钟例程",
+      "cancel": "取消"
+    },
+    "complete": {
+      "title": "例行公事完成！",
+      "desc": "干得好，完成了{{name}}！",
+      "rate_label": "感觉好多了？评价您的进步：{{ rating}}/10",
+      "worse": "更糟糕的是",
+      "same": "一样",
+      "much_better": "好多了",
+      "save": "保存会话",
+      "done": "完成"
+    }
+  },
+  "routines": {
+    "upper-body": {
+      "name": "上半身打开",
+      "focus": "胸部、肩部、中背部",
+      "desc": "释放办公桌工作和电话使用带来的压力",
+      "stretches": {
+        "Doorway Chest Stretch": {
+          "name": "门口胸部伸展运动",
+          "desc": "站在门口，将前臂放在框架上，向前倾斜以感觉胸部伸展。"
+        },
+        "Shoulder Rolls": {
+          "name": "肩部卷起",
+          "desc": "将肩膀向后滚动大圈，重复 10 次。"
+        },
+        "Thoracic Rotation": {
+          "name": "胸椎旋转",
+          "desc": "双手和膝盖着地，左右旋转上半身，打开胸部。"
+        },
+        "Neck Stretch": {
+          "name": "颈部伸展",
+          "desc": "轻轻地将头向两侧倾斜，每侧保持 30 秒。"
+        },
+        "Tricep Stretch": {
+          "name": "三头肌伸展",
+          "desc": "将手臂举过头顶，弯曲肘部，用另一只手轻轻拉动。"
+        }
+      }
+    },
+    "lower-body": {
+      "name": "下半身释放",
+      "focus": "腿筋、臀肌、髋屈肌",
+      "desc": "深度伸展腿部和臀部因坐着而紧张的情况",
+      "stretches": {
+        "Pigeon Pose": {
+          "name": "鸽子式",
+          "desc": "将一条腿向前弯曲，后腿伸直，臀部下沉。"
+        },
+        "Hamstring Stretch": {
+          "name": "腿筋拉伸",
+          "desc": "坐着，伸直一条腿，伸向脚趾，保持背部挺直。"
+        },
+        "Hip Flexor Lunge": {
+          "name": "屈髋弓步",
+          "desc": "弓步姿势，向前推动臀部，感觉臀部前侧有拉伸感。"
+        },
+        "Glute Stretch": {
+          "name": "臀部伸展",
+          "desc": "仰卧，脚踝交叉在对侧膝盖上，拉向胸部。"
+        },
+        "Calf Stretch": {
+          "name": "小腿伸展",
+          "desc": "向前迈出弓步，保持后脚跟向下以伸展小腿。"
+        }
+      }
+    },
+    "full-body": {
+      "name": "全身流动",
+      "focus": "全身保养",
+      "desc": "完整的从头到脚的灵活性训练",
+      "stretches": {
+        "Cat-Cow": {
+          "name": "猫牛",
+          "desc": "双手和膝盖交替弯曲脊柱。"
+        },
+        "Downward Dog": {
+          "name": "下犬式",
+          "desc": "手脚着地，臀部抬高，形成倒V字形。"
+        },
+        "Child's Pose": {
+          "name": "孩子的姿势",
+          "desc": "膝盖打开，向后坐在脚后跟上，双臂向前伸展。"
+        },
+        "Seated Twist": {
+          "name": "坐姿扭转",
+          "desc": "盘腿而坐，将躯干向两侧旋转，手放在背后。"
+        },
+        "Forward Fold": {
+          "name": "向前折叠",
+          "desc": "站立，髋部铰接，伸向脚趾，头悬垂。"
+        },
+        "Hip Circles": {
+          "name": "臀圈",
+          "desc": "双手放在臀部，臀部向两个方向画大圈。"
+        },
+        "Arm Circles": {
+          "name": "手臂圈",
+          "desc": "张开双臂，向前画大圈，然后向后画大圈。"
+        }
+      }
+    },
+    "dynamic-warmup": {
+      "name": "动态热身",
+      "focus": "锻炼前激活",
+      "desc": "运动前做好身体准备",
+      "stretches": {
+        "Leg Swings": {
+          "name": "腿部摆动",
+          "desc": "扶住墙壁，前后摆动腿，然后左右摆动。"
+        },
+        "Arm Circles": {
+          "name": "手臂圈",
+          "desc": "由小到大的圆圈，向前和向后。"
+        },
+        "Torso Twists": {
+          "name": "躯干扭转",
+          "desc": "将上半身左右旋转，双臂放松。"
+        },
+        "Walking Lunges": {
+          "name": "弓步行走",
+          "desc": "向前迈出弓步，向前移动时交替双腿。"
+        },
+        "High Knees": {
+          "name": "高膝盖",
+          "desc": "原地行进，使膝盖达到臀部高度。"
+        }
+      }
+    }
+  },
+  "benefits": {
+    "title": "为什么每日拉伸很重要"
+  },
+  "tests": {
+    "status": {
+      "title": "您的行动状态",
+      "based_on": "基于 {{count}} 测试结果",
+      "complete_below": "完成下面的测试",
+      "score_label": "分数：{{points}}/6 分（通过=2，部分=1，需要工作=0）",
+      "elite": "精英流动性",
+      "good": "良好的机动性",
+      "limited": "行动不便",
+      "not_tested": "未测试"
+    },
+    "items": {
+      "sit-reach": {
+        "name": "坐姿和伸展测试",
+        "desc": "坐下来，双腿伸直，伸向脚趾",
+        "pass": "可以触摸或传递脚趾",
+        "fail": "距离脚趾超过 6 英寸"
+      },
+      "shoulder-pass": {
+        "name": "肩部通过",
+        "desc": "握住弹力带/棍子，将手臂举过头顶并放在背后",
+        "pass": "可以顺利通过",
+        "fail": "无法完成动作"
+      },
+      "deep-squat": {
+        "name": "深蹲保持",
+        "desc": "蹲下，脚跟平放，保持30秒",
+        "pass": "脚跟朝下，能坚持30秒",
+        "fail": "脚后跟抬起或无法握住"
+      }
+    },
+    "tips": {
+      "title": "测试技巧"
+    },
+    "actions": {
+      "pass": "✓ 通过",
+      "partial": "~ 部分",
+      "fail": "✗ 需要工作"
+    }
+  },
+  "log": {
+    "title": "日志恢复会话",
+    "duration": "持续时间（分钟）",
+    "focus_areas": "重点领域（选择所有适用项）",
+    "soreness_label": "训练前酸痛：{{level}}/10",
+    "no_pain": "1 - 无痛",
+    "moderate": "5 - 中等",
+    "very_sore": "10 - 非常疼痛",
+    "submit": "🧘 记录会话",
+    "heatmap": {
+      "title": "恢复热图",
+      "legend": "紫色圆点标志着恢复训练的日子"
+    },
+    "badge": {
+      "title": "伤害证明！",
+      "desc": "您本周已完成 {{count}} 次恢复训练！"
+    },
+    "stats": {
+      "total": "总分钟数",
+      "this_week": "本周"
+    },
+    "recent": "最近的会议",
+    "areas": {
+      "Neck": "颈部",
+      "Shoulders": "肩膀",
+      "Back": "返回",
+      "Hips": "臀部",
+      "Legs": "腿",
+      "Full Body": "全身"
+    }
+  }
+}

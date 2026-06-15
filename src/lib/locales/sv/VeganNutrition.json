@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "back": "Tillbaka till Dashboard"
+  },
+  "header": {
+    "title": "Vegansk kostguide",
+    "subtitle": "Komplett växtbaserad näringsverktygssats"
+  },
+  "tabs": {
+    "plate": "Vegansk tallrik",
+    "nutrients": "Mikronäringsämnen",
+    "calculator": "Proteinräknare"
+  },
+  "plate": {
+    "title": "Den kompletta veganska måltiden",
+    "proportions": {
+      "legumes": {
+        "title": "Baljväxter/bönor",
+        "subtitle": "Proteinkraftverk",
+        "examples": "Exempel: Linser, kikärter, svarta bönor, tofu, tempeh"
+      },
+      "grains": {
+        "title": "Fullkorn",
+        "subtitle": "Uthållig energi",
+        "examples": "Exempel: Quinoa, brunt ris, havre, fullkornsvete, korn"
+      },
+      "vegetables": {
+        "title": "Grönsaker",
+        "subtitle": "Rik på mikronäringsämnen",
+        "examples": "Exempel: bladgrönt, broccoli, paprika, morötter, tomater"
+      },
+      "fats": {
+        "title": "Hälsosamma fetter/frön",
+        "subtitle": "Hormonhälsa",
+        "examples": "Exempel: Avokado, nötter, frön, olivolja, tahini"
+      }
+    },
+    "tip": {
+      "title": "Pro-Tip: Öka järnabsorptionen",
+      "desc": "Växtbaserat järn (icke-hemjärn) absorberas mindre effektivt än animaliskt järn. Kombinera järnrik mat med vitamin C för att öka upptaget med upp till 300 %!",
+      "ironRich": "Järnrik mat",
+      "ironExamples": "Spenat, linser, quinoa, tofu, pumpafrön",
+      "vitaminC": "Vitamin C Boosters",
+      "vitaminCExamples": "Citronsaft, paprika, tomater, broccoli, apelsiner",
+      "perfectCombo": "Perfekt kombo: Linssoppa med citronsaft, spenatsallad med paprika"
+    }
+  },
+  "nutrients": {
+    "title": "The Big 4 Nutrient Tracker",
+    "progress": {
+      "title": "Dagens framsteg",
+      "done": "Klart",
+      "pending": "Väntar"
+    },
+    "why": {
+      "title": "Varför spåra dessa?",
+      "desc1": "Dessa fyra näringsämnen är de vanligaste bristerna i växtbaserad kost. Att spåra dagligt intag säkerställer att du får fullständig näring.",
+      "note": "Obs: B12 måste kompletteras eller konsumeras genom berikade livsmedel - det finns inte naturligt i växter."
+    },
+    "micronutrients": {
+      "b12": {
+        "name": "Vitamin B12",
+        "importance": "Kritisk för nervfunktion och DNA-syntes",
+        "dosage": "2,4 mcg dagligen"
+      },
+      "iron": {
+        "name": "Järn & Zink",
+        "importance": "Viktigt för syretransport och immunförsvar",
+        "dosage": "Järn: 18mg, Zink: 11mg dagligen"
+      },
+      "omega3": {
+        "name": "Omega-3 (ALA)",
+        "importance": "Hjärnhälsa och antiinflammatorisk",
+        "dosage": "1,6g dagligen"
+      },
+      "calcium": {
+        "name": "Kalcium",
+        "importance": "Benhälsa och muskelfunktion",
+        "dosage": "1000mg dagligen"
+      }
+    }
+  },
+  "calculator": {
+    "title": "Proteinkunskapsguide",
+    "subtitle": "Välj ett livsmedel och ange mängden för att omedelbart se dess proteininnehåll",
+    "form": {
+      "selectFood": "Sök och välj livsmedel",
+      "placeholderFood": "Välj mat...",
+      "searchPlaceholder": "Sök mat...",
+      "amount": "Mängd (gram)",
+      "placeholderAmount": "100",
+      "add": "Lägg till i beräkning",
+      "proteinPer100": "{{val}}g per 100g",
+      "matches": "Visar 5 av {{total}} matchningar",
+      "noMatches": "Inga livsmedel hittades"
+    },
+    "results": {
+      "title": "Proteinnedbrytning",
+      "estProtein": "Uppskattat proteininnehåll",
+      "calcInfo": "{{amount}}g av {{mat}}",
+      "summary": "Sammanfattning av aktuell beräkning",
+      "total": "Totalt protein",
+      "aminoAcid": "Aminosyra fullständighet",
+      "aminoComplete": "Komplett aminoprofil",
+      "aminoIncomplete": "Saknade korn eller baljväxter",
+      "aminoNote": "Baljväxter (linser/bönor/soja) + spannmål (ris/quinoa/havre) = komplett protein",
+      "save": "Logga totalt till historik",
+      "success": "Protein loggat framgångsrikt!",
+      "ironTip": {
+        "title": "Tips:",
+        "desc": "Kombinera med vitamin C (citron, paprika, tomater) för att öka järnupptaget med upp till 300 %!"
+      }
+    },
+    "reference": {
+      "title": "Snabbreferensguide"
+    }
+  },
+  "proteinSources": {
+    "tofu": "Tofu",
+    "tempeh": "Tempeh",
+    "edamame": "Edamame",
+    "soybeansBoiled": "Sojabönor kokta",
+    "soyChunks": "Sojabitar / TVP Torr",
+    "soyMince": "Sojafärs torr",
+    "soyMilk": "Sojamjölk osötad",
+    "soyYogurt": "Sojayoghurt Vanlig",
+    "seitan": "Seitan",
+    "lentilsCooked": "Kokta linser",
+    "redLentilsCooked": "Kokta röda linser",
+    "greenLentilsCooked": "Kokta gröna linser",
+    "blackLentilsCooked": "Kokta svarta linser",
+    "chickpeasCooked": "Kokta kikärter",
+    "blackBeansCooked": "Kokta svarta bönor",
+    "kidneyBeansCooked": "Kokta kidneybönor",
+    "pintoBeansCooked": "Kokta Pintobönor",
+    "cannelliniBeansCooked": "Kokta Cannellinibönor",
+    "navyBeansCooked": "Kokta marinblå bönor",
+    "adzukiBeansCooked": "Kokta Adzukibönor",
+    "mungBeansCooked": "Kokta Mungbönor",
+    "lupinBeans": "Lupinbönor",
+    "splitPeasCooked": "Delade ärtor kokta",
+    "greenPeas": "Gröna ärtor",
+    "peaProteinIsolate": "Ärtproteinisolat",
+    "peaMilk": "Ärtmjölk",
+    "hummus": "Hummus",
+    "falafel": "Falafel",
+    "quinoaCooked": "Kokt quinoa",
+    "amaranthCooked": "Amaranth tillagad",
+    "buckwheatCooked": "Kokt bovete",
+    "oatsDry": "Havre Torr",
+    "rolledOats": "Havre",
+    "steelCutOats": "Stålskuren havre",
+    "oatBran": "Havrekli",
+    "barleyCooked": "Kokt korn",
+    "milletCooked": "Hirs Kokt",
+    "brownRiceCooked": "Kokt brunt ris",
+    "wildRiceCooked": "Kokt vildris",
+    "teffCooked": "Teff Kokt",
+    "farroCooked": "Farro lagade mat",
+    "freekehCooked": "Freekeh Kokt",
+    "wholeWheatPastaCooked": "Helvete Pasta Kokt",
+    "chickpeaPastaDry": "Kikärtspasta torr",
+    "lentilPastaDry": "Linspasta torr",
+    "blackBeanPastaDry": "Black Bean Pasta Torr",
+    "spirulinaDry": "Spirulina torr",
+    "nutritionalYeast": "Näringsjäst",
+    "mushroomsWhite": "Svamp Vita",
+    "portobelloMushrooms": "Portobellosvampar",
+    "spinach": "Spenat",
+    "kale": "Grönkål",
+    "broccoli": "Broccoli",
+    "brusselsSprouts": "Brysselkål",
+    "sweetCorn": "Sockermajs",
+    "artichoke": "Kronärtskocka",
+    "avocado": "Avokado",
+    "pumpkinSeeds": "Pumpafrön",
+    "hempSeeds": "Hampa frön",
+    "chiaSeeds": "Chiafrön",
+    "flaxSeeds": "Linfrön",
+    "sesameSeeds": "Sesamfrön",
+    "sunflowerSeeds": "Solrosfrön",
+    "watermelonSeeds": "Vattenmelon frön",
+    "almonds": "Mandel",
+    "peanuts": "Jordnötter",
+    "peanutButterNatural": "Jordnötssmör naturligt",
+    "cashews": "Cashewnötter",
+    "pistachios": "Pistagenötter",
+    "walnuts": "Valnötter",
+    "hazelnuts": "Hasselnötter",
+    "brazilNuts": "Paranötter",
+    "almondButter": "Mandelsmör",
+    "tahini": "Tahini",
+    "cashewButter": "Cashew smör",
+    "pumpkinSeedButter": "Pumpafrön smör",
+    "sunflowerSeedButter": "Solrosfrösmör",
+    "almondFlour": "Mandelmjöl",
+    "chickpeaFlour": "Kikärtsmjöl / Besan",
+    "soyFlour": "Sojamjöl",
+    "wholeWheatFlour": "Fullkornsvetemjöl",
+    "breadWholeWheat": "Bröd fullkornsvete",
+    "ezekielBread": "Hesekiel bröd",
+    "proteinBreadVegan": "Proteinbröd Veganskt",
+    "roastedChickpeas": "Rostade kikärter",
+    "dryRoastedEdamame": "Torrrostad Edamame",
+    "proteinBarVegan": "Vegansk proteinbar",
+    "veganSausage": "Vegansk korv",
+    "veganBurgerPatty": "Vegansk Burger Patty",
+    "mycoproteinVegan": "Mykoprotein Vegan",
+    "beanSprouts": "Böngroddar",
+    "alfalfaSprouts": "Alfalfa groddar"
+  }
+}

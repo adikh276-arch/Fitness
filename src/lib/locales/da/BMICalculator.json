@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "back": "Tilbage til Dashboard"
+  },
+  "header": {
+    "title": "Smart BMI og kropskontekst",
+    "subtitle": "Spor dine kropsmålinger med klinisk præcision"
+  },
+  "streak": {
+    "title": "Opretholdt sund rækkevidde!",
+    "subtitle": "{{count}} på hinanden følgende aflæsninger i den sunde zone 🎉"
+  },
+  "tabs": {
+    "calculator": "BMI lommeregner",
+    "context": "Ud over BMI",
+    "history": "Trendhistorie"
+  },
+  "calculator": {
+    "title": "Beregn dit BMI",
+    "inputs": {
+      "height": "Højde",
+      "weight": "Vægt",
+      "feet": "Fødder",
+      "inches": "Tommer",
+      "placeholders": {
+        "heightCm": "f.eks. 170",
+        "heightFt": "Fødder",
+        "heightIn": "Tommer",
+        "weightKg": "f.eks. 70",
+        "weightLbs": "f.eks. 154"
+      }
+    },
+    "results": {
+      "yourBMI": "Dit BMI",
+      "placeholder": "Indtast dine målinger for at se dit BMI",
+      "submit": "Gem til profil",
+      "success": "✓ Gemt med succes!",
+      "categories": {
+        "underweight": "Undervægtig",
+        "healthy": "Sund vægt",
+        "normal": "Normal",
+        "overweight": "Overvægtig",
+        "obese": "Overvægtige",
+        "enterData": "Indtast data"
+      }
+    },
+    "tip": "Overvej at inkorporere regelmæssig motion og en afbalanceret kost i din rutine.",
+    "disclaimer": {
+      "title": "Medicinsk ansvarsfraskrivelse",
+      "text": "BMI er et generelt screeningsværktøj og skelner ikke mellem muskel- og fedtmasse. Rådfør dig med sundhedspersonale for personlig medicinsk rådgivning."
+    }
+  },
+  "beyond": {
+    "title": "Talje-til-højde-forhold (WHtR)",
+    "why": {
+      "title": "Hvorfor dette betyder noget",
+      "desc": "Hvis du holder din taljeomkreds på mindre end halvdelen af din højde, reduceres risikoen for kardiovaskulær risiko. WHtR er mere nøjagtig end BMI til at forudsige metaboliske sundhedstilstande.",
+      "target": "Mål: Ratio < 0,5 for optimal sundhed"
+    },
+    "inputs": {
+      "waist": "Taljeomkreds",
+      "waistHint": "Mål på det smalleste punkt i din talje, normalt lige over navlen",
+      "placeholders": {
+        "waistCm": "f.eks. 80",
+        "waistIn": "f.eks. 31"
+      }
+    },
+    "results": {
+      "healthy": "Sund form",
+      "elevated": "Forhøjet risiko",
+      "placeholder": "Indtast venligst højde og talje for at se dit forhold",
+      "waistMeasurementPlaceholder": "Indtast taljemål",
+      "label": "Talje-til-højde-forhold",
+      "submit": "Gem til profil (BMI + WHtR)"
+    },
+    "comparison": {
+      "title": "BMI vs WHtR: Forskellen",
+      "bmi": {
+        "title": "BMI",
+        "desc": "Generel vægtkategori, tager ikke højde for muskelmasse eller fedtfordeling"
+      },
+      "whtr": {
+        "title": "WHtR",
+        "desc": "Måler central fedme, bedre prædiktor for hjertekarsygdomme og diabetes"
+      }
+    }
+  },
+  "history": {
+    "title": "Seneste målinger",
+    "noHistory": "Ingen historie endnu",
+    "noHistoryDesc": "Begynd at spore dine BMI og kropsmålinger for at se dine fremskridtstendenser over tid.",
+    "stats": {
+      "title": "Dine statistikker",
+      "total": "Samlede rekorder",
+      "latest": "Seneste BMI",
+      "healthyCount": "Sund tælle",
+      "bestStreak": "Bedste streak"
+    }
+  }
+}

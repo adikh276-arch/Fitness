@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "back": "Kontrol Paneline Geri Dön"
+  },
+  "header": {
+    "title": "Vegan Beslenme Rehberi",
+    "subtitle": "Eksiksiz bitki bazlı beslenme araç seti"
+  },
+  "tabs": {
+    "plate": "Vegan Tabağı",
+    "nutrients": "Mikro besinler",
+    "calculator": "Protein Hesaplayıcı"
+  },
+  "plate": {
+    "title": "Tam Vegan Yemeği",
+    "proportions": {
+      "legumes": {
+        "title": "Baklagiller/Fasulye",
+        "subtitle": "Protein santrali",
+        "examples": "Örnekler: Mercimek, nohut, siyah fasulye, tofu, tempeh"
+      },
+      "grains": {
+        "title": "Tam Tahıllar",
+        "subtitle": "Sürekli enerji",
+        "examples": "Örnekler: Kinoa, kahverengi pirinç, yulaf, tam buğday, arpa"
+      },
+      "vegetables": {
+        "title": "Sebzeler",
+        "subtitle": "Mikro besin açısından zengin",
+        "examples": "Örnekler: Yapraklı yeşillikler, brokoli, biber, havuç, domates"
+      },
+      "fats": {
+        "title": "Sağlıklı Yağlar/Tohumlar",
+        "subtitle": "Hormon sağlığı",
+        "examples": "Örnekler: Avokado, fındık, tohumlar, zeytinyağı, tahin"
+      }
+    },
+    "tip": {
+      "title": "Uzman İpucu: Demir Emilimini Artırın",
+      "desc": "Bitki bazlı demir (hem içermeyen demir), hayvansal demirden daha az verimli bir şekilde emilir. Emilimi %300'e kadar artırmak için demir açısından zengin gıdaları C Vitamini ile eşleştirin!",
+      "ironRich": "Demir Açısından Zengin Gıdalar",
+      "ironExamples": "Ispanak, mercimek, kinoa, tofu, kabak çekirdeği",
+      "vitaminC": "C Vitamini Güçlendiriciler",
+      "vitaminCExamples": "Limon suyu, biber, domates, brokoli, portakal",
+      "perfectCombo": "Mükemmel Kombin: Limonlu mercimek çorbası, biberli ıspanak salatası"
+    }
+  },
+  "nutrients": {
+    "title": "Big 4 Besin Takibi",
+    "progress": {
+      "title": "Bugünkü İlerleme",
+      "done": "Bitti",
+      "pending": "Beklemede"
+    },
+    "why": {
+      "title": "Bunları Neden Takip Etmelisiniz?",
+      "desc1": "Bu dört besin, bitki bazlı diyetlerde en sık görülen eksikliklerdir. Günlük alımı takip etmek, tam beslenme almanızı sağlar.",
+      "note": "Not: B12'nin takviye edilmiş gıdalarla desteklenmesi veya tüketilmesi gerekir; bitkilerde doğal olarak mevcut değildir."
+    },
+    "micronutrients": {
+      "b12": {
+        "name": "B12 Vitamini",
+        "importance": "Sinir fonksiyonu ve DNA sentezi için kritik",
+        "dosage": "Günlük 2,4 mcg"
+      },
+      "iron": {
+        "name": "Demir ve Çinko",
+        "importance": "Oksijen taşınması ve bağışıklık fonksiyonu için gereklidir",
+        "dosage": "Demir: 18mg, Çinko: Günlük 11mg"
+      },
+      "omega3": {
+        "name": "Omega-3 (ALA)",
+        "importance": "Beyin sağlığı ve antiinflamatuar",
+        "dosage": "Günlük 1.6g"
+      },
+      "calcium": {
+        "name": "Kalsiyum",
+        "importance": "Kemik sağlığı ve kas fonksiyonu",
+        "dosage": "Günlük 1000mg"
+      }
+    }
+  },
+  "calculator": {
+    "title": "Protein Bilgi Kılavuzu",
+    "subtitle": "Bir yiyecek seçin ve protein içeriğini anında görmek için miktarı girin",
+    "form": {
+      "selectFood": "Yiyecek Öğesini Ara ve Seç",
+      "placeholderFood": "Bir yemek seç...",
+      "searchPlaceholder": "Yiyecekleri ara...",
+      "amount": "Miktar (gram)",
+      "placeholderAmount": "100",
+      "add": "Hesaplamaya Ekle",
+      "proteinPer100": "100g başına {{val}}g",
+      "matches": "{{total}} eşleşmeden 5 tanesi gösteriliyor",
+      "noMatches": "Yiyecek bulunamadı"
+    },
+    "results": {
+      "title": "Protein Dağılımı",
+      "estProtein": "Tahmini Protein İçeriği",
+      "calcInfo": "{{amount}}g {{yiyecek}}",
+      "summary": "Güncel Hesaplama Özeti",
+      "total": "Toplam Protein",
+      "aminoAcid": "Amino Asit Tamlığı",
+      "aminoComplete": "Amino Profilini Tamamla",
+      "aminoIncomplete": "Eksik Tahıllar veya Baklagiller",
+      "aminoNote": "Baklagiller (Mercimek/Fasulye/Soya) + Tahıllar (Pirinç/Kinoa/Yulaf) = Tam Protein",
+      "save": "Toplamı Geçmişe Kaydet",
+      "success": "Protein başarıyla giriş yapıldı!",
+      "ironTip": {
+        "title": "İpucu:",
+        "desc": "Demir emilimini %300'e kadar artırmak için C Vitamini (limon, biber, domates) ile eşleştirin!"
+      }
+    },
+    "reference": {
+      "title": "Hızlı Başvuru Kılavuzu"
+    }
+  },
+  "proteinSources": {
+    "tofu": "Soya peyniri",
+    "tempeh": "Tempe",
+    "edamame": "Edamame",
+    "soybeansBoiled": "Haşlanmış Soya Fasulyesi",
+    "soyChunks": "Soya Parçacıkları / TVP Kuru",
+    "soyMince": "Soya Kıyması Kuru",
+    "soyMilk": "Soya Sütü Şekersiz",
+    "soyYogurt": "Soya Yoğurt Sade",
+    "seitan": "Seitan",
+    "lentilsCooked": "Mercimek Pişmiş",
+    "redLentilsCooked": "Pişmiş Kırmızı Mercimek",
+    "greenLentilsCooked": "Pişmiş Yeşil Mercimek",
+    "blackLentilsCooked": "Siyah Mercimek Pişmiş",
+    "chickpeasCooked": "Nohut Pişmiş",
+    "blackBeansCooked": "Siyah Fasulye Pişmiş",
+    "kidneyBeansCooked": "Pişmiş Barbunya Fasulyesi",
+    "pintoBeansCooked": "Pişmiş Pinto Fasulyesi",
+    "cannelliniBeansCooked": "Pişmiş Cannellini Fasulyesi",
+    "navyBeansCooked": "Lacivert Fasulye Pişmiş",
+    "adzukiBeansCooked": "Pişmiş Adzuki Fasulyesi",
+    "mungBeansCooked": "Pişmiş Maş Fasulyesi",
+    "lupinBeans": "Acı Bakla Fasulyesi",
+    "splitPeasCooked": "Pişmiş Bezelye",
+    "greenPeas": "Yeşil Bezelye",
+    "peaProteinIsolate": "Bezelye Proteini İzolatı",
+    "peaMilk": "Bezelye Sütü",
+    "hummus": "Humus",
+    "falafel": "Falafel",
+    "quinoaCooked": "Pişmiş Kinoa",
+    "amaranthCooked": "Pişmiş Amaranth",
+    "buckwheatCooked": "Karabuğday Pişmiş",
+    "oatsDry": "Yulaf Kuru",
+    "rolledOats": "Yulaf Haddesi",
+    "steelCutOats": "Çelik Kesilmiş Yulaf",
+    "oatBran": "Yulaf kepeği",
+    "barleyCooked": "Arpa Pişmiş",
+    "milletCooked": "Darı Pişmiş",
+    "brownRiceCooked": "Kahverengi Pirinç Pişmiş",
+    "wildRiceCooked": "Pişmiş Yabani Pirinç",
+    "teffCooked": "Teff Pişmiş",
+    "farroCooked": "Farro Pişmiş",
+    "freekehCooked": "Fereke Pişmiş",
+    "wholeWheatPastaCooked": "Tam Buğday Makarna Pişmiş",
+    "chickpeaPastaDry": "Nohutlu Makarna Kuru",
+    "lentilPastaDry": "Mercimek Makarna Kuru",
+    "blackBeanPastaDry": "Siyah Fasulye Makarna Kuru",
+    "spirulinaDry": "Spirulina Kuru",
+    "nutritionalYeast": "Besin Mayası",
+    "mushroomsWhite": "Mantar Beyaz",
+    "portobelloMushrooms": "Portobello Mantarları",
+    "spinach": "Ispanak",
+    "kale": "Lahana",
+    "broccoli": "Brokoli",
+    "brusselsSprouts": "Brüksel Lahanası",
+    "sweetCorn": "tatlı mısır",
+    "artichoke": "Enginar",
+    "avocado": "Avokado",
+    "pumpkinSeeds": "Kabak Çekirdeği",
+    "hempSeeds": "Kenevir Tohumları",
+    "chiaSeeds": "Chia Tohumları",
+    "flaxSeeds": "Keten tohumu",
+    "sesameSeeds": "Susam tohumları",
+    "sunflowerSeeds": "Ayçiçeği tohumları",
+    "watermelonSeeds": "Karpuz Çekirdeği",
+    "almonds": "Badem",
+    "peanuts": "Fıstık",
+    "peanutButterNatural": "Fıstık Ezmesi Doğal",
+    "cashews": "Kaju fıstığı",
+    "pistachios": "Antep fıstığı",
+    "walnuts": "Ceviz",
+    "hazelnuts": "Fındık",
+    "brazilNuts": "Brezilya Fındığı",
+    "almondButter": "Badem Ezmesi",
+    "tahini": "Tahin",
+    "cashewButter": "Kaju Ezmesi",
+    "pumpkinSeedButter": "Kabak Çekirdeği Yağı",
+    "sunflowerSeedButter": "Ayçiçeği Çekirdeği Yağı",
+    "almondFlour": "Badem Unu",
+    "chickpeaFlour": "Nohut Unu / Besan",
+    "soyFlour": "Soya Unu",
+    "wholeWheatFlour": "Tam Buğday Unu",
+    "breadWholeWheat": "Ekmek Tam Buğday",
+    "ezekielBread": "Hezekiel Ekmeği",
+    "proteinBreadVegan": "Proteinli Ekmek Vegan",
+    "roastedChickpeas": "Kavrulmuş Leblebi",
+    "dryRoastedEdamame": "Kuru Kavrulmuş Edamame",
+    "proteinBarVegan": "Protein Barı Vegan",
+    "veganSausage": "Vegan Sosis",
+    "veganBurgerPatty": "Vegan Burger Köftesi",
+    "mycoproteinVegan": "Mikoprotein Vegan",
+    "beanSprouts": "Fasulye Filizi",
+    "alfalfaSprouts": "Yonca Filizleri"
+  }
+}

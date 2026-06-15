@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "back": "Kontrol Paneline Geri Dön"
+  },
+  "header": {
+    "title": "Akıllı BMI ve Vücut İçeriği",
+    "subtitle": "Vücut ölçümlerinizi klinik hassasiyetle takip edin"
+  },
+  "streak": {
+    "title": "Korunan Sağlıklı Menzil!",
+    "subtitle": "Sağlıklı bölgede {{count}} ardışık okuma 🎉"
+  },
+  "tabs": {
+    "calculator": "BMI Hesaplayıcı",
+    "context": "BMI'ın ötesinde",
+    "history": "Trend Geçmişi"
+  },
+  "calculator": {
+    "title": "BMI'nızı hesaplayın",
+    "inputs": {
+      "height": "Yükseklik",
+      "weight": "Ağırlık",
+      "feet": "Ayaklar",
+      "inches": "İnç",
+      "placeholders": {
+        "heightCm": "örneğin 170",
+        "heightFt": "Ayaklar",
+        "heightIn": "İnç",
+        "weightKg": "örneğin 70",
+        "weightLbs": "örneğin 154"
+      }
+    },
+    "results": {
+      "yourBMI": "BMI'ınız",
+      "placeholder": "BMI'nizi görmek için ölçümlerinizi girin",
+      "submit": "Profile Kaydet",
+      "success": "✓ Başarıyla kaydedildi!",
+      "categories": {
+        "underweight": "Düşük kilolu",
+        "healthy": "Sağlıklı Kilo",
+        "normal": "normal",
+        "overweight": "Fazla kilolu",
+        "obese": "Obez",
+        "enterData": "Verileri girin"
+      }
+    },
+    "tip": "Rutininize düzenli egzersiz ve dengeli beslenme eklemeyi düşünün.",
+    "disclaimer": {
+      "title": "Tıbbi Sorumluluk Reddi",
+      "text": "BMI genel bir tarama aracıdır ve kas ve yağ kütlesi arasında ayrım yapmaz. Kişiselleştirilmiş tıbbi tavsiye için sağlık uzmanlarına danışın."
+    }
+  },
+  "beyond": {
+    "title": "Bel-Boy Oranı (WHtR)",
+    "why": {
+      "title": "Bu Neden Önemli?",
+      "desc": "Bel çevrenizi boyunuzun yarısından az tutmak kardiyovasküler riski azaltır. WHtR, metabolik sağlık koşullarını tahmin etmede BMI'dan daha doğrudur.",
+      "target": "Hedef: Optimum sağlık için oran < 0,5"
+    },
+    "inputs": {
+      "waist": "Bel Çevresi",
+      "waistHint": "Belinizin en dar noktasından, genellikle göbek deliğinin hemen üzerinden ölçün",
+      "placeholders": {
+        "waistCm": "örneğin 80",
+        "waistIn": "örneğin 31"
+      }
+    },
+    "results": {
+      "healthy": "Sağlıklı Şekil",
+      "elevated": "Yüksek Risk",
+      "placeholder": "Oranınızı görmek için lütfen boyunuzu ve belinizi girin",
+      "waistMeasurementPlaceholder": "Bel ölçüsünü girin",
+      "label": "Bel-Boy Oranı",
+      "submit": "Profile Kaydet (BMI + WHtR)"
+    },
+    "comparison": {
+      "title": "BMI ve WHtR: Fark",
+      "bmi": {
+        "title": "BMI",
+        "desc": "Genel ağırlık kategorisi, kas kütlesini veya yağ dağılımını hesaba katmaz"
+      },
+      "whtr": {
+        "title": "WHtR",
+        "desc": "Merkezi obeziteyi ölçer, kardiyovasküler hastalık ve diyabetin daha iyi göstergesidir"
+      }
+    }
+  },
+  "history": {
+    "title": "Son Ölçümler",
+    "noHistory": "Henüz Geçmiş Yok",
+    "noHistoryDesc": "Zaman içindeki ilerleme eğilimlerinizi görmek için BMI'nızı ve vücut ölçümlerinizi takip etmeye başlayın.",
+    "stats": {
+      "title": "İstatistikleriniz",
+      "total": "Toplam Kayıtlar",
+      "latest": "En son BMI",
+      "healthyCount": "Sağlıklı Sayım",
+      "bestStreak": "En İyi Seri"
+    }
+  }
+}

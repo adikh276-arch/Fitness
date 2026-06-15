@@ -142,8 +142,8 @@
     }
   },
   "proteinSources": {
-    "tofu": "Tofu",
-    "tempeh": "Tempeh",
+    "tofu": "tofu",
+    "tempeh": "tempeh",
     "edamame": "Edamame",
     "soybeansBoiled": "Soja hervida",
     "soyChunks": "Trozos de soja / Proteína vegetal texturizada seca",
@@ -215,7 +215,7 @@
     "hazelnuts": "Avellanas",
     "brazilNuts": "Nueces de Brasil",
     "almondButter": "Mantequilla de almendras",
-    "tahini": "Tahini",
+    "tahini": "tahini",
     "cashewButter": "Mantequilla de anacardo",
     "pumpkinSeedButter": "Mantequilla de semillas de calabaza",
     "sunflowerSeedButter": "Mantequilla de semillas de girasol",

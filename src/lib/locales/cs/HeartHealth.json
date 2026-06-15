@@ -1,0 +1,141 @@
+{
+  "header": {
+    "title": "Průvodce zdravím srdce",
+    "subtitle": "Sledujte vitální funkce, naučte se DASH dietu a vybudujte si zdravé návyky",
+    "back": "Zpět na Dashboard"
+  },
+  "alerts": {
+    "crisis": {
+      "title": "HYPERTENZIVNÍ VAROVÁNÍ KRIZE",
+      "desc": "Váš krevní tlak je nebezpečně vysoký (≥180/120). To vyžaduje okamžitou lékařskou pomoc."
+    },
+    "vitals": {
+      "invalid": "Zadejte prosím platné hodnoty",
+      "success": "Zaprotokolované čtení: {{sys}}/{{dia}} - {{category}}"
+    }
+  },
+  "tabs": {
+    "dash": "DASH Dieta",
+    "vitals": "Vitals Log",
+    "habits": "Srdeční návyky"
+  },
+  "vitals": {
+    "form": {
+      "title": "Zaznamenejte své životní funkce",
+      "bp": {
+        "label": "Krevní tlak",
+        "systolic": "Systolický",
+        "systolic_desc": "Nejvyšší číslo",
+        "diastolic": "diastolický",
+        "diastolic_desc": "Spodní číslo"
+      },
+      "heart_rate": {
+        "label": "Klidová srdeční frekvence (BPM)",
+        "placeholder": "např. 72"
+      },
+      "submit": "Čtení protokolu"
+    },
+    "recent": {
+      "title": "Nedávná čtení",
+      "empty": "Zatím nejsou zaznamenána žádná měření",
+      "bpm": "{{count}} BPM"
+    },
+    "chart": {
+      "title": "7denní trend krevního tlaku",
+      "systolic": "Systolický",
+      "diastolic": "diastolický"
+    },
+    "guidelines": {
+      "title": "Kategorie krevního tlaku AHA:",
+      "normal": "Normální: <120/80",
+      "elevated": "Zvýšená: 120-129/<80",
+      "stage1": "Fáze 1: 130-139/80-89",
+      "stage2": "Fáze 2: ≥140/90"
+    },
+    "categories": {
+      "crisis": "Hypertenzní krize",
+      "stage2": "Hypertenze fáze 2",
+      "stage1": "Hypertenze Fáze 1",
+      "elevated": "Zvýšená",
+      "normal": "Normální",
+      "unknown": "Neznámý"
+    }
+  },
+  "dash": {
+    "intro": {
+      "title": "Dieta DASH",
+      "desc": "Dietní přístupy k zastavení hypertenze – vědecky ověřený stravovací plán, který přirozeně snižuje krevní tlak."
+    },
+    "principles": {
+      "sodium": {
+        "title": "Limit sodíku",
+        "limit": "<2 300 mg denně",
+        "high_risk": "(Nebo 1 500 mg pro vysoce rizikové jedince)",
+        "desc": "Nadbytek sodíku způsobuje zadržování vody, zvyšuje objem krve a tlak na stěny tepen."
+      },
+      "potassium": {
+        "title": "Síla draslíku",
+        "limit": "4 700 mg denně",
+        "source": "Z celých potravin"
+      },
+      "magnesium": {
+        "title": "Hořčík a vláknina",
+        "limit": "500 mg Mg / 25-35 g vlákniny",
+        "target": "Denní cíle"
+      }
+    },
+    "scanner": {
+      "title": "⚠️ Skrytý sodíkový skener: Potraviny „záludné soli“.",
+      "subtitle": "Tyto zdánlivě nevinné potraviny obsahují více sodíku, než si myslíte:",
+      "swaps": {
+        "title": "💡 DASH-Friendly swapy:"
+      }
+    }
+  },
+  "habits": {
+    "vitality": {
+      "title": "Skóre vitality",
+      "start": "Začněte budovat své srdce zdravé!",
+      "streak_good": "🔥 {{count}} denní série! Vaše srdce vzkvétá",
+      "streak_continue": "{{count}} dní – pokračujte!",
+      "streak_continue_singular": "{{count}} den – pokračujte!",
+      "days": "denní pruh",
+      "goal": "{{count}} / cíl za 30 dní"
+    },
+    "checklist": {
+      "title": "Denní kardio kontrolní seznam",
+      "subtitle": "Dokončete tyto návyky denně, abyste získali kardiovaskulární sílu",
+      "items": {
+        "cardio": {
+          "label": "30minutové kardio zóna 2",
+          "desc": "Rychlá chůze, jízda na kole nebo plavání konverzačním tempem"
+        },
+        "low_sodium": {
+          "label": "Zůstal pod limitem sodíku",
+          "desc": "<2 300 mg (nebo 1 500 mg v případě vysokého rizika)"
+        },
+        "no_salt": {
+          "label": "Bez přidané soli u stolu",
+          "desc": "Nechte zazářit přirozenou chuť jídla"
+        },
+        "meds": {
+          "label": "Užité léky (volitelné)",
+          "desc": "Pro ty, kteří užívají léky na BP"
+        }
+      }
+    },
+    "tips": {
+      "title": "Základy zdraví srdce"
+    }
+  },
+  "foods": {
+    "canned_soup": "Konzervovaná polévka (1 šálek)",
+    "deli_turkey": "Deli Turkey (2 oz)",
+    "white_bread": "Bílý chléb (2 plátky)",
+    "frozen_pizza": "Mražená pizza (1 plátek)",
+    "soy_sauce": "Sojová omáčka (1 polévková lžíce)",
+    "cottage_cheese": "Tvarohový sýr (1/2 šálku)",
+    "pickles": "Nakládané okurky (1 střední)",
+    "salad_dressing": "Salátový dresink (2 lžíce)"
+  }
+}

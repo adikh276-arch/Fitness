@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "back": "Terug naar Dashboard"
+  },
+  "header": {
+    "title": "Stap-tracker",
+    "subtitle": "Houd uw dagelijkse stappen bij en bereik uw doelen",
+    "profile": "Profiel"
+  },
+  "tabs": {
+    "tracker": "Volger",
+    "history": "Geschiedenis"
+  },
+  "tracker": {
+    "stepsToday": "stappen vandaag",
+    "goalAchieved": "Doel bereikt!",
+    "stats": {
+      "distance": "Afstand",
+      "calories": "Calorieën",
+      "activeTime": "Actieve tijd",
+      "km": "km",
+      "kcal": "kcal",
+      "mins": "minuten"
+    },
+    "goal": {
+      "label": "Dagelijks doel",
+      "value": "{{val}} stappen",
+      "change": "Verander doel"
+    },
+    "quickAdd": {
+      "title": "Snel stappen toevoegen",
+      "label": "Aangepaste stappen",
+      "placeholder": "bijvoorbeeld 3500",
+      "submit": "Toevoegen"
+    },
+    "insights": {
+      "title": "De inzichten van vandaag",
+      "remaining": "Resterende stappen",
+      "stride": "Paslengte",
+      "progress": "Vooruitgang",
+      "complete": "Compleet!",
+      "percentOfGoal": "{{val}}% van doel"
+    },
+    "reset": "Reset de stappen van vandaag"
+  },
+  "history": {
+    "title": "Stap Geschiedenis",
+    "noHistory": "Nog geen geschiedenis. Begin met het bijhouden van uw stappen!",
+    "today": "Vandaag",
+    "stats": {
+      "steps": "Stappen",
+      "goal": "Doel",
+      "progress": "Vooruitgang"
+    }
+  },
+  "modals": {
+    "goal": {
+      "title": "Dagelijks doel instellen",
+      "subtitle": "Voer uw dagelijkse doelstappen in",
+      "placeholder": "bijvoorbeeld 10000",
+      "cancel": "Annuleer",
+      "save": "Opslaan"
+    },
+    "profile": {
+      "title": "Profiel bijwerken",
+      "subtitle": "Dit helpt bij het berekenen van nauwkeurige afstanden en calorieën",
+      "height": "Hoogte (cm)",
+      "weight": "Gewicht (kg)",
+      "gender": "Geslacht",
+      "male": "Mannetje",
+      "female": "Vrouw",
+      "placeholderHeight": "bijvoorbeeld 170",
+      "placeholderWeight": "bijvoorbeeld 70",
+      "cancel": "Annuleer",
+      "save": "Opslaan"
+    }
+  }
+}

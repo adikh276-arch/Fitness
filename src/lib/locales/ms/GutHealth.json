@@ -1,0 +1,244 @@
+{
+  "header": {
+    "title": "Panduan Kesihatan Usus",
+    "subtitle": "Jejaki kesihatan pencernaan dan bina mikrobiom yang berkembang maju",
+    "back": "Kembali ke Papan Pemuka"
+  },
+  "tabs": {
+    "log": "Log Usus Harian",
+    "map": "Peta Mikrobiom",
+    "habits": "Serat & Penapaian"
+  },
+  "bristol": {
+    "title": "Skala Najis Bristol",
+    "info": "Piawaian emas untuk menjejak masa transit pencernaan dan kesihatan usus",
+    "types": {
+      "type1": {
+        "label": "Jenis 1",
+        "desc": "Sembelit teruk - Asingkan ketulan keras"
+      },
+      "type2": {
+        "label": "Jenis 2",
+        "desc": "Sembelit ringan - Berketul dan seperti sosej"
+      },
+      "type3": {
+        "label": "Jenis 3",
+        "desc": "Biasa - Sosej yang retak"
+      },
+      "type4": {
+        "label": "Jenis 4",
+        "desc": "Ideal - Sosej yang licin dan lembut"
+      },
+      "type5": {
+        "label": "Jenis 5",
+        "desc": "Kurang serat - Gumpalan lembut"
+      },
+      "type6": {
+        "label": "Jenis 6",
+        "desc": "Cirit-birit ringan - Lembek"
+      },
+      "type7": {
+        "label": "Jenis 7",
+        "desc": "Cirit-birit yang teruk - Cecair"
+      }
+    },
+    "alert": "Sila pilih jenis Skala Bangku Bristol"
+  },
+  "symptoms": {
+    "title": "Gejala Hari Ini",
+    "items": {
+      "Bloating": "Kembung perut",
+      "Gas": "Gas",
+      "Cramping": "Kekejangan",
+      "Reflux": "Refluks",
+      "Energy Dip": "Penurunan Tenaga"
+    }
+  },
+  "triggers": {
+    "title": "Disyaki Pencetus",
+    "items": {
+      "Dairy": "tenusu",
+      "Gluten": "Gluten",
+      "Coffee": "Kopi",
+      "Spicy Food": "Makanan Pedas",
+      "Alcohol": "Alkohol",
+      "Stress": "Tekanan",
+      "Other": "Lain-lain"
+    }
+  },
+  "log": {
+    "submit": "Kemasukan Log",
+    "success": "Log usus berjaya disimpan!",
+    "recent": {
+      "title": "Log Terkini",
+      "trigger": "Pencetus:"
+    }
+  },
+  "microbiome": {
+    "prebiotics": {
+      "title": "Prebiotik",
+      "subtitle": "Makanan untuk Bakteria Usus Anda",
+      "desc": "Prebiotik ialah makanan kaya serat yang memberi makan kepada bakteria berfaedah dalam usus anda, membantu mereka berkembang dan membiak."
+    },
+    "probiotics": {
+      "title": "Probiotik",
+      "subtitle": "Bakteria Berfaedah Hidup",
+      "desc": "Probiotik ialah mikroorganisma hidup yang terdapat dalam makanan yang ditapai yang secara langsung menambah bakteria berfaedah ke dalam usus anda."
+    }
+  },
+  "diversity": {
+    "title": "Cabaran 30 Tumbuhan Seminggu",
+    "subtitle": "Penyelidikan menunjukkan makan 30+ tumbuhan berbeza setiap minggu menyokong kepelbagaian usus yang optimum",
+    "score_label": "/ 30 tumbuhan",
+    "weekly_score": "Skor Kepelbagaian Mingguan",
+    "feedback": {
+      "excellent": "🎉 Cemerlang! Anda mencapai matlamat 30 tumbuhan",
+      "great": "👍 Kepelbagaian yang hebat! Teruskan menambah variasi",
+      "good": "📈 Permulaan yang baik! Matlamat untuk lebih banyak jenis tumbuhan",
+      "start": "🌱 Mula menambah pelbagai tumbuhan untuk meningkatkan kesihatan usus"
+    }
+  },
+  "habits": {
+    "title": "Senarai Semak Happy Gut",
+    "subtitle": "Lengkapkan tabiat harian ini untuk kesihatan pencernaan yang optimum",
+    "items": {
+      "fiber": {
+        "label": "25g+ Fiber yang Digunakan",
+        "desc": "Daripada bijirin penuh, buah-buahan, dan sayur-sayuran"
+      },
+      "fermented": {
+        "label": "Termasuk 1 Makanan yang Difermentasi",
+        "desc": "Kimchi, yogurt, kefir, atau sauerkraut"
+      },
+      "mindful": {
+        "label": "Makan Berhati-hati (20+ Kunyah)",
+        "desc": "Mengunyah yang betul membantu penghadaman"
+      },
+      "fast": {
+        "label": "Rehat Usus Semalaman 12 Jam",
+        "desc": "Tingkap puasa membolehkan pembaikan usus"
+      }
+    }
+  },
+  "tracker": {
+    "title": "Penjejak Tabiat 30 Hari",
+    "tooltip": "Hari {{dayNum}}: {{count}}/4 tabiat",
+    "legend": {
+      "none": "tiada",
+      "one": "1",
+      "two": "2",
+      "three": "3",
+      "four": "3-4",
+      "all": "Semua 4"
+    }
+  },
+  "essentials": {
+    "title": "Keperluan Kesihatan Usus"
+  },
+  "plants": {
+    "Spinach": "Bayam",
+    "Kale": "Kale",
+    "Arugula": "Arugula",
+    "Romaine": "Romaine",
+    "Broccoli": "Brokoli",
+    "Cauliflower": "kembang kol",
+    "Brussels Sprouts": "Pucuk Brussels",
+    "Cabbage": "kobis",
+    "Carrots": "lobak merah",
+    "Sweet Potatoes": "Kentang Manis",
+    "Beets": "bit",
+    "Radishes": "lobak",
+    "Chickpeas": "Kacang ayam",
+    "Lentils": "Lentil",
+    "Black Beans": "Habbatus Sauda",
+    "Kidney Beans": "Kacang Pinggang",
+    "Oats": "Oat",
+    "Brown Rice": "Beras perang",
+    "Quinoa": "Quinoa",
+    "Barley": "Barli",
+    "Almonds": "badam",
+    "Walnuts": "kenari",
+    "Pistachios": "Pistachio",
+    "Cashews": "Gajus",
+    "Chia": "Chia",
+    "Flax": "Flax",
+    "Pumpkin Seeds": "Biji Labu",
+    "Sunflower Seeds": "Biji Bunga Matahari",
+    "Blueberries": "beri biru",
+    "Strawberries": "Strawberi",
+    "Raspberries": "Raspberi",
+    "Blackberries": "Beri hitam",
+    "Oranges": "buah oren",
+    "Lemons": "buah limau",
+    "Limes": "limau nipis",
+    "Grapefruit": "limau gedang",
+    "Bananas": "pisang",
+    "Pineapple": "nanas",
+    "Mango": "mangga",
+    "Papaya": "betik",
+    "Peaches": "pic",
+    "Plums": "Plum",
+    "Cherries": "ceri",
+    "Apricots": "Aprikot",
+    "Basil": "selasih",
+    "Cilantro": "ketumbar",
+    "Mint": "Pudina",
+    "Parsley": "Pasli",
+    "Rosemary": "Rosemary",
+    "Turmeric": "Kunyit",
+    "Ginger": "halia",
+    "Cinnamon": "Kayu manis",
+    "Cumin": "jintan manis",
+    "Paprika": "Paprika",
+    "Kimchi": "Kimchi",
+    "Sauerkraut": "Sauerkraut",
+    "Miso": "Miso",
+    "Tempeh": "Tempe",
+    "Button Mushrooms": "Cendawan Butang",
+    "Shiitake": "Syitake",
+    "Portobello": "Portobello",
+    "Oyster Mushrooms": "Cendawan Tiram",
+    "Pumpkin": "labu",
+    "Butternut Squash": "Skuasy Butternut",
+    "Zucchini": "Zucchini",
+    "Acorn Squash": "Skuasy Acorn",
+    "Bell Peppers": "Lada Loceng",
+    "Jalapeños": "Jalapeños",
+    "Chili": "cili",
+    "Cherry Tomatoes": "Tomato Ceri",
+    "Roma Tomatoes": "Tomato Roma",
+    "Beefsteak Tomatoes": "Beefsteak Tomato",
+    "Garlic": "Bawang putih",
+    "Onions": "Bawang besar",
+    "Leeks": "daun bawang",
+    "Shallots": "Bawang merah",
+    "Alfalfa Sprouts": "Pucuk Alfalfa",
+    "Broccoli Sprouts": "Pucuk Brokoli",
+    "Mung Bean Sprouts": "Taugeh",
+    "Nori": "Nori",
+    "Kelp": "Kelp",
+    "Wakame": "Wakame",
+    "Buckwheat": "Soba",
+    "Farro": "Farro",
+    "Amaranth": "Amaranth",
+    "Millet": "Millet",
+    "Watermelon": "tembikai",
+    "Cantaloupe": "Cantaloupe",
+    "Honeydew": "Embun madu",
+    "Apples": "buah epal",
+    "Pears": "buah pir",
+    "Avocado": "Avokado",
+    "Coconut": "kelapa",
+    "Coconut Milk": "Santan",
+    "Coconut Water": "Air Kelapa",
+    "Olives": "buah zaitun",
+    "Dark Chocolate": "Coklat Gelap",
+    "Cacao Nibs": "Biji Kakao",
+    "Cocoa Powder": "Serbuk koko",
+    "Green Tea": "Teh Hijau",
+    "Black Tea": "Teh Hitam",
+    "Chamomile": "Chamomile",
+    "Peppermint Tea": "Teh Peppermint",
+    "Coffee": "Kopi"
+  }
+}

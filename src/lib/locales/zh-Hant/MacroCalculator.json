@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "back": "返回儀表板"
+  },
+  "header": {
+    "title": "巨集計算器",
+    "subtitle": "計算您的每日卡路里和常量營養素需求"
+  },
+  "tabs": {
+    "input": "您的詳細信息",
+    "results": "您的結果"
+  },
+  "form": {
+    "title": "您的詳細信息",
+    "age": "年齡（歲）",
+    "gender": "性別",
+    "male": "男",
+    "female": "女",
+    "weight": "重量",
+    "height": "身高",
+    "activity": "活動水準",
+    "goal": "目標",
+    "submit": "計算宏",
+    "placeholders": {
+      "age": "例如，30",
+      "weightKg": "例如，70",
+      "weightLbs": "例如，154",
+      "heightCm": "例如，175",
+      "heightFt": "腳",
+      "heightIn": "英吋"
+    },
+    "activityLevels": {
+      "sedentary": "久坐（很少/沒有運動）",
+      "light": "輕度活動（每週 1-3 天）",
+      "moderate": "中等活躍（每週 3-5 天）",
+      "very": "非常活躍（每週 6-7 天）"
+    },
+    "goals": {
+      "maintenance": "維護保養",
+      "loss": "減肥",
+      "gain": "增肌"
+    }
+  },
+  "results": {
+    "title": "您的結果",
+    "calorieTarget": "每日卡路里目標",
+    "kcalPerDay": "千卡/天",
+    "bmrLabel": "基礎代謝率：{{val}}千卡",
+    "protein": "蛋白質",
+    "carbs": "碳水化合物",
+    "fat": "脂肪",
+    "submit": "儲存到個人資料",
+    "placeholder": "輸入您的詳細資訊並點擊計算以查看結果",
+    "success": "巨集資料已儲存！您的個人資料詳細資料已同步。",
+    "validation": "請輸入有效值"
+  }
+}

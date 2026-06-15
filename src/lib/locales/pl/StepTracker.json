@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "back": "Powrót do Panelu"
+  },
+  "header": {
+    "title": "Śledzenie kroków",
+    "subtitle": "Śledź swoje codzienne kroki i osiągaj swoje cele",
+    "profile": "Profil"
+  },
+  "tabs": {
+    "tracker": "Śledzenie",
+    "history": "Historia"
+  },
+  "tracker": {
+    "stepsToday": "kroki dzisiaj",
+    "goalAchieved": "Cel osiągnięty!",
+    "stats": {
+      "distance": "Odległość",
+      "calories": "Kalorie",
+      "activeTime": "Aktywny czas",
+      "km": "km",
+      "kcal": "kcal",
+      "mins": "min"
+    },
+    "goal": {
+      "label": "Dzienny cel",
+      "value": "{{val}} kroków",
+      "change": "Zmień cel"
+    },
+    "quickAdd": {
+      "title": "Szybkie dodawanie kroków",
+      "label": "Niestandardowe kroki",
+      "placeholder": "np. 3500",
+      "submit": "Dodaj"
+    },
+    "insights": {
+      "title": "Dzisiejsze spostrzeżenia",
+      "remaining": "Pozostałe kroki",
+      "stride": "Długość kroku",
+      "progress": "Postęp",
+      "complete": "Kompletne!",
+      "percentOfGoal": "{{val}}% bramki"
+    },
+    "reset": "Zresetuj dzisiejsze kroki"
+  },
+  "history": {
+    "title": "Historia kroków",
+    "noHistory": "Nie ma jeszcze historii. Zacznij śledzić swoje kroki!",
+    "today": "Dzisiaj",
+    "stats": {
+      "steps": "Kroki",
+      "goal": "Cel",
+      "progress": "Postęp"
+    }
+  },
+  "modals": {
+    "goal": {
+      "title": "Ustaw dzienny cel",
+      "subtitle": "Wpisz swoje docelowe dzienne kroki",
+      "placeholder": "np. 10000",
+      "cancel": "Anuluj",
+      "save": "Zapisz"
+    },
+    "profile": {
+      "title": "Zaktualizuj profil",
+      "subtitle": "Pomaga to w dokładnym obliczeniu dystansu i kalorii",
+      "height": "Wysokość (cm)",
+      "weight": "Waga (kg)",
+      "gender": "Płeć",
+      "male": "Mężczyzna",
+      "female": "Kobieta",
+      "placeholderHeight": "np. 170",
+      "placeholderWeight": "np. 70",
+      "cancel": "Anuluj",
+      "save": "Zapisz"
+    }
+  }
+}

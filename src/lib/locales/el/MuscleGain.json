@@ -15,7 +15,7 @@
     "pillars": {
       "caloric": {
         "title": "Θερμιδικό πλεόνασμα",
-        "value": "TDEE + 250 to 500 kcal",
+        "value": "TDEE + 250 έως 500 kcal",
         "desc": "Το σώμα σας χρειάζεται επιπλέον ενέργεια για να χτίσει νέο μυϊκό ιστό. Πολύ λίγη ενέργεια δεν θα αναπτυχθείτε, ενώ πολύ περισσότερη ενέργεια θα συσσωρεύσετε περιττό λίπος. Στοχεύστε σε 250-500 θερμίδες πάνω από τη Συνολική Ημερήσια Δαπάνη Ενέργειας (TDEE)."
       },
       "protein": {
@@ -109,7 +109,16 @@
       "thigh": "Μηρός (σε)",
       "thighHint": "Το ευρύτερο μέρος",
       "submit": "Μετρήσεις καταγραφής",
-      "success": "Οι μετρήσεις καταγράφηκαν με επιτυχία!"
+      "success": "Οι μετρήσεις καταγράφηκαν με επιτυχία!",
+      "placeholders": {
+        "weight": "π.χ., 75",
+        "targetWeight": "π.χ., 85",
+        "chest": "π.χ. 40",
+        "waist": "Προαιρετικό",
+        "bicep": "π.χ., 15",
+        "bicepL": "Το ίδιο με το σωστό",
+        "thigh": "Προαιρετικό"
+      }
     },
     "volume": {
       "title": "Υπολογιστής Όγκου",
@@ -120,7 +129,13 @@
       "totalVolume": "Συνολικός Όγκος",
       "remaining": "Υπόλοιπο για γκολ",
       "submit": "Όγκος καταγραφής",
-      "logged": "{{lift}} καταγράφηκε: {{volume}}kg συνολικός όγκος!"
+      "logged": "{{lift}} καταγράφηκε: {{volume}}kg συνολικός όγκος!",
+      "recentLifts": "Πρόσφατοι ανελκυστήρες",
+      "placeholders": {
+        "sets": "π.χ., 4",
+        "reps": "π.χ., 8",
+        "weight": "π.χ. 80"
+      }
     },
     "chart": {
       "title": "Διάγραμμα Προόδου",
@@ -168,7 +183,71 @@
         "perfect": "Τέλεια (5/5)",
         "partial": "Μερικός",
         "none": "Ατελής"
+      },
+      "tooltip": "Ημέρα {{ημέρα}}: {{count}}/5 συνήθειες"
+    }
+  },
+  "essentials": {
+    "title": "Υπερτροφία Essentials",
+    "tips": {
+      "rest": {
+        "title": "Οι μύες χτίζονται κατά την ανάπαυση:",
+        "desc": "Ο ύπνος και η διατροφή είναι όταν συμβαίνει η ανάπτυξη, όχι στο γυμναστήριο"
+      },
+      "protein": {
+        "title": "Ο χρονισμός της πρωτεΐνης είναι λιγότερο σημαντικός από τον συνολικό:",
+        "desc": "Εστιάστε στο να πετύχετε τον καθημερινό σας στόχο, ο συγχρονισμός είναι δευτερεύων"
+      },
+      "track": {
+        "title": "Παρακολουθήστε τα πάντα:",
+        "desc": "Βάρος, μετρήσεις και όγκος - τα δεδομένα αποκαλύπτουν πρόοδο που δεν μπορείτε να δείτε στον καθρέφτη"
+      },
+      "creatine": {
+        "title": "Η κρεατίνη είναι αποδεδειγμένη:",
+        "desc": "3-5g ημερησίως αυξάνει τη δύναμη και την άλιπη μάζα χωρίς παρενέρ��ειες για τους περισσότερους ανθρώπους"
       }
     }
+  },
+  "exercises": {
+    "squat": "Squat",
+    "deadlift": "Deadlift",
+    "benchPress": "Πρέσα πάγκου",
+    "overheadPress": "Υπερυψωμένο πάτημα",
+    "barbellRow": "Σειρά Barbell",
+    "pullUp": "Τραβήξτε επάνω",
+    "chinUp": "Chin Up",
+    "latPulldown": "Lat Pulldown",
+    "seatedCableRow": "Καθιστή σειρά καλωδίων",
+    "dumbbellRow": "Dumbbell Row",
+    "romanianDeadlift": "Ρουμανικό Deadlift",
+    "hipThrust": "Hip Thrust",
+    "lunge": "Lunge",
+    "bulgarianSplitSquat": "Bulgarian Split Squat",
+    "legPress": "Πίεση ποδιών",
+    "legExtension": "Επέκταση ποδιών",
+    "legCurl": "Μπούκλα ποδιών",
+    "calfRaise": "Ανύψωση μόσχου",
+    "gluteBridge": "Γέφυρα Γλουτών",
+    "pushUp": "Push Up",
+    "inclineDumbbellPress": "Κλίση πρέσας αλτήρων",
+    "dips": "Βυθίσεις",
+    "chestFly": "Μύγα στήθους",
+    "lateralRaise": "Πλευρική ανύψωση",
+    "rearDeltFly": "Πίσω Delt Fly",
+    "facePull": "Τράβηγμα προσώπου",
+    "bicepCurl": "Μπούκλα Δικεφάλου",
+    "hammerCurl": "Σφυρί Μπούκλα",
+    "tricepPushdown": "Tricep Pushdown",
+    "skullCrusher": "Θραυστήρας κρανίου",
+    "plank": "Σανίδα",
+    "hangingLegRaise": "Κρεμαστό Ανύψωση ποδιών",
+    "russianTwist": "Ρωσικό Twist",
+    "farmerCarry": "Farmer Carry",
+    "shrug": "Ανασήκωσε τους ώμους",
+    "arnoldPress": "Arnold Press",
+    "frontSquat": "Μπροστινό Squat",
+    "sumoDeadlift": "Σούμο Deadlift",
+    "gobletSquat": "Κύπελλο Squat",
+    "stepUp": "Step Up"
   }
 }

@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "back": "Vissza az irányítópultra"
+  },
+  "header": {
+    "title": "Makró kalkulátor",
+    "subtitle": "Számolja ki napi kalória- és makrotápanyag-szükségletét"
+  },
+  "tabs": {
+    "input": "Az Ön adatai",
+    "results": "Az Ön eredményei"
+  },
+  "form": {
+    "title": "Az Ön adatai",
+    "age": "Életkor (év)",
+    "gender": "Nem",
+    "male": "Férfi",
+    "female": "Nő",
+    "weight": "Súly",
+    "height": "Magasság",
+    "activity": "Tevékenységi szint",
+    "goal": "Gól",
+    "submit": "Makrók kiszámítása",
+    "placeholders": {
+      "age": "például 30",
+      "weightKg": "például 70",
+      "weightLbs": "például 154",
+      "heightCm": "például 175",
+      "heightFt": "Lábak",
+      "heightIn": "hüvelyk"
+    },
+    "activityLevels": {
+      "sedentary": "Ülő (keveset/nincs mozgás)",
+      "light": "Enyhén aktív (1-3 nap/hét)",
+      "moderate": "Közepesen aktív (3-5 nap/hét)",
+      "very": "Nagyon aktív (6-7 nap/hét)"
+    },
+    "goals": {
+      "maintenance": "Karbantartás",
+      "loss": "Fogyás",
+      "gain": "Izomnövekedés"
+    }
+  },
+  "results": {
+    "title": "Az Ön eredményei",
+    "calorieTarget": "Napi kalóriacél",
+    "kcalPerDay": "kcal/nap",
+    "bmrLabel": "BMR: {{val}} kcal",
+    "protein": "Fehérje",
+    "carbs": "szénhidrát",
+    "fat": "Kövér",
+    "submit": "Mentés a profilba",
+    "placeholder": "Adja meg adatait, majd kattintson a Számítás gombra az eredmények megtekintéséhez",
+    "success": "Makró adatok mentve! Profiladataid szinkronizálva lettek.",
+    "validation": "Kérjük, érvényes értékeket adjon meg"
+  }
+}

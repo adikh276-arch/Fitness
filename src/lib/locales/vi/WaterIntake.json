@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "back": "Quay lại Trang tổng quan"
+  },
+  "header": {
+    "title": "Theo dõi lượng nước uống",
+    "subtitle": "Theo dõi quá trình hydrat hóa hàng ngày của bạn và đạt được mục tiêu của bạn"
+  },
+  "tabs": {
+    "tracker": "Trình theo dõi ngày hôm nay",
+    "history": "lịch sử"
+  },
+  "tracker": {
+    "consumed": "ml tiêu thụ",
+    "goalLabel": "Mục tiêu hàng ngày",
+    "remainingLabel": "Còn lại",
+    "changeGoal": "Thay đổi mục tiêu hàng ngày",
+    "quickAdd": {
+      "title": "Thêm nhanh",
+      "smallGlass": "Kính nh���",
+      "bottle": "chai",
+      "largeBottle": "Chai lớn",
+      "jug": "cái bình"
+    },
+    "custom": {
+      "label": "Số tiền tùy chỉnh (ml)",
+      "placeholder": "ví dụ: 350",
+      "submit": "Thêm",
+      "undo": "Hoàn tác mục nhập cuối cùng"
+    }
+  },
+  "history": {
+    "title": "Lịch sử uống nước",
+    "noHistory": "Chưa có lịch sử nào",
+    "today": "hôm nay",
+    "summary": "{{total}} ml / {{goal}} ml ({{percent}}%)",
+    "stats": {
+      "total": "Tổng cộng",
+      "entries": "Bài dự thi"
+    }
+  },
+  "modal": {
+    "title": "Đặt mục tiêu hàng ngày",
+    "subtitle": "Nhập lượng nước mục tiêu hàng ngày của bạn",
+    "placeholder": "ví dụ: 2500",
+    "calcToggleShow": "Tính toán được đề xuất",
+    "calcToggleHide": "Ẩn máy tính",
+    "formula": "Công thức: Trọng lượng (kg) × 35ml",
+    "weightLabel": "Cân nặng của bạn (kg)",
+    "weightPlaceholder": "ví dụ: 70",
+    "calcBtn": "Tính toán và áp dụng",
+    "cancel": "Hủy bỏ",
+    "save": "Lưu"
+  }
+}

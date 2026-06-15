@@ -109,7 +109,16 @@
       "thigh": "Hita (papasok)",
       "thighHint": "Pinakamalawak na bahagi",
       "submit": "Mga Pagsukat ng Log",
-      "success": "Matagumpay na naitala ang mga sukatan!"
+      "success": "Matagumpay na naitala ang mga sukatan!",
+      "placeholders": {
+        "weight": "hal., 75",
+        "targetWeight": "hal., 85",
+        "chest": "hal., 40",
+        "waist": "Opsyonal",
+        "bicep": "hal., 15",
+        "bicepL": "Pareho ng tama",
+        "thigh": "Opsyonal"
+      }
     },
     "volume": {
       "title": "Kalkulador ng Dami",
@@ -120,7 +129,13 @@
       "totalVolume": "Kabuuang Dami",
       "remaining": "Nanatili para sa Layunin",
       "submit": "Dami ng Log",
-      "logged": "{{lift}} na naka-log: {{volume}}kg kabuuang volume!"
+      "logged": "{{lift}} na naka-log: {{volume}}kg kabuuang volume!",
+      "recentLifts": "Mga Kamakailang Lift",
+      "placeholders": {
+        "sets": "hal., 4",
+        "reps": "hal., 8",
+        "weight": "hal., 80"
+      }
     },
     "chart": {
       "title": "Tsart ng Pag-unlad",
@@ -135,7 +150,7 @@
     "subtitle": "Lagyan ng tsek ang bawat gawi habang natatapos mo ito",
     "items": {
       "surplus": {
-        "title": "Caloric Surplus Met",
+        "title": "Nakilala ang Caloric Surplus",
         "desc": "Abutin ang iyong target na calorie ngayon"
       },
       "protein": {
@@ -168,7 +183,71 @@
         "perfect": "Perpekto (5/5)",
         "partial": "Bahagyang",
         "none": "Hindi kumpleto"
+      },
+      "tooltip": "Araw {{day}}: {{count}}/5 gawi"
+    }
+  },
+  "essentials": {
+    "title": "Hypertrophy Essentials",
+    "tips": {
+      "rest": {
+        "title": "Ang kalamnan ay binuo sa panahon ng pahinga:",
+        "desc": "Ang pagtulog at nutrisyon ay kapag nangyayari ang paglaki, hindi sa gym"
+      },
+      "protein": {
+        "title": "Mahalaga ang timing ng protina kaysa sa kabuuan:",
+        "desc": "Tumutok sa pagpindot sa iyong pang-araw-araw na target, pangalawa ang timing"
+      },
+      "track": {
+        "title": "Subaybayan ang lahat:",
+        "desc": "Timbang, mga sukat, at volume - ipinapakita ng data ang pag-unlad na hindi mo nakikita sa salamin"
+      },
+      "creatine": {
+        "title": "Napatunayan ang creatine:",
+        "desc": "Ang 3-5g araw-araw ay nagpapataas ng lakas at lean mass na walang mga side effect para sa karamihan ng mga tao"
       }
     }
+  },
+  "exercises": {
+    "squat": "Maglupasay",
+    "deadlift": "Deadlift",
+    "benchPress": "Bench Press",
+    "overheadPress": "Overhead Press",
+    "barbellRow": "Barbell Row",
+    "pullUp": "Hilahin Pataas",
+    "chinUp": "Chin Up",
+    "latPulldown": "Lat Pulldown",
+    "seatedCableRow": "Nakaupo na Cable Row",
+    "dumbbellRow": "Dumbbell Row",
+    "romanianDeadlift": "Romanian Deadlift",
+    "hipThrust": "Hip Thrust",
+    "lunge": "Lunge",
+    "bulgarianSplitSquat": "Bulgarian Split Squat",
+    "legPress": "Leg Press",
+    "legExtension": "Extension ng binti",
+    "legCurl": "Kulot ng binti",
+    "calfRaise": "Pagtaas ng guya",
+    "gluteBridge": "Glute Bridge",
+    "pushUp": "Push Up",
+    "inclineDumbbellPress": "Incline Dumbbell Press",
+    "dips": "Dips",
+    "chestFly": "Lumipad sa Dibdib",
+    "lateralRaise": "Lateral Raise",
+    "rearDeltFly": "Rear Delt Fly",
+    "facePull": "Hilahin sa Mukha",
+    "bicepCurl": "Bicep Curl",
+    "hammerCurl": "Hammer Curl",
+    "tricepPushdown": "Pushdown ng Tricep",
+    "skullCrusher": "Bungo Crusher",
+    "plank": "Plank",
+    "hangingLegRaise": "Hanging Leg Raise",
+    "russianTwist": "Russian Twist",
+    "farmerCarry": "Magsasaka Carry",
+    "shrug": "Magkibit-balikat",
+    "arnoldPress": "Arnold Press",
+    "frontSquat": "Front Squat",
+    "sumoDeadlift": "Sumo Deadlift",
+    "gobletSquat": "Kupa Squat",
+    "stepUp": "Step Up"
   }
 }

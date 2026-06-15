@@ -1,0 +1,244 @@
+{
+  "header": {
+    "title": "Průvodce zdravím střev",
+    "subtitle": "Sledujte zdraví trávení a vybudujte prosperující mikrobiom",
+    "back": "Zpět na Dashboard"
+  },
+  "tabs": {
+    "log": "Denní deník střev",
+    "map": "Mapa mikrobiomu",
+    "habits": "Vláknina a fermentace"
+  },
+  "bristol": {
+    "title": "Stupnice Bristol Stool",
+    "info": "Zlatý standard pro sledování doby průchodu trávením a zdraví střev",
+    "types": {
+      "type1": {
+        "label": "Typ 1",
+        "desc": "Silná zácpa – Oddělte tvrdé hrudky"
+      },
+      "type2": {
+        "label": "Typ 2",
+        "desc": "Mírná zácpa – hrudkovitá a klobásová"
+      },
+      "type3": {
+        "label": "Typ 3",
+        "desc": "Normální - Klobása s prasklinami"
+      },
+      "type4": {
+        "label": "Typ 4",
+        "desc": "Ideální - Hladká, měkká klobása"
+      },
+      "type5": {
+        "label": "Typ 5",
+        "desc": "Nedostatek vlákniny - Měkké kuličky"
+      },
+      "type6": {
+        "label": "Typ 6",
+        "desc": "Mírný průjem – kašovitý"
+      },
+      "type7": {
+        "label": "Typ 7",
+        "desc": "Těžký průjem - Tekutý"
+      }
+    },
+    "alert": "Vyberte typ váhy Bristol Stool"
+  },
+  "symptoms": {
+    "title": "Příznaky dnes",
+    "items": {
+      "Bloating": "Nadýmání",
+      "Gas": "plyn",
+      "Cramping": "Křeče",
+      "Reflux": "Reflux",
+      "Energy Dip": "Pokles energie"
+    }
+  },
+  "triggers": {
+    "title": "Podezřelý spouštěč",
+    "items": {
+      "Dairy": "Mléko",
+      "Gluten": "Lepek",
+      "Coffee": "Káva",
+      "Spicy Food": "Pikantní jídlo",
+      "Alcohol": "Alkohol",
+      "Stress": "Stres",
+      "Other": "Jiné"
+    }
+  },
+  "log": {
+    "submit": "Záznam protokolu",
+    "success": "Střevní protokol byl úspěšně uložen!",
+    "recent": {
+      "title": "Nedávné protokoly",
+      "trigger": "Spouštěč:"
+    }
+  },
+  "microbiome": {
+    "prebiotics": {
+      "title": "Prebiotika",
+      "subtitle": "Jídlo pro vaše střevní bakterie",
+      "desc": "Prebiotika jsou potraviny bohaté na vlákninu, které vyživují prospěšné bakterie ve vašem střevě a pomáhají jim prospívat a množit se."
+    },
+    "probiotics": {
+      "title": "Probiotika",
+      "subtitle": "Živé prospěšné bakterie",
+      "desc": "Probiotika jsou živé mikroorganismy nacházející se ve fermentovaných potravinách, které přímo přidávají prospěšné bakterie do vašeho střeva."
+    }
+  },
+  "diversity": {
+    "title": "Výzva 30 rostlin za týden",
+    "subtitle": "Výzkum ukazuje, že konzumace více než 30 různých rostlin týdně podporuje optimální diverzitu střev",
+    "score_label": "/ 30 rostlin",
+    "weekly_score": "Týdenní skóre diverzity",
+    "feedback": {
+      "excellent": "🎉 Výborně! Dosahujete cíle 30 rostlin",
+      "great": "👍 Velká rozmanitost! Průběžně přidávejte rozmanitost",
+      "good": "📈 Dobrý začátek! Zaměřte se na větší rozmanitost rostlin",
+      "start": "🌱 Začněte přidávat různé rostliny pro zlepšení zdraví střev"
+    }
+  },
+  "habits": {
+    "title": "Kontrolní seznam pro šťastné střevo",
+    "subtitle": "Dokončete tyto každodenní návyky pro optimální zdraví trávení",
+    "items": {
+      "fiber": {
+        "label": "Spotřeba vlákniny 25g+",
+        "desc": "Z celozrnných výrobků, ovoce a zeleniny"
+      },
+      "fermented": {
+        "label": "Včetně 1 fermentovaného jídla",
+        "desc": "Kimchi, jogurt, kefír nebo kysané zelí"
+      },
+      "mindful": {
+        "label": "Všímavé jedení (20+ žvýkaček)",
+        "desc": "Správné žvýkání napomáhá trávení"
+      },
+      "fast": {
+        "label": "12hodinový noční odpočinek střev",
+        "desc": "Fasting window umožňuje opravu střeva"
+      }
+    }
+  },
+  "tracker": {
+    "title": "30denní sledování návyků",
+    "tooltip": "Den {{dayNum}}: {{count}}/4 zvyků",
+    "legend": {
+      "none": "žádný",
+      "one": "1",
+      "two": "2",
+      "three": "3",
+      "four": "3-4",
+      "all": "Všechny 4"
+    }
+  },
+  "essentials": {
+    "title": "Základy zdraví střev"
+  },
+  "plants": {
+    "Spinach": "Špenát",
+    "Kale": "Kale",
+    "Arugula": "rukola",
+    "Romaine": "Romaine",
+    "Broccoli": "brokolice",
+    "Cauliflower": "Květák",
+    "Brussels Sprouts": "Růžičková kapusta",
+    "Cabbage": "Zelí",
+    "Carrots": "Mrkev",
+    "Sweet Potatoes": "Sladké brambory",
+    "Beets": "Řepa",
+    "Radishes": "Ředkvičky",
+    "Chickpeas": "Cizrna",
+    "Lentils": "Čočka",
+    "Black Beans": "Černé fazole",
+    "Kidney Beans": "Fazole",
+    "Oats": "Oves",
+    "Brown Rice": "Hnědá rýže",
+    "Quinoa": "Quinoa",
+    "Barley": "Ječmen",
+    "Almonds": "Mandle",
+    "Walnuts": "Vlašské ořechy",
+    "Pistachios": "Pistácie",
+    "Cashews": "Kešu ořechy",
+    "Chia": "Chia",
+    "Flax": "Len",
+    "Pumpkin Seeds": "Dýňová semínka",
+    "Sunflower Seeds": "Slunečnicová semínka",
+    "Blueberries": "Borůvky",
+    "Strawberries": "Jahody",
+    "Raspberries": "Maliny",
+    "Blackberries": "Ostružiny",
+    "Oranges": "Pomeranče",
+    "Lemons": "Citrony",
+    "Limes": "Limetky",
+    "Grapefruit": "Grapefruit",
+    "Bananas": "banány",
+    "Pineapple": "Ananas",
+    "Mango": "Mango",
+    "Papaya": "Papája",
+    "Peaches": "Broskve",
+    "Plums": "švestky",
+    "Cherries": "Třešně",
+    "Apricots": "Meruňky",
+    "Basil": "bazalka",
+    "Cilantro": "Koriandr",
+    "Mint": "máta",
+    "Parsley": "Petržel",
+    "Rosemary": "Rozmarýn",
+    "Turmeric": "Kurkuma",
+    "Ginger": "Zázvor",
+    "Cinnamon": "Skořice",
+    "Cumin": "Kmín",
+    "Paprika": "Paprika",
+    "Kimchi": "Kimchi",
+    "Sauerkraut": "Kysané zelí",
+    "Miso": "Míšo",
+    "Tempeh": "Tempeh",
+    "Button Mushrooms": "Tlačítko Houby",
+    "Shiitake": "Shiitake",
+    "Portobello": "Portobello",
+    "Oyster Mushrooms": "Hlíva ústřičná",
+    "Pumpkin": "Dýně",
+    "Butternut Squash": "Ořešák dýně",
+    "Zucchini": "Cuketa",
+    "Acorn Squash": "Acorn Squash",
+    "Bell Peppers": "Papriky",
+    "Jalapeños": "Jalapeňos",
+    "Chili": "Chilli",
+    "Cherry Tomatoes": "Cherry rajčata",
+    "Roma Tomatoes": "Romská rajčata",
+    "Beefsteak Tomatoes": "Hovězí biftek rajčata",
+    "Garlic": "Česnek",
+    "Onions": "Cibule",
+    "Leeks": "Pórek",
+    "Shallots": "Šalotka",
+    "Alfalfa Sprouts": "Klíčky vojtěšky",
+    "Broccoli Sprouts": "Brokolicové klíčky",
+    "Mung Bean Sprouts": "Klíčky fazolí mungo",
+    "Nori": "Nori",
+    "Kelp": "Kelp",
+    "Wakame": "Wakame",
+    "Buckwheat": "Pohanka",
+    "Farro": "Farro",
+    "Amaranth": "Amarant",
+    "Millet": "Proso",
+    "Watermelon": "Meloun",
+    "Cantaloupe": "Cantaloupe",
+    "Honeydew": "Honeydew",
+    "Apples": "jablka",
+    "Pears": "Hrušky",
+    "Avocado": "Avokádo",
+    "Coconut": "Kokos",
+    "Coconut Milk": "Kokosové mléko",
+    "Coconut Water": "Kokosová voda",
+    "Olives": "Olivy",
+    "Dark Chocolate": "Hořká čokoláda",
+    "Cacao Nibs": "Kakaové hroty",
+    "Cocoa Powder": "Kakaový prášek",
+    "Green Tea": "Zelený čaj",
+    "Black Tea": "Černý čaj",
+    "Chamomile": "Heřmánek pravý",
+    "Peppermint Tea": "Mátový čaj",
+    "Coffee": "Káva"
+  }
+}

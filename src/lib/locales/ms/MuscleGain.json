@@ -109,7 +109,16 @@
       "thigh": "Paha (dalam)",
       "thighHint": "Bahagian terluas",
       "submit": "Pengukuran Log",
-      "success": "Metrik berjaya direkodkan!"
+      "success": "Metrik berjaya direkodkan!",
+      "placeholders": {
+        "weight": "cth., 75",
+        "targetWeight": "cth., 85",
+        "chest": "cth., 40",
+        "waist": "Pilihan",
+        "bicep": "cth., 15",
+        "bicepL": "Sama seperti betul",
+        "thigh": "Pilihan"
+      }
     },
     "volume": {
       "title": "Kalkulator Isipadu",
@@ -120,7 +129,13 @@
       "totalVolume": "Jumlah Isipadu",
       "remaining": "Kekal untuk Gol",
       "submit": "Volum Log",
-      "logged": "{{angkat}} direkodkan: {{volume}}kg jumlah isipadu!"
+      "logged": "{{angkat}} direkodkan: {{volume}}kg jumlah isipadu!",
+      "recentLifts": "Lif Terkini",
+      "placeholders": {
+        "sets": "cth., 4",
+        "reps": "cth., 8",
+        "weight": "cth., 80"
+      }
     },
     "chart": {
       "title": "Carta Kemajuan",
@@ -168,7 +183,71 @@
         "perfect": "Sempurna (5/5)",
         "partial": "Sebahagian",
         "none": "Tidak lengkap"
+      },
+      "tooltip": "Hari {{hari}}: {{count}}/5 tabiat"
+    }
+  },
+  "essentials": {
+    "title": "Keperluan Hipertrofi",
+    "tips": {
+      "rest": {
+        "title": "Otot dibina semasa rehat:",
+        "desc": "Tidur dan pemakanan adalah apabila pertumbuhan berlaku, bukan di gim"
+      },
+      "protein": {
+        "title": "Masa protein penting kurang daripada jumlah:",
+        "desc": "Fokus pada mencapai sasaran harian anda, masa adalah kedua"
+      },
+      "track": {
+        "title": "Jejaki segala-galanya:",
+        "desc": "Berat, ukuran dan isipadu - data mendedahkan kemajuan yang anda tidak dapat lihat di cermin"
+      },
+      "creatine": {
+        "title": "Creatine terbukti:",
+        "desc": "3-5g setiap hari meningkatkan kekuatan dan jisim tanpa lemak tanpa kesan sampingan untuk kebanyakan orang"
       }
     }
+  },
+  "exercises": {
+    "squat": "Mencangkung",
+    "deadlift": "Deadlift",
+    "benchPress": "Akhbar Bangku",
+    "overheadPress": "Tekan Atas",
+    "barbellRow": "Barisan Barbel",
+    "pullUp": "Tarik Ke Atas",
+    "chinUp": "Dagu Ke Atas",
+    "latPulldown": "Lat Pulldown",
+    "seatedCableRow": "Barisan Kabel Duduk",
+    "dumbbellRow": "Barisan Dumbbell",
+    "romanianDeadlift": "Deadlift Romania",
+    "hipThrust": "Tujahan Pinggul",
+    "lunge": "Lunge",
+    "bulgarianSplitSquat": "Bulgarian Split Squat",
+    "legPress": "Tekan Kaki",
+    "legExtension": "Sambungan Kaki",
+    "legCurl": "Keriting Kaki",
+    "calfRaise": "Angkat Anak Lembu",
+    "gluteBridge": "Jambatan Glute",
+    "pushUp": "Tekan Naik",
+    "inclineDumbbellPress": "Incline Dumbbell Press",
+    "dips": "Dips",
+    "chestFly": "Lalat Dada",
+    "lateralRaise": "Naikkan Sisi",
+    "rearDeltFly": "Lalat Delt Belakang",
+    "facePull": "Tarik Muka",
+    "bicepCurl": "Bicep Curl",
+    "hammerCurl": "Keriting Tukul",
+    "tricepPushdown": "Tricep Pushdown",
+    "skullCrusher": "Penghancur Tengkorak",
+    "plank": "Papan",
+    "hangingLegRaise": "Angkat Kaki Gantung",
+    "russianTwist": "Twist Rusia",
+    "farmerCarry": "Angkut Petani",
+    "shrug": "angkat bahu",
+    "arnoldPress": "Arnold Press",
+    "frontSquat": "Mencangkung Depan",
+    "sumoDeadlift": "Sumo Deadlift",
+    "gobletSquat": "Goblet Squat",
+    "stepUp": "Langkah Naik"
   }
 }

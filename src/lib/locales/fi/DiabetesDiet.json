@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "back": "Takaisin hallintapaneeliin"
+  },
+  "header": {
+    "title": "Diabetes-ruokavalioopas",
+    "subtitle": "Tarkkaile glukoosia ja hallitse levymenetelmä"
+  },
+  "alert": {
+    "title": "Varoitus matalasta verensokerista",
+    "desc": "Lukemasi viittaa hypoglykemiaan (alhainen verensokeri). Toimi välittömästi:",
+    "actions": {
+      "carbs": "Syö 15 g nopeasti vaikuttavia hiilihydraatteja (esim. 4 unssia mehua, 3-4 glukoositablettia)",
+      "wait": "Odota 15 minuuttia",
+      "repeat": "Testaa uudelleen; jos se on edelleen alhainen, toista hoito",
+      "contact": "Ota yhteyttä lääkäriisi, jos tasot eivät stabiloitu"
+    }
+  },
+  "tabs": {
+    "plate": "Diabeteslevy",
+    "log": "Glukoosiloki",
+    "gi": "GI-haku"
+  },
+  "log": {
+    "title": "Log Glucose Reading",
+    "unit": "Mittayksikkö",
+    "value": "Glukoositaso ({{yksikkö}})",
+    "valuePlaceholder": "Anna arvo (esim. 110)",
+    "valuePlaceholderMmol": "Anna arvo (esim. 6.1)",
+    "timing": "Lukemisen ajoitus",
+    "mealContext": "Ateriakonteksti / Huomautuksia",
+    "mealContextPlaceholder": "Mitä söit? Miltä sinusta tuntuu?",
+    "submit": "Tallenna lukeminen",
+    "success": "Glukoosilukema tallennettu onnistuneesti!",
+    "targets": {
+      "title": "Vakiokohdealueet (mg/dl)",
+      "fasting": "Paasto: 80-130 mg/dl",
+      "postMeal": "1-2 h aterian jälkeen: < 180 mg/dl",
+      "low": "Matala: < 70 mg/dl"
+    },
+    "recent": {
+      "title": "Viimeaikaiset lukemat",
+      "noReadings": "Ei vielä kirjattuja lukemia",
+      "trend": "Glukoositrendi (7 viimeistä lukemaa)",
+      "targetMax": "Tavoite maksimi (paasto)",
+      "targetPost": "Tavoite maksimi (aterian jälkeen)"
+    }
+  },
+  "status": {
+    "normal": "Normaali",
+    "high": "Korkea",
+    "low": "Matala"
+  },
+  "timing": {
+    "fasting": "Paasto / Ennen ateriaa",
+    "preMeal": "Ennen ateriaa",
+    "postMeal1h": "1h ruokailun jälkeen",
+    "postMeal2h": "2h ruokailun jälkeen",
+    "bedtime": "Nukkumaanmenoaika"
+  },
+  "plate": {
+    "intro": {
+      "title": "Diabeteslevymenetelmä",
+      "desc": "Lautasmenetelmä on yksinkertainen tapa suunnitella ateriat ilman laskemista. Se keskittyy annosten hallintaan ja tasapainoon auttaakseen hallitsemaan verensokeritasoja."
+    },
+    "build": {
+      "title": "Rakenna lautasesi",
+      "hint": "Napsauta osiota nähdäksesi suositellut ruoat"
+    },
+    "categories": {
+      "veggies": {
+        "name": "Tärkkelyspitoiset kasvikset",
+        "percent": "50 %",
+        "desc": "Täytä puolet lautasesta värikkäillä, kuitupitoisilla vihanneksilla"
+      },
+      "protein": {
+        "name": "Laiha proteiini",
+        "percent": "25 %",
+        "desc": "Täytä neljännes vähärasvaisilla proteiinilähteillä"
+      },
+      "carbs": {
+        "name": "Terveelliset hiilihydraatit",
+        "percent": "25 %",
+        "desc": "Täytä neljännes täysjyväviljoilla tai tärkkelyspitoisilla kasviksilla"
+      }
+    },
+    "principles": {
+      "title": "Levymenetelmän periaatteet",
+      "veggies": {
+        "title": "Vihannekset ensin",
+        "desc": "Syö ensin vihannekset hidastaaksesi glukoosin imeytymistä muusta ateriaasi."
+      },
+      "protein": {
+        "title": "Laadukas proteiini",
+        "desc": "Valitse laiha vaihtoehto tukeaksesi lihasten ylläpitoa ilman liiallisia tyydyttyneitä rasvoja."
+      },
+      "carbs": {
+        "title": "Tietoisia hiilihydraatteja",
+        "desc": "Pidä kiinni monimutkaisista hiilihydraateista, joilla on pienempi vaikutus verensokeripiikkeihin."
+      }
+    }
+  },
+  "gi": {
+    "intro": {
+      "title": "Glykeemisen indeksin (GI) haku",
+      "desc": "Glykeeminen indeksi luokittelee hiilihydraatit sen mukaan, kuinka paljon ne nostavat verensokeria verrattuna vertailuruokaan.",
+      "low": "Matala (0-55)",
+      "medium": "Keskikokoinen (56–69)",
+      "high": "Korkea (70+)"
+    },
+    "labels": {
+      "low": "Matala GI",
+      "medium": "Keskitasoinen GI",
+      "high": "Korkea GI"
+    },
+    "search": "Hae ruokaa (esim. kaura, banaani...)",
+    "noResults": "Hakusi vastaavia ruokia ei löytynyt"
+  },
+  "foods": {
+    "Spinach": "Pinaatti",
+    "Broccoli": "Parsakaali",
+    "Cauliflower": "Kukkakaali",
+    "Bell Peppers": "Paprikat",
+    "Zucchini": "Kesäkurpitsa",
+    "Asparagus": "Parsa",
+    "Cucumber": "Kurkku",
+    "Tomatoes": "Tomaatit",
+    "Chicken Breast": "Kanan rinta",
+    "Fish (Salmon, Tuna)": "Kala (lohi, tonnikala)",
+    "Tofu": "Tofu",
+    "Lentils": "Linssit",
+    "Eggs": "Munat",
+    "Turkey": "Turkki",
+    "Greek Yogurt": "Kreikkalainen jogurtti",
+    "Brown Rice": "Ruskea riisi",
+    "Quinoa": "Quinoa",
+    "Sweet Potato": "Bataatti",
+    "Whole Wheat Pasta": "Täysjyväpasta",
+    "Oats": "Kaura",
+    "Barley": "Ohra"
+  }
+}

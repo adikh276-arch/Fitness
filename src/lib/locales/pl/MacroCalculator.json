@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "back": "Powrót do Panelu"
+  },
+  "header": {
+    "title": "Kalkulator makro",
+    "subtitle": "Oblicz swoje dzienne zapotrzebowanie na kalorie i makroelementy"
+  },
+  "tabs": {
+    "input": "Twoje dane",
+    "results": "Twoje wyniki"
+  },
+  "form": {
+    "title": "Twoje dane",
+    "age": "Wiek (lata)",
+    "gender": "Płeć",
+    "male": "Mężczyzna",
+    "female": "Kobieta",
+    "weight": "Waga",
+    "height": "Wysokość",
+    "activity": "Poziom aktywności",
+    "goal": "Cel",
+    "submit": "Oblicz makra",
+    "placeholders": {
+      "age": "np. 30",
+      "weightKg": "np. 70",
+      "weightLbs": "np. 154",
+      "heightCm": "np. 175",
+      "heightFt": "Stopy",
+      "heightIn": "Cale"
+    },
+    "activityLevels": {
+      "sedentary": "Siedzący tryb życia (mało ćwiczeń/brak ćwiczeń)",
+      "light": "Lekko aktywny (1-3 dni w tygodniu)",
+      "moderate": "Umiarkowanie aktywny (3-5 dni w tygodniu)",
+      "very": "Bardzo aktywny (6-7 dni w tygodniu)"
+    },
+    "goals": {
+      "maintenance": "Konserwacja",
+      "loss": "Utrata wagi",
+      "gain": "Przyrost mięśni"
+    }
+  },
+  "results": {
+    "title": "Twoje wyniki",
+    "calorieTarget": "Dzienny cel kalorii",
+    "kcalPerDay": "kcal/dzień",
+    "bmrLabel": "BMR: {{val}} kcal",
+    "protein": "Białko",
+    "carbs": "Węglowodany",
+    "fat": "Gruby",
+    "submit": "Zapisz w profilu",
+    "placeholder": "Wprowadź swoje dane i kliknij Oblicz, aby zobaczyć wyniki",
+    "success": "Dane makro zostały zapisane! Dane Twojego profilu zostały zsynchronizowane.",
+    "validation": "Proszę wprowadzić prawidłowe wartości"
+  }
+}

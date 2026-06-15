@@ -1,0 +1,141 @@
+{
+  "header": {
+    "title": "Gabay sa Kalusugan ng Puso",
+    "subtitle": "Subaybayan ang vitals, matuto ng DASH diet, at bumuo ng mga gawi na malusog sa puso",
+    "back": "Bumalik sa Dashboard"
+  },
+  "alerts": {
+    "crisis": {
+      "title": "BABALA sa HYPERTENSIVE CRISIS",
+      "desc": "Ang iyong pagbabasa ng presyon ng dugo ay mapanganib na mataas (≥180/120). Nangangailangan ito ng agarang medikal na atensyon."
+    },
+    "vitals": {
+      "invalid": "Mangyaring maglagay ng mga wastong pagbabasa",
+      "success": "Naka-log ang pagbabasa: {{sys}}/{{dia}} - {{category}}"
+    }
+  },
+  "tabs": {
+    "dash": "DASH Diet",
+    "vitals": "Vitals Log",
+    "habits": "Mga gawi sa puso"
+  },
+  "vitals": {
+    "form": {
+      "title": "I-log ang Iyong Vitals",
+      "bp": {
+        "label": "Presyon ng Dugo",
+        "systolic": "Systolic",
+        "systolic_desc": "Nangungunang numero",
+        "diastolic": "Diastolic",
+        "diastolic_desc": "Ibabang numero"
+      },
+      "heart_rate": {
+        "label": "Resting Heart Rate (BPM)",
+        "placeholder": "hal., 72"
+      },
+      "submit": "Pagbasa ng Log"
+    },
+    "recent": {
+      "title": "Mga Kamakailang Pagbasa",
+      "empty": "Wala pang mga pagbabasa na naka-log",
+      "bpm": "{{count}} BPM"
+    },
+    "chart": {
+      "title": "7-Araw na Trend ng Presyon ng Dugo",
+      "systolic": "Systolic",
+      "diastolic": "Diastolic"
+    },
+    "guidelines": {
+      "title": "Mga Kategorya ng Presyon ng Dugo ng AHA:",
+      "normal": "Normal: <120/80",
+      "elevated": "Nakataas: 120-129/<80",
+      "stage1": "Stage 1: 130-139/80-89",
+      "stage2": "Stage 2: ≥140/90"
+    },
+    "categories": {
+      "crisis": "Hypertensive Crisis",
+      "stage2": "Yugto ng Hypertension 2",
+      "stage1": "Yugto 1 ng Hypertension",
+      "elevated": "Nakataas",
+      "normal": "Normal",
+      "unknown": "Hindi kilala"
+    }
+  },
+  "dash": {
+    "intro": {
+      "title": "Ang DASH Diet",
+      "desc": "Dietary Approaches to Stop Hypertension - Isang subok na siyentipikong plano sa pagkain na natural na nagpapababa ng presyon ng dugo."
+    },
+    "principles": {
+      "sodium": {
+        "title": "Limitasyon ng sodium",
+        "limit": "<2,300mg bawat araw",
+        "high_risk": "(O 1,500mg para sa mga indibidwal na may mataas na panganib)",
+        "desc": "Ang labis na sodium ay nagdudulot ng pagpapanatili ng tubig, pagtaas ng dami ng dugo at presyon sa mga pader ng arterya."
+      },
+      "potassium": {
+        "title": "Potassium Power",
+        "limit": "4,700mg bawat araw",
+        "source": "Mula sa buong pagkain"
+      },
+      "magnesium": {
+        "title": "Magnesium at Fiber",
+        "limit": "500mg Mg / 25-35g Fiber",
+        "target": "Araw-araw na mga target"
+      }
+    },
+    "scanner": {
+      "title": "⚠️ Nakatagong Sodium Scanner: Mga Pagkaing \"Sneaky Salt\".",
+      "subtitle": "Ang mga mukhang inosenteng pagkain na ito ay naglalaman ng mas maraming sodium kaysa sa iyong iniisip:",
+      "swaps": {
+        "title": "💡 DASH-Friendly na Pagpalit:"
+      }
+    }
+  },
+  "habits": {
+    "vitality": {
+      "title": "Vitality Score",
+      "start": "Simulan ang pagbuo ng iyong heart-healthy streak!",
+      "streak_good": "🔥 {{count}} na sunod-sunod na araw! Ang iyong puso ay umuunlad",
+      "streak_continue": "{{count}} na araw - Magpatuloy!",
+      "streak_continue_singular": "{{count}} araw - Magpatuloy!",
+      "days": "sunud-sunod na araw",
+      "goal": "{{count}} / 30 araw na layunin"
+    },
+    "checklist": {
+      "title": "Pang-araw-araw na Cardio Checklist",
+      "subtitle": "Kumpletuhin ang mga gawi na ito araw-araw upang bumuo ng lakas ng cardiovascular",
+      "items": {
+        "cardio": {
+          "label": "30 Mins Zone 2 Cardio",
+          "desc": "Mabilis na paglalakad, pagbibisikleta, o paglangoy sa bilis ng pakikipag-usap"
+        },
+        "low_sodium": {
+          "label": "Nanatili sa ilalim ng Sodium Limit",
+          "desc": "<2,300mg (o 1,500mg kung mataas ang panganib)"
+        },
+        "no_salt": {
+          "label": "Walang Idinagdag na Asin sa Mesa",
+          "desc": "Hayaang lumiwanag ang natural na lasa ng pagkain"
+        },
+        "meds": {
+          "label": "Ininom na gamot (Opsyonal)",
+          "desc": "Para sa mga nasa gamot sa BP"
+        }
+      }
+    },
+    "tips": {
+      "title": "Mahahalagang Kalusugan ng Puso"
+    }
+  },
+  "foods": {
+    "canned_soup": "Canned Soup (1 tasa)",
+    "deli_turkey": "Deli Turkey (2 oz)",
+    "white_bread": "Puting Tinapay (2 hiwa)",
+    "frozen_pizza": "Frozen Pizza (1 slice)",
+    "soy_sauce": "Soy Sauce (1 kutsara)",
+    "cottage_cheese": "Cottage Cheese (1/2 tasa)",
+    "pickles": "Mga atsara (1 medium)",
+    "salad_dressing": "Salad Dressing (2 tbsp)"
+  }
+}

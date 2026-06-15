@@ -70,7 +70,8 @@
       "firstMeal": "První jídlo (dnes):",
       "duration": "Celková doba půstu",
       "goalAchieved": "Cíl dosažen! Dokončili jste 16+ hodinový půst!",
-      "submit": "Zaznamenejte to rychle"
+      "submit": "Zaznamenejte to rychle",
+      "dateLabel": "datum:"
     },
     "tracker": {
       "title": "30denní rychlý průběh",
@@ -81,7 +82,9 @@
         "goalMet": "Cíl splněn (16+ hodin)",
         "today": "Dnes",
         "missed": "Zmeškaný den"
-      }
+      },
+      "today": "dnes",
+      "dayLabel": "Den {{val}}"
     },
     "recentFasts": {
       "title": "Nedávné půsty",

@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "back": "Kembali ke Papan Pemuka"
+  },
+  "header": {
+    "title": "Penjejak Pengambilan Air",
+    "subtitle": "Jejaki penghidratan harian anda dan capai matlamat anda"
+  },
+  "tabs": {
+    "tracker": "Penjejak Hari Ini",
+    "history": "Sejarah"
+  },
+  "tracker": {
+    "consumed": "ml dimakan",
+    "goalLabel": "Matlamat Harian",
+    "remainingLabel": "yang tinggal",
+    "changeGoal": "Tukar matlamat harian",
+    "quickAdd": {
+      "title": "Tambah Pantas",
+      "smallGlass": "Kaca Kecil",
+      "bottle": "Botol",
+      "largeBottle": "Botol Besar",
+      "jug": "Jag"
+    },
+    "custom": {
+      "label": "Amaun Tersuai (ml)",
+      "placeholder": "cth., 350",
+      "submit": "Tambah",
+      "undo": "Buat asal Entri Terakhir"
+    }
+  },
+  "history": {
+    "title": "Sejarah Pengambilan Air",
+    "noHistory": "Tiada sejarah tersedia lagi",
+    "today": "Hari ini",
+    "summary": "{{jumlah}} ml / {{matlamat}} ml ({{peratus}}%)",
+    "stats": {
+      "total": "Jumlah",
+      "entries": "entri"
+    }
+  },
+  "modal": {
+    "title": "Tetapkan Matlamat Harian",
+    "subtitle": "Masukkan sasaran pengambilan air harian anda",
+    "placeholder": "cth., 2500",
+    "calcToggleShow": "Kira Disyorkan",
+    "calcToggleHide": "Sembunyikan Kalkulator",
+    "formula": "Formula: Berat (kg) × 35ml",
+    "weightLabel": "Berat Anda (kg)",
+    "weightPlaceholder": "cth., 70",
+    "calcBtn": "Kira & Guna",
+    "cancel": "Batal",
+    "save": "Jimat"
+  }
+}

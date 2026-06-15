@@ -1,0 +1,141 @@
+{
+  "header": {
+    "title": "Guide de santé cardiaque",
+    "subtitle": "Suivez vos signes vitaux, apprenez le régime DASH et adoptez des habitudes saines pour le cœur",
+    "back": "Retour au tableau de bord"
+  },
+  "alerts": {
+    "crisis": {
+      "title": "AVERTISSEMENT DE CRISE HYPERTENSIVE",
+      "desc": "Votre tension artérielle est dangereusement élevée (≥180/120). Cela nécessite des soins médicaux immédiats."
+    },
+    "vitals": {
+      "invalid": "Veuillez entrer des lectures valides",
+      "success": "Lectures enregistrées : {{sys}}/{{dia}} - {{category}}"
+    }
+  },
+  "tabs": {
+    "dash": "Régime DASH",
+    "vitals": "Journal des signes vitaux",
+    "habits": "Habitudes cardiaques"
+  },
+  "vitals": {
+    "form": {
+      "title": "Enregistrez vos signes vitaux",
+      "bp": {
+        "label": "Pression artérielle",
+        "systolic": "Systolique",
+        "systolic_desc": "Numéro supérieur",
+        "diastolic": "Diastolique",
+        "diastolic_desc": "Numéro du bas"
+      },
+      "heart_rate": {
+        "label": "Fréquence cardiaque au repos (BPM)",
+        "placeholder": "par exemple, 72"
+      },
+      "submit": "Lecture du journal"
+    },
+    "recent": {
+      "title": "Lectures récentes",
+      "empty": "Aucune lecture enregistrée pour le moment",
+      "bpm": "{{count}} BPM"
+    },
+    "chart": {
+      "title": "Tendance de la tension artérielle sur 7 jours",
+      "systolic": "Systolique",
+      "diastolic": "Diastolique"
+    },
+    "guidelines": {
+      "title": "Catégories de tension artérielle AHA :",
+      "normal": "Normale : <120/80",
+      "elevated": "Élevé : 120-129/<80",
+      "stage1": "Étape 1 : 130-139/80-89",
+      "stage2": "Étape 2 : ≥140/90"
+    },
+    "categories": {
+      "crisis": "Crise hypertensive",
+      "stage2": "Hypertension de stade 2",
+      "stage1": "Hypertension Stade 1",
+      "elevated": "Élevé",
+      "normal": "Normale",
+      "unknown": "Inconnu"
+    }
+  },
+  "dash": {
+    "intro": {
+      "title": "Le régime DASH",
+      "desc": "Approches diététiques pour arrêter l’hypertension – Un régime alimentaire scientifiquement prouvé qui abaisse naturellement la tension artérielle."
+    },
+    "principles": {
+      "sodium": {
+        "title": "Limite de sodium",
+        "limit": "<2 300 mg par jour",
+        "high_risk": "(Ou 1 500 mg pour les personnes à haut risque)",
+        "desc": "L'excès de sodium provoque une rétention d'eau, augmentant le volume sanguin et la pression sur les parois des artères."
+      },
+      "potassium": {
+        "title": "Puissance potassique",
+        "limit": "4 700 mg par jour",
+        "source": "À partir d'aliments entiers"
+      },
+      "magnesium": {
+        "title": "Magnésium et fibres",
+        "limit": "500 mg de magnésium / 25 à 35 g de fibres",
+        "target": "Objectifs quotidiens"
+      }
+    },
+    "scanner": {
+      "title": "⚠️ Scanner de sodium caché : aliments « sel sournois »",
+      "subtitle": "Ces aliments apparemment innocents contiennent plus de sodium que vous ne le pensez :",
+      "swaps": {
+        "title": "💡 Échanges compatibles DASH :"
+      }
+    }
+  },
+  "habits": {
+    "vitality": {
+      "title": "Score de vitalité",
+      "start": "Commencez à bâtir votre séquence de santé cardiaque !",
+      "streak_good": "🔥 {{count}} journée consécutive ! Ton cœur prospère",
+      "streak_continue": "{{count}} jours – Continuez !",
+      "streak_continue_singular": "{{count}} jour – Continuez !",
+      "days": "séquence d'une journée",
+      "goal": "{{count}} / objectif de 30 jours"
+    },
+    "checklist": {
+      "title": "Liste de contrôle cardio quotidienne",
+      "subtitle": "Complétez ces habitudes quotidiennement pour développer votre force cardiovasculaire",
+      "items": {
+        "cardio": {
+          "label": "30 minutes de cardio zone 2",
+          "desc": "Marche rapide, vélo ou natation au rythme de la conversation"
+        },
+        "low_sodium": {
+          "label": "Resté sous la limite de sodium",
+          "desc": "<2 300 mg (ou 1 500 mg si à haut risque)"
+        },
+        "no_salt": {
+          "label": "Pas de sel ajouté à table",
+          "desc": "Laissez briller les saveurs naturelles des aliments"
+        },
+        "meds": {
+          "label": "Médicaments pris (facultatif)",
+          "desc": "Pour ceux qui prennent des médicaments contre la tension artérielle"
+        }
+      }
+    },
+    "tips": {
+      "title": "Les essentiels de la santé cardiaque"
+    }
+  },
+  "foods": {
+    "canned_soup": "Soupe en conserve (1 tasse)",
+    "deli_turkey": "Dinde de charcuterie (2 oz)",
+    "white_bread": "Pain blanc (2 tranches)",
+    "frozen_pizza": "Pizza surgelée (1 tranche)",
+    "soy_sauce": "Sauce soja (1 cuillère à soupe)",
+    "cottage_cheese": "Fromage cottage (1/2 tasse)",
+    "pickles": "Cornichons (1 moyen)",
+    "salad_dressing": "Vinaigrette (2 cuillères à soupe)"
+  }
+}

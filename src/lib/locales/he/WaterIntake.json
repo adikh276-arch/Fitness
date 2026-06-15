@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "back": "חזרה ללוח המחוונים"
+  },
+  "header": {
+    "title": "מעקב אחר צריכת מים",
+    "subtitle": "עקוב אחר הלחות היומית שלך והשג את היעדים שלך"
+  },
+  "tabs": {
+    "tracker": "הגשש של היום",
+    "history": "היסטוריה"
+  },
+  "tracker": {
+    "consumed": "מ\"ל נצרך",
+    "goalLabel": "יעד יומי",
+    "remainingLabel": "נשאר",
+    "changeGoal": "שנה את היעד היומי",
+    "quickAdd": {
+      "title": "הוסף מהיר",
+      "smallGlass": "זכוכית קטנה",
+      "bottle": "בקבוק",
+      "largeBottle": "בקבוק גדול",
+      "jug": "כד"
+    },
+    "custom": {
+      "label": "כמות מותאמת אישית (מ\"ל)",
+      "placeholder": "למשל, 350",
+      "submit": "הוסף",
+      "undo": "בטל את הערך האחרון"
+    }
+  },
+  "history": {
+    "title": "היסטוריית צריכת מים",
+    "noHistory": "אין עדיין היסטוריה זמינה",
+    "today": "היום",
+    "summary": "{{total}} מ\"ל / {{גול}} מ\"ל ({{אחוז}}%)",
+    "stats": {
+      "total": "סך הכל",
+      "entries": "ערכים"
+    }
+  },
+  "modal": {
+    "title": "הגדר יעד יומי",
+    "subtitle": "הזן את היעד של צריכת המים היומית שלך",
+    "placeholder": "למשל, 2500",
+    "calcToggleShow": "חשב מומלץ",
+    "calcToggleHide": "הסתר מחשבון",
+    "formula": "נוסחה: משקל (ק\"ג) × 35 מ\"ל",
+    "weightLabel": "המשקל שלך (ק\"ג)",
+    "weightPlaceholder": "למשל, 70",
+    "calcBtn": "חשב והחל",
+    "cancel": "בטל",
+    "save": "שמור"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "header": {
+    "title": "Guide för hjärthälsa",
+    "subtitle": "Spåra vitals, lär dig DASH-diet och bygg upp hjärthälsosamma vanor",
+    "back": "Tillbaka till Dashboard"
+  },
+  "alerts": {
+    "crisis": {
+      "title": "HYPERTENSIV KRISVARNING",
+      "desc": "Din blodtrycksavläsning är farligt hög (≥180/120). Detta kräver omedelbar läkarvård."
+    },
+    "vitals": {
+      "invalid": "Vänligen ange giltiga avläsningar",
+      "success": "Läser loggade: {{sys}}/{{dia}} - {{category}}"
+    }
+  },
+  "tabs": {
+    "dash": "DASH Diet",
+    "vitals": "Vitallogg",
+    "habits": "Hjärtvanor"
+  },
+  "vitals": {
+    "form": {
+      "title": "Logga dina vitals",
+      "bp": {
+        "label": "Blodtryck",
+        "systolic": "Systolisk",
+        "systolic_desc": "Toppnummer",
+        "diastolic": "Diastolisk",
+        "diastolic_desc": "Nedre nummer"
+      },
+      "heart_rate": {
+        "label": "Vilopuls (BPM)",
+        "placeholder": "t.ex. 72"
+      },
+      "submit": "Loggläsning"
+    },
+    "recent": {
+      "title": "Senaste läsningar",
+      "empty": "Inga avläsningar loggade ännu",
+      "bpm": "{{count}} BPM"
+    },
+    "chart": {
+      "title": "7-dagars blodtryckstrend",
+      "systolic": "Systolisk",
+      "diastolic": "Diastolisk"
+    },
+    "guidelines": {
+      "title": "AHA-blodtryckskategorier:",
+      "normal": "Normal: <120/80",
+      "elevated": "Förhöjd: 120-129/<80",
+      "stage1": "Steg 1: 130-139/80-89",
+      "stage2": "Steg 2: ≥140/90"
+    },
+    "categories": {
+      "crisis": "Hypertensiv kris",
+      "stage2": "Hypertoni steg 2",
+      "stage1": "Hypertoni steg 1",
+      "elevated": "Förhöjd",
+      "normal": "Normal",
+      "unknown": "Okänd"
+    }
+  },
+  "dash": {
+    "intro": {
+      "title": "DASH-dieten",
+      "desc": "Kosttillvägagångssätt för att stoppa högt blodtryck - En vetenskapligt bevisad kostplan som sänker blodtrycket naturligt."
+    },
+    "principles": {
+      "sodium": {
+        "title": "Natriumgräns",
+        "limit": "<2 300 mg per dag",
+        "high_risk": "(Eller 1 500 mg för högriskpersoner)",
+        "desc": "Överskott av natrium orsakar vattenretention, ökar blodvolymen och trycket på artärväggarna."
+      },
+      "potassium": {
+        "title": "Kaliumkraft",
+        "limit": "4 700 mg per dag",
+        "source": "Från hela livsmedel"
+      },
+      "magnesium": {
+        "title": "Magnesium & Fiber",
+        "limit": "500mg Mg / 25-35g Fiber",
+        "target": "Dagliga mål"
+      }
+    },
+    "scanner": {
+      "title": "⚠️ Hidden Sodium Scanner: \"Sneaky Salt\" livsmedel",
+      "subtitle": "Dessa till synes oskyldiga livsmedel innehåller mer natrium än du tror:",
+      "swaps": {
+        "title": "💡 DASH-vänliga byten:"
+      }
+    }
+  },
+  "habits": {
+    "vitality": {
+      "title": "Vitalitetspoäng",
+      "start": "Börja bygga upp din hjärthälsa!",
+      "streak_good": "🔥 {{count}} dagars rad! Ditt hjärta frodas",
+      "streak_continue": "{{count}} dagar – Fortsätt!",
+      "streak_continue_singular": "{{count}} dag – Fortsätt!",
+      "days": "dags svit",
+      "goal": "{{count}}/30 dagars mål"
+    },
+    "checklist": {
+      "title": "Daglig konditionschecklista",
+      "subtitle": "Slutför dessa vanor dagligen för att bygga upp kardiovaskulär styrka",
+      "items": {
+        "cardio": {
+          "label": "30 min Zon 2 Cardio",
+          "desc": "Snabb promenad, cykling eller simning i konversationstakt"
+        },
+        "low_sodium": {
+          "label": "Stannade under natriumgränsen",
+          "desc": "<2 300 mg (eller 1 500 mg om det är högrisk)"
+        },
+        "no_salt": {
+          "label": "Inget tillsatt salt vid bordet",
+          "desc": "Låt matens naturliga smaker skina"
+        },
+        "meds": {
+          "label": "Tagen medicin (valfritt)",
+          "desc": "För dig som tar BP-medicin"
+        }
+      }
+    },
+    "tips": {
+      "title": "Essentials för hjärthälsa"
+    }
+  },
+  "foods": {
+    "canned_soup": "Konserverad soppa (1 kopp)",
+    "deli_turkey": "Deli Turkiet (2 oz)",
+    "white_bread": "Vitt bröd (2 skivor)",
+    "frozen_pizza": "Fryst pizza (1 skiva)",
+    "soy_sauce": "Sojasås (1 msk)",
+    "cottage_cheese": "Keso (1/2 kopp)",
+    "pickles": "Pickles (1 medium)",
+    "salad_dressing": "Salladsdressing (2 msk)"
+  }
+}

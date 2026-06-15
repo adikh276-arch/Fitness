@@ -1,0 +1,141 @@
+{
+  "header": {
+    "title": "心臓の健康ガイド",
+    "subtitle": "バイタルを追跡し、DASH ダイエットを学び、心臓の健康的な習慣を築きましょう",
+    "back": "ダッシュボードに戻る"
+  },
+  "alerts": {
+    "crisis": {
+      "title": "高血圧の危機への警告",
+      "desc": "血圧の測定値が危険なほど高い (≥180/120)。これには直ちに医師の診察が必要です。"
+    },
+    "vitals": {
+      "invalid": "有効な読み取り値を入力してください",
+      "success": "ログに記録された読み取り: {{sys}}/{{dia}} - {{category}}"
+    }
+  },
+  "tabs": {
+    "dash": "ダッシュダイエット",
+    "vitals": "バイタルログ",
+    "habits": "心の習慣"
+  },
+  "vitals": {
+    "form": {
+      "title": "バイタルを記録する",
+      "bp": {
+        "label": "血圧",
+        "systolic": "収縮期",
+        "systolic_desc": "トップナンバー",
+        "diastolic": "拡張期",
+        "diastolic_desc": "下の番号"
+      },
+      "heart_rate": {
+        "label": "安静時心拍数 (BPM)",
+        "placeholder": "例: 72"
+      },
+      "submit": "ログの読み取り"
+    },
+    "recent": {
+      "title": "最近の読書",
+      "empty": "測定値はまだ記録されていません",
+      "bpm": "{{count}} BPM"
+    },
+    "chart": {
+      "title": "7日間の血圧の傾向",
+      "systolic": "収縮期",
+      "diastolic": "拡張期"
+    },
+    "guidelines": {
+      "title": "AHA 血圧のカテゴリ:",
+      "normal": "正常: <120/80",
+      "elevated": "高め: 120-129/<80",
+      "stage1": "ステージ 1: 130-139/80-89",
+      "stage2": "ステージ 2: ≥140/90"
+    },
+    "categories": {
+      "crisis": "高血圧危機",
+      "stage2": "高血圧ステージ 2",
+      "stage1": "高血圧ステージ 1",
+      "elevated": "高架",
+      "normal": "ノーマル",
+      "unknown": "不明"
+    }
+  },
+  "dash": {
+    "intro": {
+      "title": "ダッシュダイエット",
+      "desc": "高血圧を止めるための食事療法 - 血圧を自然に下げる科学的に証明された食事計画。"
+    },
+    "principles": {
+      "sodium": {
+        "title": "ナトリウム制限",
+        "limit": "1日あたり2,300mg未満",
+        "high_risk": "(または高リスクの人には1,500mg)",
+        "desc": "過剰なナトリウムは水分の滞留を引き起こし、血液量を増加させ、動脈壁にかかる圧力を高めます。"
+      },
+      "potassium": {
+        "title": "カリウムパワー",
+        "limit": "1日あたり4,700mg",
+        "source": "自然食品から"
+      },
+      "magnesium": {
+        "title": "マグネシウムと繊維",
+        "limit": "マグネシウム500mg / 繊維25～35g",
+        "target": "毎日の目標"
+      }
+    },
+    "scanner": {
+      "title": "⚠️ 隠れたナトリウムスキャナー: 「卑劣な塩」食品",
+      "subtitle": "これらの一見無害な食品には、あなたが思っているよりも多くのナトリウムが含まれています。",
+      "swaps": {
+        "title": "💡 DASH フレンドリーなスワップ:"
+      }
+    }
+  },
+  "habits": {
+    "vitality": {
+      "title": "活力スコア",
+      "start": "心臓の健康状態を築き始めましょう!",
+      "streak_good": "🔥 {{count}} 日連続達成!あなたの心は繁栄しています",
+      "streak_continue": "{{count}} 日 - 続けてください!",
+      "streak_continue_singular": "{{count}} 日 - 続けてください!",
+      "days": "一日連続",
+      "goal": "{{count}} / 30 日の目標"
+    },
+    "checklist": {
+      "title": "毎日の有酸素運動チェックリスト",
+      "subtitle": "これらの習慣を毎日実行して心肺機能を強化しましょう",
+      "items": {
+        "cardio": {
+          "label": "30 分間のゾーン 2 有酸素運動",
+          "desc": "会話するようなペースで早歩き、サイクリング、または水泳をする"
+        },
+        "low_sodium": {
+          "label": "ナトリウム制限を超えていない",
+          "desc": "<2,300mg (高リスクの場合は 1,500mg)"
+        },
+        "no_salt": {
+          "label": "食卓には塩分を加えません",
+          "desc": "食べ物の自然な風味を輝かせる"
+        },
+        "meds": {
+          "label": "服用した薬（オプション）",
+          "desc": "血圧の薬を服用している方へ"
+        }
+      }
+    },
+    "tips": {
+      "title": "心臓の健康の必需品"
+    }
+  },
+  "foods": {
+    "canned_soup": "缶スープ（1カップ）",
+    "deli_turkey": "デリターキー (2オンス)",
+    "white_bread": "白パン（2枚）",
+    "frozen_pizza": "冷凍ピザ（1枚）",
+    "soy_sauce": "醤油（大さじ1）",
+    "cottage_cheese": "カッテージチーズ（1/2カップ）",
+    "pickles": "ピクルス（中1個）",
+    "salad_dressing": "サラダドレッシング（大さじ2）"
+  }
+}

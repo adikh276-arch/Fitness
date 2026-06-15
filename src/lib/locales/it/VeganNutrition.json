@@ -116,7 +116,7 @@
       "amount": "Quantità (grammi)",
       "placeholderAmount": "100",
       "add": "Aggiungi al calcolo",
-      "proteinPer100": "{{val}}g per 100g",
+      "proteinPer100": "{{val}}g per 100 g",
       "matches": "Visualizzazione di 5 risultati su {{total}}",
       "noMatches": "Nessun alimento trovato"
     },

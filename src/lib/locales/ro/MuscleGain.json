@@ -109,7 +109,16 @@
       "thigh": "Coapsă (în)",
       "thighHint": "Partea cea mai lată",
       "submit": "Măsurători de jurnal",
-      "success": "Metricile au fost înregistrate cu succes!"
+      "success": "Metricile au fost înregistrate cu succes!",
+      "placeholders": {
+        "weight": "de exemplu, 75",
+        "targetWeight": "de exemplu, 85",
+        "chest": "de exemplu, 40",
+        "waist": "Opțional",
+        "bicep": "de exemplu, 15",
+        "bicepL": "La fel ca corect",
+        "thigh": "Opțional"
+      }
     },
     "volume": {
       "title": "Calculator de volum",
@@ -120,7 +129,13 @@
       "totalVolume": "Volum total",
       "remaining": "Rămas pentru gol",
       "submit": "Volumul jurnalului",
-      "logged": "{{lift}} înregistrat: {{volume}}kg volum total!"
+      "logged": "{{lift}} înregistrat: {{volume}}kg volum total!",
+      "recentLifts": "Lifturi recente",
+      "placeholders": {
+        "sets": "de exemplu, 4",
+        "reps": "de exemplu, 8",
+        "weight": "de exemplu, 80"
+      }
     },
     "chart": {
       "title": "Diagrama de progres",
@@ -168,7 +183,71 @@
         "perfect": "Perfect (5/5)",
         "partial": "Parţial",
         "none": "Incomplet"
+      },
+      "tooltip": "Ziua {{day}}: {{count}}/5 obiceiuri"
+    }
+  },
+  "essentials": {
+    "title": "Esențiale pentru hipertrofie",
+    "tips": {
+      "rest": {
+        "title": "Mușchiul se formează în timpul repausului:",
+        "desc": "Somnul și alimentația sunt atunci când are loc creșterea, nu în sală"
+      },
+      "protein": {
+        "title": "Timpul proteic contează mai puțin decât totalul:",
+        "desc": "Concentrați-vă pe atingerea țintei zilnice, sincronizarea este secundară"
+      },
+      "track": {
+        "title": "Urmăriți totul:",
+        "desc": "Greutate, măsurători și volum - datele dezvăluie progresul pe care nu îl puteți vedea în oglindă"
+      },
+      "creatine": {
+        "title": "Creatina este dovedit:",
+        "desc": "3-5 g zilnic măresc puterea și masa slabă, fără efecte secundare pentru majoritatea oamenilor"
       }
     }
+  },
+  "exercises": {
+    "squat": "ghemuit",
+    "deadlift": "Deadlift",
+    "benchPress": "Bench Press",
+    "overheadPress": "Presă de deasupra capului",
+    "barbellRow": "Barbell Row",
+    "pullUp": "Trage în sus",
+    "chinUp": "Chin Up",
+    "latPulldown": "Lat Pulldown",
+    "seatedCableRow": "Rând de cablu așezat",
+    "dumbbellRow": "Rând cu gantere",
+    "romanianDeadlift": "Deadlift românesc",
+    "hipThrust": "Împingerea șoldului",
+    "lunge": "Fângere",
+    "bulgarianSplitSquat": "Split Squat bulgar",
+    "legPress": "Presă pentru picioare",
+    "legExtension": "Extensie de picioare",
+    "legCurl": "Curl picioarelor",
+    "calfRaise": "Ridicarea vițelului",
+    "gluteBridge": "Podul Glutei",
+    "pushUp": "Push Up",
+    "inclineDumbbellPress": "Presă cu gantere înclinată",
+    "dips": "Dips",
+    "chestFly": "Musca de piept",
+    "lateralRaise": "Ridicare laterală",
+    "rearDeltFly": "Fly Delt din spate",
+    "facePull": "Tragere față",
+    "bicepCurl": "Curl biceps",
+    "hammerCurl": "Hammer Curl",
+    "tricepPushdown": "Tricep Pushdown",
+    "skullCrusher": "Concasor de cranii",
+    "plank": "Scândura",
+    "hangingLegRaise": "Ridicarea piciorului suspendat",
+    "russianTwist": "Twist rusesc",
+    "farmerCarry": "Fermierul Carry",
+    "shrug": "Ridică din umeri",
+    "arnoldPress": "Arnold Press",
+    "frontSquat": "Squat frontal",
+    "sumoDeadlift": "Sumo Deadlift",
+    "gobletSquat": "Squat cu calice",
+    "stepUp": "Pas în sus"
   }
 }

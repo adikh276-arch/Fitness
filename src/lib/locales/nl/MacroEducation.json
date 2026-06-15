@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "back": "Terug naar Dashboard"
+  },
+  "header": {
+    "title": "Macrovoedingsstoffen begrijpen",
+    "subtitle": "Leer de basisbeginselen van eiwitten, koolhydraten en vetten"
+  },
+  "tabs": {
+    "protein": "Eiwit",
+    "carbs": "Koolhydraten",
+    "fats": "Vetten",
+    "plate": "Plaatbouwer"
+  },
+  "protein": {
+    "title": "Eiwit",
+    "kcal": "4 kcal/gram",
+    "whyMatters": {
+      "title": "Waarom het belangrijk is:",
+      "muscle": {
+        "title": "Spierherstel en groei:",
+        "desc": "Essentieel voor het opbouwen en behouden van droge spiermassa"
+      },
+      "satiety": {
+        "title": "Verzadiging:",
+        "desc": "Zorgt ervoor dat u zich langer vol voelt, waardoor de totale calorie-inname wordt verminderd"
+      },
+      "metabolic": {
+        "title": "Metabolische boost:",
+        "desc": "Hoogste thermische effect van alle macro’s (20-30% van de calorieën verbrand tijdens de spijsvertering)"
+      }
+    },
+    "target": {
+      "title": "Dagelijks doel:",
+      "desc": "Voor een optimale gezondheid en spieronderhoud moet u streven naar <1>1,6-2,2 g per kg</1> lichaamsgewicht. Atleten en mensen die spieren opbouwen, kunnen tot 2,5 g/kg nodig hebben."
+    },
+    "sources": "Belangrijkste eiwitbronnen:"
+  },
+  "carbs": {
+    "title": "Koolhydraten",
+    "kcal": "4 kcal/gram",
+    "whyMatters": {
+      "title": "Waarom het belangrijk is:",
+      "energy": {
+        "title": "Primaire energiebron:",
+        "desc": "De favoriete brandstof van uw lichaam voor hersen- en fysieke activiteit"
+      },
+      "performance": {
+        "title": "Prestaties:",
+        "desc": "Cruciaal voor intensieve training en atletische prestaties"
+      },
+      "nutrients": {
+        "title": "Vezels en voedingsstoffen:",
+        "desc": "Hele koolhydraten bieden essentiële vitamines, mineralen en een gezonde spijsvertering"
+      }
+    },
+    "target": {
+      "title": "Dagelijks doel:",
+      "desc": "Streef voor actieve personen naar <1>3-6 g per kg</1> lichaamsgewicht. Mensen die een zittend leven leiden, hebben mogelijk minder nodig (2-3 g/kg). Focus op complexe, volledige voedselbronnen."
+    },
+    "sources": "Belangrijkste bronnen van koolhydraten:"
+  },
+  "fats": {
+    "title": "Vetten",
+    "kcal": "9 kcal/gram",
+    "whyMatters": {
+      "title": "Waarom het belangrijk is:",
+      "hormone": {
+        "title": "Hormoonproductie:",
+        "desc": "Essentieel voor testosteron, oestrogeen en andere vitale hormonen"
+      },
+      "vitamin": {
+        "title": "Vitamine-absorptie:",
+        "desc": "Vereist om vetoplosbare vitamines (A, D, E, K) te absorberen"
+      },
+      "brain": {
+        "title": "Hersengezondheid:",
+        "desc": "Je hersenen bestaan voor 60% uit vet – omega-3 vetzuren zijn cruciaal voor de cognitieve functie"
+      }
+    },
+    "target": {
+      "title": "Dagelijks doel:",
+      "desc": "Streef naar <1>0,8-1,2 g per kg</1> lichaamsgewicht, of 20-35% van het totale aantal calorieën. Geef prioriteit aan onverzadigde vetten (olijfolie, noten, vis) boven verzadigde vetten."
+    },
+    "sources": "Belangrijkste vetbronnen:"
+  },
+  "plate": {
+    "title": "Bouw uw uitgebalanceerde maaltijd",
+    "legend": {
+      "protein": "Eiwit {{val}}%",
+      "carbs": "Koolhydraten {{val}}%",
+      "fats": "Vetten {{val}}%"
+    },
+    "sliders": {
+      "protein": {
+        "title": "Eiwit",
+        "desc": "Spieren en verzadiging"
+      },
+      "carbs": {
+        "title": "Koolhydraten",
+        "desc": "Energie & prestaties"
+      },
+      "fats": {
+        "title": "Vetten",
+        "desc": "Hormonen & vitamines"
+      }
+    },
+    "calories": {
+      "title": "Geschatte calorieën",
+      "subtitle": "(gebaseerd op een portie van 200 g)",
+      "unit": "kcal"
+    },
+    "warning": {
+      "title": "Evenwichtsaanbeveling",
+      "desc": "Voor optimale voeding: Streef naar minimaal 15-25% eiwit (spier & verzadiging), 20-35% gezonde vetten (hormonen) en 40-60% koolhydraten (energie). Pas uw verhoudingen aan om deze doelstellingen te bereiken."
+    }
+  },
+  "foods": {
+    "chicken": "Kipfilet",
+    "yogurt": "Griekse Yoghurt",
+    "eggs": "Eieren",
+    "eggUnit": "1 ei = 6 g eiwit",
+    "salmon": "Zalm",
+    "lentils": "Linzen",
+    "tofu": "Tofu",
+    "rice": "Bruine rijst",
+    "oats": "Haver",
+    "potato": "Zoete Aardappel",
+    "quinoa": "Quinoa",
+    "banana": "Banaan",
+    "bananaUnit": "1 medium = 27 g koolhydraten",
+    "bread": "Volkoren Brood",
+    "breadUnit": "1 sneetje = 12 g koolhydraten",
+    "avocado": "Avocado",
+    "almonds": "Amandelen",
+    "almondsUnit": "28 g = 14 g vet",
+    "oil": "Olijfolie",
+    "oilUnit": "1 eetlepel = 14 g vet",
+    "peanutButter": "Pindakaas",
+    "pbUnit": "2 eetlepels = 16 g vet",
+    "chocolate": "Donkere chocolade",
+    "chocolateUnit": "28 g = 9 g vet",
+    "unit100g": "100g = {{val}}g {{macro}}"
+  }
+}

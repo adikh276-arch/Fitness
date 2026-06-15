@@ -1,0 +1,244 @@
+{
+  "header": {
+    "title": "Suolen terveyden opas",
+    "subtitle": "Seuraa ruoansulatuksen terveyttä ja rakenna kukoistava mikrobiomi",
+    "back": "Takaisin hallintapaneeliin"
+  },
+  "tabs": {
+    "log": "Päivittäinen suolistoloki",
+    "map": "Mikrobiomin kartta",
+    "habits": "Kuitu & Fermentti"
+  },
+  "bristol": {
+    "title": "Bristolin jakkaravaaka",
+    "info": "Kultastandardi ruuansulatuksen kulkuajan ja suoliston terveyden seurantaan",
+    "types": {
+      "type1": {
+        "label": "Tyyppi 1",
+        "desc": "Vaikea ummetus - Erottele kovat kyhmyt"
+      },
+      "type2": {
+        "label": "Tyyppi 2",
+        "desc": "Lievä ummetus - Möykkyinen ja makkaramainen"
+      },
+      "type3": {
+        "label": "Tyyppi 3",
+        "desc": "Normaali - Makkara halkeamia"
+      },
+      "type4": {
+        "label": "Tyyppi 4",
+        "desc": "Ihanteellinen - Sileä, pehmeä makkara"
+      },
+      "type5": {
+        "label": "Tyyppi 5",
+        "desc": "Puuttuu kuitu - Pehmeitä läiskiä"
+      },
+      "type6": {
+        "label": "Tyyppi 6",
+        "desc": "Lievä ripuli - mushy"
+      },
+      "type7": {
+        "label": "Tyyppi 7",
+        "desc": "Vaikea ripuli - Neste"
+      }
+    },
+    "alert": "Valitse Bristol-jakkaravaa'an tyyppi"
+  },
+  "symptoms": {
+    "title": "Oireet tänään",
+    "items": {
+      "Bloating": "Turvotus",
+      "Gas": "Kaasu",
+      "Cramping": "Kouristelua",
+      "Reflux": "Refluksi",
+      "Energy Dip": "Energia Dip"
+    }
+  },
+  "triggers": {
+    "title": "Epäilty laukaisin",
+    "items": {
+      "Dairy": "Meijeri",
+      "Gluten": "Gluteeni",
+      "Coffee": "Kahvi",
+      "Spicy Food": "Mausteinen Ruoka",
+      "Alcohol": "Alkoholi",
+      "Stress": "Stressi",
+      "Other": "Muut"
+    }
+  },
+  "log": {
+    "submit": "Lokimerkintä",
+    "success": "Suolistoloki tallennettu onnistuneesti!",
+    "recent": {
+      "title": "Viimeaikaiset lokit",
+      "trigger": "Triggeri:"
+    }
+  },
+  "microbiome": {
+    "prebiotics": {
+      "title": "Prebiootit",
+      "subtitle": "Ruokaa suolistobakteereillesi",
+      "desc": "Prebiootit ovat kuitupitoisia elintarvikkeita, jotka ruokkivat suoliston hyödyllisiä bakteereja ja auttavat niitä kukoistamaan ja lisääntymään."
+    },
+    "probiotics": {
+      "title": "Probiootit",
+      "subtitle": "Elävät hyödylliset bakteerit",
+      "desc": "Probiootit ovat fermentoiduissa elintarvikkeissa olevia eläviä mikro-organismeja, jotka lisäävät suoraan hyödyllisiä bakteereja suolistoon."
+    }
+  },
+  "diversity": {
+    "title": "30 kasvia viikossa -haaste",
+    "subtitle": "Tutkimukset osoittavat, että yli 30 eri kasvin syöminen viikossa tukee optimaalista suoliston monimuotoisuutta",
+    "score_label": "/ 30 kasvia",
+    "weekly_score": "Viikoittainen monimuotoisuuspisteet",
+    "feedback": {
+      "excellent": "🎉 Loistavaa! Saavutat 30 tehtaan tavoitteen",
+      "great": "👍 Mahtavaa monipuolisuutta! Jatka monipuolisuuden lisäämistä",
+      "good": "📈 Hyvä alku! Pyri lisäämään kasvilajikkeita",
+      "start": "🌱 Aloita monipuolisten kasvien lisääminen suoliston terveyden edistämiseksi"
+    }
+  },
+  "habits": {
+    "title": "Happy Gut -tarkistuslista",
+    "subtitle": "Suorita nämä päivittäiset tottumukset optimaalisen ruoansulatuskanavan terveydelle",
+    "items": {
+      "fiber": {
+        "label": "Kuitua kulutettu yli 25 g",
+        "desc": "Täysjyväviljasta, hedelmistä ja vihanneksista"
+      },
+      "fermented": {
+        "label": "Mukana 1 fermentoitu ruoka",
+        "desc": "Kimchi, jogurtti, kefiiri tai hapankaali"
+      },
+      "mindful": {
+        "label": "Tietoinen syöminen (yli 20 pureskeltavaa)",
+        "desc": "Oikea pureskelu edistää ruoansulatusta"
+      },
+      "fast": {
+        "label": "12 tunnin yöllinen suolen lepo",
+        "desc": "Paastoikkuna mahdollistaa suoliston korjauksen"
+      }
+    }
+  },
+  "tracker": {
+    "title": "30 päivän tottumusseuranta",
+    "tooltip": "Päivä {{dayNum}}: {{count}}/4 tapaa",
+    "legend": {
+      "none": "Ei mitään",
+      "one": "1",
+      "two": "2",
+      "three": "3",
+      "four": "3-4",
+      "all": "Kaikki 4"
+    }
+  },
+  "essentials": {
+    "title": "Suoliston terveyden välttämättömyydet"
+  },
+  "plants": {
+    "Spinach": "Pinaatti",
+    "Kale": "Lehtikaali",
+    "Arugula": "Rukkola",
+    "Romaine": "Romaine",
+    "Broccoli": "Parsakaali",
+    "Cauliflower": "Kukkakaali",
+    "Brussels Sprouts": "Ruusukaali",
+    "Cabbage": "Kaali",
+    "Carrots": "Porkkanat",
+    "Sweet Potatoes": "Bataatit",
+    "Beets": "Punajuuret",
+    "Radishes": "Retiisit",
+    "Chickpeas": "Kikherneet",
+    "Lentils": "Linssit",
+    "Black Beans": "Mustat pavut",
+    "Kidney Beans": "Munuaispavut",
+    "Oats": "Kaura",
+    "Brown Rice": "Ruskea riisi",
+    "Quinoa": "Quinoa",
+    "Barley": "Ohra",
+    "Almonds": "Mantelit",
+    "Walnuts": "Saksanpähkinät",
+    "Pistachios": "Pistaasipähkinät",
+    "Cashews": "Cashewpähkinät",
+    "Chia": "Chia",
+    "Flax": "Pellava",
+    "Pumpkin Seeds": "Kurpitsansiemenet",
+    "Sunflower Seeds": "Auringonkukansiemenet",
+    "Blueberries": "Mustikat",
+    "Strawberries": "Mansikoita",
+    "Raspberries": "Vadelmat",
+    "Blackberries": "Karhunvatukat",
+    "Oranges": "Appelsiinit",
+    "Lemons": "Sitruunat",
+    "Limes": "Limetit",
+    "Grapefruit": "Greippi",
+    "Bananas": "Banaanit",
+    "Pineapple": "Ananas",
+    "Mango": "Mango",
+    "Papaya": "papaija",
+    "Peaches": "Persikat",
+    "Plums": "Luumut",
+    "Cherries": "Kirsikat",
+    "Apricots": "Aprikoosit",
+    "Basil": "Basilika",
+    "Cilantro": "Korianteria",
+    "Mint": "Minttu",
+    "Parsley": "Persilja",
+    "Rosemary": "Rosmariini",
+    "Turmeric": "Kurkuma",
+    "Ginger": "Inkivääri",
+    "Cinnamon": "Kaneli",
+    "Cumin": "Kumina",
+    "Paprika": "Paprika",
+    "Kimchi": "Kimchi",
+    "Sauerkraut": "Hapankaali",
+    "Miso": "Miso",
+    "Tempeh": "Tempeh",
+    "Button Mushrooms": "Button sienet",
+    "Shiitake": "Shiitake",
+    "Portobello": "Portobello",
+    "Oyster Mushrooms": "Osterisienet",
+    "Pumpkin": "Kurpitsa",
+    "Butternut Squash": "Butternut Squash",
+    "Zucchini": "Kesäkurpitsa",
+    "Acorn Squash": "Acorn Squash",
+    "Bell Peppers": "Paprikat",
+    "Jalapeños": "Jalapeños",
+    "Chili": "Chili",
+    "Cherry Tomatoes": "Kirsikkatomaatteja",
+    "Roma Tomatoes": "Roma tomaatit",
+    "Beefsteak Tomatoes": "Beefsteak tomaatit",
+    "Garlic": "Valkosipuli",
+    "Onions": "Sipulit",
+    "Leeks": "Purjo",
+    "Shallots": "Salottisipulia",
+    "Alfalfa Sprouts": "Alfalfa versot",
+    "Broccoli Sprouts": "Parsakaali versot",
+    "Mung Bean Sprouts": "Mungpavun ituja",
+    "Nori": "Nori",
+    "Kelp": "Kelp",
+    "Wakame": "Wakame",
+    "Buckwheat": "tattari",
+    "Farro": "Farro",
+    "Amaranth": "Amarantti",
+    "Millet": "Hirssi",
+    "Watermelon": "Vesimeloni",
+    "Cantaloupe": "Cantaloupe",
+    "Honeydew": "Mesikaste",
+    "Apples": "Omenat",
+    "Pears": "Päärynät",
+    "Avocado": "Avokado",
+    "Coconut": "Kookos",
+    "Coconut Milk": "Kookosmaito",
+    "Coconut Water": "Kookosvesi",
+    "Olives": "Oliivit",
+    "Dark Chocolate": "Tummaa suklaata",
+    "Cacao Nibs": "Kaakaonpalat",
+    "Cocoa Powder": "Kaakaojauhe",
+    "Green Tea": "Vihreä tee",
+    "Black Tea": "Musta tee",
+    "Chamomile": "Kamomilla",
+    "Peppermint Tea": "Piparminttu tee",
+    "Coffee": "Kahvi"
+  }
+}

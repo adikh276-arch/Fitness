@@ -70,7 +70,8 @@
       "firstMeal": "Első étkezés (ma):",
       "duration": "Teljes böjtölés időtartama",
       "goalAchieved": "Cél elérve! Teljesítettél egy több mint 16 órás böjtöt!",
-      "submit": "Naplózza ezt gyorsan"
+      "submit": "Naplózza ezt gyorsan",
+      "dateLabel": "Dátum:"
     },
     "tracker": {
       "title": "30 napos gyorskövető",
@@ -81,7 +82,9 @@
         "goalMet": "Cél teljesült (16+ óra)",
         "today": "Ma",
         "missed": "Elmulasztott nap"
-      }
+      },
+      "today": "Ma",
+      "dayLabel": "{{val}}. nap"
     },
     "recentFasts": {
       "title": "Legutóbbi böjtök",

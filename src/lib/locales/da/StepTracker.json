@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "back": "Tilbage til Dashboard"
+  },
+  "header": {
+    "title": "Step Tracker",
+    "subtitle": "Spor dine daglige skridt og nå dine mål",
+    "profile": "Profil"
+  },
+  "tabs": {
+    "tracker": "Tracker",
+    "history": "Historie"
+  },
+  "tracker": {
+    "stepsToday": "skridt i dag",
+    "goalAchieved": "Mål nået!",
+    "stats": {
+      "distance": "Afstand",
+      "calories": "Kalorier",
+      "activeTime": "Aktiv tid",
+      "km": "km",
+      "kcal": "kcal",
+      "mins": "min"
+    },
+    "goal": {
+      "label": "Dagligt mål",
+      "value": "{{val}} trin",
+      "change": "Skift mål"
+    },
+    "quickAdd": {
+      "title": "Hurtige tilføjelsestrin",
+      "label": "Brugerdefinerede trin",
+      "placeholder": "f.eks. 3500",
+      "submit": "Tilføj"
+    },
+    "insights": {
+      "title": "Dagens indsigt",
+      "remaining": "Resterende trin",
+      "stride": "Skridtlængde",
+      "progress": "Fremskridt",
+      "complete": "Fuldstændig!",
+      "percentOfGoal": "{{val}} % af målet"
+    },
+    "reset": "Nulstil dagens trin"
+  },
+  "history": {
+    "title": "Trin historie",
+    "noHistory": "Ingen historie endnu. Begynd at spore dine skridt!",
+    "today": "I dag",
+    "stats": {
+      "steps": "Trin",
+      "goal": "Mål",
+      "progress": "Fremskridt"
+    }
+  },
+  "modals": {
+    "goal": {
+      "title": "Sæt dagligt mål",
+      "subtitle": "Indtast dine mål daglige trin",
+      "placeholder": "f.eks. 10000",
+      "cancel": "Annuller",
+      "save": "Gem"
+    },
+    "profile": {
+      "title": "Opdater profil",
+      "subtitle": "Dette hjælper med at beregne nøjagtig distance og kalorier",
+      "height": "Højde (cm)",
+      "weight": "Vægt (kg)",
+      "gender": "Køn",
+      "male": "Mand",
+      "female": "Kvinde",
+      "placeholderHeight": "f.eks. 170",
+      "placeholderWeight": "f.eks. 70",
+      "cancel": "Annuller",
+      "save": "Gem"
+    }
+  }
+}

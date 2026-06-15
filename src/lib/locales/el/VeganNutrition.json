@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "back": "Επιστροφή στον Πίνακα ελέγχου"
+  },
+  "header": {
+    "title": "Οδηγός Vegan Διατροφής",
+    "subtitle": "Ολοκληρωμένη εργαλειοθήκη φυτικής διατροφής"
+  },
+  "tabs": {
+    "plate": "Vegan Plate",
+    "nutrients": "Μικροθρεπτικά συστατικά",
+    "calculator": "Υπολογιστής πρωτεΐνης"
+  },
+  "plate": {
+    "title": "Το Πλήρες Βέγκαν Γεύμα",
+    "proportions": {
+      "legumes": {
+        "title": "Όσπρια/Φασόλια",
+        "subtitle": "Πρωτεϊνική μονάδα παραγωγής ενέργειας",
+        "examples": "Παραδείγματα: Φακές, ρεβίθια, μαύρα φασόλια, τόφου, τέμπε"
+      },
+      "grains": {
+        "title": "Δημητριακά ολικής αλέσεως",
+        "subtitle": "Διατηρούμενη ενέργεια",
+        "examples": "Παραδείγματα: Κινόα, καστανό ρύζι, βρώμη, ολικής αλέσεως, κριθάρι"
+      },
+      "vegetables": {
+        "title": "Λαχανικά",
+        "subtitle": "Πλούσιο σε μικροθρεπτικά συστατικά",
+        "examples": "Παραδείγματα: Φυλλώδη χόρτα, μπρόκολο, πιπεριές, καρότα, ντομάτες"
+      },
+      "fats": {
+        "title": "Υγιή Λίπη/Σπόροι",
+        "subtitle": "Υγεία ορμονών",
+        "examples": "Παραδείγματα: Αβοκάντο, ξηροί καρποί, σπόροι, ελαιόλαδο, ταχίνι"
+      }
+    },
+    "tip": {
+      "title": "Pro-Tip: Ενισχύστε την απορρόφηση σιδήρου",
+      "desc": "Ο σίδηρος φυτικής προέλευσης (μη αιμικός σίδηρος) απορροφάται λ��γότερο αποτελεσματικά από τον ζωικό σίδηρο. Συνδυάστε τροφές πλούσιες σε σίδηρο με βιταμίνη C για να αυξήσετε την απορρόφηση έως και 300%!",
+      "ironRich": "Τροφές Πλούσιες σε Σίδηρο",
+      "ironExamples": "Σπανάκι, φακές, κινόα, τόφου, κολοκυθόσποροι",
+      "vitaminC": "Ενισχυτικά βιταμίνης C",
+      "vitaminCExamples": "Χυμός λεμονιού, πιπεριές, ντομάτες, μπρόκολο, πορτοκάλια",
+      "perfectCombo": "Τέλειος συνδυασμός: Φακές σούπα με χυμό λεμονιού, σαλάτα σπανάκι με πιπεριές"
+    }
+  },
+  "nutrients": {
+    "title": "The Big 4 Nutrient Tracker",
+    "progress": {
+      "title": "Η σημερινή Πρόοδος",
+      "done": "Έγινε",
+      "pending": "Σε εκκρεμότητα"
+    },
+    "why": {
+      "title": "Γιατί να τα παρακολουθήσετε;",
+      "desc1": "Αυτά τα τέσσερα θρεπτικά συστατικά είναι οι πιο κοινές ελλείψεις στις φυτικές δίαιτες. Η παρακολούθηση της ημερήσιας πρόσληψης διασφαλίζει ότι λαμβάνετε πλήρη διατροφή.",
+      "note": "Σημείωση: Η Β12 πρέπει να συμπληρώνεται ή να καταναλώνεται μέσω εμπλουτισμένων τροφών - δεν υπάρχει φυσικά στα φυτά."
+    },
+    "micronutrients": {
+      "b12": {
+        "name": "Βιταμίνη Β12",
+        "importance": "Κρίσιμο για τη λειτουργία των νεύρων και τη σύνθεση DNA",
+        "dosage": "2,4 mcg ημερησίως"
+      },
+      "iron": {
+        "name": "Σίδηρος & Ψευδάργυρος",
+        "importance": "Απαραίτητο για τη μεταφορά οξυγόνου και τη λειτουργία του ανοσοποιητικού",
+        "dosage": "Σίδηρος: 18mg, Ψευδάργυρος: 11mg ημερησίως"
+      },
+      "omega3": {
+        "name": "Ωμέγα-3 (ALA)",
+        "importance": "Υγεία εγκεφάλου & αντιφλεγμονώδη",
+        "dosage": "1,6 γρ ημερησίως"
+      },
+      "calcium": {
+        "name": "ασβέστιο",
+        "importance": "Υγεία οστών & μυϊκή λειτουργία",
+        "dosage": "1000 mg ημερησίως"
+      }
+    }
+  },
+  "calculator": {
+    "title": "Οδηγός Γνώσης Πρωτεϊνών",
+    "subtitle": "Επιλέξτε ένα τρόφιμο και εισαγάγετε την ποσότητα για να δείτε αμέσως την περιεκτικότητά του σε πρωτεΐνη",
+    "form": {
+      "selectFood": "Αναζήτηση & Επιλογή τροφίμου",
+      "placeholderFood": "Επιλέξτε φαγητό...",
+      "searchPlaceholder": "Αναζήτηση τροφίμων...",
+      "amount": "Ποσότητα (γραμμάρια)",
+      "placeholderAmount": "100",
+      "add": "Προσθήκη στον Υπολογισμό",
+      "proteinPer100": "{{val}}g ανά 100 g",
+      "matches": "Εμφάνιση 5 από {{total}} αντιστοιχίες",
+      "noMatches": "Δεν βρέθηκαν τρόφιμα"
+    },
+    "results": {
+      "title": "Διάσπαση Πρωτεϊνών",
+      "estProtein": "Εκτιμώμενη περιεκτικότητα σε πρωτεΐνη",
+      "calcInfo": "{{amount}}g {{food}}",
+      "summary": "Περίληψη Τρέχοντος Υπολογισμού",
+      "total": "Ολική Πρωτεΐνη",
+      "aminoAcid": "Πληρότητα αμινοξέων",
+      "aminoComplete": "Πλήρες προφίλ αμινοξέων",
+      "aminoIncomplete": "Λείπουν δημητριακά ή όσπρια",
+      "aminoNote": "Όσπρια (φακές/φασόλια/σόγια) + δημητριακά (ρύζι/κινόα/βρώμη) = πλήρης πρωτεΐνη",
+      "save": "Καταγραφή Σύνολο στο Ιστορικό",
+      "success": "Η πρωτεΐνη καταγράφηκε με επιτυχία!",
+      "ironTip": {
+        "title": "Συμβουλή:",
+        "desc": "Συνδυάστε με βιταμίνη C (λεμόνι, πιπεριές, ντομάτες) για να αυξήσετε την απορρόφηση του σιδήρου έως και 300%!"
+      }
+    },
+    "reference": {
+      "title": "Οδηγός γρήγορης αναφοράς"
+    }
+  },
+  "proteinSources": {
+    "tofu": "Τόφου",
+    "tempeh": "Tempeh",
+    "edamame": "Edamame",
+    "soybeansBoiled": "Σόγια Βραστά",
+    "soyChunks": "Κομμάτια σόγιας / TVP Dry",
+    "soyMince": "Ξηρός κιμάς σόγιας",
+    "soyMilk": "Γάλα σόγιας χωρίς ζάχαρη",
+    "soyYogurt": "Γιαούρτι σόγιας απλό",
+    "seitan": "Σεϊτάν",
+    "lentilsCooked": "Φακές μαγειρεμένες",
+    "redLentilsCooked": "Κόκκινες Φακές Μαγειρεμένες",
+    "greenLentilsCooked": "Πράσινες Φακές Μαγειρεμένες",
+    "blackLentilsCooked": "Μαύρε�� Φακές Μαγειρεμένες",
+    "chickpeasCooked": "Ρεβύθια Μαγειρεμένα",
+    "blackBeansCooked": "Μαύρα φασόλια μαγειρεμένα",
+    "kidneyBeansCooked": "Φασόλια Μαγειρεμένα",
+    "pintoBeansCooked": "Φασόλια Pinto μαγειρεμένα",
+    "cannelliniBeansCooked": "Φασόλια Κανελίνι Μαγειρεμένα",
+    "navyBeansCooked": "Φασόλια Navy Μαγειρεμένα",
+    "adzukiBeansCooked": "Φασόλια Adzuki Μαγειρεμένα",
+    "mungBeansCooked": "Φασόλια Mung Μαγειρεμένα",
+    "lupinBeans": "Λούπινο Φασόλια",
+    "splitPeasCooked": "Σπλιτ μπιζέλια μαγειρευτά",
+    "greenPeas": "Πράσινα μπιζέλια",
+    "peaProteinIsolate": "Απομόνωση πρωτεΐνης μπιζελιού",
+    "peaMilk": "Γάλα μπιζελιού",
+    "hummus": "Χούμους",
+    "falafel": "Φαλάφελ",
+    "quinoaCooked": "Μαγειρεμένη κινόα",
+    "amaranthCooked": "Αμάραντο μαγειρεμένο",
+    "buckwheatCooked": "Φαγόπυρο Μαγειρεμένο",
+    "oatsDry": "Βρώμη Ξηρή",
+    "rolledOats": "Βρώμη σε ρολό",
+    "steelCutOats": "Ατσάλινο Βρώμη",
+    "oatBran": "Πίτουρο Βρώμης",
+    "barleyCooked": "Κριθάρι Μαγειρεμένο",
+    "milletCooked": "Κεχρί Μαγειρεμένο",
+    "brownRiceCooked": "Καστανό ρύζι μαγειρεμένο",
+    "wildRiceCooked": "Άγριο Ρύζι Μαγειρεμένο",
+    "teffCooked": "Teff Cooked",
+    "farroCooked": "Farro Cooked",
+    "freekehCooked": "Freekeh Μαγειρεμένο",
+    "wholeWheatPastaCooked": "Ζυμαρικά ολικής αλέσεως μαγειρεμένα",
+    "chickpeaPastaDry": "Ρεβύθια Ζυμαρικά Ξηρά",
+    "lentilPastaDry": "Ζυμαρικά φακής Ξηρά",
+    "blackBeanPastaDry": "Μαύρο φασόλι Ζυμαρικά Ξηρά",
+    "spirulinaDry": "Σπιρουλίνα Ξηρά",
+    "nutritionalYeast": "Διατροφική Μαγιά",
+    "mushroomsWhite": "Μανιτάρια Λευκά",
+    "portobelloMushrooms": "Μανιτάρια Portobello",
+    "spinach": "Σπανάκι",
+    "kale": "Καλέ",
+    "broccoli": "Μπρόκολο",
+    "brusselsSprouts": "Λαχανάκια Βρυξελλών",
+    "sweetCorn": "Γλυκό καλαμπόκι",
+    "artichoke": "Αγκινάρα",
+    "avocado": "Αβοκάντο",
+    "pumpkinSeeds": "Σπόροι κολοκύθας",
+    "hempSeeds": "Σπόροι κάνναβης",
+    "chiaSeeds": "Σπόροι Chia",
+    "flaxSeeds": "Σπόροι λιναριού",
+    "sesameSeeds": "Σπόροι σουσαμιού",
+    "sunflowerSeeds": "Ηλιόσποροι",
+    "watermelonSeeds": "Σπόροι καρπουζιού",
+    "almonds": "αμύγδαλα",
+    "peanuts": "Φιστίκια",
+    "peanutButterNatural": "Φυστικοβούτυρο Φυσικό",
+    "cashews": "Κάσιους",
+    "pistachios": "Φιστίκια Αιγίνης",
+    "walnuts": "Καρύδια",
+    "hazelnuts": "Φουντούκια",
+    "brazilNuts": "Καρύδια Βραζιλίας",
+    "almondButter": "Βούτυρο αμυγδάλου",
+    "tahini": "Ταχίνι",
+    "cashewButter": "Βούτυρο Κάσιους",
+    "pumpkinSeedButter": "Βούτυρο κολοκυθόσπορου",
+    "sunflowerSeedButter": "Βούτυρο ηλιόσπορου",
+    "almondFlour": "Αλεύρι αμυγδάλου",
+    "chickpeaFlour": "Ρεβυθάλευρο / Besan",
+    "soyFlour": "Αλεύρι σόγιας",
+    "wholeWheatFlour": "Αλεύρι ολικής αλέσεως",
+    "breadWholeWheat": "Ψωμί ολικής αλέσεως",
+    "ezekielBread": "Ψωμί Ιεζεκιήλ",
+    "proteinBreadVegan": "Protein Bread Vegan",
+    "roastedChickpeas": "Ρεβύθια ψητά",
+    "dryRoastedEdamame": "Dry Roasted Edamame",
+    "proteinBarVegan": "Protein Bar Vegan",
+    "veganSausage": "Vegan λουκάνικο",
+    "veganBurgerPatty": "Vegan Burger Patty",
+    "mycoproteinVegan": "Mycoprotein Vegan",
+    "beanSprouts": "Φύτρα φασολιών",
+    "alfalfaSprouts": "Φύτρα αλφάλφα"
+  }
+}

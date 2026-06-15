@@ -1,100 +1,100 @@
 {
   "nav": {
-    "back": "Back to Dashboard"
+    "back": "Terug naar Dashboard"
   },
   "header": {
-    "title": "Smart BMI & Body Context",
-    "subtitle": "Track your body metrics with clinical precision"
+    "title": "Slimme BMI en lichaamscontext",
+    "subtitle": "Volg uw lichaamsgegevens met klinische precisie"
   },
   "streak": {
-    "title": "Maintained Healthy Range!",
-    "subtitle": "{{count}} consecutive readings in the healthy zone 🎉"
+    "title": "Gezond bereik behouden!",
+    "subtitle": "{{count}} opeenvolgende metingen in de gezonde zone 🎉"
   },
   "tabs": {
-    "calculator": "BMI Calculator",
-    "context": "Beyond BMI",
-    "history": "Trend History"
+    "calculator": "BMI-calculator",
+    "context": "Verder dan BMI",
+    "history": "Trendgeschiedenis"
   },
   "calculator": {
-    "title": "Calculate Your BMI",
+    "title": "Bereken uw BMI",
     "inputs": {
-      "height": "Height",
-      "weight": "Weight",
-      "feet": "Feet",
-      "inches": "Inches",
+      "height": "Hoogte",
+      "weight": "Gewicht",
+      "feet": "Voeten",
+      "inches": "Inch",
       "placeholders": {
-        "heightCm": "e.g., 170",
-        "heightFt": "Feet",
-        "heightIn": "Inches",
-        "weightKg": "e.g., 70",
-        "weightLbs": "e.g., 154"
+        "heightCm": "bijvoorbeeld 170",
+        "heightFt": "Voeten",
+        "heightIn": "Inch",
+        "weightKg": "bijvoorbeeld 70",
+        "weightLbs": "bijvoorbeeld 154"
       }
     },
     "results": {
-      "yourBMI": "Your BMI",
-      "placeholder": "Enter your measurements to see your BMI",
-      "submit": "Save to Profile",
-      "success": "✓ Saved successfully!",
+      "yourBMI": "Uw BMI",
+      "placeholder": "Voer uw metingen in om uw BMI te zien",
+      "submit": "Opslaan in profiel",
+      "success": "✓ Succesvol opgeslagen!",
       "categories": {
-        "underweight": "Underweight",
-        "healthy": "Healthy Weight",
-        "normal": "Normal",
-        "overweight": "Overweight",
-        "obese": "Obese",
-        "enterData": "Enter data"
+        "underweight": "Ondergewicht",
+        "healthy": "Gezond gewicht",
+        "normal": "Normaal",
+        "overweight": "Overgewicht",
+        "obese": "zwaarlijvig",
+        "enterData": "Voer gegevens in"
       }
     },
-    "tip": "Consider incorporating regular exercise and a balanced diet into your routine.",
+    "tip": "Overweeg om regelmatige lichaamsbeweging en een uitgebalanceerd dieet in uw routine op te nemen.",
     "disclaimer": {
-      "title": "Medical Disclaimer",
-      "text": "BMI is a general screening tool and does not differentiate between muscle and fat mass. Consult with healthcare professionals for personalized medical advice."
+      "title": "Medische disclaimer",
+      "text": "BMI is een algemeen screeningsinstrument en maakt geen onderscheid tussen spier- en vetmassa. Raadpleeg gezondheidszorgprofessionals voor persoonlijk medisch advies."
     }
   },
   "beyond": {
-    "title": "Waist-to-Height Ratio (WHtR)",
+    "title": "Taille-tot-hoogte-verhouding (WHtR)",
     "why": {
-      "title": "Why This Matters",
-      "desc": "Keeping your waist circumference to less than half your height reduces cardiovascular risk. WHtR is more accurate than BMI for predicting metabolic health conditions.",
-      "target": "Target: Ratio < 0.5 for optimal health"
+      "title": "Waarom dit ertoe doet",
+      "desc": "Als u uw middelomtrek op minder dan de helft van uw lengte houdt, vermindert u het cardiovasculaire risico. WHtR is nauwkeuriger dan BMI voor het voorspellen van metabolische gezondheidsproblemen.",
+      "target": "Doel: Verhouding < 0,5 voor een optimale gezondheid"
     },
     "inputs": {
-      "waist": "Waist Circumference",
-      "waistHint": "Measure at the narrowest point of your waist, usually just above the belly button",
+      "waist": "Tailleomtrek",
+      "waistHint": "Meet op het smalste punt van uw taille, meestal net boven de navel",
       "placeholders": {
-        "waistCm": "e.g., 80",
-        "waistIn": "e.g., 31"
+        "waistCm": "bijvoorbeeld 80",
+        "waistIn": "bijvoorbeeld 31"
       }
     },
     "results": {
-      "healthy": "Healthy Shape",
-      "elevated": "Elevated Risk",
-      "placeholder": "Please enter height and waist to see your ratio",
-      "waistMeasurementPlaceholder": "Enter waist measurement",
-      "label": "Waist-to-Height Ratio",
-      "submit": "Save to Profile (BMI + WHtR)"
+      "healthy": "Gezonde vorm",
+      "elevated": "Verhoogd risico",
+      "placeholder": "Vul uw lengte en taille in om uw verhouding te zien",
+      "waistMeasurementPlaceholder": "Voer de tailleomvang in",
+      "label": "Taille-tot-hoogte-verhouding",
+      "submit": "Opslaan in profiel (BMI + WHtR)"
     },
     "comparison": {
-      "title": "BMI vs WHtR: The Difference",
+      "title": "BMI versus WHtR: het verschil",
       "bmi": {
         "title": "BMI",
-        "desc": "General weight category, doesn't account for muscle mass or fat distribution"
+        "desc": "Algemene gewichtscategorie, houdt geen rekening met spiermassa of vetverdeling"
       },
       "whtr": {
-        "title": "WHtR",
-        "desc": "Measures central obesity, better predictor of cardiovascular disease and diabetes"
+        "title": "WHTR",
+        "desc": "Meet centrale obesitas, betere voorspeller van hart- en vaatziekten en diabetes"
       }
     }
   },
   "history": {
-    "title": "Recent Measurements",
-    "noHistory": "No History Yet",
-    "noHistoryDesc": "Start tracking your BMI and body metrics to see your progress trends over time.",
+    "title": "Recente metingen",
+    "noHistory": "Nog geen geschiedenis",
+    "noHistoryDesc": "Begin met het bijhouden van uw BMI en lichaamsgegevens om uw voortgangstrends in de loop van de tijd te zien.",
     "stats": {
-      "title": "Your Stats",
-      "total": "Total Records",
-      "latest": "Latest BMI",
-      "healthyCount": "Healthy Count",
-      "bestStreak": "Best Streak"
+      "title": "Jouw statistieken",
+      "total": "Totaal aantal records",
+      "latest": "Laatste BMI",
+      "healthyCount": "Gezonde telling",
+      "bestStreak": "Beste reeks"
     }
   }
 }

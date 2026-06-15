@@ -70,7 +70,8 @@
       "firstMeal": "Ensimmäinen ateria (tänään):",
       "duration": "Kokonaispaastoaika",
       "goalAchieved": "Tavoite saavutettu! Olet suorittanut yli 16 tunnin paaston!",
-      "submit": "Kirjaudu näin nopeasti"
+      "submit": "Kirjaudu näin nopeasti",
+      "dateLabel": "Päivämäärä:"
     },
     "tracker": {
       "title": "30 päivän pikaseuranta",
@@ -81,7 +82,9 @@
         "goalMet": "Tavoite saavutettu (yli 16 tuntia)",
         "today": "Tänään",
         "missed": "Menetetty päivä"
-      }
+      },
+      "today": "Tänään",
+      "dayLabel": "Päivä {{val}}"
     },
     "recentFasts": {
       "title": "Viimeaikaiset paastoajat",

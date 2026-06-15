@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "back": "Zpět na Dashboard"
+  },
+  "header": {
+    "title": "Sledování kroků",
+    "subtitle": "Sledujte své každodenní kroky a dosáhněte svých cílů",
+    "profile": "Profil"
+  },
+  "tabs": {
+    "tracker": "Tracker",
+    "history": "Historie"
+  },
+  "tracker": {
+    "stepsToday": "kroky dnes",
+    "goalAchieved": "Cíl splněn!",
+    "stats": {
+      "distance": "Vzdálenost",
+      "calories": "Kalorie",
+      "activeTime": "Aktivní čas",
+      "km": "km",
+      "kcal": "kcal",
+      "mins": "min"
+    },
+    "goal": {
+      "label": "Denní cíl",
+      "value": "{{val}} kroků",
+      "change": "Změnit cíl"
+    },
+    "quickAdd": {
+      "title": "Rychlé přidání kroků",
+      "label": "Vlastní kroky",
+      "placeholder": "např. 3500",
+      "submit": "Přidat"
+    },
+    "insights": {
+      "title": "Dnešní statistiky",
+      "remaining": "Zbývající kroky",
+      "stride": "Délka kroku",
+      "progress": "Pokrok",
+      "complete": "Hotovo!",
+      "percentOfGoal": "{{val}} % cíle"
+    },
+    "reset": "Resetujte dnešní kroky"
+  },
+  "history": {
+    "title": "Historie kroků",
+    "noHistory": "Zatím bez historie. Začněte sledovat své kroky!",
+    "today": "dnes",
+    "stats": {
+      "steps": "Kroky",
+      "goal": "Cíl",
+      "progress": "Pokrok"
+    }
+  },
+  "modals": {
+    "goal": {
+      "title": "Nastavte si denní cíl",
+      "subtitle": "Zadejte své cílové denní kroky",
+      "placeholder": "např. 10 000",
+      "cancel": "Zrušit",
+      "save": "Uložit"
+    },
+    "profile": {
+      "title": "Aktualizovat profil",
+      "subtitle": "To pomáhá vypočítat přesnou vzdálenost a kalorie",
+      "height": "výška (cm)",
+      "weight": "Hmotnost (kg)",
+      "gender": "Pohlaví",
+      "male": "Mužské",
+      "female": "Žena",
+      "placeholderHeight": "např. 170",
+      "placeholderWeight": "např. 70",
+      "cancel": "Zrušit",
+      "save": "Uložit"
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "back": "Zpět na Dashboard"
+  },
+  "header": {
+    "title": "Průvodce hubnutím",
+    "subtitle": "Váš kompletní průvodce udržitelným hubnutím"
+  },
+  "tabs": {
+    "plan": "Plán",
+    "tracker": "Tracker",
+    "habits": "Návyky"
+  },
+  "plan": {
+    "goldenRule": {
+      "title": "Zlaté pravidlo",
+      "subtitle": "Deficit kalorií vs. hustota živin",
+      "desc": "Hubnutí vyžaduje kalorický deficit, ale na kvalitě těchto kalorií záleží stejně jako na množství. Zaměřte se na celé potraviny bohaté na živiny, které vás udrží spokojené a zároveň vytvoří deficit potřebný pro úbytek tuku."
+    },
+    "proteinFirst": {
+      "title": "Protein na prvním místě",
+      "subtitle": "Proč 1,2 g–1,6 g bílkovin na kg nelze vyjednávat pro úbytek tuku:",
+      "muscle": "Zachovává svalovou hmotu při omezení kalorií",
+      "thermic": "Vyšší termický efekt (30 % kalorií bílkovin spálených během trávení)",
+      "satiety": "Zvýšená sytost vám pomůže cítit se déle sytí",
+      "sugar": "Stabilizuje hladinu cukru v krvi a snižuje chuť k jídlu"
+    },
+    "plateMethod": {
+      "title": "Destičková metoda",
+      "subtitle": "Jednoduchý vizuální průvodce pro vyvážená jídla, která podporují hubnutí:",
+      "veg": {
+        "title": "Zelenina",
+        "desc": "Neškrobová zelenina pro objem a živiny"
+      },
+      "protein": {
+        "title": "Protein",
+        "desc": "Libové maso, ryby, vejce nebo rostlinné zdroje"
+      },
+      "carbs": {
+        "title": "Sacharidy bohaté na vlákninu",
+        "desc": "Celozrnné výrobky, batáty, quinoa, luštěniny"
+      }
+    },
+    "hiddenFactors": {
+      "title": "Skryté faktory",
+      "hydration": {
+        "title": "Hydratace",
+        "desc": "Správná hydratace pomáhá:"
+      },
+      "sleep": {
+        "title": "Spánek (7 a více hodin)",
+        "desc": "Kvalitní spánek reguluje:"
+      }
+    }
+  },
+  "tracker": {
+    "progress": {
+      "title": "Váš pokrok",
+      "change": "Změnit cíle",
+      "lost": "Hubnutí",
+      "remaining": "Zbývající",
+      "percent": "Pokrok",
+      "complete": "Dokončeno"
+    },
+    "log": {
+      "title": "Zaznamenejte dnešní metriky",
+      "weight": "Aktuální hmotnost (kg)",
+      "chest": "Hrudník (palce, volitelně)",
+      "waist": "Pas (palce, volitelný)",
+      "hips": "Boky (palce, volitelné)",
+      "placeholder": "např. {{val}}",
+      "submit": "Protokolovat metriky"
+    },
+    "history": {
+      "title": "Historie metrik",
+      "total": "Celkem protokoly",
+      "first": "První váha",
+      "latest": "Nejnovější Hmotnost",
+      "unit": "kg",
+      "inches": "palce",
+      "chest": "hrudník",
+      "waist": "pasu",
+      "hips": "boky"
+    }
+  },
+  "habits": {
+    "consistency": {
+      "title": "Týdenní konzistence",
+      "subtitle": "Pokračujte v budování těchto zdravých návyků!"
+    },
+    "today": {
+      "title": "Dnešní návyky",
+      "subtitle": "Zaškrtněte každý návyk, když jej dnes dokončíte",
+      "protein": {
+        "label": "Dosáhněte proteinového cíle",
+        "desc": "1,2-1,6 g na kg tělesné hmotnosti"
+      },
+      "noSugar": {
+        "label": "Žádné slazené nápoje",
+        "desc": "Pouze voda, čaj nebo černá káva"
+      },
+      "walk": {
+        "label": "10minutová procházka po jídle",
+        "desc": "Lehká aktivita po jídle"
+      },
+      "sleep": {
+        "label": "7+ hodin spánku",
+        "desc": "Kvalitní odpočinek pro regeneraci"
+      }
+    },
+    "tracker30": {
+      "title": "30denní sledování návyků",
+      "legend": {
+        "none": "žádný",
+        "low": "1",
+        "mid": "2-3",
+        "high": "3",
+        "all": "Všechny 4"
+      }
+    },
+    "whyMatters": {
+      "title": "Proč na těchto návycích záleží",
+      "protein": "Příjem bílkovin chrání svaly a zvyšuje pocit sytosti během hubnutí",
+      "noSugar": "Vyhýbání se sladkým nápojům eliminuje prázdné kalorie a snižuje prudké výkyvy inzulínu",
+      "walk": "Procházky po jídle zlepšují citlivost na inzulín a napomáhají trávení",
+      "sleep": "Kvalitní spánek reguluje hormony hladu a podporuje odbourávání tuků"
+    }
+  },
+  "modal": {
+    "title": "Stanovte si své cíle",
+    "subtitle": "Pojďme personalizovat vaši cestu hubnutí",
+    "start": "Počáteční hmotnost (kg)",
+    "target": "Cílová hmotnost (kg)",
+    "date": "Cílové datum",
+    "save": "Uložit cíl",
+    "fillAll": "Vyplňte prosím všechna pole"
+  }
+}

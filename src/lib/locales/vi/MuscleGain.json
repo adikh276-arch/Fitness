@@ -109,7 +109,16 @@
       "thigh": "Đùi (trong)",
       "thighHint": "Phần rộng nhất",
       "submit": "Ghi nhật ký đo lường",
-      "success": "Số liệu đã được ghi lại thành công!"
+      "success": "Số liệu đã được ghi lại thành công!",
+      "placeholders": {
+        "weight": "ví dụ: 75",
+        "targetWeight": "ví dụ: 85",
+        "chest": "ví dụ: 40",
+        "waist": "Tùy chọn",
+        "bicep": "ví dụ: 15",
+        "bicepL": "Giống như bên phải",
+        "thigh": "Tùy chọn"
+      }
     },
     "volume": {
       "title": "Máy tính thể tích",
@@ -120,7 +129,13 @@
       "totalVolume": "Tổng thể tích",
       "remaining": "Vẫn còn cơ hội ghi bàn",
       "submit": "Khối lượng nhật ký",
-      "logged": "{{lift}} đã ghi nhận: Tổng thể tích {{volume}}kg!"
+      "logged": "{{lift}} đã ghi nhận: Tổng thể tích {{volume}}kg!",
+      "recentLifts": "Mức tăng gần đây",
+      "placeholders": {
+        "sets": "ví dụ: 4",
+        "reps": "ví dụ: 8",
+        "weight": "ví dụ: 80"
+      }
     },
     "chart": {
       "title": "Biểu đồ tiến độ",
@@ -168,7 +183,71 @@
         "perfect": "Hoàn hảo (5/5)",
         "partial": "Một phần",
         "none": "Chưa hoàn chỉnh"
+      },
+      "tooltip": "Ngày {{day}}: {{count}}/5 thói quen"
+    }
+  },
+  "essentials": {
+    "title": "Yếu tố cần thiết về phì đại",
+    "tips": {
+      "rest": {
+        "title": "Cơ bắp được hình thành trong lúc nghỉ ngơi:",
+        "desc": "Giấc ngủ và dinh dưỡng là lúc quá trình tăng trưởng diễn ra chứ không phải trong phòng tập"
+      },
+      "protein": {
+        "title": "Thời gian protein quan trọng hơn tổng số:",
+        "desc": "Tập trung vào việc đạt được mục tiêu hàng ngày của bạn, thời gian chỉ là thứ yếu"
+      },
+      "track": {
+        "title": "Theo dõi mọi thứ:",
+        "desc": "Trọng lượng, số đo và thể tích - dữ liệu cho thấy sự tiến bộ mà bạn không thể nhìn thấy trong gương"
+      },
+      "creatine": {
+        "title": "Creatine đã được chứng minh:",
+        "desc": "3-5g mỗi ngày giúp tăng sức mạnh và khối lượng cơ nạc mà không có tác dụng phụ đối với hầu hết mọi người"
       }
     }
+  },
+  "exercises": {
+    "squat": "ngồi xổm",
+    "deadlift": "Deadlift",
+    "benchPress": "máy ép ghế",
+    "overheadPress": "Máy ép trên cao",
+    "barbellRow": "Hàng tạ",
+    "pullUp": "Kéo lên",
+    "chinUp": "nâng cằm",
+    "latPulldown": "Kéo xuống vĩ độ",
+    "seatedCableRow": "Hàng cáp ngồi",
+    "dumbbellRow": "Hàng tạ",
+    "romanianDeadlift": "Deadlift Rumani",
+    "hipThrust": "Lực đẩy hông",
+    "lunge": "lao tới",
+    "bulgarianSplitSquat": "Squat tách kiểu Bungari",
+    "legPress": "Bấm chân",
+    "legExtension": "Duỗi chân",
+    "legCurl": "Cong chân",
+    "calfRaise": "Nuôi bê",
+    "gluteBridge": "Cầu mông",
+    "pushUp": "Đẩy lên",
+    "inclineDumbbellPress": "Máy ép tạ nghiêng",
+    "dips": "mức giảm",
+    "chestFly": "Ruồi ngực",
+    "lateralRaise": "Nâng bên",
+    "rearDeltFly": "Delt phía sau bay",
+    "facePull": "Kéo mặt",
+    "bicepCurl": "Bắp tay cong",
+    "hammerCurl": "Búa cong",
+    "tricepPushdown": "Đẩy mạnh cơ tam đầu",
+    "skullCrusher": "máy nghiền sọ",
+    "plank": "tấm ván",
+    "hangingLegRaise": "Nâng chân treo",
+    "russianTwist": "xoắn Nga",
+    "farmerCarry": "Nông dân mang theo",
+    "shrug": "Nhún vai",
+    "arnoldPress": "báo chí Arnold",
+    "frontSquat": "Squat phía trước",
+    "sumoDeadlift": "Sumo Deadlift",
+    "gobletSquat": "Cốc ngồi xổm",
+    "stepUp": "Bước lên"
   }
 }

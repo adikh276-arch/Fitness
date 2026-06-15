@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "back": "Înapoi la Tabloul de bord"
+  },
+  "header": {
+    "title": "Ghid de pierdere în greutate",
+    "subtitle": "Ghidul tău complet pentru pierderea în greutate durabilă"
+  },
+  "tabs": {
+    "plan": "Planul",
+    "tracker": "Tracker",
+    "habits": "Obiceiuri"
+  },
+  "plan": {
+    "goldenRule": {
+      "title": "Regula de aur",
+      "subtitle": "Deficitul caloric vs. densitatea nutrienților",
+      "desc": "Pierderea în greutate necesită un deficit de calorii, dar calitatea acestor calorii contează la fel de mult ca și cantitatea. Concentrați-vă pe alimente întregi bogate în nutrienți, care vă mențin mulțumit, creând în același timp deficitul necesar pentru pierderea grăsimilor."
+    },
+    "proteinFirst": {
+      "title": "Proteinele în primul rând",
+      "subtitle": "De ce 1,2 g–1,6 g de proteine pe kg nu sunt negociabile pentru pierderea grăsimilor:",
+      "muscle": "Păstrează masa musculară în timpul restricției calorice",
+      "thermic": "Efect termic mai mare (30% din caloriile proteice arse în timpul digestiei)",
+      "satiety": "Sațietatea crescută vă ajută să vă simțiți plin mai mult timp",
+      "sugar": "Stabilizează glicemia și reduce pofta de mâncare"
+    },
+    "plateMethod": {
+      "title": "Metoda plăcii",
+      "subtitle": "Un ghid vizual simplu pentru mese echilibrate care promovează pierderea de grăsime:",
+      "veg": {
+        "title": "Legume",
+        "desc": "Legume fără amidon pentru volum și nutrienți"
+      },
+      "protein": {
+        "title": "Proteine",
+        "desc": "Carne slabă, pește, ouă sau surse pe bază de plante"
+      },
+      "carbs": {
+        "title": "Carbohidrati bogati in fibre",
+        "desc": "Cereale integrale, cartofi dulci, quinoa, leguminoase"
+      }
+    },
+    "hiddenFactors": {
+      "title": "Factorii ascunși",
+      "hydration": {
+        "title": "Hidratarea",
+        "desc": "Hidratarea adecvată ajută la:"
+      },
+      "sleep": {
+        "title": "Somn (7+ ore)",
+        "desc": "Somnul de calitate reglează:"
+      }
+    }
+  },
+  "tracker": {
+    "progress": {
+      "title": "Progresul tău",
+      "change": "Schimbați obiectivele",
+      "lost": "Pierderea în greutate",
+      "remaining": "Rămânând",
+      "percent": "Progres",
+      "complete": "Complet"
+    },
+    "log": {
+      "title": "Înregistrați valorile de astăzi",
+      "weight": "Greutate curentă (kg)",
+      "chest": "Piept (inci, opțional)",
+      "waist": "Talie (inci, opțional)",
+      "hips": "Șolduri (inci, opțional)",
+      "placeholder": "de ex., {{val}}",
+      "submit": "Valori de jurnal"
+    },
+    "history": {
+      "title": "Istoricul metricilor",
+      "total": "Total loguri",
+      "first": "Prima greutate",
+      "latest": "Ultima greutate",
+      "unit": "kg",
+      "inches": "inci",
+      "chest": "piept",
+      "waist": "talie",
+      "hips": "solduri"
+    }
+  },
+  "habits": {
+    "consistency": {
+      "title": "Consistență săptămânală",
+      "subtitle": "Continuați să construiți acele obiceiuri sănătoase!"
+    },
+    "today": {
+      "title": "Obiceiurile de azi",
+      "subtitle": "Bifați fiecare obicei pe măsură ce îl finalizați astăzi",
+      "protein": {
+        "label": "Atingeți obiectivul de proteine",
+        "desc": "1,2-1,6 g per kg de greutate corporală"
+      },
+      "noSugar": {
+        "label": "Fara bauturi zaharoase",
+        "desc": "Doar apă, ceai sau cafea neagră"
+      },
+      "walk": {
+        "label": "Plimbare de 10 minute după masă",
+        "desc": "Activitate ușoară după masă"
+      },
+      "sleep": {
+        "label": "7+ ore de somn",
+        "desc": "Odihnă de calitate pentru recuperare"
+      }
+    },
+    "tracker30": {
+      "title": "Urmăritorul obiceiurilor de 30 de zile",
+      "legend": {
+        "none": "Niciuna",
+        "low": "1",
+        "mid": "2-3",
+        "high": "3",
+        "all": "Toate 4"
+      }
+    },
+    "whyMatters": {
+      "title": "De ce contează aceste obiceiuri",
+      "protein": "Aportul de proteine păstrează mușchii și crește sațietatea în timpul pierderii în greutate",
+      "noSugar": "Evitarea băuturilor cu zahăr elimină caloriile goale și reduce vârfurile de insulină",
+      "walk": "Plimbările după masă îmbunătățesc sensibilitatea la insulină și ajută digestia",
+      "sleep": "Somnul de calitate reglează hormonii foamei și sprijină pierderea grăsimilor"
+    }
+  },
+  "modal": {
+    "title": "Stabilește-ți obiectivele",
+    "subtitle": "Să vă personalizăm călătoria de pierdere în greutate",
+    "start": "Greutate de pornire (kg)",
+    "target": "Greutate țintă (kg)",
+    "date": "Data țintă",
+    "save": "Salvați obiectivul",
+    "fillAll": "Vă rugăm să completați toate câmpurile"
+  }
+}

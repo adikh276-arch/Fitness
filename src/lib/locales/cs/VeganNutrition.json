@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "back": "Zpět na Dashboard"
+  },
+  "header": {
+    "title": "Průvodce veganskou výživou",
+    "subtitle": "Kompletní sada nástrojů pro výživu rostlin"
+  },
+  "tabs": {
+    "plate": "Veganský talíř",
+    "nutrients": "Mikroživiny",
+    "calculator": "Kalkulačka bílkovin"
+  },
+  "plate": {
+    "title": "Kompletní veganské jídlo",
+    "proportions": {
+      "legumes": {
+        "title": "Luštěniny/fazole",
+        "subtitle": "Proteinová elektrárna",
+        "examples": "Příklady: Čočka, cizrna, černé fazole, tofu, tempeh"
+      },
+      "grains": {
+        "title": "Celá zrna",
+        "subtitle": "Trvalá energie",
+        "examples": "Příklady: Quinoa, hnědá rýže, oves, celozrnná pšenice, ječmen"
+      },
+      "vegetables": {
+        "title": "Zelenina",
+        "subtitle": "Bohaté na mikroživiny",
+        "examples": "Příklady: listová zelenina, brokolice, paprika, mrkev, rajčata"
+      },
+      "fats": {
+        "title": "Zdravé tuky/semena",
+        "subtitle": "Hormonální zdraví",
+        "examples": "Příklady: avokádo, ořechy, semínka, olivový olej, tahini"
+      }
+    },
+    "tip": {
+      "title": "Pro-Tip: Zvyšte absorpci železa",
+      "desc": "Rostlinné železo (nehemové železo) se vstřebává méně účinně než železo živočišné. Spárujte potraviny bohaté na železo s vitamínem C pro zvýšení vstřebávání až o 300 %!",
+      "ironRich": "Potraviny bohaté na železo",
+      "ironExamples": "Špenát, čočka, quinoa, tofu, dýňová semínka",
+      "vitaminC": "Vitamin C boostery",
+      "vitaminCExamples": "Citronová šťáva, paprika, rajčata, brokolice, pomeranče",
+      "perfectCombo": "Perfektní kombinace: Čočková polévka s citronovou šťávou, špenátový salát s paprikou"
+    }
+  },
+  "nutrients": {
+    "title": "Big 4 Nutrient Tracker",
+    "progress": {
+      "title": "Dnešní pokrok",
+      "done": "Hotovo",
+      "pending": "Čeká na vyřízení"
+    },
+    "why": {
+      "title": "Proč je sledovat?",
+      "desc1": "Tyto čtyři živiny jsou nejčastějším nedostatkem rostlinné stravy. Sledování denního příjmu zajišťuje, že dostáváte kompletní výživu.",
+      "note": "Poznámka: B12 je nutné doplňovat nebo konzumovat prostřednictvím obohacených potravin – v rostlinách se přirozeně nevyskytuje."
+    },
+    "micronutrients": {
+      "b12": {
+        "name": "Vitamín B12",
+        "importance": "Rozhodující pro nervovou funkci a syntézu DNA",
+        "dosage": "2,4 mcg denně"
+      },
+      "iron": {
+        "name": "Železo a zinek",
+        "importance": "Nezbytný pro přenos kyslíku a imunitní funkce",
+        "dosage": "Železo: 18 mg, Zinek: 11 mg denně"
+      },
+      "omega3": {
+        "name": "Omega-3 (ALA)",
+        "importance": "Zdraví mozku a protizánětlivé",
+        "dosage": "1,6 g denně"
+      },
+      "calcium": {
+        "name": "Vápník",
+        "importance": "Zdraví kostí a funkce svalů",
+        "dosage": "1000 mg denně"
+      }
+    }
+  },
+  "calculator": {
+    "title": "Průvodce znalostmi bílkovin",
+    "subtitle": "Vyberte jídlo a zadejte množství, abyste okamžitě viděli jeho obsah bílkovin",
+    "form": {
+      "selectFood": "Vyhledejte a vyberte potravinovou položku",
+      "placeholderFood": "Vyberte si jídlo...",
+      "searchPlaceholder": "Hledat potraviny...",
+      "amount": "množství (gramy)",
+      "placeholderAmount": "100",
+      "add": "Přidat do kalkulace",
+      "proteinPer100": "{{val}}g na 100g",
+      "matches": "Zobrazeno 5 z {{total}} shod",
+      "noMatches": "Nebyla nalezena žádná jídla"
+    },
+    "results": {
+      "title": "Odbourávání bílkovin",
+      "estProtein": "Odhadovaný obsah bílkovin",
+      "calcInfo": "{{amount}}g {{food}}",
+      "summary": "Souhrn aktuálních výpočtů",
+      "total": "Celková bílkovina",
+      "aminoAcid": "Úplnost aminokyselin",
+      "aminoComplete": "Kompletní amino profil",
+      "aminoIncomplete": "Chybějící obiloviny nebo luštěniny",
+      "aminoNote": "Luštěniny (čočka/fazole/sója) + obiloviny (rýže/quinoa/oves) = kompletní bílkoviny",
+      "save": "Log Total do historie",
+      "success": "Protein úspěšně přihlášen!",
+      "ironTip": {
+        "title": "Tip:",
+        "desc": "V kombinaci s vitamínem C (citron, paprika, rajčata) zvýšíte vstřebávání železa až o 300 %!"
+      }
+    },
+    "reference": {
+      "title": "Stručná referenční příručka"
+    }
+  },
+  "proteinSources": {
+    "tofu": "Tofu",
+    "tempeh": "Tempeh",
+    "edamame": "Edamame",
+    "soybeansBoiled": "Sójové boby vařené",
+    "soyChunks": "Sojové kousky / TVP Dry",
+    "soyMince": "Sójové mleté ​​suché",
+    "soyMilk": "Sójové mléko neslazené",
+    "soyYogurt": "Obyčejný sójový jogurt",
+    "seitan": "Seitan",
+    "lentilsCooked": "Čočka vařená",
+    "redLentilsCooked": "Červená čočka vařená",
+    "greenLentilsCooked": "Zelená čočka vařená",
+    "blackLentilsCooked": "Černá čočka vařená",
+    "chickpeasCooked": "Cizrna vařená",
+    "blackBeansCooked": "Černé fazole vařené",
+    "kidneyBeansCooked": "Fazole vařené",
+    "pintoBeansCooked": "Pinto fazole vařené",
+    "cannelliniBeansCooked": "Cannellini fazole vařené",
+    "navyBeansCooked": "Navy Fazole vařené",
+    "adzukiBeansCooked": "Fazole adzuki vařené",
+    "mungBeansCooked": "Fazole mungo vařené",
+    "lupinBeans": "Lupina fazole",
+    "splitPeasCooked": "Hrášek vařený",
+    "greenPeas": "Zelený hrášek",
+    "peaProteinIsolate": "Hrachový proteinový izolát",
+    "peaMilk": "Hrachové mléko",
+    "hummus": "Hummus",
+    "falafel": "Falafel",
+    "quinoaCooked": "Quinoa vařená",
+    "amaranthCooked": "Amarant vařený",
+    "buckwheatCooked": "Pohanka vařená",
+    "oatsDry": "Oves Suchý",
+    "rolledOats": "Ovesné vločky",
+    "steelCutOats": "Oves řezaný ocelí",
+    "oatBran": "Ovesné otruby",
+    "barleyCooked": "Ječmen vařený",
+    "milletCooked": "Jáhly vařené",
+    "brownRiceCooked": "Hnědá rýže vařená",
+    "wildRiceCooked": "Divoká rýže vařená",
+    "teffCooked": "Teff Vařené",
+    "farroCooked": "Farro vařené",
+    "freekehCooked": "Freekeh vařené",
+    "wholeWheatPastaCooked": "Celozrnné těstoviny vařené",
+    "chickpeaPastaDry": "Cizrnové těstoviny suché",
+    "lentilPastaDry": "Čočkové těstoviny suché",
+    "blackBeanPastaDry": "Těstoviny s černými fazolemi suché",
+    "spirulinaDry": "Suchá Spirulina",
+    "nutritionalYeast": "Nutriční kvasnice",
+    "mushroomsWhite": "Houby bílé",
+    "portobelloMushrooms": "Portobello houby",
+    "spinach": "Špenát",
+    "kale": "Kale",
+    "broccoli": "brokolice",
+    "brusselsSprouts": "Růžičková kapusta",
+    "sweetCorn": "Sladká kukuřice",
+    "artichoke": "Artyčok",
+    "avocado": "Avokádo",
+    "pumpkinSeeds": "Dýňová semínka",
+    "hempSeeds": "Konopná semínka",
+    "chiaSeeds": "Chia semínka",
+    "flaxSeeds": "Lněná semínka",
+    "sesameSeeds": "Sezamová semínka",
+    "sunflowerSeeds": "Slunečnicová semínka",
+    "watermelonSeeds": "Semena melounu",
+    "almonds": "Mandle",
+    "peanuts": "Arašídy",
+    "peanutButterNatural": "Arašídové máslo přírodní",
+    "cashews": "Kešu ořechy",
+    "pistachios": "Pistácie",
+    "walnuts": "Vlašské ořechy",
+    "hazelnuts": "Lískové ořechy",
+    "brazilNuts": "Brazilské ořechy",
+    "almondButter": "Mandlové máslo",
+    "tahini": "Tahini",
+    "cashewButter": "Kešu máslo",
+    "pumpkinSeedButter": "Máslo z dýňových semínek",
+    "sunflowerSeedButter": "Máslo ze slunečnicových semínek",
+    "almondFlour": "Mandlová mouka",
+    "chickpeaFlour": "Cizrnová mouka / Besan",
+    "soyFlour": "Sojová mouka",
+    "wholeWheatFlour": "Celozrnná mouka",
+    "breadWholeWheat": "Chléb celozrnný",
+    "ezekielBread": "Ezechiel chléb",
+    "proteinBreadVegan": "Proteinový chléb Vegan",
+    "roastedChickpeas": "Pečená cizrna",
+    "dryRoastedEdamame": "Edamame pečený na sucho",
+    "proteinBarVegan": "Proteinová tyčinka Vegan",
+    "veganSausage": "Veganská klobása",
+    "veganBurgerPatty": "Veganský burger Patty",
+    "mycoproteinVegan": "Mykoprotein Vegan",
+    "beanSprouts": "Fazolové klíčky",
+    "alfalfaSprouts": "Klíčky vojtěšky"
+  }
+}

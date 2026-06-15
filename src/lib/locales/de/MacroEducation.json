@@ -7,13 +7,13 @@
     "subtitle": "Lerne die Grundlagen von Proteinen, Kohlenhydraten und Fetten kennen."
   },
   "tabs": {
-    "protein": "Protein",
+    "protein": "Eiweiß",
     "carbs": "Kohlenhydrate",
     "fats": "Fette",
     "plate": "Plattenbauer"
   },
   "protein": {
-    "title": "Protein",
+    "title": "Eiweiß",
     "kcal": "4 kcal/Gramm",
     "whyMatters": {
       "title": "Warum das wichtig ist:",
@@ -87,13 +87,13 @@
   "plate": {
     "title": "Stelle deine ausgewogene Mahlzeit zusammen",
     "legend": {
-      "protein": "Protein {{val}}%",
+      "protein": "Protein {{val}} %",
       "carbs": "Kohlenhydrate {{val}}%",
       "fats": "Fette {{val}}%"
     },
     "sliders": {
       "protein": {
-        "title": "Protein",
+        "title": "Eiweiß",
         "desc": "Muskeln & Sättigung"
       },
       "carbs": {

@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "back": "Vissza az irányítópultra"
+  },
+  "header": {
+    "title": "Vegán táplálkozási útmutató",
+    "subtitle": "Komplett növényi alapú táplálkozási eszköztár"
+  },
+  "tabs": {
+    "plate": "Vegán tányér",
+    "nutrients": "Mikrotápanyagok",
+    "calculator": "Fehérje kalkulátor"
+  },
+  "plate": {
+    "title": "A teljes értékű vegán étkezés",
+    "proportions": {
+      "legumes": {
+        "title": "Hüvelyesek/bab",
+        "subtitle": "Fehérje erőmű",
+        "examples": "Példák: lencse, csicseriborsó, fekete bab, tofu, tempeh"
+      },
+      "grains": {
+        "title": "Teljes kiőrlésű gabonák",
+        "subtitle": "Tartós energia",
+        "examples": "Példák: Quinoa, barna rizs, zab, teljes kiőrlésű búza, árpa"
+      },
+      "vegetables": {
+        "title": "Zöldségek",
+        "subtitle": "Mikrotápanyagban gazdag",
+        "examples": "Példák: leveles zöldek, brokkoli, paprika, sárgarépa, paradicsom"
+      },
+      "fats": {
+        "title": "Egészséges zsírok/magvak",
+        "subtitle": "Hormonális egészség",
+        "examples": "Példák: avokádó, dió, magvak, olívaolaj, tahini"
+      }
+    },
+    "tip": {
+      "title": "Pro-Tip: Növelje a vas felszívódását",
+      "desc": "A növényi eredetű vas (nem hem vas) kevésbé hatékonyan szívódik fel, mint az állati vas. Párosítsd a vasban gazdag ételeket C-vitaminnal, hogy akár 300%-kal növeld a felszívódást!",
+      "ironRich": "Vasban gazdag ételek",
+      "ironExamples": "Spenót, lencse, quinoa, tofu, tökmag",
+      "vitaminC": "C-vitamin-fokozók",
+      "vitaminCExamples": "Citromlé, kaliforniai paprika, paradicsom, brokkoli, narancs",
+      "perfectCombo": "Tökéletes kombináció: Lencseleves citromlével, spenótsaláta kaliforniai paprikával"
+    }
+  },
+  "nutrients": {
+    "title": "A Big 4 tápanyagkövető",
+    "progress": {
+      "title": "Mai haladás",
+      "done": "Kész",
+      "pending": "Függőben"
+    },
+    "why": {
+      "title": "Miért érdemes ezeket követni?",
+      "desc1": "Ez a négy tápanyag a leggyakoribb hiányosság a növényi alapú étrendben. A napi bevitel követése biztosítja, hogy teljes értékű táplálékot kapjon.",
+      "note": "Megjegyzés: A B12-t kiegészíteni vagy dúsított élelmiszerekkel kell fogyasztani – a növényekben természetesen nincs jelen."
+    },
+    "micronutrients": {
+      "b12": {
+        "name": "B12 vitamin",
+        "importance": "Kritikus az idegműködéshez és a DNS szintézishez",
+        "dosage": "2,4 mcg naponta"
+      },
+      "iron": {
+        "name": "Vas és cink",
+        "importance": "Nélkülözhetetlen az oxigénszállításhoz és az immunrendszer működéséhez",
+        "dosage": "Vas: 18 mg, cink: 11 mg naponta"
+      },
+      "omega3": {
+        "name": "Omega-3 (ALA)",
+        "importance": "Az agy egészsége és gyulladáscsökkentő",
+        "dosage": "1,6 g naponta"
+      },
+      "calcium": {
+        "name": "kalcium",
+        "importance": "Csontok egészsége és izomműködés",
+        "dosage": "1000 mg naponta"
+      }
+    }
+  },
+  "calculator": {
+    "title": "Protein Knowledge Guide",
+    "subtitle": "Válasszon ki egy élelmiszert, és adja meg a mennyiséget, hogy azonnal lássa annak fehérjetartalmát",
+    "form": {
+      "selectFood": "Keresés és étel kiválasztása",
+      "placeholderFood": "Válassz egy ételt...",
+      "searchPlaceholder": "Élelmiszerek keresése...",
+      "amount": "Mennyiség (gramm)",
+      "placeholderAmount": "100",
+      "add": "Hozzáadás a számításhoz",
+      "proteinPer100": "{{val}}g/100g",
+      "matches": "{{total}}/5 találat megjelenítése",
+      "noMatches": "Nem található élelmiszer"
+    },
+    "results": {
+      "title": "A fehérje lebontása",
+      "estProtein": "Becsült fehérjetartalom",
+      "calcInfo": "{{amount}} g {{étel}}",
+      "summary": "Jelenlegi számítási összefoglaló",
+      "total": "Összes fehérje",
+      "aminoAcid": "Az aminosavak teljessége",
+      "aminoComplete": "Teljes Amino profil",
+      "aminoIncomplete": "Hiányzó szemek vagy hüvelyesek",
+      "aminoNote": "Hüvelyesek (lencse/bab/szója) + szemek (rizs/quinoa/zab) = teljes értékű fehérje",
+      "save": "Összes naplózása az előzményekbe",
+      "success": "A fehérje sikeresen bejelentkezve!",
+      "ironTip": {
+        "title": "Tipp:",
+        "desc": "C-vitaminnal (citrom, paprika, paradicsom) párosítva akár 300%-kal növelheti a vas felszívódását!"
+      }
+    },
+    "reference": {
+      "title": "Gyors útmutató"
+    }
+  },
+  "proteinSources": {
+    "tofu": "Tofu",
+    "tempeh": "Tempeh",
+    "edamame": "Edamame",
+    "soybeansBoiled": "Szójabab Főtt",
+    "soyChunks": "Szójadarabok / TVP Dry",
+    "soyMince": "Száraz szójadarált",
+    "soyMilk": "Szójatej cukrozatlan",
+    "soyYogurt": "Szójajoghurt sima",
+    "seitan": "Seitan",
+    "lentilsCooked": "Főtt lencse",
+    "redLentilsCooked": "Piros lencse főtt",
+    "greenLentilsCooked": "Zöld lencse főtt",
+    "blackLentilsCooked": "Fekete lencse főtt",
+    "chickpeasCooked": "Csicseriborsó főtt",
+    "blackBeansCooked": "Fekete bab főtt",
+    "kidneyBeansCooked": "Vesebab főtt",
+    "pintoBeansCooked": "Pinto bab főtt",
+    "cannelliniBeansCooked": "Cannellini bab főtt",
+    "navyBeansCooked": "Sötétkék bab főtt",
+    "adzukiBeansCooked": "Adzuki bab főtt",
+    "mungBeansCooked": "Mung bab főtt",
+    "lupinBeans": "csillagfürt bab",
+    "splitPeasCooked": "Hasított borsó főtt",
+    "greenPeas": "Zöldborsó",
+    "peaProteinIsolate": "Borsó fehérje izolátum",
+    "peaMilk": "Borsó tej",
+    "hummus": "Hummusz",
+    "falafel": "Falafel",
+    "quinoaCooked": "Quinoa főtt",
+    "amaranthCooked": "Amaránt főtt",
+    "buckwheatCooked": "Hajdina főtt",
+    "oatsDry": "Zab Száraz",
+    "rolledOats": "Hengerelt zab",
+    "steelCutOats": "Acél vágott zab",
+    "oatBran": "Zabkorpa",
+    "barleyCooked": "Árpa főtt",
+    "milletCooked": "Köles főtt",
+    "brownRiceCooked": "Főtt barna rizs",
+    "wildRiceCooked": "Főtt vadrizs",
+    "teffCooked": "Teff főtt",
+    "farroCooked": "Farro főtt",
+    "freekehCooked": "Freekeh főtt",
+    "wholeWheatPastaCooked": "Teljes kiőrlésű tészta főtt",
+    "chickpeaPastaDry": "Csicseriborsó tészta száraz",
+    "lentilPastaDry": "Lencse tészta száraz",
+    "blackBeanPastaDry": "Fekete bab tészta száraz",
+    "spirulinaDry": "Spirulina száraz",
+    "nutritionalYeast": "Táplálkozási élesztő",
+    "mushroomsWhite": "Gomba fehér",
+    "portobelloMushrooms": "Portobello gomba",
+    "spinach": "Spenót",
+    "kale": "Kelkáposzta",
+    "broccoli": "Brokkoli",
+    "brusselsSprouts": "Kelbimbó",
+    "sweetCorn": "Csemegekukorica",
+    "artichoke": "Articsóka",
+    "avocado": "Avokádó",
+    "pumpkinSeeds": "Tökmag",
+    "hempSeeds": "Kendermag",
+    "chiaSeeds": "Chia magok",
+    "flaxSeeds": "Lenmag",
+    "sesameSeeds": "Szezámmag",
+    "sunflowerSeeds": "Napraforgómag",
+    "watermelonSeeds": "Görögdinnye magvak",
+    "almonds": "Mandula",
+    "peanuts": "Földimogyoró",
+    "peanutButterNatural": "Természetes mogyoróvaj",
+    "cashews": "Kesudió",
+    "pistachios": "Pisztácia",
+    "walnuts": "Dió",
+    "hazelnuts": "Mogyoró",
+    "brazilNuts": "brazil dió",
+    "almondButter": "Mandula vaj",
+    "tahini": "Tahini",
+    "cashewButter": "Kesudió vaj",
+    "pumpkinSeedButter": "Tökmagvaj",
+    "sunflowerSeedButter": "Napraforgómagvaj",
+    "almondFlour": "Mandulaliszt",
+    "chickpeaFlour": "Csicseriborsó liszt / Besan",
+    "soyFlour": "Szójaliszt",
+    "wholeWheatFlour": "Teljes kiőrlésű liszt",
+    "breadWholeWheat": "Teljes kiőrlésű kenyér",
+    "ezekielBread": "Ezékiel kenyér",
+    "proteinBreadVegan": "Protein Kenyér Vegán",
+    "roastedChickpeas": "Sült csicseriborsó",
+    "dryRoastedEdamame": "Dry Roasted Edamame",
+    "proteinBarVegan": "Protein Bar Vegán",
+    "veganSausage": "Vegán kolbász",
+    "veganBurgerPatty": "Vegán Burger Patty",
+    "mycoproteinVegan": "Mycoprotein Vegán",
+    "beanSprouts": "Babcsíra",
+    "alfalfaSprouts": "Lucerna hajtások"
+  }
+}

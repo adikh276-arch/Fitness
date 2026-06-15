@@ -70,7 +70,8 @@
       "firstMeal": "Waktu Makan Pertama (Hari Ini):",
       "duration": "Total Durasi Puasa",
       "goalAchieved": "Tujuan Tercapai! Anda telah menyelesaikan puasa selama lebih dari 16 jam!",
-      "submit": "Catat Ini dengan Cepat"
+      "submit": "Catat Ini dengan Cepat",
+      "dateLabel": "Tanggal:"
     },
     "tracker": {
       "title": "Program Percepatan 30 Hari",
@@ -81,7 +82,9 @@
         "goalMet": "Target Tercapai (16+ jam)",
         "today": "Hari ini",
         "missed": "Hari yang Terlewatkan"
-      }
+      },
+      "today": "Hari ini",
+      "dayLabel": "Hari {{val}}"
     },
     "recentFasts": {
       "title": "Puasa Terbaru",

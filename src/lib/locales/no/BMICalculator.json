@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "back": "Tilbake til Dashboard"
+  },
+  "header": {
+    "title": "Smart BMI og kroppskontekst",
+    "subtitle": "Spor kroppsmålingene dine med klinisk presisjon"
+  },
+  "streak": {
+    "title": "Opprettholdt sunn rekkevidde!",
+    "subtitle": "{{count}} avlesninger på rad i den sunne sonen 🎉"
+  },
+  "tabs": {
+    "calculator": "BMI kalkulator",
+    "context": "Utover BMI",
+    "history": "Trendhistorie"
+  },
+  "calculator": {
+    "title": "Beregn din BMI",
+    "inputs": {
+      "height": "Høyde",
+      "weight": "Vekt",
+      "feet": "Føtter",
+      "inches": "Tommer",
+      "placeholders": {
+        "heightCm": "f.eks. 170",
+        "heightFt": "Føtter",
+        "heightIn": "Tommer",
+        "weightKg": "f.eks. 70",
+        "weightLbs": "f.eks. 154"
+      }
+    },
+    "results": {
+      "yourBMI": "Din BMI",
+      "placeholder": "Skriv inn målingene dine for å se BMI",
+      "submit": "Lagre til profil",
+      "success": "✓ Lagret vellykket!",
+      "categories": {
+        "underweight": "Undervektig",
+        "healthy": "Sunn vekt",
+        "normal": "Normal",
+        "overweight": "Overvektig",
+        "obese": "Overvektige",
+        "enterData": "Skriv inn data"
+      }
+    },
+    "tip": "Vurder å inkludere regelmessig trening og et balansert kosthold i rutinen din.",
+    "disclaimer": {
+      "title": "Medisinsk ansvarsfraskrivelse",
+      "text": "BMI er et generelt screeningsverktøy og skiller ikke mellom muskel- og fettmasse. Rådfør deg med helsepersonell for personlig medisinsk rådgivning."
+    }
+  },
+  "beyond": {
+    "title": "Midje-til-høyde-forhold (WHtR)",
+    "why": {
+      "title": "Hvorfor dette betyr noe",
+      "desc": "Å holde midjeomkretsen på mindre enn halvparten av høyden reduserer kardiovaskulær risiko. WHtR er mer nøyaktig enn BMI for å forutsi metabolske helsetilstander.",
+      "target": "Mål: Forhold < 0,5 for optimal helse"
+    },
+    "inputs": {
+      "waist": "Midjeomkrets",
+      "waistHint": "Mål på det smaleste punktet i midjen, vanligvis rett over navlen",
+      "placeholders": {
+        "waistCm": "f.eks. 80",
+        "waistIn": "f.eks. 31"
+      }
+    },
+    "results": {
+      "healthy": "Sunn form",
+      "elevated": "Økt risiko",
+      "placeholder": "Vennligst skriv inn høyde og midje for å se forholdet ditt",
+      "waistMeasurementPlaceholder": "Angi midjemål",
+      "label": "Midje-til-høyde-forhold",
+      "submit": "Lagre til profil (BMI + WHtR)"
+    },
+    "comparison": {
+      "title": "BMI vs WHtR: Forskjellen",
+      "bmi": {
+        "title": "BMI",
+        "desc": "Generell vektkategori, tar ikke hensyn til muskelmasse eller fettfordeling"
+      },
+      "whtr": {
+        "title": "WHtR",
+        "desc": "Måler sentral overvekt, bedre prediktor for hjerte- og karsykdommer og diabetes"
+      }
+    }
+  },
+  "history": {
+    "title": "Nylige målinger",
+    "noHistory": "Ingen historie ennå",
+    "noHistoryDesc": "Begynn å spore BMI og kroppsberegninger for å se utviklingstrendene dine over tid.",
+    "stats": {
+      "title": "Din statistikk",
+      "total": "Totale rekorder",
+      "latest": "Siste BMI",
+      "healthyCount": "Sunn telling",
+      "bestStreak": "Beste strek"
+    }
+  }
+}

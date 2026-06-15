@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "back": "Terug naar Dashboard"
+  },
+  "header": {
+    "title": "Macro-calculator",
+    "subtitle": "Bereken uw dagelijkse behoefte aan calorieën en macronutriënten"
+  },
+  "tabs": {
+    "input": "Uw gegevens",
+    "results": "Jouw resultaten"
+  },
+  "form": {
+    "title": "Uw gegevens",
+    "age": "Leeftijd (jaren)",
+    "gender": "Geslacht",
+    "male": "Mannetje",
+    "female": "Vrouw",
+    "weight": "Gewicht",
+    "height": "Hoogte",
+    "activity": "Activiteitsniveau",
+    "goal": "Doel",
+    "submit": "Macro's berekenen",
+    "placeholders": {
+      "age": "bijvoorbeeld 30",
+      "weightKg": "bijvoorbeeld 70",
+      "weightLbs": "bijvoorbeeld 154",
+      "heightCm": "bijvoorbeeld 175",
+      "heightFt": "Voeten",
+      "heightIn": "Inch"
+    },
+    "activityLevels": {
+      "sedentary": "Sedentair (weinig/geen beweging)",
+      "light": "Licht actief (1-3 dagen/week)",
+      "moderate": "Matig actief (3-5 dagen/week)",
+      "very": "Zeer actief (6-7 dagen/week)"
+    },
+    "goals": {
+      "maintenance": "Onderhoud",
+      "loss": "Gewichtsverlies",
+      "gain": "Spierwinst"
+    }
+  },
+  "results": {
+    "title": "Jouw resultaten",
+    "calorieTarget": "Dagelijks caloriedoel",
+    "kcalPerDay": "kcal/dag",
+    "bmrLabel": "BMR: {{val}} kcal",
+    "protein": "Eiwit",
+    "carbs": "Koolhydraten",
+    "fat": "Vet",
+    "submit": "Opslaan in profiel",
+    "placeholder": "Vul uw gegevens in en klik op Bereken om uw resultaten te zien",
+    "success": "Macrogegevens opgeslagen! Uw profielgegevens zijn gesynchroniseerd.",
+    "validation": "Voer geldige waarden in"
+  }
+}

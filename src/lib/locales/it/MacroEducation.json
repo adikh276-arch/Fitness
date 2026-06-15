@@ -14,7 +14,7 @@
   },
   "protein": {
     "title": "Proteina",
-    "kcal": "4 kcal/gram",
+    "kcal": "4 kcal/grammo",
     "whyMatters": {
       "title": "Perché è importante:",
       "muscle": {
@@ -38,7 +38,7 @@
   },
   "carbs": {
     "title": "Carboidrati",
-    "kcal": "4 kcal/gram",
+    "kcal": "4 kcal/grammo",
     "whyMatters": {
       "title": "Perché è importante:",
       "energy": {
@@ -62,7 +62,7 @@
   },
   "fats": {
     "title": "Grassi",
-    "kcal": "9 kcal/gram",
+    "kcal": "9 kcal/grammo",
     "whyMatters": {
       "title": "Perché è importante:",
       "hormone": {

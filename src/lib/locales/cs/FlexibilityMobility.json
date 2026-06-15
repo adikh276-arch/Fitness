@@ -1,0 +1,227 @@
+{
+  "header": {
+    "title": "Flexibilita a mobilita",
+    "subtitle": "Improve range of motion and prevent injuries",
+    "back": "Zpět na Dashboard"
+  },
+  "tabs": {
+    "stretches": "Denní úseky",
+    "tests": "Testy mobility",
+    "log": "Protokol obnovy"
+  },
+  "player": {
+    "stretch": "Stretch {{current}} of {{total}}",
+    "resume": "Pokračovat",
+    "pause": "Pauza",
+    "skip": "Přeskočit",
+    "cancel": "Zrušit",
+    "bilateral_hint": "💡 Remember to switch sides when the timer ends",
+    "preview": {
+      "stretches_count": "{{count}} Stretches ({{duration}} min total):",
+      "start": "Start {{duration}}-Min Routine",
+      "cancel": "Zrušit"
+    },
+    "complete": {
+      "title": "Rutina dokončena!",
+      "desc": "Great job completing {{name}}!",
+      "rate_label": "Cítit se lépe? Rate your improvement: {{rating}}/10",
+      "worse": "horší",
+      "same": "Totéž",
+      "much_better": "mnohem lepší",
+      "save": "Uložit relaci",
+      "done": "Hotovo"
+    }
+  },
+  "routines": {
+    "upper-body": {
+      "name": "Horní část těla otevřená",
+      "focus": "Chest, Shoulders, Mid-Back",
+      "desc": "Release tension from desk work and phone use",
+      "stretches": {
+        "Doorway Chest Stretch": {
+          "name": "Doorway Hrudník Stretch",
+          "desc": "Stand in doorway, place forearms on frame, lean forward to feel chest stretch."
+        },
+        "Shoulder Rolls": {
+          "name": "Ramenní rolády",
+          "desc": "Roll shoulders backward in large circles, 10 reps."
+        },
+        "Thoracic Rotation": {
+          "name": "Rotace hrudníku",
+          "desc": "Na rukou a na kolenou otáčejte horní částí těla ze strany na stranu, otevřete hrudník."
+        },
+        "Neck Stretch": {
+          "name": "Protažení krku",
+          "desc": "Jemně nakloňte hlavu na každou stranu a držte ji 30 sekund na každou stranu."
+        },
+        "Tricep Stretch": {
+          "name": "Protažení tricepsů",
+          "desc": "Natáhněte paži nad hlavu, ohněte loket a druhou rukou jemně zatáhněte."
+        }
+      }
+    },
+    "lower-body": {
+      "name": "Uvolnění dolní části těla",
+      "focus": "Hamstringy, hýžďové svaly, ohýbače kyčle",
+      "desc": "Hluboké protažení pro pevné nohy a boky ze sedu",
+      "stretches": {
+        "Pigeon Pose": {
+          "name": "Póza holuba",
+          "desc": "Jednu nohu pokrčte dopředu, natáhněte zadní nohu rovně, boky klesněte dolů."
+        },
+        "Hamstring Stretch": {
+          "name": "Protažení hamstringů",
+          "desc": "Sedněte si s jednou nohou nataženou, natáhněte se k prstům, držte záda rovná."
+        },
+        "Hip Flexor Lunge": {
+          "name": "Výpad kyčle Flexor",
+          "desc": "Výpadová pozice, zatlačte boky dopředu, abyste cítili natažení v přední kyčli."
+        },
+        "Glute Stretch": {
+          "name": "Glute Stretch",
+          "desc": "V lehu na zádech překřižte kotník přes opačné koleno a přitáhněte k hrudi."
+        },
+        "Calf Stretch": {
+          "name": "Protažení lýtek",
+          "desc": "Krok vpřed ve výpadu, držte zadní patu dolů, abyste protáhli lýtko."
+        }
+      }
+    },
+    "full-body": {
+      "name": "Full Body Flow",
+      "focus": "Celková údržba karoserie",
+      "desc": "Kompletní rutina flexibility od hlavy až k patě",
+      "stretches": {
+        "Cat-Cow": {
+          "name": "Kočka-kráva",
+          "desc": "Na rukou a na kolenou střídejte vyklenutí a zaoblení páteře."
+        },
+        "Downward Dog": {
+          "name": "Dolů Pes",
+          "desc": "Ruce a nohy vsazené, boky vysoké, tvořící obrácené V."
+        },
+        "Child's Pose": {
+          "name": "Dětská póza",
+          "desc": "Kolena široká, sedět na patách, paže natažené dopředu."
+        },
+        "Seated Twist": {
+          "name": "Sedící Twist",
+          "desc": "Sedněte se zkříženýma nohama, otáčejte trupem na každou stranu, ruku za zády."
+        },
+        "Forward Fold": {
+          "name": "Forward Fold",
+          "desc": "Postavte se, zavěste se na boky, natáhněte se k prstům u nohou, hlavu nechte svěšenou."
+        },
+        "Hip Circles": {
+          "name": "Kruhy kyčle",
+          "desc": "Ruce v bok, udělejte velké kruhy s boky v obou směrech."
+        },
+        "Arm Circles": {
+          "name": "Pažní kruhy",
+          "desc": "Natáhněte paže doširoka, udělejte velké kruhy dopředu a poté dozadu."
+        }
+      }
+    },
+    "dynamic-warmup": {
+      "name": "Dynamické zahřívání",
+      "focus": "Předtréninková aktivace",
+      "desc": "Připravte své tělo před cvičením",
+      "stretches": {
+        "Leg Swings": {
+          "name": "Houpačky nohou",
+          "desc": "Držte se zdi, švihněte nohou dopředu a dozadu a poté ze strany na stranu."
+        },
+        "Arm Circles": {
+          "name": "Pažní kruhy",
+          "desc": "Malé až velké kruhy, dopředu a dozadu."
+        },
+        "Torso Twists": {
+          "name": "Torso Twists",
+          "desc": "Otočte horní část těla ze strany na stranu s uvolněnými pažemi."
+        },
+        "Walking Lunges": {
+          "name": "Chůze výpady",
+          "desc": "Krok vpřed do výpadu, střídejte nohy při pohybu vpřed."
+        },
+        "High Knees": {
+          "name": "Vysoká kolena",
+          "desc": "Pochod na místě přivede kolena do výšky kyčlí."
+        }
+      }
+    }
+  },
+  "benefits": {
+    "title": "Proč je důležité každodenní protahování"
+  },
+  "tests": {
+    "status": {
+      "title": "Váš stav mobility",
+      "based_on": "Na základě {{count}} výsledků testů",
+      "complete_below": "Kompletní testy níže",
+      "score_label": "Skóre: {{points}}/6 bodů (úspěšně = 2, částečné = 1, vyžaduje práci = 0)",
+      "elite": "Elitní mobilita",
+      "good": "Dobrá mobilita",
+      "limited": "Omezená mobilita",
+      "not_tested": "Netestováno"
+    },
+    "items": {
+      "sit-reach": {
+        "name": "Test Sit & Reach",
+        "desc": "Seďte s nohama rovně, natáhněte se k prstům",
+        "pass": "Může se dotýkat nebo míjet prsty",
+        "fail": "Více než 6 palců od prstů na nohou"
+      },
+      "shoulder-pass": {
+        "name": "Průchod přes rameno",
+        "desc": "Držte pásku/hůl, zvedněte ruce nad hlavu a za záda",
+        "pass": "Může procházet hladce",
+        "fail": "Nelze dokončit pohyb"
+      },
+      "deep-squat": {
+        "name": "Hluboké držení dřepu",
+        "desc": "Dřepněte si s rovnými patami, vydržte 30 sekund",
+        "pass": "Vydrží 30s, podpatky dolů",
+        "fail": "Paty se zvedají nebo nemohou držet"
+      }
+    },
+    "tips": {
+      "title": "Tipy na testování"
+    },
+    "actions": {
+      "pass": "✓ Pass",
+      "partial": "~ Částečně",
+      "fail": "✗ Potřebuje práci"
+    }
+  },
+  "log": {
+    "title": "Log Recovery Session",
+    "duration": "Doba trvání (minuty)",
+    "focus_areas": "Oblasti zaměření (vyberte všechny platné)",
+    "soreness_label": "Bolest před sezením: {{level}}/10",
+    "no_pain": "1 - Žádná bolest",
+    "moderate": "5 - Střední",
+    "very_sore": "10 - Velmi bolí",
+    "submit": "🧘 Log session",
+    "heatmap": {
+      "title": "Tepelná mapa obnovy",
+      "legend": "Fialové tečky označují dny s relacemi zotavení"
+    },
+    "badge": {
+      "title": "Důkaz zranění!",
+      "desc": "Tento týden jste dokončili {{count}} zotavovacích relací!"
+    },
+    "stats": {
+      "total": "Celkový počet minut",
+      "this_week": "Tento týden"
+    },
+    "recent": "Nedávné relace",
+    "areas": {
+      "Neck": "Krk",
+      "Shoulders": "Ramena",
+      "Back": "Zpět",
+      "Hips": "Boky",
+      "Legs": "Nohy",
+      "Full Body": "Celé tělo"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "back": "Quay lại Trang tổng quan"
+  },
+  "header": {
+    "title": "Máy tính vĩ mô",
+    "subtitle": "Tính toán nhu cầu calo và chất dinh dưỡng đa lượng hàng ngày của bạn"
+  },
+  "tabs": {
+    "input": "Thông tin chi tiết của bạn",
+    "results": "Kết quả của bạn"
+  },
+  "form": {
+    "title": "Thông tin chi tiết của bạn",
+    "age": "Tuổi (năm)",
+    "gender": "Giới tính",
+    "male": "Nam",
+    "female": "Nữ",
+    "weight": "cân nặng",
+    "height": "Chiều cao",
+    "activity": "Cấp độ hoạt động",
+    "goal": "Mục tiêu",
+    "submit": "Tính Macro",
+    "placeholders": {
+      "age": "ví dụ: 30",
+      "weightKg": "ví dụ: 70",
+      "weightLbs": "ví dụ: 154",
+      "heightCm": "ví dụ: 175",
+      "heightFt": "bàn chân",
+      "heightIn": "Inch"
+    },
+    "activityLevels": {
+      "sedentary": "Ít vận động (ít/không tập thể dục)",
+      "light": "Hoạt động nhẹ (1-3 ngày/tu���n)",
+      "moderate": "Hoạt động vừa phải (3-5 ngày/tuần)",
+      "very": "Rất năng động (6-7 ngày/tuần)"
+    },
+    "goals": {
+      "maintenance": "Bảo trì",
+      "loss": "Giảm cân",
+      "gain": "Tăng cơ"
+    }
+  },
+  "results": {
+    "title": "Kết quả của bạn",
+    "calorieTarget": "Mục tiêu calo hàng ngày",
+    "kcalPerDay": "kcal/ngày",
+    "bmrLabel": "BMR: {{val}} kcal",
+    "protein": "chất đạm",
+    "carbs": "Carb",
+    "fat": "Chất béo",
+    "submit": "Lưu vào hồ sơ",
+    "placeholder": "Nhập thông tin chi tiết của bạn và nhấp vào Tính toán để xem kết quả của bạn",
+    "success": "Đã lưu dữ liệu macro! Chi tiết hồ sơ của bạn đã được đồng bộ hóa.",
+    "validation": "Vui lòng nhập giá trị hợp lệ"
+  }
+}

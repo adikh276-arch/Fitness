@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "back": "Kontrol Paneline Geri Dön"
+  },
+  "header": {
+    "title": "Makro Besinleri Anlamak",
+    "subtitle": "Protein, karbonhidrat ve yağların temellerini öğrenin"
+  },
+  "tabs": {
+    "protein": "proteini",
+    "carbs": "Karbonhidratlar",
+    "fats": "Yağlar",
+    "plate": "Plaka Oluşturucu"
+  },
+  "protein": {
+    "title": "proteini",
+    "kcal": "4 kcal/gram",
+    "whyMatters": {
+      "title": "Neden Önemlidir:",
+      "muscle": {
+        "title": "Kas Onarımı ve Büyümesi:",
+        "desc": "Yağsız kas kütlesi oluşturmak ve korumak için gereklidir"
+      },
+      "satiety": {
+        "title": "Doygunluk:",
+        "desc": "Genel kalori alımını azaltarak kendinizi daha uzun süre tok hissetmenizi sağlar"
+      },
+      "metabolic": {
+        "title": "Metabolik Artış:",
+        "desc": "Tüm makrolar arasında en yüksek termik etki (sindirim sırasında yakılan kalorinin %20-30'u)"
+      }
+    },
+    "target": {
+      "title": "Günlük Hedef:",
+      "desc": "Optimum sağlık ve kas bakımı için vücut ağırlığının <1>kg başına 1,6-2,2 g</1> olmasını hedefleyin. Sporcular ve kas geliştirenlerin 2,5 g/kg'a kadar ihtiyacı olabilir."
+    },
+    "sources": "En İyi Protein Kaynakları:"
+  },
+  "carbs": {
+    "title": "Karbonhidratlar",
+    "kcal": "4 kcal/gram",
+    "whyMatters": {
+      "title": "Neden Önemlidir:",
+      "energy": {
+        "title": "Birincil Enerji Kaynağı:",
+        "desc": "Vücudunuzun beyin ve fiziksel aktivite için tercih ettiği yakıt"
+      },
+      "performance": {
+        "title": "Performans:",
+        "desc": "Yüksek yoğunluklu egzersiz ve atletik performans için kritik öneme sahiptir"
+      },
+      "nutrients": {
+        "title": "Lif ve Besinler:",
+        "desc": "Tam karbonhidratlar gerekli vitaminleri, mineralleri ve sindirim sağlığını sağlar"
+      }
+    },
+    "target": {
+      "title": "Günlük Hedef:",
+      "desc": "Aktif bireyler için vücut ağırlığının <1>kg başına 3-6 g</1> olmasını hedefleyin. Hareketsiz bireylerin daha azına (2-3g/kg) ihtiyacı olabilir. Karmaşık, bütün gıda kaynaklarına odaklanın."
+    },
+    "sources": "En İyi Karbonhidrat Kaynakları:"
+  },
+  "fats": {
+    "title": "Yağlar",
+    "kcal": "9 kcal/gram",
+    "whyMatters": {
+      "title": "Neden Önemlidir:",
+      "hormone": {
+        "title": "Hormon Üretimi:",
+        "desc": "Testosteron, östrojen ve diğer hayati hormonlar için gereklidir"
+      },
+      "vitamin": {
+        "title": "Vitamin Emilimi:",
+        "desc": "Yağda çözünen vitaminlerin (A, D, E, K) emilmesi için gereklidir"
+      },
+      "brain": {
+        "title": "Beyin Sağlığı:",
+        "desc": "Beyninizin %60'ı yağdır; omega-3'ler bilişsel işlevler için çok önemlidir"
+      }
+    },
+    "target": {
+      "title": "Günlük Hedef:",
+      "desc": "Vücut ağırlığının <1>kg başına 0,8-1,2 gramını</1> veya toplam kalorinin %20-35'ini hedefleyin. Doymuş yağlar yerine doymamış yağlara (zeytinyağı, fındık, balık) öncelik verin."
+    },
+    "sources": "En İyi Yağ Kaynakları:"
+  },
+  "plate": {
+    "title": "Dengeli Yemeğinizi Oluşturun",
+    "legend": {
+      "protein": "Protein %{{val}}",
+      "carbs": "Karbonhidratlar %{{val}}",
+      "fats": "Yağlar %{{val}}"
+    },
+    "sliders": {
+      "protein": {
+        "title": "proteini",
+        "desc": "Kas ve tokluk"
+      },
+      "carbs": {
+        "title": "Karbonhidratlar",
+        "desc": "Enerji ve performans"
+      },
+      "fats": {
+        "title": "Yağlar",
+        "desc": "Hormonlar ve vitaminler"
+      }
+    },
+    "calories": {
+      "title": "Tahmini Kaloriler",
+      "subtitle": "(200g porsiyona göre)",
+      "unit": "kcal"
+    },
+    "warning": {
+      "title": "Bakiye Önerisi",
+      "desc": "Optimum beslenme için: En az %15-25 protein (kas ve tokluk), %20-35 sağlıklı yağlar (hormonlar) ve %40-60 karbonhidrat (enerji) hedefleyin. Oranlarınızı bu hedefleri karşılayacak şekilde ayarlayın."
+    }
+  },
+  "foods": {
+    "chicken": "Tavuk Göğsü",
+    "yogurt": "Yunan Yoğurt",
+    "eggs": "Yumurtalar",
+    "eggUnit": "1 yumurta = 6g protein",
+    "salmon": "Somon",
+    "lentils": "Mercimek",
+    "tofu": "Soya peyniri",
+    "rice": "Kahverengi Pirinç",
+    "oats": "Yulaf",
+    "potato": "tatlı patates",
+    "quinoa": "Kinoa",
+    "banana": "Muz",
+    "bananaUnit": "1 orta boy = 27g karbonhidrat",
+    "bread": "Tam Buğday Ekmeği",
+    "breadUnit": "1 dilim = 12g karbonhidrat",
+    "avocado": "Avokado",
+    "almonds": "Badem",
+    "almondsUnit": "28g = 14g yağ",
+    "oil": "Zeytinyağı",
+    "oilUnit": "1 yemek kaşığı = 14 gr yağ",
+    "peanutButter": "Fıstık Ezmesi",
+    "pbUnit": "2 yemek kaşığı = 16 gr yağ",
+    "chocolate": "Bitter Çikolata",
+    "chocolateUnit": "28g = 9g yağ",
+    "unit100g": "100g = {{val}}g {{makro}}"
+  }
+}

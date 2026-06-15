@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "back": "Înapoi la Tabloul de bord"
+  },
+  "header": {
+    "title": "Ghid de dieta pentru diabet",
+    "subtitle": "Monitorizați glucoza și stăpâniți metoda plăcii"
+  },
+  "alert": {
+    "title": "Avertisment scăzut de zahăr din sânge",
+    "desc": "Citirea dumneavoastră indică hipoglicemie (glicemie scăzută). Vă rugăm să luați măsuri imediat:",
+    "actions": {
+      "carbs": "Consumați 15 g de carbohidrați cu acțiune rapidă (de exemplu, 4 oz suc, 3-4 tablete de glucoză)",
+      "wait": "Așteptați 15 minute",
+      "repeat": "Testați din nou; dacă este încă scăzut, repetați tratamentul",
+      "contact": "Adresați-vă medicului dumneavoastră dacă nivelurile nu se stabilizează"
+    }
+  },
+  "tabs": {
+    "plate": "Placa pentru diabet",
+    "log": "Jurnalul de glucoză",
+    "gi": "Căutare GI"
+  },
+  "log": {
+    "title": "Înregistrați citirea glucozei",
+    "unit": "Unitate de măsură",
+    "value": "Nivelul glucozei ({{unit}})",
+    "valuePlaceholder": "Introduceți valoarea (de ex. 110)",
+    "valuePlaceholderMmol": "Introduceți valoarea (de ex. 6.1)",
+    "timing": "Timpul de citire",
+    "mealContext": "Contextul mesei / Note",
+    "mealContextPlaceholder": "ce ai mancat? Cum te simti?",
+    "submit": "Salvați lectura",
+    "success": "Citirea glucozei a fost salvată cu succes!",
+    "targets": {
+      "title": "Interval țintă standard (mg/dL)",
+      "fasting": "Post: 80-130 mg/dL",
+      "postMeal": "1-2h după masă: < 180 mg/dL",
+      "low": "Scăzut: < 70 mg/dL"
+    },
+    "recent": {
+      "title": "Lecturi recente",
+      "noReadings": "Încă nu au fost înregistrate lecturi",
+      "trend": "Tendința glucozei (ultimele 7 citiri)",
+      "targetMax": "Maxim țintă (post)",
+      "targetPost": "Target Max (după masă)"
+    }
+  },
+  "status": {
+    "normal": "Normal",
+    "high": "Înalt",
+    "low": "Scăzut"
+  },
+  "timing": {
+    "fasting": "Post / Înainte de masă",
+    "preMeal": "Înainte de masă",
+    "postMeal1h": "1h după masă",
+    "postMeal2h": "2 ore după masă",
+    "bedtime": "Ora de culcare"
+  },
+  "plate": {
+    "intro": {
+      "title": "Metoda plăcilor de diabet",
+      "desc": "Metoda farfurii este o modalitate simplă de a planifica mesele fără a număra. Se concentrează pe controlul și echilibrul porțiilor pentru a ajuta la gestionarea nivelului de zahăr din sânge."
+    },
+    "build": {
+      "title": "Construiește-ți farfuria",
+      "hint": "Faceți clic pe o secțiune pentru a vedea alimentele recomandate"
+    },
+    "categories": {
+      "veggies": {
+        "name": "Legume fără amidon",
+        "percent": "50%",
+        "desc": "Umpleți jumătate din farfurie cu legume colorate, bogate în fibre"
+      },
+      "protein": {
+        "name": "Proteine slabe",
+        "percent": "25%",
+        "desc": "Umpleți un sfert cu surse de proteine slabe"
+      },
+      "carbs": {
+        "name": "Carbohidrați sănătoși",
+        "percent": "25%",
+        "desc": "Umpleți un sfert cu cereale integrale sau legume cu amidon"
+      }
+    },
+    "principles": {
+      "title": "Principiile metodei plăcilor",
+      "veggies": {
+        "title": "În primul rând legumele",
+        "desc": "Mănâncă mai întâi legumele pentru a încetini absorbția glucozei din restul mesei."
+      },
+      "protein": {
+        "title": "Proteine de calitate",
+        "desc": "Alegeți opțiuni slabe pentru a sprijini întreținerea mușchilor fără grăsimi saturate excesive."
+      },
+      "carbs": {
+        "title": "Carbohidrați atenți",
+        "desc": "Respectați carbohidrații complecși care au un impact mai mic asupra creșterilor de zahăr din sânge."
+      }
+    }
+  },
+  "gi": {
+    "intro": {
+      "title": "Căutarea indicelui glicemic (GI).",
+      "desc": "Indicele glicemic clasifică carbohidrații după cât de mult cresc nivelul de glucoză din sânge în comparație cu un aliment de referință.",
+      "low": "Scăzut (0-55)",
+      "medium": "Medie (56-69)",
+      "high": "Mare (70+)"
+    },
+    "labels": {
+      "low": "IG scăzut",
+      "medium": "IG mediu",
+      "high": "IG ridicat"
+    },
+    "search": "Căutați un aliment (de exemplu, ovăz, banane...)",
+    "noResults": "Nu s-au găsit alimente care să corespundă căutării dvs"
+  },
+  "foods": {
+    "Spinach": "Spanacul",
+    "Broccoli": "Broccoli",
+    "Cauliflower": "conopida",
+    "Bell Peppers": "Ardei gras",
+    "Zucchini": "Dovlecel",
+    "Asparagus": "sparanghel",
+    "Cucumber": "Castravete",
+    "Tomatoes": "rosii",
+    "Chicken Breast": "Piept de pui",
+    "Fish (Salmon, Tuna)": "Pește (somon, ton)",
+    "Tofu": "Tofu",
+    "Lentils": "Linte",
+    "Eggs": "ouă",
+    "Turkey": "Turcia",
+    "Greek Yogurt": "Iaurt grecesc",
+    "Brown Rice": "Orez brun",
+    "Quinoa": "Quinoa",
+    "Sweet Potato": "Cartofi dulci",
+    "Whole Wheat Pasta": "Paste integrale de grâu",
+    "Oats": "Ovăz",
+    "Barley": "orz"
+  }
+}

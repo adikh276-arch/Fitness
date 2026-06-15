@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "back": "Kembali ke Dasbor"
+  },
+  "header": {
+    "title": "Pelacak Asupan Air",
+    "subtitle": "Lacak hidrasi harian Anda dan capai tujuan Anda"
+  },
+  "tabs": {
+    "tracker": "Pelacak Hari Ini",
+    "history": "Sejarah"
+  },
+  "tracker": {
+    "consumed": "ml dikonsumsi",
+    "goalLabel": "Tujuan Harian",
+    "remainingLabel": "Tersisa",
+    "changeGoal": "Ubah tujuan harian",
+    "quickAdd": {
+      "title": "Tambah Cepat",
+      "smallGlass": "Kaca Kecil",
+      "bottle": "Botol",
+      "largeBottle": "Botol Besar",
+      "jug": "Kendi"
+    },
+    "custom": {
+      "label": "Jumlah Khusus (ml)",
+      "placeholder": "misalnya, 350",
+      "submit": "Tambahkan",
+      "undo": "Batalkan Entri Terakhir"
+    }
+  },
+  "history": {
+    "title": "Riwayat Asupan Air",
+    "noHistory": "Belum ada riwayat yang tersedia",
+    "today": "Hari ini",
+    "summary": "{{total}} ml / {{goal}} ml ({{persen}}%)",
+    "stats": {
+      "total": "Jumlah",
+      "entries": "Entri"
+    }
+  },
+  "modal": {
+    "title": "Tetapkan Tujuan Harian",
+    "subtitle": "Masukkan target asupan air harian Anda",
+    "placeholder": "misalnya 2500",
+    "calcToggleShow": "Hitung Direkomendasikan",
+    "calcToggleHide": "Sembunyikan Kalkulator",
+    "formula": "Rumus: Berat (kg) × 35ml",
+    "weightLabel": "Berat Badan Anda (kg)",
+    "weightPlaceholder": "misalnya, 70",
+    "calcBtn": "Hitung & Terapkan",
+    "cancel": "Batalkan",
+    "save": "Simpan"
+  }
+}

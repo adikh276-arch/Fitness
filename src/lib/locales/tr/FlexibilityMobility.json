@@ -1,0 +1,227 @@
+{
+  "header": {
+    "title": "Esneklik ve Hareketlilik",
+    "subtitle": "Hareket aralığını iyileştirin ve yaralanmaları önleyin",
+    "back": "Kontrol Paneline Geri Dön"
+  },
+  "tabs": {
+    "stretches": "Günlük Esnemeler",
+    "tests": "Hareketlilik Testleri",
+    "log": "Kurtarma Günlüğü"
+  },
+  "player": {
+    "stretch": "{{current}} / {{total}} kısmını uzat",
+    "resume": "Devam et",
+    "pause": "Duraklat",
+    "skip": "Atla",
+    "cancel": "İptal",
+    "bilateral_hint": "💡 Zamanlayıcı bittiğinde taraf değiştirmeyi unutmayın",
+    "preview": {
+      "stretches_count": "{{count}} Uzatma (toplam {{duration}} dakika):",
+      "start": "{{duration}} Dakikalık Rutini Başlat",
+      "cancel": "İptal"
+    },
+    "complete": {
+      "title": "Rutin Tamamlandı!",
+      "desc": "{{name}}'yi tamamlayarak harika iş çıkardınız!",
+      "rate_label": "Daha İyi Hissediyor musunuz? Gelişmenizi derecelendirin: {{rating}}/10",
+      "worse": "Daha da kötüsü",
+      "same": "Aynı",
+      "much_better": "Çok daha iyi",
+      "save": "Oturumu Kaydet",
+      "done": "Bitti"
+    }
+  },
+  "routines": {
+    "upper-body": {
+      "name": "Üst Gövde Açık",
+      "focus": "Göğüs, Omuzlar, Sırt Ortası",
+      "desc": "Masa başında çalışma ve telefon kullanımından kaynaklanan gerilimi ortadan kaldırın",
+      "stretches": {
+        "Doorway Chest Stretch": {
+          "name": "Giriş Göğüs Esnetme",
+          "desc": "Kapı eşiğinde durun, önkollarınızı çerçeveye yerleştirin, göğsünüzün gerildiğini hissetmek için öne doğru eğilin."
+        },
+        "Shoulder Rolls": {
+          "name": "Omuz Ruloları",
+          "desc": "Omuzlarınızı büyük daireler halinde geriye doğru yuvarlayın, 10 tekrar."
+        },
+        "Thoracic Rotation": {
+          "name": "Torasik Rotasyon",
+          "desc": "Elleriniz ve dizleriniz üzerinde, göğsünüzü açarak vücudunuzun üst kısmını yan yana döndürün."
+        },
+        "Neck Stretch": {
+          "name": "Boyun Esnetme",
+          "desc": "Her tarafta 30 saniye tutarak başınızı her iki tarafa yavaşça eğin."
+        },
+        "Tricep Stretch": {
+          "name": "Triceps Esnetme",
+          "desc": "Kolunuzu yukarı doğru uzatın, dirseğinizi bükün ve diğer elinizle yavaşça çekin."
+        }
+      }
+    },
+    "lower-body": {
+      "name": "Alt Gövde Serbest Bırakma",
+      "focus": "Diz Arkası Kasları, Kalça Kasları, Kalça Fleksörleri",
+      "desc": "Oturmaktan kaynaklanan gergin bacaklar ve kalçalar için derin esneme hareketleri",
+      "stretches": {
+        "Pigeon Pose": {
+          "name": "Güvercin Duruşu",
+          "desc": "Bir bacağınızı öne doğru bükün, arka bacağınızı düz bir şekilde uzatın, kalçanızı aşağıya doğru indirin."
+        },
+        "Hamstring Stretch": {
+          "name": "Diz Arkası Esnetme",
+          "desc": "Bir bacağınızı uzatarak oturun, ayak parmaklarınıza doğru uzanın, sırtınızı düz tutun."
+        },
+        "Hip Flexor Lunge": {
+          "name": "Kalça Fleksör Hamlesi",
+          "desc": "Hamle pozisyonu, ön kalçada gerginlik hissetmek için kalçaları ileri doğru itin."
+        },
+        "Glute Stretch": {
+          "name": "Kalça Esnetme",
+          "desc": "Sırt üstü yatarak, ayak bileğini karşı dizin üzerinden çaprazlayın, göğsüne doğru çekin."
+        },
+        "Calf Stretch": {
+          "name": "Baldır Esnetme",
+          "desc": "Hamlede öne doğru bir adım atın, baldırı esnetmek için arka topuğu aşağıda tutun."
+        }
+      }
+    },
+    "full-body": {
+      "name": "Tam Vücut Akışı",
+      "focus": "Toplam Vücut Bakımı",
+      "desc": "Tepeden tırnağa esneklik rutinini tamamlayın",
+      "stretches": {
+        "Cat-Cow": {
+          "name": "Kedi-İnek",
+          "desc": "Ellerde ve dizlerde, dönüşümlü olarak kemerli ve yuvarlak omurga."
+        },
+        "Downward Dog": {
+          "name": "Aşağı Köpek",
+          "desc": "Eller ve ayaklar dik, kalçalar yüksekte, ters bir V oluşturacak şekilde."
+        },
+        "Child's Pose": {
+          "name": "Çocuk Duruşu",
+          "desc": "Dizler geniş, topuklar üzerinde oturun, kollar öne doğru uzatılmış."
+        },
+        "Seated Twist": {
+          "name": "Oturmuş Büküm",
+          "desc": "Bağdaş kurarak oturun, gövdenizi her iki tarafa çevirin, ellerinizi arkanıza alın."
+        },
+        "Forward Fold": {
+          "name": "İleriye Katlama",
+          "desc": "Ayakta, kalçalardan eğilin, ayak parmaklarına doğru uzanın, başınızı sarkıtın."
+        },
+        "Hip Circles": {
+          "name": "Kalça Çevreleri",
+          "desc": "Eller kalçalarda, kalçalar her iki yönde olacak şekilde büyük daireler çizin."
+        },
+        "Arm Circles": {
+          "name": "Kol Çemberleri",
+          "desc": "Kollarınızı genişçe uzatın, önce öne, sonra geriye doğru büyük daireler çizin."
+        }
+      }
+    },
+    "dynamic-warmup": {
+      "name": "Dinamik Isınma",
+      "focus": "Egzersiz Öncesi Aktivasyon",
+      "desc": "Egzersizden önce vücudunuzu hazırlayın",
+      "stretches": {
+        "Leg Swings": {
+          "name": "Bacak Salıncakları",
+          "desc": "Duvarı tutun, bacağınızı öne ve arkaya, ardından yan yana sallayın."
+        },
+        "Arm Circles": {
+          "name": "Kol Çemberleri",
+          "desc": "Küçükten büyüğe daireler, ileri ve geri."
+        },
+        "Torso Twists": {
+          "name": "Gövde Bükülmeleri",
+          "desc": "Kollar gevşek olacak şekilde üst gövdeyi yan yana döndürün."
+        },
+        "Walking Lunges": {
+          "name": "Yürüyüş Akciğerleri",
+          "desc": "İleriye doğru hamle yapın, ileri doğru hareket ederken bacaklarınızı değiştirin."
+        },
+        "High Knees": {
+          "name": "Yüksek Dizler",
+          "desc": "Dizleri kalça yüksekliğine getirerek yerinde yürüyün."
+        }
+      }
+    }
+  },
+  "benefits": {
+    "title": "Günlük Esneme Neden Önemlidir?"
+  },
+  "tests": {
+    "status": {
+      "title": "Hareketlilik Durumunuz",
+      "based_on": "{{count}} test sonucuna dayanmaktadır",
+      "complete_below": "Aşağıdaki testleri tamamlayın",
+      "score_label": "Puan: {{points}}/6 puan (Geçti=2, Kısmi=1, Çalışma Gerekiyor=0)",
+      "elite": "Elit Hareketlilik",
+      "good": "İyi Hareketlilik",
+      "limited": "Sınırlı Hareketlilik",
+      "not_tested": "Test Edilmedi"
+    },
+    "items": {
+      "sit-reach": {
+        "name": "Otur & Uzan Testi",
+        "desc": "Bacaklarınız düz bir şekilde oturun, ayak parmaklarınıza doğru uzanın",
+        "pass": "Ayak parmaklarına dokunabilir veya geçebilir",
+        "fail": "Ayak parmaklarından 6 inçten fazla"
+      },
+      "shoulder-pass": {
+        "name": "Omuz Geçişi",
+        "desc": "Bir bant/çubuk tutun, kollarınızı başınızın üstüne ve arkaya doğru kaldırın",
+        "pass": "Sorunsuz geçebilir",
+        "fail": "Hareket tamamlanamıyor"
+      },
+      "deep-squat": {
+        "name": "Derin Çömelme Tutuşu",
+        "desc": "Topuklarınız düz olacak şekilde çömelin, 30 saniye bekleyin",
+        "pass": "30'lu yaşlarda durabilir, topuklar aşağıda",
+        "fail": "Topuklar kaldırılıyor veya tutulamıyor"
+      }
+    },
+    "tips": {
+      "title": "Test İpuçları"
+    },
+    "actions": {
+      "pass": "✓ Geç",
+      "partial": "~ Kısmi",
+      "fail": "✗ Çalışmaya İhtiyaç Var"
+    }
+  },
+  "log": {
+    "title": "Günlük Kurtarma Oturumu",
+    "duration": "Süre (dakika)",
+    "focus_areas": "Odak Alanları (geçerli olanların tümünü seçin)",
+    "soreness_label": "Seans Öncesi Ağrı: {{level}}/10",
+    "no_pain": "1 - Ağrı Yok",
+    "moderate": "5 - Orta",
+    "very_sore": "10 - Çok Ağrılı",
+    "submit": "🧘 Günlük Oturumu",
+    "heatmap": {
+      "title": "Kurtarma Isı Haritası",
+      "legend": "Mor noktalar iyileşme seanslarının olduğu günleri işaret ediyor"
+    },
+    "badge": {
+      "title": "Yaralanma Kanıtı!",
+      "desc": "Bu hafta {{count}} dinlenme seansını tamamladınız!"
+    },
+    "stats": {
+      "total": "Toplam Dakika",
+      "this_week": "Bu Hafta"
+    },
+    "recent": "Son Oturumlar",
+    "areas": {
+      "Neck": "Boyun",
+      "Shoulders": "Omuzlar",
+      "Back": "Geri",
+      "Hips": "Kalçalar",
+      "Legs": "Bacaklar",
+      "Full Body": "Tam Vücut"
+    }
+  }
+}

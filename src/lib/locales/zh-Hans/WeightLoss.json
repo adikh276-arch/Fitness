@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "back": "返回仪表板"
+  },
+  "header": {
+    "title": "减肥指南",
+    "subtitle": "您可持续减肥的完整指南"
+  },
+  "tabs": {
+    "plan": "计划",
+    "tracker": "追踪器",
+    "habits": "习惯"
+  },
+  "plan": {
+    "goldenRule": {
+      "title": "黄金法则",
+      "subtitle": "热量不足与营养密度",
+      "desc": "减肥需要卡路里赤字，但这些卡路里的质量和数量一样重要。专注于营养丰富的天然食品，让您感到满足，同时产生减肥所需的赤字。"
+    },
+    "proteinFirst": {
+      "title": "蛋白质第一",
+      "subtitle": "为什么每公斤 1.2 克至 1.6 克蛋白质对于减脂来说是不容妥协的：",
+      "muscle": "在热量限制期间保留肌肉质量",
+      "thermic": "更高的热效应（消化过程中燃烧 30% 的蛋白质热量）",
+      "satiety": "增加饱腹感有助于延长饱腹感",
+      "sugar": "稳定血糖并减少食欲"
+    },
+    "plateMethod": {
+      "title": "平板法",
+      "subtitle": "促进减脂��均衡膳食的简单视觉指南：",
+      "veg": {
+        "title": "蔬菜",
+        "desc": "非淀粉类蔬菜可增加体积和营养"
+      },
+      "protein": {
+        "title": "蛋白质",
+        "desc": "瘦肉、鱼、蛋或植物来源"
+      },
+      "carbs": {
+        "title": "富含纤维的碳水化合物",
+        "desc": "全谷物、红薯、藜麦、豆类"
+      }
+    },
+    "hiddenFactors": {
+      "title": "隐藏的因素",
+      "hydration": {
+        "title": "保湿",
+        "desc": "适当的补水有助于："
+      },
+      "sleep": {
+        "title": "睡眠（7 小时以上）",
+        "desc": "优质睡眠调节："
+      }
+    }
+  },
+  "tracker": {
+    "progress": {
+      "title": "你的进步",
+      "change": "改变目标",
+      "lost": "减肥",
+      "remaining": "剩余",
+      "percent": "进展",
+      "complete": "完成"
+    },
+    "log": {
+      "title": "记录今天的指标",
+      "weight": "当前体重（公斤）",
+      "chest": "胸围（英寸，可选）",
+      "waist": "腰围（英寸，可选）",
+      "hips": "臀围（英寸，可选）",
+      "placeholder": "例如，{{val}}",
+      "submit": "日志指标"
+    },
+    "history": {
+      "title": "指标历史记录",
+      "total": "总日志数",
+      "first": "第一重量",
+      "latest": "最新重量",
+      "unit": "千克",
+      "inches": "英寸",
+      "chest": "胸部",
+      "waist": "腰",
+      "hips": "臀部"
+    }
+  },
+  "habits": {
+    "consistency": {
+      "title": "每周一致性",
+      "subtitle": "继续养成这些健康习惯！"
+    },
+    "today": {
+      "title": "今天的习惯",
+      "subtitle": "今天���成每个习惯后勾选它",
+      "protein": {
+        "label": "达到蛋白质目标",
+        "desc": "每公斤体重1.2-1.6克"
+      },
+      "noSugar": {
+        "label": "不喝含糖饮料",
+        "desc": "仅水、茶或黑咖啡"
+      },
+      "walk": {
+        "label": "餐后 10 分钟步行",
+        "desc": "饭后轻度活动"
+      },
+      "sleep": {
+        "label": "7 小时以上的睡眠",
+        "desc": "优质休息促进康复"
+      }
+    },
+    "tracker30": {
+      "title": "30 天习惯追踪器",
+      "legend": {
+        "none": "无",
+        "low": "1",
+        "mid": "2-3",
+        "high": "3",
+        "all": "全部 4 个"
+      }
+    },
+    "whyMatters": {
+      "title": "为什么这些习惯很重要",
+      "protein": "蛋白质摄入量可以在减肥过程中保留肌肉并增加饱腹感",
+      "noSugar": "避免喝糖饮料可以消除空热量并减少胰岛素峰值",
+      "walk": "餐后散步可提高胰岛素敏感性并帮助消化",
+      "sleep": "优质睡眠可调节饥饿激素并支持减肥"
+    }
+  },
+  "modal": {
+    "title": "设定你的目标",
+    "subtitle": "让我们个性化您的减肥之旅",
+    "start": "起始重量（公斤）",
+    "target": "目标体重（公斤）",
+    "date": "目标日期",
+    "save": "保存目标",
+    "fillAll": "请填写所有字段"
+  }
+}

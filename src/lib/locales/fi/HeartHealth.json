@@ -1,0 +1,141 @@
+{
+  "header": {
+    "title": "Sydämen terveyden opas",
+    "subtitle": "Seuraa elintärkeitä arvoja, opi DASH-ruokavaliota ja rakenna sydämelle terveellisiä tapoja",
+    "back": "Takaisin hallintapaneeliin"
+  },
+  "alerts": {
+    "crisis": {
+      "title": "HYPERTENSIIVINEN KRIISI VAROITUS",
+      "desc": "Verenpainelukemasi on vaarallisen korkea (≥180/120). Tämä vaatii välitöntä lääkärinhoitoa."
+    },
+    "vitals": {
+      "invalid": "Anna kelvolliset lukemat",
+      "success": "Lukeminen kirjattu: {{sys}}/{{dia}} - {{category}}"
+    }
+  },
+  "tabs": {
+    "dash": "DASH-ruokavalio",
+    "vitals": "Vitals Log",
+    "habits": "Sydäntottumukset"
+  },
+  "vitals": {
+    "form": {
+      "title": "Kirjaa Vitaliasi",
+      "bp": {
+        "label": "Verenpaine",
+        "systolic": "Systolinen",
+        "systolic_desc": "Huippunumero",
+        "diastolic": "Diastolinen",
+        "diastolic_desc": "Alanumero"
+      },
+      "heart_rate": {
+        "label": "Leposyke (BPM)",
+        "placeholder": "esim. 72"
+      },
+      "submit": "Lokin lukeminen"
+    },
+    "recent": {
+      "title": "Viimeaikaiset lukemat",
+      "empty": "Ei vielä kirjattuja lukemia",
+      "bpm": "{{count}} BPM"
+    },
+    "chart": {
+      "title": "7 päivän verenpainetrendi",
+      "systolic": "Systolinen",
+      "diastolic": "Diastolinen"
+    },
+    "guidelines": {
+      "title": "AHA-verenpaineluokat:",
+      "normal": "Normaali: <120/80",
+      "elevated": "Korotettu: 120-129/<80",
+      "stage1": "Vaihe 1: 130-139/80-89",
+      "stage2": "Vaihe 2: ≥140/90"
+    },
+    "categories": {
+      "crisis": "Hypertensiivinen kriisi",
+      "stage2": "Hypertensio vaihe 2",
+      "stage1": "Hypertensio vaihe 1",
+      "elevated": "Kohonnut",
+      "normal": "Normaali",
+      "unknown": "Tuntematon"
+    }
+  },
+  "dash": {
+    "intro": {
+      "title": "DASH-ruokavalio",
+      "desc": "Ruokavaliomenetelmät verenpainetaudin pysäyttämiseksi – tieteellisesti todistettu ruokailusuunnitelma, joka alentaa verenpainetta luonnollisesti."
+    },
+    "principles": {
+      "sodium": {
+        "title": "Natriumin raja",
+        "limit": "<2300mg päivässä",
+        "high_risk": "(Tai 1 500 mg korkean riskin henkilöille)",
+        "desc": "Ylimääräinen natrium aiheuttaa vedenpidätyskyvyn, lisää verentilavuutta ja lisää painetta valtimoiden seinämiin."
+      },
+      "potassium": {
+        "title": "Kalium teho",
+        "limit": "4700 mg päivässä",
+        "source": "Kokonaisista ruoista"
+      },
+      "magnesium": {
+        "title": "Magnesium & Kuitu",
+        "limit": "500mg Mg / 25-35g Kuitua",
+        "target": "Päivittäiset tavoitteet"
+      }
+    },
+    "scanner": {
+      "title": "⚠️ Piilotettu natriumskanneri: \"Sneaky Salt\" -ruoat",
+      "subtitle": "Nämä näennäisesti viattomat ruoat sisältävät enemmän natriumia kuin luulet:",
+      "swaps": {
+        "title": "💡 DASH-ystävälliset vaihdot:"
+      }
+    }
+  },
+  "habits": {
+    "vitality": {
+      "title": "Vitality-pisteet",
+      "start": "Aloita sydämesi terveen sarjasi rakentaminen!",
+      "streak_good": "���� {{count}} päivän sarja! Sydämesi kukoistaa",
+      "streak_continue": "{{count}} päivää – Jatka!",
+      "streak_continue_singular": "{{count}} päivä - Jatka!",
+      "days": "päivän putki",
+      "goal": "{{count}} / 30 päivän tavoite"
+    },
+    "checklist": {
+      "title": "Päivittäinen kardiotarkistuslista",
+      "subtitle": "Suorita nämä tavat päivittäin vahvistaaksesi sydän- ja verisuonivoimaa",
+      "items": {
+        "cardio": {
+          "label": "30 min Zone 2 Cardio",
+          "desc": "Reipas kävely, pyöräily tai uinti keskustelun tahtiin"
+        },
+        "low_sodium": {
+          "label": "Pysyi natriumrajan alapuolella",
+          "desc": "<2 300 mg (tai 1 500 mg, jos riski on suuri)"
+        },
+        "no_salt": {
+          "label": "Ei lisättyä suolaa pöytään",
+          "desc": "Anna ruoan luonnollisten makujen loistaa"
+        },
+        "meds": {
+          "label": "Lääkkeet otettu (valinnainen)",
+          "desc": "Verenpainelääkitystä käyttäville"
+        }
+      }
+    },
+    "tips": {
+      "title": "Sydämen terveyden perusasiat"
+    }
+  },
+  "foods": {
+    "canned_soup": "purkitettu keitto (1 kuppi)",
+    "deli_turkey": "Deli Turkki (2 unssia)",
+    "white_bread": "Valkoinen leipä (2 viipaletta)",
+    "frozen_pizza": "Pakastettu pizza (1 siivu)",
+    "soy_sauce": "Soijakastike (1 rkl)",
+    "cottage_cheese": "Raejuusto (1/2 kuppia)",
+    "pickles": "suolakurkku (1 keskikokoinen)",
+    "salad_dressing": "Salaattikastike (2 rkl)"
+  }
+}

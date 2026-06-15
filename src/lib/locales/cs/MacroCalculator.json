@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "back": "Zpět na Dashboard"
+  },
+  "header": {
+    "title": "Makro kalkulačka",
+    "subtitle": "Spočítejte si svou denní potřebu kalorií a makroživin"
+  },
+  "tabs": {
+    "input": "Vaše údaje",
+    "results": "Vaše výsledky"
+  },
+  "form": {
+    "title": "Vaše údaje",
+    "age": "věk (roky)",
+    "gender": "Pohlaví",
+    "male": "Mužské",
+    "female": "Žena",
+    "weight": "Hmotnost",
+    "height": "Výška",
+    "activity": "Úroveň aktivity",
+    "goal": "Cíl",
+    "submit": "Vypočítat makra",
+    "placeholders": {
+      "age": "např. 30",
+      "weightKg": "např. 70",
+      "weightLbs": "např. 154",
+      "heightCm": "např. 175",
+      "heightFt": "Nohy",
+      "heightIn": "palce"
+    },
+    "activityLevels": {
+      "sedentary": "Sedavý (málo/žádné cvičení)",
+      "light": "Lehce aktivní (1-3 dny/týden)",
+      "moderate": "Středně aktivní (3-5 dní/týden)",
+      "very": "Velmi aktivní (6-7 dní/týden)"
+    },
+    "goals": {
+      "maintenance": "Údržba",
+      "loss": "Hubnutí",
+      "gain": "Svalový nárůst"
+    }
+  },
+  "results": {
+    "title": "Vaše výsledky",
+    "calorieTarget": "Denní cíl kalorií",
+    "kcalPerDay": "kcal/den",
+    "bmrLabel": "BMR: {{val}} kcal",
+    "protein": "Protein",
+    "carbs": "Sacharidy",
+    "fat": "Tlustý",
+    "submit": "Uložit do profilu",
+    "placeholder": "Zadejte své údaje a klikněte na Vypočítat pro zobrazení výsledků",
+    "success": "Makro data uložena! Podrobnosti vašeho profilu byly synchronizovány.",
+    "validation": "Zadejte prosím platné hodnoty"
+  }
+}

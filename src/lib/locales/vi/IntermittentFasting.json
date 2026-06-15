@@ -70,7 +70,8 @@
       "firstMeal": "Giờ ăn đầu tiên (Hôm nay):",
       "duration": "Tổng thời gian nhịn ăn",
       "goalAchieved": "Mục tiêu đã đạt được! Bạn đã hoàn thành việc nhịn ăn hơn 16 tiếng!",
-      "submit": "Ghi nhật ký nhanh"
+      "submit": "Ghi nhật ký nhanh",
+      "dateLabel": "Ngày:"
     },
     "tracker": {
       "title": "Chương trình tăng tốc 30 ngày",
@@ -81,7 +82,9 @@
         "goalMet": "Mục tiêu đã đạt được (hơn 16 giờ)",
         "today": "Hôm nay",
         "missed": "Ngày nghỉ"
-      }
+      },
+      "today": "hôm nay",
+      "dayLabel": "Ngày {{val}}"
     },
     "recentFasts": {
       "title": "Những lần nhịn ăn gần đây",

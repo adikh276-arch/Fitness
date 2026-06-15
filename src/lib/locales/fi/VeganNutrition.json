@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "back": "Takaisin hallintapaneeliin"
+  },
+  "header": {
+    "title": "Vegaaninen ravitsemusopas",
+    "subtitle": "Täydellinen kasvipohjaisen ravitsemuksen työkalupakki"
+  },
+  "tabs": {
+    "plate": "Vegaaninen lautanen",
+    "nutrients": "Mikroravinteet",
+    "calculator": "Proteiinilaskin"
+  },
+  "plate": {
+    "title": "Täydellinen vegaaninen ateria",
+    "proportions": {
+      "legumes": {
+        "title": "Palkokasvit/pavut",
+        "subtitle": "Proteiinivoimalaitos",
+        "examples": "Esimerkkejä: linssit, kikherneet, mustat pavut, tofu, tempeh"
+      },
+      "grains": {
+        "title": "Täysjyvävilja",
+        "subtitle": "Jatkuvaa energiaa",
+        "examples": "Esimerkkejä: kvinoa, ruskea riisi, kaura, täysjyvä, ohra"
+      },
+      "vegetables": {
+        "title": "Vihannekset",
+        "subtitle": "Mikroravinteita runsaasti",
+        "examples": "Esimerkkejä: lehtivihannekset, parsakaali, paprikat, porkkanat, tomaatit"
+      },
+      "fats": {
+        "title": "Terveelliset rasvat/siemenet",
+        "subtitle": "Hormonien terveys",
+        "examples": "Esimerkkejä: avokado, pähkinät, siemenet, oliiviöljy, tahini"
+      }
+    },
+    "tip": {
+      "title": "Pro-Tip: Paranna raudan imeytymistä",
+      "desc": "Kasvipohjainen rauta (ei-hemirauta) imeytyy heikommin kuin eläinrauta. Yhdistä runsaasti rautaa sisältävät ruoat C-vitamiinin kanssa parantaaksesi imeytymistä jopa 300 %!",
+      "ironRich": "Ruoat, joissa on runsaasti rautaa",
+      "ironExamples": "Pinaatti, linssit, kvinoa, tofu, kurpitsansiemenet",
+      "vitaminC": "C-vitamiinin tehosteet",
+      "vitaminCExamples": "Sitruunamehu, paprika, tomaatti, parsakaali, appelsiinit",
+      "perfectCombo": "Täydellinen yhdistelmä: linssikeitto sitruunamehulla, pinaattisalaatti paprikalla"
+    }
+  },
+  "nutrients": {
+    "title": "Suuri 4 ravintoaineseuranta",
+    "progress": {
+      "title": "Tämän päivän edistyminen",
+      "done": "Valmis",
+      "pending": "Odottaa"
+    },
+    "why": {
+      "title": "Miksi seurata näitä?",
+      "desc1": "Nämä neljä ravintoainetta ovat yleisimmät puutteet kasviperäisessä ruokavaliossa. Päivittäisen saannin seuranta varmistaa, että saat täyden ravinnon.",
+      "note": "Huomautus: B12-vitamiinia on täydennettävä tai nautittava väkevöityjen ruokien kautta – sitä ei ole luonnostaan ​​kasveissa."
+    },
+    "micronutrients": {
+      "b12": {
+        "name": "B12-vitamiini",
+        "importance": "Kriittinen hermotoiminnalle ja DNA-synteesille",
+        "dosage": "2,4 mcg päivässä"
+      },
+      "iron": {
+        "name": "Rauta & Sinkki",
+        "importance": "Välttämätön hapen kuljetukselle ja immuunitoiminnalle",
+        "dosage": "Rauta: 18 mg, sinkki: 11 mg päivässä"
+      },
+      "omega3": {
+        "name": "Omega-3 (ALA)",
+        "importance": "Aivojen terveyttä ja tulehdusta ehkäisevää",
+        "dosage": "1,6 g päivässä"
+      },
+      "calcium": {
+        "name": "Kalsium",
+        "importance": "Luuston terveys ja lihasten toiminta",
+        "dosage": "1000mg päivässä"
+      }
+    }
+  },
+  "calculator": {
+    "title": "Proteiinitietoopas",
+    "subtitle": "Valitse ruoka ja syötä sen määrä, niin näet välittömästi sen proteiinipitoisuuden",
+    "form": {
+      "selectFood": "Etsi ja valitse ruoka",
+      "placeholderFood": "Valitse ruoka...",
+      "searchPlaceholder": "Etsi ruokia...",
+      "amount": "Määrä (grammaa)",
+      "placeholderAmount": "100",
+      "add": "Lisää laskelmaan",
+      "proteinPer100": "{{val}}g per 100 g",
+      "matches": "Näytetään 5/{{total}} osumaa",
+      "noMatches": "Ruokia ei löytynyt"
+    },
+    "results": {
+      "title": "Proteiinien hajoaminen",
+      "estProtein": "Arvioitu proteiinipitoisuus",
+      "calcInfo": "{{amount}} g {{ruokaa}}",
+      "summary": "Nykyisen laskennan yhteenveto",
+      "total": "Proteiini yhteensä",
+      "aminoAcid": "Aminohappojen täydellisyys",
+      "aminoComplete": "Täydellinen aminoprofiili",
+      "aminoIncomplete": "Puuttuvat jyvät tai palkokasvit",
+      "aminoNote": "Palkokasvit (linssit/pavut/soija) + jyvät (riisi/quinoa/kaura) = täysproteiini",
+      "save": "Kirjaa yhteensä historiaan",
+      "success": "Proteiini kirjattu onnistuneesti!",
+      "ironTip": {
+        "title": "Vinkki:",
+        "desc": "Yhdistä C-vitamiinin (sitruuna, paprika, tomaatit) kanssa tehostaaksesi raudan imeytymistä jopa 300 %!"
+      }
+    },
+    "reference": {
+      "title": "Pikaopas"
+    }
+  },
+  "proteinSources": {
+    "tofu": "Tofu",
+    "tempeh": "Tempeh",
+    "edamame": "Edamame",
+    "soybeansBoiled": "Keitetyt soijapavut",
+    "soyChunks": "Soijapalat / TVP Kuiva",
+    "soyMince": "Kuiva soijajauhe",
+    "soyMilk": "Sokeroimaton soijamaito",
+    "soyYogurt": "Tavallinen soijajogurtti",
+    "seitan": "Seitan",
+    "lentilsCooked": "Linssit keitetyt",
+    "redLentilsCooked": "Keitetyt punaiset linssit",
+    "greenLentilsCooked": "Keitetyt vihreät linssit",
+    "blackLentilsCooked": "Keitetyt mustat linssit",
+    "chickpeasCooked": "Keitetyt kikherneet",
+    "blackBeansCooked": "Keitetyt mustat pavut",
+    "kidneyBeansCooked": "Keitetyt munuaispavut",
+    "pintoBeansCooked": "Keitetyt Pinto-pavut",
+    "cannelliniBeansCooked": "Keitetyt Cannellini-pavut",
+    "navyBeansCooked": "Laivastonsiniset pavut keitetyt",
+    "adzukiBeansCooked": "Keitetyt Adzuki-pavut",
+    "mungBeansCooked": "Keitetyt Mung pavut",
+    "lupinBeans": "Lupiinipavut",
+    "splitPeasCooked": "Halkaistut herneet keitetyt",
+    "greenPeas": "Vihreät herneet",
+    "peaProteinIsolate": "Herneproteiini-isolaatti",
+    "peaMilk": "Herneen maito",
+    "hummus": "Hummus",
+    "falafel": "Falafel",
+    "quinoaCooked": "Quinoa Keitetty",
+    "amaranthCooked": "Keitetty amarantti",
+    "buckwheatCooked": "Keitetty tattari",
+    "oatsDry": "Kaura Kuiva",
+    "rolledOats": "Valssattu kaura",
+    "steelCutOats": "Teräksestä leikattu kaura",
+    "oatBran": "Kauraleseet",
+    "barleyCooked": "Ohra Keitetty",
+    "milletCooked": "Keitetty hirssi",
+    "brownRiceCooked": "Keitetty ruskea riisi",
+    "wildRiceCooked": "Keitetty villiriisi",
+    "teffCooked": "Teff keitetty",
+    "farroCooked": "Farro Keitetty",
+    "freekehCooked": "Freekeh keitetty",
+    "wholeWheatPastaCooked": "Keitetty täysjyväpasta",
+    "chickpeaPastaDry": "Kuiva kikhernepasta",
+    "lentilPastaDry": "Kuiva linssipasta",
+    "blackBeanPastaDry": "Black Bean Pasta Kuiva",
+    "spirulinaDry": "Spirulina Kuiva",
+    "nutritionalYeast": "Ravintohiiva",
+    "mushroomsWhite": "Sienet Valkoiset",
+    "portobelloMushrooms": "Portobello sienet",
+    "spinach": "Pinaatti",
+    "kale": "Lehtikaali",
+    "broccoli": "Parsakaali",
+    "brusselsSprouts": "Ruusukaali",
+    "sweetCorn": "Sokerimaissi",
+    "artichoke": "Artisokka",
+    "avocado": "Avokado",
+    "pumpkinSeeds": "Kurpitsansiemenet",
+    "hempSeeds": "Hampun siemenet",
+    "chiaSeeds": "Chia siemenet",
+    "flaxSeeds": "Pellavan siemenet",
+    "sesameSeeds": "Seesaminsiemenet",
+    "sunflowerSeeds": "Auringonkukansiemenet",
+    "watermelonSeeds": "Vesimelonin siemenet",
+    "almonds": "Mantelit",
+    "peanuts": "Maapähkinät",
+    "peanutButterNatural": "Luonnollinen maapähkinävoi",
+    "cashews": "Cashewpähkinät",
+    "pistachios": "Pistaasipähkinät",
+    "walnuts": "Saksanpähkinät",
+    "hazelnuts": "Hasselpähkinät",
+    "brazilNuts": "Brasilian pähkinät",
+    "almondButter": "Mantelivoita",
+    "tahini": "Tahini",
+    "cashewButter": "Cashew voita",
+    "pumpkinSeedButter": "Kurpitsansiemenvoi",
+    "sunflowerSeedButter": "Auringonkukansiemenvoi",
+    "almondFlour": "Mantelijauho",
+    "chickpeaFlour": "Kikhernejauho / Besan",
+    "soyFlour": "Soijajauhot",
+    "wholeWheatFlour": "Täysjyvävehnäjauho",
+    "breadWholeWheat": "Leipä täysjyvävehnä",
+    "ezekielBread": "Hesekiel leipä",
+    "proteinBreadVegan": "Proteiinileipä Vegaaninen",
+    "roastedChickpeas": "Paahdetut kikherneet",
+    "dryRoastedEdamame": "Kuivapaahdettua edamamea",
+    "proteinBarVegan": "Protein Bar Vegaaninen",
+    "veganSausage": "Vegaaninen makkara",
+    "veganBurgerPatty": "Vegaaninen Burger Patty",
+    "mycoproteinVegan": "Mykoproteiini Vegaaninen",
+    "beanSprouts": "Pavunversoja",
+    "alfalfaSprouts": "Alfalfa versot"
+  }
+}

@@ -109,7 +109,16 @@
       "thigh": "ירך (באינצ')",
       "thighHint": "החלק הרחב ביותר",
       "submit": "מדידות יומן",
-      "success": "המדדים נרשמו בהצלחה!"
+      "success": "המדדים נרשמו בהצלחה!",
+      "placeholders": {
+        "weight": "למשל, 75",
+        "targetWeight": "למשל, 85",
+        "chest": "למשל, 40",
+        "waist": "אופציונלי",
+        "bicep": "למשל, 15",
+        "bicepL": "אותו דבר כמו נכון",
+        "thigh": "אופציונלי"
+      }
     },
     "volume": {
       "title": "מחשבון נפח",
@@ -120,7 +129,13 @@
       "totalVolume": "נפח כולל",
       "remaining": "נותרים לשער",
       "submit": "נפח יומן",
-      "logged": "נרשם ב-{{lift}}: נפח כולל של {{volume}} ק\"ג!"
+      "logged": "נרשם ב-{{lift}}: נפח כולל של {{volume}} ק\"ג!",
+      "recentLifts": "העליות האחרונות",
+      "placeholders": {
+        "sets": "למשל, 4",
+        "reps": "למשל, 8",
+        "weight": "למשל, 80"
+      }
     },
     "chart": {
       "title": "טבלת התקדמות",
@@ -168,7 +183,71 @@
         "perfect": "מושלם (5/5)",
         "partial": "חֶלקִי",
         "none": "לֹא שָׁלֵם"
+      },
+      "tooltip": "יום {{day}}: {{count}}/5 הרגלים"
+    }
+  },
+  "essentials": {
+    "title": "יסודות היפרטרופיה",
+    "tips": {
+      "rest": {
+        "title": "שריר נבנה בזמן מנוחה:",
+        "desc": "שינה ותזונה הם כאשר הצמיחה מתרחשת, לא בחדר הכושר"
+      },
+      "protein": {
+        "title": "תזמון החלבון משנה פחות מהסך הכל:",
+        "desc": "התמקד בלהגיע ליעד היומי שלך, התזמון הוא משני"
+      },
+      "track": {
+        "title": "עקוב אחר הכל:",
+        "desc": "משקל, מידות ונפח - נתונים חושפים התקדמות שאינך יכול לראות במראה"
+      },
+      "creatine": {
+        "title": "קריאטין מוכח:",
+        "desc": "3-5 גרם ליום מגביר את הכוח ואת המסה הרזה ללא תופעות לוואי עבור רוב האנשים"
       }
     }
+  },
+  "exercises": {
+    "squat": "סקוואט",
+    "deadlift": "דדליפט",
+    "benchPress": "לחיצת ספסל",
+    "overheadPress": "עיתונות עילית",
+    "barbellRow": "שורת משקולת",
+    "pullUp": "משוך למעלה",
+    "chinUp": "סנטר למעלה",
+    "latPulldown": "Lat Pulldown",
+    "seatedCableRow": "שורת כבלים יושבת",
+    "dumbbellRow": "שורת המשקולות",
+    "romanianDeadlift": "דדליפט רומני",
+    "hipThrust": "דחף ירך",
+    "lunge": "לזרוק",
+    "bulgarianSplitSquat": "ספליט סקוואט בולגרי",
+    "legPress": "לחיצת רגליים",
+    "legExtension": "הארכת רגליים",
+    "legCurl": "תלתל רגל",
+    "calfRaise": "גידול עגל",
+    "gluteBridge": "גשר ג��וטה",
+    "pushUp": "דחיפה למעלה",
+    "inclineDumbbellPress": "לחיצת משקולת שיפוע",
+    "dips": "מטבלים",
+    "chestFly": "זבוב החזה",
+    "lateralRaise": "הרמה לרוחב",
+    "rearDeltFly": "אחורית Delt Fly",
+    "facePull": "משיכת פנים",
+    "bicepCurl": "תלתל דו-ראשי",
+    "hammerCurl": "תלתל פטיש",
+    "tricepPushdown": "דחיקת תלת ראשי",
+    "skullCrusher": "מגרסה גולגולת",
+    "plank": "קרש",
+    "hangingLegRaise": "הרמת רגל תלויה",
+    "russianTwist": "טוויסט רוסי",
+    "farmerCarry": "חוואי קארי",
+    "shrug": "משך בכתפיים",
+    "arnoldPress": "ארנולד פרס",
+    "frontSquat": "סקוואט קדמי",
+    "sumoDeadlift": "סומו דדליפט",
+    "gobletSquat": "גביע סקוואט",
+    "stepUp": "שלב למעלה"
   }
 }

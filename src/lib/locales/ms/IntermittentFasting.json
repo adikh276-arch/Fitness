@@ -70,7 +70,8 @@
       "firstMeal": "Waktu Makan Pertama (Hari Ini):",
       "duration": "Tempoh Puasa Keseluruhan",
       "goalAchieved": "Matlamat Tercapai! Anda telah berpuasa selama 16+ jam!",
-      "submit": "Log Ini Dengan Cepat"
+      "submit": "Log Ini Dengan Cepat",
+      "dateLabel": "tarikh:"
     },
     "tracker": {
       "title": "Penjejak Pantas 30 Hari",
@@ -81,7 +82,9 @@
         "goalMet": "Matlamat Dicapai (16+ jam)",
         "today": "Hari ini",
         "missed": "Hari Terlepas"
-      }
+      },
+      "today": "Hari ini",
+      "dayLabel": "Hari {{val}}"
     },
     "recentFasts": {
       "title": "Puasa Terkini",

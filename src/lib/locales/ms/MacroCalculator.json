@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "back": "Kembali ke Papan Pemuka"
+  },
+  "header": {
+    "title": "Kalkulator Makro",
+    "subtitle": "Kira keperluan kalori dan makronutrien harian anda"
+  },
+  "tabs": {
+    "input": "Butiran Anda",
+    "results": "Keputusan Anda"
+  },
+  "form": {
+    "title": "Butiran Anda",
+    "age": "umur (tahun)",
+    "gender": "Jantina",
+    "male": "jantan",
+    "female": "perempuan",
+    "weight": "Berat badan",
+    "height": "Ketinggian",
+    "activity": "Tahap Aktiviti",
+    "goal": "Matlamat",
+    "submit": "Kira Makro",
+    "placeholders": {
+      "age": "cth., 30",
+      "weightKg": "cth., 70",
+      "weightLbs": "cth., 154",
+      "heightCm": "cth., 175",
+      "heightFt": "kaki",
+      "heightIn": "inci"
+    },
+    "activityLevels": {
+      "sedentary": "Sedentari (sedikit/tiada senaman)",
+      "light": "Aktif Ringan (1-3 hari/minggu)",
+      "moderate": "Sederhana Aktif (3-5 hari/minggu)",
+      "very": "Sangat Aktif (6-7 hari/minggu)"
+    },
+    "goals": {
+      "maintenance": "Penyelenggaraan",
+      "loss": "Berat Badan",
+      "gain": "Keuntungan Otot"
+    }
+  },
+  "results": {
+    "title": "Keputusan Anda",
+    "calorieTarget": "Sasaran Kalori Harian",
+    "kcalPerDay": "kcal/hari",
+    "bmrLabel": "BMR: {{val}} kcal",
+    "protein": "Protein",
+    "carbs": "Karbohidrat",
+    "fat": "gemuk",
+    "submit": "Simpan ke Profil",
+    "placeholder": "Masukkan butiran anda dan klik Kira untuk melihat keputusan anda",
+    "success": "Data makro disimpan! Butiran profil anda telah disegerakkan.",
+    "validation": "Sila masukkan nilai yang sah"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "back": "Powrót do Panelu"
+  },
+  "header": {
+    "title": "Zrozumienie makroelementów",
+    "subtitle": "Naucz się podstaw białka, węglowodanów i tłuszczów"
+  },
+  "tabs": {
+    "protein": "Białko",
+    "carbs": "Węglowodany",
+    "fats": "Tłuszcze",
+    "plate": "Konstruktor płyt"
+  },
+  "protein": {
+    "title": "Białko",
+    "kcal": "4 kcal/gram",
+    "whyMatters": {
+      "title": "Dlaczego to ma znaczenie:",
+      "muscle": {
+        "title": "Naprawa i wzrost mięśni:",
+        "desc": "Niezbędny do budowy i utrzymania beztłuszczowej masy mięśniowej"
+      },
+      "satiety": {
+        "title": "Sytość:",
+        "desc": "Zapewnia uczucie sytości na dłużej, zmniejszając całkowite spożycie kalorii"
+      },
+      "metabolic": {
+        "title": "Zwiększenie metabolizmu:",
+        "desc": "Najwyższy efekt termiczny ze wszystkich makr (20-30% kalorii spalonych podczas trawienia)"
+      }
+    },
+    "target": {
+      "title": "Dzienny cel:",
+      "desc": "Aby zapewnić optymalne zdrowie i utrzymanie mięśni, staraj się spożywać <1>1,6-2,2 g na kg</1> masy ciała. Sportowcy i osoby budujące mięśnie mogą potrzebować do 2,5 g/kg."
+    },
+    "sources": "Najlepsze źródła białka:"
+  },
+  "carbs": {
+    "title": "Węglowodany",
+    "kcal": "4 kcal/gram",
+    "whyMatters": {
+      "title": "Dlaczego to ma znaczenie:",
+      "energy": {
+        "title": "Pierwotne źródło energii:",
+        "desc": "Preferowane paliwo Twojego organizmu dla mózgu i aktywności fizycznej"
+      },
+      "performance": {
+        "title": "Wydajność:",
+        "desc": "Niezbędne w przypadku ćwiczeń o wysokiej intensywności i wyników sportowych"
+      },
+      "nutrients": {
+        "title": "Błonnik i składniki odżywcze:",
+        "desc": "Całe węglowodany dostarczają niezbędnych witamin, minerałów i zdrowia układu trawiennego"
+      }
+    },
+    "target": {
+      "title": "Dzienny cel:",
+      "desc": "W przypadku osób aktywnych staraj się spożywać <1>3-6 g na kg</1> masy ciała. Osoby prowadzące siedzący tryb życia mogą potrzebować mniej (2-3 g/kg). Skoncentruj się na złożonych, pełnowartościowych źródłach pożywienia."
+    },
+    "sources": "Najlepsze źródła węglowodanów:"
+  },
+  "fats": {
+    "title": "Tłuszcze",
+    "kcal": "9 kcal/gram",
+    "whyMatters": {
+      "title": "Dlaczego to ma znaczenie:",
+      "hormone": {
+        "title": "Produkcja hormonów:",
+        "desc": "Niezbędny dla testosteronu, estrogenu i innych ważnych hormonów"
+      },
+      "vitamin": {
+        "title": "Wchłanianie witamin:",
+        "desc": "Wymagany do wchłaniania witamin rozpuszczalnych w tłuszczach (A, D, E, K)"
+      },
+      "brain": {
+        "title": "Zdrowie mózgu:",
+        "desc": "Twój mózg składa się w 60% z tłuszczu – kwasy omega-3 są kluczowe dla funkcji poznawczych"
+      }
+    },
+    "target": {
+      "title": "Dzienny cel:",
+      "desc": "Staraj się spożywać <1>0,8–1,2 g na kg</1> masy ciała lub 20–35% całkowitej liczby kalorii. Przedkładaj tłuszcze nienasycone (oliwa z oliwek, orzechy, ryby) nad tłuszcze nasycone."
+    },
+    "sources": "Najlepsze źródła tłuszczu:"
+  },
+  "plate": {
+    "title": "Zbuduj swój zbilansowany posiłek",
+    "legend": {
+      "protein": "Białko {{val}}%",
+      "carbs": "Węglowodany {{val}}%",
+      "fats": "Tłuszcze {{val}}%"
+    },
+    "sliders": {
+      "protein": {
+        "title": "Białko",
+        "desc": "Mięśnie i uczucie sytości"
+      },
+      "carbs": {
+        "title": "Węglowodany",
+        "desc": "Energia i wydajność"
+      },
+      "fats": {
+        "title": "Tłuszcze",
+        "desc": "Hormony i witaminy"
+      }
+    },
+    "calories": {
+      "title": "Szacowane kalorie",
+      "subtitle": "(w przeliczeniu na porcję 200g)",
+      "unit": "kcal"
+    },
+    "warning": {
+      "title": "Zalecenie dotyczące równowagi",
+      "desc": "Aby zapewnić optymalne odżywianie: staraj się dostarczać co najmniej 15–25% białka (mięśnie i uczucie sytości), 20–35% zdrowych tłuszczów (hormony) i 40–60% węglowodanów (energia). Dostosuj swoje proporcje, aby osiągnąć te cele."
+    }
+  },
+  "foods": {
+    "chicken": "Pierś Z Kurczaka",
+    "yogurt": "Jogurt Grecki",
+    "eggs": "Jajka",
+    "eggUnit": "1 jajko = 6 g białka",
+    "salmon": "Łosoś",
+    "lentils": "Soczewica",
+    "tofu": "Tofu",
+    "rice": "Brązowy Ryż",
+    "oats": "Owies",
+    "potato": "Słodki Ziemniak",
+    "quinoa": "Komosa ryżowa",
+    "banana": "Banan",
+    "bananaUnit": "1 średnia = 27 g węglowodanów",
+    "bread": "Chleb Pełnoziarnisty",
+    "breadUnit": "1 plasterek = 12 g węglowodanów",
+    "avocado": "Awokado",
+    "almonds": "Migdały",
+    "almondsUnit": "28 g = 14 g tłuszczu",
+    "oil": "Oliwa z oliwek",
+    "oilUnit": "1 łyżka = 14 g tłuszczu",
+    "peanutButter": "Masło Orzechowe",
+    "pbUnit": "2 łyżki = 16 g tłuszczu",
+    "chocolate": "Ciemna czekolada",
+    "chocolateUnit": "28 g = 9 g tłuszczu",
+    "unit100g": "100g = {{val}}g {{makro}}"
+  }
+}

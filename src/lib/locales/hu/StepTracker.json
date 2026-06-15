@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "back": "Vissza az irányítópultra"
+  },
+  "header": {
+    "title": "Lépéskövető",
+    "subtitle": "Kövesse nyomon napi lépéseit, és érje el céljait",
+    "profile": "Profil"
+  },
+  "tabs": {
+    "tracker": "Nyomkövető",
+    "history": "Történelem"
+  },
+  "tracker": {
+    "stepsToday": "lépéseket ma",
+    "goalAchieved": "A cél elérve!",
+    "stats": {
+      "distance": "Távolság",
+      "calories": "Kalória",
+      "activeTime": "Aktív idő",
+      "km": "km",
+      "kcal": "kcal",
+      "mins": "perc"
+    },
+    "goal": {
+      "label": "Napi cél",
+      "value": "{{val}} lépés",
+      "change": "Cél módosítása"
+    },
+    "quickAdd": {
+      "title": "Gyors hozzáadása lépések",
+      "label": "Egyéni lépések",
+      "placeholder": "pl 3500",
+      "submit": "Hozzáadás"
+    },
+    "insights": {
+      "title": "Mai betekintések",
+      "remaining": "Fennmaradó lépések",
+      "stride": "Lépéshossz",
+      "progress": "Haladás",
+      "complete": "Kész!",
+      "percentOfGoal": "A cél {{val}}%-a"
+    },
+    "reset": "Állítsa vissza a mai lépéseket"
+  },
+  "history": {
+    "title": "Lépéstörténet",
+    "noHistory": "Még nincs előzmény. Kezdje el követni a lépéseit!",
+    "today": "Ma",
+    "stats": {
+      "steps": "Lépések",
+      "goal": "Gól",
+      "progress": "Haladás"
+    }
+  },
+  "modals": {
+    "goal": {
+      "title": "Állítsa be a napi célt",
+      "subtitle": "Adja meg a napi megcélzott lépéseket",
+      "placeholder": "pl 10000",
+      "cancel": "Mégse",
+      "save": "Mentés"
+    },
+    "profile": {
+      "title": "Profil frissítése",
+      "subtitle": "Ez segít a távolság és a kalória pontos kiszámításában",
+      "height": "Magasság (cm)",
+      "weight": "Súly (kg)",
+      "gender": "Nem",
+      "male": "Férfi",
+      "female": "Nő",
+      "placeholderHeight": "például 170",
+      "placeholderWeight": "például 70",
+      "cancel": "Mégse",
+      "save": "Mentés"
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "header": {
+    "title": "Fleksibiliti & Mobiliti",
+    "subtitle": "Meningkatkan julat pergerakan dan mencegah kecederaan",
+    "back": "Kembali ke Papan Pemuka"
+  },
+  "tabs": {
+    "stretches": "Regangan Harian",
+    "tests": "Ujian Mobiliti",
+    "log": "Log Pemulihan"
+  },
+  "player": {
+    "stretch": "Regangan {{current}} daripada {{total}}",
+    "resume": "Sambung semula",
+    "pause": "jeda",
+    "skip": "Langkau",
+    "cancel": "Batal",
+    "bilateral_hint": "💡 Ingat untuk menukar sisi apabila pemasa tamat",
+    "preview": {
+      "stretches_count": "{{count}} Regangan ({{tempoh}} jumlah min):",
+      "start": "Mulakan {{duration}}-Min Rutin",
+      "cancel": "Batal"
+    },
+    "complete": {
+      "title": "Rutin Selesai!",
+      "desc": "Kerja bagus menyelesaikan {{name}}!",
+      "rate_label": "Rasa Lebih Baik? Nilaikan peningkatan anda: {{rating}}/10",
+      "worse": "Lebih teruk",
+      "same": "sama",
+      "much_better": "Jauh Lebih Baik",
+      "save": "Simpan Sesi",
+      "done": "Selesai"
+    }
+  },
+  "routines": {
+    "upper-body": {
+      "name": "Bahagian Atas Badan Terbuka",
+      "focus": "Dada, Bahu, Tengah Belakang",
+      "desc": "Lepaskan ketegangan akibat kerja meja dan penggunaan telefon",
+      "stretches": {
+        "Doorway Chest Stretch": {
+          "name": "Regangan Dada Pintu",
+          "desc": "Berdiri di ambang pintu, letakkan lengan bawah pada bingkai, condong ke hadapan untuk merasakan regangan dada."
+        },
+        "Shoulder Rolls": {
+          "name": "Gulung Bahu",
+          "desc": "Gulung bahu ke belakang dalam bulatan besar, 10 ulangan."
+        },
+        "Thoracic Rotation": {
+          "name": "Putaran Toraks",
+          "desc": "Pada tangan dan lutut, putar bahagian atas badan ke sisi, buka dada."
+        },
+        "Neck Stretch": {
+          "name": "Regangan Leher",
+          "desc": "Condongkan kepala perlahan-lahan ke setiap sisi, tahan selama 30 saat setiap sisi."
+        },
+        "Tricep Stretch": {
+          "name": "Regangan Tricep",
+          "desc": "Jangkau lengan ke atas kepala, bengkokkan siku, tarik perlahan dengan tangan yang lain."
+        }
+      }
+    },
+    "lower-body": {
+      "name": "Pelepasan Badan Bawah",
+      "focus": "Hamstring, Glutes, Fleksi Pinggul",
+      "desc": "Regangan dalam untuk kaki dan pinggul yang ketat daripada duduk",
+      "stretches": {
+        "Pigeon Pose": {
+          "name": "Pose Burung Merpati",
+          "desc": "Bawa satu kaki ke hadapan bengkok, panjangkan kaki belakang lurus, tenggelamkan pinggul ke bawah."
+        },
+        "Hamstring Stretch": {
+          "name": "Regangan Hamstring",
+          "desc": "Duduk dengan satu kaki diluruskan, capai ke arah jari kaki, pastikan belakang lurus."
+        },
+        "Hip Flexor Lunge": {
+          "name": "Pinggul Flexor Lunge",
+          "desc": "Posisi lunge, tolak pinggul ke hadapan untuk merasakan regangan di pinggul hadapan."
+        },
+        "Glute Stretch": {
+          "name": "Peregangan Glute",
+          "desc": "Baring telentang, silang buku lali di atas lutut bertentangan, tarik ke arah dada."
+        },
+        "Calf Stretch": {
+          "name": "Regangan Betis",
+          "desc": "Melangkah ke hadapan dalam lunge, tahan tumit belakang ke bawah untuk meregangkan betis."
+        }
+      }
+    },
+    "full-body": {
+      "name": "Aliran Badan Penuh",
+      "focus": "Jumlah Penyelenggaraan Badan",
+      "desc": "Lengkapkan rutin fleksibiliti dari kepala ke kaki",
+      "stretches": {
+        "Cat-Cow": {
+          "name": "Kucing-Lembu",
+          "desc": "Pada tangan dan lutut, melengkung dan membulatkan tulang belakang secara bergantian."
+        },
+        "Downward Dog": {
+          "name": "Anjing ke Bawah",
+          "desc": "Tangan dan kaki ditanam, pinggul tinggi, membentuk V terbalik."
+        },
+        "Child's Pose": {
+          "name": "Pose Kanak-kanak",
+          "desc": "Lutut lebar, duduk bertumit, lengan dihulurkan ke hadapan."
+        },
+        "Seated Twist": {
+          "name": "Pusing Duduk",
+          "desc": "Duduk bersila, putar badan ke setiap sisi, tangan di belakang."
+        },
+        "Forward Fold": {
+          "name": "Lipat ke hadapan",
+          "desc": "Berdiri, engsel di pinggul, capai ke arah jari kaki, biarkan kepala tergantung."
+        },
+        "Hip Circles": {
+          "name": "Bulatan Pinggul",
+          "desc": "Tangan pada pinggul, buat bulatan besar dengan pinggul di kedua-dua arah."
+        },
+        "Arm Circles": {
+          "name": "Bulatan Lengan",
+          "desc": "Panjangkan tangan lebar-lebar, buat bulatan besar ke hadapan kemudian ke belakang."
+        }
+      }
+    },
+    "dynamic-warmup": {
+      "name": "Pemanasan Dinamik",
+      "focus": "Pengaktifan Pra-Senaman",
+      "desc": "Sediakan badan anda sebelum bersenam",
+      "stretches": {
+        "Leg Swings": {
+          "name": "Ayunan Kaki",
+          "desc": "Pegang dinding, hayun kaki ke hadapan dan belakang, kemudian sisi ke sisi."
+        },
+        "Arm Circles": {
+          "name": "Bulatan Lengan",
+          "desc": "Bulatan kecil ke besar, ke hadapan dan ke belakang."
+        },
+        "Torso Twists": {
+          "name": "Pusing Badan",
+          "desc": "Putar bahagian atas badan ke sisi dengan lengan longgar."
+        },
+        "Walking Lunges": {
+          "name": "Berjalan Lunges",
+          "desc": "Melangkah ke hadapan ke dalam lunge, kaki silih berganti sambil bergerak ke hadapan."
+        },
+        "High Knees": {
+          "name": "Lutut Tinggi",
+          "desc": "Berbaris di tempat membawa lutut ke ketinggian pinggul."
+        }
+      }
+    }
+  },
+  "benefits": {
+    "title": "Mengapa Regangan Harian Penting"
+  },
+  "tests": {
+    "status": {
+      "title": "Status Mobiliti Anda",
+      "based_on": "Berdasarkan {{count}} keputusan ujian",
+      "complete_below": "Lengkapkan ujian di bawah",
+      "score_label": "Markah: {{mata}}/6 mata (Lulus=2, Separa=1, Perlu Kerja=0)",
+      "elite": "Mobiliti Elit",
+      "good": "Mobiliti Baik",
+      "limited": "Mobiliti Terhad",
+      "not_tested": "Tidak Diuji"
+    },
+    "items": {
+      "sit-reach": {
+        "name": "Ujian Duduk & Jangkau",
+        "desc": "Duduk dengan kaki lurus, capai ke arah jari kaki",
+        "pass": "Boleh menyentuh atau melepasi jari kaki",
+        "fail": "Lebih daripada 6 inci dari jari kaki"
+      },
+      "shoulder-pass": {
+        "name": "Laluan Bahu",
+        "desc": "Pegang band/tongkat, angkat tangan ke atas dan belakang",
+        "pass": "Boleh melalui dengan lancar",
+        "fail": "Tidak dapat melengkapkan gerakan"
+      },
+      "deep-squat": {
+        "name": "Tahan Jongkong Dalam",
+        "desc": "Mencangkung dengan tumit rata, tahan selama 30 saat",
+        "pass": "Boleh tahan 30s, tumit ke bawah",
+        "fail": "Tumit terangkat atau tidak boleh dipegang"
+      }
+    },
+    "tips": {
+      "title": "Petua Ujian"
+    },
+    "actions": {
+      "pass": "✓ Lulus",
+      "partial": "~ Separa",
+      "fail": "✗ Memerlukan Kerja"
+    }
+  },
+  "log": {
+    "title": "Sesi Pemulihan Log",
+    "duration": "Tempoh (minit)",
+    "focus_areas": "Kawasan Fokus (pilih semua yang berkenaan)",
+    "soreness_label": "Sakit Sebelum Sesi: {{level}}/10",
+    "no_pain": "1 - Tiada Sakit",
+    "moderate": "5 - Sederhana",
+    "very_sore": "10 - Sangat Sakit",
+    "submit": "🧘 Sesi Log",
+    "heatmap": {
+      "title": "Peta Haba Pemulihan",
+      "legend": "Titik ungu menandakan hari dengan sesi pemulihan"
+    },
+    "badge": {
+      "title": "Bukti Kecederaan!",
+      "desc": "Anda telah menyelesaikan {{count}} sesi pemulihan minggu ini!"
+    },
+    "stats": {
+      "total": "Jumlah Minit",
+      "this_week": "Minggu ini"
+    },
+    "recent": "Sesi Terkini",
+    "areas": {
+      "Neck": "Leher",
+      "Shoulders": "Bahu",
+      "Back": "belakang",
+      "Hips": "Pinggul",
+      "Legs": "kaki",
+      "Full Body": "Badan Penuh"
+    }
+  }
+}

@@ -42,7 +42,8 @@
       "title": "최근 읽은 글",
       "noReadings": "아직 기록된 측정값이 없습니다.",
       "trend": "7일 추세",
-      "targetMax": "목표 최대"
+      "targetMax": "목표 최대",
+      "targetPost": "Target Max (식후)"
     }
   },
   "plate": {
@@ -101,7 +102,8 @@
       "low": "낮은 GI",
       "medium": "중형 GI",
       "high": "높은 GI"
-    }
+    },
+    "search": "음식 검색(예: 귀리, 바나나...)"
   },
   "timing": {
     "fasting": "단식",

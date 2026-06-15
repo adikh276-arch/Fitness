@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "back": "Vissza az irányítópultra"
+  },
+  "header": {
+    "title": "A makrotápanyagok megértése",
+    "subtitle": "Ismerje meg a fehérjék, szénhidrátok és zsírok alapjait"
+  },
+  "tabs": {
+    "protein": "Fehérje",
+    "carbs": "szénhidrát",
+    "fats": "Zsírok",
+    "plate": "Lemezépítő"
+  },
+  "protein": {
+    "title": "Fehérje",
+    "kcal": "4 kcal/gramm",
+    "whyMatters": {
+      "title": "Miért számít:",
+      "muscle": {
+        "title": "Izomjavítás és -növekedés:",
+        "desc": "Nélkülözhetetlen a sovány izomtömeg felépítéséhez és fenntartásához"
+      },
+      "satiety": {
+        "title": "jóllakottság:",
+        "desc": "Hosszabb ideig tartja teltségérzetét, csökkentve a teljes kalóriabevitelt"
+      },
+      "metabolic": {
+        "title": "Metabolikus boost:",
+        "desc": "Az összes makró közül a legmagasabb termikus hatás (az emésztés során elégetett kalóriák 20-30%-a)"
+      }
+    },
+    "target": {
+      "title": "Napi cél:",
+      "desc": "Az optimális egészség és izomfenntartás érdekében törekedjen <1>1,6-2,2 g testtömeg-kilogrammonként</1>. Sportolóknak és izomépítőknek akár 2,5 g/kg-ra is szükségük lehet."
+    },
+    "sources": "Legjobb fehérjeforrások:"
+  },
+  "carbs": {
+    "title": "Szénhidrát",
+    "kcal": "4 kcal/gramm",
+    "whyMatters": {
+      "title": "Miért számít:",
+      "energy": {
+        "title": "Elsődleges energiaforrás:",
+        "desc": "A test által előnyben részesített üzemanyag az agyhoz és a fizikai aktivitáshoz"
+      },
+      "performance": {
+        "title": "Teljesítmény:",
+        "desc": "Kritikus a nagy intenzitású edzéshez és az atlétikai teljesítményhez"
+      },
+      "nutrients": {
+        "title": "Rostok és tápanyagok:",
+        "desc": "A teljes szénhidrát alapvető vitaminokat, ásványi anyagokat és az emésztőrendszer egészségét biztosítják"
+      }
+    },
+    "target": {
+      "title": "Napi cél:",
+      "desc": "Aktív egyének esetében célozzon meg <1>3-6 g testtömeg-kilogrammonként</1>. Az ülő egyéneknek kevesebbre lehet szükségük (2-3 g/kg). Összpontosítson az összetett, teljes élelmiszer-forrásokra."
+    },
+    "sources": "Legnépszerűbb szénhidrátforrások:"
+  },
+  "fats": {
+    "title": "Zsírok",
+    "kcal": "9 kcal/gramm",
+    "whyMatters": {
+      "title": "Miért számít:",
+      "hormone": {
+        "title": "Hormon termelés:",
+        "desc": "Nélkülözhetetlen a tesztoszteronhoz, az ösztrogénhez és más létfontosságú hormonokhoz"
+      },
+      "vitamin": {
+        "title": "Vitamin felszívódás:",
+        "desc": "Szükséges a zsírban oldódó vitaminok felszívódásához (A, D, E, K)"
+      },
+      "brain": {
+        "title": "Agy egészsége:",
+        "desc": "Az agy 60%-ban zsíros – az omega-3-ak kulcsfontosságúak a kognitív funkciókhoz"
+      }
+    },
+    "target": {
+      "title": "Napi cél:",
+      "desc": "Törekedjen <1>0,8-1,2 g/testtömeg-kg</1> bevitelre, vagyis az összes kalória 20-35%-ára. Előnyben részesítse a telítetlen zsírokat (olívaolaj, dió, hal) a telített zsírokkal szemben."
+    },
+    "sources": "Legfontosabb zsírforrások:"
+  },
+  "plate": {
+    "title": "Építse fel kiegyensúlyozott étkezését",
+    "legend": {
+      "protein": "fehérje {{val}}%",
+      "carbs": "szénhidrát {{val}}%",
+      "fats": "Zsírok {{val}}%"
+    },
+    "sliders": {
+      "protein": {
+        "title": "Fehérje",
+        "desc": "Izom és jóllakottság"
+      },
+      "carbs": {
+        "title": "Szénhidrát",
+        "desc": "Energia és teljesítmény"
+      },
+      "fats": {
+        "title": "Zsírok",
+        "desc": "Hormonok és vitaminok"
+      }
+    },
+    "calories": {
+      "title": "Becsült kalória",
+      "subtitle": "(200 g-os adag alapján)",
+      "unit": "kcal"
+    },
+    "warning": {
+      "title": "Egyenleg ajánlás",
+      "desc": "Az optimális táplálkozás érdekében: Törekedjen legalább 15-25% fehérje (izom és jóllakottság), 20-35% egészséges zsírok (hormonok) és 40-60% szénhidrát (energia) bevitelére. Állítsa be az arányokat, hogy elérje ezeket a célokat."
+    }
+  },
+  "foods": {
+    "chicken": "Csirkemell",
+    "yogurt": "Görög Joghurt",
+    "eggs": "Tojás",
+    "eggUnit": "1 tojás = 6 g fehérje",
+    "salmon": "Lazac",
+    "lentils": "Lencse",
+    "tofu": "Tofu",
+    "rice": "Barna rizs",
+    "oats": "Zab",
+    "potato": "Édesburgonya",
+    "quinoa": "Quinoa",
+    "banana": "Banán",
+    "bananaUnit": "1 közepes = 27 g szénhidrát",
+    "bread": "Teljes kiőrlésű kenyér",
+    "breadUnit": "1 szelet = 12 g szénhidrát",
+    "avocado": "Avokádó",
+    "almonds": "Mandula",
+    "almondsUnit": "28g = 14g zsír",
+    "oil": "Olíva olaj",
+    "oilUnit": "1 evőkanál = 14 g zsír",
+    "peanutButter": "Mogyoróvaj",
+    "pbUnit": "2 ev��kanál = 16 g zsír",
+    "chocolate": "étcsokoládé",
+    "chocolateUnit": "28g = 9g zsír",
+    "unit100g": "100 g = {{val}} g {{makró}}"
+  }
+}

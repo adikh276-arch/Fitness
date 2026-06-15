@@ -1,0 +1,227 @@
+{
+  "header": {
+    "title": "גמישות וניידות",
+    "subtitle": "Improve range of motion and prevent injuries",
+    "back": "חזרה ללוח המחוונים"
+  },
+  "tabs": {
+    "stretches": "מתיחות יומיות",
+    "tests": "מבחני ניידות",
+    "log": "יומן שחזור"
+  },
+  "player": {
+    "stretch": "Stretch {{current}} of {{total}}",
+    "resume": "קורות חיים",
+    "pause": "השהה",
+    "skip": "דלג",
+    "cancel": "בטל",
+    "bilateral_hint": "💡 זכור להחליף צד כאשר הטיימר מסתיים",
+    "preview": {
+      "stretches_count": "{{count}} Stretches ({{duration}} min total):",
+      "start": "Start {{duration}}-Min Routine",
+      "cancel": "בטל"
+    },
+    "complete": {
+      "title": "השגרה הושלמה!",
+      "desc": "Great job completing {{name}}!",
+      "rate_label": "מרגיש טוב יותר? Rate your improvement: {{rating}}/10",
+      "worse": "יותר גרוע",
+      "same": "אותו דבר",
+      "much_better": "הרבה יותר טוב",
+      "save": "שמור הפעלה",
+      "done": "בוצע"
+    }
+  },
+  "routines": {
+    "upper-body": {
+      "name": "פלג גוף עליון פתוח",
+      "focus": "Chest, Shoulders, Mid-Back",
+      "desc": "Release tension from desk work and phone use",
+      "stretches": {
+        "Doorway Chest Stretch": {
+          "name": "מתיחה לחזה בדלת",
+          "desc": "עמוד בפתח, הנח אמות על המסגרת, רכן קדימה כדי להרגיש מתיחה של החזה."
+        },
+        "Shoulder Rolls": {
+          "name": "גלילי כתף",
+          "desc": "גלגל כתפיים לאחור במעגלים גדולים, 10 חזרות."
+        },
+        "Thoracic Rotation": {
+          "name": "סיבוב בית החזה",
+          "desc": "על הידיים והברכיים, סובב את פלג הגוף העליון מצד לצד, פתח את החזה."
+        },
+        "Neck Stretch": {
+          "name": "מתיחת צוואר",
+          "desc": "הטה בעדינות את הראש לכל צד, והחזק למשך 30 שניות לכל צד."
+        },
+        "Tricep Stretch": {
+          "name": "מתיחת תלת ראשי",
+          "desc": "הושט את הזרוע מעל לראש, כופף מרפק, משוך בעדינות ביד השנייה."
+        }
+      }
+    },
+    "lower-body": {
+      "name": "שחרור פלג גוף תחתון",
+      "focus": "שרירי הירך, שרוכים, מכופפי מפרק הירך",
+      "desc": "מתיחות עמוקות עבור רגליים וירכיים הדוקות מישיבה",
+      "stretches": {
+        "Pigeon Pose": {
+          "name": "תנוחת יונה",
+          "desc": "הביאו רגל אחת לפנים כפופה, האריכו את הרגל האחורית ישרה, השקע את הירכיים כלפי מטה."
+        },
+        "Hamstring Stretch": {
+          "name": "מתיחת הירך האחורי",
+          "desc": "שבו עם רגל אחת מושטת, הושיטו יד לכיוון האצבעות, שמור על גב ישר."
+        },
+        "Hip Flexor Lunge": {
+          "name": "Lunge Flexor Hip",
+          "desc": "תנוחת ריאות, דחף את הירכיים קדימה כדי להרגיש מתיחה בירך הקדמית."
+        },
+        "Glute Stretch": {
+          "name": "מתיחת גלוטה",
+          "desc": "שכיבה על הגב, צלב את הקרסול מעל הברך הנגדית, משוך לכיוון החזה."
+        },
+        "Calf Stretch": {
+          "name": "מתיחת עגל",
+          "desc": "צעד קדימה בזריקה, שמור את העקב האחורי למטה כדי למתוח את השוק."
+        }
+      }
+    },
+    "full-body": {
+      "name": "זרימת גוף מלאה",
+      "focus": "תחזוקה כוללת של הגוף",
+      "desc": "השלם שגרת גמישות מכף רגל עד ראש",
+      "stretches": {
+        "Cat-Cow": {
+          "name": "חתול-פרה",
+          "desc": "על הידיים והברכיים, עמוד שדרה קשתי ועיגול לסירוגין."
+        },
+        "Downward Dog": {
+          "name": "כלב כלפי מטה",
+          "desc": "ידיים ורגליים נטועות, ירכיים גבוהות, יוצרות V הפוך."
+        },
+        "Child's Pose": {
+          "name": "תנוחת הילד",
+          "desc": "ברכיים רחבות, שבו על עקבים, ידיים מושטות קדימה."
+        },
+        "Seated Twist": {
+          "name": "טוויסט יושב",
+          "desc": "שבו ברגליים משוכלות, סובבו את פלג הגוף העליון לכל צד, יד מאחור."
+        },
+        "Forward Fold": {
+          "name": "קפל קדימה",
+          "desc": "עמידה, צרו במותניים, הושיטו יד לכיוון בהונות הרגליים, תנו לראש לתלות."
+        },
+        "Hip Circles": {
+          "name": "מעגלי הירך",
+          "desc": "ידיים על הירכיים, לעשות עיגולים גדולים עם ירכיים בשני הכיוונים."
+        },
+        "Arm Circles": {
+          "name": "מעגלי זרוע",
+          "desc": "Extend arms wide, make large circles forward then backward."
+        }
+      }
+    },
+    "dynamic-warmup": {
+      "name": "חימום דינמי",
+      "focus": "הפעלה לפני אימון",
+      "desc": "Prepare your body before exercise",
+      "stretches": {
+        "Leg Swings": {
+          "name": "נדנדות רגליים",
+          "desc": "Hold wall, swing leg forward and back, then side to side."
+        },
+        "Arm Circles": {
+          "name": "מעגלי זרוע",
+          "desc": "Small to large circles, forward and backward."
+        },
+        "Torso Twists": {
+          "name": "טורסו טוויסטים",
+          "desc": "Rotate upper body side to side with arms loose."
+        },
+        "Walking Lunges": {
+          "name": "Walking Lunges",
+          "desc": "Step forward into lunge, alternate legs while moving forward."
+        },
+        "High Knees": {
+          "name": "ברכיים גבוהות",
+          "desc": "March in place bringing knees to hip height."
+        }
+      }
+    }
+  },
+  "benefits": {
+    "title": "Why Daily Stretching Matters"
+  },
+  "tests": {
+    "status": {
+      "title": "סטטוס הניידות שלך",
+      "based_on": "Based on {{count}} test results",
+      "complete_below": "השלם את הבדיקות למטה",
+      "score_label": "ציון: {{נקודות}}/6 נקודות (עבר=2, חלקי=1, צריך עבודה=0)",
+      "elite": "ניידות עילית",
+      "good": "ניידות טובה",
+      "limited": "ניידות מוגבלת",
+      "not_tested": "לא נבדק"
+    },
+    "items": {
+      "sit-reach": {
+        "name": "מבחן ישיבה והגעה",
+        "desc": "Sit with legs straight, reach toward toes",
+        "pass": "יכול לגעת או להעביר בהונות",
+        "fail": "More than 6 inches from toes"
+      },
+      "shoulder-pass": {
+        "name": "מעבר כתף",
+        "desc": "החזק רצועה/מקל, הרם את הידיים מעל הראש ומאחורי הגב",
+        "pass": "Can pass through smoothly",
+        "fail": "לא ניתן להשלים את התנועה"
+      },
+      "deep-squat": {
+        "name": "Deep Squat Hold",
+        "desc": "Squat down with heels flat, hold for 30 seconds",
+        "pass": "יכול להחזיק שנות 30, עקבים למטה",
+        "fail": "Heels lift or cannot hold"
+      }
+    },
+    "tips": {
+      "title": "טיפים לבדיקה"
+    },
+    "actions": {
+      "pass": "✓ עוברים",
+      "partial": "~ חלקי",
+      "fail": "✗ זקוק לעבודה"
+    }
+  },
+  "log": {
+    "title": "סשן שחזור יומן",
+    "duration": "משך (דקות)",
+    "focus_areas": "Focus Areas (select all that apply)",
+    "soreness_label": "Soreness Before Session: {{level}}/10",
+    "no_pain": "1 - ללא כאב",
+    "moderate": "5 - בינוני",
+    "very_sore": "10 - כואב מאוד",
+    "submit": "🧘 יומן הפעלה",
+    "heatmap": {
+      "title": "מפת חום לשחזור",
+      "legend": "Purple dots mark days with recovery sessions"
+    },
+    "badge": {
+      "title": "הוכחת פציעה!",
+      "desc": "השלמת {{count}} הפעלות שחזור השבוע!"
+    },
+    "stats": {
+      "total": "סך כל הדקות",
+      "this_week": "השבוע"
+    },
+    "recent": "הפעלות אחרונות",
+    "areas": {
+      "Neck": "צוואר",
+      "Shoulders": "כתפיים",
+      "Back": "חזרה",
+      "Hips": "ירכיים",
+      "Legs": "רגליים",
+      "Full Body": "גוף מלא"
+    }
+  }
+}

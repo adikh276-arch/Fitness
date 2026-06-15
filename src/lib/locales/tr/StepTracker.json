@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "back": "Kontrol Paneline Geri Dön"
+  },
+  "header": {
+    "title": "Adım Takipçisi",
+    "subtitle": "Günlük adımlarınızı takip edin ve hedeflerinize ulaşın",
+    "profile": "Profil"
+  },
+  "tabs": {
+    "tracker": "Takipçi",
+    "history": "Tarih"
+  },
+  "tracker": {
+    "stepsToday": "bugün adımlar",
+    "goalAchieved": "Hedefe Ulaşıldı!",
+    "stats": {
+      "distance": "Mesafe",
+      "calories": "Kalori",
+      "activeTime": "Aktif Zaman",
+      "km": "kilometre",
+      "kcal": "kcal",
+      "mins": "dakika"
+    },
+    "goal": {
+      "label": "Günlük Hedef",
+      "value": "{{val}} adım",
+      "change": "Hedefi Değiştir"
+    },
+    "quickAdd": {
+      "title": "Hızlı Ekleme Adımları",
+      "label": "Özel Adımlar",
+      "placeholder": "örneğin 3500",
+      "submit": "Ekle"
+    },
+    "insights": {
+      "title": "Bugünün Analizleri",
+      "remaining": "Kalan Adımlar",
+      "stride": "Adım Uzunluğu",
+      "progress": "İlerleme",
+      "complete": "Tamamla!",
+      "percentOfGoal": "Hedefin %{{val}} kadarı"
+    },
+    "reset": "Bugünün Adımlarını Sıfırla"
+  },
+  "history": {
+    "title": "Adım Geçmişi",
+    "noHistory": "Henüz geçmişi yok. Adımlarınızı takip etmeye başlayın!",
+    "today": "Bugün",
+    "stats": {
+      "steps": "Adımlar",
+      "goal": "Gol",
+      "progress": "İlerleme"
+    }
+  },
+  "modals": {
+    "goal": {
+      "title": "Günlük Hedef Belirle",
+      "subtitle": "Hedef günlük adımlarınızı girin",
+      "placeholder": "örneğin 10000",
+      "cancel": "İptal",
+      "save": "Kaydet"
+    },
+    "profile": {
+      "title": "Profili Güncelle",
+      "subtitle": "Bu, doğru mesafe ve kalori hesaplamasına yardımcı olur",
+      "height": "Yükseklik (cm)",
+      "weight": "Ağırlık (kg)",
+      "gender": "Cinsiyet",
+      "male": "Erkek",
+      "female": "Kadın",
+      "placeholderHeight": "örneğin 170",
+      "placeholderWeight": "örneğin 70",
+      "cancel": "İptal",
+      "save": "Kaydet"
+    }
+  }
+}

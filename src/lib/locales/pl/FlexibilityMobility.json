@@ -1,0 +1,227 @@
+{
+  "header": {
+    "title": "Elastyczność i mobilność",
+    "subtitle": "Popraw zakres ruchu i zapobiegnij kontuzjom",
+    "back": "Powrót do Panelu"
+  },
+  "tabs": {
+    "stretches": "Codzienne rozciąganie",
+    "tests": "Testy mobilności",
+    "log": "Dziennik odzyskiwania"
+  },
+  "player": {
+    "stretch": "Rozciągnij {{current}} z {{total}}",
+    "resume": "Wznów",
+    "pause": "Pauza",
+    "skip": "Pomiń",
+    "cancel": "Anuluj",
+    "bilateral_hint": "💡 Pamiętaj, aby zmienić stronę, gdy skończy się czas",
+    "preview": {
+      "stretches_count": "{{count}} Rozciągnięcia (łącznie: {{duration}} min):",
+      "start": "Rozpocznij {{duration}}-min rutynę",
+      "cancel": "Anuluj"
+    },
+    "complete": {
+      "title": "Rutyna ukończona!",
+      "desc": "Świetna robota, ukończenie {{name}}!",
+      "rate_label": "Czujesz się lepiej? Oceń swoją poprawę: {{rating}}/10",
+      "worse": "Gorzej",
+      "same": "To samo",
+      "much_better": "Dużo lepiej",
+      "save": "Zapisz sesję",
+      "done": "Gotowe"
+    }
+  },
+  "routines": {
+    "upper-body": {
+      "name": "Górna część ciała otwarta",
+      "focus": "Klatka piersiowa, ramiona, środkowa część pleców",
+      "desc": "Uwolnij napięcie wynikające z pracy przy biurku i korzystania z telefonu",
+      "stretches": {
+        "Doorway Chest Stretch": {
+          "name": "Rozciąganie klatki piersiowej przy drzwiach",
+          "desc": "Stań w drzwiach, połóż przedramiona na ramie i pochyl się do przodu, aby poczuć rozciąganie klatki piersiowej."
+        },
+        "Shoulder Rolls": {
+          "name": "Roladki na ramię",
+          "desc": "Obróć ramiona do tyłu, wykonując duże koła, 10 powtórzeń."
+        },
+        "Thoracic Rotation": {
+          "name": "Rotacja klatki piersiowej",
+          "desc": "Opierając się na dłoniach i kolanach, obracaj górną część ciała na boki, otwierając klatkę piersiową."
+        },
+        "Neck Stretch": {
+          "name": "Rozciągnięcie szyi",
+          "desc": "Delikatnie przechyl głowę na każdą stronę, przytrzymując przez 30 sekund na stronę."
+        },
+        "Tricep Stretch": {
+          "name": "Rozciąganie tricepsów",
+          "desc": "Wyciągnij rękę nad głowę, zegnij łokieć i delikatnie pociągnij drugą ręką."
+        }
+      }
+    },
+    "lower-body": {
+      "name": "Uwolnienie dolnej części ciała",
+      "focus": "Ścięgna podkolanowe, pośladki, zginacze bioder",
+      "desc": "Głębokie rozciąganie na napięte nogi i biodra od siedzenia",
+      "stretches": {
+        "Pigeon Pose": {
+          "name": "Pozycja gołębia",
+          "desc": "Przesuń jedną nogę zgiętą do przodu, wyprostuj nogę tylną i opuść biodra w dół."
+        },
+        "Hamstring Stretch": {
+          "name": "Rozciągnięcie ścięgna podkolanowego",
+          "desc": "Usiądź z wyciągniętą jedną nogą, sięgnij do palców u nóg, plecy trzymaj prosto."
+        },
+        "Hip Flexor Lunge": {
+          "name": "Wykrok zginacza bioder",
+          "desc": "Pozycja wypadowa, wypchnij biodra do przodu, aby poczuć rozciąganie przedniego biodra."
+        },
+        "Glute Stretch": {
+          "name": "Rozciągnięcie pośladków",
+          "desc": "Leżąc na plecach, skrzyżuj kostkę nad przeciwległym kolanem i przyciągnij do klatki piersiowej."
+        },
+        "Calf Stretch": {
+          "name": "Rozciąganie łydek",
+          "desc": "Wykonaj krok do przodu w lonży, utrzymując piętę w dole, aby rozciągnąć łydkę."
+        }
+      }
+    },
+    "full-body": {
+      "name": "Pełny przepływ ciała",
+      "focus": "Całkowita konserwacja ciała",
+      "desc": "Kompletny program elastyczności od stóp do głów",
+      "stretches": {
+        "Cat-Cow": {
+          "name": "Kot-Krowa",
+          "desc": "Na dłoniach i kolanach kręgosłup naprzemiennie wygina się w łuk i zaokrągla."
+        },
+        "Downward Dog": {
+          "name": "Pies w dół",
+          "desc": "Dłonie i stopy osadzone, biodra wysoko, tworząc odwrócone V."
+        },
+        "Child's Pose": {
+          "name": "Pozycja dziecka",
+          "desc": "Kolana szeroko, usiądź na piętach, ręce wyciągnięte do przodu."
+        },
+        "Seated Twist": {
+          "name": "Siedzący Twist",
+          "desc": "Usiądź ze skrzyżowanymi nogami, obróć tułów w każdą stronę, ręce za plecami."
+        },
+        "Forward Fold": {
+          "name": "Składanie do przodu",
+          "desc": "Stojąc, zginaj biodra, sięgnij do palców u stóp, głowa zwisa."
+        },
+        "Hip Circles": {
+          "name": "Kręgi biodrowe",
+          "desc": "Ręce na biodrach wykonuj duże koła biodrami w obu kierunkach."
+        },
+        "Arm Circles": {
+          "name": "Kręgi ramion",
+          "desc": "Rozciągnij szeroko ramiona, wykonuj duże koła do przodu, a następnie do tyłu."
+        }
+      }
+    },
+    "dynamic-warmup": {
+      "name": "Dynamiczna rozgrzewka",
+      "focus": "Aktywacja przed treningiem",
+      "desc": "Przygotuj swoje ciało przed ćwiczeniami",
+      "stretches": {
+        "Leg Swings": {
+          "name": "Wymachy nóg",
+          "desc": "Przytrzymaj ścianę, przesuń nogę do przodu i do tyłu, a następnie na boki."
+        },
+        "Arm Circles": {
+          "name": "Kręgi ramion",
+          "desc": "Małe i duże kółka, do przodu i do tyłu."
+        },
+        "Torso Twists": {
+          "name": "Skręty tułowia",
+          "desc": "Obróć górną część ciała na boki z luźnymi ramionami."
+        },
+        "Walking Lunges": {
+          "name": "Chodzące wypady",
+          "desc": "Wykonaj krok do przodu w lonży, zmieniając nogi podczas ruchu do przodu."
+        },
+        "High Knees": {
+          "name": "Wysokie kolana",
+          "desc": "Marsz w miejscu, podnosząc kolana na wysokość bioder."
+        }
+      }
+    }
+  },
+  "benefits": {
+    "title": "Dlaczego codzienne rozciąganie ma znaczenie"
+  },
+  "tests": {
+    "status": {
+      "title": "Twój status mobilności",
+      "based_on": "Na podstawie wyników testów: {{count}}",
+      "complete_below": "Pełne testy poniżej",
+      "score_label": "Wynik: {{points}}/6 punktów (Zaliczenie=2, Częściowe=1, Wymaga Pracy=0)",
+      "elite": "Elitarna mobilność",
+      "good": "Dobra mobilność",
+      "limited": "Ograniczona mobilność",
+      "not_tested": "Nie testowano"
+    },
+    "items": {
+      "sit-reach": {
+        "name": "Test Usiądź i Sięgnij",
+        "desc": "Usiądź z wyprostowanymi nogami, sięgnij w kierunku palców stóp",
+        "pass": "Potrafi dotykać lub podawać palce u nóg",
+        "fail": "Ponad 6 cali od palców"
+      },
+      "shoulder-pass": {
+        "name": "Przejście przez ramię",
+        "desc": "Trzymaj drążek/kij, unieś ręce nad głowę i za plecami",
+        "pass": "Można przejść płynnie",
+        "fail": "Nie można dokończyć ruchu"
+      },
+      "deep-squat": {
+        "name": "Głębokie przysiady",
+        "desc": "Przysiad z płaskimi piętami, przytrzymaj przez 30 sekund",
+        "pass": "Wytrzymuje 30 lat, pięty w dół",
+        "fail": "Obcasy unoszą się lub nie mogą utrzymać"
+      }
+    },
+    "tips": {
+      "title": "Wskazówki dotyczące testowania"
+    },
+    "actions": {
+      "pass": "✓ Pass",
+      "partial": "~ Częściowe",
+      "fail": "✗ Potrzebuje pracy"
+    }
+  },
+  "log": {
+    "title": "Sesja odzyskiwania dziennika",
+    "duration": "Czas trwania (minuty)",
+    "focus_areas": "Obszary zainteresowania (zaznacz wszystkie, które mają zastosowanie)",
+    "soreness_label": "Bolesność przed sesją: {{level}}/10",
+    "no_pain": "1 - Bez bólu",
+    "moderate": "5 - Umiarkowany",
+    "very_sore": "10 - Bardzo obolały",
+    "submit": "🧘 Zaloguj sesję",
+    "heatmap": {
+      "title": "Mapa cieplna odzyskiwania",
+      "legend": "Fioletowe kropki oznaczają dni z sesjami regeneracyjnymi"
+    },
+    "badge": {
+      "title": "Dowód na kontuzję!",
+      "desc": "W tym tygodniu ukończyłeś {{count}} sesji regeneracyjnych!"
+    },
+    "stats": {
+      "total": "Łączna liczba minut",
+      "this_week": "W tym tygodniu"
+    },
+    "recent": "Ostatnie sesje",
+    "areas": {
+      "Neck": "Szyja",
+      "Shoulders": "Ramiona",
+      "Back": "Powrót",
+      "Hips": "Biodra",
+      "Legs": "Nogi",
+      "Full Body": "Pełne Ciało"
+    }
+  }
+}

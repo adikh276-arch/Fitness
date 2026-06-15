@@ -1,0 +1,244 @@
+{
+  "header": {
+    "title": "Gut Health Guide",
+    "subtitle": "Track digestive health and build a thriving microbiome",
+    "back": "Tillbaka till Dashboard"
+  },
+  "tabs": {
+    "log": "Daglig maglogg",
+    "map": "Mikrobiom karta",
+    "habits": "Fiber & Fermentera"
+  },
+  "bristol": {
+    "title": "Bristol pallvåg",
+    "info": "The gold standard for tracking digestive transit time and gut health",
+    "types": {
+      "type1": {
+        "label": "Typ 1",
+        "desc": "Severe constipation - Separate hard lumps"
+      },
+      "type2": {
+        "label": "Typ 2",
+        "desc": "Mild förstoppning - Klumpig och korvlik"
+      },
+      "type3": {
+        "label": "Typ 3",
+        "desc": "Normal - Sausage with cracks"
+      },
+      "type4": {
+        "label": "Typ 4",
+        "desc": "Ideal - Smooth, soft sausage"
+      },
+      "type5": {
+        "label": "Typ 5",
+        "desc": "Saknar fibrer - Mjuka blobbar"
+      },
+      "type6": {
+        "label": "Typ 6",
+        "desc": "Mild diarré - mosig"
+      },
+      "type7": {
+        "label": "Typ 7",
+        "desc": "Svår diarré - Flytande"
+      }
+    },
+    "alert": "Välj en typ av Bristol pallvåg"
+  },
+  "symptoms": {
+    "title": "Symtom idag",
+    "items": {
+      "Bloating": "Uppblåsthet",
+      "Gas": "Gas",
+      "Cramping": "Kramper",
+      "Reflux": "Återflöde",
+      "Energy Dip": "Energidopp"
+    }
+  },
+  "triggers": {
+    "title": "Misstänkt trigger",
+    "items": {
+      "Dairy": "Mejeri",
+      "Gluten": "Gluten",
+      "Coffee": "Kaffe",
+      "Spicy Food": "Kryddig mat",
+      "Alcohol": "Alkohol",
+      "Stress": "Stress",
+      "Other": "Annat"
+    }
+  },
+  "log": {
+    "submit": "Logginmatning",
+    "success": "Gut log saved successfully!",
+    "recent": {
+      "title": "Senaste loggar",
+      "trigger": "Utlösare:"
+    }
+  },
+  "microbiome": {
+    "prebiotics": {
+      "title": "Prebiotika",
+      "subtitle": "The Food for Your Gut Bacteria",
+      "desc": "Prebiotika är fiberrika livsmedel som matar de nyttiga bakterierna i din tarm, vilket hjälper dem att frodas och föröka sig."
+    },
+    "probiotics": {
+      "title": "Probiotika",
+      "subtitle": "The Live Beneficial Bacteria",
+      "desc": "Probiotika är levande mikroorganismer som finns i fermenterade livsmedel som direkt tillför nyttiga bakterier till din tarm."
+    }
+  },
+  "diversity": {
+    "title": "Utmaningen 30 växter i veckan",
+    "subtitle": "Forskning visar att att äta mer än 30 olika växter per vecka stödjer optimal tarmdiversitet",
+    "score_label": "/ 30 plantor",
+    "weekly_score": "Veckovis mångfaldspoäng",
+    "feedback": {
+      "excellent": "🎉 Utmärkt! You're hitting the 30 plant goal",
+      "great": "👍 Stor mångfald! Fortsätt lägga till variation",
+      "good": "📈 Bra start! Aim for more plant variety",
+      "start": "🌱 Börja lägga till olika växter för att öka tarmhälsa"
+    }
+  },
+  "habits": {
+    "title": "The Happy Gut Checklista",
+    "subtitle": "Slutför dessa dagliga vanor för optimal matsmältningshälsa",
+    "items": {
+      "fiber": {
+        "label": "25g+ fiber förbrukat",
+        "desc": "Från fullkorn, frukt och grönsaker"
+      },
+      "fermented": {
+        "label": "Included 1 Fermented Food",
+        "desc": "Kimchi, yoghurt, kefir eller surkål"
+      },
+      "mindful": {
+        "label": "Mindful Eating (20+ tuggar)",
+        "desc": "Korrekt tuggning hjälper matsmältningen"
+      },
+      "fast": {
+        "label": "12 timmars tarmvila över natten",
+        "desc": "Fastefönster tillåter tarmreparation"
+      }
+    }
+  },
+  "tracker": {
+    "title": "30-dagars vanespårare",
+    "tooltip": "Dag {{dayNum}}: {{count}}/4 vanor",
+    "legend": {
+      "none": "Inga",
+      "one": "1",
+      "two": "2",
+      "three": "3",
+      "four": "3-4",
+      "all": "Alla 4"
+    }
+  },
+  "essentials": {
+    "title": "Tarmhälsa Essentials"
+  },
+  "plants": {
+    "Spinach": "Spenat",
+    "Kale": "Grönkål",
+    "Arugula": "Ruccola",
+    "Romaine": "Romaine",
+    "Broccoli": "Broccoli",
+    "Cauliflower": "Blomkål",
+    "Brussels Sprouts": "Brysselkål",
+    "Cabbage": "Kål",
+    "Carrots": "Morötter",
+    "Sweet Potatoes": "Sötpotatis",
+    "Beets": "Rödbetor",
+    "Radishes": "Rädisor",
+    "Chickpeas": "Kikärter",
+    "Lentils": "Linser",
+    "Black Beans": "Svarta bönor",
+    "Kidney Beans": "Kidneybönor",
+    "Oats": "Havre",
+    "Brown Rice": "Brunt ris",
+    "Quinoa": "Quinoa",
+    "Barley": "Korn",
+    "Almonds": "Mandel",
+    "Walnuts": "Valnötter",
+    "Pistachios": "Pistagenötter",
+    "Cashews": "Cashewnötter",
+    "Chia": "Chia",
+    "Flax": "Lin",
+    "Pumpkin Seeds": "Pumpafrön",
+    "Sunflower Seeds": "Solrosfrön",
+    "Blueberries": "Blåbär",
+    "Strawberries": "Jordgubbar",
+    "Raspberries": "Hallon",
+    "Blackberries": "Björnbär",
+    "Oranges": "Apelsiner",
+    "Lemons": "Citroner",
+    "Limes": "Limefrukter",
+    "Grapefruit": "Grapefrukt",
+    "Bananas": "Bananer",
+    "Pineapple": "Ananas",
+    "Mango": "Mango",
+    "Papaya": "Papaya",
+    "Peaches": "Persikor",
+    "Plums": "Plommon",
+    "Cherries": "Körsbär",
+    "Apricots": "Aprikoser",
+    "Basil": "Basilika",
+    "Cilantro": "Koriander",
+    "Mint": "Mynta",
+    "Parsley": "Persilja",
+    "Rosemary": "Rosmarin",
+    "Turmeric": "Gurkmeja",
+    "Ginger": "Ingefära",
+    "Cinnamon": "Kanel",
+    "Cumin": "Kummin",
+    "Paprika": "Paprika",
+    "Kimchi": "Kimchi",
+    "Sauerkraut": "Surkål",
+    "Miso": "Miso",
+    "Tempeh": "Tempeh",
+    "Button Mushrooms": "Knapp Champinjoner",
+    "Shiitake": "Shiitake",
+    "Portobello": "Portobello",
+    "Oyster Mushrooms": "Ostronsvamp",
+    "Pumpkin": "Pumpa",
+    "Butternut Squash": "Butternut Squash",
+    "Zucchini": "Zucchini",
+    "Acorn Squash": "Acorn Squash",
+    "Bell Peppers": "Paprika",
+    "Jalapeños": "Jalapeños",
+    "Chili": "Chili",
+    "Cherry Tomatoes": "Körsbärstomater",
+    "Roma Tomatoes": "Roma tomater",
+    "Beefsteak Tomatoes": "Biff tomater",
+    "Garlic": "Vitlök",
+    "Onions": "Lök",
+    "Leeks": "Purjolök",
+    "Shallots": "Schalottenlök",
+    "Alfalfa Sprouts": "Alfalfa groddar",
+    "Broccoli Sprouts": "Broccoli groddar",
+    "Mung Bean Sprouts": "Mung böngroddar",
+    "Nori": "Nori",
+    "Kelp": "Kelp",
+    "Wakame": "Wakame",
+    "Buckwheat": "Bovete",
+    "Farro": "Farro",
+    "Amaranth": "Amaranth",
+    "Millet": "Hirs",
+    "Watermelon": "Vattenmelon",
+    "Cantaloupe": "Cantaloupe",
+    "Honeydew": "Honungsdagg",
+    "Apples": "Äpplen",
+    "Pears": "Päron",
+    "Avocado": "Avokado",
+    "Coconut": "Kokosnöt",
+    "Coconut Milk": "Kokosmjölk",
+    "Coconut Water": "Kokos vatten",
+    "Olives": "Oliver",
+    "Dark Chocolate": "Mörk choklad",
+    "Cacao Nibs": "Kakaonibs",
+    "Cocoa Powder": "Kakaopulver",
+    "Green Tea": "Grönt te",
+    "Black Tea": "Svart te",
+    "Chamomile": "Kamomill",
+    "Peppermint Tea": "Pepparmyntste",
+    "Coffee": "Kaffe"
+  }
+}

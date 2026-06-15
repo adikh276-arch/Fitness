@@ -1,0 +1,227 @@
+{
+  "header": {
+    "title": "Flexibilidade e Mobilidade",
+    "subtitle": "Melhore a amplitude de movimento e evite lesões",
+    "back": "Voltar ao painel"
+  },
+  "tabs": {
+    "stretches": "Alongamentos diários",
+    "tests": "Testes de mobilidade",
+    "log": "Registro de recuperação"
+  },
+  "player": {
+    "stretch": "Alongamento {{atual}} de {{total}}",
+    "resume": "Currículo",
+    "pause": "Pausa",
+    "skip": "Pular",
+    "cancel": "Cancelar",
+    "bilateral_hint": "💡 Lembre-se de mudar de lado quando o cronômetro terminar",
+    "preview": {
+      "stretches_count": "{{count}} alongamentos ({{duration}} min no total):",
+      "start": "Iniciar rotina de {{duration}}-Min",
+      "cancel": "Cancelar"
+    },
+    "complete": {
+      "title": "Rotina concluída!",
+      "desc": "Ótimo trabalho completando {{name}}!",
+      "rate_label": "Sente-se melhor? Avalie sua melhoria: {{rating}}/10",
+      "worse": "Pior",
+      "same": "Igual",
+      "much_better": "Muito melhor",
+      "save": "Salvar sessão",
+      "done": "Concluído"
+    }
+  },
+  "routines": {
+    "upper-body": {
+      "name": "Parte superior do corpo aberta",
+      "focus": "Peito, ombros, meio das costas",
+      "desc": "Libere a tensão do trabalho de mesa e do uso do telefone",
+      "stretches": {
+        "Doorway Chest Stretch": {
+          "name": "Alongamento do peito na porta",
+          "desc": "Fique na porta, coloque os antebraços na moldura e incline-se para a frente para sentir o alongamento do peito."
+        },
+        "Shoulder Rolls": {
+          "name": "Rolinhos de Ombro",
+          "desc": "Role os ombros para trás em grandes círculos, 10 repetições."
+        },
+        "Thoracic Rotation": {
+          "name": "Rotação Torácica",
+          "desc": "Nas mãos e joelhos, gire a parte superior do corpo de um lado para o outro, abrindo o peito."
+        },
+        "Neck Stretch": {
+          "name": "Alongamento do pescoço",
+          "desc": "Incline suavemente a cabeça para cada lado, segurando por 30 segundos de cada lado."
+        },
+        "Tricep Stretch": {
+          "name": "Alongamento de tríceps",
+          "desc": "Estenda o braço acima da cabeça, dobre o cotovelo e puxe suavemente com a outra mão."
+        }
+      }
+    },
+    "lower-body": {
+      "name": "Liberação da parte inferior do corpo",
+      "focus": "Isquiotibiais, glúteos, flexores do quadril",
+      "desc": "Alongamentos profundos para pernas e quadris tensos ao sentar",
+      "stretches": {
+        "Pigeon Pose": {
+          "name": "Postura de pombo",
+          "desc": "Traga uma perna dobrada para a frente, estenda a perna de trás reta e afunde os quadris."
+        },
+        "Hamstring Stretch": {
+          "name": "Alongamento dos isquiotibiais",
+          "desc": "Sente-se com uma perna estendida, alcance os dedos dos pés e mantenha as costas retas."
+        },
+        "Hip Flexor Lunge": {
+          "name": "Estocada flexora do quadril",
+          "desc": "Posição de estocada, empurre os quadris para a frente para sentir o alongamento na frente do quadril."
+        },
+        "Glute Stretch": {
+          "name": "Alongamento de glúteos",
+          "desc": "Deitado de costas, cruze o tornozelo sobre o joelho oposto e puxe em direção ao peito."
+        },
+        "Calf Stretch": {
+          "name": "Alongamento da panturrilha",
+          "desc": "Dê um passo à frente na estocada, mantenha o calcanhar para trás para alongar a panturrilha."
+        }
+      }
+    },
+    "full-body": {
+      "name": "Fluxo de corpo inteiro",
+      "focus": "Manutenção Total do Corpo",
+      "desc": "Rotina completa de flexibilidade da cabeça aos pés",
+      "stretches": {
+        "Cat-Cow": {
+          "name": "Vaca-Gato",
+          "desc": "Nas mãos e joelhos, alterne o arqueamento e o arredondamento da coluna."
+        },
+        "Downward Dog": {
+          "name": "Cão descendente",
+          "desc": "Mãos e pés plantados, quadris elevados, formando um V invertido."
+        },
+        "Child's Pose": {
+          "name": "Postura de criança",
+          "desc": "Joelhos abertos, sente-se sobre os calcanhares, braços estendidos para a frente."
+        },
+        "Seated Twist": {
+          "name": "Torção Sentada",
+          "desc": "Sente-se com as pernas cruzadas, gire o tronco para cada lado, com as mãos atrás das costas."
+        },
+        "Forward Fold": {
+          "name": "Dobra para frente",
+          "desc": "Em pé, dobre os quadris, alcance os dedos dos pés e deixe a cabeça pender."
+        },
+        "Hip Circles": {
+          "name": "Círculos de quadril",
+          "desc": "Com as mãos nos quadris, faça grandes círculos com os quadris em ambas as direções."
+        },
+        "Arm Circles": {
+          "name": "Círculos de braço",
+          "desc": "Estenda bem os braços, faça grandes círculos para a frente e depois para trás."
+        }
+      }
+    },
+    "dynamic-warmup": {
+      "name": "Aquecimento Dinâmico",
+      "focus": "Ativação pré-treino",
+      "desc": "Prepare seu corpo antes do exercício",
+      "stretches": {
+        "Leg Swings": {
+          "name": "Balanços de perna",
+          "desc": "Segure a parede, balance a perna para frente e para trás e depois de um lado para o outro."
+        },
+        "Arm Circles": {
+          "name": "Círculos de braço",
+          "desc": "Círculos pequenos a grandes, para frente e para trás."
+        },
+        "Torso Twists": {
+          "name": "Torções do tronco",
+          "desc": "Gire a parte superior do corpo de um lado para o outro com os braços soltos."
+        },
+        "Walking Lunges": {
+          "name": "Pulmões andando",
+          "desc": "Dê um passo à frente para a estocada, alterne as pernas enquanto avança."
+        },
+        "High Knees": {
+          "name": "Joelhos altos",
+          "desc": "Marche no lugar trazendo os joelhos até a altura do quadril."
+        }
+      }
+    }
+  },
+  "benefits": {
+    "title": "Por que o alongamento diário é importante"
+  },
+  "tests": {
+    "status": {
+      "title": "Seu status de mobilidade",
+      "based_on": "Com base em {{count}} resultados de testes",
+      "complete_below": "Testes completos abaixo",
+      "score_label": "Pontuação: {{points}}/6 pontos (Aprovado=2, Parcial=1, Precisa de Trabalho=0)",
+      "elite": "Mobilidade de Elite",
+      "good": "Boa mobilidade",
+      "limited": "Mobilidade Limitada",
+      "not_tested": "Não testado"
+    },
+    "items": {
+      "sit-reach": {
+        "name": "Teste de sentar e alcançar",
+        "desc": "Sente-se com as pernas esticadas, alcance os dedos dos pés",
+        "pass": "Pode tocar ou passar os dedos dos pés",
+        "fail": "Mais de 15 centímetros dos dedos dos pés"
+      },
+      "shoulder-pass": {
+        "name": "Passagem de Ombro",
+        "desc": "Segure uma faixa/bastão, levante os braços acima da cabeça e atrás das costas",
+        "pass": "Consegue passar tranquilamente",
+        "fail": "Não é possível concluir o movimento"
+      },
+      "deep-squat": {
+        "name": "Agachamento profundo",
+        "desc": "Agache-se com os calcanhares apoiados e segure por 30 segundos",
+        "pass": "Pode aguentar 30 anos, calcanhares para baixo",
+        "fail": "Os calcanhares levantam ou não conseguem segurar"
+      }
+    },
+    "tips": {
+      "title": "Dicas de teste"
+    },
+    "actions": {
+      "pass": "✓ Passe",
+      "partial": "~ Parcial",
+      "fail": "✗ Precisa de trabalho"
+    }
+  },
+  "log": {
+    "title": "Sessão de recuperação de log",
+    "duration": "Duração (minutos)",
+    "focus_areas": "Áreas de foco (selecione todas as opções aplicáveis)",
+    "soreness_label": "Dor antes da sessão: {{level}}/10",
+    "no_pain": "1 – Sem dor",
+    "moderate": "5 – Moderado",
+    "very_sore": "10 – Muito dolorido",
+    "submit": "🧘 Sessão de registro",
+    "heatmap": {
+      "title": "Mapa de calor de recuperação",
+      "legend": "Pontos roxos marcam dias com sessões de recuperação"
+    },
+    "badge": {
+      "title": "À prova de lesões!",
+      "desc": "Você completou {{count}} sessões de recuperação esta semana!"
+    },
+    "stats": {
+      "total": "Total de minutos",
+      "this_week": "Esta semana"
+    },
+    "recent": "Sessões recentes",
+    "areas": {
+      "Neck": "Pescoço",
+      "Shoulders": "Ombros",
+      "Back": "Voltar",
+      "Hips": "Quadris",
+      "Legs": "Pernas",
+      "Full Body": "Corpo inteiro"
+    }
+  }
+}

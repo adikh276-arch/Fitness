@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "back": "Terug naar Dashboard"
+  },
+  "header": {
+    "title": "Calorieverbrander",
+    "subtitle": "Houd het aantal verbrande calorieën tijdens uw activiteiten bij"
+  },
+  "tabs": {
+    "calculator": "Rekenmachine",
+    "log": "Activiteitenlogboek ({{count}})"
+  },
+  "calculator": {
+    "form": {
+      "title": "Activiteitsdetails",
+      "selectActivity": "Selecteer Activiteit",
+      "weight": "Jouw gewicht",
+      "duration": "Duur (minuten)",
+      "placeholders": {
+        "weightKg": "bijvoorbeeld 70",
+        "weightLbs": "bijvoorbeeld 154"
+      },
+      "submit": "Activiteit loggen"
+    },
+    "summary": {
+      "title": "Samenvatting branden",
+      "calories": "Verbrande calorieën",
+      "activity": "Activiteit",
+      "duration": "Duur",
+      "weight": "Gewicht",
+      "burnRate": "Calorieverbrandingssnelheid",
+      "formula": "Formule: (MET × 3,5 × Gewicht kg / 200) × Duur min"
+    }
+  },
+  "log": {
+    "noActivities": "Nog geen activiteiten geregistreerd",
+    "noActivitiesDesc": "Begin met het bijhouden van uw trainingen om ze hier te bekijken",
+    "logFirst": "Registreer uw eerste activiteit",
+    "summary": {
+      "title": "Totale samenvatting",
+      "totalActivities": "Totaal activiteiten",
+      "totalCalories": "Totaal aantal calorieën",
+      "totalTime": "Totale tijd",
+      "avgSession": "Gem. Cal./Sessie"
+    },
+    "item": {
+      "duration": "Duur",
+      "met": "MET",
+      "calories": "Calorieën",
+      "minutes": "min"
+    }
+  },
+  "activities": {
+    "walking": "Lopen (stevig)",
+    "running": "Hardlopen (9 min/mijl)",
+    "cycling": "Fietsen (Gemiddeld)",
+    "yoga": "Yoga",
+    "swimming": "Zwemmen (ronden)",
+    "strength": "Krachttraining",
+    "household": "Huishoudelijke klusjes",
+    "dance": "Dans/aerobics"
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "header": {
+    "title": "Fleksibilitas & Mobilitas",
+    "subtitle": "Meningkatkan rentang gerak dan mencegah cedera",
+    "back": "Kembali ke Dasbor"
+  },
+  "tabs": {
+    "stretches": "Peregangan Harian",
+    "tests": "Tes Mobilitas",
+    "log": "Log Pemulihan"
+  },
+  "player": {
+    "stretch": "Peregangan {{saat ini}} dari {{total}}",
+    "resume": "Lanjutkan",
+    "pause": "Jeda",
+    "skip": "Lewati",
+    "cancel": "Batalkan",
+    "bilateral_hint": "💡 Ingatlah untuk berpindah sisi saat penghitung waktu berakhir",
+    "preview": {
+      "stretches_count": "{{count}} Peregangan (total {{duration}} menit):",
+      "start": "Mulai {{duration}}-Min Rutin",
+      "cancel": "Batalkan"
+    },
+    "complete": {
+      "title": "Rutin Selesai!",
+      "desc": "Kerja bagus menyelesaikan {{name}}!",
+      "rate_label": "Merasa Lebih Baik? Nilai peningkatan Anda: {{rating}}/10",
+      "worse": "Lebih buruk lagi",
+      "same": "Sama",
+      "much_better": "Jauh Lebih Baik",
+      "save": "Simpan Sesi",
+      "done": "Selesai"
+    }
+  },
+  "routines": {
+    "upper-body": {
+      "name": "Tubuh Bagian Atas Terbuka",
+      "focus": "Dada, Bahu, Punggung Tengah",
+      "desc": "Lepaskan ketegangan dari pekerjaan meja dan penggunaan telepon",
+      "stretches": {
+        "Doorway Chest Stretch": {
+          "name": "Peregangan Dada Pintu",
+          "desc": "Berdirilah di ambang pintu, letakkan lengan bawah pada rangka, condongkan tubuh ke depan untuk merasakan regangan dada."
+        },
+        "Shoulder Rolls": {
+          "name": "Gulungan Bahu",
+          "desc": "Putar bahu ke belakang dalam lingkaran besar, 10 repetisi."
+        },
+        "Thoracic Rotation": {
+          "name": "Rotasi Toraks",
+          "desc": "Dengan tangan dan lutut, putar tubuh bagian atas dari sisi ke sisi, buka dada."
+        },
+        "Neck Stretch": {
+          "name": "Peregangan Leher",
+          "desc": "Miringkan kepala secara perlahan ke setiap sisi, tahan selama 30 detik di setiap sisi."
+        },
+        "Tricep Stretch": {
+          "name": "Peregangan Trisep",
+          "desc": "Raih lengan ke atas, tekuk siku, tarik perlahan dengan tangan lainnya."
+        }
+      }
+    },
+    "lower-body": {
+      "name": "Pelepasan Tubuh Bagian Bawah",
+      "focus": "Paha belakang, otot bokong, fleksor pinggul",
+      "desc": "Peregangan dalam untuk mengencangkan kaki dan pinggul saat duduk",
+      "stretches": {
+        "Pigeon Pose": {
+          "name": "Pose Merpati",
+          "desc": "Bawa satu kaki ke depan ditekuk, rentangkan kaki belakang lurus, turunkan pinggul."
+        },
+        "Hamstring Stretch": {
+          "name": "Peregangan Hamstring",
+          "desc": "Duduk dengan satu kaki diluruskan, raih ke arah jari kaki, jaga punggung tetap lurus."
+        },
+        "Hip Flexor Lunge": {
+          "name": "Lunge Fleksor Pinggul",
+          "desc": "Posisi lunge, dorong pinggul ke depan hingga merasakan regangan pada pinggul depan."
+        },
+        "Glute Stretch": {
+          "name": "Peregangan otot bokong",
+          "desc": "Berbaring telentang, silangkan pergelangan kaki di atas lutut yang berlawanan, tarik ke arah dada."
+        },
+        "Calf Stretch": {
+          "name": "Peregangan Betis",
+          "desc": "Melangkah maju dalam gerakan lunge, jaga tumit tetap di bawah untuk meregangkan betis."
+        }
+      }
+    },
+    "full-body": {
+      "name": "Aliran Seluruh Tubuh",
+      "focus": "Perawatan Tubuh Total",
+      "desc": "Selesaikan rutinitas fleksibilitas dari kepala hingga ujung kaki",
+      "stretches": {
+        "Cat-Cow": {
+          "name": "Kucing-Sapi",
+          "desc": "Pada tangan dan lutut, tulang belakang melengkung dan membulat secara bergantian."
+        },
+        "Downward Dog": {
+          "name": "Anjing Ke Bawah",
+          "desc": "Tangan dan kaki ditanam, pinggul tinggi, membentuk huruf V terbalik."
+        },
+        "Child's Pose": {
+          "name": "Pose Anak",
+          "desc": "Lutut lebar-lebar, duduk bersandar, lengan terentang ke depan."
+        },
+        "Seated Twist": {
+          "name": "Putaran Duduk",
+          "desc": "Duduk bersila, putar badan ke masing-masing sisi, tangan di belakang punggung."
+        },
+        "Forward Fold": {
+          "name": "Lipat ke Depan",
+          "desc": "Berdiri, bergantung pada pinggul, raih ke arah jari kaki, biarkan kepala menggantung."
+        },
+        "Hip Circles": {
+          "name": "Lingkaran Pinggul",
+          "desc": "Tangan di pinggul, buat lingkaran besar dengan pinggul di kedua arah."
+        },
+        "Arm Circles": {
+          "name": "Lingkaran Lengan",
+          "desc": "Rentangkan lengan lebar-lebar, buat lingkaran besar ke depan lalu ke belakang."
+        }
+      }
+    },
+    "dynamic-warmup": {
+      "name": "Pemanasan Dinamis",
+      "focus": "Aktivasi Pra-Latihan",
+      "desc": "Persiapkan tubuh Anda sebelum berolahraga",
+      "stretches": {
+        "Leg Swings": {
+          "name": "Ayunan Kaki",
+          "desc": "Pegang dinding, ayunkan kaki ke depan dan ke belakang, lalu dari sisi ke sisi."
+        },
+        "Arm Circles": {
+          "name": "Lingkaran Lengan",
+          "desc": "Lingkaran kecil hingga besar, maju dan mundur."
+        },
+        "Torso Twists": {
+          "name": "Putaran Tubuh",
+          "desc": "Putar tubuh bagian atas dari sisi ke sisi dengan lengan longgar."
+        },
+        "Walking Lunges": {
+          "name": "Berjalan Lunge",
+          "desc": "Melangkah maju untuk melakukan lunge, bergantian kaki sambil bergerak maju."
+        },
+        "High Knees": {
+          "name": "Lutut Tinggi",
+          "desc": "Berbaris di tempat dengan lutut setinggi pinggul."
+        }
+      }
+    }
+  },
+  "benefits": {
+    "title": "Mengapa Peregangan Harian Penting"
+  },
+  "tests": {
+    "status": {
+      "title": "Status Mobilitas Anda",
+      "based_on": "Berdasarkan hasil tes {{count}}",
+      "complete_below": "Selesaikan tes di bawah ini",
+      "score_label": "Skor: {{points}}/6 poin (Lulus=2, Parsial=1, Perlu Kerja=0)",
+      "elite": "Mobilitas Elit",
+      "good": "Mobilitas yang Baik",
+      "limited": "Mobilitas Terbatas",
+      "not_tested": "Tidak Diuji"
+    },
+    "items": {
+      "sit-reach": {
+        "name": "Tes Duduk & Jangkau",
+        "desc": "Duduk dengan kaki lurus, raih ke arah jari kaki",
+        "pass": "Dapat menyentuh atau melewati jari kaki",
+        "fail": "Lebih dari 6 inci dari jari kaki"
+      },
+      "shoulder-pass": {
+        "name": "Pass-Through Bahu",
+        "desc": "Pegang band/tongkat, angkat lengan ke atas dan ke belakang",
+        "pass": "Dapat melewati dengan lancar",
+        "fail": "Tidak dapat menyelesaikan gerakan"
+      },
+      "deep-squat": {
+        "name": "Tahan Jongkok Dalam",
+        "desc": "Jongkok dengan tumit rata, tahan selama 30 detik",
+        "pass": "Bisa tahan 30an, tumit ke bawah",
+        "fail": "Tumit terangkat atau tidak bisa menahan"
+      }
+    },
+    "tips": {
+      "title": "Tip Pengujian"
+    },
+    "actions": {
+      "pass": "✓ Lulus",
+      "partial": "~ Sebagian",
+      "fail": "✗ Perlu Pekerjaan"
+    }
+  },
+  "log": {
+    "title": "Sesi Pemulihan Log",
+    "duration": "Durasi (menit)",
+    "focus_areas": "Area Fokus (pilih semua yang sesuai)",
+    "soreness_label": "Nyeri Sebelum Sesi: {{level}}/10",
+    "no_pain": "1 - Tanpa Rasa Sakit",
+    "moderate": "5 - Sedang",
+    "very_sore": "10 - Sangat Sakit",
+    "submit": "🧘 Sesi Log",
+    "heatmap": {
+      "title": "Peta Panas Pemulihan",
+      "legend": "Titik ungu menandai hari-hari dengan sesi pemulihan"
+    },
+    "badge": {
+      "title": "Bukti Cedera!",
+      "desc": "Anda telah menyelesaikan {{count}} sesi pemulihan minggu ini!"
+    },
+    "stats": {
+      "total": "Jumlah Menit",
+      "this_week": "Minggu ini"
+    },
+    "recent": "Sesi Terbaru",
+    "areas": {
+      "Neck": "Leher",
+      "Shoulders": "Bahu",
+      "Back": "Kembali",
+      "Hips": "pinggul",
+      "Legs": "Kaki",
+      "Full Body": "Tubuh Penuh"
+    }
+  }
+}

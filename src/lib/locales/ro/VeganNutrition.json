@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "back": "Înapoi la Tabloul de bord"
+  },
+  "header": {
+    "title": "Ghid de nutriție vegană",
+    "subtitle": "Setul complet de instrumente de nutriție pe bază de plante"
+  },
+  "tabs": {
+    "plate": "Farfurie vegană",
+    "nutrients": "Micronutrienți",
+    "calculator": "Calculator de proteine"
+  },
+  "plate": {
+    "title": "Mâncarea vegană completă",
+    "proportions": {
+      "legumes": {
+        "title": "Leguminoase/Fasole",
+        "subtitle": "Centrală de proteine",
+        "examples": "Exemple: linte, năut, fasole neagră, tofu, tempeh"
+      },
+      "grains": {
+        "title": "Cerealele integrale",
+        "subtitle": "Energie susținută",
+        "examples": "Exemple: quinoa, orez brun, ovăz, grâu integral, orz"
+      },
+      "vegetables": {
+        "title": "Legume",
+        "subtitle": "Bogat în micronutrienți",
+        "examples": "Exemple: verdeață cu frunze, broccoli, ardei, morcovi, roșii"
+      },
+      "fats": {
+        "title": "Grăsimi/Semințe sănătoase",
+        "subtitle": "Sănătatea hormonală",
+        "examples": "Exemple: avocado, nuci, semințe, ulei de măsline, tahini"
+      }
+    },
+    "tip": {
+      "title": "Sfat pro: Creșteți absorbția fierului",
+      "desc": "Fierul din plante (fier non-hem) este absorbit mai puțin eficient decât fierul animal. Asociați alimentele bogate în fier cu vitamina C pentru a crește absorbția cu până la 300%!",
+      "ironRich": "Alimente bogate în fier",
+      "ironExamples": "Spanac, linte, quinoa, tofu, seminte de dovleac",
+      "vitaminC": "Amplificatori de vitamina C",
+      "vitaminCExamples": "Suc de lamaie, ardei gras, rosii, broccoli, portocale",
+      "perfectCombo": "Combinație perfectă: supă de linte cu suc de lămâie, salată de spanac cu ardei gras"
+    }
+  },
+  "nutrients": {
+    "title": "Cele 4 mari elemente de urmărire a nutrienților",
+    "progress": {
+      "title": "Progresul de azi",
+      "done": "Gata",
+      "pending": "În așteptare"
+    },
+    "why": {
+      "title": "De ce urmăriți acestea?",
+      "desc1": "Acești patru nutrienți sunt cele mai frecvente deficiențe în dietele pe bază de plante. Urmărirea aportului zilnic vă asigură că obțineți o nutriție completă.",
+      "note": "Notă: B12 trebuie suplimentat sau consumat prin alimente fortificate - nu este prezent în mod natural în plante."
+    },
+    "micronutrients": {
+      "b12": {
+        "name": "Vitamina B12",
+        "importance": "Esențial pentru funcția nervoasă și sinteza ADN-ului",
+        "dosage": "2,4 mcg pe zi"
+      },
+      "iron": {
+        "name": "Fier și zinc",
+        "importance": "Esențial pentru transportul oxigenului și funcția imunitară",
+        "dosage": "Fier: 18 mg, Zinc: 11 mg pe zi"
+      },
+      "omega3": {
+        "name": "Omega-3 (ALA)",
+        "importance": "Sănătatea creierului și antiinflamator",
+        "dosage": "1,6 g pe zi"
+      },
+      "calcium": {
+        "name": "calciu",
+        "importance": "Sănătatea oaselor și funcția musculară",
+        "dosage": "1000 mg pe zi"
+      }
+    }
+  },
+  "calculator": {
+    "title": "Ghid de cunoaștere a proteinelor",
+    "subtitle": "Selectați un aliment și introduceți cantitatea pentru a vedea instantaneu conținutul de proteine",
+    "form": {
+      "selectFood": "Căutați și selectați un produs alimentar",
+      "placeholderFood": "Alegeți o mâncare...",
+      "searchPlaceholder": "Căutați alimente...",
+      "amount": "Cantitate (grame)",
+      "placeholderAmount": "100",
+      "add": "Adăugați la calcul",
+      "proteinPer100": "{{val}}g la 100g",
+      "matches": "Se afișează 5 din {{total}} potriviri",
+      "noMatches": "Nu s-au găsit alimente"
+    },
+    "results": {
+      "title": "Defalcarea proteinelor",
+      "estProtein": "Conținutul estimat de proteine",
+      "calcInfo": "{{amount}} g de {{alimente}}",
+      "summary": "Rezumatul calculului curent",
+      "total": "Proteine totale",
+      "aminoAcid": "Completitudinea aminoacizilor",
+      "aminoComplete": "Profilul Amino complet",
+      "aminoIncomplete": "Lipsesc cereale sau leguminoase",
+      "aminoNote": "Leguminoase (linte/fasole/soia) + cereale (orez/quinoa/ovăz) = proteine complete",
+      "save": "Înregistrați total în istoric",
+      "success": "Proteine înregistrate cu succes!",
+      "ironTip": {
+        "title": "Sfat:",
+        "desc": "Combinați cu Vitamina C (lămâie, ardei, roșii) pentru a crește absorbția fierului cu până la 300%!"
+      }
+    },
+    "reference": {
+      "title": "Ghid de referință rapidă"
+    }
+  },
+  "proteinSources": {
+    "tofu": "Tofu",
+    "tempeh": "Tempeh",
+    "edamame": "Edamame",
+    "soybeansBoiled": "Soia Fiertă",
+    "soyChunks": "Bucăți de soia / TVP Dry",
+    "soyMince": "Tocată de soia uscată",
+    "soyMilk": "Lapte de soia neindulcit",
+    "soyYogurt": "Iaurt de soia simplu",
+    "seitan": "Seitan",
+    "lentilsCooked": "Linte Fiartă",
+    "redLentilsCooked": "Linte roșie gătită",
+    "greenLentilsCooked": "Linte Verde Fiartă",
+    "blackLentilsCooked": "Linte Neagră Fiartă",
+    "chickpeasCooked": "Naut fiert",
+    "blackBeansCooked": "Fasole Neagră Fiartă",
+    "kidneyBeansCooked": "Fasole Fiartă",
+    "pintoBeansCooked": "Fasole Pinto Fiartă",
+    "cannelliniBeansCooked": "Fasole Cannellini Fiertă",
+    "navyBeansCooked": "Fasole Navy Fiartă",
+    "adzukiBeansCooked": "Fasole Adzuki Fiartă",
+    "mungBeansCooked": "Fasole Mung Fiartă",
+    "lupinBeans": "Fasole Lupin",
+    "splitPeasCooked": "Mazăre despicată gătită",
+    "greenPeas": "Mazăre verde",
+    "peaProteinIsolate": "Izolat de proteine de mazăre",
+    "peaMilk": "Lapte de mazăre",
+    "hummus": "Hummus",
+    "falafel": "Falafel",
+    "quinoaCooked": "Quinoa gătită",
+    "amaranthCooked": "Amarant gătit",
+    "buckwheatCooked": "Hrișcă Fiertă",
+    "oatsDry": "Ovăz uscat",
+    "rolledOats": "Ovăz rulat",
+    "steelCutOats": "Ovăz tăiat din oțel",
+    "oatBran": "Tarate de ovaz",
+    "barleyCooked": "Orz gătit",
+    "milletCooked": "Mei fiert",
+    "brownRiceCooked": "Orez brun fiert",
+    "wildRiceCooked": "Orez sălbatic gătit",
+    "teffCooked": "Teff Gatit",
+    "farroCooked": "Farro Gatit",
+    "freekehCooked": "Freekeh Gătit",
+    "wholeWheatPastaCooked": "Paste integrale de grâu fierte",
+    "chickpeaPastaDry": "Paste de naut uscate",
+    "lentilPastaDry": "Paste de linte uscate",
+    "blackBeanPastaDry": "Paste uscate de fasole neagră",
+    "spirulinaDry": "Spirulina uscată",
+    "nutritionalYeast": "Drojdie nutritivă",
+    "mushroomsWhite": "Ciuperci Albe",
+    "portobelloMushrooms": "Ciuperci Portobello",
+    "spinach": "Spanacul",
+    "kale": "Kale",
+    "broccoli": "Broccoli",
+    "brusselsSprouts": "Varza de Bruxelles",
+    "sweetCorn": "Porumb dulce",
+    "artichoke": "Anghinare",
+    "avocado": "Avocado",
+    "pumpkinSeeds": "Seminte de dovleac",
+    "hempSeeds": "Semințe de cânepă",
+    "chiaSeeds": "Seminte de chia",
+    "flaxSeeds": "Semințe de in",
+    "sesameSeeds": "Seminte de susan",
+    "sunflowerSeeds": "Seminte de floarea soarelui",
+    "watermelonSeeds": "Semințe de pepene verde",
+    "almonds": "Migdale",
+    "peanuts": "Arahide",
+    "peanutButterNatural": "Unt de arahide natural",
+    "cashews": "Caju",
+    "pistachios": "Fistic",
+    "walnuts": "Nuci",
+    "hazelnuts": "Alune",
+    "brazilNuts": "Nuci de Brazilia",
+    "almondButter": "Unt de migdale",
+    "tahini": "Tahini",
+    "cashewButter": "Unt de caju",
+    "pumpkinSeedButter": "Unt din Seminte de Dovleac",
+    "sunflowerSeedButter": "Unt din semințe de floarea soarelui",
+    "almondFlour": "Făină de Migdale",
+    "chickpeaFlour": "Faina de naut / Besan",
+    "soyFlour": "Faina de soia",
+    "wholeWheatFlour": "Faina integrala",
+    "breadWholeWheat": "Pâine Grâu integral",
+    "ezekielBread": "Pâine Ezechiel",
+    "proteinBreadVegan": "Pâine Proteină Vegană",
+    "roastedChickpeas": "Naut prajit",
+    "dryRoastedEdamame": "Edamame prăjit uscat",
+    "proteinBarVegan": "Baton de proteine vegan",
+    "veganSausage": "Cârnați vegani",
+    "veganBurgerPatty": "Vegan Burger Patty",
+    "mycoproteinVegan": "Micoproteine Vegan",
+    "beanSprouts": "Varza de fasole",
+    "alfalfaSprouts": "Varza de lucerna"
+  }
+}

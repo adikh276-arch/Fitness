@@ -1,0 +1,244 @@
+{
+  "header": {
+    "title": "Gabay sa Kalusugan ng Gut",
+    "subtitle": "Subaybayan ang kalusugan ng digestive at bumuo ng isang umuunlad na microbiome",
+    "back": "Bumalik sa Dashboard"
+  },
+  "tabs": {
+    "log": "Araw-araw na Gut Log",
+    "map": "Mapa ng Microbiome",
+    "habits": "Fiber at Ferment"
+  },
+  "bristol": {
+    "title": "Bristol Stool Scale",
+    "info": "Ang pamantayang ginto para sa pagsubaybay sa oras ng digestive transit at kalusugan ng bituka",
+    "types": {
+      "type1": {
+        "label": "Uri 1",
+        "desc": "Matinding paninigas ng dumi - Paghiwalayin ang matitigas na bukol"
+      },
+      "type2": {
+        "label": "Uri 2",
+        "desc": "Banayad na paninigas ng dumi - Bukol-bukol at parang sausage"
+      },
+      "type3": {
+        "label": "Uri 3",
+        "desc": "Normal - Sausage na may mga bitak"
+      },
+      "type4": {
+        "label": "Uri 4",
+        "desc": "Tamang-tama - Makinis, malambot na sausage"
+      },
+      "type5": {
+        "label": "Uri 5",
+        "desc": "Kulang sa hibla - Malambot na patak"
+      },
+      "type6": {
+        "label": "Uri 6",
+        "desc": "Banayad na pagtatae - Mushy"
+      },
+      "type7": {
+        "label": "Uri 7",
+        "desc": "Matinding pagtatae - Liquid"
+      }
+    },
+    "alert": "Mangyaring pumili ng uri ng Bristol Stool Scale"
+  },
+  "symptoms": {
+    "title": "Mga Sintomas Ngayon",
+    "items": {
+      "Bloating": "Namumulaklak",
+      "Gas": "Gas",
+      "Cramping": "Cramping",
+      "Reflux": "Reflux",
+      "Energy Dip": "Paglubog ng Enerhiya"
+    }
+  },
+  "triggers": {
+    "title": "Pinaghihinalaang Trigger",
+    "items": {
+      "Dairy": "Pagawaan ng gatas",
+      "Gluten": "Gluten",
+      "Coffee": "kape",
+      "Spicy Food": "Maanghang na Pagkain",
+      "Alcohol": "Alak",
+      "Stress": "Stress",
+      "Other": "Iba pa"
+    }
+  },
+  "log": {
+    "submit": "Log Entry",
+    "success": "Matagumpay na na-save ang gut log!",
+    "recent": {
+      "title": "Mga Kamakailang Log",
+      "trigger": "Trigger:"
+    }
+  },
+  "microbiome": {
+    "prebiotics": {
+      "title": "Mga prebiotic",
+      "subtitle": "Ang Pagkain para sa Iyong Gut Bacteria",
+      "desc": "Ang mga prebiotic ay mga pagkaing mayaman sa hibla na nagpapakain sa mga kapaki-pakinabang na bakterya sa iyong bituka, na tumutulong sa kanila na umunlad at dumami."
+    },
+    "probiotics": {
+      "title": "Mga probiotic",
+      "subtitle": "Ang Live Beneficial Bacteria",
+      "desc": "Ang mga probiotic ay mga live microorganism na matatagpuan sa mga fermented na pagkain na direktang nagdaragdag ng mga kapaki-pakinabang na bakterya sa iyong bituka."
+    }
+  },
+  "diversity": {
+    "title": "Ang 30 Halaman sa Isang Linggo na Hamon",
+    "subtitle": "Ipinapakita ng pananaliksik na ang pagkain ng 30+ iba't ibang halaman bawat linggo ay sumusuporta sa pinakamainam na pagkakaiba-iba ng bituka",
+    "score_label": "/ 30 halaman",
+    "weekly_score": "Lingguhang Diversity Score",
+    "feedback": {
+      "excellent": "🎉 Magaling! Naabot mo na ang 30 plant goal",
+      "great": "👍 Mahusay na pagkakaiba-iba! Patuloy na magdagdag ng iba't-ibang",
+      "good": "📈 Magandang simula! Maghangad ng mas maraming uri ng halaman",
+      "start": "🌱 Simulan ang pagdaragdag ng magkakaibang mga halaman upang mapalakas ang kalusugan ng bituka"
+    }
+  },
+  "habits": {
+    "title": "Ang Checklist ng Happy Gut",
+    "subtitle": "Kumpletuhin ang mga pang-araw-araw na gawi para sa pinakamainam na kalusugan ng pagtunaw",
+    "items": {
+      "fiber": {
+        "label": "25g+ Fiber Consuming",
+        "desc": "Mula sa buong butil, prutas, at gulay"
+      },
+      "fermented": {
+        "label": "May kasamang 1 Fermented Food",
+        "desc": "Kimchi, yogurt, kefir, o sauerkraut"
+      },
+      "mindful": {
+        "label": "Maingat na Pagkain (20+ Chews)",
+        "desc": "Ang wastong pagnguya ay tumutulong sa panunaw"
+      },
+      "fast": {
+        "label": "12-Oras na Magdamag na Gut Rest",
+        "desc": "Ang window ng pag-aayuno ay nagbibigay-daan sa pag-aayos ng bituka"
+      }
+    }
+  },
+  "tracker": {
+    "title": "30-Araw na Tagasubaybay ng Ugali",
+    "tooltip": "Araw {{dayNum}}: {{count}}/4 na gawi",
+    "legend": {
+      "none": "wala",
+      "one": "1",
+      "two": "2",
+      "three": "3",
+      "four": "3-4",
+      "all": "Lahat 4"
+    }
+  },
+  "essentials": {
+    "title": "Mga Mahahalagang Kalusugan ng Gut"
+  },
+  "plants": {
+    "Spinach": "kangkong",
+    "Kale": "Kale",
+    "Arugula": "Arugula",
+    "Romaine": "Romaine",
+    "Broccoli": "Brokuli",
+    "Cauliflower": "Kuliplor",
+    "Brussels Sprouts": "Brussels Sprouts",
+    "Cabbage": "repolyo",
+    "Carrots": "Mga karot",
+    "Sweet Potatoes": "Kamote",
+    "Beets": "Beets",
+    "Radishes": "Mga labanos",
+    "Chickpeas": "Mga chickpeas",
+    "Lentils": "Mga lentil",
+    "Black Beans": "Black Beans",
+    "Kidney Beans": "Kidney Beans",
+    "Oats": "Oats",
+    "Brown Rice": "Kayumangging Bigas",
+    "Quinoa": "Quinoa",
+    "Barley": "barley",
+    "Almonds": "Almendras",
+    "Walnuts": "Mga nogales",
+    "Pistachios": "Pistachios",
+    "Cashews": "kasoy",
+    "Chia": "Chia",
+    "Flax": "Flax",
+    "Pumpkin Seeds": "Pumpkin Seeds",
+    "Sunflower Seeds": "Mga Buto ng Sunflower",
+    "Blueberries": "Blueberries",
+    "Strawberries": "Strawberries",
+    "Raspberries": "Mga raspberry",
+    "Blackberries": "Blackberries",
+    "Oranges": "Mga dalandan",
+    "Lemons": "Mga limon",
+    "Limes": "Limes",
+    "Grapefruit": "Suha",
+    "Bananas": "Mga saging",
+    "Pineapple": "Pinya",
+    "Mango": "Mango",
+    "Papaya": "Papaya",
+    "Peaches": "Mga milokoton",
+    "Plums": "Mga plum",
+    "Cherries": "Mga seresa",
+    "Apricots": "Mga aprikot",
+    "Basil": "Basil",
+    "Cilantro": "Cilantro",
+    "Mint": "Mint",
+    "Parsley": "Parsley",
+    "Rosemary": "Rosemary",
+    "Turmeric": "Turmerik",
+    "Ginger": "luya",
+    "Cinnamon": "kanela",
+    "Cumin": "kumin",
+    "Paprika": "Paprika",
+    "Kimchi": "Kimchi",
+    "Sauerkraut": "Sauerkraut",
+    "Miso": "Miso",
+    "Tempeh": "Tempe",
+    "Button Mushrooms": "Button Mushrooms",
+    "Shiitake": "Shiitake",
+    "Portobello": "Portobello",
+    "Oyster Mushrooms": "Mga Oyster Mushroom",
+    "Pumpkin": "Kalabasa",
+    "Butternut Squash": "Butternut Squash",
+    "Zucchini": "Zucchini",
+    "Acorn Squash": "Acorn Squash",
+    "Bell Peppers": "Bell Peppers",
+    "Jalapeños": "Mga Jalapeño",
+    "Chili": "sili",
+    "Cherry Tomatoes": "Cherry Tomatoes",
+    "Roma Tomatoes": "Mga kamatis ng Roma",
+    "Beefsteak Tomatoes": "Beefsteak Mga kamatis",
+    "Garlic": "Bawang",
+    "Onions": "Mga sibuyas",
+    "Leeks": "Leeks",
+    "Shallots": "Shallots",
+    "Alfalfa Sprouts": "Alfalfa Sprouts",
+    "Broccoli Sprouts": "Mga Sprout ng Broccoli",
+    "Mung Bean Sprouts": "Mung Bean Sprout",
+    "Nori": "Nori",
+    "Kelp": "Kelp",
+    "Wakame": "Wakame",
+    "Buckwheat": "Bakwit",
+    "Farro": "Farro",
+    "Amaranth": "Amaranto",
+    "Millet": "Millet",
+    "Watermelon": "pakwan",
+    "Cantaloupe": "Cantaloupe",
+    "Honeydew": "pulot-pukyutan",
+    "Apples": "Mga mansanas",
+    "Pears": "Mga peras",
+    "Avocado": "Abukado",
+    "Coconut": "niyog",
+    "Coconut Milk": "Gatas ng niyog",
+    "Coconut Water": "Tubig ng niyog",
+    "Olives": "Mga olibo",
+    "Dark Chocolate": "Dark Chocolate",
+    "Cacao Nibs": "Cacao Nibs",
+    "Cocoa Powder": "Cocoa Powder",
+    "Green Tea": "Green Tea",
+    "Black Tea": "Black Tea",
+    "Chamomile": "Chamomile",
+    "Peppermint Tea": "Peppermint Tea",
+    "Coffee": "kape"
+  }
+}

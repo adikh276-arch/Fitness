@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "back": "Powrót do Panelu"
+  },
+  "header": {
+    "title": "Przewodnik po diecie cukrzycowej",
+    "subtitle": "Monitoruj poziom glukozy i opanuj metodę płytkową"
+  },
+  "alert": {
+    "title": "Ostrzeżenie o niskim poziomie cukru we krwi",
+    "desc": "Twój odczyt wskazuje na hipoglikemię (niski poziom cukru we krwi). Proszę natychmiast podjąć działania:",
+    "actions": {
+      "carbs": "Spożywaj 15 g szybko działających węglowodanów (np. 4 uncje soku, 3-4 tabletki glukozy)",
+      "wait": "Poczekaj 15 minut",
+      "repeat": "Przetestuj ponownie; jeśli nadal jest niski, powtórz leczenie",
+      "contact": "Jeśli poziom nie ustabilizuje się, skontaktuj się z lekarzem"
+    }
+  },
+  "tabs": {
+    "plate": "Talerz Cukrzyca",
+    "log": "Dziennik glukozy",
+    "gi": "Wyszukiwanie GI"
+  },
+  "log": {
+    "title": "Zapisz odczyt poziomu glukozy",
+    "unit": "Jednostka miary",
+    "value": "Poziom glukozy ({{unit}})",
+    "valuePlaceholder": "Wprowadź wartość (np. 110)",
+    "valuePlaceholderMmol": "Wprowadź wartość (np. 6.1)",
+    "timing": "Czas czytania",
+    "mealContext": "Kontekst posiłku / notatki",
+    "mealContextPlaceholder": "Co jadłeś? Jak się czujesz?",
+    "submit": "Zapisz czytanie",
+    "success": "Odczyt poziomu glukozy został pomyślnie zapisany!",
+    "targets": {
+      "title": "Standardowe zakresy docelowe (mg/dL)",
+      "fasting": "Na czczo: 80-130 mg/dl",
+      "postMeal": "1-2 godziny po posiłku: < 180 mg/dl",
+      "low": "Niski: < 70 mg/dl"
+    },
+    "recent": {
+      "title": "Ostatnie odczyty",
+      "noReadings": "Nie zarejestrowano jeszcze żadnych odczytów",
+      "trend": "Trend poziomu glukozy (ostatnie 7 odczytów)",
+      "targetMax": "Maksymalny cel (na czczo)",
+      "targetPost": "Maksymalny cel (po posiłku)"
+    }
+  },
+  "status": {
+    "normal": "Normalne",
+    "high": "Wysoka",
+    "low": "Niski"
+  },
+  "timing": {
+    "fasting": "Na czczo / Przed posiłkiem",
+    "preMeal": "Przed posiłkiem",
+    "postMeal1h": "1 godzina po posiłku",
+    "postMeal2h": "2 godziny po posiłku",
+    "bedtime": "Pora snu"
+  },
+  "plate": {
+    "intro": {
+      "title": "Metoda talerzowa na cukrzycę",
+      "desc": "Metoda talerzowa to prosty sposób planowania posiłków bez liczenia. Koncentruje się na kontroli porcji i równowadze, aby pomóc kontrolować poziom cukru we krwi."
+    },
+    "build": {
+      "title": "Zbuduj swój talerz",
+      "hint": "Kliknij sekcję, aby zobaczyć polecane produkty spożywcze"
+    },
+    "categories": {
+      "veggies": {
+        "name": "Warzywa nieskrobiowe",
+        "percent": "50%",
+        "desc": "Wypełnij połowę talerza kolorowymi warzywami bogatymi w błonnik"
+      },
+      "protein": {
+        "name": "Chude białko",
+        "percent": "25%",
+        "desc": "Wypełnij jedną czwartą chudymi źródłami białka"
+      },
+      "carbs": {
+        "name": "Zdrowe węglowodany",
+        "percent": "25%",
+        "desc": "Wypełnij jedną czwartą pełnymi ziarnami lub warzywami skrobiowymi"
+      }
+    },
+    "principles": {
+      "title": "Zasady metody płytowej",
+      "veggies": {
+        "title": "Najpierw warzywa",
+        "desc": "Najpierw zjedz warzywa, aby spowolnić wchłanianie glukozy z reszty posiłku."
+      },
+      "protein": {
+        "title": "Wysokiej jakości białko",
+        "desc": "Wybieraj produkty chude, aby wspierać utrzymanie mięśni bez nadmiernych tłuszczów nasyconych."
+      },
+      "carbs": {
+        "title": "Uważne węglowodany",
+        "desc": "Trzymaj się węglowodanów złożonych, które mają mniejszy wpływ na skoki poziomu cukru we krwi."
+      }
+    }
+  },
+  "gi": {
+    "intro": {
+      "title": "Wyszukiwanie indeksu glikemicznego (GI).",
+      "desc": "Indeks glikemiczny klasyfikuje węglowodany na podstawie tego, jak bardzo podnoszą one poziom glukozy we krwi w porównaniu z żywnością referencyjną.",
+      "low": "Niski (0-55)",
+      "medium": "Średnie (56-69)",
+      "high": "Wysoka (70+)"
+    },
+    "labels": {
+      "low": "Niski IG",
+      "medium": "Średni IG",
+      "high": "Wysoki IG"
+    },
+    "search": "Wyszukaj produkt spożywczy (np. płatki owsiane, banany...)",
+    "noResults": "Nie znaleziono żywności odpowiadającej Twojemu wyszukiwaniu"
+  },
+  "foods": {
+    "Spinach": "Szpinak",
+    "Broccoli": "Brokuły",
+    "Cauliflower": "Kalafior",
+    "Bell Peppers": "Papryka",
+    "Zucchini": "Cukinia",
+    "Asparagus": "Szparagi",
+    "Cucumber": "Ogórek",
+    "Tomatoes": "Pomidory",
+    "Chicken Breast": "Pierś Z Kurczaka",
+    "Fish (Salmon, Tuna)": "Ryby (Łosoś, Tuńczyk)",
+    "Tofu": "Tofu",
+    "Lentils": "Soczewica",
+    "Eggs": "Jajka",
+    "Turkey": "Turcja",
+    "Greek Yogurt": "Jogurt Grecki",
+    "Brown Rice": "Brązowy Ryż",
+    "Quinoa": "Komosa ryżowa",
+    "Sweet Potato": "Słodki Ziemniak",
+    "Whole Wheat Pasta": "Makaron Pełnoziarnisty",
+    "Oats": "Owies",
+    "Barley": "Jęczmień"
+  }
+}

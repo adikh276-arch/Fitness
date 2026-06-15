@@ -70,7 +70,8 @@
       "firstMeal": "Czas pierwszego posiłku (dzisiaj):",
       "duration": "Całkowity czas postu",
       "goalAchieved": "Cel osiągnięty! Ukończyłeś ponad 16-godzinny post!",
-      "submit": "Zaloguj się szybko"
+      "submit": "Zaloguj się szybko",
+      "dateLabel": "Data:"
     },
     "tracker": {
       "title": "30-dniowy szybki tracker",
@@ -81,7 +82,9 @@
         "goalMet": "Cel osiągnięty (16+ godz.)",
         "today": "Dzisiaj",
         "missed": "Pominięty dzień"
-      }
+      },
+      "today": "Dzisiaj",
+      "dayLabel": "Dzień {{val}}"
     },
     "recentFasts": {
       "title": "Ostatnie posty",

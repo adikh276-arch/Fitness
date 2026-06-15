@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "back": "Tillbaka till Dashboard"
+  },
+  "header": {
+    "title": "Smart BMI & Kroppskontext",
+    "subtitle": "Spåra dina kroppsmått med klinisk precision"
+  },
+  "streak": {
+    "title": "Bibehålls hälsosamt utbud!",
+    "subtitle": "{{count}} avläsningar i följd i den friska zonen 🎉"
+  },
+  "tabs": {
+    "calculator": "BMI-kalkylator",
+    "context": "Över BMI",
+    "history": "Trend Historia"
+  },
+  "calculator": {
+    "title": "Ber��kna ditt BMI",
+    "inputs": {
+      "height": "Höjd",
+      "weight": "Vikt",
+      "feet": "Fötter",
+      "inches": "Inches",
+      "placeholders": {
+        "heightCm": "t.ex. 170",
+        "heightFt": "Fötter",
+        "heightIn": "Inches",
+        "weightKg": "t.ex. 70",
+        "weightLbs": "t.ex. 154"
+      }
+    },
+    "results": {
+      "yourBMI": "Ditt BMI",
+      "placeholder": "Ange dina mått för att se ditt BMI",
+      "submit": "Spara i profil",
+      "success": "✓ Sparad framgångsrikt!",
+      "categories": {
+        "underweight": "Underviktig",
+        "healthy": "Hälsosam vikt",
+        "normal": "Normal",
+        "overweight": "Överviktiga",
+        "obese": "Överviktiga",
+        "enterData": "Ange data"
+      }
+    },
+    "tip": "Överväg att införliva regelbunden motion och en balanserad kost i din rutin.",
+    "disclaimer": {
+      "title": "Medicinsk ansvarsfriskrivning",
+      "text": "BMI är ett allmänt screeningverktyg och gör ingen skillnad på muskel- och fettmassa. Rådgör med sjukvårdspersonal för personlig medicinsk rådgivning."
+    }
+  },
+  "beyond": {
+    "title": "Midja-till-höjd-förhållande (WHtR)",
+    "why": {
+      "title": "Varför detta är viktigt",
+      "desc": "Att hålla din midjeomkrets till mindre än halva din längd minskar risken för hjärt-kärlsjukdomar. WHtR är mer exakt än BMI för att förutsäga metabola hälsotillstånd.",
+      "target": "Mål: Förhållande < 0,5 för optimal hälsa"
+    },
+    "inputs": {
+      "waist": "Midjeomkrets",
+      "waistHint": "Mät på den smalaste punkten i midjan, vanligtvis precis ovanför naveln",
+      "placeholders": {
+        "waistCm": "t.ex. 80",
+        "waistIn": "t.ex. 31"
+      }
+    },
+    "results": {
+      "healthy": "Hälsosam form",
+      "elevated": "Förhöjd risk",
+      "placeholder": "Ange höjd och midja för att se ditt förhållande",
+      "waistMeasurementPlaceholder": "Ange midjemått",
+      "label": "Midja-till-höjd-förhållande",
+      "submit": "Spara i profil (BMI + WHtR)"
+    },
+    "comparison": {
+      "title": "BMI vs WHtR: Skillnaden",
+      "bmi": {
+        "title": "BMI",
+        "desc": "Allmän viktkategori, tar inte hänsyn till muskelmassa eller fettfördelning"
+      },
+      "whtr": {
+        "title": "WHtR",
+        "desc": "Mäter central fetma, bättre prediktor för hjärt-kärlsjukdom och diabetes"
+      }
+    }
+  },
+  "history": {
+    "title": "Senaste mätningar",
+    "noHistory": "Ingen historia än",
+    "noHistoryDesc": "Börja spåra ditt BMI och kroppsstatistik för att se dina framstegstrender över tid.",
+    "stats": {
+      "title": "Din statistik",
+      "total": "Totala rekord",
+      "latest": "Senaste BMI",
+      "healthyCount": "Frisk räkning",
+      "bestStreak": "Bästa Streak"
+    }
+  }
+}

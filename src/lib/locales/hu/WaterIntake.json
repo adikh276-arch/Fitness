@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "back": "Vissza az irányítópultra"
+  },
+  "header": {
+    "title": "Vízfelvétel nyomkövető",
+    "subtitle": "Kövesse nyomon napi hidratáltságát, és érje el céljait"
+  },
+  "tabs": {
+    "tracker": "A mai nyomkövető",
+    "history": "Történelem"
+  },
+  "tracker": {
+    "consumed": "ml elfogyasztott",
+    "goalLabel": "Napi cél",
+    "remainingLabel": "Maradt",
+    "changeGoal": "Változtassa meg a napi célt",
+    "quickAdd": {
+      "title": "Gyors hozzáadás",
+      "smallGlass": "Kis üveg",
+      "bottle": "Palack",
+      "largeBottle": "Nagy üveg",
+      "jug": "Kancsó"
+    },
+    "custom": {
+      "label": "Egyéni mennyiség (ml)",
+      "placeholder": "pl 350",
+      "submit": "Hozzáadás",
+      "undo": "Utolsó bejegyzés visszavonása"
+    }
+  },
+  "history": {
+    "title": "Vízfelvétel története",
+    "noHistory": "Még nem áll rendelkezésre előzmény",
+    "today": "Ma",
+    "summary": "{{összesen}} ml / {{goal}} ml ({{percent}}%)",
+    "stats": {
+      "total": "Összesen",
+      "entries": "Bejegyzések"
+    }
+  },
+  "modal": {
+    "title": "Állítsa be a napi célt",
+    "subtitle": "Adja meg a cél napi vízbevitelt",
+    "placeholder": "pl 2500",
+    "calcToggleShow": "Kiszámítása ajánlott",
+    "calcToggleHide": "Számológép elrejtése",
+    "formula": "Képlet: Súly (kg) × 35 ml",
+    "weightLabel": "Az Ön súlya (kg)",
+    "weightPlaceholder": "például 70",
+    "calcBtn": "Számítsa ki és alkalmazza",
+    "cancel": "Mégse",
+    "save": "Mentés"
+  }
+}

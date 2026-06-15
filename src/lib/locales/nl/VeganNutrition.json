@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "back": "Terug naar Dashboard"
+  },
+  "header": {
+    "title": "Veganistische voedingsgids",
+    "subtitle": "Complete toolkit voor plantaardige voeding"
+  },
+  "tabs": {
+    "plate": "Veganistisch bord",
+    "nutrients": "Micronutriënten",
+    "calculator": "Eiwitcalculator"
+  },
+  "plate": {
+    "title": "De complete veganistische maaltijd",
+    "proportions": {
+      "legumes": {
+        "title": "Peulvruchten/bonen",
+        "subtitle": "Eiwit krachtpatser",
+        "examples": "Voorbeelden: Linzen, kikkererwten, zwarte bonen, tofu, tempeh"
+      },
+      "grains": {
+        "title": "Volle granen",
+        "subtitle": "Aanhoudende energie",
+        "examples": "Voorbeelden: Quinoa, bruine rijst, haver, volkoren, gerst"
+      },
+      "vegetables": {
+        "title": "Groenten",
+        "subtitle": "Rijk aan micronutriënten",
+        "examples": "Voorbeelden: bladgroenten, broccoli, paprika's, wortels, tomaten"
+      },
+      "fats": {
+        "title": "Gezonde vetten/zaden",
+        "subtitle": "Hormoon gezondheid",
+        "examples": "Voorbeelden: Avocado, noten, zaden, olijfolie, tahini"
+      }
+    },
+    "tip": {
+      "title": "Pro-tip: verhoog de ijzeropname",
+      "desc": "Plantaardig ijzer (non-heem-ijzer) wordt minder efficiënt opgenomen dan dierlijk ijzer. Combineer ijzerrijk voedsel met vitamine C om de opname tot 300% te verhogen!",
+      "ironRich": "IJzerrijk voedsel",
+      "ironExamples": "Spinazie, linzen, quinoa, tofu, pompoenpitten",
+      "vitaminC": "Vitamine C-boosters",
+      "vitaminCExamples": "Citroensap, paprika, tomaten, broccoli, sinaasappels",
+      "perfectCombo": "Perfect Combo: Linzensoep met citroensap, spinaziesalade met paprika"
+    }
+  },
+  "nutrients": {
+    "title": "De Big 4 voedingstracker",
+    "progress": {
+      "title": "De vooruitgang van vandaag",
+      "done": "Klaar",
+      "pending": "In behandeling"
+    },
+    "why": {
+      "title": "Waarom deze volgen?",
+      "desc1": "Deze vier voedingsstoffen zijn de meest voorkomende tekortkomingen in plantaardige diëten. Door de dagelijkse inname bij te houden, weet u zeker dat u volledige voeding binnenkrijgt.",
+      "note": "Let op: B12 moet worden aangevuld of geconsumeerd via verrijkte voedingsmiddelen; het is van nature niet aanwezig in planten."
+    },
+    "micronutrients": {
+      "b12": {
+        "name": "Vitamine B12",
+        "importance": "Cruciaal voor de zenuwfunctie en DNA-synthese",
+        "dosage": "2,4 mcg per dag"
+      },
+      "iron": {
+        "name": "IJzer & Zink",
+        "importance": "Essentieel voor zuurstoftransport en immuunfunctie",
+        "dosage": "IJzer: 18 mg, zink: 11 mg per dag"
+      },
+      "omega3": {
+        "name": "Omega-3 (ALA)",
+        "importance": "Hersengezondheid en ontstekingsremmend",
+        "dosage": "1,6 g per dag"
+      },
+      "calcium": {
+        "name": "Kalk",
+        "importance": "Botgezondheid en spierfunctie",
+        "dosage": "1000mg per dag"
+      }
+    }
+  },
+  "calculator": {
+    "title": "Kennisgids voor eiwitten",
+    "subtitle": "Selecteer een voedingsmiddel en voer de hoeveelheid in om direct het eiwitgehalte ervan te zien",
+    "form": {
+      "selectFood": "Zoek en selecteer voedselitem",
+      "placeholderFood": "Kies een eten...",
+      "searchPlaceholder": "Voedsel zoeken...",
+      "amount": "Hoeveelheid (gram)",
+      "placeholderAmount": "100",
+      "add": "Voeg toe aan berekening",
+      "proteinPer100": "{{val}}g per 100g",
+      "matches": "Er worden 5 van {{total}} overeenkomsten weergegeven",
+      "noMatches": "Geen voedsel gevonden"
+    },
+    "results": {
+      "title": "Eiwitafbraak",
+      "estProtein": "Geschat eiwitgehalte",
+      "calcInfo": "{{hoeveelheid}}g van {{voedsel}}",
+      "summary": "Samenvatting van de huidige berekening",
+      "total": "Totaal eiwit",
+      "aminoAcid": "Volledigheid van aminozuren",
+      "aminoComplete": "Compleet aminoprofiel",
+      "aminoIncomplete": "Ontbrekende granen of peulvruchten",
+      "aminoNote": "Peulvruchten (linzen/bonen/soja) + granen (rijst/quinoa/haver) = compleet eiwit",
+      "save": "Log totaal in geschiedenis",
+      "success": "Eiwit succesvol geregistreerd!",
+      "ironTip": {
+        "title": "Tip:",
+        "desc": "Combineer met vitamine C (citroen, paprika, tomaten) om de ijzeropname met wel 300% te verhogen!"
+      }
+    },
+    "reference": {
+      "title": "Snelle referentiegids"
+    }
+  },
+  "proteinSources": {
+    "tofu": "Tofu",
+    "tempeh": "Tempeh",
+    "edamame": "Edamame",
+    "soybeansBoiled": "Sojabonen gekookt",
+    "soyChunks": "Sojabrokken / TVP Droog",
+    "soyMince": "Soja Gehakt Droog",
+    "soyMilk": "Sojamelk Ongezoet",
+    "soyYogurt": "Sojayoghurt puur",
+    "seitan": "Seitan",
+    "lentilsCooked": "Linzen Gekookt",
+    "redLentilsCooked": "Rode Linzen Gekookt",
+    "greenLentilsCooked": "Groene Linzen Gekookt",
+    "blackLentilsCooked": "Zwarte Linzen Gekookt",
+    "chickpeasCooked": "Kikkererwten Gekookt",
+    "blackBeansCooked": "Zwarte bonen gekookt",
+    "kidneyBeansCooked": "Bruine bonen gekookt",
+    "pintoBeansCooked": "Pintobonen gekookt",
+    "cannelliniBeansCooked": "Cannellinibonen gekookt",
+    "navyBeansCooked": "Marinebonen gekookt",
+    "adzukiBeansCooked": "Adzukibonen gekookt",
+    "mungBeansCooked": "Mungbonen Gekookt",
+    "lupinBeans": "Lupine Bonen",
+    "splitPeasCooked": "Spliterwten Gekookt",
+    "greenPeas": "Groene Erwten",
+    "peaProteinIsolate": "Erwtenproteïne-isolaat",
+    "peaMilk": "Erwtenmelk",
+    "hummus": "Hummus",
+    "falafel": "Falafel",
+    "quinoaCooked": "Quinoa gekookt",
+    "amaranthCooked": "Amarant gekookt",
+    "buckwheatCooked": "Boekweit Gekookt",
+    "oatsDry": "Haver droog",
+    "rolledOats": "Gerolde haver",
+    "steelCutOats": "Staal gesneden haver",
+    "oatBran": "Haverzemelen",
+    "barleyCooked": "Gerst gekookt",
+    "milletCooked": "Gierst gekookt",
+    "brownRiceCooked": "Bruine rijst gekookt",
+    "wildRiceCooked": "Wilde Rijst Gekookt",
+    "teffCooked": "Teff gekookt",
+    "farroCooked": "Farro gekookt",
+    "freekehCooked": "Freeke gekookt",
+    "wholeWheatPastaCooked": "Volkoren Pasta Gekookt",
+    "chickpeaPastaDry": "Kikkererwtenpasta Droog",
+    "lentilPastaDry": "Linzenpasta droog",
+    "blackBeanPastaDry": "Zwarte Bonenpasta Droog",
+    "spirulinaDry": "Spirulina Droog",
+    "nutritionalYeast": "Voedingsgist",
+    "mushroomsWhite": "Paddestoelen Wit",
+    "portobelloMushrooms": "Portobello-paddestoelen",
+    "spinach": "Spinazie",
+    "kale": "Boerenkool",
+    "broccoli": "Broccoli",
+    "brusselsSprouts": "Spruitjes",
+    "sweetCorn": "Zoete maïs",
+    "artichoke": "Artisjok",
+    "avocado": "Avocado",
+    "pumpkinSeeds": "Pompoenpitten",
+    "hempSeeds": "Hennepzaden",
+    "chiaSeeds": "Chia-zaden",
+    "flaxSeeds": "Lijnzaad",
+    "sesameSeeds": "Sesamzaadjes",
+    "sunflowerSeeds": "Zonnebloempitten",
+    "watermelonSeeds": "Watermeloen zaden",
+    "almonds": "Amandelen",
+    "peanuts": "Pinda's",
+    "peanutButterNatural": "Pindakaas Naturel",
+    "cashews": "Cashewnoten",
+    "pistachios": "Pistachenoten",
+    "walnuts": "Walnoten",
+    "hazelnuts": "Hazelnoten",
+    "brazilNuts": "Paranoten",
+    "almondButter": "Amandelboter",
+    "tahini": "Tahin",
+    "cashewButter": "Cashewboter",
+    "pumpkinSeedButter": "Pompoenzaadboter",
+    "sunflowerSeedButter": "Zonnebloemzaadboter",
+    "almondFlour": "Amandelmeel",
+    "chickpeaFlour": "Kikkererwtenmeel / Besan",
+    "soyFlour": "Sojameel",
+    "wholeWheatFlour": "Volkorenmeel",
+    "breadWholeWheat": "Brood Volkoren",
+    "ezekielBread": "Ezechiël Brood",
+    "proteinBreadVegan": "Eiwitbrood Veganistisch",
+    "roastedChickpeas": "Geroosterde Kikkererwten",
+    "dryRoastedEdamame": "Droog geroosterde Edamame",
+    "proteinBarVegan": "Eiwitreep Veganistisch",
+    "veganSausage": "Veganistische Worst",
+    "veganBurgerPatty": "Veganistisch burgerpasteitje",
+    "mycoproteinVegan": "Mycoproteïne Veganistisch",
+    "beanSprouts": "Tauge",
+    "alfalfaSprouts": "Alfalfa Spruitjes"
+  }
+}

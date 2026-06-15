@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "back": "Takaisin hallintapaneeliin"
+  },
+  "header": {
+    "title": "Kalorien polttaja",
+    "subtitle": "Seuraa toimintojesi aikana kulutettuja kaloreita"
+  },
+  "tabs": {
+    "calculator": "Laskin",
+    "log": "Toimintaloki ({{count}})"
+  },
+  "calculator": {
+    "form": {
+      "title": "Aktiviteetin tiedot",
+      "selectActivity": "Valitse Toiminto",
+      "weight": "Sinun painosi",
+      "duration": "Kesto (minuuttia)",
+      "placeholders": {
+        "weightKg": "esim. 70",
+        "weightLbs": "esim. 154"
+      },
+      "submit": "Lokitoiminta"
+    },
+    "summary": {
+      "title": "Polta yhteenveto",
+      "calories": "Poltetut kalorit",
+      "activity": "Toiminta",
+      "duration": "Kesto",
+      "weight": "Paino",
+      "burnRate": "Kalorien polttonopeus",
+      "formula": "Kaava: (MET × 3,5 × Paino kg / 200) × Kesto min"
+    }
+  },
+  "log": {
+    "noActivities": "Ei vielä kirjattuja aktiviteetteja",
+    "noActivitiesDesc": "Aloita harjoitusten seuraaminen nähdäksesi ne täällä",
+    "logFirst": "Kirjaa ensimmäinen toimintasi",
+    "summary": {
+      "title": "Yhteenveto",
+      "totalActivities": "Aktiviteetit yhteensä",
+      "totalCalories": "Kalorit yhteensä",
+      "totalTime": "Kokonaisaika",
+      "avgSession": "Keskim. Cal/istunto"
+    },
+    "item": {
+      "duration": "Kesto",
+      "met": "MET",
+      "calories": "Kalorit",
+      "minutes": "min"
+    }
+  },
+  "activities": {
+    "walking": "Kävely (reipas)",
+    "running": "Juoksu (9 min/maili)",
+    "cycling": "Pyöräily (kohtalainen)",
+    "yoga": "Jooga",
+    "swimming": "Uinti (kierrokset)",
+    "strength": "Voimaharjoittelu",
+    "household": "Kotityöt",
+    "dance": "Tanssi/aerobic"
+  }
+}

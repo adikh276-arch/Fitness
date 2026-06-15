@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "back": "Tilbage til Dashboard"
+  },
+  "header": {
+    "title": "Diabetes kostvejledning",
+    "subtitle": "Overvåg glukose og behersk plademetoden"
+  },
+  "alert": {
+    "title": "Advarsel om lavt blodsukker",
+    "desc": "Din læsning indikerer hypoglykæmi (lavt blodsukker). Tag handling med det samme:",
+    "actions": {
+      "carbs": "Indtag 15 g hurtigtvirkende kulhydrater (f.eks. 4 oz juice, 3-4 glucosetabs)",
+      "wait": "Vent 15 minutter",
+      "repeat": "Test igen; hvis stadig lav, gentag behandlingen",
+      "contact": "Kontakt din læge, hvis niveauerne ikke stabiliseres"
+    }
+  },
+  "tabs": {
+    "plate": "Diabetes plade",
+    "log": "Glukose log",
+    "gi": "GI opslag"
+  },
+  "log": {
+    "title": "Log af glukoseaflæsning",
+    "unit": "Måleenhed",
+    "value": "Glukoseniveau ({{enhed}})",
+    "valuePlaceholder": "Indtast værdi (f.eks. 110)",
+    "valuePlaceholderMmol": "Indtast værdi (f.eks. 6.1)",
+    "timing": "Læsetidspunkt",
+    "mealContext": "Måltidskontekst / Noter",
+    "mealContextPlaceholder": "Hvad spiste du? Hvordan har du det?",
+    "submit": "Gem læsning",
+    "success": "Glukoseaflæsning blev gemt!",
+    "targets": {
+      "title": "Standardmålområder (mg/dL)",
+      "fasting": "Fastende: 80-130 mg/dL",
+      "postMeal": "1-2 timer efter måltid: < 180 mg/dL",
+      "low": "Lav: < 70 mg/dL"
+    },
+    "recent": {
+      "title": "Seneste læsninger",
+      "noReadings": "Ingen aflæsninger logget endnu",
+      "trend": "Glukosetrend (sidste 7 målinger)",
+      "targetMax": "Målmaksimum (faste)",
+      "targetPost": "Målmaksimum (efter måltid)"
+    }
+  },
+  "status": {
+    "normal": "Normal",
+    "high": "Høj",
+    "low": "Lav"
+  },
+  "timing": {
+    "fasting": "Faste / Før måltid",
+    "preMeal": "Før måltid",
+    "postMeal1h": "1 time efter måltidet",
+    "postMeal2h": "2 timer efter måltidet",
+    "bedtime": "Sengetid"
+  },
+  "plate": {
+    "intro": {
+      "title": "Diabetesplademetoden",
+      "desc": "Tallerkenmetoden er en enkel måde at planlægge måltider uden at tælle. Den fokuserer på portionskontrol og balance for at hjælpe med at styre blodsukkerniveauet."
+    },
+    "build": {
+      "title": "Byg din tallerken",
+      "hint": "Klik på en sektion for at se anbefalede fødevarer"
+    },
+    "categories": {
+      "veggies": {
+        "name": "Ikke-stivelsesholdige grøntsager",
+        "percent": "50 %",
+        "desc": "Fyld halvdelen af din tallerken med farverige, fiberrige grøntsager"
+      },
+      "protein": {
+        "name": "Magert protein",
+        "percent": "25 %",
+        "desc": "Fyld en fjerdedel med magre proteinkilder"
+      },
+      "carbs": {
+        "name": "Sunde kulhydrater",
+        "percent": "25 %",
+        "desc": "Fyld en fjerdedel med fuldkorn eller stivelsesholdige grøntsager"
+      }
+    },
+    "principles": {
+      "title": "Platemetodeprincipper",
+      "veggies": {
+        "title": "Grøntsager først",
+        "desc": "Spis dine grøntsager først for at bremse optagelsen af glukose fra resten af dit måltid."
+      },
+      "protein": {
+        "title": "Kvalitetsprotein",
+        "desc": "Vælg magre muligheder for at understøtte muskelvedligeholdelse uden overdreven mættet fedt."
+      },
+      "carbs": {
+        "title": "Mindful Carbs",
+        "desc": "Hold dig til komplekse kulhydrater, der har en lavere indvirkning på blodsukkeret."
+      }
+    }
+  },
+  "gi": {
+    "intro": {
+      "title": "Opslag på glykæmisk indeks (GI).",
+      "desc": "Det glykæmiske indeks rangerer kulhydrater efter, hvor meget de hæver blodsukkerniveauet sammenlignet med en referencefødevare.",
+      "low": "Lav (0-55)",
+      "medium": "Mellem (56-69)",
+      "high": "Høj (70+)"
+    },
+    "labels": {
+      "low": "Lavt GI",
+      "medium": "Mellem GI",
+      "high": "Høj GI"
+    },
+    "search": "Søg efter en fødevare (f.eks. havre, banan...)",
+    "noResults": "Der blev ikke fundet nogen fødevarer, der matcher din søgning"
+  },
+  "foods": {
+    "Spinach": "Spinat",
+    "Broccoli": "Broccoli",
+    "Cauliflower": "Blomkål",
+    "Bell Peppers": "Paprika",
+    "Zucchini": "Zucchini",
+    "Asparagus": "Asparges",
+    "Cucumber": "Agurk",
+    "Tomatoes": "Tomater",
+    "Chicken Breast": "Kyllingebryst",
+    "Fish (Salmon, Tuna)": "Fisk (laks, tun)",
+    "Tofu": "Tofu",
+    "Lentils": "Linser",
+    "Eggs": "Æg",
+    "Turkey": "Tyrkiet",
+    "Greek Yogurt": "græsk yoghurt",
+    "Brown Rice": "Brune Ris",
+    "Quinoa": "Quinoa",
+    "Sweet Potato": "Sød kartoffel",
+    "Whole Wheat Pasta": "Fuldkornspasta",
+    "Oats": "Havre",
+    "Barley": "Byg"
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "back": "返回儀表板"
+  },
+  "header": {
+    "title": "素食營養指南",
+    "subtitle": "完整的植物性營養工具包"
+  },
+  "tabs": {
+    "plate": "素食盤",
+    "nutrients": "微量營養素",
+    "calculator": "蛋白質計算器"
+  },
+  "plate": {
+    "title": "完整的素食餐",
+    "proportions": {
+      "legumes": {
+        "title": "豆類/豆類",
+        "subtitle": "蛋白質發電站",
+        "examples": "例如：扁豆、鷹嘴豆、黑豆、豆腐、豆豉"
+      },
+      "grains": {
+        "title": "全穀物",
+        "subtitle": "持續能量",
+        "examples": "例如：藜麥、糙米、燕麥、全麥、大麥"
+      },
+      "vegetables": {
+        "title": "蔬菜",
+        "subtitle": "富含微量營養素",
+        "examples": "例如：綠葉蔬菜、綠花椰菜、辣椒、胡蘿蔔、番茄"
+      },
+      "fats": {
+        "title": "健康脂肪/種子",
+        "subtitle": "荷爾蒙健康",
+        "examples": "例如：酪梨、堅果、種子、橄欖油、芝麻醬"
+      }
+    },
+    "tip": {
+      "title": "專業提示：促進鐵吸收",
+      "desc": "植物鐵（非血紅素鐵）的吸收效率低於動物鐵。將富含鐵的食物與維生素 C 搭配，可將吸收率提高高達 300%！",
+      "ironRich": "富含鐵的食物",
+      "ironExamples": "菠菜、扁豆、藜麥、豆腐、南瓜子",
+      "vitaminC": "維生素 C 增強劑",
+      "vitaminCExamples": "檸檬汁、青椒、番茄、綠花椰菜、柳橙",
+      "perfectCombo": "完美組合：檸檬汁扁豆湯、青椒菠菜沙拉"
+    }
+  },
+  "nutrients": {
+    "title": "四大營養素追蹤器",
+    "progress": {
+      "title": "今天的進展",
+      "done": "完成",
+      "pending": "待定"
+    },
+    "why": {
+      "title": "為什麼要追蹤這些？",
+      "desc1": "這四種營養素是植物性飲食中最常見的缺乏症。追蹤每日攝取量可確保您獲得完整的營養。",
+      "note": "注意：B12 必須透過強化食品補充或食用 - 它並不天然存在於植物中。"
+    },
+    "micronutrients": {
+      "b12": {
+        "name": "維生素B12",
+        "importance": "對於神經功能和 DNA 合成至關重要",
+        "dosage": "每日 2.4 微克"
+      },
+      "iron": {
+        "name": "鐵和鋅",
+        "importance": "對於氧氣運輸和免疫功能至關重要",
+        "dosage": "鐵：每天 18 毫克，鋅：11 毫克"
+      },
+      "omega3": {
+        "name": "Omega-3 (ALA)",
+        "importance": "大腦健康與抗發炎",
+        "dosage": "每日 1.6 克"
+      },
+      "calcium": {
+        "name": "鈣",
+        "importance": "骨骼健康和肌肉功能",
+        "dosage": "每日 1000 毫克"
+      }
+    }
+  },
+  "calculator": {
+    "title": "蛋白質知識指南",
+    "subtitle": "選擇一種食物並輸入數量即可立即查看其蛋白質含量",
+    "form": {
+      "selectFood": "搜尋並選擇食品",
+      "placeholderFood": "選擇一種食物...",
+      "searchPlaceholder": "搜尋食物...",
+      "amount": "用量（克）",
+      "placeholderAmount": "100",
+      "add": "加到計算",
+      "proteinPer100": "每 100 克 {{val}} 克",
+      "matches": "顯示 5 場比賽，共 {{total}} 場",
+      "noMatches": "沒有找到食物"
+    },
+    "results": {
+      "title": "蛋白質分解",
+      "estProtein": "估計蛋白質含量",
+      "calcInfo": "{{數量}}克{{食物}}",
+      "summary": "目前計算摘要",
+      "total": "總蛋白",
+      "aminoAcid": "胺基酸完整性",
+      "aminoComplete": "完整的氨基概況",
+      "aminoIncomplete": "缺穀物或豆類",
+      "aminoNote": "豆類（扁豆/豆類/大豆）+穀物（米/藜麥/燕麥）=完整蛋白質",
+      "save": "將總計記錄到歷史記錄",
+      "success": "蛋白質記錄成功！",
+      "ironTip": {
+        "title": "提示：",
+        "desc": "與維生素 C（檸檬、辣椒、番茄）搭配，可提高鐵吸收高達 300%！"
+      }
+    },
+    "reference": {
+      "title": "快速參考指南"
+    }
+  },
+  "proteinSources": {
+    "tofu": "豆腐",
+    "tempeh": "丹貝",
+    "edamame": "模",
+    "soybeansBoiled": "黃豆煮",
+    "soyChunks": "大豆塊/TVP 乾",
+    "soyMince": "乾黃豆碎",
+    "soyMilk": "豆漿不加糖",
+    "soyYogurt": "原味大豆優格",
+    "seitan": "麵筋",
+    "lentilsCooked": "扁豆煮熟",
+    "redLentilsCooked": "紅扁豆煮熟",
+    "greenLentilsCooked": "煮熟的綠扁豆",
+    "blackLentilsCooked": "熟黑扁豆",
+    "chickpeasCooked": "鷹嘴豆煮熟",
+    "blackBeansCooked": "黑豆煮熟",
+    "kidneyBeansCooked": "芸豆煮熟",
+    "pintoBeansCooked": "煮熟的斑豆",
+    "cannelliniBeansCooked": "Cannellini 豆煮熟",
+    "navyBeansCooked": "海軍豆煮熟",
+    "adzukiBeansCooked": "紅小豆煮熟",
+    "mungBeansCooked": "綠豆煮熟",
+    "lupinBeans": "羽扇豆",
+    "splitPeasCooked": "豌豆煮熟",
+    "greenPeas": "青豆",
+    "peaProteinIsolate": "豌豆分離蛋白",
+    "peaMilk": "豌豆奶",
+    "hummus": "鷹嘴豆泥",
+    "falafel": "沙拉三明治",
+    "quinoaCooked": "煮熟的藜麥",
+    "amaranthCooked": "莧菜煮熟",
+    "buckwheatCooked": "蕎麥煮熟",
+    "oatsDry": "燕麥幹",
+    "rolledOats": "燕麥片",
+    "steelCutOats": "鋼切燕麥",
+    "oatBran": "燕麥麩",
+    "barleyCooked": "熟大麥",
+    "milletCooked": "小米熟",
+    "brownRiceCooked": "糙米煮熟",
+    "wildRiceCooked": "野米煮熟",
+    "teffCooked": "苔麩煮熟",
+    "farroCooked": "法羅熟",
+    "freekehCooked": "免費煮熟",
+    "wholeWheatPastaCooked": "全麥義大利麵煮熟",
+    "chickpeaPastaDry": "鷹嘴豆乾義大利麵",
+    "lentilPastaDry": "扁豆義大利麵乾",
+    "blackBeanPastaDry": "黑豆乾義大利麵",
+    "spirulinaDry": "螺旋藻幹",
+    "nutritionalYeast": "營養酵母",
+    "mushroomsWhite": "蘑菇白",
+    "portobelloMushrooms": "波托貝洛蘑菇",
+    "spinach": "菠菜",
+    "kale": "羽衣甘藍",
+    "broccoli": "綠色花椰菜",
+    "brusselsSprouts": "抱子甘藍",
+    "sweetCorn": "甜玉米",
+    "artichoke": "朝鮮薊",
+    "avocado": "酪梨",
+    "pumpkinSeeds": "南瓜子",
+    "hempSeeds": "大麻種子",
+    "chiaSeeds": "奇亞籽",
+    "flaxSeeds": "亞麻籽",
+    "sesameSeeds": "芝麻",
+    "sunflowerSeeds": "葵花籽",
+    "watermelonSeeds": "西瓜籽",
+    "almonds": "杏仁",
+    "peanuts": "花生",
+    "peanutButterNatural": "天然花生醬",
+    "cashews": "腰果",
+    "pistachios": "開心果",
+    "walnuts": "核桃",
+    "hazelnuts": "榛子",
+    "brazilNuts": "巴西堅果",
+    "almondButter": "杏仁奶油",
+    "tahini": "芝麻醬",
+    "cashewButter": "腰果醬",
+    "pumpkinSeedButter": "南瓜籽奶油",
+    "sunflowerSeedButter": "葵花籽油",
+    "almondFlour": "杏仁粉",
+    "chickpeaFlour": "鷹嘴豆粉/貝桑",
+    "soyFlour": "大豆粉",
+    "wholeWheatFlour": "全麥麵粉",
+    "breadWholeWheat": "全麥麵包",
+    "ezekielBread": "以西結麵包",
+    "proteinBreadVegan": "純素蛋白質麵包",
+    "roastedChickpeas": "烤鷹嘴豆",
+    "dryRoastedEdamame": "乾烤毛豆",
+    "proteinBarVegan": "純素蛋白質棒",
+    "veganSausage": "純素香腸",
+    "veganBurgerPatty": "純素漢堡肉餅",
+    "mycoproteinVegan": "菌蛋白素食",
+    "beanSprouts": "豆芽",
+    "alfalfaSprouts": "苜蓿芽"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "back": "Vissza az irányítópultra"
+  },
+  "header": {
+    "title": "Intelligens BMI és testkörnyezet",
+    "subtitle": "Kövesse nyomon testmutatóit klinikai pontossággal"
+  },
+  "streak": {
+    "title": "Egészséges tartomány fenntartása!",
+    "subtitle": "{{count}} egymást követő mérés az egészséges zónában 🎉"
+  },
+  "tabs": {
+    "calculator": "BMI kalkulátor",
+    "context": "A BMI-n túl",
+    "history": "Trendtörténet"
+  },
+  "calculator": {
+    "title": "Számolja ki a BMI-jét",
+    "inputs": {
+      "height": "Magasság",
+      "weight": "Súly",
+      "feet": "Lábak",
+      "inches": "hüvelyk",
+      "placeholders": {
+        "heightCm": "például 170",
+        "heightFt": "Lábak",
+        "heightIn": "hüvelyk",
+        "weightKg": "például 70",
+        "weightLbs": "például 154"
+      }
+    },
+    "results": {
+      "yourBMI": "A BMI-je",
+      "placeholder": "Adja meg a méreteit a BMI megtekintéséhez",
+      "submit": "Mentés a profilba",
+      "success": "✓ Sikeres mentés!",
+      "categories": {
+        "underweight": "Súlyszegény",
+        "healthy": "Egészséges súly",
+        "normal": "Normális",
+        "overweight": "Túlsúlyos",
+        "obese": "Elhízott",
+        "enterData": "Adja meg az adatokat"
+      }
+    },
+    "tip": "Fontolja meg a rendszeres testmozgás és a kiegyensúlyozott étrend beiktatását a rutinjába.",
+    "disclaimer": {
+      "title": "Orvosi felelősség kizárása",
+      "text": "A BMI egy általános szűrőeszköz, és nem tesz különbséget az izom- és zsírtömeg között. Személyre szabott orvosi tanácsért forduljon egészségügyi szakemberekhez."
+    }
+  },
+  "beyond": {
+    "title": "Derékmagasság arány (WHtR)",
+    "why": {
+      "title": "Miért számít ez?",
+      "desc": "Ha a derékbőséget a magasság felénél kisebbre tartja, az csökkenti a szív- és érrendszeri kockázatot. A WHtR pontosabb, mint a BMI az anyagcsere-egészségügyi állapotok előrejelzésében.",
+      "target": "Cél: < 0,5 arány az optimális egészség érdekében"
+    },
+    "inputs": {
+      "waist": "Derékkörfogat",
+      "waistHint": "Mérje meg a dereka legkeskenyebb pontján, általában közvetlenül a köldök felett",
+      "placeholders": {
+        "waistCm": "pl 80",
+        "waistIn": "például 31"
+      }
+    },
+    "results": {
+      "healthy": "Egészséges alak",
+      "elevated": "Emelkedett kockázat",
+      "placeholder": "Kérjük, adja meg a magasságot és a derékt az arány megtekintéséhez",
+      "waistMeasurementPlaceholder": "Adja meg a derékméretet",
+      "label": "Derékmagasság arány",
+      "submit": "Mentés a profilba (BMI + WHtR)"
+    },
+    "comparison": {
+      "title": "BMI vs WHtR: A különbség",
+      "bmi": {
+        "title": "BMI",
+        "desc": "Általános súlykategória, nem veszi figyelembe az izomtömeget vagy a zsíreloszlást"
+      },
+      "whtr": {
+        "title": "WHtR",
+        "desc": "Méri a központi elhízást, jobb előrejelzője a sz��v- és érrendszeri betegségeknek és a cukorbetegségnek"
+      }
+    }
+  },
+  "history": {
+    "title": "Legutóbbi mérések",
+    "noHistory": "Még nincs előzmény",
+    "noHistoryDesc": "Kezdje el nyomon követni BMI-jét és testmutatóit, hogy megtekinthesse fejlődési trendjeit az idő múlásával.",
+    "stats": {
+      "title": "Az Ön statisztikái",
+      "total": "Összes rekord",
+      "latest": "Legújabb BMI",
+      "healthyCount": "Egészséges gróf",
+      "bestStreak": "Legjobb sorozat"
+    }
+  }
+}

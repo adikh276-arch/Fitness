@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "back": "Takaisin hallintapaneeliin"
+  },
+  "header": {
+    "title": "Älykäs BMI ja kehon konteksti",
+    "subtitle": "Seuraa kehosi mittareita kliinisellä tarkkuudella"
+  },
+  "streak": {
+    "title": "Terveellistä valikoimaa ylläpidetty!",
+    "subtitle": "{{count}} peräkkäistä lukemaa terveellä alueella 🎉"
+  },
+  "tabs": {
+    "calculator": "BMI-laskin",
+    "context": "BMI:n yli",
+    "history": "Trendihistoria"
+  },
+  "calculator": {
+    "title": "Laske BMI",
+    "inputs": {
+      "height": "Korkeus",
+      "weight": "Paino",
+      "feet": "Jalat",
+      "inches": "Tuumaa",
+      "placeholders": {
+        "heightCm": "esim 170",
+        "heightFt": "Jalat",
+        "heightIn": "Tuumaa",
+        "weightKg": "esim. 70",
+        "weightLbs": "esim. 154"
+      }
+    },
+    "results": {
+      "yourBMI": "Sinun BMI",
+      "placeholder": "Syötä mittasi nähdäksesi BMI:si",
+      "submit": "Tallenna profiiliin",
+      "success": "✓ Tallennettu onnistuneesti!",
+      "categories": {
+        "underweight": "Alipainoinen",
+        "healthy": "Terve paino",
+        "normal": "Normaali",
+        "overweight": "Ylipainoinen",
+        "obese": "Liikalihavia",
+        "enterData": "Syötä tiedot"
+      }
+    },
+    "tip": "Harkitse säännöllisen liikunnan ja tasapainoisen ruokavalion sisällyttämistä rutiiniin.",
+    "disclaimer": {
+      "title": "Lääketieteellinen vastuuvapauslauseke",
+      "text": "BMI on yleinen seulontatyökalu, joka ei tee eroa lihas- ja rasvamassan välillä. Ota yhteyttä terveydenhuollon ammattilaisiin saadaksesi henkilökohtaista lääketieteellistä neuvontaa."
+    }
+  },
+  "beyond": {
+    "title": "Vyötärön ja korkeuden suhde (WHtR)",
+    "why": {
+      "title": "Miksi tällä on väliä",
+      "desc": "Vyötärönympäryksen pitäminen alle puolessa pituudestasi vähentää sydän- ja verisuoniriskiä. WHtR on tarkempi kuin BMI aineenvaihdunnan terveystilojen ennustamisessa.",
+      "target": "Tavoite: Suhde < 0,5 optimaalisen terveyden saavuttamiseksi"
+    },
+    "inputs": {
+      "waist": "Vyötärön ympärysmitta",
+      "waistHint": "Mittaa vyötärön kapeimmasta kohdasta, yleensä napasta",
+      "placeholders": {
+        "waistCm": "esim. 80",
+        "waistIn": "esim. 31"
+      }
+    },
+    "results": {
+      "healthy": "Terve muoto",
+      "elevated": "Kohonnut riski",
+      "placeholder": "Anna korkeus ja vyötärö nähdäksesi suhteen",
+      "waistMeasurementPlaceholder": "Syötä vyötärömitta",
+      "label": "Vyötärön ja korkeuden suhde",
+      "submit": "Tallenna profiiliin (BMI + WHtR)"
+    },
+    "comparison": {
+      "title": "BMI vs WHtR: Ero",
+      "bmi": {
+        "title": "BMI",
+        "desc": "Yleinen painoluokka, ei ota huomioon lihasmassaa tai rasvan jakautumista"
+      },
+      "whtr": {
+        "title": "WHtR",
+        "desc": "Mittaa keskuslihavuutta, ennustaa paremmin sydän- ja verisuonisairauksia ja diabetesta"
+      }
+    }
+  },
+  "history": {
+    "title": "Viimeaikaiset mittaukset",
+    "noHistory": "Ei vielä historiaa",
+    "noHistoryDesc": "Aloita painoindeksisi ja kehosi mittareiden seuraaminen nähdäksesi kehitystrendit ajan mittaan.",
+    "stats": {
+      "title": "Omat tilastot",
+      "total": "Yhteensä Records",
+      "latest": "Uusin BMI",
+      "healthyCount": "Terve Count",
+      "bestStreak": "Paras putki"
+    }
+  }
+}

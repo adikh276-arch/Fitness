@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "back": "Bumalik sa Dashboard"
+  },
+  "header": {
+    "title": "Gabay sa Diyeta sa Diabetes",
+    "subtitle": "Subaybayan ang glucose at master ang plate method"
+  },
+  "alert": {
+    "title": "Babala sa Mababang Asukal sa Dugo",
+    "desc": "Ang iyong pagbabasa ay nagpapahiwatig ng hypoglycemia (mababang asukal sa dugo). Mangyaring kumilos kaagad:",
+    "actions": {
+      "carbs": "Uminom ng 15g ng mabilis na kumikilos na carbs (hal., 4oz juice, 3-4 na glucose tab)",
+      "wait": "Maghintay ng 15 minuto",
+      "repeat": "Subukan muli; kung mababa pa rin, ulitin ang paggamot",
+      "contact": "Makipag-ugnayan sa iyong doktor kung ang mga antas ay hindi nagpapatatag"
+    }
+  },
+  "tabs": {
+    "plate": "Plate ng Diabetes",
+    "log": "Log ng glucose",
+    "gi": "GI Lookup"
+  },
+  "log": {
+    "title": "Pagbasa ng Log Glucose",
+    "unit": "Yunit ng Pagsukat",
+    "value": "Antas ng Glucose ({{unit}})",
+    "valuePlaceholder": "Ipasok ang halaga (hal. 110)",
+    "valuePlaceholderMmol": "Ipasok ang halaga (hal. 6.1)",
+    "timing": "Timing ng Pagbasa",
+    "mealContext": "Konteksto ng Pagkain / Mga Tala",
+    "mealContextPlaceholder": "ano nakain mo? Ano ang nararamdaman mo?",
+    "submit": "I-save ang Pagbabasa",
+    "success": "Matagumpay na na-save ang pagbabasa ng glucose!",
+    "targets": {
+      "title": "Mga Karaniwang Target na Saklaw (mg/dL)",
+      "fasting": "Pag-aayuno: 80-130 mg/dL",
+      "postMeal": "1-2h Pagkatapos ng pagkain: < 180 mg/dL",
+      "low": "Mababa: < 70 mg/dL"
+    },
+    "recent": {
+      "title": "Mga Kamakailang Pagbasa",
+      "noReadings": "Wala pang mga pagbabasa na naka-log",
+      "trend": "Trend ng Glucose (Huling 7 Pagbasa)",
+      "targetMax": "Target na Max (Pag-aayuno)",
+      "targetPost": "Target na Max (Pagkatapos ng pagkain)"
+    }
+  },
+  "status": {
+    "normal": "Normal",
+    "high": "Mataas",
+    "low": "Mababa"
+  },
+  "timing": {
+    "fasting": "Pag-aayuno / Bago kumain",
+    "preMeal": "Pre-meal",
+    "postMeal1h": "1h Pagkatapos ng pagkain",
+    "postMeal2h": "2h Pagkatapos kumain",
+    "bedtime": "Oras ng pagtulog"
+  },
+  "plate": {
+    "intro": {
+      "title": "Ang Paraan ng Diabetes Plate",
+      "desc": "Ang Paraan ng Plate ay isang simpleng paraan upang magplano ng mga pagkain nang hindi binibilang. Nakatuon ito sa pagkontrol sa bahagi at balanse upang makatulong na pamahalaan ang mga antas ng asukal sa dugo."
+    },
+    "build": {
+      "title": "Buuin ang Iyong Plate",
+      "hint": "Mag-click sa isang seksyon upang makita ang mga inirerekomendang pagkain"
+    },
+    "categories": {
+      "veggies": {
+        "name": "Mga Gulay na Walang Starchy",
+        "percent": "50%",
+        "desc": "Punan ang kalahati ng iyong plato ng mga makukulay na gulay na mayaman sa hibla"
+      },
+      "protein": {
+        "name": "Lean Protina",
+        "percent": "25%",
+        "desc": "Punan ang isang-kapat ng mga mapagkukunan ng walang taba na protina"
+      },
+      "carbs": {
+        "name": "Malusog na Carbs",
+        "percent": "25%",
+        "desc": "Punan ang isang quarter ng buong butil o starchy veggies"
+      }
+    },
+    "principles": {
+      "title": "Mga Prinsipyo ng Plate Method",
+      "veggies": {
+        "title": "Mga gulay muna",
+        "desc": "Kumain muna ng iyong mga gulay upang mapabagal ang pagsipsip ng glucose mula sa natitirang bahagi ng iyong pagkain."
+      },
+      "protein": {
+        "title": "Kalidad na Protina",
+        "desc": "Pumili ng mga opsyon na walang taba upang suportahan ang pagpapanatili ng kalamnan nang walang labis na saturated fats."
+      },
+      "carbs": {
+        "title": "Maingat na Carbs",
+        "desc": "Manatili sa mga kumplikadong carbohydrates na may mas mababang epekto sa mga spike ng asukal sa dugo."
+      }
+    }
+  },
+  "gi": {
+    "intro": {
+      "title": "Glycemic Index (GI) Lookup",
+      "desc": "Ang Glycemic Index ay niraranggo ang mga carbohydrate sa kung gaano kalaki ang pagtaas ng mga antas ng glucose sa dugo kumpara sa isang reference na pagkain.",
+      "low": "Mababa (0-55)",
+      "medium": "Katamtaman (56-69)",
+      "high": "Mataas (70+)"
+    },
+    "labels": {
+      "low": "Mababang GI",
+      "medium": "Katamtamang GI",
+      "high": "Mataas na GI"
+    },
+    "search": "Maghanap ng pagkain (hal. oats, saging...)",
+    "noResults": "Walang nakitang pagkain na tumutugma sa iyong paghahanap"
+  },
+  "foods": {
+    "Spinach": "kangkong",
+    "Broccoli": "Brokuli",
+    "Cauliflower": "Kuliplor",
+    "Bell Peppers": "Bell Peppers",
+    "Zucchini": "Zucchini",
+    "Asparagus": "Asparagus",
+    "Cucumber": "Pipino",
+    "Tomatoes": "Mga kamatis",
+    "Chicken Breast": "Dibdib ng Manok",
+    "Fish (Salmon, Tuna)": "Isda (Salmon, Tuna)",
+    "Tofu": "Tofu",
+    "Lentils": "Mga lentil",
+    "Eggs": "Mga itlog",
+    "Turkey": "Turkey",
+    "Greek Yogurt": "Greek Yogurt",
+    "Brown Rice": "Kayumangging Bigas",
+    "Quinoa": "Quinoa",
+    "Sweet Potato": "Kamote",
+    "Whole Wheat Pasta": "Whole Wheat Pasta",
+    "Oats": "Oats",
+    "Barley": "barley"
+  }
+}

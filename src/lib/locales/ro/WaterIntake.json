@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "back": "Înapoi la Tabloul de bord"
+  },
+  "header": {
+    "title": "Tracker de admisie a apei",
+    "subtitle": "Urmăriți-vă hidratarea zilnică și atingeți-vă obiectivele"
+  },
+  "tabs": {
+    "tracker": "Trackerul de azi",
+    "history": "istorie"
+  },
+  "tracker": {
+    "consumed": "ml consumate",
+    "goalLabel": "Obiectivul zilnic",
+    "remainingLabel": "Rămânând",
+    "changeGoal": "Schimbați obiectivul zilnic",
+    "quickAdd": {
+      "title": "Adăugare rapidă",
+      "smallGlass": "Pahar mic",
+      "bottle": "sticla",
+      "largeBottle": "Sticla mare",
+      "jug": "ulcior"
+    },
+    "custom": {
+      "label": "Cantitate personalizată (ml)",
+      "placeholder": "de exemplu, 350",
+      "submit": "Adăugați",
+      "undo": "Anulați ultima intrare"
+    }
+  },
+  "history": {
+    "title": "Istoricul aportului de apă",
+    "noHistory": "Nu există încă un istoric disponibil",
+    "today": "Astăzi",
+    "summary": "{{total}} ml/{{goal}} ml ({{percent}}%)",
+    "stats": {
+      "total": "Total",
+      "entries": "Intrări"
+    }
+  },
+  "modal": {
+    "title": "Setați obiectivul zilnic",
+    "subtitle": "Introduceți aportul zilnic de apă țintă",
+    "placeholder": "de exemplu, 2500",
+    "calcToggleShow": "Calculați Recomandat",
+    "calcToggleHide": "Ascunde Calculatorul",
+    "formula": "Formula: Greutate (kg) × 35 ml",
+    "weightLabel": "Greutatea ta (kg)",
+    "weightPlaceholder": "de exemplu, 70",
+    "calcBtn": "Calculați și aplicați",
+    "cancel": "Anulează",
+    "save": "Salvați"
+  }
+}

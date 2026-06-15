@@ -38,7 +38,7 @@
       "categories": {
         "underweight": "Bajo peso",
         "healthy": "Peso saludable",
-        "normal": "Normal",
+        "normal": "normales",
         "overweight": "Sobrepeso",
         "obese": "Obeso",
         "enterData": "Introduzca los datos"

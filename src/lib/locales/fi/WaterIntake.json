@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "back": "Takaisin hallintapaneeliin"
+  },
+  "header": {
+    "title": "Vedenoton seurantalaite",
+    "subtitle": "Seuraa päivittäistä nesteytystäsi ja saavuta tavoitteesi"
+  },
+  "tabs": {
+    "tracker": "Tämän päivän Tracker",
+    "history": "Historia"
+  },
+  "tracker": {
+    "consumed": "ml kulutettu",
+    "goalLabel": "Päivittäinen tavoite",
+    "remainingLabel": "Jäljellä",
+    "changeGoal": "Muuta päivittäistä tavoitetta",
+    "quickAdd": {
+      "title": "Pikalisäys",
+      "smallGlass": "Pieni Lasi",
+      "bottle": "Pullo",
+      "largeBottle": "Iso Pullo",
+      "jug": "Kannu"
+    },
+    "custom": {
+      "label": "Muokattu määrä (ml)",
+      "placeholder": "esim 350",
+      "submit": "Lisää",
+      "undo": "Kumoa viimeinen merkintä"
+    }
+  },
+  "history": {
+    "title": "Vedenottohistoria",
+    "noHistory": "Historiaa ei ole vielä saatavilla",
+    "today": "Tänään",
+    "summary": "{{total}} ml / {{goal}} ml ({{percent}}%)",
+    "stats": {
+      "total": "Yhteensä",
+      "entries": "merkinnät"
+    }
+  },
+  "modal": {
+    "title": "Aseta päivittäinen tavoite",
+    "subtitle": "Syötä tavoite päivittäinen vedensaanti",
+    "placeholder": "esim 2500",
+    "calcToggleShow": "Laske Suositeltu",
+    "calcToggleHide": "Piilota laskin",
+    "formula": "Kaava: Paino (kg) × 35 ml",
+    "weightLabel": "Painosi (kg)",
+    "weightPlaceholder": "esim. 70",
+    "calcBtn": "Laske ja käytä",
+    "cancel": "Peruuta",
+    "save": "Tallenna"
+  }
+}

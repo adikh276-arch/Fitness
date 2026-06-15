@@ -70,7 +70,8 @@
       "firstMeal": "今天第一餐時間：",
       "duration": "總禁食時間",
       "goalAchieved": "目標達成！你完成了超過16小時的禁食！",
-      "submit": "快速記錄"
+      "submit": "快速記錄",
+      "dateLabel": "日期："
     },
     "tracker": {
       "title": "30天快速追蹤",
@@ -81,7 +82,9 @@
         "goalMet": "目標達成（16小時以上）",
         "today": "今天",
         "missed": "錯過的一天"
-      }
+      },
+      "today": "今天",
+      "dayLabel": "第 {{val}} 天"
     },
     "recentFasts": {
       "title": "最近的齋戒",

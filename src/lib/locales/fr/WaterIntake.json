@@ -33,7 +33,7 @@
     "title": "Historique de consommation d'eau",
     "noHistory": "Aucun historique disponible pour le moment",
     "today": "Aujourd'hui",
-    "summary": "{{total}} ml / {{goal}} ml ({{percent}}%)",
+    "summary": "{{total}} ml / {{goal}} ml ({{percent}} %)",
     "stats": {
       "total": "Total",
       "entries": "Entrées"

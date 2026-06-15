@@ -109,7 +109,16 @@
       "thigh": "Stehno (dovnitř)",
       "thighHint": "Nejširší část",
       "submit": "Měření protokolů",
-      "success": "Metriky úspěšně zaznamenány!"
+      "success": "Metriky úspěšně zaznamenány!",
+      "placeholders": {
+        "weight": "např. 75",
+        "targetWeight": "např. 85",
+        "chest": "např. 40",
+        "waist": "Volitelné",
+        "bicep": "např. 15",
+        "bicepL": "Stejné jako vpravo",
+        "thigh": "Volitelné"
+      }
     },
     "volume": {
       "title": "Kalkulačka objemu",
@@ -120,7 +129,13 @@
       "totalVolume": "Celkový objem",
       "remaining": "Zbývá do cíle",
       "submit": "Objem protokolu",
-      "logged": "{{lift}} zaznamenáno: celkový objem {{volume}}kg!"
+      "logged": "{{lift}} zaznamenáno: celkový objem {{volume}}kg!",
+      "recentLifts": "Nedávné výtahy",
+      "placeholders": {
+        "sets": "např. 4",
+        "reps": "např. 8",
+        "weight": "např. 80"
+      }
     },
     "chart": {
       "title": "Graf průběhu",
@@ -168,7 +183,71 @@
         "perfect": "Perfektní (5/5)",
         "partial": "Částečný",
         "none": "Neúplný"
+      },
+      "tooltip": "Den {{day}}: {{count}}/5 zvyků"
+    }
+  },
+  "essentials": {
+    "title": "Základy hypertrofie",
+    "tips": {
+      "rest": {
+        "title": "Svaly se budují během odpočinku:",
+        "desc": "Spánek a výživa jsou obdobím růstu, ne v tělocvičně"
+      },
+      "protein": {
+        "title": "Načasování bílkovin záleží méně než celkové:",
+        "desc": "Soustřeďte se na dosažení svého denního cíle, načasování je až druhořadé"
+      },
+      "track": {
+        "title": "Sledujte vše:",
+        "desc": "Hmotnost, míry a objem – údaje odhalují pokrok, který v zrcadle nevidíte"
+      },
+      "creatine": {
+        "title": "Kreatin je osvědčený:",
+        "desc": "3-5 g denně zvyšuje sílu a libovou hmotu bez vedlejších účinků pro většinu lidí"
       }
     }
+  },
+  "exercises": {
+    "squat": "Squat",
+    "deadlift": "Mrtvý tah",
+    "benchPress": "Bench Press",
+    "overheadPress": "Horní lis",
+    "barbellRow": "Činka řada",
+    "pullUp": "Vytáhněte nahoru",
+    "chinUp": "Brada nahoru",
+    "latPulldown": "Lat Pulldown",
+    "seatedCableRow": "Sedící kabelová řada",
+    "dumbbellRow": "Řada s činkami",
+    "romanianDeadlift": "Rumunský mrtvý tah",
+    "hipThrust": "Hip Thrust",
+    "lunge": "Výpad",
+    "bulgarianSplitSquat": "Bulharský split squat",
+    "legPress": "Leg Press",
+    "legExtension": "Prodloužení nohou",
+    "legCurl": "Zvlnění nohou",
+    "calfRaise": "Zvedání lýtek",
+    "gluteBridge": "Glute Bridge",
+    "pushUp": "Push Up",
+    "inclineDumbbellPress": "Lis na šikmou činku",
+    "dips": "Dipy",
+    "chestFly": "Moucha na hrudi",
+    "lateralRaise": "Boční zvýšení",
+    "rearDeltFly": "Zadní Delt Fly",
+    "facePull": "Face Pull",
+    "bicepCurl": "Biceps Curl",
+    "hammerCurl": "Kladivo Curl",
+    "tricepPushdown": "Triceps Pushdown",
+    "skullCrusher": "Drtič lebek",
+    "plank": "Plank",
+    "hangingLegRaise": "Zvednutí závěsné nohy",
+    "russianTwist": "Ruský Twist",
+    "farmerCarry": "Farmář Carry",
+    "shrug": "Pokrčit rameny",
+    "arnoldPress": "Arnold Press",
+    "frontSquat": "Přední dřep",
+    "sumoDeadlift": "Sumo mrtvý tah",
+    "gobletSquat": "Goblet Squat",
+    "stepUp": "Krok nahoru"
   }
 }

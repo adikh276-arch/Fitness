@@ -1,0 +1,141 @@
+{
+  "header": {
+    "title": "Szív-egészségügyi útmutató",
+    "subtitle": "Kövesse nyomon az életfunkciókat, tanulja meg a DASH diétát, és alakítson ki szív-egészséges szokásokat",
+    "back": "Vissza az irányítópultra"
+  },
+  "alerts": {
+    "crisis": {
+      "title": "HIPERTENZÍV VÁLSÁG FIGYELMEZTETÉS",
+      "desc": "Vérnyomása veszélyesen magas (≥180/120). Ez azonnali orvosi ellátást igényel."
+    },
+    "vitals": {
+      "invalid": "Adjon meg érvényes értékeket",
+      "success": "Olvasás naplózva: {{sys}}/{{dia}} - {{category}}"
+    }
+  },
+  "tabs": {
+    "dash": "DASH diéta",
+    "vitals": "Vitals Log",
+    "habits": "Szív szokások"
+  },
+  "vitals": {
+    "form": {
+      "title": "Regisztrálja életértékeit",
+      "bp": {
+        "label": "Vérnyomás",
+        "systolic": "Szisztolés",
+        "systolic_desc": "Legfelső szám",
+        "diastolic": "Diasztolés",
+        "diastolic_desc": "Alsó szám"
+      },
+      "heart_rate": {
+        "label": "Nyugalmi pulzusszám (BPM)",
+        "placeholder": "például 72"
+      },
+      "submit": "Naplóolvasás"
+    },
+    "recent": {
+      "title": "Legutóbbi olvasmányok",
+      "empty": "Még nincs naplózott leolvasás",
+      "bpm": "{{count}} BPM"
+    },
+    "chart": {
+      "title": "7 napos vérnyomástrend",
+      "systolic": "Szisztolés",
+      "diastolic": "Diasztolés"
+    },
+    "guidelines": {
+      "title": "AHA vérnyomás kategóriák:",
+      "normal": "Normál: <120/80",
+      "elevated": "Emelt: 120-129/<80",
+      "stage1": "1. szakasz: 130-139/80-89",
+      "stage2": "2. szakasz: ≥140/90"
+    },
+    "categories": {
+      "crisis": "Hipertóniás válság",
+      "stage2": "Hipertónia 2. szakasz",
+      "stage1": "Hipertónia 1. szakasz",
+      "elevated": "Emelkedett",
+      "normal": "Normális",
+      "unknown": "Ismeretlen"
+    }
+  },
+  "dash": {
+    "intro": {
+      "title": "A DASH diéta",
+      "desc": "Diétás megközelítések a magas vérnyomás megállítására – Tudományosan bizonyított étkezési terv, amely természetesen csökkenti a vérnyomást."
+    },
+    "principles": {
+      "sodium": {
+        "title": "Nátrium határérték",
+        "limit": "<2300 mg naponta",
+        "high_risk": "(Vagy 1500 mg magas kockázatú egyéneknek)",
+        "desc": "A felesleges nátrium vízvisszatartást okoz, növeli a vér térfogatát és az artériák falára nehezedő nyomást."
+      },
+      "potassium": {
+        "title": "Kálium teljesítmény",
+        "limit": "4700 mg naponta",
+        "source": "Teljes értékű élelmiszerekből"
+      },
+      "magnesium": {
+        "title": "Magnézium és rost",
+        "limit": "500mg Mg / 25-35g Rost",
+        "target": "Napi célok"
+      }
+    },
+    "scanner": {
+      "title": "⚠️ Rejtett nátrium-szkenner: \"Sneaky Salt\" ételek",
+      "subtitle": "Ezek a látszólag ártatlan ételek több nátriumot tartalmaznak, mint gondolná:",
+      "swaps": {
+        "title": "💡 DASH-barát cserék:"
+      }
+    }
+  },
+  "habits": {
+    "vitality": {
+      "title": "Vitality Score",
+      "start": "Kezdje el építeni szív-egészséges sorozatát!",
+      "streak_good": "🔥 {{count}} napos sorozat! A szíved virágzik",
+      "streak_continue": "{{count}} nap – Folytasd!",
+      "streak_continue_singular": "{{count}} nap – Folytasd!",
+      "days": "napi sorozat",
+      "goal": "{{count}} / 30 napos cél"
+    },
+    "checklist": {
+      "title": "Napi kardió ellenőrzőlista",
+      "subtitle": "Végezze el ezeket a szokásokat naponta, hogy erősítse a szív- és érrendszert",
+      "items": {
+        "cardio": {
+          "label": "30 perc 2. zóna kardió",
+          "desc": "Gyors séta, kerékpározás vagy úszás társalgási tempóban"
+        },
+        "low_sodium": {
+          "label": "Nátriumkorlát alatt maradt",
+          "desc": "<2300mg (vagy 1500mg, ha magas kockázatú)"
+        },
+        "no_salt": {
+          "label": "Nincs hozzáadott só az asztalon",
+          "desc": "Hagyja, hogy az ételek természetes ízei ragyogjanak"
+        },
+        "meds": {
+          "label": "Szedett gyógyszer (opcionális)",
+          "desc": "Azoknak, akik vérnyomáscsökkentő gyógyszert szednek"
+        }
+      }
+    },
+    "tips": {
+      "title": "Szívegészségügyi alapok"
+    }
+  },
+  "foods": {
+    "canned_soup": "Konzerv leves (1 csésze)",
+    "deli_turkey": "Deli Pulyka (2 uncia)",
+    "white_bread": "fehér kenyér (2 szelet)",
+    "frozen_pizza": "Fagyasztott pizza (1 szelet)",
+    "soy_sauce": "szójaszósz (1 evőkanál)",
+    "cottage_cheese": "Túró (1/2 csésze)",
+    "pickles": "Savanyúság (1 közepes)",
+    "salad_dressing": "salátaöntet (2 evőkanál)"
+  }
+}

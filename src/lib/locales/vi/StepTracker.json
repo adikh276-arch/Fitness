@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "back": "Quay lại Trang tổng quan"
+  },
+  "header": {
+    "title": "Trình theo dõi bước",
+    "subtitle": "Theo dõi các bước hàng ngày của bạn và đạt được mục tiêu của bạn",
+    "profile": "Hồ sơ"
+  },
+  "tabs": {
+    "tracker": "Trình theo dõi",
+    "history": "lịch sử"
+  },
+  "tracker": {
+    "stepsToday": "bước hôm nay",
+    "goalAchieved": "Mục tiêu đã đạt được!",
+    "stats": {
+      "distance": "Khoảng cách",
+      "calories": "Calo",
+      "activeTime": "Thời gian hoạt động",
+      "km": "km",
+      "kcal": "kcal",
+      "mins": "phút"
+    },
+    "goal": {
+      "label": "Mục tiêu hàng ngày",
+      "value": "{{val}} bước",
+      "change": "Thay đổi mục tiêu"
+    },
+    "quickAdd": {
+      "title": "Thêm nhanh các bước",
+      "label": "Các bước tùy chỉnh",
+      "placeholder": "ví dụ: 3500",
+      "submit": "Thêm"
+    },
+    "insights": {
+      "title": "Thông tin chi tiết ngày nay",
+      "remaining": "Các bước còn lại",
+      "stride": "Chiều dài sải chân",
+      "progress": "Tiến độ",
+      "complete": "Hoàn thành!",
+      "percentOfGoal": "{{val}}% mục tiêu"
+    },
+    "reset": "Đặt lại các bước của ngày hôm nay"
+  },
+  "history": {
+    "title": "Lịch sử bước",
+    "noHistory": "Chưa có lịch sử. Bắt đầu theo dõi các bước của bạn!",
+    "today": "hôm nay",
+    "stats": {
+      "steps": "bước",
+      "goal": "Mục tiêu",
+      "progress": "Tiến độ"
+    }
+  },
+  "modals": {
+    "goal": {
+      "title": "Đặt mục tiêu hàng ngày",
+      "subtitle": "Nhập số bước mục tiêu hàng ngày của bạn",
+      "placeholder": "ví dụ: 10000",
+      "cancel": "Hủy bỏ",
+      "save": "Lưu"
+    },
+    "profile": {
+      "title": "Cập nhật hồ sơ",
+      "subtitle": "Điều này giúp tính toán chính xác khoảng cách và lượng calo",
+      "height": "Chiều cao (cm)",
+      "weight": "Trọng lượng (kg)",
+      "gender": "Giới tính",
+      "male": "Nam",
+      "female": "Nữ",
+      "placeholderHeight": "ví dụ: 170",
+      "placeholderWeight": "ví dụ: 70",
+      "cancel": "Hủy bỏ",
+      "save": "Lưu"
+    }
+  }
+}

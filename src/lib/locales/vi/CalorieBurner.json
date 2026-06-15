@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "back": "Quay lại Trang tổng quan"
+  },
+  "header": {
+    "title": "Đốt cháy calo",
+    "subtitle": "Theo dõi lượng calo được đốt cháy trong các hoạt động của bạn"
+  },
+  "tabs": {
+    "calculator": "Máy tính",
+    "log": "Nhật ký hoạt động ({{count}})"
+  },
+  "calculator": {
+    "form": {
+      "title": "Chi tiết hoạt động",
+      "selectActivity": "Chọn hoạt động",
+      "weight": "Cân nặng của bạn",
+      "duration": "Thời lượng (phút)",
+      "placeholders": {
+        "weightKg": "ví dụ: 70",
+        "weightLbs": "ví dụ: 154"
+      },
+      "submit": "Đăng nhập hoạt động"
+    },
+    "summary": {
+      "title": "Tóm tắt đốt cháy",
+      "calories": "Lượng calo bị đốt cháy",
+      "activity": "Hoạt động",
+      "duration": "Thời lượng",
+      "weight": "cân nặng",
+      "burnRate": "Tốc độ đốt cháy calo",
+      "formula": "Công thức: (MET × 3,5 × Trọng lượng kg / 200) × Thời lượng tối thiểu"
+    }
+  },
+  "log": {
+    "noActivities": "Chưa có hoạt động nào được đăng nhập",
+    "noActivitiesDesc": "Bắt đầu theo dõi quá trình tập luyện của bạn để xem chúng tại đây",
+    "logFirst": "Đăng nhập hoạt động đầu tiên của bạn",
+    "summary": {
+      "title": "Tổng hợp tóm tắt",
+      "totalActivities": "Tổng số hoạt động",
+      "totalCalories": "Tổng lượng calo",
+      "totalTime": "Tổng thời gian",
+      "avgSession": "Calo trung bình/phiên"
+    },
+    "item": {
+      "duration": "Thời lượng",
+      "met": "MET",
+      "calories": "Calo",
+      "minutes": "phút"
+    }
+  },
+  "activities": {
+    "walking": "Đi bộ (Nhanh)",
+    "running": "Chạy (9 phút/dặm)",
+    "cycling": "Đi xe đạp (Trung bình)",
+    "yoga": "Yoga",
+    "swimming": "Bơi (Vòng)",
+    "strength": "Rèn luyện sức mạnh",
+    "household": "Công việc gia đình",
+    "dance": "Khiêu vũ/Thể dục nhịp điệu"
+  }
+}

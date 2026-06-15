@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "back": "Kembali ke Dasbor"
+  },
+  "header": {
+    "title": "Pelacak Langkah",
+    "subtitle": "Lacak langkah harian Anda dan capai tujuan Anda",
+    "profile": "Profil"
+  },
+  "tabs": {
+    "tracker": "Pelacak",
+    "history": "Sejarah"
+  },
+  "tracker": {
+    "stepsToday": "langkah hari ini",
+    "goalAchieved": "Tujuan Tercapai!",
+    "stats": {
+      "distance": "Jarak",
+      "calories": "Kalori",
+      "activeTime": "Waktu Aktif",
+      "km": "km",
+      "kcal": "kkal",
+      "mins": "menit"
+    },
+    "goal": {
+      "label": "Tujuan Harian",
+      "value": "{{val}} langkah",
+      "change": "Ubah Tujuan"
+    },
+    "quickAdd": {
+      "title": "Langkah Tambah Cepat",
+      "label": "Langkah Kustom",
+      "placeholder": "misalnya 3500",
+      "submit": "Tambahkan"
+    },
+    "insights": {
+      "title": "Wawasan Hari Ini",
+      "remaining": "Langkah Tersisa",
+      "stride": "Panjang Langkah",
+      "progress": "Kemajuan",
+      "complete": "Selesai!",
+      "percentOfGoal": "{{val}}% dari sasaran"
+    },
+    "reset": "Atur Ulang Langkah Hari Ini"
+  },
+  "history": {
+    "title": "Langkah Sejarah",
+    "noHistory": "Belum ada sejarah. Mulailah melacak langkah Anda!",
+    "today": "Hari ini",
+    "stats": {
+      "steps": "Langkah-langkah",
+      "goal": "Tujuan",
+      "progress": "Kemajuan"
+    }
+  },
+  "modals": {
+    "goal": {
+      "title": "Tetapkan Tujuan Harian",
+      "subtitle": "Masukkan target langkah harian Anda",
+      "placeholder": "misalnya 10.000",
+      "cancel": "Batalkan",
+      "save": "Simpan"
+    },
+    "profile": {
+      "title": "Perbarui Profil",
+      "subtitle": "Ini membantu menghitung jarak dan kalori secara akurat",
+      "height": "Tinggi (cm)",
+      "weight": "Berat (kg)",
+      "gender": "Jenis Kelamin",
+      "male": "Laki-laki",
+      "female": "Perempuan",
+      "placeholderHeight": "misalnya 170",
+      "placeholderWeight": "misalnya, 70",
+      "cancel": "Batalkan",
+      "save": "Simpan"
+    }
+  }
+}

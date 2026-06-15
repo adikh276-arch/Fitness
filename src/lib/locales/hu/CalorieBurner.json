@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "back": "Vissza az irányítópultra"
+  },
+  "header": {
+    "title": "Kalóriaégető",
+    "subtitle": "Kövesse nyomon a tevékenységei során elégetett kalóriákat"
+  },
+  "tabs": {
+    "calculator": "Számológép",
+    "log": "Tevékenységnapló ({{count}})"
+  },
+  "calculator": {
+    "form": {
+      "title": "Tevékenység részletei",
+      "selectActivity": "Válassza a Tevékenység lehetőséget",
+      "weight": "Az Ön súlya",
+      "duration": "Időtartam (perc)",
+      "placeholders": {
+        "weightKg": "például 70",
+        "weightLbs": "például 154"
+      },
+      "submit": "Naplótevékenység"
+    },
+    "summary": {
+      "title": "Égési összefoglaló",
+      "calories": "Elégetett kalóriák",
+      "activity": "Tevékenység",
+      "duration": "Időtartam",
+      "weight": "Súly",
+      "burnRate": "Kalória égési arány",
+      "formula": "Képlet: (MET × 3,5 × Súly kg / 200) × Időtartam min"
+    }
+  },
+  "log": {
+    "noActivities": "Még nincs naplózott tevékenység",
+    "noActivitiesDesc": "Kezdje el követni az edzéseit, hogy megtekinthesse őket itt",
+    "logFirst": "Jelentkezzen be első tevékenysége",
+    "summary": {
+      "title": "Teljes összefoglaló",
+      "totalActivities": "Összes tevékenység",
+      "totalCalories": "Összes kalória",
+      "totalTime": "Teljes idő",
+      "avgSession": "Átl. kal/munkamenet"
+    },
+    "item": {
+      "duration": "Időtartam",
+      "met": "MET",
+      "calories": "Kalória",
+      "minutes": "min"
+    }
+  },
+  "activities": {
+    "walking": "Séta (gyors)",
+    "running": "Futás (9 perc/mérföld)",
+    "cycling": "Kerékpározás (közepes)",
+    "yoga": "Jóga",
+    "swimming": "Úszás (kör)",
+    "strength": "Erősítő edzés",
+    "household": "Háztartási feladatok",
+    "dance": "Tánc/Aerobic"
+  }
+}

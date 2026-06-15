@@ -109,7 +109,16 @@
       "thigh": "Lår (tum)",
       "thighHint": "Bredaste delen",
       "submit": "Loggmätningar",
-      "success": "Mätvärden har loggats!"
+      "success": "Mätvärden har loggats!",
+      "placeholders": {
+        "weight": "t.ex. 75",
+        "targetWeight": "t.ex. 85",
+        "chest": "t.ex. 40",
+        "waist": "Valfritt",
+        "bicep": "t.ex. 15",
+        "bicepL": "Samma som höger",
+        "thigh": "Valfritt"
+      }
     },
     "volume": {
       "title": "Volymkalkylator",
@@ -120,7 +129,13 @@
       "totalVolume": "Total volym",
       "remaining": "Återstående för mål",
       "submit": "Loggvolym",
-      "logged": "{{lift}} loggad: {{volume}}kg total volym!"
+      "logged": "{{lift}} loggad: {{volume}}kg total volym!",
+      "recentLifts": "Senaste lyften",
+      "placeholders": {
+        "sets": "t.ex. 4",
+        "reps": "t.ex. 8",
+        "weight": "t.ex. 80"
+      }
     },
     "chart": {
       "title": "Framstegsdiagram",
@@ -168,7 +183,71 @@
         "perfect": "Perfekt (5/5)",
         "partial": "Partiell",
         "none": "Ofullständig"
+      },
+      "tooltip": "Dag {{day}}: {{count}}/5 vanor"
+    }
+  },
+  "essentials": {
+    "title": "Hypertrofi Essentials",
+    "tips": {
+      "rest": {
+        "title": "Muskler byggs upp under vila:",
+        "desc": "Sömn och näring är när tillväxt sker, inte i gymmet"
+      },
+      "protein": {
+        "title": "Proteintiming spelar mindre roll än totalt:",
+        "desc": "Fokusera på att nå ditt dagliga mål, timing är sekundär"
+      },
+      "track": {
+        "title": "Spåra allt:",
+        "desc": "Vikt, mått och volym - data visar framsteg som du inte kan se i spegeln"
+      },
+      "creatine": {
+        "title": "Kreatin är bevisat:",
+        "desc": "3-5g dagligen ökar styrkan och mager massa utan biverkningar för de flesta"
       }
     }
+  },
+  "exercises": {
+    "squat": "Squat",
+    "deadlift": "Marklyft",
+    "benchPress": "Bänkpress",
+    "overheadPress": "Overheadpress",
+    "barbellRow": "Skivstångsraden",
+    "pullUp": "Dra upp",
+    "chinUp": "Haka upp",
+    "latPulldown": "Lat Pulldown",
+    "seatedCableRow": "Sittande kabelrad",
+    "dumbbellRow": "Hantelrad",
+    "romanianDeadlift": "Rumänsk marklyft",
+    "hipThrust": "Hip Thrust",
+    "lunge": "Utfall",
+    "bulgarianSplitSquat": "Bulgarian Split Squat",
+    "legPress": "Benpress",
+    "legExtension": "Benförlängning",
+    "legCurl": "Ben Curl",
+    "calfRaise": "Kalvhöjning",
+    "gluteBridge": "Glute Bridge",
+    "pushUp": "Tryck upp",
+    "inclineDumbbellPress": "Incline Hantel Press",
+    "dips": "Dips",
+    "chestFly": "Bröstfluga",
+    "lateralRaise": "Lateral höjning",
+    "rearDeltFly": "Bakre Delt Fly",
+    "facePull": "Face Pull",
+    "bicepCurl": "Bicep Curl",
+    "hammerCurl": "Hammer Curl",
+    "tricepPushdown": "Triceps Pushdown",
+    "skullCrusher": "Skull Crusher",
+    "plank": "Planka",
+    "hangingLegRaise": "Hängande benhöjning",
+    "russianTwist": "Rysk twist",
+    "farmerCarry": "Farmer Carry",
+    "shrug": "Rycka på axlarna",
+    "arnoldPress": "Arnold Press",
+    "frontSquat": "Front Squat",
+    "sumoDeadlift": "Sumo marklyft",
+    "gobletSquat": "Goblet Squat",
+    "stepUp": "Stega upp"
   }
 }

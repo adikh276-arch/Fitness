@@ -108,7 +108,7 @@
     "calories": {
       "title": "Calorias estimadas",
       "subtitle": "(com base em uma porção de 200g)",
-      "unit": "kcal"
+      "unit": "calorias"
     },
     "warning": {
       "title": "Recomendação de equilíbrio",
@@ -126,7 +126,7 @@
     "rice": "Arroz integral",
     "oats": "Aveia",
     "potato": "Batata doce",
-    "quinoa": "Quinoa",
+    "quinoa": "Quinua",
     "banana": "Banana",
     "bananaUnit": "1 porção média = 27g de carboidratos",
     "bread": "Pão integral",

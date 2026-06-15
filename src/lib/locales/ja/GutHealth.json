@@ -1,0 +1,244 @@
+{
+  "header": {
+    "title": "腸の健康ガイド",
+    "subtitle": "消化器の健康状態を追跡し、繁栄したマイクロバイオームを構築します",
+    "back": "ダッシュボードに戻る"
+  },
+  "tabs": {
+    "log": "毎日の腸ログ",
+    "map": "マイクロバイオームマップ",
+    "habits": "繊維と発酵"
+  },
+  "bristol": {
+    "title": "ブリストル便スケール",
+    "info": "消化通過時間と腸の健康状態を追跡するためのゴールドスタンダード",
+    "types": {
+      "type1": {
+        "label": "タイプ1",
+        "desc": "重度の便秘 - 硬い塊が分離する"
+      },
+      "type2": {
+        "label": "タイプ2",
+        "desc": "軽度の便秘 - ゴツゴツしたソーセージのようなもの"
+      },
+      "type3": {
+        "label": "タイプ3",
+        "desc": "ノーマル - ひび割れのあるソーセージ"
+      },
+      "type4": {
+        "label": "タイプ4",
+        "desc": "理想 - 滑らかで柔らかいソーセージ"
+      },
+      "type5": {
+        "label": "タイプ5",
+        "desc": "繊維の欠如 - 柔らかい塊"
+      },
+      "type6": {
+        "label": "タイプ6",
+        "desc": "軽度の下痢 - どろどろ"
+      },
+      "type7": {
+        "label": "タイプ7",
+        "desc": "重度の下痢 - 液体"
+      }
+    },
+    "alert": "ブリストル スツール スケールのタイプを選択してください"
+  },
+  "symptoms": {
+    "title": "今日の症状",
+    "items": {
+      "Bloating": "膨満感",
+      "Gas": "ガス",
+      "Cramping": "けいれん",
+      "Reflux": "逆流",
+      "Energy Dip": "エネルギーディップ"
+    }
+  },
+  "triggers": {
+    "title": "疑わしいトリガー",
+    "items": {
+      "Dairy": "乳製品",
+      "Gluten": "グルテン",
+      "Coffee": "コーヒー",
+      "Spicy Food": "辛い食べ物",
+      "Alcohol": "アルコール",
+      "Stress": "ストレス",
+      "Other": "その他"
+    }
+  },
+  "log": {
+    "submit": "ログエントリ",
+    "success": "腸ログが正常に保存されました。",
+    "recent": {
+      "title": "最近のログ",
+      "trigger": "トリガー:"
+    }
+  },
+  "microbiome": {
+    "prebiotics": {
+      "title": "プレバイオティクス",
+      "subtitle": "腸内細菌の餌",
+      "desc": "プレバイオティクスは、腸内の有益な細菌に餌を与え、細菌の繁栄と増殖を助ける繊維が豊富な食品です。"
+    },
+    "probiotics": {
+      "title": "プロバイオティクス",
+      "subtitle": "生きた有益なバクテリア",
+      "desc": "プロバイオティクスは、腸に有益な細菌を直接加える発酵食品に含まれる生きた微生物です。"
+    }
+  },
+  "diversity": {
+    "title": "1週間に30本の植物を植えるチャレンジ",
+    "subtitle": "研究によると、週に30種類以上の異なる植物を食べると最適な腸内多様性がサポートされ��ことが示されています",
+    "score_label": "/ 30植物",
+    "weekly_score": "週間多様性スコア",
+    "feedback": {
+      "excellent": "🎉素晴らしい！ 30 プラントの目標を達成しています",
+      "great": "👍 素晴らしい多様性!バリエーションを追加し続ける",
+      "good": "📈 良いスタートです！より多くの植物の品種を目指す",
+      "start": "🌱 腸の健康を高めるためにさまざまな植物を加え始めま��"
+    }
+  },
+  "habits": {
+    "title": "ハッピーガットチェックリスト",
+    "subtitle": "消化器の健康を最適化するために、これらの毎日の習慣を実践しましょう",
+    "items": {
+      "fiber": {
+        "label": "25g以上の食物繊維を摂取",
+        "desc": "全粒穀物、果物、野菜から"
+      },
+      "fermented": {
+        "label": "発酵食品1個を含む",
+        "desc": "キムチ、ヨーグルト、ケフィア、またはザワークラウト"
+      },
+      "mindful": {
+        "label": "マインドフルな食事 (20 回以上)",
+        "desc": "適切に噛むと消化が促進されます"
+      },
+      "fast": {
+        "label": "12時間の一晩の腸の休息",
+        "desc": "断食期間は腸の修復を可能にする"
+      }
+    }
+  },
+  "tracker": {
+    "title": "30日間の習慣トラッカー",
+    "tooltip": "{{dayNum}} 日: {{count}}/4 つの習慣",
+    "legend": {
+      "none": "なし",
+      "one": "1",
+      "two": "2",
+      "three": "3",
+      "four": "3-4",
+      "all": "4つすべて"
+    }
+  },
+  "essentials": {
+    "title": "腸の健康の必需品"
+  },
+  "plants": {
+    "Spinach": "ほうれん草",
+    "Kale": "ケール",
+    "Arugula": "ルッコラ",
+    "Romaine": "ロメイン",
+    "Broccoli": "ブロッコリー",
+    "Cauliflower": "カリフラワー",
+    "Brussels Sprouts": "芽キャベツ",
+    "Cabbage": "キャベツ",
+    "Carrots": "ニンジン",
+    "Sweet Potatoes": "サツマイモ",
+    "Beets": "ビーツ",
+    "Radishes": "大根",
+    "Chickpeas": "ひよこ豆",
+    "Lentils": "レンズ豆",
+    "Black Beans": "黒豆",
+    "Kidney Beans": "インゲン豆",
+    "Oats": "オーツ麦",
+    "Brown Rice": "玄米",
+    "Quinoa": "キヌア",
+    "Barley": "大麦",
+    "Almonds": "アーモンド",
+    "Walnuts": "くるみ",
+    "Pistachios": "ピスタチオ",
+    "Cashews": "カシューナッツ",
+    "Chia": "チア",
+    "Flax": "亜麻",
+    "Pumpkin Seeds": "かぼちゃの種",
+    "Sunflower Seeds": "ひまわりの種",
+    "Blueberries": "ブルーベリー",
+    "Strawberries": "イチゴ",
+    "Raspberries": "ラズベリー",
+    "Blackberries": "ブラックベリー",
+    "Oranges": "オレンジ",
+    "Lemons": "レモン",
+    "Limes": "ライム",
+    "Grapefruit": "グレープフルーツ",
+    "Bananas": "バナナ",
+    "Pineapple": "パイナップル",
+    "Mango": "マンゴー",
+    "Papaya": "パパイヤ",
+    "Peaches": "桃",
+    "Plums": "プラム",
+    "Cherries": "さくらんぼ",
+    "Apricots": "アプリコット",
+    "Basil": "バジル",
+    "Cilantro": "コリアンダー",
+    "Mint": "ミント",
+    "Parsley": "パセリ",
+    "Rosemary": "ローズマリー",
+    "Turmeric": "ターメリック",
+    "Ginger": "ジンジャー",
+    "Cinnamon": "シナモン",
+    "Cumin": "クミン",
+    "Paprika": "パプリカ",
+    "Kimchi": "キムチ",
+    "Sauerkraut": "ザワークラウト",
+    "Miso": "味噌",
+    "Tempeh": "テンペ",
+    "Button Mushrooms": "ボタンキノコ",
+    "Shiitake": "しいたけ",
+    "Portobello": "ポートベロー",
+    "Oyster Mushrooms": "ヒラタケ",
+    "Pumpkin": "かぼちゃ",
+    "Butternut Squash": "バターナッツスカッシュ",
+    "Zucchini": "ズッキーニ",
+    "Acorn Squash": "ドングリスカッシュ",
+    "Bell Peppers": "ピーマン",
+    "Jalapeños": "ハラペーニョ",
+    "Chili": "チリ",
+    "Cherry Tomatoes": "チェリートマト",
+    "Roma Tomatoes": "ローマトマト",
+    "Beefsteak Tomatoes": "ビフテキトマト",
+    "Garlic": "ニンニク",
+    "Onions": "玉ねぎ",
+    "Leeks": "ネギ",
+    "Shallots": "エシャロット",
+    "Alfalfa Sprouts": "アルファルファもやし",
+    "Broccoli Sprouts": "ブロッコリースプラウト",
+    "Mung Bean Sprouts": "緑豆もやし",
+    "Nori": "ノリ",
+    "Kelp": "昆布",
+    "Wakame": "ワカメ",
+    "Buckwheat": "そば",
+    "Farro": "ファロ",
+    "Amaranth": "アマランス",
+    "Millet": "アワ",
+    "Watermelon": "スイカ",
+    "Cantaloupe": "マスクメロン",
+    "Honeydew": "ハニーデュー",
+    "Apples": "リンゴ",
+    "Pears": "梨",
+    "Avocado": "アボカド",
+    "Coconut": "ココナッツ",
+    "Coconut Milk": "ココナッツミルク",
+    "Coconut Water": "ココナッツウォーター",
+    "Olives": "オリーブ",
+    "Dark Chocolate": "ダークチョコレート",
+    "Cacao Nibs": "カカオニブ",
+    "Cocoa Powder": "ココアパウダー",
+    "Green Tea": "緑茶",
+    "Black Tea": "紅茶",
+    "Chamomile": "カモミール",
+    "Peppermint Tea": "ペパーミントティー",
+    "Coffee": "コーヒー"
+  }
+}

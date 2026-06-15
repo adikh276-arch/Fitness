@@ -1,0 +1,244 @@
+{
+  "header": {
+    "title": "Bağırsak Sağlığı Rehberi",
+    "subtitle": "Sindirim sağlığını takip edin ve gelişen bir mikrobiyom oluşturun",
+    "back": "Kontrol Paneline Geri Dön"
+  },
+  "tabs": {
+    "log": "Günlük Bağırsak Günlüğü",
+    "map": "Mikrobiyom Haritası",
+    "habits": "Lif ve Ferment"
+  },
+  "bristol": {
+    "title": "Bristol Dışkı Ölçeği",
+    "info": "Sindirim geçiş süresini ve bağırsak sağlığını izlemek için altın standart",
+    "types": {
+      "type1": {
+        "label": "Tip 1",
+        "desc": "Şiddetli kabızlık - Sert topakları ayırın"
+      },
+      "type2": {
+        "label": "Tip 2",
+        "desc": "Hafif kabızlık - Topaklı ve sosis benzeri"
+      },
+      "type3": {
+        "label": "Tip 3",
+        "desc": "Normal - Çatlak sosis"
+      },
+      "type4": {
+        "label": "Tip 4",
+        "desc": "İdeal - Pürüzsüz, yumuşak sosis"
+      },
+      "type5": {
+        "label": "Tip 5",
+        "desc": "Lif eksikliği - Yumuşak lekeler"
+      },
+      "type6": {
+        "label": "Tip 6",
+        "desc": "Hafif ishal - Mushy"
+      },
+      "type7": {
+        "label": "Tip 7",
+        "desc": "Şiddetli ishal - Sıvı"
+      }
+    },
+    "alert": "Lütfen bir Bristol Tabure Tartı tipi seçin"
+  },
+  "symptoms": {
+    "title": "Bugünkü Belirtiler",
+    "items": {
+      "Bloating": "Şişkinlik",
+      "Gas": "Gaz",
+      "Cramping": "Kramp",
+      "Reflux": "Reflü",
+      "Energy Dip": "Enerji Düşüşü"
+    }
+  },
+  "triggers": {
+    "title": "Şüpheli Tetikleyici",
+    "items": {
+      "Dairy": "Süt Ürünleri",
+      "Gluten": "gluten",
+      "Coffee": "Kahve",
+      "Spicy Food": "Baharatlı Yiyecek",
+      "Alcohol": "Alkol",
+      "Stress": "Stres",
+      "Other": "Diğer"
+    }
+  },
+  "log": {
+    "submit": "Günlük Girişi",
+    "success": "Bağırsak günlüğü başarıyla kaydedildi!",
+    "recent": {
+      "title": "Son Günlükler",
+      "trigger": "Tetikleyici:"
+    }
+  },
+  "microbiome": {
+    "prebiotics": {
+      "title": "Prebiyotikler",
+      "subtitle": "Bağırsak Bakterileriniz İçin Yiyecek",
+      "desc": "Prebiyotikler, bağırsaklarınızdaki faydalı bakterileri besleyen, onların gelişmesine ve çoğalmasına yardımcı olan, lif açısından zengin gıdalardır."
+    },
+    "probiotics": {
+      "title": "Probiyotikler",
+      "subtitle": "Canlı Faydalı Bakteriler",
+      "desc": "Probiyotikler, fermente gıdalarda bulunan ve bağırsağınıza faydalı bakterileri doğrudan ekleyen canlı mikroorganizmalardır."
+    }
+  },
+  "diversity": {
+    "title": "Haftada 30 Bitki Mücadelesi",
+    "subtitle": "Araştırmalar haftada 30'dan fazla farklı bitki yemenin optimal bağırsak çeşitliliğini desteklediğini gösteriyor",
+    "score_label": "/ 30 bitki",
+    "weekly_score": "Haftalık Çeşitlilik Puanı",
+    "feedback": {
+      "excellent": "🎉 Mükemmel! 30 tesis hedefine ulaşıyorsunuz",
+      "great": "👍 Harika çeşitlilik! Çeşit eklemeye devam edin",
+      "good": "📈 İyi başlangıç! Daha fazla bitki çeşitliliği hedefleyin",
+      "start": "🌱 Bağırsak sağlığını artırmak için çeşitli bitkiler eklemeye başlayın"
+    }
+  },
+  "habits": {
+    "title": "Mutlu Bağırsak Kontrol Listesi",
+    "subtitle": "Optimum sindirim sağlığı için bu günlük alışkanlıkları tamamlayın",
+    "items": {
+      "fiber": {
+        "label": "25g+ Fiber Tüketildi",
+        "desc": "Tam tahıllardan, meyvelerden ve sebzelerden"
+      },
+      "fermented": {
+        "label": "1 Fermente Gıda dahil",
+        "desc": "Kimchi, yoğurt, kefir veya lahana turşusu"
+      },
+      "mindful": {
+        "label": "Dikkatli Yeme (20+ Çiğneme)",
+        "desc": "Doğru çiğneme sindirime yardımcı olur"
+      },
+      "fast": {
+        "label": "12 Saatlik Gecelik Bağırsak Dinlenmesi",
+        "desc": "Oruç penceresi bağırsak onarımına izin verir"
+      }
+    }
+  },
+  "tracker": {
+    "title": "30 Günlük Alışkanlık Takibi",
+    "tooltip": "Gün {{dayNum}}: {{count}}/4 alışkanlık",
+    "legend": {
+      "none": "Yok",
+      "one": "1",
+      "two": "2",
+      "three": "3",
+      "four": "3-4",
+      "all": "Tüm 4"
+    }
+  },
+  "essentials": {
+    "title": "Bağırsak Sağlığı Esasları"
+  },
+  "plants": {
+    "Spinach": "Ispanak",
+    "Kale": "Lahana",
+    "Arugula": "Roka",
+    "Romaine": "Romain",
+    "Broccoli": "Brokoli",
+    "Cauliflower": "karnabahar",
+    "Brussels Sprouts": "Brüksel Lahanası",
+    "Cabbage": "Lahana",
+    "Carrots": "Havuç",
+    "Sweet Potatoes": "Tatlı Patates",
+    "Beets": "Pancar",
+    "Radishes": "turp",
+    "Chickpeas": "Nohut",
+    "Lentils": "Mercimek",
+    "Black Beans": "Siyah Fasulye",
+    "Kidney Beans": "Barbunya Fasulyesi",
+    "Oats": "Yulaf",
+    "Brown Rice": "Kahverengi Pirinç",
+    "Quinoa": "Kinoa",
+    "Barley": "Arpa",
+    "Almonds": "Badem",
+    "Walnuts": "Ceviz",
+    "Pistachios": "Antep fıstığı",
+    "Cashews": "Kaju fıstığı",
+    "Chia": "Chia",
+    "Flax": "keten",
+    "Pumpkin Seeds": "Kabak Çekirdeği",
+    "Sunflower Seeds": "Ayçiçeği tohumları",
+    "Blueberries": "yaban mersini",
+    "Strawberries": "Çilek",
+    "Raspberries": "Ahududu",
+    "Blackberries": "Böğürtlen",
+    "Oranges": "Portakal",
+    "Lemons": "Limonlar",
+    "Limes": "limon",
+    "Grapefruit": "Greyfurt",
+    "Bananas": "Muz",
+    "Pineapple": "Ananas",
+    "Mango": "Mango",
+    "Papaya": "papaya",
+    "Peaches": "Şeftali",
+    "Plums": "Erikler",
+    "Cherries": "Kirazlar",
+    "Apricots": "Kayısı",
+    "Basil": "Fesleğen",
+    "Cilantro": "Kişniş",
+    "Mint": "Nane",
+    "Parsley": "Maydanoz",
+    "Rosemary": "Biberiye",
+    "Turmeric": "Zerdeçal",
+    "Ginger": "Zencefil",
+    "Cinnamon": "Tarçın",
+    "Cumin": "Kimyon",
+    "Paprika": "kırmızı biber",
+    "Kimchi": "Kimçi",
+    "Sauerkraut": "Lahana turşusu",
+    "Miso": "Miso",
+    "Tempeh": "Tempe",
+    "Button Mushrooms": "Düğme Mantarları",
+    "Shiitake": "Shiitake",
+    "Portobello": "Portobello",
+    "Oyster Mushrooms": "İstiridye Mantarları",
+    "Pumpkin": "Balkabağı",
+    "Butternut Squash": "Balkabagi",
+    "Zucchini": "Kabak",
+    "Acorn Squash": "Meşe palamudu kabak",
+    "Bell Peppers": "Biber",
+    "Jalapeños": "Jalapeno",
+    "Chili": "kırmızı biber",
+    "Cherry Tomatoes": "Kiraz Domates",
+    "Roma Tomatoes": "Roma Domatesleri",
+    "Beefsteak Tomatoes": "Dana biftek domates",
+    "Garlic": "Sarımsak",
+    "Onions": "Soğan",
+    "Leeks": "Pırasa",
+    "Shallots": "Arpacık soğanı",
+    "Alfalfa Sprouts": "Yonca Filizleri",
+    "Broccoli Sprouts": "Brokoli Filizleri",
+    "Mung Bean Sprouts": "Maş Fasulyesi Filizi",
+    "Nori": "Nori",
+    "Kelp": "Yosun",
+    "Wakame": "Wakame",
+    "Buckwheat": "Karabuğday",
+    "Farro": "Farro",
+    "Amaranth": "Amaranth",
+    "Millet": "Darı",
+    "Watermelon": "karpuz",
+    "Cantaloupe": "kavun",
+    "Honeydew": "tatlı özsu",
+    "Apples": "Elmalar",
+    "Pears": "Armut",
+    "Avocado": "Avokado",
+    "Coconut": "Hindistan cevizi",
+    "Coconut Milk": "Hindistan Cevizi Sütü",
+    "Coconut Water": "Hindistan Cevizi Suyu",
+    "Olives": "zeytin",
+    "Dark Chocolate": "Bitter Çikolata",
+    "Cacao Nibs": "Kakao Nibleri",
+    "Cocoa Powder": "Kakao Tozu",
+    "Green Tea": "Yeşil Çay",
+    "Black Tea": "Siyah Çay",
+    "Chamomile": "Papatya",
+    "Peppermint Tea": "Nane Çayı",
+    "Coffee": "Kahve"
+  }
+}

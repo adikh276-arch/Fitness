@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "back": "Quay lại Trang tổng quan"
+  },
+  "header": {
+    "title": "Hướng dẫn dinh dưỡng thuần chay",
+    "subtitle": "Bộ công cụ dinh dưỡng dựa trên thực vật hoàn chỉnh"
+  },
+  "tabs": {
+    "plate": "đĩa chay",
+    "nutrients": "Vi chất dinh dưỡng",
+    "calculator": "Máy tính protein"
+  },
+  "plate": {
+    "title": "Bữa ăn thuần chay hoàn chỉnh",
+    "proportions": {
+      "legumes": {
+        "title": "Các loại đậu/đậu",
+        "subtitle": "cường quốc protein",
+        "examples": "Ví dụ: Đậu lăng, đậu xanh, đậu đen, đậu phụ, tempeh"
+      },
+      "grains": {
+        "title": "Ngũ cốc nguyên hạt",
+        "subtitle": "Năng lượng bền vững",
+        "examples": "Ví dụ: Quinoa, gạo lứt, yến mạch, lúa mì nguyên hạt, lúa mạch"
+      },
+      "vegetables": {
+        "title": "Rau củ",
+        "subtitle": "Giàu vi chất dinh dưỡng",
+        "examples": "Ví dụ: Các loại rau lá xanh, bông cải xanh, ớt, cà rốt, cà chua"
+      },
+      "fats": {
+        "title": "Chất béo/Hạt tốt cho sức khỏe",
+        "subtitle": "Sức khỏe nội tiết tố",
+        "examples": "Ví dụ: Bơ, quả hạch, hạt, dầu ô liu, tahini"
+      }
+    },
+    "tip": {
+      "title": "Mẹo chuyên nghiệp: Tăng cường hấp thu sắt",
+      "desc": "Sắt từ thực vật (sắt không phải heme) được hấp thụ kém hiệu quả hơn sắt động vật. Kết hợp thực phẩm giàu chất sắt với Vitamin C để tăng khả năng hấp thụ lên tới 300%!",
+      "ironRich": "Thực phẩm giàu sắt",
+      "ironExamples": "Rau bina, đậu lăng, quinoa, đậu phụ, hạt bí",
+      "vitaminC": "Thuốc tăng cường vitamin C",
+      "vitaminCExamples": "Nước cốt chanh, ớt chuông, cà chua, bông cải xanh, cam",
+      "perfectCombo": "Combo hoàn hảo: Súp đậu lăng nước cốt chanh, salad rau bina với ớt chuông"
+    }
+  },
+  "nutrients": {
+    "title": "Bộ theo dõi dinh dưỡng Big 4",
+    "progress": {
+      "title": "Sự tiến bộ ngày nay",
+      "done": "Xong",
+      "pending": "Đang chờ xử lý"
+    },
+    "why": {
+      "title": "Tại sao theo dõi những điều này?",
+      "desc1": "Bốn chất dinh dưỡng này là những thiếu sót phổ biến nhất trong chế độ ăn thuần thực vật. Theo dõi lượng tiêu thụ hàng ngày đảm bảo bạn nhận được dinh dưỡng đầy đủ.",
+      "note": "Lưu ý: B12 phải được bổ sung hoặc tiêu thụ thông qua thực phẩm tăng cường - nó không có tự nhiên trong thực vật."
+    },
+    "micronutrients": {
+      "b12": {
+        "name": "Vitamin B12",
+        "importance": "Quan trọng đối với chức năng thần kinh và tổng hợp DNA",
+        "dosage": "2,4 mcg mỗi ngày"
+      },
+      "iron": {
+        "name": "Sắt & Kẽm",
+        "importance": "Cần thiết cho việc vận chuyển oxy và chức năng miễn dịch",
+        "dosage": "Sắt: 18mg, Kẽm: 11mg mỗi ngày"
+      },
+      "omega3": {
+        "name": "Omega-3 (ALA)",
+        "importance": "Sức khỏe não bộ và chống viêm",
+        "dosage": "1,6g mỗi ngày"
+      },
+      "calcium": {
+        "name": "canxi",
+        "importance": "Sức khỏe xương & chức năng cơ bắp",
+        "dosage": "1000mg mỗi ngày"
+      }
+    }
+  },
+  "calculator": {
+    "title": "Hướng dẫn Kiến thức về Protein",
+    "subtitle": "Chọn một loại thực phẩm và nhập số lượng để xem ngay hàm lượng protein của nó",
+    "form": {
+      "selectFood": "Tìm kiếm & Chọn món ăn",
+      "placeholderFood": "Hãy chọn một món ăn...",
+      "searchPlaceholder": "Tìm kiếm thực phẩm...",
+      "amount": "Số lượng (gram)",
+      "placeholderAmount": "100",
+      "add": "Thêm vào tính toán",
+      "proteinPer100": "{{val}}g trên 100g",
+      "matches": "Hiển thị 5 trong số {{total}} kết quả phù hợp",
+      "noMatches": "Không tìm thấy thực phẩm"
+    },
+    "results": {
+      "title": "Phân hủy protein",
+      "estProtein": "Hàm lượng Protein ước tính",
+      "calcInfo": "{{số lượng}}g của {{thực phẩm}}",
+      "summary": "Tóm tắt tính toán hiện tại",
+      "total": "Tổng lượng đạm",
+      "aminoAcid": "Sự hoàn thiện của axit amin",
+      "aminoComplete": "Hồ sơ Amino hoàn chỉnh",
+      "aminoIncomplete": "Thiếu ngũ cốc hoặc cây họ đậu",
+      "aminoNote": "Các loại đậu (Đậu lăng/Đậu/Đậu nành) + Ngũ cốc (Gạo/Quinoa/Yến mạch) = Protein hoàn chỉnh",
+      "save": "Ghi tổng số vào lịch sử",
+      "success": "Protein đã được đăng nhập thành công!",
+      "ironTip": {
+        "title": "Mẹo:",
+        "desc": "Kết hợp với Vitamin C (chanh, ớt, cà chua) để tăng khả năng hấp thụ sắt lên tới 300%!"
+      }
+    },
+    "reference": {
+      "title": "Hướng dẫn tham khảo nhanh"
+    }
+  },
+  "proteinSources": {
+    "tofu": "Đậu hũ",
+    "tempeh": "Tempeh",
+    "edamame": "đậu nành",
+    "soybeansBoiled": "Đậu nành luộc",
+    "soyChunks": "Đậu nành miếng / TVP khô",
+    "soyMince": "Đậu nành khô",
+    "soyMilk": "Sữa đậu nành không đường",
+    "soyYogurt": "Sữa Chua Đậu Nành",
+    "seitan": "mì căn",
+    "lentilsCooked": "Đậu lăng nấu chín",
+    "redLentilsCooked": "Đậu lăng đỏ nấu chín",
+    "greenLentilsCooked": "Đậu lăng xanh nấu chín",
+    "blackLentilsCooked": "Đậu lăng đen nấu chín",
+    "chickpeasCooked": "Đậu xanh nấu chín",
+    "blackBeansCooked": "Đậu đen nấu chín",
+    "kidneyBeansCooked": "Đậu thận nấu chín",
+    "pintoBeansCooked": "Đậu Pinto nấu chín",
+    "cannelliniBeansCooked": "Đậu Cannellini nấu chín",
+    "navyBeansCooked": "Đậu hải quân nấu chín",
+    "adzukiBeansCooked": "Đậu Adzuki nấu chín",
+    "mungBeansCooked": "Đậu xanh nấu chín",
+    "lupinBeans": "Đậu Lupin",
+    "splitPeasCooked": "Đậu Hà Lan nấu chín",
+    "greenPeas": "đậu xanh",
+    "peaProteinIsolate": "Protein đậu cô lập",
+    "peaMilk": "Sữa đậu",
+    "hummus": "hummus",
+    "falafel": "Falafel",
+    "quinoaCooked": "Quinoa nấu chín",
+    "amaranthCooked": "rau dền nấu chín",
+    "buckwheatCooked": "kiều mạch nấu chín",
+    "oatsDry": "Yến mạch khô",
+    "rolledOats": "Yến mạch cán",
+    "steelCutOats": "Yến mạch cắt thép",
+    "oatBran": "cám yến mạch",
+    "barleyCooked": "lúa mạch nấu chín",
+    "milletCooked": "kê nấu chín",
+    "brownRiceCooked": "Gạo lứt nấu chín",
+    "wildRiceCooked": "cơm rừng nấu chín",
+    "teffCooked": "Teff nấu chín",
+    "farroCooked": "Farro nấu chín",
+    "freekehCooked": "Freekeh nấu chín",
+    "wholeWheatPastaCooked": "Mì ống nguyên hạt nấu chín",
+    "chickpeaPastaDry": "Pasta đậu xanh khô",
+    "lentilPastaDry": "Pasta đậu lăng khô",
+    "blackBeanPastaDry": "Pasta Đậu Đen Khô",
+    "spirulinaDry": "Tảo Spirulina khô",
+    "nutritionalYeast": "Men dinh dưỡng",
+    "mushroomsWhite": "nấm trắng",
+    "portobelloMushrooms": "Nấm Portobello",
+    "spinach": "rau chân vịt",
+    "kale": "cải xoăn",
+    "broccoli": "bông cải xanh",
+    "brusselsSprouts": "Cải Brussels",
+    "sweetCorn": "ngô ngọt",
+    "artichoke": "Atisô",
+    "avocado": "quả bơ",
+    "pumpkinSeeds": "Hạt bí ngô",
+    "hempSeeds": "Hạt gai dầu",
+    "chiaSeeds": "Hạt Chia",
+    "flaxSeeds": "Hạt lanh",
+    "sesameSeeds": "Hạt mè",
+    "sunflowerSeeds": "Hạt hướng dương",
+    "watermelonSeeds": "Hạt dưa hấu",
+    "almonds": "hạnh nhân",
+    "peanuts": "Đậu phộng",
+    "peanutButterNatural": "Bơ đậu phộng tự nhiên",
+    "cashews": "hạt điều",
+    "pistachios": "quả hồ trăn",
+    "walnuts": "quả óc chó",
+    "hazelnuts": "hạt phỉ",
+    "brazilNuts": "quả hạch Brazil",
+    "almondButter": "Bơ hạnh nhân",
+    "tahini": "Tahini",
+    "cashewButter": "Bơ hạt điều",
+    "pumpkinSeedButter": "Bơ hạt bí ngô",
+    "sunflowerSeedButter": "Bơ hạt hướng dương",
+    "almondFlour": "Bột hạnh nhân",
+    "chickpeaFlour": "Bột đậu xanh / Besan",
+    "soyFlour": "Bột đậu nành",
+    "wholeWheatFlour": "Bột mì nguyên chất",
+    "breadWholeWheat": "Bánh mỳ nguyên cám",
+    "ezekielBread": "Bánh mì Ezekiel",
+    "proteinBreadVegan": "Bánh mì Protein thuần chay",
+    "roastedChickpeas": "Đậu gà nướng",
+    "dryRoastedEdamame": "Đậu nành rang khô",
+    "proteinBarVegan": "Thanh Protein Thuần Chay",
+    "veganSausage": "Xúc xích thuần chay",
+    "veganBurgerPatty": "Bánh burger thuần chay",
+    "mycoproteinVegan": "Mycoprotein thuần chay",
+    "beanSprouts": "giá đỗ",
+    "alfalfaSprouts": "Mầm cỏ linh lăng"
+  }
+}

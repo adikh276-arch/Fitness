@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "back": "Înapoi la Tabloul de bord"
+  },
+  "header": {
+    "title": "Înțelegerea macronutrienților",
+    "subtitle": "Aflați elementele de bază ale proteinelor, carbohidraților și grăsimilor"
+  },
+  "tabs": {
+    "protein": "Proteine",
+    "carbs": "Carbohidrați",
+    "fats": "Grasimi",
+    "plate": "Constructor de farfurii"
+  },
+  "protein": {
+    "title": "Proteine",
+    "kcal": "4 kcal/gram",
+    "whyMatters": {
+      "title": "De ce contează:",
+      "muscle": {
+        "title": "Repararea și creșterea mușchilor:",
+        "desc": "Esențial pentru construirea și menținerea masei musculare slabe"
+      },
+      "satiety": {
+        "title": "Satietate:",
+        "desc": "Vă face să vă simțiți plin mai mult timp, reducând aportul total de calorii"
+      },
+      "metabolic": {
+        "title": "Stimularea metabolică:",
+        "desc": "Cel mai mare efect termic dintre toate macro-urile (20-30% din caloriile arse în timpul digestiei)"
+      }
+    },
+    "target": {
+      "title": "Țintă zilnică:",
+      "desc": "Pentru o sănătate optimă și menținerea mușchilor, urmăriți <1>1,6-2,2 g per kg</1> de greutate corporală. Sportivii și cei care își construiesc mușchi pot avea nevoie de până la 2,5 g/kg."
+    },
+    "sources": "Top surse de proteine:"
+  },
+  "carbs": {
+    "title": "Carbohidrați",
+    "kcal": "4 kcal/gram",
+    "whyMatters": {
+      "title": "De ce contează:",
+      "energy": {
+        "title": "Sursa primara de energie:",
+        "desc": "Combustibilul preferat al corpului tău pentru creier și activitate fizică"
+      },
+      "performance": {
+        "title": "Performanță:",
+        "desc": "Esențial pentru exercițiile de mare intensitate și performanța atletică"
+      },
+      "nutrients": {
+        "title": "Fibre și nutrienți:",
+        "desc": "Carbohidrații întregi oferă vitamine esențiale, minerale și sănătate digestivă"
+      }
+    },
+    "target": {
+      "title": "Țintă zilnică:",
+      "desc": "Pentru persoanele active, urmăriți <1>3-6 g per kg</1> de greutate corporală. Indivizii sedentari pot avea nevoie de mai puțin (2-3g/kg). Concentrați-vă pe surse complexe de alimente integrale."
+    },
+    "sources": "Top surse de carbohidrați:"
+  },
+  "fats": {
+    "title": "Grasimi",
+    "kcal": "9 kcal/gram",
+    "whyMatters": {
+      "title": "De ce contează:",
+      "hormone": {
+        "title": "Producția de hormoni:",
+        "desc": "Esențial pentru testosteron, estrogen și alți hormoni vitali"
+      },
+      "vitamin": {
+        "title": "Absorbția vitaminelor:",
+        "desc": "Necesar pentru a absorbi vitaminele liposolubile (A, D, E, K)"
+      },
+      "brain": {
+        "title": "Sănătatea creierului:",
+        "desc": "Creierul tău are 60% grăsime - omega-3 sunt esențiale pentru funcția cognitivă"
+      }
+    },
+    "target": {
+      "title": "Țintă zilnică:",
+      "desc": "Vizualizați <1>0,8-1,2 g per kg</1> de greutate corporală sau 20-35% din totalul de calorii. Prioritați grăsimile nesaturate (ulei de măsline, nuci, pește) față de grăsimile saturate."
+    },
+    "sources": "Top surse de grăsime:"
+  },
+  "plate": {
+    "title": "Construiește-ți masa echilibrată",
+    "legend": {
+      "protein": "Proteine {{val}}%",
+      "carbs": "Carbohidrați {{val}}%",
+      "fats": "Grăsimi {{val}}%"
+    },
+    "sliders": {
+      "protein": {
+        "title": "Proteine",
+        "desc": "Mușchi și sațietate"
+      },
+      "carbs": {
+        "title": "Carbohidrați",
+        "desc": "Energie și performanță"
+      },
+      "fats": {
+        "title": "Grasimi",
+        "desc": "Hormoni și vitamine"
+      }
+    },
+    "calories": {
+      "title": "Calorii estimate",
+      "subtitle": "(pe baza unei porții de 200 g)",
+      "unit": "kcal"
+    },
+    "warning": {
+      "title": "Recomandare de echilibru",
+      "desc": "Pentru o nutriție optimă: urmăriți cel puțin 15-25% proteine (mușchi și sațietate), 20-35% grăsimi sănătoase (hormoni) și 40-60% carbohidrați (energie). Ajustați-vă rapoartele pentru a atinge aceste obiective."
+    }
+  },
+  "foods": {
+    "chicken": "Piept de pui",
+    "yogurt": "Iaurt grecesc",
+    "eggs": "ouă",
+    "eggUnit": "1 ou = 6 g proteine",
+    "salmon": "somon",
+    "lentils": "Linte",
+    "tofu": "Tofu",
+    "rice": "Orez brun",
+    "oats": "Ovăz",
+    "potato": "Cartofi dulci",
+    "quinoa": "Quinoa",
+    "banana": "Banana",
+    "bananaUnit": "1 mediu = 27 g carbohidrați",
+    "bread": "Pâine integrală",
+    "breadUnit": "1 felie = 12 g carbohidrați",
+    "avocado": "Avocado",
+    "almonds": "Migdale",
+    "almondsUnit": "28g = 14g grăsime",
+    "oil": "Ulei de măsline",
+    "oilUnit": "1 lingura = 14 g grasime",
+    "peanutButter": "Unt de arahide",
+    "pbUnit": "2 linguri = 16 g grăsime",
+    "chocolate": "Ciocolata neagra",
+    "chocolateUnit": "28 g = 9 g grăsime",
+    "unit100g": "100 g = {{val}}g {{macro}}"
+  }
+}

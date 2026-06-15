@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "back": "返回仪表板"
+  },
+  "header": {
+    "title": "素食营养指南",
+    "subtitle": "完整的植物性营养工具包"
+  },
+  "tabs": {
+    "plate": "素食盘",
+    "nutrients": "微量营养素",
+    "calculator": "蛋白质计算器"
+  },
+  "plate": {
+    "title": "完整的素食餐",
+    "proportions": {
+      "legumes": {
+        "title": "豆类/豆类",
+        "subtitle": "蛋白质发电站",
+        "examples": "例如：扁豆、鹰嘴豆、黑豆、豆腐、豆豉"
+      },
+      "grains": {
+        "title": "全谷物",
+        "subtitle": "持续能量",
+        "examples": "例如：藜麦、糙米、燕麦、全麦、大麦"
+      },
+      "vegetables": {
+        "title": "蔬菜",
+        "subtitle": "富含微量营养素",
+        "examples": "例如：绿叶蔬菜、西兰花、辣椒、胡萝卜、西红柿"
+      },
+      "fats": {
+        "title": "健康脂肪/种子",
+        "subtitle": "荷尔蒙健康",
+        "examples": "例如：鳄梨、坚果、种子、橄榄油、芝麻酱"
+      }
+    },
+    "tip": {
+      "title": "专业提示：促进铁吸收",
+      "desc": "植物铁（非血红素铁）的吸收效率低于动物铁。将富含铁的食物与维生素 C 搭配，可将吸收率提高高达 300%！",
+      "ironRich": "富含铁的食物",
+      "ironExamples": "菠菜、扁豆、藜麦、豆腐、南瓜子",
+      "vitaminC": "维生素 C 增强剂",
+      "vitaminCExamples": "柠檬汁、青椒、西红柿、西兰花、橙子",
+      "perfectCombo": "完美组合：柠檬汁扁豆汤、青椒菠菜沙拉"
+    }
+  },
+  "nutrients": {
+    "title": "四大营养素追踪器",
+    "progress": {
+      "title": "今天的进展",
+      "done": "完成",
+      "pending": "待定"
+    },
+    "why": {
+      "title": "为什么要追踪这些？",
+      "desc1": "这四种营养素是植物性饮食中最常见的缺乏症。跟踪每日摄入量可确保您获得完整的营养。",
+      "note": "注意：B12 必须通过强化食品补充或食用 - 它并不天然存在于植物中。"
+    },
+    "micronutrients": {
+      "b12": {
+        "name": "维生素B12",
+        "importance": "对于神经功能和 DNA 合成至关重要",
+        "dosage": "每日 2.4 微克"
+      },
+      "iron": {
+        "name": "铁和锌",
+        "importance": "对于氧气���输和免疫功能至关重要",
+        "dosage": "铁：每天 18 毫克，锌：11 毫克"
+      },
+      "omega3": {
+        "name": "Omega-3 (ALA)",
+        "importance": "大脑健康和抗炎",
+        "dosage": "每日 1.6 克"
+      },
+      "calcium": {
+        "name": "钙",
+        "importance": "骨骼健康和肌肉功能",
+        "dosage": "每日 1000 毫克"
+      }
+    }
+  },
+  "calculator": {
+    "title": "蛋白质知识指南",
+    "subtitle": "选择一种食物并输入数量即可立即查看其蛋白质含量",
+    "form": {
+      "selectFood": "搜索并选择食品",
+      "placeholderFood": "选择一种食物...",
+      "searchPlaceholder": "搜索食物...",
+      "amount": "用量（克）",
+      "placeholderAmount": "100",
+      "add": "添加到计算",
+      "proteinPer100": "每 100 克 {{val}} 克",
+      "matches": "显示 5 场比赛，共 {{total}} 场",
+      "noMatches": "没有找到食物"
+    },
+    "results": {
+      "title": "蛋白质分解",
+      "estProtein": "估计蛋白质含量",
+      "calcInfo": "{{数量}}克{{食物}}",
+      "summary": "当前计算摘要",
+      "total": "总蛋白",
+      "aminoAcid": "氨基酸完整性",
+      "aminoComplete": "完整的氨基概况",
+      "aminoIncomplete": "缺少谷物或豆类",
+      "aminoNote": "豆类（扁豆/豆类/大豆）+谷物（大米/藜麦/燕麦）=完整蛋白质",
+      "save": "将总计记录到历史记录",
+      "success": "蛋白质记录成功！",
+      "ironTip": {
+        "title": "提示：",
+        "desc": "与维生素 C（柠檬、辣椒、西红柿）搭配，可提高铁吸收高达 300%！"
+      }
+    },
+    "reference": {
+      "title": "快速参考指南"
+    }
+  },
+  "proteinSources": {
+    "tofu": "豆腐",
+    "tempeh": "丹贝",
+    "edamame": "毛豆",
+    "soybeansBoiled": "黄豆煮",
+    "soyChunks": "大豆块/TVP 干",
+    "soyMince": "干黄豆碎",
+    "soyMilk": "豆浆不加糖",
+    "soyYogurt": "原味大豆酸奶",
+    "seitan": "面筋",
+    "lentilsCooked": "扁豆煮熟",
+    "redLentilsCooked": "红扁豆煮熟",
+    "greenLentilsCooked": "煮熟的绿扁豆",
+    "blackLentilsCooked": "熟黑扁豆",
+    "chickpeasCooked": "鹰嘴豆煮熟",
+    "blackBeansCooked": "黑豆煮熟",
+    "kidneyBeansCooked": "芸豆煮熟",
+    "pintoBeansCooked": "煮熟的斑豆",
+    "cannelliniBeansCooked": "Cannellini 豆煮熟",
+    "navyBeansCooked": "海军豆煮熟",
+    "adzukiBeansCooked": "红小豆煮熟",
+    "mungBeansCooked": "绿豆煮熟",
+    "lupinBeans": "羽扇豆",
+    "splitPeasCooked": "豌豆煮熟",
+    "greenPeas": "青豆",
+    "peaProteinIsolate": "豌豆分离蛋白",
+    "peaMilk": "豌豆奶",
+    "hummus": "鹰嘴豆泥",
+    "falafel": "沙拉三明治",
+    "quinoaCooked": "煮熟的藜麦",
+    "amaranthCooked": "苋菜煮熟",
+    "buckwheatCooked": "荞麦煮熟",
+    "oatsDry": "燕麦干",
+    "rolledOats": "燕麦片",
+    "steelCutOats": "钢切燕麦",
+    "oatBran": "燕麦麸",
+    "barleyCooked": "熟大麦",
+    "milletCooked": "小米煮熟",
+    "brownRiceCooked": "糙米煮熟",
+    "wildRiceCooked": "野米煮熟",
+    "teffCooked": "苔麸煮熟",
+    "farroCooked": "法罗熟",
+    "freekehCooked": "免费煮熟",
+    "wholeWheatPastaCooked": "全麦意大利面煮熟",
+    "chickpeaPastaDry": "鹰嘴豆干意大利面",
+    "lentilPastaDry": "扁豆意大利面干",
+    "blackBeanPastaDry": "黑豆干意大利面",
+    "spirulinaDry": "螺旋藻干",
+    "nutritionalYeast": "营养酵母",
+    "mushroomsWhite": "蘑菇白",
+    "portobelloMushrooms": "波托贝洛蘑菇",
+    "spinach": "菠菜",
+    "kale": "羽衣甘蓝",
+    "broccoli": "西兰花",
+    "brusselsSprouts": "抱子甘蓝",
+    "sweetCorn": "甜玉米",
+    "artichoke": "朝鲜蓟",
+    "avocado": "鳄梨",
+    "pumpkinSeeds": "南瓜子",
+    "hempSeeds": "大麻种子",
+    "chiaSeeds": "奇亚籽",
+    "flaxSeeds": "亚麻籽",
+    "sesameSeeds": "芝麻",
+    "sunflowerSeeds": "葵花籽",
+    "watermelonSeeds": "西瓜籽",
+    "almonds": "杏仁",
+    "peanuts": "花生",
+    "peanutButterNatural": "天然花生酱",
+    "cashews": "腰果",
+    "pistachios": "开心果",
+    "walnuts": "核桃",
+    "hazelnuts": "榛子",
+    "brazilNuts": "巴西坚果",
+    "almondButter": "杏仁黄油",
+    "tahini": "芝麻酱",
+    "cashewButter": "腰果酱",
+    "pumpkinSeedButter": "南瓜籽黄油",
+    "sunflowerSeedButter": "葵花籽油",
+    "almondFlour": "杏仁粉",
+    "chickpeaFlour": "鹰嘴豆粉/贝桑",
+    "soyFlour": "大豆粉",
+    "wholeWheatFlour": "全麦面粉",
+    "breadWholeWheat": "全麦面包",
+    "ezekielBread": "以西结面包",
+    "proteinBreadVegan": "纯素蛋白质面包",
+    "roastedChickpeas": "烤鹰嘴豆",
+    "dryRoastedEdamame": "干烤毛豆",
+    "proteinBarVegan": "纯素蛋白质棒",
+    "veganSausage": "纯素香肠",
+    "veganBurgerPatty": "纯素汉堡肉饼",
+    "mycoproteinVegan": "菌蛋白素食",
+    "beanSprouts": "豆芽",
+    "alfalfaSprouts": "苜蓿芽"
+  }
+}

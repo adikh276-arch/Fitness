@@ -1,0 +1,141 @@
+{
+  "header": {
+    "title": "Gids voor hartgezondheid",
+    "subtitle": "Houd vitale functies bij, leer het DASH-dieet en ontwikkel gewoonten die gezond zijn voor het hart",
+    "back": "Terug naar Dashboard"
+  },
+  "alerts": {
+    "crisis": {
+      "title": "HYPERTENSIEVE CRISIS WAARSCHUWING",
+      "desc": "Uw bloeddrukwaarde is gevaarlijk hoog (≥180/120). Dit vereist onmiddellijke medische aandacht."
+    },
+    "vitals": {
+      "invalid": "Voer geldige meetwaarden in",
+      "success": "Gelogde lezing: {{sys}}/{{dia}} - {{category}}"
+    }
+  },
+  "tabs": {
+    "dash": "DASH-dieet",
+    "vitals": "Vitale logboek",
+    "habits": "Hartgewoonten"
+  },
+  "vitals": {
+    "form": {
+      "title": "Registreer uw vitale functies",
+      "bp": {
+        "label": "Bloeddruk",
+        "systolic": "Systolisch",
+        "systolic_desc": "Topnummer",
+        "diastolic": "Diastolisch",
+        "diastolic_desc": "Onderste nummer"
+      },
+      "heart_rate": {
+        "label": "Rusthartslag (BPM)",
+        "placeholder": "bijvoorbeeld 72"
+      },
+      "submit": "Logboeken lezen"
+    },
+    "recent": {
+      "title": "Recente lezingen",
+      "empty": "Er zijn nog geen metingen geregistreerd",
+      "bpm": "{{count}} BPM"
+    },
+    "chart": {
+      "title": "7-daagse bloeddruktrend",
+      "systolic": "Systolisch",
+      "diastolic": "Diastolisch"
+    },
+    "guidelines": {
+      "title": "AHA-bloeddrukcategorieën:",
+      "normal": "Normaal: <120/80",
+      "elevated": "Verhoogd: 120-129/<80",
+      "stage1": "Fase 1: 130-139/80-89",
+      "stage2": "Fase 2: ≥140/90"
+    },
+    "categories": {
+      "crisis": "Hypertensieve crisis",
+      "stage2": "Hypertensie Fase 2",
+      "stage1": "Hypertensie Fase 1",
+      "elevated": "Verhoogd",
+      "normal": "Normaal",
+      "unknown": "Onbekend"
+    }
+  },
+  "dash": {
+    "intro": {
+      "title": "Het DASH-dieet",
+      "desc": "Dieetbenaderingen om hypertensie te stoppen - Een wetenschappelijk bewezen eetplan dat de bloeddruk op natuurlijke wijze verlaagt."
+    },
+    "principles": {
+      "sodium": {
+        "title": "Natriumlimiet",
+        "limit": "<2.300 mg per dag",
+        "high_risk": "(Of 1.500 mg voor personen met een hoog risico)",
+        "desc": "Overtollig natrium veroorzaakt het vasthouden van water, waardoor het bloedvolume en de druk op de slagaderwanden toenemen."
+      },
+      "potassium": {
+        "title": "Kaliumkracht",
+        "limit": "4.700 mg per dag",
+        "source": "Van hele voedingsmiddelen"
+      },
+      "magnesium": {
+        "title": "Magnesium en vezels",
+        "limit": "500 mg mg / 25-35 g vezels",
+        "target": "Dagelijkse doelstellingen"
+      }
+    },
+    "scanner": {
+      "title": "⚠️ Verborgen natriumscanner: \"Sneaky Salt\" -voedingsmiddelen",
+      "subtitle": "Deze ogenschijnlijk onschuldige voedingsmiddelen bevatten meer natrium dan je denkt:",
+      "swaps": {
+        "title": "💡 DASH-vriendelijke swaps:"
+      }
+    }
+  },
+  "habits": {
+    "vitality": {
+      "title": "Vitaliteitsscore",
+      "start": "Begin met het opbouwen van uw hart-gezonde streak!",
+      "streak_good": "🔥 {{count}} dagenreeks! Je hart bloeit",
+      "streak_continue": "{{count}} dagen - Ga door!",
+      "streak_continue_singular": "{{count}} dag - Ga door!",
+      "days": "dagstreep",
+      "goal": "{{count}} / Doel van 30 dagen"
+    },
+    "checklist": {
+      "title": "Dagelijkse cardiochecklist",
+      "subtitle": "Voltooi deze gewoonten dagelijks om cardiovasculaire kracht op te bouwen",
+      "items": {
+        "cardio": {
+          "label": "30 minuten Zone 2 Cardio",
+          "desc": "Stevig wandelen, fietsen of zwemmen in een gemoedelijk tempo"
+        },
+        "low_sodium": {
+          "label": "Bleef onder de natriumlimiet",
+          "desc": "<2.300 mg (of 1.500 mg bij hoog risico)"
+        },
+        "no_salt": {
+          "label": "Geen toegevoegd zout aan tafel",
+          "desc": "Laat de natuurlijke smaken van voedsel stralen"
+        },
+        "meds": {
+          "label": "Medicatie genomen (optioneel)",
+          "desc": "Voor degenen die bloeddrukmedicatie gebruiken"
+        }
+      }
+    },
+    "tips": {
+      "title": "Essentiële zaken voor hartgezondheid"
+    }
+  },
+  "foods": {
+    "canned_soup": "Ingeblikte Soep (1 kopje)",
+    "deli_turkey": "Deli Kalkoen (2 oz)",
+    "white_bread": "Witbrood (2 sneetjes)",
+    "frozen_pizza": "Diepvriespizza (1 stuk)",
+    "soy_sauce": "Sojasaus (1 eetl.)",
+    "cottage_cheese": "Kwark (1/2 kop)",
+    "pickles": "Augurken (1 medium)",
+    "salad_dressing": "Saladedressing (2 eetlepels)"
+  }
+}

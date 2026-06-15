@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "back": "返回儀表板"
+  },
+  "header": {
+    "title": "減肥指南",
+    "subtitle": "您可持續減肥的完整指南"
+  },
+  "tabs": {
+    "plan": "計劃",
+    "tracker": "追蹤器",
+    "habits": "習慣"
+  },
+  "plan": {
+    "goldenRule": {
+      "title": "黃金法則",
+      "subtitle": "熱量不足與營養密度",
+      "desc": "減肥需要卡路里赤字，但這些卡路里的品質和數量一樣重要。專注於營養豐富的天然食品，讓您感到滿足，同時產生減肥所需的赤字。"
+    },
+    "proteinFirst": {
+      "title": "蛋白質第一",
+      "subtitle": "為什麼每公斤 1.2 克至 1.6 克蛋白質對於減脂來說是不容妥協的：",
+      "muscle": "在熱量限制期間保留肌肉量",
+      "thermic": "更高的熱效應（消化過程中燃燒 30% 的蛋白質熱量）",
+      "satiety": "增加飽足感有助於延長飽足感",
+      "sugar": "穩定血糖並減少食慾"
+    },
+    "plateMethod": {
+      "title": "平板法",
+      "subtitle": "促進減脂的均衡飲食的簡單視覺指南：",
+      "veg": {
+        "title": "蔬菜",
+        "desc": "非澱粉類蔬菜可增加體積和營養"
+      },
+      "protein": {
+        "title": "蛋白質",
+        "desc": "瘦肉、魚、蛋或植物來源"
+      },
+      "carbs": {
+        "title": "富含纖維的碳水化合物",
+        "desc": "全穀物、地瓜、藜麥、豆類"
+      }
+    },
+    "hiddenFactors": {
+      "title": "隱藏的因素",
+      "hydration": {
+        "title": "保濕",
+        "desc": "適當的補水有助於："
+      },
+      "sleep": {
+        "title": "睡眠（7 小時以上）",
+        "desc": "優質睡眠調節："
+      }
+    }
+  },
+  "tracker": {
+    "progress": {
+      "title": "你的進步",
+      "change": "改變目標",
+      "lost": "減肥",
+      "remaining": "剩餘",
+      "percent": "進展",
+      "complete": "完成"
+    },
+    "log": {
+      "title": "記錄今天的指標",
+      "weight": "目前體重（公斤）",
+      "chest": "胸圍（英寸，可選）",
+      "waist": "腰圍（英寸，可選）",
+      "hips": "臀圍（英寸，可選）",
+      "placeholder": "例如，{{val}}",
+      "submit": "日誌指標"
+    },
+    "history": {
+      "title": "指標歷史記錄",
+      "total": "總日誌數",
+      "first": "第一重量",
+      "latest": "最新重量",
+      "unit": "公斤",
+      "inches": "英吋",
+      "chest": "胸部",
+      "waist": "腰",
+      "hips": "臀部"
+    }
+  },
+  "habits": {
+    "consistency": {
+      "title": "每週一致性",
+      "subtitle": "繼續養成這些健康習慣！"
+    },
+    "today": {
+      "title": "今天的習慣",
+      "subtitle": "今天完成每個習慣後勾選它",
+      "protein": {
+        "label": "達到蛋白質目標",
+        "desc": "每公斤體重1.2-1.6公克"
+      },
+      "noSugar": {
+        "label": "不喝含糖飲料",
+        "desc": "僅水、茶或黑咖啡"
+      },
+      "walk": {
+        "label": "餐後 10 分鐘步行",
+        "desc": "飯後輕度活動"
+      },
+      "sleep": {
+        "label": "7 小時以上的睡眠",
+        "desc": "優質休息促進康復"
+      }
+    },
+    "tracker30": {
+      "title": "30 天習慣追蹤器",
+      "legend": {
+        "none": "無",
+        "low": "1",
+        "mid": "2-3",
+        "high": "3",
+        "all": "全部 4 個"
+      }
+    },
+    "whyMatters": {
+      "title": "為什麼這些習慣很重要",
+      "protein": "蛋白質攝取量可以在減肥過程中保留肌肉並增加飽腹感",
+      "noSugar": "避免喝糖飲料可以消除空熱量並減少胰島素峰值",
+      "walk": "餐後散步可提高胰島素敏感性並幫助消化",
+      "sleep": "優質睡眠可調節飢餓激素並支持減肥"
+    }
+  },
+  "modal": {
+    "title": "設定你的目標",
+    "subtitle": "讓我們個性化您的減肥之旅",
+    "start": "起始重量（公斤）",
+    "target": "目標體重（公斤）",
+    "date": "目標日期",
+    "save": "保存目標",
+    "fillAll": "請填寫所有字段"
+  }
+}

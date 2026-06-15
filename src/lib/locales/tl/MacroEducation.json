@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "back": "Bumalik sa Dashboard"
+  },
+  "header": {
+    "title": "Pag-unawa sa Macro-nutrients",
+    "subtitle": "Alamin ang mga pangunahing kaalaman ng protina, carbs, at taba"
+  },
+  "tabs": {
+    "protein": "protina",
+    "carbs": "Carbs",
+    "fats": "Mga taba",
+    "plate": "Tagabuo ng Plate"
+  },
+  "protein": {
+    "title": "protina",
+    "kcal": "4 kcal/gramo",
+    "whyMatters": {
+      "title": "Bakit Mahalaga:",
+      "muscle": {
+        "title": "Pag-aayos at Paglago ng kalamnan:",
+        "desc": "Mahalaga para sa pagbuo at pagpapanatili ng lean muscle mass"
+      },
+      "satiety": {
+        "title": "Pagkabusog:",
+        "desc": "Pinapanatili kang mabusog nang mas matagal, na binabawasan ang kabuuang paggamit ng calorie"
+      },
+      "metabolic": {
+        "title": "Metabolic Boost:",
+        "desc": "Pinakamataas na thermic effect ng lahat ng macros (20-30% ng calories na nasunog sa panahon ng digestion)"
+      }
+    },
+    "target": {
+      "title": "Pang-araw-araw na Target:",
+      "desc": "Para sa pinakamainam na kalusugan at pagpapanatili ng kalamnan, maghangad ng <1>1.6-2.2g bawat kg</1> ng timbang ng katawan. Maaaring mangailangan ng hanggang 2.5g/kg ang mga atleta at yaong nagtatayo ng kalamnan."
+    },
+    "sources": "Nangungunang Mga Pinagmumulan ng Protina:"
+  },
+  "carbs": {
+    "title": "Mga karbohidrat",
+    "kcal": "4 kcal/gramo",
+    "whyMatters": {
+      "title": "Bakit Mahalaga:",
+      "energy": {
+        "title": "Pangunahing Pinagmumulan ng Enerhiya:",
+        "desc": "Ang ginustong gasolina ng iyong katawan para sa utak at pisikal na aktibidad"
+      },
+      "performance": {
+        "title": "Pagganap:",
+        "desc": "Kritikal para sa high-intensity exercise at athletic performance"
+      },
+      "nutrients": {
+        "title": "Fiber at Nutrient:",
+        "desc": "Ang buong carbs ay nagbibigay ng mahahalagang bitamina, mineral, at kalusugan ng digestive"
+      }
+    },
+    "target": {
+      "title": "Pang-araw-araw na Target:",
+      "desc": "Para sa mga aktibong indibidwal, maghangad ng <1>3-6g bawat kg</1> ng timbang ng katawan. Maaaring mas kaunti ang kailangan ng mga nakaupong indibidwal (2-3g/kg). Tumutok sa mga kumplikadong pinagmumulan ng buong pagkain."
+    },
+    "sources": "Nangungunang Mga Pinagmumulan ng Carb:"
+  },
+  "fats": {
+    "title": "Mga taba",
+    "kcal": "9 kcal/gramo",
+    "whyMatters": {
+      "title": "Bakit Mahalaga:",
+      "hormone": {
+        "title": "Produksyon ng Hormone:",
+        "desc": "Mahalaga para sa testosterone, estrogen, at iba pang mahahalagang hormone"
+      },
+      "vitamin": {
+        "title": "Pagsipsip ng Bitamina:",
+        "desc": "Kinakailangan upang sumipsip ng mga bitamina na natutunaw sa taba (A, D, E, K)"
+      },
+      "brain": {
+        "title": "Kalusugan ng Utak:",
+        "desc": "Ang iyong utak ay 60% na taba - ang mga omega-3 ay mahalaga para sa pag-andar ng pag-iisip"
+      }
+    },
+    "target": {
+      "title": "Pang-araw-araw na Target:",
+      "desc": "Layunin ang <1>0.8-1.2g bawat kg</1> ng timbang ng katawan, o 20-35% ng kabuuang calorie. Unahin ang unsaturated fats (olive oil, nuts, fish) kaysa sa saturated fats."
+    },
+    "sources": "Nangungunang Mga Pinagmumulan ng Taba:"
+  },
+  "plate": {
+    "title": "Buuin ang Iyong Balanseng Pagkain",
+    "legend": {
+      "protein": "Protina {{val}}%",
+      "carbs": "Carbs {{val}}%",
+      "fats": "Mga taba {{val}}%"
+    },
+    "sliders": {
+      "protein": {
+        "title": "protina",
+        "desc": "Kalamnan at pagkabusog"
+      },
+      "carbs": {
+        "title": "Mga karbohidrat",
+        "desc": "Enerhiya at pagganap"
+      },
+      "fats": {
+        "title": "Mga taba",
+        "desc": "Mga hormone at bitamina"
+      }
+    },
+    "calories": {
+      "title": "Tinantyang Mga Calorie",
+      "subtitle": "(batay sa 200g na bahagi)",
+      "unit": "kcal"
+    },
+    "warning": {
+      "title": "Rekomendasyon ng Balanse",
+      "desc": "Para sa pinakamainam na nutrisyon: Layunin ang hindi bababa sa 15-25% na protina (kalamnan at pagkabusog), 20-35% malusog na taba (mga hormone), at 40-60% carbs (enerhiya). Ayusin ang iyong mga ratio upang maabot ang mga target na ito."
+    }
+  },
+  "foods": {
+    "chicken": "Dibdib ng Manok",
+    "yogurt": "Greek Yogurt",
+    "eggs": "Mga itlog",
+    "eggUnit": "1 itlog = 6g protina",
+    "salmon": "Salmon",
+    "lentils": "Mga lentil",
+    "tofu": "Tofu",
+    "rice": "Kayumangging Bigas",
+    "oats": "Oats",
+    "potato": "Kamote",
+    "quinoa": "Quinoa",
+    "banana": "saging",
+    "bananaUnit": "1 daluyan = 27g carbs",
+    "bread": "Tinapay na Buong Trigo",
+    "breadUnit": "1 slice = 12g carbs",
+    "avocado": "Abukado",
+    "almonds": "Almendras",
+    "almondsUnit": "28g = 14g taba",
+    "oil": "Langis ng Oliba",
+    "oilUnit": "1 kutsara = 14g taba",
+    "peanutButter": "Peanut Butter",
+    "pbUnit": "2 kutsara = 16g taba",
+    "chocolate": "Dark Chocolate",
+    "chocolateUnit": "28g = 9g taba",
+    "unit100g": "100g = {{val}}g {{macro}}"
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "header": {
+    "title": "Hướng dẫn sức khỏe đường ruột",
+    "subtitle": "Theo dõi sức khỏe tiêu hóa và xây dựng hệ vi sinh vật phát triển mạnh",
+    "back": "Quay lại Trang tổng quan"
+  },
+  "tabs": {
+    "log": "Nhật ký đường ruột hàng ngày",
+    "map": "Bản đồ vi sinh vật",
+    "habits": "Chất xơ & Lên men"
+  },
+  "bristol": {
+    "title": "Cân phân Bristol",
+    "info": "Tiêu chuẩn vàng để theo dõi thời gian vận chuyển tiêu hóa và sức khỏe đường ruột",
+    "types": {
+      "type1": {
+        "label": "Loại 1",
+        "desc": "Táo bón nặng - Tách cục cứng"
+      },
+      "type2": {
+        "label": "Loại 2",
+        "desc": "Táo bón nhẹ - Dạng cục và giống xúc xích"
+      },
+      "type3": {
+        "label": "Loại 3",
+        "desc": "Bình thường - Xúc xích có vết nứt"
+      },
+      "type4": {
+        "label": "Loại 4",
+        "desc": "Lý tưởng - Xúc xích mềm, mịn"
+      },
+      "type5": {
+        "label": "Loại 5",
+        "desc": "Thiếu chất xơ - Tơ mềm"
+      },
+      "type6": {
+        "label": "Loại 6",
+        "desc": "Tiêu chảy nhẹ - Mushy"
+      },
+      "type7": {
+        "label": "Loại 7",
+        "desc": "Tiêu chảy nặng - Chất lỏng"
+      }
+    },
+    "alert": "Vui lòng chọn loại Cân phân Bristol"
+  },
+  "symptoms": {
+    "title": "Triệu chứng hôm nay",
+    "items": {
+      "Bloating": "đầy hơi",
+      "Gas": "Khí đốt",
+      "Cramping": "Chuột rút",
+      "Reflux": "trào ngược",
+      "Energy Dip": "Giảm năng lượng"
+    }
+  },
+  "triggers": {
+    "title": "Trình kích hoạt đáng ngờ",
+    "items": {
+      "Dairy": "Sữa",
+      "Gluten": "gluten",
+      "Coffee": "cà phê",
+      "Spicy Food": "Thức ăn cay",
+      "Alcohol": "Rượu",
+      "Stress": "căng thẳng",
+      "Other": "Khác"
+    }
+  },
+  "log": {
+    "submit": "Đăng nhập",
+    "success": "Nhật ký ruột được lưu thành công!",
+    "recent": {
+      "title": "Nhật ký gần đây",
+      "trigger": "Trình kích hoạt:"
+    }
+  },
+  "microbiome": {
+    "prebiotics": {
+      "title": "Prebiotic",
+      "subtitle": "Thức ăn cho vi khuẩn đường ruột của bạn",
+      "desc": "Prebiotic là thực phẩm giàu chất xơ nuôi dưỡng vi khuẩn có lợi trong ruột của bạn, giúp chúng phát triển và nhân lên."
+    },
+    "probiotics": {
+      "title": "Probiotic",
+      "subtitle": "Vi khuẩn có lợi sống",
+      "desc": "Probiotic là các vi sinh vật sống được tìm thấy trong thực phẩm lên men, trực tiếp bổ sung vi khuẩn có lợi cho đường ruột của bạn."
+    }
+  },
+  "diversity": {
+    "title": "Thử thách 30 cây mỗi tuần",
+    "subtitle": "Nghiên cứu cho thấy ăn hơn 30 loại thực vật khác nhau mỗi tuần sẽ hỗ trợ sự đa dạng ��ường ruột tối ưu",
+    "score_label": "/ 30 cây",
+    "weekly_score": "Điểm đa dạng hàng tuần",
+    "feedback": {
+      "excellent": "🎉 Tuyệt vời! Bạn đang đạt mục tiêu 30 cây",
+      "great": "👍 Rất đa dạng! Tiếp tục thêm đa dạng",
+      "good": "📈 Khởi đầu tốt đẹp! Hướng tới đa dạng cây trồng hơn",
+      "start": "🌱 Bắt đầu bổ sung nhiều loại thực vật khác nhau để tăng cường sức khỏe đường ruột"
+    }
+  },
+  "habits": {
+    "title": "Danh sách kiểm tra đường ruột hạnh phúc",
+    "subtitle": "Hoàn thành những thói quen hàng ngày này để có sức khỏe tiêu hóa tối ưu",
+    "items": {
+      "fiber": {
+        "label": "Tiêu thụ 25g+ chất xơ",
+        "desc": "Từ ngũ cốc nguyên hạt, trái cây và rau quả"
+      },
+      "fermented": {
+        "label": "Đã Bao Gồm 1 Thực Phẩm Lên Men",
+        "desc": "Kimchi, sữa chua, kefir hoặc dưa cải bắp"
+      },
+      "mindful": {
+        "label": "Ăn uống có chánh niệm (Hơn 20 lần nhai)",
+        "desc": "Nhai đúng cách hỗ trợ tiêu hóa"
+      },
+      "fast": {
+        "label": "12 giờ nghỉ ngơi qua đêm",
+        "desc": "Cửa sổ nhịn ăn cho phép sửa chữa đường ruột"
+      }
+    }
+  },
+  "tracker": {
+    "title": "Theo dõi thói quen 30 ngày",
+    "tooltip": "Ngày {{dayNum}}: {{count}}/4 thói quen",
+    "legend": {
+      "none": "không có",
+      "one": "1",
+      "two": "2",
+      "three": "3",
+      "four": "3-4",
+      "all": "Tất cả 4"
+    }
+  },
+  "essentials": {
+    "title": "Yếu tố cần thiết cho sức khỏe đường ruột"
+  },
+  "plants": {
+    "Spinach": "rau chân vịt",
+    "Kale": "cải xoăn",
+    "Arugula": "rau arugula",
+    "Romaine": "romaine",
+    "Broccoli": "bông cải xanh",
+    "Cauliflower": "Súp lơ",
+    "Brussels Sprouts": "Cải Brussels",
+    "Cabbage": "bắp cải",
+    "Carrots": "cà rốt",
+    "Sweet Potatoes": "khoai lang",
+    "Beets": "củ cải đường",
+    "Radishes": "củ cải",
+    "Chickpeas": "đậu xanh",
+    "Lentils": "đậu lăng",
+    "Black Beans": "Đậu đen",
+    "Kidney Beans": "Đậu thận",
+    "Oats": "Yến mạch",
+    "Brown Rice": "Gạo lứt",
+    "Quinoa": "diêm mạch",
+    "Barley": "lúa mạch",
+    "Almonds": "hạnh nhân",
+    "Walnuts": "quả óc chó",
+    "Pistachios": "quả hồ trăn",
+    "Cashews": "hạt điều",
+    "Chia": "Chia",
+    "Flax": "lanh",
+    "Pumpkin Seeds": "Hạt bí ngô",
+    "Sunflower Seeds": "Hạt hướng dương",
+    "Blueberries": "Quả việt quất",
+    "Strawberries": "dâu tây",
+    "Raspberries": "quả mâm xôi",
+    "Blackberries": "Quả mâm xôi",
+    "Oranges": "cam",
+    "Lemons": "chanh",
+    "Limes": "chanh",
+    "Grapefruit": "Bưởi",
+    "Bananas": "chuối",
+    "Pineapple": "Dứa",
+    "Mango": "xoài",
+    "Papaya": "Đu đủ",
+    "Peaches": "đào",
+    "Plums": "quả mận",
+    "Cherries": "Anh đào",
+    "Apricots": "quả mơ",
+    "Basil": "húng quế",
+    "Cilantro": "ngò",
+    "Mint": "bạc hà",
+    "Parsley": "mùi tây",
+    "Rosemary": "hương thảo",
+    "Turmeric": "nghệ",
+    "Ginger": "gừng",
+    "Cinnamon": "quế",
+    "Cumin": "thì là",
+    "Paprika": "ớt bột",
+    "Kimchi": "kim chi",
+    "Sauerkraut": "dưa cải bắp",
+    "Miso": "tương miso",
+    "Tempeh": "Tempeh",
+    "Button Mushrooms": "nấm nút",
+    "Shiitake": "Nấm hương",
+    "Portobello": "Portobello",
+    "Oyster Mushrooms": "Nấm Sò",
+    "Pumpkin": "bí ngô",
+    "Butternut Squash": "bí đao",
+    "Zucchini": "bí xanh",
+    "Acorn Squash": "Quả sồi",
+    "Bell Peppers": "Ớt chuông",
+    "Jalapeños": "ớt jalapeños",
+    "Chili": "Ớt",
+    "Cherry Tomatoes": "Cà chua bi",
+    "Roma Tomatoes": "Cà chua Roma",
+    "Beefsteak Tomatoes": "cà chua bít tết",
+    "Garlic": "Tỏi",
+    "Onions": "hành tây",
+    "Leeks": "tỏi tây",
+    "Shallots": "hẹ tây",
+    "Alfalfa Sprouts": "Mầm cỏ linh lăng",
+    "Broccoli Sprouts": "mầm bông cải xanh",
+    "Mung Bean Sprouts": "Giá đỗ xanh",
+    "Nori": "Nori",
+    "Kelp": "Tảo bẹ",
+    "Wakame": "Wakame",
+    "Buckwheat": "kiều mạch",
+    "Farro": "tiếng Farro",
+    "Amaranth": "rau dền",
+    "Millet": "kê",
+    "Watermelon": "dưa hấu",
+    "Cantaloupe": "dưa đỏ",
+    "Honeydew": "mật ngọt",
+    "Apples": "Táo",
+    "Pears": "Lê",
+    "Avocado": "quả bơ",
+    "Coconut": "dừa",
+    "Coconut Milk": "nước cốt dừa",
+    "Coconut Water": "nước dừa",
+    "Olives": "ô liu",
+    "Dark Chocolate": "Sôcôla đen",
+    "Cacao Nibs": "Cacao Ngòi",
+    "Cocoa Powder": "Bột cacao",
+    "Green Tea": "Trà xanh",
+    "Black Tea": "Trà đen",
+    "Chamomile": "hoa cúc",
+    "Peppermint Tea": "Trà Bạc Hà",
+    "Coffee": "cà phê"
+  }
+}

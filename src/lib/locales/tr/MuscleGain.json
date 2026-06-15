@@ -109,7 +109,16 @@
       "thigh": "Uyluk (inç)",
       "thighHint": "En geniş kısım",
       "submit": "Log Ölçümleri",
-      "success": "Ölçümler başarıyla kaydedildi!"
+      "success": "Ölçümler başarıyla kaydedildi!",
+      "placeholders": {
+        "weight": "örneğin 75",
+        "targetWeight": "örneğin 85",
+        "chest": "örneğin 40",
+        "waist": "İsteğe bağlı",
+        "bicep": "örneğin, 15",
+        "bicepL": "Sağdakinin aynısı",
+        "thigh": "İsteğe bağlı"
+      }
     },
     "volume": {
       "title": "Hacim Hesaplayıcı",
@@ -120,7 +129,13 @@
       "totalVolume": "Toplam Hacim",
       "remaining": "Gol için kalan",
       "submit": "Günlük Hacmi",
-      "logged": "{{lift}} kaydedildi: {{volume}}kg toplam hacim!"
+      "logged": "{{lift}} kaydedildi: {{volume}}kg toplam hacim!",
+      "recentLifts": "Son Asansörler",
+      "placeholders": {
+        "sets": "örneğin 4",
+        "reps": "örneğin 8",
+        "weight": "örneğin 80"
+      }
     },
     "chart": {
       "title": "İlerleme Grafiği",
@@ -168,7 +183,71 @@
         "perfect": "Mükemmel (5/5)",
         "partial": "Kısmi",
         "none": "Eksik"
+      },
+      "tooltip": "Gün {{day}}: {{count}}/5 alışkanlık"
+    }
+  },
+  "essentials": {
+    "title": "Hipertrofi Temelleri",
+    "tips": {
+      "rest": {
+        "title": "Kas dinlenme sırasında inşa edilir:",
+        "desc": "Uyku ve beslenme büyümenin gerçekleştiği zamandır, spor salonunda değil"
+      },
+      "protein": {
+        "title": "Protein zamanlaması toplamdan daha az önemlidir:",
+        "desc": "Günlük hedefinize ulaşmaya odaklanın, zamanlama ikinci plandadır"
+      },
+      "track": {
+        "title": "Her şeyi takip edin:",
+        "desc": "Ağırlık, ölçümler ve hacim; veriler aynada göremediğiniz ilerlemeyi ortaya çıkarır"
+      },
+      "creatine": {
+        "title": "Kreatin kanıtlanmıştır:",
+        "desc": "Günlük 3-5 g, çoğu insan için hiçbir yan etki olmaksızın gücü ve yağsız kütleyi artırır"
       }
     }
+  },
+  "exercises": {
+    "squat": "Çömelme",
+    "deadlift": "Deadlift",
+    "benchPress": "Bench Press",
+    "overheadPress": "Havai Pres",
+    "barbellRow": "Halter Sırası",
+    "pullUp": "Yukarı Çek",
+    "chinUp": "Çene Yukarı",
+    "latPulldown": "Enlem Açılan",
+    "seatedCableRow": "Oturmalı Kablo Sırası",
+    "dumbbellRow": "Dambıl Sırası",
+    "romanianDeadlift": "Romen Deadlift'i",
+    "hipThrust": "Kalça İtme",
+    "lunge": "Hamle",
+    "bulgarianSplitSquat": "Bulgar Bölünmüş Çömelme",
+    "legPress": "Bacak Basın",
+    "legExtension": "Bacak Uzatma",
+    "legCurl": "Bacak Kıvırma",
+    "calfRaise": "Baldır Kaldırma",
+    "gluteBridge": "Glute Köprüsü",
+    "pushUp": "Yukarı itin",
+    "inclineDumbbellPress": "Eğimli Dambıl Presi",
+    "dips": "Dipler",
+    "chestFly": "Göğüs Sineği",
+    "lateralRaise": "Yanal Yükseltme",
+    "rearDeltFly": "Arka Delt Fly",
+    "facePull": "Yüz Çekme",
+    "bicepCurl": "Pazı Kıvırma",
+    "hammerCurl": "Çekiç Kıvırma",
+    "tricepPushdown": "Triceps Aşağı Basma",
+    "skullCrusher": "Kafatası Kırıcı",
+    "plank": "Tahta",
+    "hangingLegRaise": "Asılı Bacak Kaldırma",
+    "russianTwist": "Rus Büküm",
+    "farmerCarry": "Çiftçi Taşımacılığı",
+    "shrug": "Omuz silkme",
+    "arnoldPress": "Arnold Basın",
+    "frontSquat": "Ön Çömelme",
+    "sumoDeadlift": "Sumo Deadlift",
+    "gobletSquat": "Kadeh Çömelme",
+    "stepUp": "Yükselt"
   }
 }

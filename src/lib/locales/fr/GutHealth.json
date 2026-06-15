@@ -1,0 +1,244 @@
+{
+  "header": {
+    "title": "Guide de santé intestinale",
+    "subtitle": "Suivez la santé digestive et créez un microbiome prospère",
+    "back": "Retour au tableau de bord"
+  },
+  "tabs": {
+    "log": "Journal intestinal quotidien",
+    "map": "Carte du microbiome",
+    "habits": "Fibres et ferments"
+  },
+  "bristol": {
+    "title": "Balance de tabouret Bristol",
+    "info": "La référence en matière de suivi du temps de transit digestif et de la santé intestinale",
+    "types": {
+      "type1": {
+        "label": "Tapez 1",
+        "desc": "Constipation sévère – grosses dures séparées"
+      },
+      "type2": {
+        "label": "Tapez 2",
+        "desc": "Constipation légère – grumeleuse et ressemblant à une saucisse"
+      },
+      "type3": {
+        "label": "Tapez 3",
+        "desc": "Normal - Saucisse craquelée"
+      },
+      "type4": {
+        "label": "Tapez 4",
+        "desc": "Idéal - Saucisse onctueuse et moelleuse"
+      },
+      "type5": {
+        "label": "Tapez 5",
+        "desc": "Manque de fibres - Blobs mous"
+      },
+      "type6": {
+        "label": "Tapez 6",
+        "desc": "Diarrhée légère – pâteuse"
+      },
+      "type7": {
+        "label": "Tapez 7",
+        "desc": "Diarrhée sévère - Liquide"
+      }
+    },
+    "alert": "Veuillez sélectionner un type de balance à selles Bristol"
+  },
+  "symptoms": {
+    "title": "Symptômes aujourd'hui",
+    "items": {
+      "Bloating": "Ballonnements",
+      "Gas": "Gaz",
+      "Cramping": "Crampes",
+      "Reflux": "Reflux",
+      "Energy Dip": "Baisse d'énergie"
+    }
+  },
+  "triggers": {
+    "title": "Déclencheur suspecté",
+    "items": {
+      "Dairy": "Produits laitiers",
+      "Gluten": "Gluten",
+      "Coffee": "Café",
+      "Spicy Food": "Nourriture épicée",
+      "Alcohol": "Alcool",
+      "Stress": "Stress",
+      "Other": "Autre"
+    }
+  },
+  "log": {
+    "submit": "Entrée de journal",
+    "success": "Journal intestinal enregistré avec succès !",
+    "recent": {
+      "title": "Journaux récents",
+      "trigger": "Déclencheur :"
+    }
+  },
+  "microbiome": {
+    "prebiotics": {
+      "title": "Prébiotiques",
+      "subtitle": "La nourriture pour vos bactéries intestinales",
+      "desc": "Les prébiotiques sont des aliments riches en fibres qui nourrissent les bactéries bénéfiques de votre intestin, les aidant ainsi à prospérer et à se multiplier."
+    },
+    "probiotics": {
+      "title": "Probiotiques",
+      "subtitle": "Les bactéries bénéfiques vivantes",
+      "desc": "Les probiotiques sont des micro-organismes vivants présents dans les aliments fermentés qui ajoutent directement des bactéries bénéfiques à votre intestin."
+    }
+  },
+  "diversity": {
+    "title": "Le défi des 30 plantes par semaine",
+    "subtitle": "Des recherches montrent que manger plus de 30 plantes différentes par semaine favorise une diversité intestinale optimale",
+    "score_label": "/ 30 plantes",
+    "weekly_score": "Score de diversité hebdomadaire",
+    "feedback": {
+      "excellent": "🎉Excellent ! Vous atteignez l'objectif de 30 plantes",
+      "great": "👍 Grande diversité ! Continuez à ajouter de la variété",
+      "good": "📈 Bon début ! Visez plus de variété végétale",
+      "start": "🌱 Commencez à ajouter diverses plantes pour améliorer la santé intestinale"
+    }
+  },
+  "habits": {
+    "title": "La liste de contrôle Happy Gut",
+    "subtitle": "Complétez ces habitudes quotidiennes pour une santé digestive optimale",
+    "items": {
+      "fiber": {
+        "label": "25 g+ de fibres consommées",
+        "desc": "À partir de grains entiers, de fruits et de légumes"
+      },
+      "fermented": {
+        "label": "Inclus 1 aliment fermenté",
+        "desc": "Kimchi, yaourt, kéfir ou choucroute"
+      },
+      "mindful": {
+        "label": "Manger en pleine conscience (20+ à mâcher)",
+        "desc": "Une bonne mastication facilite la digestion"
+      },
+      "fast": {
+        "label": "Repos intestinal de 12 heures pendant la nuit",
+        "desc": "La fenêtre de jeûne permet la réparation intestinale"
+      }
+    }
+  },
+  "tracker": {
+    "title": "Suivi des habitudes sur 30 jours",
+    "tooltip": "Jour {{dayNum}} : {{count}}/4 habitudes",
+    "legend": {
+      "none": "Aucun",
+      "one": "1",
+      "two": "2",
+      "three": "3",
+      "four": "3-4",
+      "all": "Tous les 4"
+    }
+  },
+  "essentials": {
+    "title": "Les essentiels de la santé intestinale"
+  },
+  "plants": {
+    "Spinach": "Épinards",
+    "Kale": "Chou frisé",
+    "Arugula": "Roquette",
+    "Romaine": "Romaine",
+    "Broccoli": "Brocoli",
+    "Cauliflower": "Chou-fleur",
+    "Brussels Sprouts": "Choux de Bruxelles",
+    "Cabbage": "Chou",
+    "Carrots": "Carottes",
+    "Sweet Potatoes": "Patates douces",
+    "Beets": "Betteraves",
+    "Radishes": "Radis",
+    "Chickpeas": "Pois chiches",
+    "Lentils": "Lentilles",
+    "Black Beans": "Haricots noirs",
+    "Kidney Beans": "Haricots rouges",
+    "Oats": "Avoine",
+    "Brown Rice": "Riz brun",
+    "Quinoa": "Quinoa",
+    "Barley": "Orge",
+    "Almonds": "Amandes",
+    "Walnuts": "Noix",
+    "Pistachios": "Pistaches",
+    "Cashews": "Noix de cajou",
+    "Chia": "Chia",
+    "Flax": "Lin",
+    "Pumpkin Seeds": "Graines de citrouille",
+    "Sunflower Seeds": "Graines de tournesol",
+    "Blueberries": "Bleuets",
+    "Strawberries": "Fraises",
+    "Raspberries": "Framboises",
+    "Blackberries": "Mûres",
+    "Oranges": "Oranges",
+    "Lemons": "Citrons",
+    "Limes": "citrons verts",
+    "Grapefruit": "Pamplemousse",
+    "Bananas": "Bananes",
+    "Pineapple": "Ananas",
+    "Mango": "Mangue",
+    "Papaya": "Papaye",
+    "Peaches": "Pêches",
+    "Plums": "Prunes",
+    "Cherries": "Cerises",
+    "Apricots": "Abricots",
+    "Basil": "Basilic",
+    "Cilantro": "Coriandre",
+    "Mint": "Menthe",
+    "Parsley": "Persil",
+    "Rosemary": "Romarin",
+    "Turmeric": "Curcuma",
+    "Ginger": "Gingembre",
+    "Cinnamon": "Cannelle",
+    "Cumin": "Cumin",
+    "Paprika": "Paprika",
+    "Kimchi": "Kimchi",
+    "Sauerkraut": "Choucroute",
+    "Miso": "Miso",
+    "Tempeh": "Tempeh",
+    "Button Mushrooms": "Champignons de Paris",
+    "Shiitake": "Shiitaké",
+    "Portobello": "Portobello",
+    "Oyster Mushrooms": "Pleurotes",
+    "Pumpkin": "Citrouille",
+    "Butternut Squash": "Courge musquée",
+    "Zucchini": "Courgettes",
+    "Acorn Squash": "Courge poivrée",
+    "Bell Peppers": "Poivrons",
+    "Jalapeños": "Jalapenos",
+    "Chili": "Piment",
+    "Cherry Tomatoes": "Tomates cerises",
+    "Roma Tomatoes": "Tomates Roma",
+    "Beefsteak Tomatoes": "Tomates Bifteck",
+    "Garlic": "Ail",
+    "Onions": "Oignons",
+    "Leeks": "Poireaux",
+    "Shallots": "Échalotes",
+    "Alfalfa Sprouts": "Germes de luzerne",
+    "Broccoli Sprouts": "Pousses de brocoli",
+    "Mung Bean Sprouts": "Germes de haricot mungo",
+    "Nori": "Nori",
+    "Kelp": "Varech",
+    "Wakame": "Wakamé",
+    "Buckwheat": "Sarrasin",
+    "Farro": "Farro",
+    "Amaranth": "Amarante",
+    "Millet": "Millet",
+    "Watermelon": "Pastèque",
+    "Cantaloupe": "Cantaloup",
+    "Honeydew": "Miellat",
+    "Apples": "Pommes",
+    "Pears": "Poires",
+    "Avocado": "Avocat",
+    "Coconut": "Noix de coco",
+    "Coconut Milk": "Lait de coco",
+    "Coconut Water": "Eau de coco",
+    "Olives": "Olives",
+    "Dark Chocolate": "Chocolat noir",
+    "Cacao Nibs": "Plumes de cacao",
+    "Cocoa Powder": "Poudre de cacao",
+    "Green Tea": "Thé vert",
+    "Black Tea": "Thé noir",
+    "Chamomile": "Camomille",
+    "Peppermint Tea": "Thé à la menthe poivrée",
+    "Coffee": "Café"
+  }
+}

@@ -109,7 +109,16 @@
       "thigh": "Reisi (tuumaa)",
       "thighHint": "Levein kohta",
       "submit": "Lokin mittaukset",
-      "success": "Mittarit kirjattu onnistuneesti!"
+      "success": "Mittarit kirjattu onnistuneesti!",
+      "placeholders": {
+        "weight": "esim. 75",
+        "targetWeight": "esim. 85",
+        "chest": "esim. 40",
+        "waist": "Valinnainen",
+        "bicep": "esim. 15",
+        "bicepL": "Sama kuin oikein",
+        "thigh": "Valinnainen"
+      }
     },
     "volume": {
       "title": "Tilavuuslaskuri",
@@ -120,7 +129,13 @@
       "totalVolume": "Kokonaistilavuus",
       "remaining": "Jäljellä maaliin",
       "submit": "Lokimäärä",
-      "logged": "{{lift}} kirjattu: kokonaistilavuus {{volume}}kg!"
+      "logged": "{{lift}} kirjattu: kokonaistilavuus {{volume}}kg!",
+      "recentLifts": "Viimeaikaiset hissit",
+      "placeholders": {
+        "sets": "esim. 4",
+        "reps": "esim. 8",
+        "weight": "esim. 80"
+      }
     },
     "chart": {
       "title": "Edistymiskaavio",
@@ -168,7 +183,71 @@
         "perfect": "Täydellinen (5/5)",
         "partial": "Osittainen",
         "none": "Keskeneräinen"
+      },
+      "tooltip": "Päivä {{day}}: {{count}}/5 tapaa"
+    }
+  },
+  "essentials": {
+    "title": "Hypertrofia Essentials",
+    "tips": {
+      "rest": {
+        "title": "Lihas rakentuu levossa:",
+        "desc": "Uni ja ravinto ovat silloin, kun kasvu tapahtuu, ei kuntosalilla"
+      },
+      "protein": {
+        "title": "Proteiinin ajoituksella on vähemmän merkitystä kuin kokonaismäärällä:",
+        "desc": "Keskity päivittäisen tavoitteesi saavuttamiseen, ajoitus on toissijainen"
+      },
+      "track": {
+        "title": "Seuraa kaikkea:",
+        "desc": "Paino, mitat ja tilavuus – tiedot paljastavat edistyksen, jota et näe peilistä"
+      },
+      "creatine": {
+        "title": "Kreatiini on todistettu:",
+        "desc": "3-5 g päivässä lisää voimaa ja laihaa massaa ilman sivuvaikutuksia useimmille ihmisille"
       }
     }
+  },
+  "exercises": {
+    "squat": "Kyykky",
+    "deadlift": "Maastaveto",
+    "benchPress": "Penkkipunnerrus",
+    "overheadPress": "Overhead Press",
+    "barbellRow": "Barbell rivi",
+    "pullUp": "Vedä ylös",
+    "chinUp": "Leuka ylös",
+    "latPulldown": "Lat Pulldown",
+    "seatedCableRow": "Istuva kaapelirivi",
+    "dumbbellRow": "Käsipainorivi",
+    "romanianDeadlift": "Romanian maastaveto",
+    "hipThrust": "Hip Thrust",
+    "lunge": "Lunge",
+    "bulgarianSplitSquat": "Bulgarian halkaistu kyykky",
+    "legPress": "Jalkapaino",
+    "legExtension": "Jalkojen pidennys",
+    "legCurl": "Jalkojen kihara",
+    "calfRaise": "Vasikka Nosta",
+    "gluteBridge": "Glute silta",
+    "pushUp": "Push Up",
+    "inclineDumbbellPress": "Kallista käsipainopuristin",
+    "dips": "Dipit",
+    "chestFly": "Rintakärpäs",
+    "lateralRaise": "Sivuttaisnosto",
+    "rearDeltFly": "Takana Delt Fly",
+    "facePull": "Kasvojen veto",
+    "bicepCurl": "Bicep Curl",
+    "hammerCurl": "Hammer Curl",
+    "tricepPushdown": "Tricep Pushdown",
+    "skullCrusher": "Skull Crusher",
+    "plank": "Lankku",
+    "hangingLegRaise": "Riippuva jalan nosto",
+    "russianTwist": "Venäjän kierre",
+    "farmerCarry": "Farmer Carry",
+    "shrug": "kohauttaa olkiaan",
+    "arnoldPress": "Arnold Press",
+    "frontSquat": "Etukyykky",
+    "sumoDeadlift": "Sumo maastaveto",
+    "gobletSquat": "Goblet Squat",
+    "stepUp": "Step Up"
   }
 }

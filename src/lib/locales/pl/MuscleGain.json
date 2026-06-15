@@ -109,7 +109,16 @@
       "thigh": "Udo (w)",
       "thighHint": "Najszersza część",
       "submit": "Pomiary kłód",
-      "success": "Metryki zostały pomyślnie zarejestrowane!"
+      "success": "Metryki zostały pomyślnie zarejestrowane!",
+      "placeholders": {
+        "weight": "np. 75",
+        "targetWeight": "np. 85",
+        "chest": "np. 40",
+        "waist": "Opcjonalne",
+        "bicep": "np. 15",
+        "bicepL": "To samo co prawda",
+        "thigh": "Opcjonalne"
+      }
     },
     "volume": {
       "title": "Kalkulator objętości",
@@ -120,7 +129,13 @@
       "totalVolume": "Całkowita objętość",
       "remaining": "Pozostało do bramki",
       "submit": "Objętość dziennika",
-      "logged": "{{lift}} zalogowano: {{volume}}kg całkowitej objętości!"
+      "logged": "{{lift}} zalogowano: {{volume}}kg całkowitej objętości!",
+      "recentLifts": "Ostatnie liftingi",
+      "placeholders": {
+        "sets": "np. 4",
+        "reps": "np. 8",
+        "weight": "np. 80"
+      }
     },
     "chart": {
       "title": "Wykres postępu",
@@ -168,7 +183,71 @@
         "perfect": "Idealny (5/5)",
         "partial": "Częściowy",
         "none": "Niekompletny"
+      },
+      "tooltip": "Dzień {{day}}: {{count}}/5 nawyków"
+    }
+  },
+  "essentials": {
+    "title": "Podstawy hipertrofii",
+    "tips": {
+      "rest": {
+        "title": "Mięśnie budują się podczas odpoczynku:",
+        "desc": "Sen i odżywianie to czas wzrostu, a nie siłowni"
+      },
+      "protein": {
+        "title": "Czas białka ma mniejsze znaczenie niż suma:",
+        "desc": "Skoncentruj się na osiągnięciu dziennego celu, czas jest sprawą drugorzędną"
+      },
+      "track": {
+        "title": "Śledź wszystko:",
+        "desc": "Waga, wymiary i objętość – dane pokazują postęp, którego nie widać w lustrze"
+      },
+      "creatine": {
+        "title": "Udowodniono, że kreatyna:",
+        "desc": "3-5 g dziennie zwiększa siłę i beztłuszczową masę bez skutków ubocznych dla większości ludzi"
       }
     }
+  },
+  "exercises": {
+    "squat": "Przysiad",
+    "deadlift": "Martwy ciąg",
+    "benchPress": "Wyciskanie na ławce",
+    "overheadPress": "Prasa górna",
+    "barbellRow": "Rząd sztangi",
+    "pullUp": "Podciągnij się",
+    "chinUp": "Podbródek do góry",
+    "latPulldown": "Lat Pulldown",
+    "seatedCableRow": "Siedzący rząd kabli",
+    "dumbbellRow": "Rząd hantli",
+    "romanianDeadlift": "Rumuński martwy ciąg",
+    "hipThrust": "Pchnięcie biodrem",
+    "lunge": "Wykrok",
+    "bulgarianSplitSquat": "Przysiad bułgarski Split",
+    "legPress": "Prasa do nóg",
+    "legExtension": "Przedłużenie nogi",
+    "legCurl": "Zgięcie nóg",
+    "calfRaise": "Podnoszenie łydek",
+    "gluteBridge": "Most pośladkowy",
+    "pushUp": "Push Up",
+    "inclineDumbbellPress": "Wyciskanie hantli w pozycji pochylonej",
+    "dips": "Dipy",
+    "chestFly": "Mucha w klatce piersiowej",
+    "lateralRaise": "Podniesienie boczne",
+    "rearDeltFly": "Tylny Delt Fly",
+    "facePull": "Przyciąganie twarzy",
+    "bicepCurl": "Uginanie bicepsa",
+    "hammerCurl": "Zwijanie młotka",
+    "tricepPushdown": "Wyciskanie tricepsów",
+    "skullCrusher": "Kruszarka Czaszek",
+    "plank": "Deska",
+    "hangingLegRaise": "Unoszenie nóg w zwisie",
+    "russianTwist": "Rosyjski zwrot",
+    "farmerCarry": "Rolnik Carry",
+    "shrug": "Wzrusz ramionami",
+    "arnoldPress": "Arnolda Prasowego",
+    "frontSquat": "Przysiad przedni",
+    "sumoDeadlift": "Martwy ciąg sumo",
+    "gobletSquat": "Przysiad Czary",
+    "stepUp": "Tworzyć coś"
   }
 }

@@ -1,0 +1,141 @@
+{
+  "header": {
+    "title": "心脏健康指南",
+    "subtitle": "跟踪生命体征、学习 DASH 饮食并养成心脏健康的习惯",
+    "back": "返回仪表板"
+  },
+  "alerts": {
+    "crisis": {
+      "title": "高血压危象警告",
+      "desc": "您的血压读数非常高（≥180/120）。这需要立即就医。"
+    },
+    "vitals": {
+      "invalid": "请输入有效读数",
+      "success": "读取记录：{{sys}}/{{dia}} - {{category}}"
+    }
+  },
+  "tabs": {
+    "dash": "短跑饮食",
+    "vitals": "生命体征日志",
+    "habits": "心脏习惯"
+  },
+  "vitals": {
+    "form": {
+      "title": "记录您的生命体征",
+      "bp": {
+        "label": "血压",
+        "systolic": "收缩压",
+        "systolic_desc": "顶部号码",
+        "diastolic": "舒张压",
+        "diastolic_desc": "底部编号"
+      },
+      "heart_rate": {
+        "label": "静息心率 (BPM)",
+        "placeholder": "例如，72"
+      },
+      "submit": "日志读取"
+    },
+    "recent": {
+      "title": "最近读物",
+      "empty": "尚未记录读数",
+      "bpm": "{{count}} BPM"
+    },
+    "chart": {
+      "title": "7 天血压趋势",
+      "systolic": "收缩压",
+      "diastolic": "舒张压"
+    },
+    "guidelines": {
+      "title": "AHA 血压类别：",
+      "normal": "正常：<120/80",
+      "elevated": "高：120-129/<80",
+      "stage1": "第一阶段：130-139/80-89",
+      "stage2": "第2阶段：≥140/90"
+    },
+    "categories": {
+      "crisis": "高血压危象",
+      "stage2": "高血压第二阶段",
+      "stage1": "高血压第一阶段",
+      "elevated": "高架",
+      "normal": "正常",
+      "unknown": "未知"
+    }
+  },
+  "dash": {
+    "intro": {
+      "title": "DASH 饮食",
+      "desc": "预防高血压的饮食方法 - 一种经过科学证明的自然降低血压的饮食计划。"
+    },
+    "principles": {
+      "sodium": {
+        "title": "钠限量",
+        "limit": "每天 <2,300 毫克",
+        "high_risk": "（或高��人群 1,500 毫克）",
+        "desc": "过量的钠会导致水潴留，增加血容量和动脉壁压力。"
+      },
+      "potassium": {
+        "title": "钾粉",
+        "limit": "每天 4,700 毫克",
+        "source": "来自全食"
+      },
+      "magnesium": {
+        "title": "镁和纤维",
+        "limit": "500 毫克镁/25-35 克纤维",
+        "target": "每日目标"
+      }
+    },
+    "scanner": {
+      "title": "⚠️隐藏的钠扫描仪：“偷偷摸摸的盐”食物",
+      "subtitle": "这些看似无害的食物所含的钠比您想象的���多：",
+      "swaps": {
+        "title": "💡 DASH 友好的互换："
+      }
+    }
+  },
+  "habits": {
+    "vitality": {
+      "title": "活力值",
+      "start": "开始建立您的心脏健康记录吧！",
+      "streak_good": "🔥 连续 {{count}} 天！你的心正在蓬勃发展",
+      "streak_continue": "{{count}} 天 - 继续前进！",
+      "streak_continue_singular": "{{count}} 天 - 继续前进！",
+      "days": "连续日",
+      "goal": "{{count}} / 30 天目标"
+    },
+    "checklist": {
+      "title": "每日有氧运动清单",
+      "subtitle": "每天完成这些习惯以增强心血管力量",
+      "items": {
+        "cardio": {
+          "label": "30 分钟 2 区有氧运动",
+          "desc": "以对话的速度快走、骑自行车或游泳"
+        },
+        "low_sodium": {
+          "label": "保持在钠限制以下",
+          "desc": "<2,300mg（如果高风险则为1,500mg）"
+        },
+        "no_salt": {
+          "label": "餐桌上不加盐",
+          "desc": "让食物的天然风味熠熠生辉"
+        },
+        "meds": {
+          "label": "服用的药物（可选）",
+          "desc": "对于那些正在服用降血压药物的人"
+        }
+      }
+    },
+    "tips": {
+      "title": "心脏健康要点"
+    }
+  },
+  "foods": {
+    "canned_soup": "罐头��（1杯）",
+    "deli_turkey": "熟食火鸡（2 盎司）",
+    "white_bread": "白面包（2片）",
+    "frozen_pizza": "冷冻披萨（1片）",
+    "soy_sauce": "酱油（1汤匙）",
+    "cottage_cheese": "白干酪（1/2 杯）",
+    "pickles": "泡菜（1个中等）",
+    "salad_dressing": "沙拉酱（2汤匙）"
+  }
+}

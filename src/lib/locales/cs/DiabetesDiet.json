@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "back": "Zpět na Dashboard"
+  },
+  "header": {
+    "title": "Průvodce dietou pro diabetes",
+    "subtitle": "Sledujte glukózu a osvojte si metodu destiček"
+  },
+  "alert": {
+    "title": "Upozornění na nízkou hladinu cukru v krvi",
+    "desc": "Vaše čtení ukazuje na hypoglykémii (nízkou hladinu cukru v krvi). Okamžitě proveďte opatření:",
+    "actions": {
+      "carbs": "Konzumujte 15 g rychle působících sacharidů (např. 4 unce šťávy, 3–4 tablety glukózy)",
+      "wait": "Počkejte 15 minut",
+      "repeat": "Otestujte znovu; pokud je stále nízká, opakujte léčbu",
+      "contact": "Pokud se hladiny nestabilizují, kontaktujte svého lékaře"
+    }
+  },
+  "tabs": {
+    "plate": "Diabetická deska",
+    "log": "Glukózový deník",
+    "gi": "GI vyhledávání"
+  },
+  "log": {
+    "title": "Záznam měření glukózy",
+    "unit": "Jednotka měření",
+    "value": "Hladina glukózy ({{unit}})",
+    "valuePlaceholder": "Zadejte hodnotu (např. 110)",
+    "valuePlaceholderMmol": "Zadejte hodnotu (např. 6.1)",
+    "timing": "Načasování čtení",
+    "mealContext": "Kontext jídla / Poznámky",
+    "mealContextPlaceholder": "co jsi jedl? Jak se cítíte?",
+    "submit": "Uložit čtení",
+    "success": "Měření hladiny glukózy bylo úspěšně uloženo!",
+    "targets": {
+      "title": "Standardní cílové rozsahy (mg/dl)",
+      "fasting": "Nalačno: 80-130 mg/dl",
+      "postMeal": "1-2 hodiny po jídle: < 180 mg/dl",
+      "low": "Nízká: < 70 mg/dl"
+    },
+    "recent": {
+      "title": "Nedávná čtení",
+      "noReadings": "Zatím nejsou zaznamenána žádná měření",
+      "trend": "Trend glukózy (posledních 7 měření)",
+      "targetMax": "Cílové maximum (půst)",
+      "targetPost": "Cílové maximum (po jídle)"
+    }
+  },
+  "status": {
+    "normal": "Normální",
+    "high": "Vysoká",
+    "low": "Nízká"
+  },
+  "timing": {
+    "fasting": "Půst / Před jídlem",
+    "preMeal": "Před jídlem",
+    "postMeal1h": "1h po jídle",
+    "postMeal2h": "2h po jídle",
+    "bedtime": "Před spaním"
+  },
+  "plate": {
+    "intro": {
+      "title": "Diabetes plate Method",
+      "desc": "Talířová metoda je jednoduchý způsob, jak plánovat jídla bez počítání. Zaměřuje se na kontrolu porcí a vyvážení, aby pomohla řídit hladinu cukru v krvi."
+    },
+    "build": {
+      "title": "Sestavte si svůj talíř",
+      "hint": "Kliknutím na sekci zobrazíte doporučené potraviny"
+    },
+    "categories": {
+      "veggies": {
+        "name": "Neškrobová zelenina",
+        "percent": "50 %",
+        "desc": "Naplňte polovinu talíře barevnou zeleninou bohatou na vlákninu"
+      },
+      "protein": {
+        "name": "Lean Protein",
+        "percent": "25 %",
+        "desc": "Naplňte čtvrtinu libovými zdroji bílkovin"
+      },
+      "carbs": {
+        "name": "Zdravé sacharidy",
+        "percent": "25 %",
+        "desc": "Čtvrtinu naplňte celými zrny nebo škrobovou zeleninou"
+      }
+    },
+    "principles": {
+      "title": "Principy destičkové metody",
+      "veggies": {
+        "title": "Nejprve zelenina",
+        "desc": "Nejprve jezte zeleninu, abyste zpomalili vstřebávání glukózy ze zbytku jídla."
+      },
+      "protein": {
+        "title": "Kvalitní protein",
+        "desc": "Vyberte si štíhlé varianty pro podporu udržení svalové hmoty bez nadbytečných nasycených tuků."
+      },
+      "carbs": {
+        "title": "Všímavé sacharidy",
+        "desc": "Držte se komplexních sacharidů, které mají nižší dopad na výkyvy hladiny cukru v krvi."
+      }
+    }
+  },
+  "gi": {
+    "intro": {
+      "title": "Vyhledávání glykemického indexu (GI).",
+      "desc": "Glykemický index řadí sacharidy podle toho, jak moc zvyšují hladinu glukózy v krvi ve srovnání s referenční potravinou.",
+      "low": "Nízká (0–55)",
+      "medium": "Střední (56–69)",
+      "high": "Vysoká (70+)"
+    },
+    "labels": {
+      "low": "Nízký GI",
+      "medium": "Střední GI",
+      "high": "Vysoký GI"
+    },
+    "search": "Vyhledejte jídlo (např. oves, banán...)",
+    "noResults": "Vašemu hledání neodpovídají žádné potraviny"
+  },
+  "foods": {
+    "Spinach": "Špenát",
+    "Broccoli": "brokolice",
+    "Cauliflower": "Květák",
+    "Bell Peppers": "Papriky",
+    "Zucchini": "Cuketa",
+    "Asparagus": "Chřest",
+    "Cucumber": "okurka",
+    "Tomatoes": "Rajčata",
+    "Chicken Breast": "Kuřecí prsa",
+    "Fish (Salmon, Tuna)": "Ryby (losos, tuňák)",
+    "Tofu": "Tofu",
+    "Lentils": "Čočka",
+    "Eggs": "Vejce",
+    "Turkey": "Turecko",
+    "Greek Yogurt": "Řecký jogurt",
+    "Brown Rice": "Hnědá rýže",
+    "Quinoa": "Quinoa",
+    "Sweet Potato": "Sladký brambor",
+    "Whole Wheat Pasta": "Celozrnné těstoviny",
+    "Oats": "Oves",
+    "Barley": "Ječmen"
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "header": {
+    "title": "Flexibility & Mobility",
+    "subtitle": "Improve range of motion and prevent injuries",
+    "back": "Tillbaka till Dashboard"
+  },
+  "tabs": {
+    "stretches": "Daily Stretches",
+    "tests": "Mobility Tests",
+    "log": "Recovery Log"
+  },
+  "player": {
+    "stretch": "Stretch {{current}} of {{total}}",
+    "resume": "Resume",
+    "pause": "Pausa",
+    "skip": "Hoppa över",
+    "cancel": "Avbryt",
+    "bilateral_hint": "💡 Kom ihåg att byta sida när timern tar slut",
+    "preview": {
+      "stretches_count": "{{count}} Stretches ({{duration}} min total):",
+      "start": "Start {{duration}}-Min Routine",
+      "cancel": "Avbryt"
+    },
+    "complete": {
+      "title": "Routine Complete!",
+      "desc": "Great job completing {{name}}!",
+      "rate_label": "Feel Better? Rate your improvement: {{rating}}/10",
+      "worse": "Worse",
+      "same": "Same",
+      "much_better": "Much Better",
+      "save": "Save Session",
+      "done": "Done"
+    }
+  },
+  "routines": {
+    "upper-body": {
+      "name": "Upper Body Open",
+      "focus": "Chest, Shoulders, Mid-Back",
+      "desc": "Release tension from desk work and phone use",
+      "stretches": {
+        "Doorway Chest Stretch": {
+          "name": "Stretch för dörröppning",
+          "desc": "Stå i dörröppningen, placera underarmarna på ramen, luta dig framåt för att känna att bröstkorgen sträcker sig."
+        },
+        "Shoulder Rolls": {
+          "name": "Shoulder Rolls",
+          "desc": "Rulla axlarna bakåt i stora cirklar, 10 reps."
+        },
+        "Thoracic Rotation": {
+          "name": "Thorax rotation",
+          "desc": "På händer och knän, rotera överkroppen sida till sida, öppna bröstet."
+        },
+        "Neck Stretch": {
+          "name": "Stretch i nacken",
+          "desc": "Luta försiktigt huvudet åt varje sida, håll i 30 sekunder per sida."
+        },
+        "Tricep Stretch": {
+          "name": "Triceps stretch",
+          "desc": "Nå armen över huvudet, böj armbågen, dra försiktigt med andra handen."
+        }
+      }
+    },
+    "lower-body": {
+      "name": "Underkroppssläpp",
+      "focus": "Hamstrings, glutes, höftböjare",
+      "desc": "Djupa sträckningar för strama ben och höfter från sittande",
+      "stretches": {
+        "Pigeon Pose": {
+          "name": "Pigeon Pose",
+          "desc": "För ett ben framåt böjt, sträck ut det bakre benet rakt, sänk ner höfterna."
+        },
+        "Hamstring Stretch": {
+          "name": "Hamstring Stretch",
+          "desc": "Sitt med ett ben utsträckt, sträck dig mot tårna, håll ryggen rak."
+        },
+        "Hip Flexor Lunge": {
+          "name": "Hip Flexor Lunge",
+          "desc": "Lungeposition, skjut höfterna framåt för att känna sträckning i främre höften."
+        },
+        "Glute Stretch": {
+          "name": "Glute Stretch",
+          "desc": "Ligg på rygg, korsa fotleden över motsatta knä, dra mot bröstet."
+        },
+        "Calf Stretch": {
+          "name": "Vadstretch",
+          "desc": "Kliv framåt i utfall, håll bakre hälen nere för att sträcka vaden."
+        }
+      }
+    },
+    "full-body": {
+      "name": "Full Body Flow",
+      "focus": "Totalt kroppsunderhåll",
+      "desc": "Komplett flexibilitetsrutin från topp till tå",
+      "stretches": {
+        "Cat-Cow": {
+          "name": "Katt-ko",
+          "desc": "På händer och knän, omväxlande välvd och rundande ryggrad."
+        },
+        "Downward Dog": {
+          "name": "Nedåtgående hund",
+          "desc": "Händer och fötter planterade, höfter höga, bildar ett omvänt V."
+        },
+        "Child's Pose": {
+          "name": "Barns pose",
+          "desc": "Breda knän, luta dig tillbaka på hälarna, armarna sträckta framåt."
+        },
+        "Seated Twist": {
+          "name": "Sittande Twist",
+          "desc": "Sitt med benen i kors, rotera bålen åt varje sida, handen bakom ryggen."
+        },
+        "Forward Fold": {
+          "name": "Vik framåt",
+          "desc": "Stå, häng i höfterna, sträck dig mot tårna, låt huvudet hänga."
+        },
+        "Hip Circles": {
+          "name": "Höftcirklar",
+          "desc": "Händerna på höfterna, gör stora cirklar med höfterna åt båda hållen."
+        },
+        "Arm Circles": {
+          "name": "Arm cirklar",
+          "desc": "Sträck ut armarna brett, gör stora cirklar framåt och sedan bakåt."
+        }
+      }
+    },
+    "dynamic-warmup": {
+      "name": "Dynamisk uppvärmning",
+      "focus": "Aktivering före träning",
+      "desc": "Prepare your body before exercise",
+      "stretches": {
+        "Leg Swings": {
+          "name": "Bengungor",
+          "desc": "Håll i väggen, sväng benet framåt och bakåt, sedan sida till sida."
+        },
+        "Arm Circles": {
+          "name": "Arm cirklar",
+          "desc": "Small to large circles, forward and backward."
+        },
+        "Torso Twists": {
+          "name": "Torso Twists",
+          "desc": "Rotate upper body side to side with arms loose."
+        },
+        "Walking Lunges": {
+          "name": "Walking Lunges",
+          "desc": "Kliv framåt i ett utfall, växla ben medan du rör dig framåt."
+        },
+        "High Knees": {
+          "name": "Höga knän",
+          "desc": "March in place bringing knees to hip height."
+        }
+      }
+    }
+  },
+  "benefits": {
+    "title": "Why Daily Stretching Matters"
+  },
+  "tests": {
+    "status": {
+      "title": "Din mobilitetsstatus",
+      "based_on": "Based on {{count}} test results",
+      "complete_below": "Komplettera testerna nedan",
+      "score_label": "Poäng: {{poäng}}/6 poäng (Godkänd=2, Delvis=1, Behöver arbete=0)",
+      "elite": "Elitmobilitet",
+      "good": "Bra rörlighet",
+      "limited": "Begränsad rörlighet",
+      "not_tested": "Ej testad"
+    },
+    "items": {
+      "sit-reach": {
+        "name": "Sit & Reach-test",
+        "desc": "Sit with legs straight, reach toward toes",
+        "pass": "Kan röra eller passera tårna",
+        "fail": "More than 6 inches from toes"
+      },
+      "shoulder-pass": {
+        "name": "Axelpassering",
+        "desc": "Håll ett band/pinne, höj armarna över huvudet och bakom ryggen",
+        "pass": "Can pass through smoothly",
+        "fail": "Kan inte slutföra rörelsen"
+      },
+      "deep-squat": {
+        "name": "Deep Squat Hold",
+        "desc": "Squat down with heels flat, hold for 30 seconds",
+        "pass": "Kan hålla 30-tal, klackar ner",
+        "fail": "Heels lift or cannot hold"
+      }
+    },
+    "tips": {
+      "title": "Testtips"
+    },
+    "actions": {
+      "pass": "✓ Godkänt",
+      "partial": "~ Partiell",
+      "fail": "✗ Behöver arbete"
+    }
+  },
+  "log": {
+    "title": "Loggåterställningssession",
+    "duration": "Varaktighet (minuter)",
+    "focus_areas": "Focus Areas (select all that apply)",
+    "soreness_label": "Soreness Before Session: {{level}}/10",
+    "no_pain": "1 - Ingen smärta",
+    "moderate": "5 - Måttlig",
+    "very_sore": "10 - Mycket ont",
+    "submit": "🧘 Loggsession",
+    "heatmap": {
+      "title": "Recovery Heatmap",
+      "legend": "Purple dots mark days with recovery sessions"
+    },
+    "badge": {
+      "title": "Skadebevis!",
+      "desc": "Du har slutfört {{count}} återställningssessioner den här veckan!"
+    },
+    "stats": {
+      "total": "Totalt antal minuter",
+      "this_week": "Denna vecka"
+    },
+    "recent": "Senaste sessioner",
+    "areas": {
+      "Neck": "Hals",
+      "Shoulders": "Axlar",
+      "Back": "Tillbaka",
+      "Hips": "Höfter",
+      "Legs": "Ben",
+      "Full Body": "Helkropp"
+    }
+  }
+}

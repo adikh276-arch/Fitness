@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "back": "返回仪表板"
+  },
+  "header": {
+    "title": "宏计算器",
+    "subtitle": "计算您的每日卡路里和常量营养素需求"
+  },
+  "tabs": {
+    "input": "您的详细信息",
+    "results": "您的结果"
+  },
+  "form": {
+    "title": "您的详细信息",
+    "age": "年龄（岁）",
+    "gender": "性别",
+    "male": "男",
+    "female": "女",
+    "weight": "重量",
+    "height": "身高",
+    "activity": "活动水平",
+    "goal": "目标",
+    "submit": "计算宏",
+    "placeholders": {
+      "age": "例如，30",
+      "weightKg": "例如，70",
+      "weightLbs": "例如，154",
+      "heightCm": "例如，175",
+      "heightFt": "脚",
+      "heightIn": "英寸"
+    },
+    "activityLevels": {
+      "sedentary": "久坐（很少/没有运动）",
+      "light": "轻度活动（每周 1-3 天）",
+      "moderate": "中等活跃（每周 3-5 ��）",
+      "very": "非常活跃（每周 6-7 天）"
+    },
+    "goals": {
+      "maintenance": "维护保养",
+      "loss": "减肥",
+      "gain": "增肌"
+    }
+  },
+  "results": {
+    "title": "您的结果",
+    "calorieTarget": "每日卡路里目标",
+    "kcalPerDay": "千卡/天",
+    "bmrLabel": "基础代谢率：{{val}}千卡",
+    "protein": "蛋白质",
+    "carbs": "碳水化合物",
+    "fat": "脂肪",
+    "submit": "保存到个人资料",
+    "placeholder": "输入您的详细信息并单击计算以查看结果",
+    "success": "宏数据已保存！您的个人资料详细信息已同步。",
+    "validation": "请输入有效值"
+  }
+}

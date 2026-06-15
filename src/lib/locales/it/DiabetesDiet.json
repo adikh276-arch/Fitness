@@ -42,7 +42,8 @@
       "title": "Letture recenti",
       "noReadings": "Nessuna lettura registrata finora",
       "trend": "Andamento a 7 giorni",
-      "targetMax": "Target Max"
+      "targetMax": "Target Max",
+      "targetPost": "Target massimo (post-pasto)"
     }
   },
   "plate": {
@@ -101,7 +102,8 @@
       "low": "Basso indice glicemico",
       "medium": "Gastrointestinale medio",
       "high": "Alto indice glicemico"
-    }
+    },
+    "search": "Cerca un alimento (es. avena, banana...)"
   },
   "timing": {
     "fasting": "Digiuno",

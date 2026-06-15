@@ -1,0 +1,244 @@
+{
+  "header": {
+    "title": "Leitfaden zur Darmgesundheit",
+    "subtitle": "Verfolgen Sie die Gesundheit Ihres Verdauungssystems und bauen Sie ein blühendes Mikrobiom auf",
+    "back": "Zurück zum Dashboard"
+  },
+  "tabs": {
+    "log": "Tägliches Darmprotokoll",
+    "map": "Mikrobiomkarte",
+    "habits": "Ballaststoffe und Ferment"
+  },
+  "bristol": {
+    "title": "Bristol-Hockerwaage",
+    "info": "Der Goldstandard zur Verfolgung der Verdauungszeit und der Darmgesundheit",
+    "types": {
+      "type1": {
+        "label": "Typ 1",
+        "desc": "Schwere Verstopfung – Harte Klumpen ablösen"
+      },
+      "type2": {
+        "label": "Typ 2",
+        "desc": "Leichte Verstopfung – klumpig und wurstartig"
+      },
+      "type3": {
+        "label": "Typ 3",
+        "desc": "Normal – Wurst mit Rissen"
+      },
+      "type4": {
+        "label": "Typ 4",
+        "desc": "Ideal – Glatte, weiche Wurst"
+      },
+      "type5": {
+        "label": "Typ 5",
+        "desc": "Mangel an Ballaststoffen – weiche Kleckse"
+      },
+      "type6": {
+        "label": "Typ 6",
+        "desc": "Leichter Durchfall – matschig"
+      },
+      "type7": {
+        "label": "Typ 7",
+        "desc": "Schwerer Durchfall – Flüssigkeit"
+      }
+    },
+    "alert": "Bitte wählen Sie einen Typ der Bristol-Hockerwaage aus"
+  },
+  "symptoms": {
+    "title": "Symptome heute",
+    "items": {
+      "Bloating": "Blähungen",
+      "Gas": "Gas",
+      "Cramping": "Krämpfe",
+      "Reflux": "Rückfluss",
+      "Energy Dip": "Energieeinbruch"
+    }
+  },
+  "triggers": {
+    "title": "Mutmaßlicher Auslöser",
+    "items": {
+      "Dairy": "Milchprodukte",
+      "Gluten": "Gluten",
+      "Coffee": "Kaffee",
+      "Spicy Food": "Scharfes Essen",
+      "Alcohol": "Alkohol",
+      "Stress": "Stress",
+      "Other": "Andere"
+    }
+  },
+  "log": {
+    "submit": "Protokolleintrag",
+    "success": "Darmprotokoll erfolgreich gespeichert!",
+    "recent": {
+      "title": "Aktuelle Protokolle",
+      "trigger": "Auslöser:"
+    }
+  },
+  "microbiome": {
+    "prebiotics": {
+      "title": "Präbiotika",
+      "subtitle": "Die Nahrung für Ihre Darmbakterien",
+      "desc": "Präbiotika sind ballaststoffreiche Lebensmittel, die die nützlichen Bakterien in Ihrem Darm ernähren und ihnen helfen, zu gedeihen und sich zu vermehren."
+    },
+    "probiotics": {
+      "title": "Probiotika",
+      "subtitle": "Die lebenden nützlichen Bakterien",
+      "desc": "Probiotika sind lebende Mikroorganismen, die in fermentierten Lebensmitteln vorkommen und Ihrem Darm direkt nützliche Bakterien hinzufügen."
+    }
+  },
+  "diversity": {
+    "title": "Die 30 Pflanzen pro Woche-Challenge",
+    "subtitle": "Untersuchungen zeigen, dass der Verzehr von mehr als 30 verschiedenen Pflanzen pro Woche eine optimale Darmvielfalt unterstützt",
+    "score_label": "/ 30 Pflanzen",
+    "weekly_score": "Wöchentlicher Diversitäts-Score",
+    "feedback": {
+      "excellent": "🎉 Ausgezeichnet! Sie erreichen das Ziel von 30 Pflanzen",
+      "great": "👍 Tolle Vielfalt! Sorgen Sie weiterhin für Abwechslung",
+      "good": "📈 Guter Start! Streben Sie nach mehr Pflanzenvielfalt",
+      "start": "🌱 Beginnen Sie mit der Zugabe verschiedener Pflanzen, um die Darmgesundheit zu fördern"
+    }
+  },
+  "habits": {
+    "title": "Die Happy Gut-Checkliste",
+    "subtitle": "Vervollständigen Sie diese täglichen Gewohnheiten für eine optimale Verdauungsgesundheit",
+    "items": {
+      "fiber": {
+        "label": "25g+ Ballaststoffe verbraucht",
+        "desc": "Aus Vollkorn, Obst und Gemüse"
+      },
+      "fermented": {
+        "label": "Im Lieferumfang ist 1 fermentiertes Lebensmittel enthalten",
+        "desc": "Kimchi, Joghurt, Kefir oder Sauerkraut"
+      },
+      "mindful": {
+        "label": "Achtsames Essen (20+ Kaubonbons)",
+        "desc": "Richtiges Kauen fördert die Verdauung"
+      },
+      "fast": {
+        "label": "12-stündige Darmruhe über Nacht",
+        "desc": "Das Fastenfenster ermöglicht die Darmreparatur"
+      }
+    }
+  },
+  "tracker": {
+    "title": "30-Tage-Gewohnheits-Tracker",
+    "tooltip": "Tag {{dayNum}}: {{count}}/4 Gewohnheiten",
+    "legend": {
+      "none": "Keine",
+      "one": "1",
+      "two": "2",
+      "three": "3",
+      "four": "3-4",
+      "all": "Alle 4"
+    }
+  },
+  "essentials": {
+    "title": "Grundlagen der Darmgesundheit"
+  },
+  "plants": {
+    "Spinach": "Spinat",
+    "Kale": "Grünkohl",
+    "Arugula": "Rucola",
+    "Romaine": "Romaine",
+    "Broccoli": "Brokkoli",
+    "Cauliflower": "Blumenkohl",
+    "Brussels Sprouts": "Rosenkohl",
+    "Cabbage": "Kohl",
+    "Carrots": "Karotten",
+    "Sweet Potatoes": "Süßkartoffeln",
+    "Beets": "Rüben",
+    "Radishes": "Radieschen",
+    "Chickpeas": "Kichererbsen",
+    "Lentils": "Linsen",
+    "Black Beans": "Schwarze Bohnen",
+    "Kidney Beans": "Kidneybohnen",
+    "Oats": "Hafer",
+    "Brown Rice": "Brauner Reis",
+    "Quinoa": "Quinoa",
+    "Barley": "Gerste",
+    "Almonds": "Mandeln",
+    "Walnuts": "Walnüsse",
+    "Pistachios": "Pistazien",
+    "Cashews": "Cashewnüsse",
+    "Chia": "Chia",
+    "Flax": "Flachs",
+    "Pumpkin Seeds": "Kürbiskerne",
+    "Sunflower Seeds": "Sonnenblumenkerne",
+    "Blueberries": "Blaubeeren",
+    "Strawberries": "Erdbeeren",
+    "Raspberries": "Himbeeren",
+    "Blackberries": "Brombeeren",
+    "Oranges": "Orangen",
+    "Lemons": "Zitronen",
+    "Limes": "Limetten",
+    "Grapefruit": "Grapefruit",
+    "Bananas": "Bananen",
+    "Pineapple": "Ananas",
+    "Mango": "Mango",
+    "Papaya": "Papaya",
+    "Peaches": "Pfirsiche",
+    "Plums": "Pflaumen",
+    "Cherries": "Kirschen",
+    "Apricots": "Aprikosen",
+    "Basil": "Basilikum",
+    "Cilantro": "Koriander",
+    "Mint": "Minze",
+    "Parsley": "Petersilie",
+    "Rosemary": "Rosmarin",
+    "Turmeric": "Kurkuma",
+    "Ginger": "Ingwer",
+    "Cinnamon": "Zimt",
+    "Cumin": "Kreuzkümmel",
+    "Paprika": "Paprika",
+    "Kimchi": "Kimchi",
+    "Sauerkraut": "Sauerkraut",
+    "Miso": "Miso",
+    "Tempeh": "Tempeh",
+    "Button Mushrooms": "Champignons",
+    "Shiitake": "Shiitake",
+    "Portobello": "Portobello",
+    "Oyster Mushrooms": "Austernpilze",
+    "Pumpkin": "Kürbis",
+    "Butternut Squash": "Butternusskürbis",
+    "Zucchini": "Zucchini",
+    "Acorn Squash": "Eichelkürbis",
+    "Bell Peppers": "Paprika",
+    "Jalapeños": "Jalapeños",
+    "Chili": "Chili",
+    "Cherry Tomatoes": "Kirschtomaten",
+    "Roma Tomatoes": "Roma-Tomaten",
+    "Beefsteak Tomatoes": "Fleischtomaten",
+    "Garlic": "Knoblauch",
+    "Onions": "Zwiebeln",
+    "Leeks": "Lauch",
+    "Shallots": "Schalotten",
+    "Alfalfa Sprouts": "Alfalfa-Sprossen",
+    "Broccoli Sprouts": "Brokkolisprossen",
+    "Mung Bean Sprouts": "Mungobohnensprossen",
+    "Nori": "Nori",
+    "Kelp": "Kelp",
+    "Wakame": "Wakame",
+    "Buckwheat": "Buchweizen",
+    "Farro": "Farro",
+    "Amaranth": "Amaranth",
+    "Millet": "Hirse",
+    "Watermelon": "Wassermelone",
+    "Cantaloupe": "Melone",
+    "Honeydew": "Honigtau",
+    "Apples": "Äpfel",
+    "Pears": "Birnen",
+    "Avocado": "Avocado",
+    "Coconut": "Kokosnuss",
+    "Coconut Milk": "Kokosmilch",
+    "Coconut Water": "Kokoswasser",
+    "Olives": "Oliven",
+    "Dark Chocolate": "Dunkle Schokolade",
+    "Cacao Nibs": "Kakaonibs",
+    "Cocoa Powder": "Kakaopulver",
+    "Green Tea": "Grüner Tee",
+    "Black Tea": "Schwarzer Tee",
+    "Chamomile": "Kamille",
+    "Peppermint Tea": "Pfefferminztee",
+    "Coffee": "Kaffee"
+  }
+}

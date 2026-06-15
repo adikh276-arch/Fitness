@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "back": "Tilbage til Dashboard"
+  },
+  "header": {
+    "title": "Vejledning til vægttab",
+    "subtitle": "Din komplette guide til bæredygtigt vægttab"
+  },
+  "tabs": {
+    "plan": "Planen",
+    "tracker": "Tracker",
+    "habits": "Vaner"
+  },
+  "plan": {
+    "goldenRule": {
+      "title": "Den Gyldne Regel",
+      "subtitle": "Kalorieunderskud vs. næringsstoftæthed",
+      "desc": "Vægttab kræver et kalorieunderskud, men kvaliteten af disse kalorier betyder lige så meget som mængden. Fokuser på næringsrige hele fødevarer, der holder dig tilfreds, mens du skaber det nødvendige underskud til fedttab."
+    },
+    "proteinFirst": {
+      "title": "Protein først",
+      "subtitle": "Hvorfor 1,2 g-1,6 g protein pr. kg ikke er til forhandling til fedttab:",
+      "muscle": "Bevarer muskelmassen under kaloriebegrænsning",
+      "thermic": "Højere termisk effekt (30 % af proteinkalorierne forbrændt under fordøjelsen)",
+      "satiety": "Øget mæthed hjælper dig med at føle dig mæt længere",
+      "sugar": "Stabiliserer blodsukkeret og mindsker trangen"
+    },
+    "plateMethod": {
+      "title": "Plademetoden",
+      "subtitle": "En simpel visuel guide til afbalancerede måltider, der fremmer fedttab:",
+      "veg": {
+        "title": "Grøntsager",
+        "desc": "Ikke-stivelsesholdige grøntsager for volumen og næringsstoffer"
+      },
+      "protein": {
+        "title": "Protein",
+        "desc": "Magert kød, fisk, æg eller plantebaserede kilder"
+      },
+      "carbs": {
+        "title": "Fiberrige kulhydrater",
+        "desc": "Fuldkorn, sød kartoffel, quinoa, bælgfrugter"
+      }
+    },
+    "hiddenFactors": {
+      "title": "De skjulte faktorer",
+      "hydration": {
+        "title": "Hydrering",
+        "desc": "Korrekt hydrering hjælper:"
+      },
+      "sleep": {
+        "title": "Søvn (7+ timer)",
+        "desc": "Kvalitetssøvn regulerer:"
+      }
+    }
+  },
+  "tracker": {
+    "progress": {
+      "title": "Dine fremskridt",
+      "change": "Skift mål",
+      "lost": "Vægt tabt",
+      "remaining": "Tilbage",
+      "percent": "Fremskridt",
+      "complete": "Komplet"
+    },
+    "log": {
+      "title": "Log dagens metrics",
+      "weight": "Aktuel vægt (kg)",
+      "chest": "Bryst (tommer, valgfrit)",
+      "waist": "Talje (tommer, valgfrit)",
+      "hips": "Hofter (tommer, valgfrit)",
+      "placeholder": "f.eks. {{val}}",
+      "submit": "Log Metrics"
+    },
+    "history": {
+      "title": "Metrik historie",
+      "total": "Samlede logfiler",
+      "first": "Første vægt",
+      "latest": "Seneste vægt",
+      "unit": "kg",
+      "inches": "tommer",
+      "chest": "brystet",
+      "waist": "talje",
+      "hips": "hofter"
+    }
+  },
+  "habits": {
+    "consistency": {
+      "title": "Ugentlig konsistens",
+      "subtitle": "Fortsæt med at opbygge de sunde vaner!"
+    },
+    "today": {
+      "title": "Dagens vaner",
+      "subtitle": "Sæt kryds ved hver vane, når du fuldfører den i dag",
+      "protein": {
+        "label": "Hit proteinmål",
+        "desc": "1,2-1,6g pr. kg kropsvægt"
+      },
+      "noSugar": {
+        "label": "Ingen sukkerholdige drikkevarer",
+        "desc": "Kun vand, te eller sort kaffe"
+      },
+      "walk": {
+        "label": "10 minutters gåtur efter måltidet",
+        "desc": "Let aktivitet efter spisning"
+      },
+      "sleep": {
+        "label": "7+ timers søvn",
+        "desc": "Kvalitetshvile til restitution"
+      }
+    },
+    "tracker30": {
+      "title": "30-dages vanesporer",
+      "legend": {
+        "none": "Ingen",
+        "low": "1",
+        "mid": "2-3",
+        "high": "3",
+        "all": "Alle 4"
+      }
+    },
+    "whyMatters": {
+      "title": "Hvorfor disse vaner betyder noget",
+      "protein": "Proteinindtag bevarer musklerne og øger mætheden under vægttab",
+      "noSugar": "At undgå sukkerdrikke eliminerer tomme kalorier og reducerer insulinstigninger",
+      "walk": "Gåture efter måltid forbedrer insulinfølsomheden og hjælper fordøjelsen",
+      "sleep": "Kvalitetssøvn regulerer sulthormoner og understøtter fedttab"
+    }
+  },
+  "modal": {
+    "title": "Sæt dine mål",
+    "subtitle": "Lad os personliggøre din vægttabsrejse",
+    "start": "Startvægt (kg)",
+    "target": "Målvægt (kg)",
+    "date": "Måldato",
+    "save": "Gem mål",
+    "fillAll": "Udfyld venligst alle felter"
+  }
+}

@@ -42,7 +42,8 @@
       "title": "Aktuelle Lektüre",
       "noReadings": "Bisher wurden keine Messwerte erfasst.",
       "trend": "7-Tage-Trend",
-      "targetMax": "Zielwert Max"
+      "targetMax": "Zielwert Max",
+      "targetPost": "Zielmaximum (nach der Mahlzeit)"
     }
   },
   "plate": {
@@ -57,7 +58,7 @@
     "categories": {
       "veggies": {
         "name": "Nicht stärkehaltiges Gemüse",
-        "percent": "50%",
+        "percent": "50 %",
         "desc": "Ballaststoffreich, kohlenhydratarm"
       },
       "protein": {
@@ -101,7 +102,8 @@
       "low": "Niedriger glykämischer Index",
       "medium": "Mittlerer glykämischer Index",
       "high": "Hoher glykämischer Index"
-    }
+    },
+    "search": "Nach einem Lebensmittel suchen (z. B. Hafer, Banane...)"
   },
   "timing": {
     "fasting": "Fasten",

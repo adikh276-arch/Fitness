@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "back": "Tilbage til Dashboard"
+  },
+  "header": {
+    "title": "Vandindtag tracker",
+    "subtitle": "Spor din daglige hydrering og nå dine mål"
+  },
+  "tabs": {
+    "tracker": "Dagens Tracker",
+    "history": "Historie"
+  },
+  "tracker": {
+    "consumed": "ml indtaget",
+    "goalLabel": "Dagligt mål",
+    "remainingLabel": "Tilbage",
+    "changeGoal": "Skift dagligt mål",
+    "quickAdd": {
+      "title": "Hurtig tilføjelse",
+      "smallGlass": "Lille glas",
+      "bottle": "Flaske",
+      "largeBottle": "Stor flaske",
+      "jug": "Kande"
+    },
+    "custom": {
+      "label": "Tilpasset mængde (ml)",
+      "placeholder": "f.eks. 350",
+      "submit": "Tilføj",
+      "undo": "Fortryd sidste indtastning"
+    }
+  },
+  "history": {
+    "title": "Vandindtagshistorie",
+    "noHistory": "Ingen historik tilgængelig endnu",
+    "today": "I dag",
+    "summary": "{{total}} ml / {{goal}} ml ({{percent}}%)",
+    "stats": {
+      "total": "I alt",
+      "entries": "Indgange"
+    }
+  },
+  "modal": {
+    "title": "Sæt dagligt mål",
+    "subtitle": "Indtast dit mål for dagligt vandindtag",
+    "placeholder": "f.eks. 2500",
+    "calcToggleShow": "Beregn anbefalet",
+    "calcToggleHide": "Skjul lommeregner",
+    "formula": "Formel: Vægt (kg) × 35 ml",
+    "weightLabel": "Din vægt (kg)",
+    "weightPlaceholder": "f.eks. 70",
+    "calcBtn": "Beregn og anvend",
+    "cancel": "Annuller",
+    "save": "Gem"
+  }
+}

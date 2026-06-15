@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "back": "Tilbage til Dashboard"
+  },
+  "header": {
+    "title": "Kalorie brænder",
+    "subtitle": "Spor forbrændte kalorier under dine aktiviteter"
+  },
+  "tabs": {
+    "calculator": "Lommeregner",
+    "log": "Aktivitetslog ({{count}})"
+  },
+  "calculator": {
+    "form": {
+      "title": "Aktivitetsdetaljer",
+      "selectActivity": "Vælg Aktivitet",
+      "weight": "Din vægt",
+      "duration": "Varighed (minutter)",
+      "placeholders": {
+        "weightKg": "f.eks. 70",
+        "weightLbs": "f.eks. 154"
+      },
+      "submit": "Log aktivitet"
+    },
+    "summary": {
+      "title": "Brændoversigt",
+      "calories": "Kalorier forbrændt",
+      "activity": "Aktivitet",
+      "duration": "Varighed",
+      "weight": "Vægt",
+      "burnRate": "Kalorieforbrændingshastighed",
+      "formula": "Formel: (MET × 3,5 × Vægt kg / 200) × Varighed min"
+    }
+  },
+  "log": {
+    "noActivities": "Ingen aktiviteter logget endnu",
+    "noActivitiesDesc": "Begynd at spore dine træningsprogrammer for at se dem her",
+    "logFirst": "Log din første aktivitet",
+    "summary": {
+      "title": "Samlet resumé",
+      "totalActivities": "Samlet aktiviteter",
+      "totalCalories": "Kalorier i alt",
+      "totalTime": "Samlet tid",
+      "avgSession": "Gns. Cal/Session"
+    },
+    "item": {
+      "duration": "Varighed",
+      "met": "MET",
+      "calories": "Kalorier",
+      "minutes": "min"
+    }
+  },
+  "activities": {
+    "walking": "Gå (rask)",
+    "running": "Løb (9 min/mil)",
+    "cycling": "Cykling (moderat)",
+    "yoga": "Yoga",
+    "swimming": "Svømning (omgange)",
+    "strength": "Styrketræning",
+    "household": "Huslige pligter",
+    "dance": "Dans/Aerobic"
+  }
+}

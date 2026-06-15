@@ -1,0 +1,141 @@
+{
+  "header": {
+    "title": "Hướng dẫn về sức khỏe tim mạch",
+    "subtitle": "Theo dõi sức sống, tìm hiểu chế độ ăn DASH và xây dựng thói quen tốt cho tim",
+    "back": "Quay lại Trang tổng quan"
+  },
+  "alerts": {
+    "crisis": {
+      "title": "CẢNH BÁO KHỦNG HOẢNG TĂNG ÁP",
+      "desc": "Chỉ số huyết áp của bạn cao đến mức nguy hiểm (>180/120). Điều này đòi hỏi sự chăm sóc y tế ngay lập tức."
+    },
+    "vitals": {
+      "invalid": "Vui lòng nhập số đọc hợp lệ",
+      "success": "Đọc đã ghi: {{sys}}/{{dia}} - {{category}}"
+    }
+  },
+  "tabs": {
+    "dash": "Chế độ ăn DASH",
+    "vitals": "Nhật ký sức sống",
+    "habits": "Thói quen của trái tim"
+  },
+  "vitals": {
+    "form": {
+      "title": "Đăng nhập sức sống của bạn",
+      "bp": {
+        "label": "Huyết áp",
+        "systolic": "Tâm thu",
+        "systolic_desc": "Số trên cùng",
+        "diastolic": "tâm trương",
+        "diastolic_desc": "Số dưới cùng"
+      },
+      "heart_rate": {
+        "label": "Nhịp tim lúc nghỉ ngơi (BPM)",
+        "placeholder": "ví dụ: 72"
+      },
+      "submit": "Đọc nhật ký"
+    },
+    "recent": {
+      "title": "Bài đọc gần đây",
+      "empty": "Chưa có bài đọc nào được ghi lại",
+      "bpm": "{{đếm}} BPM"
+    },
+    "chart": {
+      "title": "Xu hướng huyết áp trong 7 ngày",
+      "systolic": "Tâm thu",
+      "diastolic": "tâm trương"
+    },
+    "guidelines": {
+      "title": "Danh mục huyết áp AHA:",
+      "normal": "Bình thường: <120/80",
+      "elevated": "Cao: 120-129/<80",
+      "stage1": "Giai đoạn 1: 130-139/80-89",
+      "stage2": "Giai đoạn 2: ≥140/90"
+    },
+    "categories": {
+      "crisis": "Khủng hoảng tăng huyết áp",
+      "stage2": "Tăng huyết áp giai đoạn 2",
+      "stage1": "Tăng huyết áp giai đoạn 1",
+      "elevated": "nâng cao",
+      "normal": "Bình thường",
+      "unknown": "Không xác định"
+    }
+  },
+  "dash": {
+    "intro": {
+      "title": "Chế độ ăn DASH",
+      "desc": "Phương pháp ăn kiêng để ngăn chặn tăng huyết áp - Một kế hoạch ăn uống đã được khoa học chứng minh giúp giảm huyết áp một cách tự nhiên."
+    },
+    "principles": {
+      "sodium": {
+        "title": "Giới hạn natri",
+        "limit": "<2.300mg mỗi ngày",
+        "high_risk": "(Hoặc 1.500mg cho người có nguy cơ cao)",
+        "desc": "Natri dư thừa gây giữ nước, tăng thể tích máu và áp lực lên thành động mạch."
+      },
+      "potassium": {
+        "title": "năng lượng kali",
+        "limit": "4.700 mg mỗi ngày",
+        "source": "Từ thực phẩm toàn phần"
+      },
+      "magnesium": {
+        "title": "Magie & Chất xơ",
+        "limit": "500mg Mg / 25-35g Chất xơ",
+        "target": "Mục tiêu hàng ngày"
+      }
+    },
+    "scanner": {
+      "title": "��️ Máy quét natri ẩn: Thực phẩm \"muối lén lút\"",
+      "subtitle": "Những thực phẩm tưởng chừng như vô hại này lại chứa nhiều natri hơn bạn nghĩ:",
+      "swaps": {
+        "title": "💡 Hoán đổi thân thiện với DASH:"
+      }
+    }
+  },
+  "habits": {
+    "vitality": {
+      "title": "Điểm sinh lực",
+      "start": "Hãy bắt đầu xây dựng một trái tim khỏe mạnh!",
+      "streak_good": "🔥 chuỗi {{count}} ngày! Trái tim của bạn đang phát triển mạnh mẽ",
+      "streak_continue": "{{count}} ngày - Tiếp tục!",
+      "streak_continue_singular": "{{count}} ngày - Ti��p tục!",
+      "days": "vệt ngày",
+      "goal": "{{count}} / mục tiêu 30 ngày"
+    },
+    "checklist": {
+      "title": "Danh sách kiểm tra tim mạch hàng ngày",
+      "subtitle": "Hoàn thành những thói quen này hàng ngày để xây dựng sức mạnh tim mạch",
+      "items": {
+        "cardio": {
+          "label": "30 phút tập cardio vùng 2",
+          "desc": "Đi bộ nhanh, đạp xe hoặc bơi lội với tốc độ đàm thoại"
+        },
+        "low_sodium": {
+          "label": "Ở dưới giới hạn natri",
+          "desc": "<2.300mg (hoặc 1.500mg nếu có nguy cơ cao)"
+        },
+        "no_salt": {
+          "label": "Không thêm muối vào bàn",
+          "desc": "Hãy để hương vị tự nhiên của thực phẩm tỏa sáng"
+        },
+        "meds": {
+          "label": "Thuốc đã dùng (Tùy chọn)",
+          "desc": "Đối với những người đang dùng thuốc BP"
+        }
+      }
+    },
+    "tips": {
+      "title": "Yếu tố cần thiết cho sức khỏe tim mạch"
+    }
+  },
+  "foods": {
+    "canned_soup": "Súp đóng hộp (1 cốc)",
+    "deli_turkey": "Thổ Nhĩ Kỳ Deli (2 oz)",
+    "white_bread": "Bánh mì trắng (2 lát)",
+    "frozen_pizza": "Pizza Đông Lạnh (1 lát)",
+    "soy_sauce": "Nước tương (1 muỗng canh)",
+    "cottage_cheese": "Phô mai tươi (1/2 cốc)",
+    "pickles": "Dưa chua (1 vừa)",
+    "salad_dressing": "Nước sốt salad (2 muỗng canh)"
+  }
+}

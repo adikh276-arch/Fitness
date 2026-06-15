@@ -1,0 +1,141 @@
+{
+  "header": {
+    "title": "Kalp Sağlığı Rehberi",
+    "subtitle": "Hayati değerleri takip edin, DASH diyetini öğrenin ve kalp-sağlıklı alışkanlıklar geliştirin",
+    "back": "Kontrol Paneline Geri Dön"
+  },
+  "alerts": {
+    "crisis": {
+      "title": "HİPERTANSİF KRİZ UYARISI",
+      "desc": "Kan basıncınız tehlikeli derecede yüksek (≥180/120). Bu acil tıbbi müdahale gerektirir."
+    },
+    "vitals": {
+      "invalid": "Lütfen geçerli okuma değerlerini girin",
+      "success": "Okuma günlüğe kaydedildi: {{sys}}/{{dia}} - {{category}}"
+    }
+  },
+  "tabs": {
+    "dash": "DASH Diyeti",
+    "vitals": "Hayati Durum Günlüğü",
+    "habits": "Kalp Alışkanlıkları"
+  },
+  "vitals": {
+    "form": {
+      "title": "Hayati Durumlarınızı Kaydedin",
+      "bp": {
+        "label": "Kan Basıncı",
+        "systolic": "Sistolik",
+        "systolic_desc": "En iyi sayı",
+        "diastolic": "Diyastolik",
+        "diastolic_desc": "Alt numara"
+      },
+      "heart_rate": {
+        "label": "Dinlenme Kalp Atış Hızı (BPM)",
+        "placeholder": "örneğin, 72"
+      },
+      "submit": "Günlük Okuma"
+    },
+    "recent": {
+      "title": "Son Okumalar",
+      "empty": "Henüz kaydedilen okuma yok",
+      "bpm": "{{count}} BPM"
+    },
+    "chart": {
+      "title": "7 Günlük Kan Basıncı Trendi",
+      "systolic": "Sistolik",
+      "diastolic": "Diyastolik"
+    },
+    "guidelines": {
+      "title": "AHA Kan Basıncı Kategorileri:",
+      "normal": "Normal: <120/80",
+      "elevated": "Yüksek: 120-129/<80",
+      "stage1": "Aşama 1: 130-139/80-89",
+      "stage2": "Aşama 2: ≥140/90"
+    },
+    "categories": {
+      "crisis": "Hipertansif Kriz",
+      "stage2": "Hipertansiyon Aşama 2",
+      "stage1": "Hipertansiyon Aşama 1",
+      "elevated": "Yükseltilmiş",
+      "normal": "normal",
+      "unknown": "Bilinmiyor"
+    }
+  },
+  "dash": {
+    "intro": {
+      "title": "DASH Diyeti",
+      "desc": "Hipertansiyonu Durdurmak İçin Diyet Yaklaşımları - Kan basıncını doğal olarak düşüren bilimsel olarak kanıtlanmış bir beslenme planı."
+    },
+    "principles": {
+      "sodium": {
+        "title": "Sodyum Limiti",
+        "limit": "<2,300 mg/gün",
+        "high_risk": "(Ya da yüksek riskli bireyler için 1.500 mg)",
+        "desc": "Aşırı sodyum, suyun tutulmasına, kan hacminin artmasına ve arter duvarlarındaki basınca neden olur."
+      },
+      "potassium": {
+        "title": "Potasyum Gücü",
+        "limit": "Günde 4.700 mg",
+        "source": "Bütün gıdalardan"
+      },
+      "magnesium": {
+        "title": "Magnezyum ve Lif",
+        "limit": "500mg Mg / 25-35g Lif",
+        "target": "Günlük hedefler"
+      }
+    },
+    "scanner": {
+      "title": "⚠️ Gizli Sodyum Tarayıcı: \"Sinsi Tuzlu\" Yiyecekler",
+      "subtitle": "Bu görünüşte masum yiyecekler düşündüğünüzden daha fazla sodyum içerir:",
+      "swaps": {
+        "title": "💡 DASH Dostu Takaslar:"
+      }
+    }
+  },
+  "habits": {
+    "vitality": {
+      "title": "Canlılık Puanı",
+      "start": "Kalp-sağlıklı çizginizi oluşturmaya başlayın!",
+      "streak_good": "🔥 {{count}} günlük seri! Kalbin gelişiyor",
+      "streak_continue": "{{count}} gün - Devam edin!",
+      "streak_continue_singular": "{{count}} gün - Devam edin!",
+      "days": "gün serisi",
+      "goal": "{{count}} / 30 günlük hedef"
+    },
+    "checklist": {
+      "title": "Günlük Kardiyo Kontrol Listesi",
+      "subtitle": "Kardiyovasküler güç oluşturmak için bu alışkanlıkları günlük olarak tamamlayın",
+      "items": {
+        "cardio": {
+          "label": "30 Dakika Bölge 2 Kardiyo",
+          "desc": "Konuşma temposunda tempolu yürüyüş, bisiklete binme veya yüzme"
+        },
+        "low_sodium": {
+          "label": "Sodyum Sınırının Altında Kaldı",
+          "desc": "<2.300 mg (veya yüksek riskli ise 1.500 mg)"
+        },
+        "no_salt": {
+          "label": "Sofraya Tuz Eklenmez",
+          "desc": "Yiyeceklerin doğal lezzetlerinin parlamasına izin verin"
+        },
+        "meds": {
+          "label": "Aldığı İlaçlar (İsteğe Bağlı)",
+          "desc": "BP ilacı kullananlar için"
+        }
+      }
+    },
+    "tips": {
+      "title": "Kalp Sağlığının Temelleri"
+    }
+  },
+  "foods": {
+    "canned_soup": "Konserve Çorba (1 su bardağı)",
+    "deli_turkey": "Şarküteri Türkiye (2 oz)",
+    "white_bread": "Beyaz Ekmek (2 dilim)",
+    "frozen_pizza": "Dondurulmuş Pizza (1 dilim)",
+    "soy_sauce": "Soya Sosu (1 yemek kaşığı)",
+    "cottage_cheese": "Süzme Peynir (1/2 su bardağı)",
+    "pickles": "Turşu (1 orta boy)",
+    "salad_dressing": "Salata Sosu (2 yemek kaşığı)"
+  }
+}

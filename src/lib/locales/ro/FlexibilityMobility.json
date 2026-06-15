@@ -1,0 +1,227 @@
+{
+  "header": {
+    "title": "Flexibilitate și mobilitate",
+    "subtitle": "Îmbunătățiți gama de mișcare și preveniți rănile",
+    "back": "Înapoi la Tabloul de bord"
+  },
+  "tabs": {
+    "stretches": "Întinderi zilnice",
+    "tests": "Teste de mobilitate",
+    "log": "Jurnal de recuperare"
+  },
+  "player": {
+    "stretch": "Întindere {{current}} din {{total}}",
+    "resume": "Reluați",
+    "pause": "Pauză",
+    "skip": "Sari peste",
+    "cancel": "Anulează",
+    "bilateral_hint": "💡 Nu uitați să schimbați partea când cronometrul se termină",
+    "preview": {
+      "stretches_count": "{{count}} întinderi ({{duration}} min în total):",
+      "start": "Începeți rutina {{duration}}-Min",
+      "cancel": "Anulează"
+    },
+    "complete": {
+      "title": "Rutina finalizată!",
+      "desc": "Lucru grozav la finalizarea {{name}}!",
+      "rate_label": "Te simți mai bine? Evaluați îmbunătățirea dvs.: {{rating}}/10",
+      "worse": "Mai rău",
+      "same": "La fel",
+      "much_better": "Mult mai bine",
+      "save": "Salvare sesiune",
+      "done": "Gata"
+    }
+  },
+  "routines": {
+    "upper-body": {
+      "name": "Partea superioară a corpului deschisă",
+      "focus": "Piept, umeri, mijlocul spatelui",
+      "desc": "Eliberați tensiunea din munca de birou și utilizarea telefonului",
+      "stretches": {
+        "Doorway Chest Stretch": {
+          "name": "Întindere a pieptului de intrare",
+          "desc": "Stați în prag, puneți antebrațele pe cadru, aplecați-vă înainte pentru a simți pieptul întins."
+        },
+        "Shoulder Rolls": {
+          "name": "Rolls pentru umeri",
+          "desc": "Rotiți umerii înapoi în cercuri mari, 10 repetări."
+        },
+        "Thoracic Rotation": {
+          "name": "Rotația toracică",
+          "desc": "Pe mâini și genunchi, rotiți partea superioară a corpului dintr-o parte în alta, deschizând pieptul."
+        },
+        "Neck Stretch": {
+          "name": "Întinderea gâtului",
+          "desc": "Înclinați ușor capul în fiecare parte, ținând 30 de secunde pe fiecare parte."
+        },
+        "Tricep Stretch": {
+          "name": "Stretch triceps",
+          "desc": "Atingeți brațul deasupra capului, îndoiți cotul, trageți ușor cu cealaltă mână."
+        }
+      }
+    },
+    "lower-body": {
+      "name": "Eliberarea inferioară a corpului",
+      "focus": "Ischio-coarde, fesieri, flexori șold",
+      "desc": "Întinderi profunde pentru picioare și șolduri strânse din șezut",
+      "stretches": {
+        "Pigeon Pose": {
+          "name": "Poza porumbeilor",
+          "desc": "Aduceți un picior înainte îndoit, extindeți piciorul din spate drept, scufundați șoldurile în jos."
+        },
+        "Hamstring Stretch": {
+          "name": "Întinderea ischiobiurilor",
+          "desc": "Așezați-vă cu un picior întins, atingeți degetele de la picioare, mențineți spatele drept."
+        },
+        "Hip Flexor Lunge": {
+          "name": "Fânt flexor șold",
+          "desc": "Poziție de pasaj, împingeți șoldurile înainte pentru a simți întinderea în șoldul din față."
+        },
+        "Glute Stretch": {
+          "name": "Glute Stretch",
+          "desc": "Întins pe spate, încrucișați glezna peste genunchiul opus, trageți spre piept."
+        },
+        "Calf Stretch": {
+          "name": "Stretch pentru gambe",
+          "desc": "Faceți un pas înainte în fante, țineți înapoi călcâiul în jos pentru a întinde gambele."
+        }
+      }
+    },
+    "full-body": {
+      "name": "Full Body Flow",
+      "focus": "Întreținerea totală a corpului",
+      "desc": "Rutină completă de flexibilitate din cap până în picioare",
+      "stretches": {
+        "Cat-Cow": {
+          "name": "Pisica-Vaca",
+          "desc": "Pe mâini și genunchi, alternați arcuirea și rotunjirea coloanei vertebrale."
+        },
+        "Downward Dog": {
+          "name": "Câine în jos",
+          "desc": "Mâinile și picioarele plantate, șoldurile înalte, formând un V inversat."
+        },
+        "Child's Pose": {
+          "name": "Poziția copilului",
+          "desc": "Genunchii largi, stați pe spate pe călcâie, brațele întinse înainte."
+        },
+        "Seated Twist": {
+          "name": "Așezat Twist",
+          "desc": "Stați cu picioarele încrucișate, rotiți trunchiul pe fiecare parte, mâna la spate."
+        },
+        "Forward Fold": {
+          "name": "Îndoire înainte",
+          "desc": "În picioare, cu balama la șolduri, atingeți degetele de la picioare, lăsați capul să atârne."
+        },
+        "Hip Circles": {
+          "name": "Cercuri de șold",
+          "desc": "Mâinile pe șolduri, faceți cercuri mari cu șoldurile în ambele direcții."
+        },
+        "Arm Circles": {
+          "name": "Cercuri de brațe",
+          "desc": "Întindeți brațele larg, faceți cercuri mari înainte apoi înapoi."
+        }
+      }
+    },
+    "dynamic-warmup": {
+      "name": "Încălzire dinamică",
+      "focus": "Activare înainte de antrenament",
+      "desc": "Pregătiți-vă corpul înainte de exercițiu",
+      "stretches": {
+        "Leg Swings": {
+          "name": "Leagăne pentru picioare",
+          "desc": "Țineți de perete, balansați piciorul înainte și înapoi, apoi dintr-o parte în alta."
+        },
+        "Arm Circles": {
+          "name": "Cercuri de brațe",
+          "desc": "Cercuri mici spre mari, înainte și înapoi."
+        },
+        "Torso Twists": {
+          "name": "Torso Twists",
+          "desc": "Rotiți partea superioară a corpului dintr-o parte în alta, cu brațele libere."
+        },
+        "Walking Lunges": {
+          "name": "Walking Lunges",
+          "desc": "Faceți un pas înainte în lungă, alternează picioarele în timp ce mergi înainte."
+        },
+        "High Knees": {
+          "name": "Genunchi înalți",
+          "desc": "Marș pe loc, aducând genunchii la înălțimea șoldurilor."
+        }
+      }
+    }
+  },
+  "benefits": {
+    "title": "De ce este importantă întinderea zilnică"
+  },
+  "tests": {
+    "status": {
+      "title": "Starea ta de mobilitate",
+      "based_on": "Bazat pe {{count}} rezultate ale testului",
+      "complete_below": "Completează testele de mai jos",
+      "score_label": "Scor: {{puncte}}/6 puncte (Pass=2, Parțial=1, Necesită muncă=0)",
+      "elite": "Mobilitate de elită",
+      "good": "Mobilitate bună",
+      "limited": "Mobilitate limitată",
+      "not_tested": "Netestat"
+    },
+    "items": {
+      "sit-reach": {
+        "name": "Testul Sit & Reach",
+        "desc": "Stați cu picioarele drepte, ajungeți spre degetele de la picioare",
+        "pass": "Poate atinge sau trece degetele de la picioare",
+        "fail": "La mai mult de 6 inci de degetele de la picioare"
+      },
+      "shoulder-pass": {
+        "name": "Trecere pe umăr",
+        "desc": "Țineți o bandă/băț, ridicați brațele deasupra capului și în spatele spatelui",
+        "pass": "Poate trece fără probleme",
+        "fail": "Nu se poate finaliza mișcarea"
+      },
+      "deep-squat": {
+        "name": "Deep Squat Hold",
+        "desc": "Așezați-vă ghemuit cu tocurile plate, țineți apăsat timp de 30 de secunde",
+        "pass": "Poate ține 30 de ani, tocuri jos",
+        "fail": "Tocurile se ridică sau nu se pot ține"
+      }
+    },
+    "tips": {
+      "title": "Sfaturi de testare"
+    },
+    "actions": {
+      "pass": "✓ Treci",
+      "partial": "~ Parțial",
+      "fail": "✗ Are nevoie de muncă"
+    }
+  },
+  "log": {
+    "title": "Sesiune de recuperare a jurnalului",
+    "duration": "Durata (minute)",
+    "focus_areas": "Zone de focalizare (selectați toate cele care se aplică)",
+    "soreness_label": "Durere înainte de sesiune: {{level}}/10",
+    "no_pain": "1 - Fără durere",
+    "moderate": "5 - Moderat",
+    "very_sore": "10 - Foarte dureros",
+    "submit": "🧘 Sesiunea de jurnal",
+    "heatmap": {
+      "title": "Hartă termică de recuperare",
+      "legend": "Punctele violet marchează zilele cu sesiuni de recuperare"
+    },
+    "badge": {
+      "title": "Dovada de accidentare!",
+      "desc": "Ați finalizat {{count}} sesiuni de recuperare săptămâna aceasta!"
+    },
+    "stats": {
+      "total": "Total de minute",
+      "this_week": "Săptămâna aceasta"
+    },
+    "recent": "Sesiuni recente",
+    "areas": {
+      "Neck": "Gâtul",
+      "Shoulders": "Umeri",
+      "Back": "Înapoi",
+      "Hips": "Șolduri",
+      "Legs": "Picioarele",
+      "Full Body": "Corpul plin"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "back": "Kembali ke Papan Pemuka"
+  },
+  "header": {
+    "title": "BMI & Konteks Badan Pintar",
+    "subtitle": "Jejaki metrik badan anda dengan ketepatan klinikal"
+  },
+  "streak": {
+    "title": "Julat Sihat dikekalkan!",
+    "subtitle": "{{count}} bacaan berturut-turut dalam zon sihat 🎉"
+  },
+  "tabs": {
+    "calculator": "Kalkulator BMI",
+    "context": "Melepasi BMI",
+    "history": "Sejarah Aliran"
+  },
+  "calculator": {
+    "title": "Kira BMI Anda",
+    "inputs": {
+      "height": "Ketinggian",
+      "weight": "Berat badan",
+      "feet": "kaki",
+      "inches": "inci",
+      "placeholders": {
+        "heightCm": "cth., 170",
+        "heightFt": "kaki",
+        "heightIn": "inci",
+        "weightKg": "cth., 70",
+        "weightLbs": "cth., 154"
+      }
+    },
+    "results": {
+      "yourBMI": "BMI anda",
+      "placeholder": "Masukkan ukuran anda untuk melihat BMI anda",
+      "submit": "Simpan ke Profil",
+      "success": "✓ Berjaya disimpan!",
+      "categories": {
+        "underweight": "Kurang berat badan",
+        "healthy": "Berat Badan Sihat",
+        "normal": "Biasalah",
+        "overweight": "Berat badan berlebihan",
+        "obese": "obes",
+        "enterData": "Masukkan data"
+      }
+    },
+    "tip": "Pertimbangkan untuk memasukkan senaman yang kerap dan diet seimbang ke dalam rutin anda.",
+    "disclaimer": {
+      "title": "Penafian Perubatan",
+      "text": "BMI adalah alat pemeriksaan umum dan tidak membezakan antara jisim otot dan lemak. Berunding dengan profesional penjagaan kesihatan untuk mendapatkan nasihat perubatan yang diperibadikan."
+    }
+  },
+  "beyond": {
+    "title": "Nisbah Pinggang-ke-Tinggi (WHtR)",
+    "why": {
+      "title": "Mengapa Ini Penting",
+      "desc": "Mengekalkan lilitan pinggang anda kurang daripada separuh ketinggian anda mengurangkan risiko kardiovaskular. WHtR lebih tepat daripada BMI untuk meramalkan keadaan kesihatan metabolik.",
+      "target": "Sasaran: Nisbah <0.5 untuk kesihatan optimum"
+    },
+    "inputs": {
+      "waist": "Lilitan Pinggang",
+      "waistHint": "Ukur pada titik paling sempit pinggang anda, biasanya tepat di atas pusar",
+      "placeholders": {
+        "waistCm": "cth., 80",
+        "waistIn": "cth., 31"
+      }
+    },
+    "results": {
+      "healthy": "Bentuk Sihat",
+      "elevated": "Risiko Tinggi",
+      "placeholder": "Sila masukkan ketinggian dan pinggang untuk melihat nisbah anda",
+      "waistMeasurementPlaceholder": "Masukkan ukuran pinggang",
+      "label": "Nisbah Pinggang-ke-Tinggi",
+      "submit": "Simpan ke Profil (BMI + WHtR)"
+    },
+    "comparison": {
+      "title": "BMI vs WHtR: Perbezaan",
+      "bmi": {
+        "title": "BMI",
+        "desc": "Kategori berat am, tidak mengambil kira jisim otot atau pengedaran lemak"
+      },
+      "whtr": {
+        "title": "WHtR",
+        "desc": "Mengukur obesiti pusat, peramal penyakit kardiovaskular dan diabetes yang lebih baik"
+      }
+    }
+  },
+  "history": {
+    "title": "Pengukuran Terkini",
+    "noHistory": "Belum Ada Sejarah",
+    "noHistoryDesc": "Mula menjejaki BMI dan metrik badan anda untuk melihat aliran kemajuan anda dari semasa ke semasa.",
+    "stats": {
+      "title": "Statistik anda",
+      "total": "Jumlah Rekod",
+      "latest": "BMI terkini",
+      "healthyCount": "Kiraan Sihat",
+      "bestStreak": "Streak Terbaik"
+    }
+  }
+}

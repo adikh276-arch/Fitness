@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "back": "Kembali ke Papan Pemuka"
+  },
+  "header": {
+    "title": "Penjejak Langkah",
+    "subtitle": "Jejaki langkah harian anda dan capai matlamat anda",
+    "profile": "Profil"
+  },
+  "tabs": {
+    "tracker": "Penjejak",
+    "history": "Sejarah"
+  },
+  "tracker": {
+    "stepsToday": "langkah hari ini",
+    "goalAchieved": "Matlamat tercapai!",
+    "stats": {
+      "distance": "Jarak",
+      "calories": "Kalori",
+      "activeTime": "Masa Aktif",
+      "km": "km",
+      "kcal": "kcal",
+      "mins": "min"
+    },
+    "goal": {
+      "label": "Matlamat Harian",
+      "value": "{{val}} langkah",
+      "change": "Tukar Matlamat"
+    },
+    "quickAdd": {
+      "title": "Langkah Tambah Pantas",
+      "label": "Langkah Tersuai",
+      "placeholder": "cth., 3500",
+      "submit": "Tambah"
+    },
+    "insights": {
+      "title": "Wawasan Hari Ini",
+      "remaining": "Langkah yang Tinggal",
+      "stride": "Panjang Langkah",
+      "progress": "Kemajuan",
+      "complete": "Lengkap!",
+      "percentOfGoal": "{{val}}% daripada matlamat"
+    },
+    "reset": "Tetapkan Semula Langkah Hari Ini"
+  },
+  "history": {
+    "title": "Sejarah Langkah",
+    "noHistory": "Tiada sejarah lagi. Mula menjejaki langkah anda!",
+    "today": "Hari ini",
+    "stats": {
+      "steps": "Langkah",
+      "goal": "Matlamat",
+      "progress": "Kemajuan"
+    }
+  },
+  "modals": {
+    "goal": {
+      "title": "Tetapkan Matlamat Harian",
+      "subtitle": "Masukkan langkah harian sasaran anda",
+      "placeholder": "cth., 10000",
+      "cancel": "Batal",
+      "save": "Jimat"
+    },
+    "profile": {
+      "title": "Kemas kini Profil",
+      "subtitle": "Ini membantu mengira jarak dan kalori yang tepat",
+      "height": "Tinggi (cm)",
+      "weight": "Berat (kg)",
+      "gender": "Jantina",
+      "male": "jantan",
+      "female": "perempuan",
+      "placeholderHeight": "cth., 170",
+      "placeholderWeight": "cth., 70",
+      "cancel": "Batal",
+      "save": "Jimat"
+    }
+  }
+}

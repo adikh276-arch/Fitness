@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "back": "Terug naar Dashboard"
+  },
+  "header": {
+    "title": "Diabetesdieetgids",
+    "subtitle": "Monitor glucose en beheers de plaatmethode"
+  },
+  "alert": {
+    "title": "Waarschuwing voor lage bloedsuikerspiegel",
+    "desc": "Uw meting duidt op hypoglykemie (lage bloedsuikerspiegel). Onderneem onmiddellijk actie:",
+    "actions": {
+      "carbs": "Consumeer 15 g snelwerkende koolhydraten (bijvoorbeeld 100 ml sap, 3-4 glucosetabletten)",
+      "wait": "Wacht 15 minuten",
+      "repeat": "Opnieuw testen; indien nog steeds laag, herhaal de behandeling",
+      "contact": "Neem contact op met uw arts als de waarden niet stabiliseren"
+    }
+  },
+  "tabs": {
+    "plate": "Diabetes plaat",
+    "log": "Glucoselogboek",
+    "gi": "GI opzoeken"
+  },
+  "log": {
+    "title": "Glucosemeting registreren",
+    "unit": "Meeteenheid",
+    "value": "Glucoseniveau ({{unit}})",
+    "valuePlaceholder": "Waarde invoeren (bijvoorbeeld 110)",
+    "valuePlaceholderMmol": "Waarde invoeren (bijv. 6.1)",
+    "timing": "Tijdsduur lezen",
+    "mealContext": "Maaltijdcontext / Notities",
+    "mealContextPlaceholder": "Wat heb je gegeten? Hoe voel je je?",
+    "submit": "Lezen opslaan",
+    "success": "Glucosemeting succesvol opgeslagen!",
+    "targets": {
+      "title": "Standaard doelbereiken (mg/dL)",
+      "fasting": "Nuchter: 80-130 mg/dl",
+      "postMeal": "1-2 uur Na de maaltijd: < 180 mg/dl",
+      "low": "Laag: < 70 mg/dl"
+    },
+    "recent": {
+      "title": "Recente lezingen",
+      "noReadings": "Er zijn nog geen metingen geregistreerd",
+      "trend": "Glucosetrend (laatste 7 metingen)",
+      "targetMax": "Doel Max (vasten)",
+      "targetPost": "Doel Max (na de maaltijd)"
+    }
+  },
+  "status": {
+    "normal": "Normaal",
+    "high": "Hoog",
+    "low": "Laag"
+  },
+  "timing": {
+    "fasting": "Vasten / vóór de maaltijd",
+    "preMeal": "Voor de maaltijd",
+    "postMeal1h": "1 uur na de maaltijd",
+    "postMeal2h": "2 uur Na de maaltijd",
+    "bedtime": "Bedtijd"
+  },
+  "plate": {
+    "intro": {
+      "title": "De Diabetes Plaat Methode",
+      "desc": "De Bordenmethode is een eenvoudige manier om maaltijden te plannen zonder te tellen. Het richt zich op portiecontrole en balans om de bloedsuikerspiegel onder controle te houden."
+    },
+    "build": {
+      "title": "Bouw je bord",
+      "hint": "Klik op een sectie om aanbevolen voedingsmiddelen te bekijken"
+    },
+    "categories": {
+      "veggies": {
+        "name": "Niet-zetmeelrijke groenten",
+        "percent": "50%",
+        "desc": "Vul de helft van je bord met kleurrijke, vezelrijke groenten"
+      },
+      "protein": {
+        "name": "Magere eiwitten",
+        "percent": "25%",
+        "desc": "Vul een kwart met magere eiwitbronnen"
+      },
+      "carbs": {
+        "name": "Gezonde koolhydraten",
+        "percent": "25%",
+        "desc": "Vul een kwart met volle granen of zetmeelrijke groenten"
+      }
+    },
+    "principles": {
+      "title": "Principes van de plaatmethode",
+      "veggies": {
+        "title": "Groenten eerst",
+        "desc": "Eet eerst uw groenten om de opname van glucose uit de rest van uw maaltijd te vertragen."
+      },
+      "protein": {
+        "title": "Kwaliteitsproteïne",
+        "desc": "Kies magere opties om spierbehoud te ondersteunen zonder overmatig verzadigde vetten."
+      },
+      "carbs": {
+        "title": "Bewuste koolhydraten",
+        "desc": "Houd je aan complexe koolhydraten die een lagere impact hebben op de bloedsuikerpieken."
+      }
+    }
+  },
+  "gi": {
+    "intro": {
+      "title": "Glycemische index (GI) opzoeken",
+      "desc": "De glycemische index rangschikt koolhydraten op basis van de mate waarin ze de bloedsuikerspiegel verhogen in vergelijking met een referentievoedsel.",
+      "low": "Laag (0-55)",
+      "medium": "Gemiddeld (56-69)",
+      "high": "Hoog (70+)"
+    },
+    "labels": {
+      "low": "Lage GI",
+      "medium": "Middelgrote GI",
+      "high": "Hoge GI"
+    },
+    "search": "Zoek naar een voedingsmiddel (bijvoorbeeld haver, banaan...)",
+    "noResults": "Er zijn geen voedingsmiddelen gevonden die overeenkomen met uw zoekopdracht"
+  },
+  "foods": {
+    "Spinach": "Spinazie",
+    "Broccoli": "Broccoli",
+    "Cauliflower": "Bloemkool",
+    "Bell Peppers": "Paprika's",
+    "Zucchini": "Courgette",
+    "Asparagus": "Asperges",
+    "Cucumber": "Komkommer",
+    "Tomatoes": "Tomaten",
+    "Chicken Breast": "Kipfilet",
+    "Fish (Salmon, Tuna)": "Vis (zalm, tonijn)",
+    "Tofu": "Tofu",
+    "Lentils": "Linzen",
+    "Eggs": "Eieren",
+    "Turkey": "Turkije",
+    "Greek Yogurt": "Griekse Yoghurt",
+    "Brown Rice": "Bruine rijst",
+    "Quinoa": "Quinoa",
+    "Sweet Potato": "Zoete Aardappel",
+    "Whole Wheat Pasta": "Volkoren Pasta",
+    "Oats": "Haver",
+    "Barley": "Gerst"
+  }
+}
