@@ -1,6 +1,0 @@
-BMICalculator.json
-FlexibilityMobility.json
-KetoBasics.json
-PostureCorrection.json
-StrengthTraining.json
-YogaFlexibility.json
