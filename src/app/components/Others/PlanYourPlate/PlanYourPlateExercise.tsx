@@ -282,7 +282,7 @@ export default function PlanYourPlateExercise({ onBack: onBackToOthers }: PlanYo
 }
 
 function HistoryPanel({ history, onClose }: { history: HistoryEntry[]; onClose: () => void }) {
-
+  const { t } = useTranslation('PlanYourPlate');
 
   return (
     <div className="flex flex-col h-full">
@@ -334,16 +334,17 @@ function HistoryPanel({ history, onClose }: { history: HistoryEntry[]; onClose: 
 }
 
 function IntroScreen({ onNext, onHistory, onBack }: { onNext: () => void; onHistory: () => void; onBack: () => void }) {
+  const { t } = useTranslation('PlanYourPlate');
   return (
     <div className="flex flex-col items-center text-center max-w-2xl mx-auto py-8">
       <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-2">{t('build_your_perfect_plate')}</h1>
       <p className="text-blue-600 font-bold text-lg mb-8 uppercase tracking-wide">{t('eat_smart_feel_great')}</p>
       <p className="text-gray-600 text-lg leading-relaxed mb-12">
         {t('welcome_to_your_meal_planning_exercise_a')}
-                    </p>
+      </p>
       <Button variant="pill" size="lg" className="px-12 py-6 text-lg h-auto rounded-2xl bg-blue-600 hover:bg-blue-700 shadow-xl shadow-blue-600/20" onClick={onNext}>
         {t('let_s_begin')}
-                    </Button>
+      </Button>
     </div>
   );
 }
@@ -357,6 +358,7 @@ function DetailsScreen({
   setDetails: React.Dispatch<React.SetStateAction<UserDetails>>;
   onNext: () => void;
 }) {
+  const { t } = useTranslation('PlanYourPlate');
   const update = <K extends keyof UserDetails>(key: K, value: UserDetails[K]) =>
     setDetails((d) => ({ ...d, [key]: value }));
 
@@ -367,7 +369,7 @@ function DetailsScreen({
       <h1 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-2">{t('tell_us_about_yourself')}</h1>
       <p className="text-gray-500 text-base mb-8">
         {t('we_ll_use_this_to_calculate_exactly_what')}
-                    </p>
+      </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Gender */}
@@ -466,6 +468,7 @@ function ResultsScreen({
   nutrition: NutritionGoals;
   onNext: () => void;
 }) {
+  const { t } = useTranslation('PlanYourPlate');
   const cards = [
     { emoji: "🔥", label: "Calories", value: `${nutrition.calories} kcal/day`, color: "bg-orange-50 border-orange-100 text-orange-700" },
     { emoji: "💪", label: "Protein", value: `${nutrition.protein} g/day`, color: "bg-blue-50 border-blue-100 text-blue-700" },
@@ -478,7 +481,7 @@ function ResultsScreen({
       <h1 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-2">{t('your_daily_nutrition_goals')}</h1>
       <p className="text-gray-500 text-base mb-10">
         {t('based_on_your_details_here_s_what_your_b')}
-                    </p>
+      </p>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
         {cards.map((c) => (
@@ -493,12 +496,12 @@ function ResultsScreen({
       <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100 mb-12">
         <p className="text-sm text-gray-600 leading-relaxed text-center italic">
           {t('your_body_is_a_temple_but_only_if_you_tr')}
-                          </p>
+        </p>
       </div>
 
       <Button variant="pill" size="lg" className="w-full py-6 text-lg rounded-2xl bg-blue-600 hover:bg-blue-700 shadow-xl shadow-blue-600/20" onClick={onNext}>
         {t('see_my_meal_plan')}
-                    </Button>
+      </Button>
     </div>
   );
 }
@@ -512,6 +515,7 @@ function MealPlanScreen({
   selectMeal: (cat: string, i: number) => void;
   onNext: () => void;
 }) {
+  const { t } = useTranslation('PlanYourPlate');
   const [openSection, setOpenSection] = useState<string | null>(null);
 
   const sections = [
@@ -530,7 +534,7 @@ function MealPlanScreen({
       <h1 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-2">{t('here_s_your_meal_plan')}</h1>
       <p className="text-gray-500 text-base mb-8">
         {t('based_on_your_nutrition_goals_here_are_s')}
-                    </p>
+      </p>
 
       <div className="space-y-4 mb-10">
         {sections.map((s) => {
@@ -627,13 +631,14 @@ function CompletionScreen({
   setReflection: (v: string) => void;
   onDone: () => void;
 }) {
+  const { t } = useTranslation('PlanYourPlate');
   return (
     <div className="flex flex-col items-center text-center max-w-2xl mx-auto py-10">
       <span className="text-7xl mb-6 animate-bounce">🎉</span>
       <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">{t('you_re_all_set')}</h1>
       <p className="text-blue-600 font-bold text-lg mb-8 italic">
         {t('which_meal_from_today_s_plan_are_you_mos')}
-                    </p>
+      </p>
       <textarea
         value={reflection}
         onChange={(e) => setReflection(e.target.value)}
@@ -642,10 +647,10 @@ function CompletionScreen({
       />
       <p className="text-gray-600 text-lg leading-relaxed mb-12">
         {t('a_little_planning_goes_a_long_way_you_no')}
-                    </p>
+      </p>
       <Button variant="pill" size="lg" className="px-16 py-6 text-xl rounded-2xl bg-blue-600 hover:bg-blue-700 shadow-xl shadow-blue-600/20 transition-all hover:scale-105 active:scale-95" onClick={onDone}>
         {t('finish')}
-                    </Button>
+      </Button>
     </div>
   );
 }

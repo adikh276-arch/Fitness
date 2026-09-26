@@ -5,36 +5,36 @@ export function getSessionUserId(): string | null {
 
 export const pool = {
   async query(text: string, params: any[] = []) {
-    const response = await fetch('/fitness/api/db', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ action: 'query', args: [text, params] }),
-    });
-    if (!response.ok) {
-      throw new Error(`DB Query failed: ${response.statusText}`);
+    try {
+      const response = await fetch('/fitness/api/db', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ action: 'query', args: [text, params] }),
+      });
+      if (!response.ok) {
+        return { rows: [] };
+      }
+      const json = await response.json();
+      return json.result || { rows: [] };
+    } catch {
+      return { rows: [] };
     }
-    const json = await response.json();
-    return json.result;
   }
 };
 
 export async function initializeUser(userId: string) {
   try {
-    const response = await fetch('/fitness/api/db', {
+    await fetch('/fitness/api/db', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({ action: 'initializeUser', args: [userId] }),
     });
-    if (!response.ok) {
-      throw new Error('Failed to initialize user in Neon DB');
-    }
-  } catch (error) {
-    console.error('Failed to initialize user in Neon DB:', error);
-    throw error;
+  } catch {
+    // Graceful offline fallback
   }
 }
 

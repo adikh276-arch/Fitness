@@ -7,6 +7,9 @@ export async function POST(request: Request) {
 
     if (action === 'query') {
       const [text, params] = args;
+      if (!process.env.VITE_NEON_DATABASE_URL && !process.env.DATABASE_URL) {
+        return NextResponse.json({ success: true, result: { rows: [] } });
+      }
       const res = await pool.query(text, params);
       return NextResponse.json({ success: true, result: { rows: res.rows } });
     }

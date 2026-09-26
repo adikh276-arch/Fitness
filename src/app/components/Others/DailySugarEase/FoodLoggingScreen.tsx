@@ -32,6 +32,7 @@ const sugarLabel = (g: number) => {
 };
 
 const SugarSlider = ({ value, onChange }: { value: number; onChange: (v: number) => void }) => {
+  const { t } = useTranslation('DailySugarEase');
   const label = sugarLabel(value);
 
   return (

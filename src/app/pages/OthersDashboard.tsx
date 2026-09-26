@@ -67,14 +67,18 @@ function ToolCard({ icon, label, description, color, onClick }: { icon: React.Re
   return (
     <div
       onClick={onClick}
-      className={`relative overflow-hidden ${color} rounded-2xl p-6 flex flex-col items-center justify-center gap-4 cursor-pointer hover:scale-[1.05] hover:shadow-xl transition-all duration-300 group aspect-square`}
+      className={`relative overflow-hidden ${color} rounded-2xl p-5 sm:p-6 flex flex-col items-center text-center justify-between cursor-pointer hover:scale-[1.03] hover:shadow-xl transition-all duration-300 group min-h-[190px] sm:min-h-[210px] w-full`}
     >
-      <div className="bg-white/20 p-4 rounded-2xl group-hover:scale-110 transition-transform">
+      <div className="bg-white/20 p-3.5 sm:p-4 rounded-2xl group-hover:scale-110 transition-transform mb-2 flex items-center justify-center">
         {icon}
       </div>
-      <div className="text-center">
-        <h3 className="text-white font-bold text-lg leading-tight">{label}</h3>
-        <p className="text-white/80 text-sm mt-1">{description}</p>
+      <div className="w-full flex flex-col items-center justify-center flex-1">
+        <h3 className="text-white font-bold text-base sm:text-lg leading-snug min-h-[2.75rem] flex items-center justify-center">
+          {label}
+        </h3>
+        <p className="text-white/80 text-xs sm:text-sm mt-1 leading-snug line-clamp-2">
+          {description}
+        </p>
       </div>
     </div>
   );

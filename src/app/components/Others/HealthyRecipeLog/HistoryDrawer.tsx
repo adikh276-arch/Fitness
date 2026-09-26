@@ -3,7 +3,9 @@ import type { RecipeEntry } from "./HealthyRecipeLogExercise";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
-const HistoryDrawer = ({ entries }: { entries: RecipeEntry[]; onClose: () => void }) => (
+const HistoryDrawer = ({ entries }: { entries: RecipeEntry[]; onClose: () => void }) => {
+  const { t } = useTranslation('HealthyRecipeLog');
+  return (
   <div className="w-full">
     {entries.length === 0 ? (
       <div className="flex flex-col items-center justify-center py-20 text-center">
@@ -63,7 +65,8 @@ const HistoryDrawer = ({ entries }: { entries: RecipeEntry[]; onClose: () => voi
       </div>
     )}
   </div>
-);
+  );
+};
 
 export default HistoryDrawer;
 
