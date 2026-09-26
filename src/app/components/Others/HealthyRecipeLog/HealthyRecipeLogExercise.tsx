@@ -184,7 +184,7 @@ const HealthyRecipeLogExercise = ({ onBack: onBackToDashboard }: HealthyRecipeLo
               )}
               {screen === 5 && (
                 <motion.div key="closing" variants={pageVariants} initial="initial" animate="animate" exit="exit" transition={{ duration: 0.3 }}>
-                  <ScreenClosing onComplete={() => setScreen(1)} />
+                  <ScreenClosing onComplete={() => onBackToDashboard()} />
                 </motion.div>
               )}
             </AnimatePresence>

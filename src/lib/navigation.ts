@@ -99,7 +99,7 @@ export function handleExit() {
 export const handleExternalExit = handleExit;
 
 /**
- * Checks if the user entered from the Self Care dashboard.
+ * Checks if the user entered from the Self Care dashboard or Others hub.
  */
 export const isOpenedFromDashboard = (): boolean => {
   if (typeof window === 'undefined') return false;
@@ -107,6 +107,39 @@ export const isOpenedFromDashboard = (): boolean => {
     sessionStorage.getItem('fit_opened_from_dashboard') === 'true' ||
     (window.history.length > 1 && document.referrer.includes(window.location.host))
   );
+};
+
+export const isOpenedFromOthers = (): boolean => {
+  if (typeof window === 'undefined') return false;
+  return sessionStorage.getItem('fit_opened_from_others') === 'true';
+};
+
+/**
+ * Centrally handles navigation for Others sub-tools:
+ * - If opened from Others Hub -> returns to '/others'
+ * - If opened from Self Care dashboard -> returns to '/'
+ * - If opened directly (standalone deep link) -> executes handleExit()
+ */
+export const handleExitOrOthers = (router?: { push: (path: string) => void } | ((path: string) => void)) => {
+  if (isOpenedFromOthers()) {
+    if (typeof router === 'function') {
+      router('/others');
+    } else if (router && typeof router.push === 'function') {
+      router.push('/others');
+    } else if (typeof window !== 'undefined') {
+      window.location.href = '/fitness/others';
+    }
+  } else if (isOpenedFromDashboard()) {
+    if (typeof router === 'function') {
+      router('/');
+    } else if (router && typeof router.push === 'function') {
+      router.push('/');
+    } else if (typeof window !== 'undefined') {
+      window.location.href = '/fitness';
+    }
+  } else {
+    handleExit();
+  }
 };
 
 /**

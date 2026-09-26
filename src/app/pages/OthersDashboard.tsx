@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useNavigate } from 'react-router';
 import { useTranslation } from 'react-i18next';
 import { ArrowLeft, Book, ClipboardList, Candy, UtensilsCrossed } from 'lucide-react';
@@ -6,6 +7,14 @@ import { handleExitOrDashboard } from '@/lib/navigation';
 export default function OthersDashboard() {
   const navigate = useNavigate();
   const { t } = useTranslation('common');
+
+  useEffect(() => {
+    try {
+      sessionStorage.setItem('fit_opened_from_others', 'true');
+    } catch {
+      // ignore
+    }
+  }, []);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50/30 to-indigo-50/40 flex justify-center py-4 px-4 lg:py-8 lg:px-0">

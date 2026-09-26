@@ -27,7 +27,7 @@ import DailySugarEaseExercise from "./components/Others/DailySugarEase/DailySuga
 import HealthyRecipeLogExercise from "./components/Others/HealthyRecipeLog/HealthyRecipeLogExercise";
 
 
-import { handleExitOrDashboard } from "@/lib/navigation";
+import { handleExitOrDashboard, handleExitOrOthers } from "@/lib/navigation";
 
 // Wrapper components to inject navigation
 function MacroCalculatorPage() {
@@ -127,22 +127,22 @@ function MacroEducationModulePage() {
 
 function FoodDiaryPage() {
   const navigate = useNavigate();
-  return <FoodDiaryExercise onBack={() => navigate('/others')} />;
+  return <FoodDiaryExercise onBack={() => handleExitOrOthers(navigate)} />;
 }
 
 function PlanYourPlatePage() {
   const navigate = useNavigate();
-  return <PlanYourPlateExercise onBack={() => navigate('/others')} />;
+  return <PlanYourPlateExercise onBack={() => handleExitOrOthers(navigate)} />;
 }
 
 function DailySugarEasePage() {
   const navigate = useNavigate();
-  return <DailySugarEaseExercise onBack={() => navigate('/others')} />;
+  return <DailySugarEaseExercise onBack={() => handleExitOrOthers(navigate)} />;
 }
 
 function HealthyRecipeLogPage() {
   const navigate = useNavigate();
-  return <HealthyRecipeLogExercise onBack={() => navigate('/others')} />;
+  return <HealthyRecipeLogExercise onBack={() => handleExitOrOthers(navigate)} />;
 }
 
 
