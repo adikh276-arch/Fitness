@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router';
 import { useTranslation } from 'react-i18next';
 import { ArrowLeft, Book, ClipboardList, Candy, UtensilsCrossed } from 'lucide-react';
+import { handleExitOrDashboard } from '@/lib/navigation';
 
 export default function OthersDashboard() {
   const navigate = useNavigate();
@@ -14,7 +15,7 @@ export default function OthersDashboard() {
           <div className="bg-white/80 backdrop-blur-sm rounded-2xl lg:rounded-3xl p-4 lg:p-6 shadow-sm border border-white/60">
             <div className="flex items-center gap-3 lg:gap-4">
               <button 
-                onClick={() => navigate('/')}
+                onClick={() => handleExitOrDashboard(navigate)}
                 className="p-2.5 hover:bg-gray-100 rounded-xl transition-all hover:scale-105 flex-shrink-0"
               >
                 <ArrowLeft className="w-5 h-5 text-gray-600" />

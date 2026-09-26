@@ -1,10 +1,20 @@
+import { useEffect } from 'react';
 import { useNavigate } from 'react-router';
 import { useTranslation } from 'react-i18next';
 import { ArrowLeft, MessageCircle, Calculator, Flame, Timer, TrendingDown, Heart, Dumbbell, Salad, Apple, Activity, Clock, Leaf, Zap, Target, Home, Move, User, Star, ChevronRight, Scale, LayoutGrid } from 'lucide-react';
+import { handleExit } from '@/lib/navigation';
 
 export default function Dashboard() {
   const navigate = useNavigate();
   const { t } = useTranslation('common');
+
+  useEffect(() => {
+    try {
+      sessionStorage.setItem('fit_opened_from_dashboard', 'true');
+    } catch {
+      // ignore storage access errors
+    }
+  }, []);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50/30 to-indigo-50/40 flex justify-center py-4 px-4 lg:py-8 lg:px-0">
@@ -14,13 +24,7 @@ export default function Dashboard() {
           <div className="bg-white/80 backdrop-blur-sm rounded-2xl lg:rounded-3xl p-4 lg:p-6 shadow-sm border border-white/60">
             <div className="flex items-center gap-3 lg:gap-4">
               <button 
-                onClick={() => {
-                  if (window.parent !== window) {
-                    window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
-                  } else {
-                    window.location.href = 'https://web.mantracare.com';
-                  }
-                }}
+                onClick={handleExit}
                 className="p-2.5 hover:bg-gray-100 rounded-xl transition-all hover:scale-105 flex-shrink-0"
               >
                 <ArrowLeft className="w-5 h-5 text-gray-600" />

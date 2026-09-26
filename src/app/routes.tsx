@@ -27,100 +27,102 @@ import DailySugarEaseExercise from "./components/Others/DailySugarEase/DailySuga
 import HealthyRecipeLogExercise from "./components/Others/HealthyRecipeLog/HealthyRecipeLogExercise";
 
 
+import { handleExitOrDashboard } from "@/lib/navigation";
+
 // Wrapper components to inject navigation
 function MacroCalculatorPage() {
   const navigate = useNavigate();
-  return <MacroCalculator onBack={() => navigate('/')} />;
+  return <MacroCalculator onBack={() => handleExitOrDashboard(navigate)} />;
 }
 
 function CalorieBurnerPage() {
   const navigate = useNavigate();
-  return <CalorieBurner onBack={() => navigate('/')} />;
+  return <CalorieBurner onBack={() => handleExitOrDashboard(navigate)} />;
 }
 
 function FastTimerPage() {
   const navigate = useNavigate();
-  return <FastTimer onBack={() => navigate('/')} />;
+  return <FastTimer onBack={() => handleExitOrDashboard(navigate)} />;
 }
 
 function BMICalculatorPage() {
   const navigate = useNavigate();
-  return <BMICalculator onBack={() => navigate('/')} />;
+  return <BMICalculator onBack={() => handleExitOrDashboard(navigate)} />;
 }
 
 function WeightLossGuidePage() {
   const navigate = useNavigate();
-  return <WeightLossGuide onBack={() => navigate('/')} />;
+  return <WeightLossGuide onBack={() => handleExitOrDashboard(navigate)} />;
 }
 
 function DiabetesDietGuidePage() {
   const navigate = useNavigate();
-  return <DiabetesDietGuide onBack={() => navigate('/')} />;
+  return <DiabetesDietGuide onBack={() => handleExitOrDashboard(navigate)} />;
 }
 
 function MuscleGainGuidePage() {
   const navigate = useNavigate();
-  return <MuscleGainGuide onBack={() => navigate('/')} />;
+  return <MuscleGainGuide onBack={() => handleExitOrDashboard(navigate)} />;
 }
 
 function GutHealthGuidePage() {
   const navigate = useNavigate();
-  return <GutHealthGuide onBack={() => navigate('/')} />;
+  return <GutHealthGuide onBack={() => handleExitOrDashboard(navigate)} />;
 }
 
 function KetoBasicsGuidePage() {
   const navigate = useNavigate();
-  return <KetoBasicsGuide onBack={() => navigate('/')} />;
+  return <KetoBasicsGuide onBack={() => handleExitOrDashboard(navigate)} />;
 }
 
 function HeartHealthGuidePage() {
   const navigate = useNavigate();
-  return <HeartHealthGuide onBack={() => navigate('/')} />;
+  return <HeartHealthGuide onBack={() => handleExitOrDashboard(navigate)} />;
 }
 
 function IntermittentFastingGuidePage() {
   const navigate = useNavigate();
-  return <IntermittentFastingGuide onBack={() => navigate('/')} />;
+  return <IntermittentFastingGuide onBack={() => handleExitOrDashboard(navigate)} />;
 }
 
 function VeganNutritionGuidePage() {
   const navigate = useNavigate();
-  return <VeganNutritionGuide onBack={() => navigate('/')} />;
+  return <VeganNutritionGuide onBack={() => handleExitOrDashboard(navigate)} />;
 }
 
 function YogaFlexibilityGuidePage() {
   const navigate = useNavigate();
-  return <YogaFlexibilityGuide onBack={() => navigate('/')} />;
+  return <YogaFlexibilityGuide onBack={() => handleExitOrDashboard(navigate)} />;
 }
 
 function HIITCardioGuidePage() {
   const navigate = useNavigate();
-  return <HIITCardioGuide onBack={() => navigate('/')} />;
+  return <HIITCardioGuide onBack={() => handleExitOrDashboard(navigate)} />;
 }
 
 function StrengthTrainingGuidePage() {
   const navigate = useNavigate();
-  return <StrengthTrainingGuide onBack={() => navigate('/')} />;
+  return <StrengthTrainingGuide onBack={() => handleExitOrDashboard(navigate)} />;
 }
 
 function PostureCorrectionGuidePage() {
   const navigate = useNavigate();
-  return <PostureCorrectionGuide onBack={() => navigate('/')} />;
+  return <PostureCorrectionGuide onBack={() => handleExitOrDashboard(navigate)} />;
 }
 
 function HomeWorkoutsGuidePage() {
   const navigate = useNavigate();
-  return <HomeWorkoutsGuide onBack={() => navigate('/')} />;
+  return <HomeWorkoutsGuide onBack={() => handleExitOrDashboard(navigate)} />;
 }
 
 function FlexibilityMobilityGuidePage() {
   const navigate = useNavigate();
-  return <FlexibilityMobilityGuide onBack={() => navigate('/')} />;
+  return <FlexibilityMobilityGuide onBack={() => handleExitOrDashboard(navigate)} />;
 }
 
 function MacroEducationModulePage() {
   const navigate = useNavigate();
-  return <MacroEducationModule onBack={() => navigate('/')} />;
+  return <MacroEducationModule onBack={() => handleExitOrDashboard(navigate)} />;
 }
 
 function FoodDiaryPage() {
