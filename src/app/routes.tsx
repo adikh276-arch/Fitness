@@ -146,16 +146,39 @@ function HealthyRecipeLogPage() {
 }
 
 
-import { Outlet } from "react-router";
-import { useEffect } from "react";
+import { Outlet, useLocation } from "react-router";
+import { useEffect, useRef } from "react";
 
 function RootLayout() {
   const navigate = useNavigate();
+  const location = useLocation();
+  const isDirectOpenRef = useRef<boolean>(false);
+
+  useEffect(() => {
+    // Determine on initial mount if opened directly into a subroute
+    const isRoot = window.location.pathname === '/fitness' || window.location.pathname === '/fitness/';
+    if (!isRoot && !isOpenedFromDashboard() && !isOpenedFromOthers()) {
+      isDirectOpenRef.current = true;
+      // Push an initial dummy state so hardware back trigger triggers popstate instead of exiting whole webview immediately
+      try {
+        window.history.pushState({ directActivity: true }, '');
+      } catch {
+        // ignore
+      }
+    }
+  }, []);
 
   useEffect(() => {
     const handlePopState = () => {
-      // If at root or history depleted and not opened from dashboard
-      if (window.location.pathname === '/fitness' || window.location.pathname === '/fitness/') {
+      // If direct deep link into an activity, phone hardware back must invoke handleExit()
+      if (isDirectOpenRef.current) {
+        handleExit();
+        return;
+      }
+
+      // If user is at root /fitness and not opened from dashboard
+      const pathname = window.location.pathname.replace(/\/+$/, '');
+      if (pathname === '/fitness' || pathname === '') {
         if (!isOpenedFromDashboard()) {
           handleExit();
         }

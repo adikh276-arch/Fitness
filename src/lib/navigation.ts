@@ -98,15 +98,9 @@ export function handleExit() {
  */
 export const handleExternalExit = handleExit;
 
-/**
- * Checks if the user entered from the Self Care dashboard or Others hub.
- */
 export const isOpenedFromDashboard = (): boolean => {
   if (typeof window === 'undefined') return false;
-  return (
-    sessionStorage.getItem('fit_opened_from_dashboard') === 'true' ||
-    (window.history.length > 1 && document.referrer.includes(window.location.host))
-  );
+  return sessionStorage.getItem('fit_opened_from_dashboard') === 'true';
 };
 
 export const isOpenedFromOthers = (): boolean => {
