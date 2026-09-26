@@ -146,106 +146,134 @@ function HealthyRecipeLogPage() {
 }
 
 
+import { Outlet } from "react-router";
+import { useEffect } from "react";
+
+function RootLayout() {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const handlePopState = () => {
+      // If at root or history depleted and not opened from dashboard
+      if (window.location.pathname === '/fitness' || window.location.pathname === '/fitness/') {
+        if (!isOpenedFromDashboard()) {
+          handleExit();
+        }
+      }
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, [navigate]);
+
+  return <Outlet />;
+}
+
 export const router = createBrowserRouter([
   {
     path: "/",
-    Component: Dashboard,
+    Component: RootLayout,
+    children: [
+      {
+        index: true,
+        Component: Dashboard,
+      },
+      {
+        path: "tools/macro-calculator",
+        Component: MacroCalculatorPage,
+      },
+      {
+        path: "tools/calorie-burner",
+        Component: CalorieBurnerPage,
+      },
+      {
+        path: "tools/fast-timer",
+        Component: FastTimerPage,
+      },
+      {
+        path: "tools/bmi-calculator",
+        Component: BMICalculatorPage,
+      },
+      {
+        path: "guides/weight-loss",
+        Component: WeightLossGuidePage,
+      },
+      {
+        path: "guides/diabetes-diet",
+        Component: DiabetesDietGuidePage,
+      },
+      {
+        path: "guides/muscle-gain",
+        Component: MuscleGainGuidePage,
+      },
+      {
+        path: "guides/gut-health",
+        Component: GutHealthGuidePage,
+      },
+      {
+        path: "guides/keto-basics",
+        Component: KetoBasicsGuidePage,
+      },
+      {
+        path: "guides/heart-health",
+        Component: HeartHealthGuidePage,
+      },
+      {
+        path: "guides/intermittent-fasting",
+        Component: IntermittentFastingGuidePage,
+      },
+      {
+        path: "guides/vegan-nutrition",
+        Component: VeganNutritionGuidePage,
+      },
+      {
+        path: "workouts/yoga",
+        Component: YogaFlexibilityGuidePage,
+      },
+      {
+        path: "workouts/hiit",
+        Component: HIITCardioGuidePage,
+      },
+      {
+        path: "workouts/strength-training",
+        Component: StrengthTrainingGuidePage,
+      },
+      {
+        path: "workouts/posture-correction",
+        Component: PostureCorrectionGuidePage,
+      },
+      {
+        path: "workouts/home-workouts",
+        Component: HomeWorkoutsGuidePage,
+      },
+      {
+        path: "workouts/flexibility",
+        Component: FlexibilityMobilityGuidePage,
+      },
+      {
+        path: "learn/macro-education",
+        Component: MacroEducationModulePage,
+      },
+      {
+        path: "others",
+        Component: OthersDashboard,
+      },
+      {
+        path: "others/food-diary",
+        Component: FoodDiaryPage,
+      },
+      {
+        path: "others/plan-your-plate",
+        Component: PlanYourPlatePage,
+      },
+      {
+        path: "others/daily-sugar-ease",
+        Component: DailySugarEasePage,
+      },
+      {
+        path: "others/healthy-recipe-log",
+        Component: HealthyRecipeLogPage,
+      },
+    ],
   },
-  {
-    path: "/tools/macro-calculator",
-    Component: MacroCalculatorPage,
-  },
-  {
-    path: "/tools/calorie-burner",
-    Component: CalorieBurnerPage,
-  },
-  {
-    path: "/tools/fast-timer",
-    Component: FastTimerPage,
-  },
-  {
-    path: "/tools/bmi-calculator",
-    Component: BMICalculatorPage,
-  },
-  {
-    path: "/guides/weight-loss",
-    Component: WeightLossGuidePage,
-  },
-  {
-    path: "/guides/diabetes-diet",
-    Component: DiabetesDietGuidePage,
-  },
-  {
-    path: "/guides/muscle-gain",
-    Component: MuscleGainGuidePage,
-  },
-  {
-    path: "/guides/gut-health",
-    Component: GutHealthGuidePage,
-  },
-  {
-    path: "/guides/keto-basics",
-    Component: KetoBasicsGuidePage,
-  },
-  {
-    path: "/guides/heart-health",
-    Component: HeartHealthGuidePage,
-  },
-  {
-    path: "/guides/intermittent-fasting",
-    Component: IntermittentFastingGuidePage,
-  },
-  {
-    path: "/guides/vegan-nutrition",
-    Component: VeganNutritionGuidePage,
-  },
-  {
-    path: "/workouts/yoga",
-    Component: YogaFlexibilityGuidePage,
-  },
-  {
-    path: "/workouts/hiit",
-    Component: HIITCardioGuidePage,
-  },
-  {
-    path: "/workouts/strength-training",
-    Component: StrengthTrainingGuidePage,
-  },
-  {
-    path: "/workouts/posture-correction",
-    Component: PostureCorrectionGuidePage,
-  },
-  {
-    path: "/workouts/home-workouts",
-    Component: HomeWorkoutsGuidePage,
-  },
-  {
-    path: "/workouts/flexibility",
-    Component: FlexibilityMobilityGuidePage,
-  },
-  {
-    path: "/learn/macro-education",
-    Component: MacroEducationModulePage,
-  },
-  {
-    path: "/others",
-    Component: OthersDashboard,
-  },
-  {
-    path: "/others/food-diary",
-    Component: FoodDiaryPage,
-  },
-  {
-    path: "/others/plan-your-plate",
-    Component: PlanYourPlatePage,
-  },
-  {
-    path: "/others/daily-sugar-ease",
-    Component: DailySugarEasePage,
-  },
-  {
-    path: "/others/healthy-recipe-log",
-    Component: HealthyRecipeLogPage,
-  },
-
 ], { basename: "/fitness" });
