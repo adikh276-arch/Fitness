@@ -27,7 +27,13 @@ import DailySugarEaseExercise from "./components/Others/DailySugarEase/DailySuga
 import HealthyRecipeLogExercise from "./components/Others/HealthyRecipeLog/HealthyRecipeLogExercise";
 
 
-import { handleExitOrDashboard, handleExitOrOthers } from "@/lib/navigation";
+import {
+  handleExit,
+  handleExitOrDashboard,
+  handleExitOrOthers,
+  isOpenedFromDashboard,
+  isOpenedFromOthers,
+} from "@/lib/navigation";
 
 // Wrapper components to inject navigation
 function MacroCalculatorPage() {
@@ -192,10 +198,13 @@ function RootLayout() {
   return <Outlet />;
 }
 
+import { RouteErrorBoundary } from "./components/AppErrorBoundary";
+
 export const router = createBrowserRouter([
   {
     path: "/",
     Component: RootLayout,
+    ErrorBoundary: RouteErrorBoundary,
     children: [
       {
         index: true,
@@ -296,6 +305,10 @@ export const router = createBrowserRouter([
       {
         path: "others/healthy-recipe-log",
         Component: HealthyRecipeLogPage,
+      },
+      {
+        path: "*",
+        Component: RouteErrorBoundary,
       },
     ],
   },
