@@ -5,6 +5,7 @@ import confetti from 'canvas-confetti';
 import { useTranslation } from 'react-i18next';
 import { useMemo } from 'react';
 import { logUserActivity } from '@/lib/db';
+import { toast } from 'sonner';
 
 interface SupplementLog {
   b12: boolean;
@@ -354,6 +355,7 @@ export default function VeganNutritionGuide({ onBack }: { onBack: () => void }) 
 
   const logProteinTotal = () => {
     const total = getTotalProtein();
+    if (total === 0) return;
     const sources = proteinEntries.map(e => e.source);
     const today = new Date().toISOString().split('T')[0];
 
@@ -365,7 +367,7 @@ export default function VeganNutritionGuide({ onBack }: { onBack: () => void }) 
       ],
     }));
 
-    // Log to console for database integration
+    // Log to database / activity logger
     logUserActivity('vegan_nutrition', 'log_protein', {
       logged_protein_total: total,
       top_sources: sources,
@@ -373,18 +375,27 @@ export default function VeganNutritionGuide({ onBack }: { onBack: () => void }) 
       timestamp: new Date().toISOString(),
     });
 
-    // Celebrate if goal achieved (assuming 50g minimum)
-    if (total >= 50) {
+    toast.success(t('calculator.results.success', 'Protein logged successfully!'));
+
+    // Celebrate completion
+    try {
       confetti({
         particleCount: 100,
         spread: 70,
         origin: { y: 0.6 },
         colors: ['#22C55E', '#16A34A', '#15803D'],
       });
+    } catch {
+      // ignore
     }
 
     // Reset entries
     setProteinEntries([]);
+
+    // Navigate back to dashboard / exit
+    setTimeout(() => {
+      onBack();
+    }, 1200);
   };
 
   return (

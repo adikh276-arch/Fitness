@@ -10,6 +10,8 @@ import HistoryScreen, { DiaryEntry } from "./HistoryScreen";
 import { toast } from "sonner";
 import { ArrowLeft, Clock } from 'lucide-react';
 import { saveFoodDiaryEntry, fetchFoodDiaryEntries } from "@/lib/persistence";
+import { logUserActivity } from "@/lib/db";
+import confetti from "canvas-confetti";
 
 const STORAGE_KEY = "food-diary-entries";
 
@@ -113,11 +115,27 @@ const FoodDiaryExercise = ({ onBack: onBackToOthers }: FoodDiaryExerciseProps) =
     });
 
     toast.success(t('messages.entrySaved'));
-    setDirection(1);
-    setStep(0);
-    setMealData({});
-    setFeelings("");
-    setReflection("");
+
+    try {
+      confetti({
+        particleCount: 100,
+        spread: 70,
+        origin: { y: 0.6 },
+      });
+    } catch {
+      // ignore
+    }
+
+    logUserActivity('food_diary', 'save_entry', {
+      id: newId,
+      date: newDate,
+      meal_count: Object.keys(mealData).length,
+    });
+
+    // Navigate back via central completion / exit logic
+    setTimeout(() => {
+      onBackToOthers();
+    }, 1200);
   };
 
   return (

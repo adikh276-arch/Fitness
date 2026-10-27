@@ -370,7 +370,7 @@ export default function WeightLossGuide({ onBack }: { onBack: () => void }) {
                       <h3 className="text-sm lg:text-base font-semibold text-gray-900 mb-1">{t('plan.hiddenFactors.hydration.title')}</h3>
                       <p className="text-xs text-gray-600 mb-2">{t('plan.hiddenFactors.hydration.desc')}</p>
                       <ul className="space-y-1 text-xs text-gray-600">
-                        {t('plan.hiddenFactors.hydration.list', { returnObjects: true }).map((item: string, i: number) => (
+                        {(t('plan.hiddenFactors.hydration.list', { returnObjects: true }) as string[]).map((item: string, i: number) => (
                           <li key={i}>• {item}</li>
                         ))}
                       </ul>
@@ -385,7 +385,7 @@ export default function WeightLossGuide({ onBack }: { onBack: () => void }) {
                       <h3 className="text-sm lg:text-base font-semibold text-gray-900 mb-1">{t('plan.hiddenFactors.sleep.title')}</h3>
                       <p className="text-xs text-gray-600 mb-2">{t('plan.hiddenFactors.sleep.desc')}</p>
                       <ul className="space-y-1 text-xs text-gray-600">
-                        {t('plan.hiddenFactors.sleep.list', { returnObjects: true }).map((item: string, i: number) => (
+                        {(t('plan.hiddenFactors.sleep.list', { returnObjects: true }) as string[]).map((item: string, i: number) => (
                           <li key={i}>• {item}</li>
                         ))}
                       </ul>
@@ -769,7 +769,7 @@ export default function WeightLossGuide({ onBack }: { onBack: () => void }) {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4"
-              onClick={() => goals && setShowGoalForm(false)}
+              onClick={() => setShowGoalForm(false)}
             >
               <motion.div
                 initial={{ scale: 0.9, opacity: 0 }}
@@ -777,8 +777,17 @@ export default function WeightLossGuide({ onBack }: { onBack: () => void }) {
                 exit={{ scale: 0.9, opacity: 0 }}
                 transition={{ type: 'spring', duration: 0.5 }}
                 onClick={(e) => e.stopPropagation()}
-                className="bg-gradient-to-br from-purple-50 to-indigo-50 rounded-2xl p-6 lg:p-8 border-2 border-purple-200 shadow-2xl max-w-md w-full"
+                className="relative bg-gradient-to-br from-purple-50 to-indigo-50 rounded-2xl p-6 lg:p-8 border-2 border-purple-200 shadow-2xl max-w-md w-full"
               >
+                <button
+                  type="button"
+                  onClick={() => setShowGoalForm(false)}
+                  className="absolute top-4 right-4 p-2 text-gray-400 hover:text-gray-700 hover:bg-purple-100/60 rounded-xl transition-all"
+                  aria-label="Close modal"
+                >
+                  <X className="w-5 h-5" />
+                </button>
+
                 <div className="flex items-center justify-center mb-4 lg:mb-6">
                   <div className="bg-purple-500 rounded-xl p-3">
                     <Target className="w-8 h-8 lg:w-10 lg:h-10 text-white" />

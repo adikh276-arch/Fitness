@@ -8,6 +8,8 @@ import { saveEntry } from "./sugarHistory";
 import { ArrowLeft, Clock } from 'lucide-react';
 import HistorySheet from "./HistorySheet";
 import { useTranslation } from "react-i18next";
+import { logUserActivity } from "@/lib/db";
+import confetti from "canvas-confetti";
 
 interface FoodItem {
   id: number;
@@ -124,8 +126,26 @@ const DailySugarEaseExercise = ({ onBack: onBackToDashboard }: DailySugarEaseExe
                     onBack={() => setScreen(2)}
                     onDone={() => {
                       if (total > 0) saveEntry(total);
-                      setScreen(0);
-                      setItems([]);
+                      
+                      try {
+                        confetti({
+                          particleCount: 100,
+                          spread: 70,
+                          origin: { y: 0.6 },
+                        });
+                      } catch {
+                        // ignore
+                      }
+
+                      logUserActivity('sugar_ease', 'complete_daily_log', {
+                        total_sugar: total,
+                        item_count: items.length,
+                        date: new Date().toISOString(),
+                      });
+
+                      setTimeout(() => {
+                        onBackToDashboard();
+                      }, 1200);
                     }}
                   />
                 </motion.div>

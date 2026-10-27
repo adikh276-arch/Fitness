@@ -8,7 +8,7 @@ const ScreenClosing = ({ onComplete }: { onComplete: () => void }) => {
 
   useEffect(() => {
     const start = Date.now();
-    const duration = 6000;
+    const duration = 2000;
     const interval = setInterval(() => {
       const elapsed = Date.now() - start;
       const remaining = Math.max(0, 100 - (elapsed / duration) * 100);
@@ -62,7 +62,12 @@ const ScreenClosing = ({ onComplete }: { onComplete: () => void }) => {
             style={{ width: `${progress}%` }}
           />
         </div>
-        <p className="text-sm font-bold text-gray-400 mt-4 uppercase tracking-widest">{t('returning_to_menu')}</p>
+        <button
+          onClick={onComplete}
+          className="text-sm font-bold text-emerald-600 hover:text-emerald-700 mt-4 uppercase tracking-widest transition-colors cursor-pointer"
+        >
+          {t('returning_to_menu')} →
+        </button>
       </motion.div>
     </div>
   );

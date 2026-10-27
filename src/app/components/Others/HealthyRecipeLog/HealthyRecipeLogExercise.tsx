@@ -9,6 +9,8 @@ import HistoryDrawer from "./HistoryDrawer";
 import { ArrowLeft, Clock } from 'lucide-react';
 import { saveHealthyRecipe, fetchHealthyRecipes } from "@/lib/persistence";
 import { useTranslation } from "react-i18next";
+import { logUserActivity } from "@/lib/db";
+import confetti from "canvas-confetti";
 
 export interface RecipeEntry {
   id: string;
@@ -82,6 +84,23 @@ const HealthyRecipeLogExercise = ({ onBack: onBackToDashboard }: HealthyRecipeLo
     await saveHealthyRecipe({
       ...entry,
       date: isoDate
+    });
+
+    try {
+      confetti({
+        particleCount: 100,
+        spread: 70,
+        origin: { y: 0.6 },
+      });
+    } catch {
+      // ignore
+    }
+
+    logUserActivity('healthy_recipe_log', 'save_recipe', {
+      id: newId,
+      name: entry.name,
+      rating: entry.rating,
+      date: isoDate,
     });
   };
 

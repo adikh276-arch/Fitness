@@ -4,6 +4,9 @@ import { ArrowLeft, Clock, ChevronDown, X } from "lucide-react";
 import { Button } from "@/app/components/ui/button";
 import { saveMealPlanEntry, fetchMealPlanEntries } from "@/lib/persistence";
 import { useTranslation } from "react-i18next";
+import { logUserActivity } from "@/lib/db";
+import { toast } from "sonner";
+import confetti from "canvas-confetti";
 
 interface HistoryEntry {
   id: string;
@@ -196,9 +199,27 @@ export default function PlanYourPlateExercise({ onBack: onBackToOthers }: PlanYo
       date: isoDate
     });
 
-    setMeals({});
-    setReflection("");
-    setStep(0);
+    toast.success(t('messages.planSaved', 'Meal plan saved successfully!'));
+
+    try {
+      confetti({
+        particleCount: 100,
+        spread: 70,
+        origin: { y: 0.6 },
+      });
+    } catch {
+      // ignore
+    }
+
+    logUserActivity('plan_your_plate', 'save_meal_plan', {
+      id: newId,
+      date: isoDate,
+      meal_count: Object.keys(meals).length,
+    });
+
+    setTimeout(() => {
+      onBackToOthers();
+    }, 1200);
   };
 
 

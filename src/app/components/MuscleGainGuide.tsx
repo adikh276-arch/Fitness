@@ -322,33 +322,33 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
   ], [t]);
 
   return (
-    <div className="min-h-screen bg-[#F8FAFC] flex justify-center py-8">
-      <div className="w-[1000px]">
+    <div className="min-h-screen bg-[#F8FAFC] flex justify-center py-4 px-3 sm:px-4 lg:py-8 lg:px-0">
+      <div className="w-full max-w-[1000px] lg:w-[1000px]">
         {/* Header */}
-        <div className="mb-8">
+        <div className="mb-6 lg:mb-8">
           <button
             onClick={onBack}
-            className="flex items-center gap-2 text-gray-600 hover:text-gray-900 mb-4 transition-colors"
+            className="flex items-center gap-2 text-gray-600 hover:text-gray-900 mb-3 lg:mb-4 transition-colors"
           >
             <ArrowLeft className="w-5 h-5" />
-            <span>{t('nav.back')}</span>
+            <span className="text-sm lg:text-base">{t('nav.back')}</span>
           </button>
           <div className="flex items-center gap-3 mb-2">
-            <div className="bg-gradient-to-br from-amber-500 to-orange-600 rounded-xl p-2 lg:p-3">
+            <div className="bg-gradient-to-br from-amber-500 to-orange-600 rounded-xl p-2.5 lg:p-3 flex-shrink-0">
               <Dumbbell className="w-6 h-6 lg:w-7 lg:h-7 text-white" />
             </div>
-            <div>
-              <h1 className="text-lg lg:text-xl font-semibold text-gray-900">{t('header.title')}</h1>
-              <p className="text-xs lg:text-sm text-gray-500">{t('header.subtitle')}</p>
+            <div className="min-w-0">
+              <h1 className="text-lg lg:text-xl font-semibold text-gray-900 truncate">{t('header.title')}</h1>
+              <p className="text-xs lg:text-sm text-gray-500 line-clamp-1">{t('header.subtitle')}</p>
             </div>
           </div>
         </div>
 
         {/* Tabs */}
-        <div className="flex gap-2 mb-6 bg-white rounded-xl p-1.5 border border-gray-200">
+        <div className="flex gap-1.5 sm:gap-2 mb-5 lg:mb-6 bg-white rounded-xl p-1.5 border border-gray-200">
           <button
             onClick={() => setActiveTab('plan')}
-            className={`flex-1 py-2 px-2 lg:py-3 lg:px-4 rounded-lg transition-all font-medium text-xs lg:text-base ${
+            className={`flex-1 py-2 px-2 lg:py-3 lg:px-4 rounded-lg transition-all font-medium text-xs sm:text-sm lg:text-base ${
               activeTab === 'plan'
                 ? 'bg-gradient-to-r from-amber-500 to-orange-600 text-white shadow-lg'
                 : 'text-gray-600 hover:bg-gray-50'
@@ -358,7 +358,7 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
           </button>
           <button
             onClick={() => setActiveTab('metrics')}
-            className={`flex-1 py-2 px-2 lg:py-3 lg:px-4 rounded-lg transition-all font-medium text-xs lg:text-base ${
+            className={`flex-1 py-2 px-2 lg:py-3 lg:px-4 rounded-lg transition-all font-medium text-xs sm:text-sm lg:text-base ${
               activeTab === 'metrics'
                 ? 'bg-gradient-to-r from-amber-500 to-orange-600 text-white shadow-lg'
                 : 'text-gray-600 hover:bg-gray-50'
@@ -368,7 +368,7 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
           </button>
           <button
             onClick={() => setActiveTab('habits')}
-            className={`flex-1 py-2 px-2 lg:py-3 lg:px-4 rounded-lg transition-all font-medium text-xs lg:text-base ${
+            className={`flex-1 py-2 px-2 lg:py-3 lg:px-4 rounded-lg transition-all font-medium text-xs sm:text-sm lg:text-base ${
               activeTab === 'habits'
                 ? 'bg-gradient-to-r from-amber-500 to-orange-600 text-white shadow-lg'
                 : 'text-gray-600 hover:bg-gray-50'
@@ -386,109 +386,109 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
-              className="space-y-6"
+              className="space-y-4 lg:space-y-6"
             >
               {/* The 3 Pillars */}
-              <div className="grid grid-cols-3 gap-6">
-                <div className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl p-8 border border-amber-200">
-                  <div className="bg-amber-500 rounded-xl p-4 w-16 h-16 flex items-center justify-center mb-4">
-                    <Flame className="w-8 h-8 text-white" />
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-6">
+                <div className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl p-5 sm:p-6 lg:p-8 border border-amber-200">
+                  <div className="bg-amber-500 rounded-xl p-3 w-12 h-12 lg:w-16 lg:h-16 flex items-center justify-center mb-3 lg:mb-4">
+                    <Flame className="w-6 h-6 lg:w-8 lg:h-8 text-white" />
                   </div>
-                  <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-3">{t('plan.pillars.caloric.title')}</h3>
-                  <p className="text-gray-700 mb-4">
+                  <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-2 lg:mb-3">{t('plan.pillars.caloric.title')}</h3>
+                  <p className="text-gray-700 mb-2 lg:mb-4 text-sm sm:text-base">
                     <strong>{t('plan.pillars.caloric.value')}</strong>
                   </p>
-                  <p className="text-sm text-gray-600">
+                  <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
                     {t('plan.pillars.caloric.desc')}
                   </p>
                 </div>
 
-                <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-8 border border-orange-200">
-                  <div className="bg-orange-500 rounded-xl p-4 w-16 h-16 flex items-center justify-center mb-4">
-                    <Scale className="w-8 h-8 text-white" />
+                <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-5 sm:p-6 lg:p-8 border border-orange-200">
+                  <div className="bg-orange-500 rounded-xl p-3 w-12 h-12 lg:w-16 lg:h-16 flex items-center justify-center mb-3 lg:mb-4">
+                    <Scale className="w-6 h-6 lg:w-8 lg:h-8 text-white" />
                   </div>
-                  <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-3">{t('plan.pillars.protein.title')}</h3>
-                  <p className="text-gray-700 mb-4">
+                  <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-2 lg:mb-3">{t('plan.pillars.protein.title')}</h3>
+                  <p className="text-gray-700 mb-2 lg:mb-4 text-sm sm:text-base">
                     <strong>{t('plan.pillars.protein.value')}</strong>
                   </p>
-                  <p className="text-sm text-gray-600">
+                  <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
                     {t('plan.pillars.protein.desc')}
                   </p>
                 </div>
 
-                <div className="bg-gradient-to-br from-red-50 to-pink-50 rounded-2xl p-8 border border-red-200">
-                  <div className="bg-red-500 rounded-xl p-4 w-16 h-16 flex items-center justify-center mb-4">
-                    <TrendingUp className="w-8 h-8 text-white" />
+                <div className="bg-gradient-to-br from-red-50 to-pink-50 rounded-2xl p-5 sm:p-6 lg:p-8 border border-red-200">
+                  <div className="bg-red-500 rounded-xl p-3 w-12 h-12 lg:w-16 lg:h-16 flex items-center justify-center mb-3 lg:mb-4">
+                    <TrendingUp className="w-6 h-6 lg:w-8 lg:h-8 text-white" />
                   </div>
-                  <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-3">{t('plan.pillars.overload.title')}</h3>
-                  <p className="text-gray-700 mb-4">
+                  <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-2 lg:mb-3">{t('plan.pillars.overload.title')}</h3>
+                  <p className="text-gray-700 mb-2 lg:mb-4 text-sm sm:text-base">
                     <strong>{t('plan.pillars.overload.value')}</strong>
                   </p>
-                  <p className="text-sm text-gray-600">
+                  <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
                     {t('plan.pillars.overload.desc')}
                   </p>
                 </div>
               </div>
 
               {/* Meal Timing */}
-              <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm">
-                <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-6">{t('plan.mealTiming.title')}</h3>
-                <p className="text-gray-600 mb-8">
+              <div className="bg-white rounded-2xl p-5 sm:p-6 lg:p-8 border border-gray-200 shadow-sm">
+                <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-2 lg:mb-3">{t('plan.mealTiming.title')}</h3>
+                <p className="text-xs sm:text-sm text-gray-600 mb-6 lg:mb-8 leading-relaxed">
                   {t('plan.mealTiming.subtitle')}
                 </p>
 
                 <div className="relative">
-                  {/* Timeline */}
-                  <div className="absolute top-8 left-0 right-0 h-1 bg-gradient-to-r from-amber-200 via-orange-300 to-amber-200"></div>
+                  {/* Desktop Timeline line */}
+                  <div className="hidden lg:block absolute top-8 left-0 right-0 h-1 bg-gradient-to-r from-amber-200 via-orange-300 to-amber-200"></div>
 
-                  <div className="grid grid-cols-5 gap-4 relative">
-                    <div className="text-center">
-                      <div className="bg-gray-100 rounded-xl p-4 mb-4">
-                        <p className="text-xs text-gray-500 mb-2">{t('plan.mealTiming.preWorkoutLong.time')}</p>
-                        <p className="font-semibold text-gray-900">{t('plan.mealTiming.preWorkoutLong.title')}</p>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3 lg:gap-4 relative">
+                    <div className="text-center p-3 sm:p-0 bg-gray-50 sm:bg-transparent rounded-xl">
+                      <div className="bg-gray-100 rounded-xl p-3 lg:p-4 mb-2 lg:mb-4">
+                        <p className="text-xs text-gray-500 mb-1 lg:mb-2 font-medium">{t('plan.mealTiming.preWorkoutLong.time')}</p>
+                        <p className="font-semibold text-gray-900 text-sm lg:text-base">{t('plan.mealTiming.preWorkoutLong.title')}</p>
                       </div>
-                      <p className="text-sm text-gray-600">{t('plan.mealTiming.preWorkoutLong.desc')}</p>
+                      <p className="text-xs lg:text-sm text-gray-600 leading-relaxed">{t('plan.mealTiming.preWorkoutLong.desc')}</p>
                     </div>
 
-                    <div className="text-center">
-                      <div className="bg-amber-100 rounded-xl p-4 mb-4 border-2 border-amber-500">
-                        <p className="text-xs text-amber-700 mb-2">{t('plan.mealTiming.preWorkoutCarbs.time')}</p>
-                        <p className="font-semibold text-amber-900">{t('plan.mealTiming.preWorkoutCarbs.title')}</p>
+                    <div className="text-center p-3 sm:p-0 bg-amber-50/50 sm:bg-transparent rounded-xl">
+                      <div className="bg-amber-100 rounded-xl p-3 lg:p-4 mb-2 lg:mb-4 border-2 border-amber-500">
+                        <p className="text-xs text-amber-700 mb-1 lg:mb-2 font-medium">{t('plan.mealTiming.preWorkoutCarbs.time')}</p>
+                        <p className="font-semibold text-amber-900 text-sm lg:text-base">{t('plan.mealTiming.preWorkoutCarbs.title')}</p>
                       </div>
-                      <p className="text-sm text-gray-600">{t('plan.mealTiming.preWorkoutCarbs.desc')}</p>
+                      <p className="text-xs lg:text-sm text-gray-600 leading-relaxed">{t('plan.mealTiming.preWorkoutCarbs.desc')}</p>
                     </div>
 
-                    <div className="text-center">
-                      <div className="bg-red-100 rounded-xl p-4 mb-4 border-2 border-red-500">
-                        <p className="text-xs text-red-700 mb-2">{t('plan.mealTiming.training.time')}</p>
-                        <p className="font-semibold text-red-900">{t('plan.mealTiming.training.title')}</p>
+                    <div className="text-center p-3 sm:p-0 bg-red-50/50 sm:bg-transparent rounded-xl">
+                      <div className="bg-red-100 rounded-xl p-3 lg:p-4 mb-2 lg:mb-4 border-2 border-red-500">
+                        <p className="text-xs text-red-700 mb-1 lg:mb-2 font-medium">{t('plan.mealTiming.training.time')}</p>
+                        <p className="font-semibold text-red-900 text-sm lg:text-base">{t('plan.mealTiming.training.title')}</p>
                       </div>
-                      <p className="text-sm text-gray-600">{t('plan.mealTiming.training.desc')}</p>
+                      <p className="text-xs lg:text-sm text-gray-600 leading-relaxed">{t('plan.mealTiming.training.desc')}</p>
                     </div>
 
-                    <div className="text-center">
-                      <div className="bg-orange-100 rounded-xl p-4 mb-4 border-2 border-orange-500">
-                        <p className="text-xs text-orange-700 mb-2">{t('plan.mealTiming.postWorkout.time')}</p>
-                        <p className="font-semibold text-orange-900">{t('plan.mealTiming.postWorkout.title')}</p>
+                    <div className="text-center p-3 sm:p-0 bg-orange-50/50 sm:bg-transparent rounded-xl">
+                      <div className="bg-orange-100 rounded-xl p-3 lg:p-4 mb-2 lg:mb-4 border-2 border-orange-500">
+                        <p className="text-xs text-orange-700 mb-1 lg:mb-2 font-medium">{t('plan.mealTiming.postWorkout.time')}</p>
+                        <p className="font-semibold text-orange-900 text-sm lg:text-base">{t('plan.mealTiming.postWorkout.title')}</p>
                       </div>
-                      <p className="text-sm text-gray-600">{t('plan.mealTiming.postWorkout.desc')}</p>
+                      <p className="text-xs lg:text-sm text-gray-600 leading-relaxed">{t('plan.mealTiming.postWorkout.desc')}</p>
                     </div>
 
-                    <div className="text-center">
-                      <div className="bg-gray-100 rounded-xl p-4 mb-4">
-                        <p className="text-xs text-gray-500 mb-2">{t('plan.mealTiming.eveningProtein.time')}</p>
-                        <p className="font-semibold text-gray-900">{t('plan.mealTiming.eveningProtein.title')}</p>
+                    <div className="text-center p-3 sm:p-0 bg-gray-50 sm:bg-transparent rounded-xl sm:col-span-2 lg:col-span-1">
+                      <div className="bg-gray-100 rounded-xl p-3 lg:p-4 mb-2 lg:mb-4">
+                        <p className="text-xs text-gray-500 mb-1 lg:mb-2 font-medium">{t('plan.mealTiming.eveningProtein.time')}</p>
+                        <p className="font-semibold text-gray-900 text-sm lg:text-base">{t('plan.mealTiming.eveningProtein.title')}</p>
                       </div>
-                      <p className="text-sm text-gray-600">{t('plan.mealTiming.eveningProtein.desc')}</p>
+                      <p className="text-xs lg:text-sm text-gray-600 leading-relaxed">{t('plan.mealTiming.eveningProtein.desc')}</p>
                     </div>
                   </div>
                 </div>
               </div>
 
               {/* Key Principles */}
-              <div className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl p-8 border border-amber-100">
-                <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-4">{t('plan.principles.title')}</h3>
-                <div className="space-y-3">
+              <div className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl p-5 sm:p-6 lg:p-8 border border-amber-100">
+                <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-3 lg:mb-4">{t('plan.principles.title')}</h3>
+                <div className="space-y-2.5 lg:space-y-3">
                   <p className="flex items-start gap-2 text-gray-700">
                     <span className="text-amber-500 mt-1">✓</span>
                     <span><strong>{t('plan.principles.p1.title')}</strong> {t('plan.principles.p1.desc')}</span>
@@ -517,10 +517,10 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
               transition={{ duration: 0.3 }}
-              className="space-y-6"
+              className="space-y-4 lg:space-y-6"
             >
               {/* Strength Meter */}
-              <div className={`rounded-2xl p-8 border-2 transition-all ${
+              <div className={`rounded-2xl p-5 sm:p-6 lg:p-8 border-2 transition-all ${
                 volumeStatus.color === 'gray'
                   ? 'bg-gradient-to-br from-gray-50 to-slate-50 border-gray-300'
                   : volumeStatus.color === 'blue'
@@ -529,14 +529,14 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
                   ? 'bg-gradient-to-br from-orange-50 to-amber-50 border-orange-300'
                   : 'bg-gradient-to-br from-red-50 to-pink-50 border-red-400'
               }`}>
-                <div className="flex items-center justify-between mb-4">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4">
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-1">
+                    <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-1">
                       {growthProfile.targetWeight > 0
                         ? t('metrics.strength.volumeTarget', { weight: growthProfile.targetWeight })
                         : t('metrics.strength.totalVolume')}
                     </h3>
-                    <p className={`text-sm font-semibold ${
+                    <p className={`text-xs sm:text-sm font-semibold ${
                       volumeStatus.color === 'gray' ? 'text-gray-600' :
                       volumeStatus.color === 'blue' ? 'text-blue-700' :
                       volumeStatus.color === 'orange' ? 'text-orange-700' :
@@ -545,8 +545,8 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
                       {t(`metrics.strength.statusLabels.${getVolumeStatusKey(volumeStatus.label)}`)}
                     </p>
                   </div>
-                  <div className="text-right">
-                    <p className={`text-4xl font-bold ${
+                  <div className="text-left sm:text-right">
+                    <p className={`text-3xl sm:text-4xl font-bold ${
                       volumeStatus.color === 'gray' ? 'text-gray-600' :
                       volumeStatus.color === 'blue' ? 'text-blue-600' :
                       volumeStatus.color === 'orange' ? 'text-orange-600' :
@@ -554,14 +554,14 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
                     }`}>
                       {totalVolume.toLocaleString()}
                     </p>
-                     <p className="text-sm text-gray-500">{t('metrics.strength.kgLifted')}</p>
+                    <p className="text-xs sm:text-sm text-gray-500">{t('metrics.strength.kgLifted')}</p>
                   </div>
                 </div>
 
                 {/* Strength Meter */}
                 {growthProfile.targetWeight > 0 && (
                   <>
-                    <div className="relative h-8 bg-gray-200 rounded-full overflow-hidden mb-3">
+                    <div className="relative h-7 sm:h-8 bg-gray-200 rounded-full overflow-hidden mb-3">
                       <motion.div
                         className={`absolute inset-y-0 left-0 ${
                           volumeStatus.color === 'blue'
@@ -576,14 +576,14 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
                         animate={{ width: `${volumePercentage}%` }}
                         transition={{ duration: 1, ease: "easeOut" }}
                       />
-                      <div className="absolute inset-0 flex items-center justify-center">
-                        <span className="text-sm font-semibold text-gray-700">
+                      <div className="absolute inset-0 flex items-center justify-center px-2">
+                        <span className="text-xs sm:text-sm font-semibold text-gray-700 truncate">
                           {t('metrics.strength.goal', { percent: volumePercentage.toFixed(0), goal: volumeGoal.toLocaleString() })}
                         </span>
                       </div>
                     </div>
                     {gap > 0 && (
-                      <p className="text-sm text-gray-600 text-center">
+                      <p className="text-xs sm:text-sm text-gray-600 text-center">
                         {t('metrics.strength.awayFromTarget', { gap: gap.toFixed(1) })}
                       </p>
                     )}
@@ -591,30 +591,30 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
                 )}
 
                 {growthProfile.targetWeight === 0 && (
-                  <div className="bg-gray-100 rounded-xl p-4 text-center">
-                    <p className="text-sm text-gray-600">{t('metrics.strength.setTarget')}</p>
+                  <div className="bg-gray-100 rounded-xl p-3 sm:p-4 text-center">
+                    <p className="text-xs sm:text-sm text-gray-600">{t('metrics.strength.setTarget')}</p>
                   </div>
                 )}
               </div>
 
-              <div className="grid grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6">
                 {/* Body Metrics Form */}
-                <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm">
-                  <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-6">{t('metrics.form.title')}</h3>
-                  <div className="space-y-4">
-                    <div className="grid grid-cols-2 gap-3">
+                <div className="bg-white rounded-2xl p-5 sm:p-6 lg:p-8 border border-gray-200 shadow-sm">
+                  <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-4 lg:mb-6">{t('metrics.form.title')}</h3>
+                  <div className="space-y-3 sm:space-y-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">{t('metrics.form.currentWeight')}</label>
+                        <label className="block text-xs sm:text-sm font-medium text-gray-700 mb-1 sm:mb-2">{t('metrics.form.currentWeight')}</label>
                         <input
                           type="number"
                           value={weight}
                           onChange={(e) => setWeight(e.target.value)}
-                          className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500"
+                          className="w-full px-3.5 py-2.5 sm:px-4 sm:py-3 text-sm rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500"
                           placeholder={t('metrics.form.placeholders.weight')}
                         />
                       </div>
                       <div>
-                        <label className="block text-sm font-medium text-amber-700 mb-2">
+                        <label className="block text-xs sm:text-sm font-medium text-amber-700 mb-1 sm:mb-2">
                           {t('metrics.form.targetWeight')}
                           <span className="text-xs text-gray-500 block">{t('metrics.form.targetWeightHint')}</span>
                         </label>
@@ -622,15 +622,15 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
                           type="number"
                           value={targetWeight}
                           onChange={(e) => setTargetWeight(e.target.value)}
-                          className="w-full px-4 py-3 rounded-xl border-2 border-amber-300 focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500 bg-amber-50"
+                          className="w-full px-3.5 py-2.5 sm:px-4 sm:py-3 text-sm rounded-xl border-2 border-amber-300 focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500 bg-amber-50"
                           placeholder={t('metrics.form.placeholders.targetWeight')}
                         />
                       </div>
                     </div>
 
-                    <div className="grid grid-cols-2 gap-3">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">
+                        <label className="block text-xs sm:text-sm font-medium text-gray-700 mb-1 sm:mb-2">
                           {t('metrics.form.chest')}
                           <span className="text-xs text-gray-500 block">{t('metrics.form.chestHint')}</span>
                         </label>
@@ -638,13 +638,13 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
                           type="number"
                           value={chest}
                           onChange={(e) => setChest(e.target.value)}
-                          className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500"
+                          className="w-full px-3.5 py-2.5 sm:px-4 sm:py-3 text-sm rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500"
                           placeholder={t('metrics.form.placeholders.chest')}
                         />
                       </div>
 
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">
+                        <label className="block text-xs sm:text-sm font-medium text-gray-700 mb-1 sm:mb-2">
                           {t('metrics.form.waist')}
                           <span className="text-xs text-gray-500 block">{t('metrics.form.waistHint')}</span>
                         </label>
@@ -652,15 +652,15 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
                           type="number"
                           value={waist}
                           onChange={(e) => setWaist(e.target.value)}
-                          className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500"
+                          className="w-full px-3.5 py-2.5 sm:px-4 sm:py-3 text-sm rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500"
                           placeholder={t('metrics.form.placeholders.waist')}
                         />
                       </div>
                     </div>
 
-                    <div className="grid grid-cols-2 gap-3">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">
+                        <label className="block text-xs sm:text-sm font-medium text-gray-700 mb-1 sm:mb-2">
                           {t('metrics.form.bicepR')}
                           <span className="text-xs text-gray-500 block">{t('metrics.form.bicepRHint')}</span>
                         </label>
@@ -668,13 +668,13 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
                           type="number"
                           value={bicepR}
                           onChange={(e) => setBicepR(e.target.value)}
-                          className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500"
+                          className="w-full px-3.5 py-2.5 sm:px-4 sm:py-3 text-sm rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500"
                           placeholder={t('metrics.form.placeholders.bicep')}
                         />
                       </div>
 
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">
+                        <label className="block text-xs sm:text-sm font-medium text-gray-700 mb-1 sm:mb-2">
                           {t('metrics.form.bicepL')}
                           <span className="text-xs text-gray-500 block">{t('metrics.form.bicepLHint')}</span>
                         </label>
@@ -682,15 +682,15 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
                           type="number"
                           value={bicepL}
                           onChange={(e) => setBicepL(e.target.value)}
-                          className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500"
+                          className="w-full px-3.5 py-2.5 sm:px-4 sm:py-3 text-sm rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500"
                           placeholder={t('metrics.form.placeholders.bicepL')}
                         />
                       </div>
                     </div>
 
-                    <div className="grid grid-cols-2 gap-3">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">
+                        <label className="block text-xs sm:text-sm font-medium text-gray-700 mb-1 sm:mb-2">
                           {t('metrics.form.thigh')}
                           <span className="text-xs text-gray-500 block">{t('metrics.form.thighHint')}</span>
                         </label>
@@ -698,23 +698,15 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
                           type="number"
                           value={thigh}
                           onChange={(e) => setThigh(e.target.value)}
-                          className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500"
+                          className="w-full px-3.5 py-2.5 sm:px-4 sm:py-3 text-sm rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500"
                           placeholder={t('metrics.form.placeholders.thigh')}
                         />
-                      </div>
-
-                      <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">
-                          <span className="text-transparent">Placeholder</span>
-                          <span className="text-xs text-transparent block">-</span>
-                        </label>
-                        <div className="h-[52px]"></div>
                       </div>
                     </div>
 
                     <button
                       onClick={addMetrics}
-                      className="w-full bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white py-4 rounded-xl font-semibold transition-all shadow-lg flex items-center justify-center gap-2"
+                      className="w-full bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white py-3 sm:py-4 rounded-xl font-semibold transition-all shadow-lg flex items-center justify-center gap-2 text-sm sm:text-base mt-2"
                     >
                       <Plus className="w-5 h-5" />
                       {t('metrics.form.submit')}
@@ -723,15 +715,15 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
                 </div>
 
                 {/* Volume Calculator */}
-                <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm">
-                  <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-6">{t('metrics.volume.title')}</h3>
-                  <div className="space-y-4">
+                <div className="bg-white rounded-2xl p-5 sm:p-6 lg:p-8 border border-gray-200 shadow-sm">
+                  <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-4 lg:mb-6">{t('metrics.volume.title')}</h3>
+                  <div className="space-y-3 sm:space-y-4">
                     <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-2">{t('metrics.volume.exercise')}</label>
+                      <label className="block text-xs sm:text-sm font-medium text-gray-700 mb-1 sm:mb-2">{t('metrics.volume.exercise')}</label>
                       <select
                         value={lift}
                         onChange={(e) => setLift(e.target.value)}
-                        className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500"
+                        className="w-full px-3.5 py-2.5 sm:px-4 sm:py-3 text-sm rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500 bg-white"
                       >
                         {exercises.map(ex => (
                           <option key={ex} value={ex}>{ex}</option>
@@ -739,53 +731,53 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
                       </select>
                     </div>
 
-                    <div className="grid grid-cols-3 gap-3">
+                    <div className="grid grid-cols-3 gap-2 sm:gap-3">
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">{t('metrics.volume.sets')}</label>
+                        <label className="block text-xs font-medium text-gray-700 mb-1 sm:mb-2">{t('metrics.volume.sets')}</label>
                         <input
                           type="number"
                           value={sets}
                           onChange={(e) => setSets(e.target.value)}
-                          className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500"
+                          className="w-full px-2.5 py-2.5 sm:px-4 sm:py-3 text-sm rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500"
                           placeholder={t('metrics.volume.placeholders.sets')}
                         />
                       </div>
 
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">{t('metrics.volume.reps')}</label>
+                        <label className="block text-xs font-medium text-gray-700 mb-1 sm:mb-2">{t('metrics.volume.reps')}</label>
                         <input
                           type="number"
                           value={reps}
                           onChange={(e) => setReps(e.target.value)}
-                          className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500"
+                          className="w-full px-2.5 py-2.5 sm:px-4 sm:py-3 text-sm rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500"
                           placeholder={t('metrics.volume.placeholders.reps')}
                         />
                       </div>
 
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">{t('metrics.volume.weight')}</label>
+                        <label className="block text-xs font-medium text-gray-700 mb-1 sm:mb-2">{t('metrics.volume.weight')}</label>
                         <input
                           type="number"
                           value={volumeWeight}
                           onChange={(e) => setVolumeWeight(e.target.value)}
-                          className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500"
+                          className="w-full px-2.5 py-2.5 sm:px-4 sm:py-3 text-sm rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500"
                           placeholder={t('metrics.volume.placeholders.weight')}
                         />
                       </div>
                     </div>
 
                     {sets && reps && volumeWeight && (
-                      <div className="space-y-3">
-                        <div className="bg-amber-50 rounded-xl p-4 border border-amber-200">
-                          <p className="text-sm text-gray-600 mb-1">{t('metrics.volume.totalVolume')}</p>
-                          <p className="text-3xl font-bold text-amber-600">
+                      <div className="space-y-2 sm:space-y-3">
+                        <div className="bg-amber-50 rounded-xl p-3 sm:p-4 border border-amber-200">
+                          <p className="text-xs sm:text-sm text-gray-600 mb-0.5 sm:mb-1">{t('metrics.volume.totalVolume')}</p>
+                          <p className="text-2xl sm:text-3xl font-bold text-amber-600">
                             {(parseInt(sets) * parseInt(reps) * parseFloat(volumeWeight)).toLocaleString()} kg
                           </p>
                         </div>
                         {growthProfile.targetWeight > 0 && (
-                          <div className="bg-orange-50 rounded-xl p-4 border border-orange-200">
-                            <p className="text-sm text-gray-600 mb-1">{t('metrics.volume.remaining')}</p>
-                            <p className="text-2xl font-bold text-orange-600">
+                          <div className="bg-orange-50 rounded-xl p-3 sm:p-4 border border-orange-200">
+                            <p className="text-xs sm:text-sm text-gray-600 mb-0.5 sm:mb-1">{t('metrics.volume.remaining')}</p>
+                            <p className="text-xl sm:text-2xl font-bold text-orange-600">
                               {Math.max(0, volumeGoal - totalVolume - (parseInt(sets) * parseInt(reps) * parseFloat(volumeWeight))).toLocaleString()} kg
                             </p>
                           </div>
@@ -795,7 +787,7 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
 
                     <button
                       onClick={addVolume}
-                      className="w-full bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white py-4 rounded-xl font-semibold transition-all shadow-lg flex items-center justify-center gap-2"
+                      className="w-full bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white py-3 sm:py-4 rounded-xl font-semibold transition-all shadow-lg flex items-center justify-center gap-2 text-sm sm:text-base mt-2"
                     >
                       <Calculator className="w-5 h-5" />
                       {t('metrics.volume.submit')}
@@ -804,11 +796,11 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
 
                   {/* Recent Volume Logs */}
                   {volumeLogs.length > 0 && (
-                    <div className="mt-6">
-                      <h4 className="text-sm font-semibold text-gray-900 mb-3">{t('metrics.volume.recentLifts')}</h4>
-                      <div className="space-y-2 max-h-40 overflow-y-auto">
+                    <div className="mt-5 sm:mt-6">
+                      <h4 className="text-xs sm:text-sm font-semibold text-gray-900 mb-2 sm:mb-3">{t('metrics.volume.recentLifts')}</h4>
+                      <div className="space-y-1.5 sm:space-y-2 max-h-40 overflow-y-auto">
                         {volumeLogs.slice(-5).reverse().map((log, idx) => (
-                          <div key={idx} className="flex items-center justify-between p-3 bg-gray-50 rounded-lg text-sm">
+                          <div key={idx} className="flex items-center justify-between p-2.5 sm:p-3 bg-gray-50 rounded-lg text-xs sm:text-sm">
                             <span className="font-medium text-gray-900">{log.lift}</span>
                             <span className="text-gray-600">
                               {log.sets}×{log.reps} @ {log.weight}kg
@@ -827,21 +819,21 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5 }}
-                  className="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm"
+                  className="bg-white rounded-2xl p-4 sm:p-6 lg:p-8 border border-gray-200 shadow-sm"
                 >
-                  <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-6">{t('metrics.chart.title')}</h3>
-                  <div className="h-80">
+                  <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-4 lg:mb-6">{t('metrics.chart.title')}</h3>
+                  <div className="h-64 sm:h-80 -ml-3 sm:ml-0">
                     <ResponsiveContainer width="100%" height="100%">
                       <LineChart data={chartData}>
                         <CartesianGrid strokeDasharray="3 3" />
-                        <XAxis dataKey="date" />
-                        <YAxis yAxisId="left" />
-                        <YAxis yAxisId="right" orientation="right" />
+                        <XAxis dataKey="date" tick={{ fontSize: 11 }} />
+                        <YAxis yAxisId="left" tick={{ fontSize: 11 }} />
+                        <YAxis yAxisId="right" orientation="right" tick={{ fontSize: 11 }} />
                         <Tooltip />
-                        <Legend />
-                        <Line yAxisId="left" type="monotone" dataKey="weight" stroke="#F59E0B" strokeWidth={3} name={t('metrics.chart.weight')} />
-                        <Line yAxisId="right" type="monotone" dataKey="chest" stroke="#EF4444" strokeWidth={3} name={t('metrics.chart.chest')} />
-                        <Line yAxisId="right" type="monotone" dataKey="bicep" stroke="#EC4899" strokeWidth={3} name={t('metrics.chart.bicep')} />
+                        <Legend wrapperStyle={{ fontSize: '12px' }} />
+                        <Line yAxisId="left" type="monotone" dataKey="weight" stroke="#F59E0B" strokeWidth={2.5} name={t('metrics.chart.weight')} />
+                        <Line yAxisId="right" type="monotone" dataKey="chest" stroke="#EF4444" strokeWidth={2.5} name={t('metrics.chart.chest')} />
+                        <Line yAxisId="right" type="monotone" dataKey="bicep" stroke="#EC4899" strokeWidth={2.5} name={t('metrics.chart.bicep')} />
                       </LineChart>
                     </ResponsiveContainer>
                   </div>
@@ -857,24 +849,24 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
               transition={{ duration: 0.3 }}
-              className="space-y-6"
+              className="space-y-4 lg:space-y-6"
             >
               {/* Recovery Score */}
-              <div className={`rounded-2xl p-8 border-2 transition-all ${
+              <div className={`rounded-2xl p-5 sm:p-6 lg:p-8 border-2 transition-all ${
                 getRecoveryScore()
                   ? 'bg-gradient-to-br from-emerald-50 to-green-50 border-emerald-500'
                   : 'bg-gradient-to-br from-gray-50 to-slate-50 border-gray-300'
               }`}>
-                <div className="flex items-center justify-between">
+                <div className="flex items-center justify-between gap-4">
                   <div>
-                    <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-2">{t('habits.recovery.title')}</h3>
-                    <p className="text-gray-600">
+                    <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-1 sm:mb-2">{t('habits.recovery.title')}</h3>
+                    <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
                       {getRecoveryScore()
                         ? t('habits.recovery.goodDesc')
                         : t('habits.recovery.improveDesc')}
                     </p>
                   </div>
-                  <div className={`text-6xl font-bold ${
+                  <div className={`text-4xl sm:text-5xl lg:text-6xl font-bold flex-shrink-0 ${
                     getRecoveryScore() ? 'text-emerald-600' : 'text-gray-400'
                   }`}>
                     {getRecoveryScore() ? '✓' : '—'}
@@ -883,17 +875,17 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
               </div>
 
               {/* Daily Habits Checklist */}
-              <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm">
-                <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-6">{t('habits.title')}</h3>
-                <p className="text-sm text-gray-500 mb-6">
+              <div className="bg-white rounded-2xl p-5 sm:p-6 lg:p-8 border border-gray-200 shadow-sm">
+                <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-2">{t('habits.title')}</h3>
+                <p className="text-xs sm:text-sm text-gray-500 mb-4 sm:mb-6">
                   {t('habits.subtitle')}
                 </p>
 
-                <div className="space-y-4">
+                <div className="space-y-3 sm:space-y-4">
                   <HypertrophyCheckbox
                     checked={todayHabits.surplus_met}
                     onChange={() => toggleHabit('surplus_met')}
-                    icon={<Flame className="w-6 h-6" />}
+                    icon={<Flame className="w-5 h-5 sm:w-6 sm:h-6" />}
                     label={t('habits.items.surplus.title')}
                     description={t('habits.items.surplus.desc')}
                     color="amber"
@@ -902,7 +894,7 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
                   <HypertrophyCheckbox
                     checked={todayHabits.protein_met}
                     onChange={() => toggleHabit('protein_met')}
-                    icon={<Scale className="w-6 h-6" />}
+                    icon={<Scale className="w-5 h-5 sm:w-6 sm:h-6" />}
                     label={t('habits.items.protein.title')}
                     description={t('habits.items.protein.desc')}
                     color="orange"
@@ -911,7 +903,7 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
                   <HypertrophyCheckbox
                     checked={todayHabits.creatine}
                     onChange={() => toggleHabit('creatine')}
-                    icon={<Droplets className="w-6 h-6" />}
+                    icon={<Droplets className="w-5 h-5 sm:w-6 sm:h-6" />}
                     label={t('habits.items.creatine.title')}
                     description={t('habits.items.creatine.desc')}
                     color="cyan"
@@ -920,7 +912,7 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
                   <HypertrophyCheckbox
                     checked={todayHabits.sleep}
                     onChange={() => toggleHabit('sleep')}
-                    icon={<Moon className="w-6 h-6" />}
+                    icon={<Moon className="w-5 h-5 sm:w-6 sm:h-6" />}
                     label={t('habits.items.sleep.title')}
                     description={t('habits.items.sleep.desc')}
                     color="purple"
@@ -929,7 +921,7 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
                   <HypertrophyCheckbox
                     checked={todayHabits.trained}
                     onChange={() => toggleHabit('trained')}
-                    icon={<Zap className="w-6 h-6" />}
+                    icon={<Zap className="w-5 h-5 sm:w-6 sm:h-6" />}
                     label={t('habits.items.trained.title')}
                     description={t('habits.items.trained.desc')}
                     color="red"
@@ -938,9 +930,9 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
               </div>
 
               {/* 30-Day Habit Log */}
-              <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm">
-                <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-6">{t('habits.calendar.title')}</h3>
-                <div className="grid grid-cols-6 lg:grid-cols-10 gap-2">
+              <div className="bg-white rounded-2xl p-5 sm:p-6 lg:p-8 border border-gray-200 shadow-sm">
+                <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-4 sm:mb-6">{t('habits.calendar.title')}</h3>
+                <div className="grid grid-cols-5 sm:grid-cols-6 lg:grid-cols-10 gap-1.5 sm:gap-2">
                   {getLast30DaysHabits().map((day) => {
                     const isToday = day.date === today;
                     const completionPercentage = (day.completionCount / 5) * 100;
@@ -948,9 +940,9 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
                     return (
                       <div
                         key={day.date}
-                        className={`aspect-square rounded-lg flex flex-col items-center justify-center text-center transition-all ${
+                        className={`aspect-square rounded-lg flex flex-col items-center justify-center text-center transition-all p-1 ${
                           isToday
-                            ? 'ring-2 ring-amber-500 ring-offset-2'
+                            ? 'ring-2 ring-amber-500 ring-offset-1 sm:ring-offset-2'
                             : ''
                         } ${
                           completionPercentage === 100
@@ -967,58 +959,58 @@ export default function MuscleGainGuide({ onBack }: { onBack: () => void }) {
                         }`}
                         title={t('habits.calendar.tooltip', { day: day.dayNum, count: day.completionCount })}
                       >
-                        <span className="text-xs font-bold">{day.dayNum}</span>
-                        <span className="text-xs">{day.completionCount}/5</span>
+                        <span className="text-[10px] sm:text-xs font-bold leading-tight">{day.dayNum}</span>
+                        <span className="text-[9px] sm:text-[10px] leading-tight">{day.completionCount}/5</span>
                       </div>
                     );
                   })}
                 </div>
-                <div className="mt-4 flex flex-wrap items-center gap-4 text-xs text-gray-600">
-                  <div className="flex items-center gap-2">
-                    <div className="w-4 h-4 rounded bg-gray-100"></div>
+                <div className="mt-4 flex flex-wrap items-center gap-2 sm:gap-4 text-[11px] sm:text-xs text-gray-600">
+                  <div className="flex items-center gap-1.5">
+                    <div className="w-3.5 h-3.5 rounded bg-gray-100"></div>
                     <span>{t('habits.calendar.legend.none')}</span>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <div className="w-4 h-4 rounded bg-yellow-300"></div>
+                  <div className="flex items-center gap-1.5">
+                    <div className="w-3.5 h-3.5 rounded bg-yellow-300"></div>
                     <span>1</span>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <div className="w-4 h-4 rounded bg-yellow-400"></div>
+                  <div className="flex items-center gap-1.5">
+                    <div className="w-3.5 h-3.5 rounded bg-yellow-400"></div>
                     <span>2-3</span>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <div className="w-4 h-4 rounded bg-orange-300"></div>
+                  <div className="flex items-center gap-1.5">
+                    <div className="w-3.5 h-3.5 rounded bg-orange-300"></div>
                     <span>3-4</span>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <div className="w-4 h-4 rounded bg-orange-400"></div>
+                  <div className="flex items-center gap-1.5">
+                    <div className="w-3.5 h-3.5 rounded bg-orange-400"></div>
                     <span>4</span>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <div className="w-4 h-4 rounded bg-amber-500"></div>
+                  <div className="flex items-center gap-1.5">
+                    <div className="w-3.5 h-3.5 rounded bg-amber-500"></div>
                     <span>{t('habits.calendar.legend.perfect')}</span>
                   </div>
                 </div>
               </div>
 
               {/* Tips */}
-              <div className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl p-8 border border-amber-100">
-                <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-4">{t('essentials.title')}</h3>
-                <div className="space-y-3 text-gray-700">
+              <div className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl p-5 sm:p-6 lg:p-8 border border-amber-100">
+                <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-3 sm:mb-4">{t('essentials.title')}</h3>
+                <div className="space-y-2.5 sm:space-y-3 text-xs sm:text-sm text-gray-700 leading-relaxed">
                   <p className="flex items-start gap-2">
-                    <span className="text-amber-500 mt-1">💪</span>
+                    <span className="text-amber-500 mt-0.5">💪</span>
                     <span><strong>{t('essentials.tips.rest.title')}</strong> {t('essentials.tips.rest.desc')}</span>
                   </p>
                   <p className="flex items-start gap-2">
-                    <span className="text-amber-500 mt-1">🍖</span>
+                    <span className="text-amber-500 mt-0.5">🍖</span>
                     <span><strong>{t('essentials.tips.protein.title')}</strong> {t('essentials.tips.protein.desc')}</span>
                   </p>
                   <p className="flex items-start gap-2">
-                    <span className="text-amber-500 mt-1">📈</span>
+                    <span className="text-amber-500 mt-0.5">📈</span>
                     <span><strong>{t('essentials.tips.track.title')}</strong> {t('essentials.tips.track.desc')}</span>
                   </p>
                   <p className="flex items-start gap-2">
-                    <span className="text-amber-500 mt-1">⚡</span>
+                    <span className="text-amber-500 mt-0.5">⚡</span>
                     <span><strong>{t('essentials.tips.creatine.title')}</strong> {t('essentials.tips.creatine.desc')}</span>
                   </p>
                 </div>
@@ -1056,29 +1048,29 @@ function HypertrophyCheckbox({
 
   return (
     <motion.div
-      whileHover={{ scale: 1.02 }}
+      whileHover={{ scale: 1.01 }}
       whileTap={{ scale: 0.98 }}
       onClick={onChange}
-      className={`p-6 rounded-xl border-2 cursor-pointer transition-all ${
+      className={`p-3.5 sm:p-5 lg:p-6 rounded-xl border-2 cursor-pointer transition-all ${
         checked ? colorClasses[color as keyof typeof colorClasses] : 'border-gray-200 hover:border-gray-300'
       }`}
     >
-      <div className="flex items-center justify-between gap-4">
-        <div className="flex items-center gap-4 flex-1">
-          <div className={`p-3 rounded-xl ${checked ? `bg-${color}-100` : 'bg-gray-100'}`}>
+      <div className="flex items-center justify-between gap-3 sm:gap-4">
+        <div className="flex items-center gap-3 sm:gap-4 flex-1 min-w-0">
+          <div className={`p-2.5 sm:p-3 rounded-xl flex-shrink-0 ${checked ? `bg-${color}-100` : 'bg-gray-100'}`}>
             <div className={checked ? `text-${color}-600` : 'text-gray-400'}>
               {icon}
             </div>
           </div>
-          <div className="flex-1">
-            <h4 className="font-semibold text-gray-900 mb-1">{label}</h4>
-            <p className="text-sm text-gray-500">{description}</p>
+          <div className="flex-1 min-w-0">
+            <h4 className="font-semibold text-gray-900 text-sm sm:text-base mb-0.5 truncate">{label}</h4>
+            <p className="text-xs sm:text-sm text-gray-500 line-clamp-2 leading-snug">{description}</p>
           </div>
         </div>
-        <div className={`w-8 h-8 rounded-lg border-2 flex items-center justify-center flex-shrink-0 ${
+        <div className={`w-6 h-6 sm:w-8 sm:h-8 rounded-lg border-2 flex items-center justify-center flex-shrink-0 ${
           checked ? `border-${color}-500 bg-${color}-500` : 'border-gray-300'
         }`}>
-          {checked && <Check className="w-5 h-5 text-white" />}
+          {checked && <Check className="w-4 h-4 sm:w-5 sm:h-5 text-white" />}
         </div>
       </div>
     </motion.div>
