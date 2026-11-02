@@ -2,7 +2,10 @@ import { Pool } from '@neondatabase/serverless';
 
 const connectionString = process.env.VITE_NEON_DATABASE_URL || process.env.DATABASE_URL || '';
 
-export const pool = new Pool({ connectionString });
+export const pool = new Pool({ 
+  connectionString,
+  connectionTimeoutMillis: 3000,
+});
 
 export async function initializeUser(userId: string) {
   if (!connectionString) {

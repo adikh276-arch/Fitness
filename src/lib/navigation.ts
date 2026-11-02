@@ -89,6 +89,12 @@ export function handleExit() {
     return;
   }
 
+  // If browser has history, navigate back cleanly instead of redirecting out to web
+  if (typeof window !== 'undefined' && window.history && window.history.length > 1) {
+    window.history.back();
+    return;
+  }
+
   // 3. Standalone browser
   window.location.href = 'https://web.mantracare.com/tasks';
 }
