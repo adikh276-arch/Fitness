@@ -3,7 +3,7 @@ import { ArrowLeft, Clock, Flame, Trophy, CheckCircle2, Info, Calendar, Zap, Moo
 import { motion, AnimatePresence } from 'motion/react';
 import confetti from 'canvas-confetti';
 import { useTranslation } from 'react-i18next';
-import { logUserActivity } from '@/lib/db';
+import { logUserActivity, fetchUserActivityLogs } from '@/lib/db';
 
 type Protocol = '16:8' | '18:6' | 'OMAD' | 'Circadian';
 

@@ -3,7 +3,7 @@ import { ArrowLeft, Dumbbell, Plus, Check, Trash2, Trophy, TrendingUp, Search, A
 import { motion, AnimatePresence } from 'motion/react';
 import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import confetti from 'canvas-confetti';
-import { logUserActivity } from '@/lib/db';
+import { logUserActivity, fetchUserActivityLogs } from '@/lib/db';
 import { useTranslation } from "react-i18next";
 
 interface Set {

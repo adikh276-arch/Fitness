@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import confetti from 'canvas-confetti';
 import { useTranslation } from 'react-i18next';
 import { useMemo } from 'react';
-import { logUserActivity } from '@/lib/db';
+import { logUserActivity, fetchUserActivityLogs } from '@/lib/db';
 import { toast } from 'sonner';
 
 interface SupplementLog {

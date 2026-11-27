@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { ArrowLeft, Target, Play, Pause, RotateCcw, CheckCircle2, Bell, Award, TrendingUp, AlertTriangle, Clock, Monitor, Eye, ChevronRight, X, Trophy } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import confetti from 'canvas-confetti';
-import { logUserActivity } from '@/lib/db';
+import { logUserActivity, fetchUserActivityLogs } from '@/lib/db';
 import { useTranslation } from "react-i18next";
 
 interface Exercise {

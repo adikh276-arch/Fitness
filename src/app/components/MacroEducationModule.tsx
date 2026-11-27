@@ -3,7 +3,7 @@ import { ArrowLeft, BookOpen, CheckCircle2, AlertCircle } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { useTranslation, Trans } from 'react-i18next';
 import confetti from 'canvas-confetti';
-import { logUserActivity } from '@/lib/db';
+import { logUserActivity, fetchUserActivityLogs } from '@/lib/db';
 
 interface MacroEducationData {
   sectionsRead: string[];

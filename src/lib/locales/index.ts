@@ -25,6 +25,32 @@ import ar_VeganNutrition from './ar/VeganNutrition.json';
 import ar_WaterIntake from './ar/WaterIntake.json';
 import ar_WeightLoss from './ar/WeightLoss.json';
 import ar_YogaFlexibility from './ar/YogaFlexibility.json';
+import bg_BMICalculator from './bg/BMICalculator.json';
+import bg_CalorieBurner from './bg/CalorieBurner.json';
+import bg_common from './bg/common.json';
+import bg_DailySugarEase from './bg/DailySugarEase.json';
+import bg_DiabetesDiet from './bg/DiabetesDiet.json';
+import bg_FastTimer from './bg/FastTimer.json';
+import bg_FlexibilityMobility from './bg/FlexibilityMobility.json';
+import bg_FoodDiary from './bg/FoodDiary.json';
+import bg_GutHealth from './bg/GutHealth.json';
+import bg_HealthyRecipeLog from './bg/HealthyRecipeLog.json';
+import bg_HeartHealth from './bg/HeartHealth.json';
+import bg_HIITCardio from './bg/HIITCardio.json';
+import bg_HomeWorkouts from './bg/HomeWorkouts.json';
+import bg_IntermittentFasting from './bg/IntermittentFasting.json';
+import bg_KetoBasics from './bg/KetoBasics.json';
+import bg_MacroCalculator from './bg/MacroCalculator.json';
+import bg_MacroEducation from './bg/MacroEducation.json';
+import bg_MuscleGain from './bg/MuscleGain.json';
+import bg_PlanYourPlate from './bg/PlanYourPlate.json';
+import bg_PostureCorrection from './bg/PostureCorrection.json';
+import bg_StepTracker from './bg/StepTracker.json';
+import bg_StrengthTraining from './bg/StrengthTraining.json';
+import bg_VeganNutrition from './bg/VeganNutrition.json';
+import bg_WaterIntake from './bg/WaterIntake.json';
+import bg_WeightLoss from './bg/WeightLoss.json';
+import bg_YogaFlexibility from './bg/YogaFlexibility.json';
 import bn_BMICalculator from './bn/BMICalculator.json';
 import bn_CalorieBurner from './bn/CalorieBurner.json';
 import bn_common from './bn/common.json';
@@ -938,6 +964,34 @@ export const resources: any = {
     'WaterIntake': ar_WaterIntake,
     'WeightLoss': ar_WeightLoss,
     'YogaFlexibility': ar_YogaFlexibility,
+  },
+  'bg': {
+    'BMICalculator': bg_BMICalculator,
+    'CalorieBurner': bg_CalorieBurner,
+    'common': bg_common,
+    'DailySugarEase': bg_DailySugarEase,
+    'DiabetesDiet': bg_DiabetesDiet,
+    'FastTimer': bg_FastTimer,
+    'FlexibilityMobility': bg_FlexibilityMobility,
+    'FoodDiary': bg_FoodDiary,
+    'GutHealth': bg_GutHealth,
+    'HealthyRecipeLog': bg_HealthyRecipeLog,
+    'HeartHealth': bg_HeartHealth,
+    'HIITCardio': bg_HIITCardio,
+    'HomeWorkouts': bg_HomeWorkouts,
+    'IntermittentFasting': bg_IntermittentFasting,
+    'KetoBasics': bg_KetoBasics,
+    'MacroCalculator': bg_MacroCalculator,
+    'MacroEducation': bg_MacroEducation,
+    'MuscleGain': bg_MuscleGain,
+    'PlanYourPlate': bg_PlanYourPlate,
+    'PostureCorrection': bg_PostureCorrection,
+    'StepTracker': bg_StepTracker,
+    'StrengthTraining': bg_StrengthTraining,
+    'VeganNutrition': bg_VeganNutrition,
+    'WaterIntake': bg_WaterIntake,
+    'WeightLoss': bg_WeightLoss,
+    'YogaFlexibility': bg_YogaFlexibility,
   },
   'bn': {
     'BMICalculator': bn_BMICalculator,
